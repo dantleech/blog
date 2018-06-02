@@ -44,3 +44,7 @@ blockquote {
     font-weight: bold;
 }
 
+.date {
+    font-family: monospace;
+    color: #333;
+}
