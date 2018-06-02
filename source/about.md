@@ -5,10 +5,17 @@ title: About
 ---
 # About me
 
-My name is Daniel Leech. I am a PHP developer living somewhere in Europe.
-Probably. I have been working as a developer for over 10 years. I created the
-following terrible open source projects:
-[PHPBench](https://github.com/phpbench/phpbench) and
-[PHPActor](https://github.com/phpactor/phpactor).
+My name is Daniel Leech. I am a PHP developer since 2007. I live somewhere in
+Europe.
 
-Interested in all the cool things.
+I created [a benchmarking framwork](https://github.com/phpbench/phpbench) and
+[a PHP completion and refactoring tool](https://github.com/phpactor/phpactor)
+and was previously active in the [Symfony CMF
+project](https://cmf.symfony.com) and related PHPCR eco-system. Worked on the
+[Sulu CMF](https://sulu.io) for a year or so.
+
+Currently work at [Inviqa](https://inviqa.com).
+
+Interested in cool stuff and can be found on
+[Twitter](https://twitter.com/dantleech) and
+[github](https://github.com/dantleech).
