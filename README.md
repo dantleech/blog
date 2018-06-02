@@ -1,2 +1,4 @@
 Blog
-# homepage
+====
+
+My Blog.
