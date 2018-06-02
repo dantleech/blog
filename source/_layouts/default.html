@@ -63,8 +63,11 @@
             </div>
         </main>
         <footer class="container">
-            <span class="text-muted">&copy; {{ "now"|date("Y") }} {{ site.title }}</span>
+            <div class="text-right">
+            <span class="text-muted small">&copy; {{ "now"|date("Y") }} {{ site.title }} powered by electricity, <a class="dull-link" href="https://github.com/sculpin/sculpin">sculpin</a> and possibly other things</span>
+            </div>
         </footer>
+
 
         <script src="{{ site.url }}/components/jquery/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

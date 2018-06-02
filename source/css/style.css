@@ -33,7 +33,7 @@ blockquote p:before {
     content: "> ";
     color: #aaa;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 blockquote p {
     padding: 0.5em;
@@ -47,4 +47,7 @@ blockquote {
 .date {
     font-family: monospace;
     color: #333;
+}
+a.dull-link:visited,a.dull-link:visited,a.dull-link:active   {
+    color: #555;
 }
