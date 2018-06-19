@@ -2,7 +2,6 @@
 title: Hello World
 tags: []
 categories: []
-
 ---
 
 > This is my new blog. There have been many like it. But this is my new one
