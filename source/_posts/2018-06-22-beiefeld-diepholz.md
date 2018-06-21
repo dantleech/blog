@@ -9,6 +9,10 @@ categories: [norway2018]
 Time and distance are estimates as I still haven't hooked up my cycle
 computer.
 
+![Bielefeld to Diepholz Route](/images/norway/2018-06-21-map.png)
+
+*Very rough map*
+
 I am sitting on the bed of my room in the hotel Strangmeyer in
 Diepholz. I had planned to make it to Bremen today. I estimated it to be
 135km, I would head north west and join the D7 cycle route which would take me
