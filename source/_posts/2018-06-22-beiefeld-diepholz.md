@@ -22,9 +22,8 @@ didn't make it to Bremen, I only made around 95km and there is still another
 
 I knew that this first journey would be an experiment - I have done no
 training at all - the last time I rode any significant distance was in
-August last year. My journey lasted for about 7 hours. My legs were resting
-and became sore, and I had to be careful not to give myself an injury by over
-exerting myself. My bum is also sore. These are to be expected, but I didn't
+August last year. My journey lasted for about 7 hours. My legs were resisting
+and became sore. My bum is also sore. These are to be expected, but I didn't
 expect pain in my fingers and wrists.
 
 The third finger of my right hand has some muscle problem now (due to pulling
@@ -39,7 +38,7 @@ for camping) and put the contents into my thermos mug. I then started chucking
 all of my gear out the tent onto the grass so that I could pack it up.
 
 The bike was on the back of my brothers Land Rover, I haven't seen it in over a
-year. My has been riding it in that time and mentioned that the breaks and
+year. My father has been riding it in that time and mentioned that the breaks and
 rear tire would need replacing. Luckily I had 2 sets of spare break pads in my
 bag from my last tour, so I set to work replacing and adjusting them. It
 started raining.
@@ -48,9 +47,9 @@ The weather forecast was ominous. Four days of rain.
 
 Break pads were replaced but the breaks still were not working very well, I
 made a personal engineering breakthrough when I realised that the reason they
-didn't work well was because the v-breaks had no tension and were rather
+didn't work well was because the v-breaks had no tension and were
 loose. The v-break has a spring which pulls it away from the frame, the spring
-is hooked through one of three holes in different positions. They breaks were
+is hooked through one of three holes in different positions. The breaks were
 in the middle position, I moved them to the third and they were much better (I
 guess the springs are not as good as they used to be).
 
