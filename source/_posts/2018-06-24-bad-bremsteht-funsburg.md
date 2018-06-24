@@ -71,8 +71,8 @@ can often find cycle paths on direct roads and avoid it altogether. Sometimes
 I find my self on it however, and today it yielded a surprise.
 
 ![Gottorf Castle](/images/norway/2018-06-24/IMG_20180624_150910.jpg)
-_Gottorf Castle_
 
+_Gottorf Castle_
 
 The region I was cycling through was Schleswig-Holstien, and I was in the
 eponymous town Schleswig. Following my GPS I found myself driving through the
@@ -85,6 +85,7 @@ Whilst the last few days had been flat, this part of the route became
 undulating. The most hilly it has been since day one.
 
 ![Typical road-side cycle path](/images/norway/2018-06-24/IMG_20180624_135726.jpg)
+
 _Typical road-side cycle path_
 
 I arrived in Flensburg (home of the Flensburger beer, a national favourite)
@@ -95,4 +96,5 @@ put the bike in the room ("My boss doesn't like it, but as long as it's
 clean). I am currently the only person in the 4 bed room.
 
 ![Eating Pizza in the Hostel Garden](/images/norway/2018-06-24/IMG_20180624_184842.jpg)
+
 _Drinking Flensburger Beer in Flensburg_
