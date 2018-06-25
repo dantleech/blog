@@ -51,3 +51,8 @@ blockquote {
 a.dull-link:visited,a.dull-link:visited,a.dull-link:active   {
     color: #555;
 }
+
+img.image-left {
+    float: right;
+    padding: 0em 1em;
+}
