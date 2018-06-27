@@ -28,7 +28,7 @@ journey and I said thanks and made my way to the road. I had an opportunity to
 rejoin the EV3 cycle path 2km further on.
 
 I could see lorries as I approached the small 2 lane road, and felt slightly
-venerable as I was cycling along it (although it was not that busy, and I
+vulnerable as I was cycling along it (although it was not that busy, and I
 probably wouldn't think twice about it in England, but you get used to the
 security of cycle lanes). A bit further on a saw a sign-posted cycle route to
 Viborg, and I took it. It was basically the same one that I would have taken
