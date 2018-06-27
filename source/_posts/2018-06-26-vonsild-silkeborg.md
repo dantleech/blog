@@ -1,10 +1,10 @@
 ---
-title: Vonslid to Silkeborg
+title: Silkeborg to Rebild
 categories: [norway2018]
 ---
 
-**Distance**: ~110km?
-**Time**: 7h?
+**Distance**: 123.66km?
+**Time**: 7h31
 
 *My cycle computer broke today, I don't know how many kilometers I did or how
 long I was riding for, this was the zeroeth problem. But it was a good day*.
