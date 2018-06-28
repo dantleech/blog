@@ -7,7 +7,7 @@ categories: [norway2018]
 **Time**: 7h31
 
 Today marks 7 days of cycling and I'm in good shape, so far I've covered
-around 1,033km. I'm slightly behind my so-called "schedule" as I had intended
+around 806km. I'm slightly behind my so-called "schedule" as I had intended
 to be ready to get the ferry to Norway today, but I will only be able to do
 that tomorrow with some effort.
 
