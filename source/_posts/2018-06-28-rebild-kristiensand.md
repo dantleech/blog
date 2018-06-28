@@ -83,8 +83,7 @@ First impression of Kristiansand: tourist pit. I think I expected a quiet town
 like the ones I had passed through in Denmark, but the tourists are here in
 force. I know I am technically part of the problem, but if everybody was like
 me at least we'd be spread out and not congregating in towns filling the
-sewers with our waste and debasing the local culture. The other reason I don't
-like these places is that there are lots of vultures preying on the tourists.
+sewers with our waste.
 
 The campsite was about 3km or so away from the town center, and it's not bad.
 It's packed, but quiet and I have pitched me tent on a little plateau near a
