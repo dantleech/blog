@@ -6,7 +6,7 @@ categories: [norway2018]
 **Distance**: 115km
 **Time**: 6h34m
 
-<img class="image-left" src="/images/norway/2018-06-28/map.png"/>
+<img class="image-right" src="/images/norway/2018-06-28/map.png"/>
 
 I am now on the ferry crossing to Norway. Feeling a bit hungry but unwilling
 to pay the €30 asking price for the on-board buffet (the ticket cost €42) but

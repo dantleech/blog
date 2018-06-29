@@ -6,7 +6,7 @@ categories: [norway2018]
 **Distance**: 113.25km
 **Time**: 7h8m
 
-<img class="image-left" src="/images/norway/2018-06-25/map.png"/>
+<img class="image-right" src="/images/norway/2018-06-25/map.png"/>
 
 I am now sitting under the eaves of a chalet in a Danish campsite, my tent is pitched
 in front of me and I'm overlooking a pond with ducks swimming in it, the sun

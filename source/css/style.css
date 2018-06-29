@@ -52,7 +52,12 @@ a.dull-link:visited,a.dull-link:visited,a.dull-link:active   {
     color: #555;
 }
 
-img.image-left {
+img.image-right {
     float: right;
     padding: 0em 1em;
+}
+
+img.image-left {
+    float: left;
+    padding: 0em 1em 0em 0em;
 }
