@@ -6,6 +6,8 @@ categories: [norway2018]
 **Distance**: 140.5km
 **Time**: 10h59m
 
+![Map](/images/norway/2018-06-30/map.png)
+
 It is now almost 11pm, it is still light and I got into the campsite about 30
 minutes ago. It has been an extremely long and beautiful day, even if I
 couldn't find a suitable place to do wild camping.
