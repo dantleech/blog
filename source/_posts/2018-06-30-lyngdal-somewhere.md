@@ -10,13 +10,6 @@ It is now almost 11pm, it is still light and I got into the campsite about 30
 minutes ago. It has been an extremely long and beautiful day, even if I
 couldn't find a suitable place to do wild camping.
 
-The previous night some children had set the alarm off in the W/C (it was a
-very high-tech W/C) and as I went in to brush my teeth (the alarm still
-ringing) a guy came out of the shower with a towel around his waist, looking
-at me for some kind of explanation about the alarm I think. I didn't think
-much of it until I thought I saw the same guy sitting under a tree with a
-bicycle today, and then once again towards the end of the day.
-
 ![Lake](/images/norway/2018-06-30/IMG_20180630_100545.jpg)
 
 *Lake*
@@ -26,7 +19,7 @@ to stay. I followed the EV1 up until the point where I noticed there was a way
 to avoid the coast section (which just went out and back-in again) and cut
 straight over the land to rejoin the cycle path.
 
-The night before I had downloaded Norweigian lessons, and I was doing these as
+The night before I had downloaded Norwegian lessons, and I was doing these as
 I climbed the closest thing to a mountain yet. I think the highest I have been
 so far is around 300m but you are always starting from sea level, and this
 climb took a while.
@@ -42,9 +35,9 @@ unsurprisingly they didn't take any notice as they hurtled down the hill at
 top speed. Then more came, and more.
 
 Nodding at fellow cyclists is a strange game, you don't want to nod and be
-ignored, but you don't want to be nodded *at* and not nod back. Sometimes it's
-obvious, especially with cycle tourers, there will usually be a big wave and
-grin.
+ignored, but you don't want to be nodded *at* and not nod back. The only way
+to win if you both nod. Sometimes it's obvious, especially with cycle tourers,
+there will usually be a big wave and grin.
 
 ![Another Fjord](/images/norway/2018-06-30/IMG_20180630_150741.jpg)
 
@@ -59,7 +52,7 @@ prefer long climbs to short ones. I don't care if it's 1 hour of 4. You get
 into the pace of it, I prefer ascending to descending. It's less dangerous.
 
 After this first cut-over-land I was into the next Fjord and I encountered
-cycling pair, they were Norweigan and from a town near Oslo. They warned me
+cycling pair, they were Norwegian and from a town near Oslo. They warned me
 about the steep path up ahead, and I told them about the way that I had come.
 I asked them if there was camping in Fekkefjord (the next town) they said
 there was, we wished each other happy journeys and went our separate ways.
@@ -89,7 +82,7 @@ mountains. I decided better to go back, but as I was cycling I remembered the
 trouble I had with the steep path, and decided, bah "I'll carry on and if I
 run out of time I will do wild camping".
 
-Up until this point time had passed increbily quickly. The first time I had
+Up until this point time had passed incredibly quickly. The first time I had
 checked my bike clock, 1 hour 20 minutes had passed, the second time, 4 hours.
 Riding the "mountains" is an absorbing task.
 
@@ -103,29 +96,29 @@ the shore and was incredibly loud (and somewhat frightening).
 
 *The long(ish) tunnel*
 
-But now it was a more and more exhausting one and I was gradually begininning
+But now it was a more and more exhausting one and I was gradually beginning
 to accept that I would need to find a wild camping spot. But I found this to
 be quite difficult. Most of the terrain is inaccessible to the bike, and the
 few places I did find were close to the road, or the ground was too hard (well
 rock).
 
-I went on and on, I rode into one Fjord which was the scene of the first WW1
-battle in Norway as I climbed my way back out of it there were tunnels, and a
-cycle path along side the tunnels, which was presumably the old road. I
+I went on and on, I rode into one Fjord which was the scene of the first World
+War 1 battle in Norway as I climbed my way back out of it there were tunnels,
+and a cycle path along side the tunnels, which was presumably the old road. I
 thought, hmm, maybe I could stay *here*. But as I rounded the corner I saw
 three hammocks blocking my way, and a family sitting at the picnic table (it
 was a rest area) eating and listening to music. A little girl was ordered to
 come and take the hammock down and help me through I said "Hi!" and carried
 on.
 
-![Road and Water](/images/norway/2018-06-30/IMG_20180630_182903.jpg)
-
-*Road and Water*
-
 There was little chance I would have stayed, but seeing the family there (I
 had assumed wrongly that they were cycling) I wanted to ask if I could join
 them, I'm glad I didn't as they had driven up and it seemed to be a family
 occasion. 
+
+![Road and Water](/images/norway/2018-06-30/IMG_20180630_182903.jpg)
+
+*Road and Water*
 
 So now I had ridden for about 10 hours, it was 9 o'clock and it occurred to me
 that I'd prefer it not to be dark (incidentally it is now 11:30 and it is
@@ -134,16 +127,16 @@ planned to stay at, but it was 5km off the road, I rang them, no answer. I
 didn't want to take my chances with 5 unnecessary kilometers, so I carried on.
 
 I saw the sign to another campsite (actually the one I had targeted this
-morning, without realising how touch the road would be). It was now 21:30 and
+morning, without realising how tough the road would be). It was now 21:30 and
 I knew the reception would probably be closed, but thought I might be able to
 catch somebody there, or just pitch my tent and pay in the morning.
 
 There was nobody at reception as expected, I waited around, pressed a button
 or two, and then wrote a note before walking into the campsite. I asked the
-first couple I met and soon their neighbors offered to phone the owner and I
-was officially blessed.
+first couple I met and soon their neighbors, 2 girlds, offered to phone the
+owner and I was officially blessed.
 
 I just spoke to the girls who helped me out when I got in, they said they were
 here today and tomorrow and they came to see the "Dick Rock". I checked
-myself, maybe it was a Norwegian word I looked at her ".. it's shaped like a
-Penis you see so we came to see it, a girly trip".
+myself, maybe it was a Norwegian word, I looked at her for clarification: "..
+it's shaped like a Penis you see, so we came to see it, a girly trip".
