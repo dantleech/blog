@@ -65,12 +65,14 @@ will be fine".
 
 The route to Bergen took me over a 260m mountain-hill. Not high enough to be a
 mountain, but you wouldn't know the difference when riding up it. From there
-it was mostly a descent through the subberbs of Bergen.
+it was mostly a descent through the suburbs of Bergen.
 
-Bergen in German means "mountains". The cycle path was amazing, as soon as I
-got into the city limits there were frequent cyclists on racing cycles and
-mountain bikes (of all ages). The cycle path threaded over and under roads and
-I only remember hitting a single traffic light while going to the city center.
+"Berg" means "mountain" appropriately, although the city was originally called
+[Bjørgvin](https://en.wikipedia.org/wiki/Bergen) . The cycle path was amazing,
+as soon as I got into the city limits there were frequent cyclists on racing
+cycles and mountain bikes (of all ages), and lots of runners too. The cycle
+path threaded over and under roads and I only remember hitting a single
+traffic light while going to the city center.
 
 The suburbs seem to have grown over the mountains, with roads bridging streams
 and houses built upon rocks and tunnels everywhere.
@@ -78,8 +80,8 @@ and houses built upon rocks and tunnels everywhere.
 I soon found my way to the hostel and was welcomed. It seems to be a very nice
 hostel run by travellers. In the common room them is a guitar and piano (as I
 walked in there was a young guy playing guitar and singing lazily). Tonight is
-waffle night apparently.
+waffle night apparently. Smoking and Alcohol are forbidden.
 
-Bergen is also a good place for hiking, and apparently there are a few peaks
-that are accessible from the center, so I am thinking about staying another
-night and running up one.
+Bergen is also a good place for hiking, it's known as the "City of Seven
+Mountains" and some, if not all, are accessible from the center, so I am
+thinking about staying another night and running up one.
