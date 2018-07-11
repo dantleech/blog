@@ -3,10 +3,8 @@ title: Måløy Ålesund
 categories: [norway2018]
 ---
 
-**Distance**: 115k (?)
-**Time**: 7h (?)
-
-*Will update the above numbers tomorrow after referencing my cycle computer*
+**Distance**: 115k
+**Time**: 8h2m
 
 I think it was the coldest night so far - relative to my sleeping bag and
 comfort level. I didn't sleep great and had a hard time motivating myself to
@@ -100,3 +98,4 @@ and will be reliant on Wifi until I get back to Germany, but I will be in
 Trondheim in a few days, and should be back in Germany in less than a week.
 
 Tomorrow I am going to try and reach Kristiansund.
+
