@@ -86,7 +86,7 @@ Norway on this trip. I'm not very sad - the ferries are a pain, and while most
 of them have been running regularly, I have had issues with some that required
 me to wait for so many hours, and of course they cost money.
 
-On the final stretch it was very quiet - other than the episodic mass of
+On the final stretch it was very quiet - other than the periodic batch of
 traffic from the ferry. A racing cyclist pulled up next to me, he was an older
 man (probably retired) and we had a chat for around 10 to 15 minutes, the
 normal stuff, where I'm from, where I'm going, where I'm _eventually_ going,
