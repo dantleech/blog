@@ -8,18 +8,16 @@ categories: [norway2018]
 
 <img class="image-right" src="/images/norway/2018-07-14/map.png"/>
 
-There was no internet available at the campsite last night, so yesterdays blog
-post will be uploaded when this one is. 
-
 When the girl came around to collect the money for camping, it was actually
-very cheap, only 60kr (about €6) - cheapest so far, almost by half. It was
-quiet enough and I was initially camping on the tent pitch on my own, but
-later joined by 2 other tents, but they were at a good distance from
-each-other and not noisy in anycase. There did, however seem to be a small
-party happening in one of the caravans on the other side of the site, which
-made noise until around 12, inducing me to put my ear-plugs in as I read three
-chapters of "Memoirs of a Geisha". Thankfully the noise stopped at around
-eleven and I slept well until the morning.
+very cheap, only 60kr (about €6) - cheapest so far, almost by half. 
+
+It was quiet enough and I was initially camping on the tent pitch on my own,
+but later joined by two other tents, but they were at a good distance from
+each-other and not noisy in any case. There was a small party happening in one
+of the caravans on the other side of the site making noise until around 12,
+inducing me to put my ear-plugs in as I read three chapters of "Memoirs of a
+Geisha". Thankfully the noise stopped at around eleven and I slept well until
+the morning.
 
 This morning I used the last both of my coffee and my jam. The coffee has
 lasted me all this time from Berlin, and I have been drinking a cup a day
@@ -38,7 +36,7 @@ turned back. I was listening to the Manic Street Preachers (Gold Against the
 Soul), but then changed to another audio-book. Yesterday I did 4 chapters of
 [Howard
 Zinn](https://www.amazon.com/Peoples-History-United-States/dp/0060838655),
-today I did 3 chapters of
+today I did three chapters of
 [Sapiens](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095).
 Sapiens is also a history, but a pre-history history. So far telling the tale
 of the different genus of "homo" of which we, "sapiens" are only one species
@@ -61,6 +59,13 @@ rolls and a cake (€3.75).
 The cycle route into Trondheim was pretty quiet, and it was cycle paths all
 the way to the center. It is the third most populous city in Norway, but has a
 low population of 193,000 compared to more populated countries.
+
+> *Statistics!!!*
+> 
+> - Number of days: 23
+> - Distance: 2362.3km
+> - Average per day: 102.69km
+
 
 When I got to the hostel I parked my bike outside and went in, the reception
 was closed but a girl said "hello" and said "check-in is at 15:00" (it was
