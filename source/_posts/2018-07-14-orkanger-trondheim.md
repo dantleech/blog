@@ -100,3 +100,12 @@ the ferry to Germany, where I will again get the train. But maybe there are
 other options, and maybe I will need to do more cycling before I see Berlin
 again.
 
+
+The plan:
+
+- Sunday 15th rain to Oslo on Sunday, stay in hostel.
+- Monday 16-18th: Ride to Gothenburg
+- 19th Train to Malmo (they leave regularly) and cycle to Trelleborg
+- 20th Trelleborg ferry 18:00 arriving in Sassnitz (also leaving at 07:45)
+- 21st Train from Sassnitz to Berlin. 2 regional trains.
+

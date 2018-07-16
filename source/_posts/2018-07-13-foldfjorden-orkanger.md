@@ -40,8 +40,8 @@ When I stopped for lunch, as previously mentioned, it was at the top of a long
 climb. There was a picnic area (I was hoping there would be) and already two 
 groups of people eating there, one group was leaving, and as I sat down on a
 vacant table a motorcyclist talked to me.
-![View from the top](/images/norway/2018-07-13/IMG_20180713_125324.jpg)
 
+![View from the top](/images/norway/2018-07-13/IMG_20180713_125324.jpg)
 
 *After Lunch View from the Top*
 
