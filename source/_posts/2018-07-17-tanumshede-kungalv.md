@@ -3,8 +3,8 @@ title: Tanemshede to Kungalv
 categories: [norway2018]
 ---
 
-**Distance**: 140km ?
-**Time**: 8h ?
+**Distance**: 143.59km
+**Time**: 8h33m
 
 Another troublesome day with the bike.
 
@@ -190,3 +190,6 @@ comfortable room (I can leave, but the door is locked for re-entry).
 Now, after this blog post I need to find out when the trains leave (although I
 think they are hourly) and when the ferry leaves, how much it costs, etc.).
 Tomorrow I hope to be in Berlin!
+
+18:00-22:15 ferry to Sassnitz from Trelleborg, 99kr
+
