@@ -6,7 +6,8 @@ categories: [phpactor]
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Wondering how much work it would be to create an SQlite backed PHP plugin for VIM for &quot;refactoring&quot;, NS aware autocomplete &amp; jumping etc.</p>&mdash; Dan Leech (@dantleech) <a href="https://twitter.com/dantleech/status/646913136541454336?ref_src=twsrc%5Etfw">24 September 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-The first commit in [Phpactor](https://github.com/phpactor/phpactor) dates from over three years ago:
+The first commit in [Phpactor](https://github.com/phpactor/phpactor)
+(pronounced "factor") dates from over three years ago:
 
 ```
 commit 3677c5cb58a5b203fb658c8e2498e512cdef555a
@@ -37,7 +38,7 @@ approach to the project.
 
 ![The Phpactor logo](/images/2018-08-19/phpactor.png)
 
-*The Phpactor Logo*
+*The Phpactor logo*
 
 What single thing would deliver the most value to _me_, what would provide the
 biggest return-on-investment?
@@ -62,9 +63,9 @@ Date:   Mon Jun 19 14:47:32 2017 +0100
     Restarting the project
 ```
 
-From this point on Phpactor has just continued to grow and it slowly
-aggregated more and more functionality, while the class moving has basically
-remained the same since it's creation.
+From this point on Phpactor has just continued to grow and it slowly aggregated
+more and more functionality spread out over different repositories. The class
+moving library has basically remained the same since it's creation.
 
 ![Parameter Completion](/images/2018-08-19/param_completion.gif)
 
@@ -86,9 +87,9 @@ reflection](https://github.com/phpactor/worse-reflection), `code-transform`,
 `code-builder`, `docblock`, `class-mover`, `completion`, `path-finder`, and
 more). All of the libraries are untagged and unstable, none of them are
 intended to be consumed by other projects at this point in time and most of
-them are incomprehensive, providing only what is required for the Phpactor
-project. All of them, however, are decoupled from Phpactor (at least in most
-cases).
+them fall short of being outstanding, providing only what is good-enough for
+the Phpactor project. They are, however decoupled from the main Phpactor
+application.
 
 ![Components](/images/2018-08-19/components.png)
 
@@ -135,6 +136,27 @@ requirements than a `ClassName` in the reflection library).
 ![Extract Method](/images/2018-08-19/extract_method.gif)
 
 *Extract Method*
+
+I also learnt to avoid expose value objects at package boundaries as arguments.
+Exposing them meant that code outside the package would know more about the
+package than it ought to have done (for example, it imported the class name, or
+used a specific method of the VO) and therefore increased the difficulty and
+risk of refactoring the package.
+
+For example:
+
+```php
+$file = $classToFile->classToFile(ClassName::fromString('Foobar\\Barfoo'));
+```
+
+and without the VO:
+
+```php
+$file = $classToFile->classToFile('Foobar\\Barfoo');
+```
+
+Internally the package could still use the VO but this detail is hidden
+from the outside.
 
 Wheel Reinventing
 -----------------
