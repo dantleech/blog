@@ -222,9 +222,14 @@ comprehensive as PHPStorm (because it is not), but it does a pretty good job.
 *Class References*
 
 Finally, the is much more interaction with other people in the Phpactor
-project, although it only has ~**280** stars on Github (compared to, for example,
-[Phpbench](https://github.com/phpbench/phpbench)'s ~**780**) there are many more
-people contributing and raising issues. Having this feedback is encouraging.
+project, although it only has ~**280** stars on Github (compared to, for
+example, [Phpbench](https://github.com/phpbench/phpbench)'s ~**780**) there are
+many more people contributing and raising issues and creating third-party
+integrations (such as a plugin for
+[emacs](https://github.com/emacs-php/phpactor.el) and integrations with
+completion manages such as [ncm](https://github.com/phpactor/ncm2-phpactor) and
+[deoplete](https://github.com/kristijanhusak/deoplete-phpactor)). Having this
+feedback is encouraging,
 
 Phpactor is by no means perfect - it will not find _all_ your references, it
 will not complete _everthing_ that PHPStorm would, _some_ of the refactorings
