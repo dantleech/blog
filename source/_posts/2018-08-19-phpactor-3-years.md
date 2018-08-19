@@ -239,7 +239,7 @@ for example:
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Think I might start charging to be a PhpStorm by proxy for VIM users that can&#39;t find occurrences of method usages and the likes :)</p>&mdash; James Titcumb 🇪🇺 (@asgrim) <a href="https://twitter.com/asgrim/status/1011267764659638277?ref_src=twsrc%5Etfw">25 June 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 I am surprised that when I pair with a developer using PHPStorm and we both
-look for references too a particular method, both PHPStorm and Phpactor return
+look for references to a particular method, both PHPStorm and Phpactor return
 the same methods and, when finding class references, Phpactor
 actually seemed to have out-performed PHPStorm. I do not assert that Phpactor
 is as accurate or comprehensive as PHPStorm (because it is not), but it does a
