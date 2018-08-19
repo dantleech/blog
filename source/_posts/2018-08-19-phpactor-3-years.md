@@ -7,7 +7,7 @@ categories: [phpactor]
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Wondering how much work it would be to create an SQlite backed PHP plugin for VIM for &quot;refactoring&quot;, NS aware autocomplete &amp; jumping etc.</p>&mdash; Dan Leech (@dantleech) <a href="https://twitter.com/dantleech/status/646913136541454336?ref_src=twsrc%5Etfw">24 September 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 The first commit in [Phpactor](https://github.com/phpactor/phpactor)
-(pronounced "factor") dates from over three years ago:
+(pronounced "factor") dates from almost three years ago:
 
 ```
 commit 3677c5cb58a5b203fb658c8e2498e512cdef555a
@@ -109,7 +109,7 @@ Implementing a new paradigm is always going to be a trail-and-error
 experience, and I would do some things differently next time. All the
 libraries in Phpactor have a directory structure similar to the following:
 
-```
+```bash
 lib/
     Core/
         ...
@@ -121,17 +121,18 @@ With all the "clean" uncoupled code in `Core` (I was going to call this
 `Domain`, but didn't want to presume that I was doing DDD) and the
 adapter which implement the interfaces in `Core` and provide a coupling to
 another library. In an ideal world these adapters would be in separate
-packages, but this wouldn't provide much value in this case (or at least at
+packages, but the value wouldn't outweigh the effort in this case (or at least at
 this moment in time). I also implemented many [Value
 Objects](https://martinfowler.com/bliki/ValueObject.html) (VOs).
 
-There is an amount of VO duplication between packages, notably for things
-such as `SourceCode` and `ClassName` objects. It might make sense in the
-future to extract some of the VO objects to a separate packages, but it's
-difficult to determine if the meaning is exactly the same (e.g. a `ClassName`
-VO in a library which infers [class names from
+There is an amount of VO duplication between packages, notably for things such
+as `SourceCode` and `ClassName` objects. It might make sense in the future to
+extract some of the VO objects to a separate packages, but it's difficult to
+determine if the meaning is exactly the same (e.g. a `ClassName` VO in a
+library which infers [class names from
 filenames](https://github.com/phpactor/class-to-file) has different
-requirements than a `ClassName` in the reflection library).
+requirements than a `ClassName` in the reflection library), however
+`SourceCode` is implemented three or four times as basically the same class.
 
 ![Extract Method](/images/2018-08-19/extract_method.gif)
 
@@ -230,16 +231,19 @@ other projects? (like my other side-project,
 attention since I started Phpactor) -- or -- doing things _other_
 than programming.
 
-This is a question I ask myself sometimes, and to be honest, it probably isn't
-worth it. But I am happy that Phpactor turns VIM into viable modern IDE for PHP:
+This is a question I ask myself sometimes, and to be honest, all things
+considered, it probably isn't worth it. But I am happy that Phpactor turns VIM
+into viable modern IDE for PHP and it can now handle finding method references
+for example:
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Think I might start charging to be a PhpStorm by proxy for VIM users that can&#39;t find occurrences of method usages and the likes :)</p>&mdash; James Titcumb 🇪🇺 (@asgrim) <a href="https://twitter.com/asgrim/status/1011267764659638277?ref_src=twsrc%5Etfw">25 June 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-And I am happy that when pairing with people using PHPStorm: when they find
-method references as above, I find the exact same references with Phpactor,
-and when finding class references, Phpactor actually seemed to have out-performed
-PHPStorm. I absolutely do not assert that Phpactor is as accurate or
-comprehensive as PHPStorm (because it is not), but it does a pretty good job.
+I am surprised that when I pair with a developer using PHPStorm and we both
+look for references too a particular method, both PHPStorm and Phpactor return
+the same methods and, when finding class references, Phpactor
+actually seemed to have out-performed PHPStorm. I do not assert that Phpactor
+is as accurate or comprehensive as PHPStorm (because it is not), but it does a
+pretty good job.
 
 ![Class References](/images/2018-08-19/class_references.gif)
 
