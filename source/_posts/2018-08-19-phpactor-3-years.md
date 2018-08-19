@@ -234,7 +234,7 @@ than programming.
 This is a question I ask myself sometimes, and to be honest, all things
 considered, it probably isn't worth it. But I am happy that Phpactor turns VIM
 into viable modern IDE for PHP and it can now handle finding method references
-for example:
+for example.
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Think I might start charging to be a PhpStorm by proxy for VIM users that can&#39;t find occurrences of method usages and the likes :)</p>&mdash; James Titcumb 🇪🇺 (@asgrim) <a href="https://twitter.com/asgrim/status/1011267764659638277?ref_src=twsrc%5Etfw">25 June 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
