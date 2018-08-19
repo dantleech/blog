@@ -26,9 +26,9 @@ Actually almost all Phpactor development has happened in the past
 **year-and-a-half**. The above commit was the first of three attempts to create a
 code-completion and refactoring tool backend for editors such as VIM. This
 initial (3 commit) effort was to use an SQLite database to index the classes
-and functions in a project. Then followed another few commits four months
-later, then more 6 months after that. More serious development started in late
-2016 but I struggled with the
+and functions in a project (an approach that was later dropped). Then followed
+another few commits four months later, then more 6 months after that. More
+serious development started in late 2016 but I struggled with the
 [PhpParser](https://github.com/nikic/PHP-Parser), I then found out about the
 Microsoft [Tolerant PHP
 Parser](https://github.com/microsoft/tolerant-php-parser) which was designed
@@ -146,7 +146,9 @@ influenced by, [BetterReflection](https://github.com/Roave/BetterReflection)
 (BR) with the addition of type and value flow (required for completion). The
 justification here is that it would have been impossible to merge the
 type-flow code in WR into BR, because it was so bad and experimental. But
-whilst being experimental it was providing actual value to Phpactor.
+whilst being experimental it was providing actual value to Phpactor. In
+addition, BR had some performance problems (at the time) which made it
+specifically unsuitable for real-time completion.
 
 On one hand it is a shame that I didn't contribute to BetterReflection, but
 on the other I don't think Phpactor would have been built if I did. WR is the
