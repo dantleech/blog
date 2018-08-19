@@ -229,17 +229,18 @@ But still - is it worth me _investing all this time_ when I could be working on
 other projects? (like my other side-project,
 [Phpbench](https://github.com/phpbench/phpbench), which has seen little
 attention since I started Phpactor) -- or -- doing things _other_
-than programming.
+than programming?
 
 This is a question I ask myself sometimes, and to be honest, all things
 considered, it probably isn't worth it. But I am happy that Phpactor turns VIM
 into viable modern IDE for PHP and it can now handle finding method references
-for example.
+for example, and provide some relief to users of other editors
+working with VIM users:
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Think I might start charging to be a PhpStorm by proxy for VIM users that can&#39;t find occurrences of method usages and the likes :)</p>&mdash; James Titcumb 🇪🇺 (@asgrim) <a href="https://twitter.com/asgrim/status/1011267764659638277?ref_src=twsrc%5Etfw">25 June 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-I am surprised that when I pair with a developer using PHPStorm and we both
-look for references to a particular method, both PHPStorm and Phpactor return
+I was slightly surprised to notice when I paired with a developer using PHPStorm we both
+look for references to a particular method, both PHPStorm and Phpactor returned
 the same methods and, when finding class references, Phpactor
 actually seemed to have out-performed PHPStorm. I do not assert that Phpactor
 is as accurate or comprehensive as PHPStorm (because it is not), but it does a
