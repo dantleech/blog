@@ -147,13 +147,18 @@ risk of refactoring the package.
 For example:
 
 ```php
-$file = $classToFile->classToFile(ClassName::fromString('Foobar\\Barfoo'));
+use Phpactor\\ClassToFile\\Core\\ClassName as ClassToFileClassName;
+use Phpactor\\WorseReflection\\Core\\ClassName as ReflectionClassName;
+
+$file = $classToFile->classToFile(ClassToFileClassName::fromString('Foobar\\Barfoo'));
+$reflection = $reflector->reflectClass(ReflectionClassName::fromString('Foobar\\Barfoo'));
 ```
 
 and without the VO:
 
 ```php
 $file = $classToFile->classToFile('Foobar\\Barfoo');
+$reflection = $reflector->reflectClass('Foobar\\Barfoo');
 ```
 
 Internally the package could still use the VO but this detail is hidden
