@@ -51,7 +51,7 @@ The Language Server
 
 Recently I have been playing with a Phpactor
 [Language
-Server Protocol](https://microsoft.github.io/language-server-protocol/specification) implementation, I have introduced this into the `develop`
+Server Protocol](https://microsoft.github.io/language-server-protocol/specification) (LSP) implementation, I have introduced this into the `develop`
 branch, it is generally works quite well. The biggest advantage is that it
 opens Phpactor up to other text editors with no additional effort, and it means
 ultimately not having to maintain a `phpactor.vim` plugin.
@@ -59,7 +59,9 @@ ultimately not having to maintain a `phpactor.vim` plugin.
 The disadvantage is that it's a long running process, and at the moment at
 least the original Phpactor is more stable.
 
-Anyway - it leads to a dilemma where more stuff is added to the core.
+Anyway - it leads to a problem where more code is added to the core which
+duplicates existing functionality and introduces more noise. It would be much
+better if the language server were optional.
 
 Extensions
 ----------
@@ -132,8 +134,8 @@ more diverse domains. So for example, Symfony DI Completion, or Behat "feature
 to step jumping". Things get even more interesting at the language-server level.
 
 It would be easy to create for example a PHPStan extension for the language
-server (and fulfil the APIs for diagnostics) or a `php-cs-fixer` extension (and
-fulfil the APIs for code formatting). It would even be possible to add
+server (and fulfil the LSP APIs for diagnostics) or a `php-cs-fixer` extension (and
+fulfil the LSP APIs for code formatting). It would even be possible to add
 completors based on existing tools (such as [Psalm](https://getpsalm.org/)).
 
 The most important thing is, that by removing pretty much _everything_ from
