@@ -18,7 +18,7 @@ is not possible to, for example, install a Behat extension, or a Phpspec or
 Symfony extension.
 
 It is not that the infrastructure isn't there internally - it is and was based
-on the precedent set by [https://github.com/phpbench/phpbench](Phpbench)
+on the precedent set by [Phpbench](https://github.com/phpbench/phpbench)
 (which was in turn influenced by other things, notaby Behat, Symfony, Pimple,
 etc).
 
@@ -41,8 +41,8 @@ Another long-standing problem has been lack of code fixers (prettifiers).
 While I have been tempted to write a Phpactor CS Fixer, it would only have
 been able to do the absolute minimum to fix the grossest formatting errors in
 generated code. So it makes far sense to make use of an existing tools
-[https://github.com/FriendsOfPHP/PHP-CS-Fixer](php-cs-fixer) and
-[https://github.com/squizlabs/PHP_CodeSniffer](phpcs) - but it makes _not so
+[php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) and
+[phpcs](https://github.com/squizlabs/PHP_CodeSniffer) - but it makes _not so
 much sense_ to bind them to Phpactor, as people will want to use one or the
 other (often depending on project requirements).
 
@@ -50,8 +50,8 @@ The Language Server
 -------------------
 
 Recently I have been playing with a Phpactor
-[https://microsoft.github.io/language-server-protocol/specification](Language
-Server Protocol) implementation, I have introduced this into the `develop`
+[Language
+Server Protocol](https://microsoft.github.io/language-server-protocol/specification) implementation, I have introduced this into the `develop`
 branch, it is generally works quite well. The biggest advantage is that it
 opens Phpactor up to other text editors with no additional effort, and it means
 ultimately not having to maintain a `phpactor.vim` plugin.
@@ -66,7 +66,7 @@ Extensions
 
 So this weekend I played with the idea of introducing an embedded composer.
 After checking out Beau Simensen's
-[https://github.com/dflydev/dflydev-embedded-composer](embedded composer). I
+[embedded composer](https://github.com/dflydev/dflydev-embedded-composer). I
 managed to get a stripped down embedded composer working in a prototype project: [rephpactor](https://github.com/phpactor/rephpactor).
 
 Rephpactor
@@ -99,7 +99,9 @@ Available commands:
   extension:list     List installed extensions
 ```
 
-So there is absolutely nothing there! It's amazing.
+There is absolutely nothing there! It's amazing.
+
+> There is absolutely nothing there! It's amazing.
 
 After initially installing you will be able to use the `extension:install`
 command to add packages from Packagist (only those with the
@@ -131,7 +133,8 @@ to step jumping". Things get even more interesting at the language-server level.
 
 It would be easy to create for example a PHPStan extension for the language
 server (and fulfil the APIs for diagnostics) or a `php-cs-fixer` extension (and
-fulfil the APIs for code formatting).
+fulfil the APIs for code formatting). It would even be possible to add
+completors based on existing tools (such as [Psalm](https://getpsalm.org/)).
 
 The most important thing is, that by removing pretty much _everything_ from
 Phpactor by default, we can release a **stable 1.0 version** and there would be
