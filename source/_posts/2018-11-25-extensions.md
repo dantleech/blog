@@ -191,7 +191,7 @@ RPC protocol and will need the command line interface, so require the
 following:
 
 ```
-$ composer require phpactor/rpc-completion-rpc phpactor/console-extension
+$ composer require phpactor/completion-rpc phpactor/console-extension
 ```
 
 Create a standalone RPC application for stupid completion: just create the
