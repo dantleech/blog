@@ -35,6 +35,9 @@ Symfony Option Resolver).
 Stupid Completor
 ----------------
 
+**DISCLAIMER**: Phpactor is not currently not stable, and some packages have
+no tagged release at all.
+
 Lets make a completion extension. This extension will accept some
 configuration: `stupid_completor.items` and it will return these items as
 suggestions every time it is invoked.
@@ -70,7 +73,7 @@ It might look something like this:
 }
 ```
 
-* note that the completion extension has no release at time of writing so
+**NOTE**: that the completion extension has no release at time of writing so
   `minimum-stability: dev` is currently required.
 
 We need to create a completor class to provide our stupid suggestions,
