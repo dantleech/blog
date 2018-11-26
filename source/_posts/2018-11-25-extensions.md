@@ -277,3 +277,7 @@ Summary
 Extensions should allow Phpactor to be extended in all sorts of ways, as well
 as providing a very fast way to create entirely new applications based on
 Phpactor functionality.
+
+The above extension ommits tests for the completor and the extension
+itself. For a simple(ish) working example see the [behat
+extension](https://github.com/phpactor/behat-extension).
