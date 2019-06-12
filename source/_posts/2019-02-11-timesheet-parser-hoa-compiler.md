@@ -38,6 +38,9 @@ parse the timesheet we can sync it automatically with JIRA and my Monday
 morning trauma is at an end, and our project managers can be happier as I can
 accurately curate and log my time every day effortlessly.
 
+And, the miscellaneous tickets can _still_ be assigned to a bucket ticket, but
+at least the original information is preserved,
+
 Parsing the Timesheet
 ---------------------
 
@@ -134,12 +137,18 @@ to the previous namespace using `__shift__` (see the
 [docs](https://hoa-project.net/En/Literature/Hack/Compiler.html#PP_language)
 for more info). 
 
+When there is no namespace, the `default` namespace is implicitly used. 
+When there is a `break` token in the `date` namespace (two new lines as
+defined above) we revert back to the `default` namespace and can consider f.e.
+the `date` token again.
+
 Namespaces are essential, and are what really help make the compiler a much
 better option than simple regular expressions.
 
 You may notice that we parse the category as a rule, and the tag as a token.
-There is no particular reason for this other than laziness. But let's look at the
-difference when the AST is rendered:
+There is no particular reason for this other than laziness - we could also
+have parsed the category as a token, or the tag as a rule, but let's look at
+the difference when the AST is rendered:
 
 **Tag**:
 
@@ -162,7 +171,7 @@ The information we really want from the above two examples is the name -
 `barfoo` and `AA-1234` respectively. With the category we can easily
 extract this information from the token in the AST, but with the tag we need
 to perform additional processing (e.g. `ltrim('@barfoo', '@')`) in order to
-obtain the tag name (`barfoo`).
+obtain the tag name (`barfoo`), with the category it is less trivial.
 
 But wait, how did we get here?
 
@@ -200,15 +209,7 @@ echo $dumper->visit($ast);
 Producing something like this:
 
 ```bash
->  #document                          
->  >  #date                                 
->  >  >  token(date, 2019-01-01)          
-.>  #document                          
->  >  #date                                 
->  >  >  token(date, 2019-01-01)          
->  >  >  token(entry:newline,                
-)                                           
-.>  #document                             
+>  #document                             
 >  >  #date                                 
 >  >  >  token(date, 2019-01-01)                       
 >  >  >  token(entry:newline,             
@@ -246,7 +247,9 @@ class TreeWalker
 
     private function walkDate(TreeNode $node): array
     {
-        $date = [];
+        $date = [
+            'entries' => [],
+        ];
 
         foreach ($node->getChildren() as $childNode) {
             if ($childNode->getValueToken() === 'date') {
@@ -254,7 +257,7 @@ class TreeWalker
             }
 
             if ($childNode->getId() == 'entry') {
-                $builder->addEntry($this->walkEntry($childNode));
+                $date['entries'][] = $this->walkEntry($childNode));
             }
         }
 
@@ -266,6 +269,31 @@ class TreeWalker
         // etc.
     }
 }
+```
+
+The result would be _something_ like:
+
+```php
+[
+    'date' => '2019-21-13',
+    'entries' => [
+        [
+            // ...
+        ],
+        [
+            // ...
+        ]
+    ],
+    'date' => '2019-21-14',
+    'entries' => [
+        [
+            // ...
+        ],
+        [
+            // ...
+        ]
+    ],
+]
 ```
 
 This is a simplified version, see
