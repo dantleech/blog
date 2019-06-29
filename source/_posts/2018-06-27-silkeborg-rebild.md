@@ -1,10 +1,10 @@
 ---
 title: Silkeborg to Rebild
 categories: [norway2018]
+distance: 123.66km
+time: 7h31
 ---
 
-**Distance**: 123.66km
-**Time**: 7h31
 
 Today marks 7 days of cycling and I'm in good shape, so far I've covered
 around 806km. I'm slightly behind my so-called "schedule" as I had intended

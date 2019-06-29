@@ -1,7 +1,7 @@
 ---
 title: Preparation
 subtitle: : Berlin to Tallinn
-categories: [php]
+categories: [helsinki2019]
 ---
 
 In two weeks time I'm going to cycle from Berlin to Tallinn.

@@ -1,10 +1,10 @@
 ---
 title: Hague i Dalane to Stavanger
 categories: [norway2018]
+distance: 117.87km
+time: 7h17m
 ---
 
-**Distance**: 117.87km
-**Time**: 7h17m
 
 I was undecided as to whether I would stay another night at the campsite. It
 was a friendly, trusting, campsite and they had an area where I could work and

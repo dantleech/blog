@@ -1,10 +1,10 @@
 ---
 title: Ålesund to Marmefjorden
 categories: [norway2018]
+distance: 121k
+time: 7h32m
 ---
 
-**Distance**: 121k
-**Time**: 7h32m
 
 Now sitting on the step of the sanitary block of a campsite by a Fjord
 surrounded by high-rise mountains. The campsite cost 170kr (almost €18) for

@@ -1,10 +1,10 @@
 ---
 title: Skjeberg to Tanemshede
 categories: [norway2018]
+distance: 86km
+time: 5h56
 ---
 
-**Distance**: 86km
-**Time**: 5h56
 
 My bike wheel and derailleur completely destroyed today.
 

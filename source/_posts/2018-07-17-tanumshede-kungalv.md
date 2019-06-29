@@ -1,10 +1,10 @@
 ---
 title: Tanemshede to Kungalv
 categories: [norway2018]
+distance: 143.59km
+time: 8h33m
 ---
 
-**Distance**: 143.59km
-**Time**: 8h33m
 
 Another troublesome day with the bike.
 

@@ -1,10 +1,10 @@
 ---
 title: Stavanger to Haland
 categories: [norway2018]
+distance: 28.71km
+time: 1h38m
 ---
 
-**Distance**: 28.71km
-**Time**: 1h38m
 
 <img class="image-right" src="/images/norway/2018-07-03/map.png"/>
 

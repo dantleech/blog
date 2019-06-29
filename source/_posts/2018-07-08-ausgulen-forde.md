@@ -1,10 +1,10 @@
 ---
 title: Ausgulen to Førde
 categories: [norway2018]
+distance: 113.24km
+time: 7h34m
 ---
 
-**Distance**: 113.24km
-**Time**: 7h34m
 
 
 The sun was shining when I crawled out of my tent and was greeted with an

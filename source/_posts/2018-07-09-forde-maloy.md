@@ -1,10 +1,10 @@
 ---
 title: Førde to Måløy
 categories: [norway2018]
+distance: 82k
+time: 5h35
 ---
 
-**Distance**: 82k
-**Time**: 5h35
 
 ![Map](/images/norway/2018-07-09/map.png) 
 

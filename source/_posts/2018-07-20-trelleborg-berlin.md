@@ -1,10 +1,9 @@
 ---
 title: Trelleborg to Berlin
 categories: [norway2018]
+distance: 22.85km
+time: 1h16m
 ---
-
-**Distance**: 22.85km
-**Time**: 1h16m
 
 I am now sitting on my cheap Ikea office chair typing this blog post on my
 desk in my apartment in Berlin.

@@ -1,10 +1,10 @@
 ---
 title: Foldfjorden to Orkanger
 categories: [norway2018]
+distance: 109.11km
+time: 8h09m ??
 ---
 
-**Distance**: 109.11km
-**Time**: 8h09m ??
 
 It appears to be Friday the 13th. Today was a hard slog, most of the route was
 hilly and there were no "natural" rests along the way - no ferries or tunnels

@@ -1,10 +1,10 @@
 ---
 title: Marmefjorden to Foldfjorden
 categories: [norway2018]
+distance: 113k
+time: 7h23m
 ---
 
-**Distance**: 113k
-**Time**: 7h23m
 
 This morning I woke with a stomach ache and there was lots of groaning as I
 packed up my damp tent and filled my water bottles and tenderly made my way

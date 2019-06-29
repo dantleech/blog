@@ -1,10 +1,10 @@
 ---
 title: Kristiansand to Lyngdal
 categories: [norway2018]
+distance: 113km
+time: 7h35m
 ---
 
-**Distance**: 113km
-**Time**: 7h35m
 
 <img class="image-right" src="/images/norway/2018-06-29/map.png"/>
 

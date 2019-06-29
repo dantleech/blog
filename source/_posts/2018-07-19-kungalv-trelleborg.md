@@ -1,10 +1,10 @@
 ---
 title: Kungalv to Trelleborg
 categories: [norway2018]
+distance: 63.9km
+time: 3h25m
 ---
 
-**Distance**: 63.9km
-**Time**: 3h25m
 
 I'm in a campsite in Trelleborg, the town on the southern coast of Sweden and
 the ferry port. I just showered and hand-washed my underwear and shirt which

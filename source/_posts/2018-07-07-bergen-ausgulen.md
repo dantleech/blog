@@ -1,10 +1,10 @@
 ---
 title: Bergen to Ausgulen
 categories: [norway2018]
+distance: 124km
+time: 8h30m
 ---
 
-**Distance**: 124km
-**Time**: 8h30m
 
 I got out of bed at the hostel at around 7am and went to the kitchen to make
 some coffee, I decided not to have breakfast as I wanted to leave early, so I

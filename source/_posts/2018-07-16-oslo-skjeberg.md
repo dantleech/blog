@@ -1,10 +1,10 @@
 ---
 title: Oslo to Skjeberg
 categories: [norway2018]
+distance: 130km
+time: 8h
 ---
 
-**Distance**: 130km
-**Time**: 8h
 
 The middle aged man on the bunk oppsite to me got out of bed at around 5am, I
 woke up and dozed intermitently before getting out of bed at around 7am and

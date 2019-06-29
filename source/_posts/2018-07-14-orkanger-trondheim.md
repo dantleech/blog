@@ -1,10 +1,10 @@
 ---
 title: Orkanger to Trondheim
 categories: [norway2018]
+distance: 65k ?
+time: 4h ?
 ---
 
-**Distance**: 65k ?
-**Time**: 4h ?
 
 <img class="image-right" src="/images/norway/2018-07-14/map.png"/>
 

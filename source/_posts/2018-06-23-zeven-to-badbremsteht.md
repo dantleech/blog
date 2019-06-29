@@ -1,10 +1,10 @@
 ---
 title: Zeven to Bad-bremsteht
 categories: [norway2018]
+distance: ~112.91km
+time: ~06m26m
 ---
 
-**Distance**: ~112.91km
-**Time**: ~06m26m
 
 ![Map](/images/norway/2018-06-23/map.png)
 

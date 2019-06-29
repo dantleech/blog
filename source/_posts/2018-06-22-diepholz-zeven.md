@@ -1,10 +1,14 @@
 ---
 title: Diepholz to Zeven
 categories: [norway2018]
+distance: ~121.89km
+time: ~06m58m
+geopoints: 
+  - [52.61242954349211, 8.37089538574219]
+  - [53.108865487028616, 8.750610351562502]
+  - [53.31118556593909, 9.276580810546877]
 ---
 
-**Distance**: ~121.89km
-**Time**: ~06m58m
 
 ![Map](/images/norway/2018-06-22-map.png)
 

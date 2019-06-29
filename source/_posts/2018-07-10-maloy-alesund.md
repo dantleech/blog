@@ -1,10 +1,10 @@
 ---
 title: Måløy Ålesund
 categories: [norway2018]
+distance: 115k
+time: 8h2m
 ---
 
-**Distance**: 115k
-**Time**: 8h2m
 
 I think it was the coldest night so far - relative to my sleeping bag and
 comfort level. I didn't sleep great and had a hard time motivating myself to

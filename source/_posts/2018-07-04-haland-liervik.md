@@ -1,10 +1,10 @@
 ---
 title: Haland to Liervik
 categories: [norway2018]
+distance: 110km
+time: 7h00m
 ---
 
-**Distance**: 110km
-**Time**: 7h00m
 
 <img class="image-right" src="/images/norway/2018-07-04/map.png"/>
 

@@ -1,10 +1,10 @@
 ---
 title: Lyngdal to Hague i Dalane
 categories: [norway2018]
+distance: 140.5km
+time: 10h59m
 ---
 
-**Distance**: 140.5km
-**Time**: 10h59m
 
 ![Map](/images/norway/2018-06-30/map.png)
 
