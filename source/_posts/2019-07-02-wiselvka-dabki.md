@@ -1,8 +1,8 @@
 --- 
 title: Wisełvka to Dabki
 categories: [helsinki2019]
-time: 9h30
-distance: 155.km
+time: 8h47m
+distance: 158.km
 geopoints:
     - [53.966083969361065, 14.570789337158205]
     - [54.131868892085414, 15.265502929687502]
@@ -117,36 +117,35 @@ tourists made me not want to stop anywhere - I didn't have much food with me,
 just a can of lentils, bread and peanut butter. So that's what I had for
 lunch.
 
-
-Areas like this make me depressed - everything is where it is for the
-tourists/holiday-makers, the place has no purpose or culture. It reminds me of
-the east coast of Spain.
+Areas like this make me uneasy - everything is where it is for the
+tourists/holiday-makers, there is nothing to see except the same tourist
+culture that you get in every other country in the world. The whole thing
+seems to _unnecessary_ and wasteful. I could imagine that the tourism companies
+may well distribute people into one town or another and make them all the same
+on purpose.
 
 ![Blocks of Flats (unrelated to rant)](/images/tallinn/2019-07-02/7.JPG)
 
 *Blocks of Flats (unrelated to rant)*
 
-I hated it so much that after finishing 100km I could not bring myself to stay
-at any one of the 100s campsites. Each time I thought I would stay at the next
-town, it was just as full and loud as the previous town.
+After finishing 100km I could not bring myself to stay at any one of the 100s
+campsites. Each time I thought I would stay at the next town, it was just as
+full and foul as the previous town.
 
-After around 120k I went in land. Here the traffic died down, and the noise
-gave way to agricultural land, at one point I passed a sign which advertised
-"Agrotourism Camping 5-0m", I followed it to a house with "Agrotourism"
-written on the entire side of it, and a small sign saying "Camping" with an
-arrow pointing into the garden. I entered but there was nobody there and not a
-tent or caravan in sight.
+At around 120k I turned in-land. Here the traffic died down, and the tourism
+gave way to agriculture. At one point I passed a sign which advertised
+"Agrotourism Camping 50m", I followed it to a house with "Agrotourism" painted
+on the side of it, and a small sign saying "Camping" with an arrow pointing
+into the garden. I entered but there was nobody there and not a tent or
+caravan in sight.
 
 I then rode through some villages, with absolutely no tourist influence at
 all, each had a single village shop, and not much else. The only place that
-looked as if it might offer me accomodation within a reasonable distance was
+looked as if it might offer me accommodation within a reasonable distance was
 the coast, so I went back in. I decided to "be brave" and just take the next
 possible accommodation (hotel, pension).
 
-![Buggys](/images/tallinn/2019-07-02/9.JPG)
-
-*Loads of these things*
-
+The next town was indeed the same as the others, just as many tourists etc.
 The first place I tried was a restaurant that I thought offered accommodation,
 but they didn't, the pension was upstairs and the directed me behind the
 building, but I couldn't see anything obvious to do there, so I carried on
@@ -154,8 +153,12 @@ down the road, then I saw a sign for "Pension 50m". I went 50m and rang the
 reception, a man greeted me "Dzień dobry" (Jean Dobray), I asked in my best
 Polish if he understood English or German, he spoke German.
 
-My bike is in the reception area of the Pension, it will cost 60 Zsloty (about
-15 euro). The room is fine - the bed is a sofa bed.
+![Buggys](/images/tallinn/2019-07-02/9.JPG)
 
-I am a bit apprehensive about continuing along the coast, if it carries on
-like this I would much prefer to turn inland.
+*Loads of these things*
+
+My bike is in the reception area of the Pension. The pension will cost 60
+Zsloty (about 15 euro). The room is fine - the bed is a sofa bed.
+
+I am a bit apprehensive about continuing along the coast tomorrow, if it
+carries on like this I would much prefer to turn inland.
