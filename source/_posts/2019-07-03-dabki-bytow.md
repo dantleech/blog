@@ -1,7 +1,7 @@
 --- 
 title: Dabki to Bytów
 categories: [helsinki2019]
-time: 4h30m ?
+time: 5h0m ?
 distance: 106km?
 geopoints:
     - [54.37965758026856, 16.315212249755863]
@@ -34,7 +34,7 @@ bicycle or headphone shop, but really just exploring.
 The wind has been behind me the whole time and today was no exception as I
 cycled effortlessly down the quiet country road. I felt good and sang along to
 the music which was playing in my head. I still didn't have any headphones,
-but my brain seems to play it's own music anyway -- today it was Velvet in
+but my brain seems to play it's own music anyway -- today it was Venus in
 Furs (Velvet Underground), yesterday it was a Chopin Nocturne and I think
 Pulp's "Common People" made it in somewhere.
 
