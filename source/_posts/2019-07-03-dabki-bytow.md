@@ -1,8 +1,8 @@
 --- 
 title: Dabki to Bytów
 categories: [helsinki2019]
-time: 5h0m ?
-distance: 106km?
+time: 5h44m
+distance: 108km
 geopoints:
     - [54.37965758026856, 16.315212249755863]
     - [54.39485135982592, 16.347141265869144]
