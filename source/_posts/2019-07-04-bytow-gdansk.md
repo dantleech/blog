@@ -9,13 +9,6 @@ geopoints:
     - [54.33574395530071, 18.20022583007813]
     - [54.313318914476056, 18.377380371093754]
     - [54.34455044818014, 18.65341186523438]
-
-
-
-
-
-
-
 ---
 
 There was a buffer breakfast at the hotel, featuring feta cheese, bread,
