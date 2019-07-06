@@ -1,8 +1,8 @@
 --- 
 title: Elbląg to Bartosxyce
 categories: [helsinki2019]
-time: 8h5m
-distance: 151km
+time: 8h15m
+distance: 152km
 geopoints:
     - [54.14634989865955, 19.407348632812504]
     - [54.26482305233159, 19.403915405273438]
@@ -60,10 +60,11 @@ and it wouldn't have mattered much anyway to be honest with you*
 
 Frombork (Frauenberg in German) is mainly famous because it is where Nicholas
 Copernicus mad his astromomical observations and wrote the book in which he
-wrote that the sun revolves around the earth - and he did this all while
-admistering this region as Bishop (I think), and even having to deal with the
-pesky Teutonic Knights, who radied and eventually sacked the town (but old
-Nick had already left ahead of the event).
+wrote that the sun revolves around the earth (or was it the earth around the
+sun? anyway, who cares) - and he did this all while admistering this region as
+Bishop (I think), and even having to deal with the pesky Teutonic Knights, who
+radied and eventually sacked the town (but Corpernicus had already left ahead
+of the event).
 
 ![Copernicus](/images/tallinn/2019-07-06/5.JPG)
 
