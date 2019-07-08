@@ -19,11 +19,11 @@
                 {% endfor %}
                 </p>
             {% endif %}
-            {% if page.distance is defined %}
+            {% if page.distance is defined and page.distance %}
                 <table class="table">
                     <tr>
                         <th>Distance</th>
-                        <td>{{ page.distance }}</td>
+                        <td>{{ page.distance }}km</td>
                     </tr>
                     {% if page.time is defined %}
                     <tr>
