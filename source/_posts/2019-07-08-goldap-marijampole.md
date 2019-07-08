@@ -2,7 +2,7 @@
 title: Goldap to Marijampole
 categories: [helsinki2019]
 time: 6h01m
-distance: 110km
+distance: 110
 geopoints:
     - [54.308511957926754, 22.296752929687504]
     - [54.296492110011854, 22.41622924804688]

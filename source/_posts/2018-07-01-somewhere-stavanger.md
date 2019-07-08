@@ -1,7 +1,7 @@
 ---
 title: Hague i Dalane to Stavanger
 categories: [norway2018]
-distance: 117.87km
+distance: 117.87
 time: 7h17m
 ---
 
@@ -95,7 +95,7 @@ up behind me at speed.  I eventually rejoined the cycle path and rode through
 
 *It's flat now*
 
-At around 80km I was exhausted, and as I closed in on my target a tendon in
+At around 80 I was exhausted, and as I closed in on my target a tendon in
 my right leg was causing me some minor trouble. But I pushed on, wishing that
 I was there already and never really felt closer to my destination until I
 arrived.

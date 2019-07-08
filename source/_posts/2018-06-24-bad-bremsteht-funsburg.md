@@ -1,7 +1,7 @@
 ---
 title: Bad-bremsteht to Flensburg
 categories: [norway2018]
-distance: 133.16km
+distance: 133.16
 time: 7h32m
 ---
 

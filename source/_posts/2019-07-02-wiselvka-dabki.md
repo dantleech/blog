@@ -2,7 +2,7 @@
 title: Wisełvka to Dabki
 categories: [helsinki2019]
 time: 8h47m
-distance: 158.km
+distance: 158
 geopoints:
     - [53.966083969361065, 14.570789337158205]
     - [54.131868892085414, 15.265502929687502]
@@ -128,7 +128,7 @@ on purpose.
 
 *Blocks of Flats (unrelated to rant)*
 
-After finishing 100km I could not bring myself to stay at any one of the 100s
+After finishing 100 I could not bring myself to stay at any one of the 100s
 campsites. Each time I thought I would stay at the next town, it was just as
 full and foul as the previous town.
 

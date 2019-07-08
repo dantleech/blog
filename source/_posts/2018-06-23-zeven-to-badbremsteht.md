@@ -1,7 +1,7 @@
 ---
 title: Zeven to Bad-bremsteht
 categories: [norway2018]
-distance: ~112.91km
+distance: 112.91
 time: ~06m26m
 ---
 
@@ -51,7 +51,7 @@ it is sometimes claimed that it "doesn't exist".
 I stopped in the town for a cake and a coffee, there was a school band (or at
 least a group of children) playing songs such as "Greensleeves", it was very
 busy. I checked my map and planned my route. I was in the center which is
-already 2km past the road I wanted to be on to Hamburg, and there was a ferry
+already 2 past the road I wanted to be on to Hamburg, and there was a ferry
 crossing immediately north, so I would try the ferry.
 
 I cycled on a road which ran adjacent to a canal and soon I was close the

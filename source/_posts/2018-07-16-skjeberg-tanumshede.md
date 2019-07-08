@@ -1,7 +1,7 @@
 ---
 title: Skjeberg to Tanemshede
 categories: [norway2018]
-distance: 86km
+distance: 86
 time: 5h56
 ---
 

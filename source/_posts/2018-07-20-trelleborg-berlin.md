@@ -1,7 +1,7 @@
 ---
 title: Trelleborg to Berlin
 categories: [norway2018]
-distance: 22.85km
+distance: 22.85
 time: 1h16m
 ---
 
@@ -62,7 +62,7 @@ Rostock at around 13:30, making it a six hour crossing.
 I had checked the train times on the internet before leaving the ferry and the
 next one was at 14:30, I had an hour to get to the train station, buy a ticket
 and get on the train. There was no absolute pressure, as the next was at
-16:30, but I'd rather avoid the wait, so I made haste on the 10km ride to
+16:30, but I'd rather avoid the wait, so I made haste on the 10 ride to
 Rostock HBF (train station).
 
 ![Sailing into Rostock](/images/norway/2018-07-20/IMG_20180720_132119.jpg)

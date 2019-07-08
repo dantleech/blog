@@ -1,7 +1,8 @@
 ---
 title: Silkeborg to Rebild
 categories: [norway2018]
-distance: ~110km?
+distance: 110
+distanceEstaimate: true
 time: 7h?
 ---
 

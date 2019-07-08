@@ -2,7 +2,7 @@
 title: Elbląg to Bartosxyce
 categories: [helsinki2019]
 time: 8h15m
-distance: 152km
+distance: 152
 geopoints:
     - [54.14634989865955, 19.407348632812504]
     - [54.26482305233159, 19.403915405273438]
@@ -79,7 +79,7 @@ upon it by chance.
 
 I stopped here for a coffee then continued, I had to dive down to Pieniężo,
 there seemed to be a road reconstruction project happening, and I had to ride
-through at least 4 1km road one-way road works - the traffic lights would stay
+through at least 4 1 road one-way road works - the traffic lights would stay
 red for I would guess 10 minutes, but after not waiting for the first one to
 go green, I just rode through the red lights, there was rarely any traffic,
 and it's easy to move a bicycle out of the way.

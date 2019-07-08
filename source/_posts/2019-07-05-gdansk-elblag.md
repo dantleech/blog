@@ -2,7 +2,7 @@
 title: Gdansk to Elbląg
 categories: [helsinki2019]
 time: 4h28m
-distance: 91km
+distance: 91
 geopoints:
     - [54.34455044818014, 18.65341186523438]
     - [54.2170730662912, 19.119644165039066]
@@ -50,7 +50,7 @@ clealy signed cycle path (all of EuroVelo routes 9, 10 and 13).
 I discovered that EV 10 would take me to my milestone today, Elbląg, so I
 followed that. It took me to a river crossing, I was unsure if it was worth
 crossing the river or riding upstream and crossing the bridge -- if I crossed
-the bridge I would still need to cycle around 10km south, as it turned out I
+the bridge I would still need to cycle around 10 south, as it turned out I
 had to cycle 7km south to get to the bridge, so I may as well have taken the
 boat and stuck to the EV route.
 

@@ -1,7 +1,7 @@
 ---
 title: Kungalv to Trelleborg
 categories: [norway2018]
-distance: 63.9km
+distance: 63.9
 time: 3h25m
 ---
 
@@ -90,7 +90,7 @@ station I was greeted by a lively aesthetic square, as I cycled thorugh the
 town I reflected on how nice the city was, but I made my way out and rode
 straight to Trelleborg.
 
-My optimistic first estimate of the distance was 10km, I think I estimated
+My optimistic first estimate of the distance was 10, I think I estimated
 this a week ago and never revised it, but it was more like 30km. Fortunately
 there was a strong tail-wind and I made fast progress, at one point nearly
 hitting 40kmph on the flat, a speed that would not impress a racing cyclist,

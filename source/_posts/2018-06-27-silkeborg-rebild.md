@@ -1,7 +1,7 @@
 ---
 title: Silkeborg to Rebild
 categories: [norway2018]
-distance: 123.66km
+distance: 123.66
 time: 7h31
 ---
 
@@ -47,7 +47,7 @@ waters.
 
 *Lake at Viborg*
 
-Searching for lunch I stopped after around 50km and got my self an expensive
+Searching for lunch I stopped after around 50 and got my self an expensive
 beer, when checking out the young girl said something to me, I tried to
 imagine what it could be, it didn't sound like a number, so assumed she was
 asking me if I had a loyalty card. I shook my head, obviously the wrong

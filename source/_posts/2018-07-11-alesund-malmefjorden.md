@@ -1,7 +1,7 @@
 ---
 title: Ålesund to Marmefjorden
 categories: [norway2018]
-distance: 121k
+distance: 121
 time: 7h32m
 ---
 

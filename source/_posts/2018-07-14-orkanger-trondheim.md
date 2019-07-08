@@ -1,7 +1,7 @@
 ---
 title: Orkanger to Trondheim
 categories: [norway2018]
-distance: 65k ?
+distance: 65
 time: 4h ?
 ---
 

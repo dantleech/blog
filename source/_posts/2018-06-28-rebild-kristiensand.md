@@ -1,7 +1,7 @@
 ---
 title: Rebild to Kristiensand
 categories: [norway2018]
-distance: 115km
+distance: 115
 time: 6h34m
 ---
 

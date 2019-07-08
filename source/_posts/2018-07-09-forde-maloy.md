@@ -1,7 +1,7 @@
 ---
 title: Førde to Måløy
 categories: [norway2018]
-distance: 82k
+distance: 82
 time: 5h35
 ---
 
@@ -90,7 +90,7 @@ bread (the french baguette is actually pretty poor value for money, it doesn't
 last long) and replacement Tobasco sauce (tragically I had left my original
 sauce in Bergen).
 
-I cycled over the 1.6km bridge to the mainland (on the main road, it wasn't
+I cycled over the 1.6 bridge to the mainland (on the main road, it wasn't
 busy at all). There was a camping nearby and it was around 18:00 so I decided
 to just settle down for the day after doing only 75km or so, having spent time
 waiting for and being on the ferry.

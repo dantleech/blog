@@ -2,7 +2,7 @@
 title: Bartosxyce to Goldap
 categories: [helsinki2019]
 time: 7h5m
-distance: 135km
+distance: 135
 geopoints:
     - [54.25178757462486, 20.80913543701172]
     - [54.141523459050966, 21.080017089843754]
@@ -46,7 +46,7 @@ today I was almost exclusively on this path.
 
 The cycle path was clearly sign posted, with distances to the next village,
 and also the distance to the next rest area (signed as "MOA"), the rest areas
-were around every 10-20km, and included a shelter and a porta-toilet. I passed
+were around every 10-20, and included a shelter and a porta-toilet. I passed
 various other touring cyclists on the route.
 
 After inspecting my phone, I could see that there was another route which used

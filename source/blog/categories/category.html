@@ -13,6 +13,7 @@ pagination:
     <meta name="robots" content="noindex, follow">
 {% endblock %}
 
+{% set distance = 0 %}
 {% block title %}{{ page.title }} {{ page.category }}{% endblock %}
 {% block content %}
 {% set year = '0' %}
@@ -31,7 +32,10 @@ pagination:
 <article>
     <div>
         {{ post.date|date('dS') }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-        {% if post.distance is defined %}<b>{{ post.distance }}</b>{% endif %}
+        {% if post.distance is defined and post.distance %}
+            <b>{{ post.distance }}km</b>
+            {% set distance = distance + post.distance %}
+        {% endif %}
         <i>{{ post.content|striptags|truncate(80)|raw }}</i>
     </div>
 </article>
@@ -50,4 +54,8 @@ pagination:
     </nav>
 {% endif %}
 </div>
+
+{% if distance %}
+<b>{{ distance }}km of achievement on this page</b>
+{% endif %}
 {% endblock content %}

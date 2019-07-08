@@ -1,7 +1,7 @@
 ---
 title: Kristiansand to Lyngdal
 categories: [norway2018]
-distance: 113km
+distance: 113
 time: 7h35m
 ---
 
@@ -66,7 +66,7 @@ A couple of sections were very tough. At one point the cycle path continued
 from a perfectly good road up a very steep gravel incline and I wondered if
 somebody was joking. I checked my map, and that was indeed the path, so I
 clicked down (up?) to my highest gear and started grinding away. This was
-around 3km of rough and steep up and down.
+around 3 of rough and steep up and down.
 
 Near the end of this section I spied another cyclist heading my way, I could
 see a small flag flying behind him. He approached with a friendly smile and we

@@ -1,7 +1,7 @@
 ---
 title: Flensburg to Vonslid (Kolding)
 categories: [norway2018]
-distance: 113.25km
+distance: 113.25
 time: 7h8m
 ---
 

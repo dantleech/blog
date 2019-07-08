@@ -1,7 +1,8 @@
 ---
 title: Bielefeld to Diepholz
 categories: [norway2018]
-distance: ~95km
+distance: 95
+distanceEstaimate: true
 time: ~7h
 geopoints: 
   - [52.00601934721806, 8.530883789062502]

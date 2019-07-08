@@ -2,7 +2,7 @@
 title: Berlin to Gartz (Meschern)
 categories: [helsinki2019]
 time: 6h30m
-distance: 129.15km
+distance: 129.15
 ---
 
 Sitting in a campsite in the sun, in front of reception. Occuping one of 4
@@ -48,7 +48,7 @@ backup, bank card was almost lost in the first 5 minutes of the tour. I
 decided to put it somewhere safer. The front door was indeed locked.
 
 The ride out of Berlin was standard, my only training for this tour, over 2
-months ago, was a single 100km ride around Brandenburg, which included the
+months ago, was a single 100 ride around Brandenburg, which included the
 first checkpoint of today's ride: Bernau bei Berlin.
 
 ![two](/images/tallinn/2019-06-30/two.JPG)

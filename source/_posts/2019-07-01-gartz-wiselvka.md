@@ -2,7 +2,7 @@
 title: Gartz to Wisełvka
 categories: [helsinki2019]
 time: 9h09m
-distance: 145.km
+distance: 145
 geopoints:
     - [53.227207155024175, 14.410972595214846]
     - [53.25535521592485, 14.49302673339844]

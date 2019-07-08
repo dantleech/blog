@@ -1,7 +1,7 @@
 ---
 title: Liervik to Bergen
 categories: [norway2018]
-distance: 85km
+distance: 85
 time: 5h47m
 ---
 

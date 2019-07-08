@@ -1,7 +1,7 @@
 ---
 title: Måløy Ålesund
 categories: [norway2018]
-distance: 115k
+distance: 115
 time: 8h2m
 ---
 
@@ -54,7 +54,7 @@ island, or, there was Ålesund - a largish town and tourist destination which
 1904 and was rebuilt from scratch.
 
 Ålesund was a bit further away, and if I couldn't get a direct ferry I would
-need to cycle an additional 25km.
+need to cycle an additional 25.
 
 Looking at the map, the campsite I had considered was up a 10km dead end, so
 I would effectively lose 10km the next day, this wasn't really an option, so I

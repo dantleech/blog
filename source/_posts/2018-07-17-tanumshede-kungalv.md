@@ -1,7 +1,7 @@
 ---
 title: Tanemshede to Kungalv
 categories: [norway2018]
-distance: 143.59km
+distance: 143.59
 time: 8h33m
 ---
 
@@ -27,7 +27,7 @@ humidity too.
 Before leaving the campsite I tried to use the internet and investigate a
 possible hostel in Gothenburg and check the train and ferry times, but the
 connection was awful, and I gave up, deciding instead to head to a campsite in
-Kungalv, which is 10km from the city. I'm hoping I will be able to make the
+Kungalv, which is 10 from the city. I'm hoping I will be able to make the
 complete jounrey back to Berlin tomorrow - getting the train from Gothenburg
 to Malmo, then cycling to Trelleborg to get the ferry - but as yet I still
 don't know when the boat sails or how much it will cost.

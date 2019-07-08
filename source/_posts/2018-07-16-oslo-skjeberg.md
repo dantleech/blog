@@ -1,7 +1,7 @@
 ---
 title: Oslo to Skjeberg
 categories: [norway2018]
-distance: 130km
+distance: 130
 time: 8h
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Marmefjorden to Foldfjorden
 categories: [norway2018]
-distance: 113k
+distance: 113
 time: 7h23m
 ---
 

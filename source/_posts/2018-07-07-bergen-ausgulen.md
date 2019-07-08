@@ -1,7 +1,7 @@
 ---
 title: Bergen to Ausgulen
 categories: [norway2018]
-distance: 124km
+distance: 124
 time: 8h30m
 ---
 
@@ -66,7 +66,7 @@ potentially involve an hour wait) or another campsite which was on average
 15km off-route, but was in total a slightly shorter distance to ride today,
 and a sure-thing.
 
-I already had 7.5 hours and 100km under my belt at this point, and I turned
+I already had 7.5 hours and 100 under my belt at this point, and I turned
 off the cycle path to the campsite. The new route went east around a lake. As
 I rode down it I was impressed by the large mountains rising up around the
 lake. After 10km I got to the village of Ausgulen. The mountains closed in

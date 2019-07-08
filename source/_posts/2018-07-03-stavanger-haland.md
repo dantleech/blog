@@ -1,7 +1,7 @@
 ---
 title: Stavanger to Haland
 categories: [norway2018]
-distance: 28.71km
+distance: 28.71
 time: 1h38m
 ---
 
@@ -65,7 +65,7 @@ I tried the next village, and asked a clerk in the village shop, he said I
 could get money at the counter, so we tried my German bank card "service not
 available", well then surely the VISA would work "service not available" as a
 last attempt I tried my remaining card, and same result. He said that the next
-cash machine was 35km away, which was fine and the campsites probably take
+cash machine was 35 away, which was fine and the campsites probably take
 card anyway.
 
 I rode for an hour and found the first campsite, but it didn't look very

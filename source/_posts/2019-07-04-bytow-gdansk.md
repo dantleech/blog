@@ -2,7 +2,7 @@
 title: Bytów to Gdansk
 categories: [helsinki2019]
 time: 5h44m
-distance: 104km
+distance: 104
 geopoints:
     - [54.17167947814425, 17.49229431152344]
     - [54.24035307182538, 17.88711547851563]
