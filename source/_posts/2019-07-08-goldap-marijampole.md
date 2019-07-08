@@ -5,6 +5,16 @@ time: 6h01m
 distance: 110km
 geopoints:
     - [54.308511957926754, 22.296752929687504]
+    - [54.296492110011854, 22.41622924804688]
+    - [54.28005930839784, 22.52883911132813]
+    - [54.290280480150756, 22.60917663574219]
+    - [54.3519544479899, 22.69432067871094]
+    - [54.36415813016863, 22.865982055664062]
+    - [54.32413251396744, 22.9669189453125]
+    - [54.35255471383972, 23.065795898437504]
+    - [54.3845561894001, 23.04244995117188]
+    - [54.40774166820072, 23.22372436523438]
+    - [54.559322587438636, 23.362426757812504]
 ---
 
 Loud music was pounding on the street, I thought I would wait until 12, maybe
@@ -41,7 +51,7 @@ completely unaffected by the suns rays.
 
 *Water*
 
-On the road out of Marijampole, I again had the choice of riding the GreenVelo
+On the road out of Goldap, I again had the choice of riding the GreenVelo
 route -- as I turned onto it I couldn't help but notice that the main road was
 far more direct, and that taking the cycle path added another 7-8km. I stopped
 and struggled to decide: take the boring main road, get somewhere quickly, or
@@ -150,10 +160,15 @@ this is not exceptional).
 On the way back I revisited the supermarket and picked up some mix-and-match
 chocolates, some cereal, and two of the many new beers which I have never seen
 before, but when checking the clerk said something like "No beers". After
-researching it is illegal to sell beers after 20:00 in Lithuania - then I was
-confused because it was only 19:30, further research led me to the fact that
-Lithuania is EET (UTC+2), compared to my watch which is CET (UTC+1). So no
-beer for me this evening.
+researching it is [illegal to sell beers after
+20:00](https://nordan.org/lithuania-to-raise-legal-drinking-age-shorten-alcohol-selling-hours/)
+in Lithuania - then I was confused because it was only 19:30, further research
+led me to the fact that Lithuania is EET (UTC+2), compared to my watch which
+is CET (UTC+1). So no beer for me this evening.
+
+![No beers](/images/tallinn/2019-07-08/7.png)
+
+*No beers after 20:00*
 
 It is 57k taking major roads to the nearest city, Kaunas, or 120k as the bird
 flies to Vilenus - my next major checkpoint, and potentially a place to take a
