@@ -1,6 +1,8 @@
 --- 
 title: Vilnius to Sudeikiai
 categories: [helsinki2019]
+time: 7h30m (?)
+distance: 137
 geopoints:
     - [54.689709430616546, 25.271301269531254]
     - [54.953962903574094, 25.22872924804688]
