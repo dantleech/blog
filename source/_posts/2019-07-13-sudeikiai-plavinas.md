@@ -30,7 +30,7 @@ instead of the vest.
 I headed north-north-east passing lots of lakes including the town of Dusetos,
 making my way 50km to the Latvian border where I crossed to the Latvian town
 of Subate. It was now 11:30, and I pulled off the main road and cycled to the
-center of the village, found the (super)market and purcahsed a beer and some
+center of the village, found the (super)market and purchased a beer and some
 peanuts, before sitting down on a bench in the nice green square and making
 lunch (hard cheese blocks in dark bread pasted with peanuts peanut butter to
 hold the peanuts in place). I also got some chocolates which was dangerous as
@@ -48,14 +48,14 @@ it's entire Jewish population was murdered during WW II.
 I had an option in around 10km of either turning west and finding a place to
 stay in the 2nd biggest city in Latvia, Daugavpils, which would have made
 around 100km, but I decided against it when I couldn't see any affordable
-accomodation, and decided instead to head towards Riga and build up some more
+accommodation, and decided instead to head towards Riga and build up some more
 spare days.
 
 After passing the point of no return I listed to an audiobook, I thought I had
 "Bill Brysons Short History of almost Everything", but instead I had Howard
 Zinn's "A Peoples History of the United States" and I spent 4 hours listening
-to 4 chapters: How women were opressed, How the Indian lands were taken, The
-Mexian War (invading Mexico), and a chapter about the abolition of Slavery and
+to 4 chapters: How women were oppressed, How the Indian lands were taken, The
+Mexican War (invading Mexico), and a chapter about the abolition of Slavery and
 the civil war, but to be honest my concentration was waning at this point. But
 it passed a great deal of time.
 
@@ -65,12 +65,12 @@ it passed a great deal of time.
 
 It wasn't at all clear where I would rest tonight, Jekabpils was the logical
 place a largish city, at around 130km, but there didn't seem to be any
-accomodation or camping there. If I couldn't find any accomodation there then
+accommodation or camping there. If I couldn't find any accommodation there then
 there was a town 15km further on which ostensibly offered a campsite and some
 motels.
 
 The road today was extremely flat after some initial hills, passing into
-Latvia I noticed a number of what I guess are nuculear bomb shelters in
+Latvia I noticed a number of what I guess are nuclear bomb shelters in
 peoples gardens.
 
 ![Bomb shelter](/images/tallinn/2019-07-13/3.JPG)
@@ -85,13 +85,13 @@ forest had been cleared and the earth turned over.
 
 *Missing trees*
 
-I passed through Jekabpils without seeing any accomodation (I did see a
+I passed through Jekabpils without seeing any accommodation (I did see a
 Motel on the way out, but it was on the wrong side of the road, and anyway it
-was raining and somehow I had already decied to ride to the next town). It
+was raining and somehow I had already decide to ride to the next town). It
 started raining and I hit a main road to Riga.
 
 There was no other option that to take the two lane road with it's traffic and
-lorries. Unfortunately there are no asphault hard-sholders in either Latvia or
+lorries. Unfortunately there are no asphalt hard-shoulders in either Latvia or
 Lithuania  (possibly also Poland) only gravel which is not fun to cycle on,
 and possibly even dangerous if attempting to pass over it at speed. This is
 where my mirror comes in handy, and with constant attention I can ride on to
@@ -125,14 +125,14 @@ rooms. When I came back down there was a lady that had appeared from the bar
 
 The lady knew a few words of German, and assumed that I was German, and was
 surprised that I was English when she checked my passport. She's a little
-strange, but very accomodating and she ensured that my bike was secure and
+strange, but very accommodating and she ensured that my bike was secure and
 inside (she wouldn't let me leave it in the car park locked up). She called my
 "Thomas" for a good while, which was fine, until she asked if that was my
 name, and I said "Daniel, but Thomas is also fine!".
 
 She later entered the bar holding her cat "Daniel!" (she starts most
-statements with either "Thomas!" or, now, "Daniel!") This is my cat, tiger"
-(or similar).
+sentences addressing me with either "Thomas!" or, now, "Daniel!") This is my
+cat, tiger" (or similar).
 
 The room is quite expensive, €38, including breakfast. I had hoped to pay more
 in the line of €20, and I probably wouldn't have stopped if I had known the
@@ -143,7 +143,7 @@ for the push tomorrow to Riga.
 After crashing out for an hour, I came down to the bar and ordered dinner -
 explaining that I was vegetarian, I was going to order chips and cheese, but
 instead the lady recommended dumplings. In the end I had dumplings with
-mayonaise, a beer, and some bread.
+mayonnaise, a beer, and some bread.
 
 I will stay at least 2 nights in Riga, the length of time I spend depends on
 how much I like the hostel (assuming I find one), I would be quite happy to
