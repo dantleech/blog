@@ -90,3 +90,7 @@ Tomorrow the weather hopes to be better, and I will ride to Valka/Valga - the
 twin cities separated by the Latvian / Estonian border, where I will endevour
 to stay in a hostel (there seems to be at least one), after that the next stop
 is Tartu, 
+
+![Castle](/images/tallinn/2019-07-17/7.JPG)
+
+*Castle at Cēsis*
