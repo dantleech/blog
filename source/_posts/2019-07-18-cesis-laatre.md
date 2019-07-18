@@ -104,6 +104,7 @@ pointing to my destination on the rural country roads.
 ![Estonia Hostelling](/images/tallinn/2019-07-18/4.JPG)
 
 *Hostelling sign - previous one had "Estonia Hostelling" written underneath*
+
 When I arrived the reception was closed but soon an old man appeared and
 greeted me. He was very friendly and showed interest into where I was from,
 and when I wrote down my address in the registrar he even knew the road I
@@ -118,7 +119,7 @@ couple of beers and some bread.
 
 ![Road](/images/tallinn/2019-07-18/6.JPG)
 
-*Typical large trees on either side*
+*Large trees on either side*
 
 I had the option to stay in a bunk bed, or camp. I chose to camp, I'm not sure
 why. It's cheaper, and it has it's charm, and this is a perfect place to camp
@@ -129,11 +130,12 @@ booked.
 
 ![Campsite](/images/tallinn/2019-07-18/7.JPG)
 
-*Campsite*
+*Campsite, flag poles out of shot on the left have Estonian, EU and German
+flags flying*
 
-Blossom (or seeds) are falling from the trees today, and as I'm typing this
-and looking ahead of me I can see hundreds of little seed-particles blowing
-around, there are several on my laptop keyboard.
+Seeds are falling from the trees today, and as I'm typing this and looking
+ahead of me I can see hundreds of little seed-particles blowing around, there
+are several on my laptop keyboard.
 
 Today was a good day for cycling, despite the rain earlier, the weather has
 been perfect.
