@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Tartu to Võsu &mdash; Dans Blog &mdash; PHP and other terrible things.</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="robots" content="index, follow">
+        <link href="/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+        <link rel="apple-touch-startup-image" href="/images/jackson/2048x2048.png">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+                               integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                               crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+                integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+                crossorigin=""></script>
+
+        <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Dans Blog activity feed" />
+                                    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Dans Blog</a>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog">Archive</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/touring">Touring</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://read.dantleech.com">Links</a></li>
+                                                                                </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                        <article>
+        <header>
+            <h1>Tartu to Võsu</h1>
+                        <span class="date">2019-07-23T21:12:22+01:00</span>
+                            <p class="categories">
+                                <a href="/blog/categories/helsinki2019">helsinki2019</a>                                </p>
+                                        <table class="table">
+                    <tr>
+                        <th>Distance</th>
+                        <td>113km</td>
+                    </tr>
+                                        <tr>
+                        <th>Time</th>
+                        <td>5h36m</td>
+                    </tr>
+                                    </table>
+                <hr/>
+                                        <div id="mapid"></div>
+<script>
+        var mymap = L.map('mapid').setView([59.576417167838, 25.970306396484], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoiZGFudGxlZWNoIiwiYSI6ImNqeGhqeHlhZDA4Y2UzdG1uMnNpbzM0amQifQ.x8iRgnISRZPon1DFkiXoFw'
+    }).addTo(mymap);
+    var markers = [];
+    markers.push(L.marker(["59.576417167838","25.970306396484"], {opacity: 1}).addTo(mymap));
+    markers.push(L.marker(["59.437394776786","24.735717773438"], {opacity: 1}).addTo(mymap));
+    var group = new L.featureGroup(markers);
+    mymap.fitBounds(group.getBounds(), {
+        padding: [50,50]
+    });
+    mymap.on('click', function (e) {
+        console.log(e.latlng);"Hello"
+        L.popup()
+            .setLatLng(e.latlng)
+            .setContent('[' + e.latlng.lat + ", " + e.latlng.lng + ']')
+            .openOn(mymap);
+    });
+    L.polyline([["59.576417167838","25.970306396484"],["59.577807977279","25.927734375"],["59.553460510481","25.784912109375"],["59.644152242849","25.758819580078"],["59.646928202623","25.699081420898"],["59.618463725788","25.688781738281"],["59.56354945482","25.658569335938"],["59.608043861795","25.5322265625"],["59.521782468276","25.559692382812"],["59.459732691043","25.397644042969"],["59.437394776786","24.735717773438"]], {color: 'red'}).addTo(mymap);
+    L.control.scale().addTo(mymap);
+</script>
+                <hr/>
+                    </header>
+             <div>
+                 <p>I'm sitting in the Eurphoria hostel in Tallinn, I got in around an hour and a
+half ago, and have briefly explored the tourist saturated center, then came
+back here and played guitar and piano for about an hour and a guy just came in
+and sat at the drums. There is all the tools required for a band in this room,
+which is one of the reasons I was attracted to this hostel, and I may be
+staying here for a week.</p>
+
+<p>I slept well last night and before sleeping watched the final two episodes of
+Game of Thrones, and the <em>ending</em> wasn't as bad as I feared. This morning I
+woke up hungry, which accorded with the number of kilometers I made yesterday,
+I went out to the shop, but it was 8:30 and not open until 10, so I used the
+hostel kitchen to make a breakfast with what I had: porridge, jam, partially
+melted cheese slices and coffee.</p>
+
+<p>It was now only 70k to Tallinn on the main road, and I guessed 100k by taking
+some of the diversions through the Lahemaa National Park. I would now
+certainly be staying in Tallinn this night, and so I researched hostels on
+<code>hostelworld.com</code> and chose the Euphoria hostel (there were a number of nice
+looking hostels, but the fact that Euphoria had a piano and a guitar swung it
+for me), I phoned ahead and made sure they could store my bike, and booked
+(online, as they weren't keen on booking me over the phone).</p>
+
+<p><img src="/images/tallinn/2019-07-23/1.JPG" alt="Recommended" /></p>
+
+<p><em>The much recommended Project Kodu, which I passed, but I could have cycled
+an extra 21k yesterday and stayed here if I had known</em></p>
+
+<p>I left the hostel, dropping the keys at the post office next door - as
+instructed - and when I handed the keys to the man behind the counter he
+looked very confused, and pointed to the hostel next door, I insisted that I
+had been asked to leave the keys here, and he went inside and fetched a lady -
+possibly the very same who I met the previous evening - who understood and
+took the keys - I honestly can't remember if it was the same lady or not.</p>
+
+<p>I then rode out of Vosu and continued my journey through the national park.
+Despite the road looking like it was following the coast, there were very few
+occasions where I could actually see the sea, and the majority of the route
+was the same -- trees lining each side of the road. But it was very quiet,
+especially after I had a mantrum at my phone's audio player and decided it
+wasn't worth the effort and unplugged it.</p>
+
+<p><img src="/images/tallinn/2019-07-23/2.JPG" alt="Smoke on the water" /></p>
+
+<p><em>Smoke on the water</em></p>
+
+<p>I had given up on my MP3 player, and thought I'd try playing music from my
+phone, but the phone's audio player was incredibly, to my eyes, badly
+designed. All it has to do, according to me, is play files, organised by
+folders, sorted by filenames - but no. It does no such thing, it probably does
+just about everything else, but not that. So I lost my temper and was cursing
+my phone for being so shitting stupid, and when I finally listened to music I
+was in no mood, so I unplugged it and the rest of my day was silent.</p>
+
+<p>When I did finally pass some coast I looked out across the Baltic sea to
+Finland (I was mistaken) , and could see a column of cloud rising on the
+horizon, it first occurred to me that it was smoke and something was on fire,
+but then it was the wrong colour for smoke, so I guessed it was steam, and my
+guess was confirmed later - I was looking at some kind of power plant outside
+of Tallinn.</p>
+
+<p><img src="/images/tallinn/2019-07-23/3.JPG" alt="Road" /></p>
+
+<p><em>Road</em></p>
+
+<p>It was hot today, and as I started to feel thirsty, and then hungry (more so
+for the longer day yesterday), I wanted an energy drink, in previous tours it
+was beer, this time it's energy drinks, I need something at least slightly
+malevolent for lunch, and I couldn't find a shop, eventually I realised that I
+had a can of baked beans at least, and that would be more than enough for
+lunch - all I needed now was a bench.</p>
+
+<p>As it happened the next bench was 15km away - which is always the case - and
+there was also a shop, so I got both an energy drink, some bread and 4
+individually wrapped chocolates. I sat down on a bench outside of the close-by
+post office and ate the beans, the bread, the chocolates and a pint of energy
+drink, and then read a chapter of the book, and I was quite full.</p>
+
+<p><img src="/images/tallinn/2019-07-23/4.JPG" alt="Source of the smoke" /></p>
+
+<p><em>Source of the smoke</em></p>
+
+<p>Coming into Tallinn, there was the EuroVelo route, but it seemed unnecessarily
+complex, and I tried to follow the main road, which was at this point dual
+carriageway, but there were smaller roads either side with cycle paths, but
+these were awful to cycle on, continuing only for half a kilometer before
+turning one way or another and no clear indication of where they were going,
+making me frustrated - I just wanted to follow a road for 4km - so in the end
+I joined the now 3-lane dual carriage way, there were no signs prohibiting
+cyclists, so I guess this was fine, if not comfortable.</p>
+
+<p><img src="/images/tallinn/2019-07-23/5.JPG" alt="TV tower" /></p>
+
+<p><em>TV tower, similar to the one in Berlin</em></p>
+
+<p>The hostel I arrived at easily enough and checked in, there were already
+people playing music.</p>
+
+<p>I have just played for about another hour, and now when writing this blog some
+guy has pulled out his saxophone accompanied by picked chords on an electric
+guitar, it's jazz and it sounds as amazing as a saxophone does cutting into
+the empty air.</p>
+
+<p><img src="/images/tallinn/2019-07-23/6.JPG" alt="View on Tallinn" /></p>
+
+<p><em>View on the old town close to the hostel</em></p>
+
+<p>This is potentially my last post, this was my original destination. I just
+found out that the ferry to Helsinki is not as expensive as I thought (maybe
+only €20) but the ferry to Trevemunde will be much more expensive, so I will
+likely get the bus, but will see what happens in the next week - which is a
+long time.</p>
+
+             </div>
+                          <p class="categories">
+             Categories:
+                          <a href="/blog/categories/helsinki2019">helsinki2019</a>                          </p>
+                          
+                          <nav class="article">
+                 <ul>
+                                                               <li>Previous: <a class="previous" href="/blog/2019/07/22/tartu-vosu/" title="Tartu to Võsu"><span class="title">Tartu to Võsu</span></a></li>
+                                      </ul>
+             </nav>
+                 </article>
+
+
+    
+                    </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="text-right">
+                <span class="text-muted small">&copy; 2019 Dans Blog powered by electricity, <a class="dull-link" href="https://github.com/sculpin/sculpin">sculpin</a> and possibly other things</span>
+            </div>
+        </footer>
+
+
+        <script src="/components/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="/components/bootstrap/js/bootstrap.min.js"></script>
+                
+                <script src="/components/highlightjs/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+                    </body>
+</html>

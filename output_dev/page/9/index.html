@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Home &mdash; Dans Blog &mdash; PHP and other terrible things.</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                    <meta name="robots" content="noindex, follow">
+                <link href="/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+        <link rel="apple-touch-startup-image" href="/images/jackson/2048x2048.png">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+                               integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                               crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+                integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+                crossorigin=""></script>
+
+        <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Dans Blog activity feed" />
+                                    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Dans Blog</a>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog">Archive</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/touring">Touring</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://read.dantleech.com">Links</a></li>
+                                                                                </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                        <article>
+        <header>
+            <h2><a href="/blog/2018/11/25/extensions/">Phpactor Extensions</a></h2>
+        </header>
+        <div>
+            <p>Over the past month or so I have been gradually migrating Phpactor to use
+Extensions.</p>
+
+<p>This started because I wanted to add Language Server capabilities to Phpactor,
+but having two RPC mechanisms in the same application seemed overkill, so I
+decided to extract everything into extensions in order that all of the
+components could be easily reused and recombined (so that a
+<code>phpactor-language-server</code> standalone application could be created).</p>
+
+<p>In addition I wanted the ability to add framework and tool specific
+functionality, which doesn't belong in the main distribution. This all pointed
+the way to having user extensions.</p>
+
+<p><img src="/images/2018-11-25/installing_extensions.gif" alt="Installing Extensions" /></p>
+
+<h2 id="writing-an-extension">Writing an Extension</h2>
+
+<p>Extensions have a few key attributes:</p>
+
+<ol>
+<li>The extension package should have a package type of <code>phpactor-extension</code>
+and an extra attribute <code>phpactor.extension_class</code> which points to...</li>
+<li>The extension class which implements <code>Phpactor\Container\Extension</code>.</li>
+</ol>
+
+<p>That's it. The extension class is just a DI container (similar to Pimple but
+with tags and parameters) with additional configuration (something like the
+Symfony Option Resolver).</p>
+
+<h2 id="stupid-completor">Stupid Completor</h2>
+
+<p><strong>DISCLAIMER</strong>: Phpactor is not currently not stable, and some packages have
+no tagged release at all.</p>
+
+<p>Lets make a completion extension. This extension will accept some
+configuration: <code>stupid_completor.items</code> and it will return these items as
+suggestions every time it is invoked.</p>
+
+<p>First of all we will need to require the <code>phpactor/container</code> package (this is
+the only strict requirement) and the <code>phpactor/completion-extension</code> (as we
+are building a completor) and ensure our composer file has the following attributes:</p>
+
+<ol>
+<li>A <code>type</code> of <code>phpactor-extension</code></li>
+<li>An <code>extra</code> property with the FQN of the extension class.</li>
+</ol>
+
+<p>It might look something like this:</p>
+
+<pre><code class="javascript">{
+    "name": "acme/stupid-completion-extension",
+    "description": "Stupid Completion Support",
+    "license": "MIT",
+    "type": "phpactor-extension",
+    "minimum-stability": "dev",
+    "require": {
+        "phpactor/container": "^1.0",
+        "phpactor/completion-extension": "~0.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\Extension\\StupidCompletion\\": "lib/"
+        }
+    },
+    "extra": {
+        "phpactor.extension_class": "Acme\\Extension\\StupidCompletion\\StupidCompletionExtension"
+    }
+}
+</code></pre>
+
+<p><strong>NOTE</strong>: that the completion extension has no release at time of writing so
+  <code>minimum-stability: dev</code> is currently required.</p>
+
+<p>We need to create a completor class to provide our stupid suggestions,
+let's put it in <code>lib/Completion/StupidCompletion.php</code>:</p>
+
+<pre><code class="php">&lt;?php
+
+namespace Acme\Extension\StupidCompletion\Completion;
+
+use Generator;
+use Phpactor\Completion\Core\Completor;
+use Phpactor\Completion\Core\Suggestion;
+
+class StupidCompletion implements Completor
+{
+    private $suggestions;
+
+    public function __construct(array $suggestions)
+    {
+        $this-&gt;suggestions = $suggestions;
+    }
+
+    public function complete(string $source, int $byteOffset): Generator
+    {
+        foreach ($this-&gt;suggestions as $suggestion) {
+            yield Suggestion::create($suggestion);
+        }
+    }
+}
+</code></pre>
+
+<p>Now we need the extension class, this will integrate our completor, this
+should be in <code>lib/StupidCompletionExtension.php</code> as with the above:</p>
+
+<pre><code class="php">&lt;?php
+
+namespace Acme\Extension\StupidCompletion;
+
+use Acme\Extension\StupidCompletion\Completion\StupidCompletion;
+use Phpactor\Container\Container;
+use Phpactor\Container\ContainerBuilder;
+use Phpactor\Container\Extension;
+use Phpactor\Extension\Completion\CompletionExtension;
+use Phpactor\MapResolver\Resolver;
+
+class StupidCompletionExtension implements Extension
+{
+    public const PARAM_ITEMS = 'stupid_completor.items';
+
+    public function load(ContainerBuilder $container)
+    {
+        $container-&gt;register('stupid_completor.stupid_completor', function (Container $container) {
+            return new StupidCompletion(
+                $container-&gt;getParameter(self::PARAM_ITEMS)
+            );
+        }, [ CompletionExtension::TAG_COMPLETOR =&gt; []]);
+    }
+
+    public function configure(Resolver $schema)
+    {
+        $schema-&gt;setDefaults([
+            self::PARAM_ITEMS =&gt; [
+                'hello', 'goodbye'
+            ]
+        ]);
+    }
+}
+</code></pre>
+
+<p>Note that above:</p>
+
+<ol>
+<li>We add a tag to our completor from the <code>CompletionExtension</code>. Anything that
+is "public" is exposed as a public constant, including tags and services
+(<code>TAG_*</code> and <code>SERVICE_*</code>).</li>
+<li>We set some default configuration, when used with Phpactor this can be set
+in <code>.phpactor.yml</code> as <code>stupid_completor.items</code>.</li>
+</ol>
+
+<h2 id="testing-it-out">Testing it Out</h2>
+
+<p>You could probably now push your extension to packagist, or add it as a <a href="https://getcomposer.org/doc/05-repositories.md#path">path
+repository</a> in Phpactor's
+<code>extensions/extensions.json</code> file (which is actually a <code>composer.json</code> file):</p>
+
+<pre><code>    "repositories": [
+        {
+            "type": "path",
+            "url": "\/home\/daniel\/www\/phpactor\/stupid-completor-extension"
+        }
+    ]
+</code></pre>
+
+<p>Once this is done you are ready to install it with:</p>
+
+<pre><code>$ ~/.vim/plugged/phpactor/bin/phpactor extension:install acme/stupid-completion-extension
+</code></pre>
+
+<p>Note that Phpactor will load extensions based on the contents of the file
+<code>extensions/extensions.php</code> - if you experience issues you may want to disable
+the extension temporarily in this file.</p>
+
+<h2 id="making-a-standalone-application">Making a Standalone Application</h2>
+
+<p>Sometimes you might create an extension which can be used standalone. This is
+beneficial for user testing and if the extension can be useful without
+Phpactor.</p>
+
+<p>Our standalone application will provide completion results over Phpactor's
+RPC protocol and will need the command line interface, so require the
+following:</p>
+
+<pre><code>$ composer require phpactor/completion-rpc-extension phpactor/console-extension
+</code></pre>
+
+<p>Create a standalone RPC application for stupid completion: just create the
+following file in <code>bin/stupid-completion</code>:</p>
+
+<pre><code>#!/usr/bin/env php
+&lt;?php
+
+use Acme\Extension\StupidCompletion\StupidCompletionExtension;
+use Phpactor\Container\PhpactorContainer;
+use Phpactor\Extension\Completion\CompletionExtension;
+use Phpactor\Extension\Console\ConsoleExtension;
+use Phpactor\Extension\Logger\LoggingExtension;
+use Phpactor\Extension\Rpc\RpcExtension;
+use Phpactor\FilePathResolverExtension\FilePathResolverExtension;
+use Symfony\Component\Console\Application;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$container = PhpactorContainer::fromExtensions([
+    StupidCompletionExtension::class,
+    CompletionExtension::class,
+    ConsoleExtension::class,
+    RpcExtension::class,
+    LoggingExtension::class,
+    FilePathResolverExtension::class,
+], []);
+
+$application = new Application();
+$application-&gt;setCommandLoader(
+    $container-&gt;get(ConsoleExtension::SERVICE_COMMAND_LOADER)
+);
+$application-&gt;run();
+</code></pre>
+
+<p>Note that:</p>
+
+<ol>
+<li>We instantiate a <code>PhpactorContainer</code></li>
+<li>We manually added all the required extensions (the container will shout at you
+if any extensions were missing).</li>
+<li>We create a new Symfony Application and retrieve the command loader from
+the console extension.</li>
+<li>We run the application</li>
+</ol>
+
+<p>Make it executable with <code>chmod a+x bin/stupid-completion</code> and now
+you have a stupid RPC completor!</p>
+
+<pre><code class="bash">$ echo '{"action": "complete", "parameters": {"source": "&lt;?php ", "offset": 2}}' | ./bin/stupid rpc --pretty
+{
+    "version": "1.0.0",
+    "action": "return",
+    "parameters": {
+        "value": {
+            "suggestions": [
+                {
+                    "type": null,
+                    "name": "hello",
+                    "label": "hello",
+                    "short_description": null,
+                    "class_import": null,
+                    "info": null
+                },
+                {
+                    "type": null,
+                    "name": "goodbye",
+                    "label": "goodbye",
+                    "short_description": null,
+                    "class_import": null,
+                    "info": null
+                }
+            ],
+            "issues": []
+        }
+    }
+}
+</code></pre>
+
+<h2 id="summary">Summary</h2>
+
+<p>Extensions should allow Phpactor to be extended in all sorts of ways, as well
+as providing a very fast way to create entirely new applications based on
+Phpactor functionality.</p>
+
+<p>The above extension ommits tests for the completor and the extension
+itself. For a simple(ish) working example see the <a href="https://github.com/phpactor/behat-extension">behat
+extension</a>.</p>
+
+        </div>
+            </article>
+    <article>
+        <header>
+            <h2><a href="/blog/2018/10/14/rephpactor/">Rephpactor</a></h2>
+        </header>
+        <div>
+            <h2 id="tl%3Bdr">TL;DR</h2>
+
+<p>Phpactor 1.0 will have no features at all, but it will provide a way to install
+extensions. All current Phpactor functionality will be extracted to extensions.</p>
+
+<h2 id="background">Background</h2>
+
+<p>One problem with Phpactor has always been that it has not been extensible - it
+is not possible to, for example, install a Behat extension, or a Phpspec or
+Symfony extension.</p>
+
+<p>It is not that the infrastructure isn't there internally - it is and was based
+on the precedent set by <a href="https://github.com/phpbench/phpbench">Phpbench</a>
+(which was in turn influenced by other things, notaby Behat, Symfony, Pimple,
+etc).</p>
+
+<p>Phpbench could be easily included as a dependency of your project, this meant
+that it was easy to simply include the extension in your project as you would
+any other library.</p>
+
+<p>Phpactor is a standalone project, you (generally) install it one place and use
+it everywhere. While you could include new dependencies on the project, it
+would not be a good idea because you will have conflicts when updating.</p>
+
+<h2 id="scaling">Scaling</h2>
+
+<p>Another problem has been that Phpactor has been aggregating functionality, and
+as time has gone on I wish that I could drop certain things, or introduce new
+domain-specific features.</p>
+
+<p>Another long-standing problem has been lack of code fixers (prettifiers).
+While I have been tempted to write a Phpactor CS Fixer, it would only have
+been able to do the absolute minimum to fix the grossest formatting errors in
+generated code. So it makes far sense to make use of an existing tools
+<a href="https://github.com/FriendsOfPHP/PHP-CS-Fixer">php-cs-fixer</a> and
+<a href="https://github.com/squizlabs/PHP_CodeSniffer">phpcs</a> - but it makes <em>not so
+much sense</em> to bind them to Phpactor, as people will want to use one or the
+other (often depending on project requirements).</p>
+
+<h2 id="the-language-server">The Language Server</h2>
+
+<p>Recently I have been playing with a Phpactor
+<a href="https://microsoft.github.io/language-server-protocol/specification">Language
+Server Protocol</a> (LSP) implementation, I have introduced this into the <code>develop</code>
+branch, it is generally works quite well. The biggest advantage is that it
+opens Phpactor up to other text editors with no additional effort, and it means
+ultimately not having to maintain a <code>phpactor.vim</code> plugin.</p>
+
+<p>The disadvantage is that it's a long running process, and at the moment at
+least the original Phpactor is more stable.</p>
+
+<p>Anyway - it leads to a problem where more code is added to the core which
+duplicates existing functionality and introduces more noise. It would be much
+better if the language server were optional.</p>
+
+<h2 id="extensions">Extensions</h2>
+
+<p>So this weekend I played with the idea of introducing an embedded composer.
+After checking out Beau Simensen's
+<a href="https://github.com/dflydev/dflydev-embedded-composer">embedded composer</a>. I
+managed to get a stripped down embedded composer working in a prototype project: <a href="https://github.com/phpactor/rephpactor">rephpactor</a>.</p>
+
+<h2 id="rephpactor">Rephpactor</h2>
+
+<p>Rephpactor (which will hopefully become Phpactor 1.0) will look something like this with no extensions installed:</p>
+
+<pre><code class="bash">Rephpactor
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help            Display this help message
+  -q, --quiet           Do not output any message
+  -V, --version         Display this application version
+      --ansi            Force ANSI output
+      --no-ansi         Disable ANSI output
+  -n, --no-interaction  Do not ask any interactive question
+  -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  help               Displays help for a command
+  list               Lists commands
+ extension
+  extension:install  Install extension
+  extension:update   Update extensions
+  extension:search   Search available extensions
+  extension:list     List installed extensions
+</code></pre>
+
+<p>There is absolutely nothing there! It's amazing.</p>
+
+<blockquote>
+  <p>There is absolutely nothing there! It's amazing.</p>
+</blockquote>
+
+<p>After initially installing you will be able to use the <code>extension:install</code>
+command to add packages from Packagist (only those with the
+<code>phpactor-extension</code>) type are permitted:</p>
+
+<pre><code class="bash">$ ./bin/rephpactor extension:install phpactor/language-server-extension
+</code></pre>
+
+<p>The installed extensions can then be listed:</p>
+
+<pre><code class="bash">$ ./bin/rephpactor extension:list
++--------------------------------------+-----------+--------------------------------------+
+| Name                                 | Version   | Description                          |
++--------------------------------------+-----------+--------------------------------------+
+| phpactor/language-server-extension   | 1.0.x-dev | LSP compatible language server       |
+| phpactor/completion-extension        | 1.0.x-dev | Completion framework                 |
+| phpactor/worse-reflection-extension  | 1.0.x-dev | Completors and other terrbile things |
++--------------------------------------+-----------+--------------------------------------+
+</code></pre>
+
+<h2 id="profit">Profit</h2>
+
+<p>This change, when it makes it to Phpactor, will make it possible to support
+more diverse domains. So for example, Symfony DI Completion, or Behat "feature
+to step jumping". Things get even more interesting at the language-server level.</p>
+
+<p>It would be easy to create for example a PHPStan extension for the language
+server (and fulfil the LSP APIs for diagnostics) or a <code>php-cs-fixer</code> extension (and
+fulfil the LSP APIs for code formatting). It would even be possible to add
+completors based on existing tools (such as <a href="https://getpsalm.org/">Psalm</a>).</p>
+
+<p>The most important thing is, that by removing pretty much <em>everything</em> from
+Phpactor by default, we can release a <strong>stable 1.0 version</strong> and there would be
+much rejoicing.</p>
+
+<h2 id="feature-agnostic">Feature Agnostic</h2>
+
+<p>As a foot note, Phpactor would also be agnostic to function. It would no longer
+<em>need</em> to do anything related to PHP code development, it essentially just
+provides a way to install extensions and bootstrap commands.</p>
+
+        </div>
+            </article>
+    <article>
+        <header>
+            <h2><a href="/blog/2018/08/19/phpactor-3-years/">Three Years of Phpactor</a></h2>
+        </header>
+        <div>
+            <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Wondering how much work it would be to create an SQlite backed PHP plugin for VIM for &quot;refactoring&quot;, NS aware autocomplete &amp; jumping etc.</p>&mdash; Dan Leech (@dantleech) <a href="https://twitter.com/dantleech/status/646913136541454336?ref_src=twsrc%5Etfw">24 September 2015</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>The first commit in <a href="https://github.com/phpactor/phpactor">Phpactor</a>
+(pronounced "factor") dates from almost three years ago:</p>
+
+<pre><code>commit 3677c5cb58a5b203fb658c8e2498e512cdef555a
+Author: dantleech &lt;dan.t.leech@gmail.com&gt;
+Date:   Thu Sep 24 14:08:35 2015 +0200
+
+    Initial
+</code></pre>
+
+<p>I had no idea about how to create such an ambitious project in a domain in
+which I knew nothing. But I had been using VIM for around 7 years (?), VIM is a
+great text editor, but the tooling around <strong>refactoring and auto-completion</strong> for
+PHP was sub-optimal, and instead of waiting more years, I decided to write my
+own tool.</p>
+
+<p>Actually almost all Phpactor development has happened in the past
+<strong>year-and-a-half</strong>. The above commit was the first of three attempts to create a
+code-completion and refactoring tool backend for editors such as VIM. This
+initial (3 commit) effort was to use an SQLite database to index the classes
+and functions in a project (an approach that was later dropped). Then followed
+another few commits four months later, then more 6 months after that. More
+serious development started in late 2016 but I struggled with the
+<a href="https://github.com/nikic/PHP-Parser">PhpParser</a>, I then found out about the
+Microsoft <a href="https://github.com/microsoft/tolerant-php-parser">Tolerant PHP
+Parser</a> which was designed
+exactly for Phpactor's use case, I also decided to take a more pragmatic
+approach to the project.</p>
+
+<p><img src="/images/2018-08-19/phpactor.png" alt="The Phpactor logo" /></p>
+
+<p><em>The Phpactor logo</em></p>
+
+<p>What single thing would deliver the most value to <em>me</em>, what would provide the
+biggest return-on-investment?</p>
+
+<p>Completion would have been nice, but the one thing that I wanted the most was
+a way to <em>move classes</em> - this has been an extremely painful thing to do in
+VIM, requiring not only moving files, but also updating all of the class
+namespaces, and all the references to those classes.</p>
+
+<p>I decided to concentrate on this single feature instead of trying to
+solve the much more difficult problem of code completion. I would just do <em>whatever
+was necessary</em> to make class moving work, in a separate, fully
+decoupled, stand-alone library. It wouldn't matter if the code was
+sub-optimal as it wouldn't contaminate other areas of the application. With
+this in mind I restarted the project:</p>
+
+<pre><code>commit 07a8bbb442966854bc6029e7e8490b151366e69a
+Author: dantleech &lt;dan.t.leech@gmail.com&gt;
+Date:   Mon Jun 19 14:47:32 2017 +0100
+
+    Restarting the project
+</code></pre>
+
+<p>From this point on Phpactor has just continued to grow and it slowly aggregated
+more and more functionality spread out over different repositories. The class
+moving library has basically remained the same since it's creation.</p>
+
+<p><img src="/images/2018-08-19/param_completion.gif" alt="Parameter Completion" /></p>
+
+<p><em>Parameter Completion</em></p>
+
+<p>The origins of Phpactor can be found in some humble VIM plugins I wrote, one which
+<a href="https://github.com/dantleech/vim-phpnamespace">determines the namespace of the current class
+file</a> and another which
+<a href="https://github.com/dantleech/vim-phpunit">generates</a> a PHPUnit test case for
+the current class. Both of these plugins made use of the
+<a href="https://getcomposer.org">composer</a> autoloader to determine class locations.
+This non-standard use of the composer autoloader is what powers Phpactor's
+source-location abilities, making slow indexing processes and caching
+largely unnecessary.</p>
+
+<p>The current version of Phpactor is something of an epic project. It has many
+libraries (for example <a href="https://github.com/phpactor/worse-reflection">worse
+reflection</a>, <code>code-transform</code>,
+<code>code-builder</code>, <code>docblock</code>, <code>class-mover</code>, <code>completion</code>, <code>path-finder</code>, and
+more). All of the libraries are untagged and unstable, none of them are
+intended to be consumed by other projects at this point in time and most of
+them fall short of being outstanding, providing only what is good-enough for
+the Phpactor project. They are, however decoupled from the main Phpactor
+application.</p>
+
+<p><img src="/images/2018-08-19/components.png" alt="Components" /></p>
+
+<p><em>Some of Phpactors Components</em></p>
+
+<h2 id="an-opportunity-to-experiment">An Opportunity to Experiment</h2>
+
+<p>One of the advantages of personal projects is that you have freedom to
+experiment with new ways of doing things, while at work this can either be
+risky, or inappropriate.</p>
+
+<p>In writing this project I wanted to try some of the DDD concepts I
+discovered after reading Vaughn Vernons <a href="https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577">Implementing Domain-Driven
+Design</a>.
+Implementing a new paradigm is always going to be a trail-and-error
+experience, and I would do some things differently next time. All the
+libraries in Phpactor have a directory structure similar to the following:</p>
+
+<pre><code class="bash">lib/
+    Core/
+        ...
+    Adapter/
+        ...
+</code></pre>
+
+<p>With all the "clean" uncoupled code in <code>Core</code> (I was going to call this
+<code>Domain</code>, but didn't want to presume that I was doing DDD) and the
+adapter which implement the interfaces in <code>Core</code> and provide a coupling to
+another library. In an ideal world these adapters would be in separate
+packages, but the value wouldn't outweigh the effort in this case (or at least at
+this moment in time). I also implemented many <a href="https://martinfowler.com/bliki/ValueObject.html">Value
+Objects</a> (VOs).</p>
+
+<p>There is an amount of VO duplication between packages, notably for things such
+as <code>SourceCode</code> and <code>ClassName</code> objects. It might make sense in the future to
+extract some of the VO objects to a separate packages, but it's difficult to
+determine if the meaning is exactly the same (e.g. a <code>ClassName</code> VO in a
+library which infers <a href="https://github.com/phpactor/class-to-file">class names from
+filenames</a> has different
+requirements than a <code>ClassName</code> in the reflection library), however
+<code>SourceCode</code> is implemented three or four times as basically the same class.</p>
+
+<p><img src="/images/2018-08-19/extract_method.gif" alt="Extract Method" /></p>
+
+<p><em>Extract Method</em></p>
+
+<p>I also learnt to avoid expose value objects at package boundaries as arguments.
+Exposing them meant that code outside the package would know more about the
+package than it ought to have done (for example, it imported the class name, or
+used a specific method of the VO) and therefore increased the difficulty and
+risk of refactoring the package.</p>
+
+<p>For example:</p>
+
+<pre><code class="php">use Phpactor\\ClassToFile\\Core\\ClassName as ClassToFileClassName;
+use Phpactor\\WorseReflection\\Core\\ClassName as ReflectionClassName;
+
+$file = $classToFile-&gt;classToFile(ClassToFileClassName::fromString('Foobar\\Barfoo'));
+$reflection = $reflector-&gt;reflectClass(ReflectionClassName::fromString('Foobar\\Barfoo'));
+</code></pre>
+
+<p>and without the VO:</p>
+
+<pre><code class="php">$file = $classToFile-&gt;classToFile('Foobar\\Barfoo');
+$reflection = $reflector-&gt;reflectClass('Foobar\\Barfoo');
+</code></pre>
+
+<p>Internally the package could still use the VO but this detail is hidden
+from the outside.</p>
+
+<h2 id="wheel-reinventing">Wheel Reinventing</h2>
+
+<p>The wheel has been reinvented a few times, notably in the case of
+<a href="https://github.com/phpactor/worse-reflection">WorseReflection</a> (WR) - the
+backbone of Phpactor. It provides broadly the same functionality as, and was
+influenced by, <a href="https://github.com/Roave/BetterReflection">BetterReflection</a>
+(BR) with the addition of type and value flow (required for completion). The
+justification here is that it would have been impossible to merge the
+type-flow code in WR into BR, because it was so bad and experimental. But
+whilst being experimental it was providing actual value to Phpactor. In
+addition, BR had some performance problems (at the time) which made it
+specifically unsuitable for real-time completion.</p>
+
+<p>On one hand it is a shame that I didn't contribute to BetterReflection, but
+on the other I don't think Phpactor would have been built if I did. WR is the
+core domain, and as such it is subservient to the needs of the project and
+needs to be owned by it.</p>
+
+<p>Another example of wheel-reinventing is the <a href="https://github.com/phpactor/docblock">docblock
+parser</a>. There is already the <a href="https://github.com/phpDocumentor/ReflectionDocBlock">PHPDoc
+DocBlock</a> and the great
+<a href="https://github.com/phpstan/phpdoc-parser">PHPStan PHPDoc Parser</a>. The first
+project depended on the <code>nikic/php-parser</code> for type resolution (which is
+arguably not a requirement for a parser). The PHPStan parser was functionally
+perfect, and I happily tried to <a href="https://github.com/phpactor/worse-reflection/pull/28">replace the Phpactor
+parser</a> - but 
+unfortunately it was 10x slower than dumb regex parsing, so the otherwise
+inferior Phpactor package is still relevant.  It's the difference between a
+0.25s completion time on a PHPUnit test case, and a 2.5s one.</p>
+
+<p>Finally there is Phpactor's <a href="https://phpactor.github.io/phpactor/rpc.html">RPC
+protocol</a> used to talk to the editor. At the
+time I was vaguely aware of <a href="https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md">Langauge Server
+Protocol</a>
+(LSP) but didn't look more into it as it is for a language <em>server</em>. Phpactor is not
+a server, it's invoked as a command. In hindsight the RPC protocol of Phpactor
+can fit inside the LSP and Phpactor could optionally be made
+into a server (although running as a short-lived process is better in terms of
+stability) (see pull
+<a href="https://github.com/phpactor/phpactor/pull/531">request</a>). LSP support would
+allow Phpactor to be used transparently by many more editors.</p>
+
+<p><img src="/images/2018-08-19/import_and_implement.gif" alt="Implement Contract" /></p>
+
+<p><em>Import class and Implement Contract</em></p>
+
+<h2 id="return-on-investment">Return on Investment</h2>
+
+<p>Phpactor has taken up a <em>huge</em> amount of my spare time over the past
+year-and-a-half. I enjoy coding and look forward to spending a Saturday
+morning crafting a new feature in Phpactor, but often morning becomes
+mid-afternoon, and sometimes intrudes into Sunday.</p>
+
+<p>Personally Phpactor is now an indispensable tool that I use at work every day,
+and I am most motivated to work on it when I am presented with a particular
+challenge in my job.</p>
+
+<p>But I do ask myself if it is worth the time given that there are other
+projects which have grown in Phpactors lifetime (e.g. <a href="https://github.com/felixfbecker/php-language-server">Php Language
+Server</a> and
+<a href="https://github.com/padawan-php/padawan.vim">Padawan</a>) but these two libraries
+are mostly (exclusively?) concerned with code-completion, I don't think there
+is anything freely available which competes directly with Phpactor.</p>
+
+<p>But still - is it worth me <em>investing all this time</em> when I could be working on
+other projects? (like my other side-project,
+<a href="https://github.com/phpbench/phpbench">Phpbench</a>, which has seen little
+attention since I started Phpactor) -- or -- doing things <em>other</em>
+than programming?</p>
+
+<p>This is a question I ask myself sometimes, and to be honest, all things
+considered, it probably isn't worth it. But I am happy that Phpactor turns VIM
+into viable modern IDE for PHP and it can now handle finding method references
+for example, and provide some relief to users of other editors
+working with VIM users:</p>
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Think I might start charging to be a PhpStorm by proxy for VIM users that can&#39;t find occurrences of method usages and the likes :)</p>&mdash; James Titcumb 🇪🇺 (@asgrim) <a href="https://twitter.com/asgrim/status/1011267764659638277?ref_src=twsrc%5Etfw">25 June 2018</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>I was slightly surprised to notice when I paired with a developer using PHPStorm we both
+look for references to a particular method, both PHPStorm and Phpactor returned
+the same methods and, when finding class references, Phpactor
+actually seemed to have out-performed PHPStorm. I do not assert that Phpactor
+is as accurate or comprehensive as PHPStorm (because it is not), but it does a
+pretty good job.</p>
+
+<p><img src="/images/2018-08-19/class_references.gif" alt="Class References" /></p>
+
+<p><em>Class References</em></p>
+
+<p>Finally, there is more interaction with other people in the Phpactor project
+than on my other projects, although it only has ~<strong>280</strong> stars on Github
+(compared to, for example, <a href="https://github.com/phpbench/phpbench">Phpbench</a>'s
+~<strong>780</strong>) there are many more people contributing and raising issues and
+creating third-party integrations (such as a plugin for
+<a href="https://github.com/emacs-php/phpactor.el">emacs</a> and integrations with
+completion manages such as <a href="https://github.com/phpactor/ncm2-phpactor">ncm</a> and
+<a href="https://github.com/kristijanhusak/deoplete-phpactor">deoplete</a>). Having this
+feedback is encouraging,</p>
+
+<p>Phpactor is by no means perfect - it will not find <em>all</em> your references, it
+will not complete <em>everthing</em> that PHPStorm would, <em>some</em> of the refactorings
+will, <em>sometimes</em> leave you with incorrect code. But for the most part it works really well.</p>
+
+<p>It may be that one day Phpactor will be displaced by an even better solution,
+which would be fine. But I hope it will continue to grow and that some of the
+technical debt can be repaid and that one day some of the libraries will be
+stable and even more <a href="https://phpactor.github.io/phpactor/refactorings.html">useful refactorings and
+features</a> will be
+developed.</p>
+
+        </div>
+            </article>
+    <nav>
+        <a href="/page/8">Newer Posts</a><br />
+        <a href="/page/10">Older Posts</a><br />
+    </nav>
+                </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="text-right">
+                <span class="text-muted small">&copy; 2019 Dans Blog powered by electricity, <a class="dull-link" href="https://github.com/sculpin/sculpin">sculpin</a> and possibly other things</span>
+            </div>
+        </footer>
+
+
+        <script src="/components/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="/components/bootstrap/js/bootstrap.min.js"></script>
+                
+                <script src="/components/highlightjs/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+                    </body>
+</html>

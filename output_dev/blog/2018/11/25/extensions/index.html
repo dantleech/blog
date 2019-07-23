@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Phpactor Extensions &mdash; Dans Blog &mdash; PHP and other terrible things.</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="robots" content="index, follow">
+        <link href="/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+        <link rel="apple-touch-startup-image" href="/images/jackson/2048x2048.png">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+                               integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                               crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+                integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+                crossorigin=""></script>
+
+        <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Dans Blog activity feed" />
+                                    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Dans Blog</a>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog">Archive</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/touring">Touring</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://read.dantleech.com">Links</a></li>
+                                                                                </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                        <article>
+        <header>
+            <h1>Phpactor Extensions</h1>
+                        <h3 class="subtitle">or how to build a stupid completion application</h3>
+                        <span class="date">2019-07-23T21:12:22+01:00</span>
+                            <p class="categories">
+                                <a href="/blog/categories/phpactor">phpactor</a>                                </p>
+                                            </header>
+             <div>
+                 <p>Over the past month or so I have been gradually migrating Phpactor to use
+Extensions.</p>
+
+<p>This started because I wanted to add Language Server capabilities to Phpactor,
+but having two RPC mechanisms in the same application seemed overkill, so I
+decided to extract everything into extensions in order that all of the
+components could be easily reused and recombined (so that a
+<code>phpactor-language-server</code> standalone application could be created).</p>
+
+<p>In addition I wanted the ability to add framework and tool specific
+functionality, which doesn't belong in the main distribution. This all pointed
+the way to having user extensions.</p>
+
+<p><img src="/images/2018-11-25/installing_extensions.gif" alt="Installing Extensions" /></p>
+
+<h2 id="writing-an-extension">Writing an Extension</h2>
+
+<p>Extensions have a few key attributes:</p>
+
+<ol>
+<li>The extension package should have a package type of <code>phpactor-extension</code>
+and an extra attribute <code>phpactor.extension_class</code> which points to...</li>
+<li>The extension class which implements <code>Phpactor\Container\Extension</code>.</li>
+</ol>
+
+<p>That's it. The extension class is just a DI container (similar to Pimple but
+with tags and parameters) with additional configuration (something like the
+Symfony Option Resolver).</p>
+
+<h2 id="stupid-completor">Stupid Completor</h2>
+
+<p><strong>DISCLAIMER</strong>: Phpactor is not currently not stable, and some packages have
+no tagged release at all.</p>
+
+<p>Lets make a completion extension. This extension will accept some
+configuration: <code>stupid_completor.items</code> and it will return these items as
+suggestions every time it is invoked.</p>
+
+<p>First of all we will need to require the <code>phpactor/container</code> package (this is
+the only strict requirement) and the <code>phpactor/completion-extension</code> (as we
+are building a completor) and ensure our composer file has the following attributes:</p>
+
+<ol>
+<li>A <code>type</code> of <code>phpactor-extension</code></li>
+<li>An <code>extra</code> property with the FQN of the extension class.</li>
+</ol>
+
+<p>It might look something like this:</p>
+
+<pre><code class="javascript">{
+    "name": "acme/stupid-completion-extension",
+    "description": "Stupid Completion Support",
+    "license": "MIT",
+    "type": "phpactor-extension",
+    "minimum-stability": "dev",
+    "require": {
+        "phpactor/container": "^1.0",
+        "phpactor/completion-extension": "~0.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\Extension\\StupidCompletion\\": "lib/"
+        }
+    },
+    "extra": {
+        "phpactor.extension_class": "Acme\\Extension\\StupidCompletion\\StupidCompletionExtension"
+    }
+}
+</code></pre>
+
+<p><strong>NOTE</strong>: that the completion extension has no release at time of writing so
+  <code>minimum-stability: dev</code> is currently required.</p>
+
+<p>We need to create a completor class to provide our stupid suggestions,
+let's put it in <code>lib/Completion/StupidCompletion.php</code>:</p>
+
+<pre><code class="php">&lt;?php
+
+namespace Acme\Extension\StupidCompletion\Completion;
+
+use Generator;
+use Phpactor\Completion\Core\Completor;
+use Phpactor\Completion\Core\Suggestion;
+
+class StupidCompletion implements Completor
+{
+    private $suggestions;
+
+    public function __construct(array $suggestions)
+    {
+        $this-&gt;suggestions = $suggestions;
+    }
+
+    public function complete(string $source, int $byteOffset): Generator
+    {
+        foreach ($this-&gt;suggestions as $suggestion) {
+            yield Suggestion::create($suggestion);
+        }
+    }
+}
+</code></pre>
+
+<p>Now we need the extension class, this will integrate our completor, this
+should be in <code>lib/StupidCompletionExtension.php</code> as with the above:</p>
+
+<pre><code class="php">&lt;?php
+
+namespace Acme\Extension\StupidCompletion;
+
+use Acme\Extension\StupidCompletion\Completion\StupidCompletion;
+use Phpactor\Container\Container;
+use Phpactor\Container\ContainerBuilder;
+use Phpactor\Container\Extension;
+use Phpactor\Extension\Completion\CompletionExtension;
+use Phpactor\MapResolver\Resolver;
+
+class StupidCompletionExtension implements Extension
+{
+    public const PARAM_ITEMS = 'stupid_completor.items';
+
+    public function load(ContainerBuilder $container)
+    {
+        $container-&gt;register('stupid_completor.stupid_completor', function (Container $container) {
+            return new StupidCompletion(
+                $container-&gt;getParameter(self::PARAM_ITEMS)
+            );
+        }, [ CompletionExtension::TAG_COMPLETOR =&gt; []]);
+    }
+
+    public function configure(Resolver $schema)
+    {
+        $schema-&gt;setDefaults([
+            self::PARAM_ITEMS =&gt; [
+                'hello', 'goodbye'
+            ]
+        ]);
+    }
+}
+</code></pre>
+
+<p>Note that above:</p>
+
+<ol>
+<li>We add a tag to our completor from the <code>CompletionExtension</code>. Anything that
+is "public" is exposed as a public constant, including tags and services
+(<code>TAG_*</code> and <code>SERVICE_*</code>).</li>
+<li>We set some default configuration, when used with Phpactor this can be set
+in <code>.phpactor.yml</code> as <code>stupid_completor.items</code>.</li>
+</ol>
+
+<h2 id="testing-it-out">Testing it Out</h2>
+
+<p>You could probably now push your extension to packagist, or add it as a <a href="https://getcomposer.org/doc/05-repositories.md#path">path
+repository</a> in Phpactor's
+<code>extensions/extensions.json</code> file (which is actually a <code>composer.json</code> file):</p>
+
+<pre><code>    "repositories": [
+        {
+            "type": "path",
+            "url": "\/home\/daniel\/www\/phpactor\/stupid-completor-extension"
+        }
+    ]
+</code></pre>
+
+<p>Once this is done you are ready to install it with:</p>
+
+<pre><code>$ ~/.vim/plugged/phpactor/bin/phpactor extension:install acme/stupid-completion-extension
+</code></pre>
+
+<p>Note that Phpactor will load extensions based on the contents of the file
+<code>extensions/extensions.php</code> - if you experience issues you may want to disable
+the extension temporarily in this file.</p>
+
+<h2 id="making-a-standalone-application">Making a Standalone Application</h2>
+
+<p>Sometimes you might create an extension which can be used standalone. This is
+beneficial for user testing and if the extension can be useful without
+Phpactor.</p>
+
+<p>Our standalone application will provide completion results over Phpactor's
+RPC protocol and will need the command line interface, so require the
+following:</p>
+
+<pre><code>$ composer require phpactor/completion-rpc-extension phpactor/console-extension
+</code></pre>
+
+<p>Create a standalone RPC application for stupid completion: just create the
+following file in <code>bin/stupid-completion</code>:</p>
+
+<pre><code>#!/usr/bin/env php
+&lt;?php
+
+use Acme\Extension\StupidCompletion\StupidCompletionExtension;
+use Phpactor\Container\PhpactorContainer;
+use Phpactor\Extension\Completion\CompletionExtension;
+use Phpactor\Extension\Console\ConsoleExtension;
+use Phpactor\Extension\Logger\LoggingExtension;
+use Phpactor\Extension\Rpc\RpcExtension;
+use Phpactor\FilePathResolverExtension\FilePathResolverExtension;
+use Symfony\Component\Console\Application;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$container = PhpactorContainer::fromExtensions([
+    StupidCompletionExtension::class,
+    CompletionExtension::class,
+    ConsoleExtension::class,
+    RpcExtension::class,
+    LoggingExtension::class,
+    FilePathResolverExtension::class,
+], []);
+
+$application = new Application();
+$application-&gt;setCommandLoader(
+    $container-&gt;get(ConsoleExtension::SERVICE_COMMAND_LOADER)
+);
+$application-&gt;run();
+</code></pre>
+
+<p>Note that:</p>
+
+<ol>
+<li>We instantiate a <code>PhpactorContainer</code></li>
+<li>We manually added all the required extensions (the container will shout at you
+if any extensions were missing).</li>
+<li>We create a new Symfony Application and retrieve the command loader from
+the console extension.</li>
+<li>We run the application</li>
+</ol>
+
+<p>Make it executable with <code>chmod a+x bin/stupid-completion</code> and now
+you have a stupid RPC completor!</p>
+
+<pre><code class="bash">$ echo '{"action": "complete", "parameters": {"source": "&lt;?php ", "offset": 2}}' | ./bin/stupid rpc --pretty
+{
+    "version": "1.0.0",
+    "action": "return",
+    "parameters": {
+        "value": {
+            "suggestions": [
+                {
+                    "type": null,
+                    "name": "hello",
+                    "label": "hello",
+                    "short_description": null,
+                    "class_import": null,
+                    "info": null
+                },
+                {
+                    "type": null,
+                    "name": "goodbye",
+                    "label": "goodbye",
+                    "short_description": null,
+                    "class_import": null,
+                    "info": null
+                }
+            ],
+            "issues": []
+        }
+    }
+}
+</code></pre>
+
+<h2 id="summary">Summary</h2>
+
+<p>Extensions should allow Phpactor to be extended in all sorts of ways, as well
+as providing a very fast way to create entirely new applications based on
+Phpactor functionality.</p>
+
+<p>The above extension ommits tests for the completor and the extension
+itself. For a simple(ish) working example see the <a href="https://github.com/phpactor/behat-extension">behat
+extension</a>.</p>
+
+             </div>
+                          <p class="categories">
+             Categories:
+                          <a href="/blog/categories/phpactor">phpactor</a>                          </p>
+                          
+                          <nav class="article">
+                 <ul>
+                                          <li>Next: <a class="next" href="/blog/2019/02/11/timesheet-parser-hoa-compiler/" title="Make Timesheet Parser with Hoa Compiler"><span class="title">Make Timesheet Parser with Hoa Compiler</span></a></li>
+                                                               <li>Previous: <a class="previous" href="/blog/2018/10/14/rephpactor/" title="Rephpactor"><span class="title">Rephpactor</span></a></li>
+                                      </ul>
+             </nav>
+                 </article>
+
+
+    
+                    </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="text-right">
+                <span class="text-muted small">&copy; 2019 Dans Blog powered by electricity, <a class="dull-link" href="https://github.com/sculpin/sculpin">sculpin</a> and possibly other things</span>
+            </div>
+        </footer>
+
+
+        <script src="/components/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="/components/bootstrap/js/bootstrap.min.js"></script>
+                
+                <script src="/components/highlightjs/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+                    </body>
+</html>

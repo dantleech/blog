@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Rest Day &mdash; Dans Blog &mdash; PHP and other terrible things.</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="robots" content="index, follow">
+        <link href="/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+        <link rel="apple-touch-startup-image" href="/images/jackson/2048x2048.png">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+                               integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                               crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+                integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+                crossorigin=""></script>
+
+        <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Dans Blog activity feed" />
+                                    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Dans Blog</a>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog">Archive</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/touring">Touring</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://read.dantleech.com">Links</a></li>
+                                                                                </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                        <article>
+        <header>
+            <h1>Rest Day</h1>
+                        <span class="date">2019-07-23T21:12:22+01:00</span>
+                            <p class="categories">
+                                <a href="/blog/categories/helsinki2019">helsinki2019</a>                                </p>
+                                                    <div id="mapid"></div>
+<script>
+        var mymap = L.map('mapid').setView([54.689709430617, 25.271301269531], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoiZGFudGxlZWNoIiwiYSI6ImNqeGhqeHlhZDA4Y2UzdG1uMnNpbzM0amQifQ.x8iRgnISRZPon1DFkiXoFw'
+    }).addTo(mymap);
+    var markers = [];
+    markers.push(L.marker(["54.689709430617","25.271301269531"], {opacity: 1}).addTo(mymap));
+    markers.push(L.marker(["54.689709430617","25.271301269531"], {opacity: 1}).addTo(mymap));
+    var group = new L.featureGroup(markers);
+    mymap.fitBounds(group.getBounds(), {
+        padding: [50,50]
+    });
+    mymap.on('click', function (e) {
+        console.log(e.latlng);"Hello"
+        L.popup()
+            .setLatLng(e.latlng)
+            .setContent('[' + e.latlng.lat + ", " + e.latlng.lng + ']')
+            .openOn(mymap);
+    });
+    L.polyline([["54.689709430617","25.271301269531"]], {color: 'red'}).addTo(mymap);
+    L.control.scale().addTo(mymap);
+</script>
+                <hr/>
+                    </header>
+             <div>
+                 <p>Today was the first rest day so far. I got out of bed around 8am, and had a
+terrible hangover. I went downstairs to the kitchen and sat down, the hostel
+guy was there and was preparing croissants, also there was a nice old man from
+South Korea. It was good chatting to both of them, the hostel guy worked in
+London for 2 years, and actually studied English in my hometown - Weymouth.
+This was the first time he had met anybody from Weymouth since.</p>
+
+<p>Korean guy and I ate the croissants, and when Stefan got to the kitchen
+they were all gone.</p>
+
+<p>I decided to go for a run to try and beat off my hangover, the hostel guy
+recommended running to the "hill of the three crosses" which overlooks the old
+town just behind the castle.</p>
+
+<p>I started running, and each pounding step caused pain in my head, but
+gradually the head pain disappeared as I started running up the 163m hill. On
+top there were <a href="https://en.wikipedia.org/wiki/Three_Crosses">three crosses</a>
+where several Franciscan friars were brutally beheaded.</p>
+
+<p>There were other hills which I ran up and down before running up the river for
+a while. After 45 minutes my legs were giving me some problems, and I ended up
+walking with a limp for the rest of the day. I have some kind of running
+injury in general and probably need to stop running completely for some months
+in order to recover.</p>
+
+<p>After the run I collapsed on the bed, before going out to a cafe and getting
+coffee and cake and working, then going back and crashing again, then
+going out for coffee and cake and working and finally getting lost and
+wondering back to the hotel.</p>
+
+<p>Stefan had gone out for a beer when I got back and had invited me along, I met
+him and we found a Pizza place and had Pizza beer, I didn't want to
+drink more beer however, so went back to the hostel while Stefan ventured out
+to some more bars.</p>
+
+<p>It's tempting to stay another day here, but tomorrow I'll leave after the
+morning croissants - on my own, as Stefan is flying back to Berlin having
+already cycled from Tallinn. There is a EuroVelo cycle route heading to the
+capital of Latvia, Riga, which I think will take 3-4 days, then I will have
+another rest.</p>
+
+<p>Have enjoyed my stay in old-town Vilnius. Although it's touristy, it is not
+saturated with tourists, and there is lots of space and locals seem to be at
+least matching the tourist numbers.</p>
+
+             </div>
+                          <p class="categories">
+             Categories:
+                          <a href="/blog/categories/helsinki2019">helsinki2019</a>                          </p>
+                          
+                          <nav class="article">
+                 <ul>
+                                          <li>Next: <a class="next" href="/blog/2019/07/12/vilnius-sudeikiai/" title="Vilnius to Sudeikiai"><span class="title">Vilnius to Sudeikiai</span></a></li>
+                                                               <li>Previous: <a class="previous" href="/blog/2019/07/10/aukstadvaris-vilnius/" title="Aukstadvaris to Vilnius"><span class="title">Aukstadvaris to Vilnius</span></a></li>
+                                      </ul>
+             </nav>
+                 </article>
+
+
+    
+                    </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="text-right">
+                <span class="text-muted small">&copy; 2019 Dans Blog powered by electricity, <a class="dull-link" href="https://github.com/sculpin/sculpin">sculpin</a> and possibly other things</span>
+            </div>
+        </footer>
+
+
+        <script src="/components/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="/components/bootstrap/js/bootstrap.min.js"></script>
+                
+                <script src="/components/highlightjs/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+                    </body>
+</html>

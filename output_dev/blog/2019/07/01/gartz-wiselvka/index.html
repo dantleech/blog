@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Gartz to Wisełvka &mdash; Dans Blog &mdash; PHP and other terrible things.</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="robots" content="index, follow">
+        <link href="/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+        <link rel="apple-touch-startup-image" href="/images/jackson/2048x2048.png">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+                               integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                               crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+                integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+                crossorigin=""></script>
+
+        <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Dans Blog activity feed" />
+                                    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Dans Blog</a>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog">Archive</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/touring">Touring</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://read.dantleech.com">Links</a></li>
+                                                                                </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                        <article>
+        <header>
+            <h1>Gartz to Wisełvka</h1>
+                        <span class="date">2019-07-23T21:12:22+01:00</span>
+                            <p class="categories">
+                                <a href="/blog/categories/helsinki2019">helsinki2019</a>                                </p>
+                                        <table class="table">
+                    <tr>
+                        <th>Distance</th>
+                        <td>145km</td>
+                    </tr>
+                                        <tr>
+                        <th>Time</th>
+                        <td>9h09m</td>
+                    </tr>
+                                    </table>
+                <hr/>
+                                        <div id="mapid"></div>
+<script>
+        var mymap = L.map('mapid').setView([53.227207155024, 14.410972595215], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoiZGFudGxlZWNoIiwiYSI6ImNqeGhqeHlhZDA4Y2UzdG1uMnNpbzM0amQifQ.x8iRgnISRZPon1DFkiXoFw'
+    }).addTo(mymap);
+    var markers = [];
+    markers.push(L.marker(["53.227207155024","14.410972595215"], {opacity: 1}).addTo(mymap));
+    markers.push(L.marker(["53.966083969361","14.570789337158"], {opacity: 1}).addTo(mymap));
+    var group = new L.featureGroup(markers);
+    mymap.fitBounds(group.getBounds(), {
+        padding: [50,50]
+    });
+    mymap.on('click', function (e) {
+        console.log(e.latlng);"Hello"
+        L.popup()
+            .setLatLng(e.latlng)
+            .setContent('[' + e.latlng.lat + ", " + e.latlng.lng + ']')
+            .openOn(mymap);
+    });
+    L.polyline([["53.227207155024","14.410972595215"],["53.255355215925","14.493026733398"],["53.375955730081","14.646148681641"],["53.501117042943","14.705200195313"],["53.632832079199","14.650955200195"],["53.658474836455","14.617652893066"],["53.777123464031","14.635848999023"],["53.840373979033","14.609069824219"],["53.873582787983","14.481353759766"],["53.883702183208","14.435005187988"],["53.932661155978","14.45011138916"],["53.966083969361","14.570789337158"]], {color: 'red'}).addTo(mymap);
+    L.control.scale().addTo(mymap);
+</script>
+                <hr/>
+                    </header>
+             <div>
+                 <p>Didn't sleep too well last night. I situated my tent close the the main
+building where there was a collection of tables and chairs, and these were
+appropriated by another small group of cyclists. They operated at a reasonable
+volume until 12, but as tents have absolutely no sound insulation, it's as if
+I was there at the table with them. This drove me slightly nuts and I resorted
+to playing music in my headphones to drown the sound out, while sweating in
+the still uncomfortable heat, at midnight the small group called it a night,
+and the temperature dropped and I was able to crawl into my sleeping bag and
+sleep.</p>
+
+<p>In the morning I woke uncomfortably. I am using a new sleeping mat - the one I
+used previously was quite good, and I could almost guarantee a good nights
+sleep, but it had a micro puncture (which I absolutely could not find) so
+while it stays suitably inflated for 2 hours, it will be deflated after 4. So,
+I got a new one at Decathlon. It's a half-size inflatable matress, and I could
+probably fit three of them in the same space as the old one. The old one was
+more comfortable however.</p>
+
+<p>I lay in bed feeling awful and wondered why I was doing this. Then as the tent
+started to heat up I rose up zipped open the inner tent and made a coffee with
+my Italian coffee-maker, then I boild up some porridge - I didn't have any
+sweeteners, so I just put a lump of peanut butter in, maybe the extra salt and
+sugar would do me some good.</p>
+
+<p>More or less efficiently I packed up the tent and left, waving good bye to the
+now several cyclists who had all congregated at a table and were having
+breakfast.</p>
+
+<p>The Polish border was just around the corner, and I crossed the bridge over
+the river Oder as if it were any other bridge in Germany (Poland is in the
+Schengen zone, no passport checks).</p>
+
+<p><img src="/images/tallinn/2019-07-01/one.JPG" alt="Polish Border" /></p>
+
+<p><em>Polish Border</em></p>
+
+<p>The subsequent road was fifty-percent cobblestones, but a walkway proved a
+good alternative to the road, when I entered the twon of Gryfino I stopped and
+kept me eyes out for: 1. Bread, 2. Headphones. Bread would be easy to come by,
+headphones not so much. I found neither, not did I look very hard.</p>
+
+<p><img src="/images/tallinn/2019-07-01/two.JPG" alt="Bridge to Gryfino" /></p>
+
+<p><em>Bridge to Gryfino</em></p>
+
+<p>The not-drunk pensioner from the last night had shown me some routes to take
+on the bike, and I checked my map to see if I could find them. I couldn't
+remember exactly, but remembered some of the wiggly lines and lakes, then I
+just decided to head North or North East, taking any road that isn't a
+motorway.</p>
+
+<p><img src="/images/tallinn/2019-07-01/three.JPG" alt="" /></p>
+
+<p><em>Cobble #1</em></p>
+
+<p>This policy led me to the second cobblestone road of the day, and there would
+be more. This road ran for about 3km, and the cobblestones were shaking me and
+the bike continuously, limiting the speed and causing me to question how much
+of this punishment my bike could take.</p>
+
+<p>After about 30 minutes I stopped for a photo, then pedaled forward and there
+was one of those omninous <em>KLUNK!</em> noises. I stopped immediately and as the
+sound came from behind had a look at my back wheel. The V-Brake was hanging
+loose and had fallen into the wheel. It wasn't serious -- but the pin/screw
+holding it in had been vibrated out of it's socket. I ran back about 500m to
+see if I could find it (it would have been big enough to be easily seen). But
+no luck.</p>
+
+<p><img src="/images/tallinn/2019-07-01/four.JPG" alt="bad" /></p>
+
+<p><em>Don't forget to tighten your parts before riding on cobbles</em></p>
+
+<p>I removed the loose brake - it should be easy enough to get a replacement pin,
+but my bike is now front-brake only until I can find a bike shop.</p>
+
+<p>I kept heading north, bypassing the city of Szczecin to the west. This took me
+around a lake -- there was only the main road, which I guessed, would be
+forbidden to cyclists. But the pensioner had mentioned smaller roads, and
+indeed there were some green dotted lines on my map. I was also able to see a
+cached version of a cycle-map overlay on the map -- which basically means that
+when I zoomed out several times I could see a thick blurry red line which
+indicated the path of the Euro-Velo Iron Curtain Route. It passed straight up
+through the fields on these dotted green paths.</p>
+
+<p><img src="/images/tallinn/2019-07-01/five.JPG" alt="bad" /></p>
+
+<p><em>Givin way to dreaded sand</em></p>
+
+<p>For lunch (well, it was 11:30am - but I left early) I found a Perogi
+restaurant, I had assumed it was a bakery, but was tempted by Perogi -- a
+Polish food, "Tortellini" type wraps with fillings. The lady spoke a small
+amount of German, and I was, (I think?) able to indicate that "No meat, No
+fish", at least she then gave me a 2 Spinach, 2 Mushroom, and 2 of another
+variety, which I don't think was meat. I ate in the retaurant being able to
+look directly at my bike in front of the glass shop window. The Perogi was
+sprinkled with roasted onion flakes, and it was good and would get me through
+the rest of the day.</p>
+
+<p>As I cycled through a small village which had a small road leading to the
+start of the green dotted line -- I was surprised to see the sign of the
+"Camino de Santiago" - the ancient network of pilgrim paths leading to the
+city of Santiago de Compostella in north-west Spain. There are very old routes
+leading from all corners of Europe, and very often the trails are supported by
+hostels which will cater for pilgrims either for free or for a reasonable
+price.</p>
+
+<p><img src="/images/tallinn/2019-07-01/six.JPG" alt="bad" /></p>
+
+<p><em>Sign of the Camino</em></p>
+
+<p>The road started off as cobblestones, before giving way to sand, then to large
+concrete slabs.  It was not easy to traverse this section with the heavy
+touring bike, the wheels would slide into the deeper sections of sand, and it
+either took some extreme effort to pull myself out or the bike would slide
+into motionlessness.  It was quite exhausting, but also good to be out in the
+open country away from all traffic.</p>
+
+<p><img src="/images/tallinn/2019-07-01/seven.JPG" alt="bad" /></p>
+
+<p><em>Sand</em></p>
+
+<p>I didn't imagine doing another off-road excursion today, but as I made my way
+to the main road, I reaslised that the main road was a motorway of sorts, and
+cycling was explicitly prohibited -- so I checked the map and found more green
+lines, and this was a pattern for the remaining 5 hours of the day.</p>
+
+<p>The sand roads are the worst -- I am not sure why there is so much sand, but
+its impossible to make good progress, and you are frequntly slowed to almost a
+halt while the front tyre slides into a little sand pit, or you are stopped
+completely, one I lost my balance and jumped off the bike, more often I kick
+the ground to keep the bike on the right course.</p>
+
+<p><img src="/images/tallinn/2019-07-01/eight.JPG" alt="bad" /></p>
+
+<p><em>Too much sand</em></p>
+
+<p>Then there are the cobble roads - more consistent then the sand, but they
+impeed your speed and rattle your bones, whilst potentially causing important
+pieces of the bike to fall off.</p>
+
+<p>Less frequent than either of these are the good-old dirt roads which are solid
+and smooth, and littered with the occasional pile of rocks. Not many of these
+today however, they probably all turn to sand eventually.</p>
+
+<p>As I made may way I up, I passed through the town of Stepnica -- in retrospect
+I remember the pensioner saying that it was "Ikea Town" - as I passed thorugh
+there was indeed a large Ikea factory, with streams of blue-uniformed Ikea
+workers leaving and entering the facility. On the right hand side of the road
+was a hige lumberyard, on the left, the factory. I guess a large proportion of
+this town worked for Ikea.</p>
+
+<p><img src="/images/tallinn/2019-07-01/nine.JPG" alt="bad" /></p>
+
+<p><em>First glimpse of the sea</em></p>
+
+<p>The target for today was the north coast, from where I would cycle east. It
+had taken much effort and more time than anticipated due to the road quality,
+so after 110km and 7 hours I decided to stop at the next camp site. Cycling
+always on these green lines on the map, I made my way to what was marked as a
+camp site. I followed a dirt road, to a chalk road, which led to a big ranch
+-like gate, which looked abandoned, but the signs were still there and it
+looked hopeful none-the-less. I arrived at the campsite, there was a large
+house, and the whole place had a wild-west theme - but there was nobody there.
+There was a reception, which asked to call at the house, which I did, and a
+phone number, that I rang. But no response. It would have been a perfect place
+to camp, precisely because there was nobody there. But I decided to carry on.</p>
+
+<p><img src="/images/tallinn/2019-07-01/ten.JPG" alt="bad" /></p>
+
+<p><em>The Camp Site where nobody was home</em></p>
+
+<p>The next camp site really was on the north coast, and due to the motorway I
+was obliged to follow the green-line / pilgrims path the whole way.</p>
+
+<p><img src="/images/tallinn/2019-07-01/eleven.JPG" alt="bad" /></p>
+
+<p><em>This was the wrong path</em></p>
+
+<p>Despite the extra effort, and slow pace, time actually passes quicker on these
+roads - mainly because you have to focus the whole time on keeping the bike
+moving.</p>
+
+<p>When I got the the campsite I had targetted (in Witamy) I realised that I had
+landed in a complete tourist trap. There were tourists everywhere, and the
+campsite was just a field of camper vans, with a steady flow of white-shirted,
+red faced, slightly-overweight people going in and out. I considered getting a
+hotel, or pension (and everyother house was a pension), but as I cycled
+further through the town I decided to just keep going east.</p>
+
+<p>The road leading out was a minor/major road, the was reasonable frequent fast
+moving traffic, and I was worried at times when drivers would give me the
+benefit of half the road as they passed me, but then I would look on in horror
+as they looked set on a collision course with traffic from the other
+direction, and twice it was close enough for horns to be used. I decided to
+ride on the grass shoulder after that.</p>
+
+<p>The road was pleasant, and provided the first "mountain" of the tour -- I
+think it could only have been 100-150m (my phone was out of batteries so I
+couldn't check). I had now been riding for around 9 hours, and I was certainly
+feeling tired and hungry, but my legs were still working well. Then I found
+this campsite, which was not marked on the map, but when I pulled in, there
+was a car pulling out and the man driving (his wife next to him) said in
+perfect English that this was a very good campsite, and quite, well, apart
+from the noise of the road.</p>
+
+<p>The campsite cost 25 Zsloty, or around 6 euro.</p>
+
+             </div>
+                          <p class="categories">
+             Categories:
+                          <a href="/blog/categories/helsinki2019">helsinki2019</a>                          </p>
+                          
+                          <nav class="article">
+                 <ul>
+                                          <li>Next: <a class="next" href="/blog/2019/07/02/wiselvka-dabki/" title="Wisełvka to Dabki"><span class="title">Wisełvka to Dabki</span></a></li>
+                                                               <li>Previous: <a class="previous" href="/blog/2019/06/30/berlin-gartz/" title="Berlin to Gartz (Meschern)"><span class="title">Berlin to Gartz (Meschern)</span></a></li>
+                                      </ul>
+             </nav>
+                 </article>
+
+
+    
+                    </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="text-right">
+                <span class="text-muted small">&copy; 2019 Dans Blog powered by electricity, <a class="dull-link" href="https://github.com/sculpin/sculpin">sculpin</a> and possibly other things</span>
+            </div>
+        </footer>
+
+
+        <script src="/components/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="/components/bootstrap/js/bootstrap.min.js"></script>
+                
+                <script src="/components/highlightjs/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+                    </body>
+</html>

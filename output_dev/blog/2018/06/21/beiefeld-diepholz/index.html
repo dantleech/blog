@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Bielefeld to Diepholz &mdash; Dans Blog &mdash; PHP and other terrible things.</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="robots" content="index, follow">
+        <link href="/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+        <link rel="apple-touch-startup-image" href="/images/jackson/2048x2048.png">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/images/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="/images/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/images/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="/images/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+                               integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                               crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+                integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+                crossorigin=""></script>
+
+        <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Dans Blog activity feed" />
+                                    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Dans Blog</a>
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog">Archive</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/touring">Touring</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://read.dantleech.com">Links</a></li>
+                                                                                </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                        <article>
+        <header>
+            <h1>Bielefeld to Diepholz</h1>
+                        <span class="date">2019-07-23T21:12:22+01:00</span>
+                            <p class="categories">
+                                <a href="/blog/categories/norway2018">norway2018</a>                                </p>
+                                        <table class="table">
+                    <tr>
+                        <th>Distance</th>
+                        <td>95km</td>
+                    </tr>
+                                        <tr>
+                        <th>Time</th>
+                        <td>~7h</td>
+                    </tr>
+                                    </table>
+                <hr/>
+                                        <div id="mapid"></div>
+<script>
+        var mymap = L.map('mapid').setView([52.006019347218, 8.5308837890625], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoiZGFudGxlZWNoIiwiYSI6ImNqeGhqeHlhZDA4Y2UzdG1uMnNpbzM0amQifQ.x8iRgnISRZPon1DFkiXoFw'
+    }).addTo(mymap);
+    var markers = [];
+    markers.push(L.marker(["52.006019347218","8.5308837890625"], {opacity: 1}).addTo(mymap));
+    markers.push(L.marker(["52.612429543492","8.3708953857422"], {opacity: 1}).addTo(mymap));
+    var group = new L.featureGroup(markers);
+    mymap.fitBounds(group.getBounds(), {
+        padding: [50,50]
+    });
+    mymap.on('click', function (e) {
+        console.log(e.latlng);"Hello"
+        L.popup()
+            .setLatLng(e.latlng)
+            .setContent('[' + e.latlng.lat + ", " + e.latlng.lng + ']')
+            .openOn(mymap);
+    });
+    L.polyline([["52.006019347218","8.5308837890625"],["52.15287187547","8.4347534179688"],["52.323589632105","8.3420562744141"],["52.5145494359","8.3684921264648"],["52.612429543492","8.3708953857422"]], {color: 'red'}).addTo(mymap);
+    L.control.scale().addTo(mymap);
+</script>
+                <hr/>
+                    </header>
+             <div>
+                 <p>Time and distance are estimates as I still haven't hooked up my cycle
+computer.</p>
+
+<p><img src="/images/norway/2018-06-21-map.png" alt="Bielefeld to Diepholz Route" /></p>
+
+<p><em>Very rough map</em></p>
+
+<p>I am sitting on the bed of my room in the hotel Strangmeyer in
+Diepholz. I had planned to make it to Bremen today. I estimated it to be
+135km, I would head north west and join the D7 cycle route which would take me
+first to Bremen and then I thought I would carry on the next day to Hamburg. I
+didn't make it to Bremen, I only made around 95km and there is still another
+70km to go to Bremen.</p>
+
+<p>I knew that this first journey would be an experiment - I have done no
+training at all - the last time I rode any significant distance was in
+August last year. My journey lasted for about 7 hours. My legs were resisting
+and became sore. My bum is also sore. These are to be expected, but I didn't
+expect pain in my fingers and wrists.</p>
+
+<p>The third finger of my right hand has some muscle problem now (due to pulling
+the break lever) and I noticed early on that my left wrist became quite
+painful from being constantly engaged on the handlebar. I had this issue once
+before a years back and it crippled me for a week or so. So I took precaution
+to not put any more unnecessary pressure on it.</p>
+
+<p>I woke up in the Bielefeld campsite this morning at about 7:00am and made
+myself a coffee using my Italian coffee maker (the first time I have used one
+for camping) and put the contents into my thermos mug. I then started chucking
+all of my gear out the tent onto the grass so that I could pack it up.</p>
+
+<p>The bike was on the back of my brothers Land Rover, I haven't seen it in over a
+year. My father has been riding it in that time and mentioned that the breaks and
+rear tire would need replacing. Luckily I had 2 sets of spare break pads in my
+bag from my last tour, so I set to work replacing and adjusting them. It
+started raining.</p>
+
+<p>The weather forecast was ominous. Four days of rain.</p>
+
+<p>Break pads were replaced but the breaks still were not working very well, I
+made a personal engineering breakthrough when I realised that the reason they
+didn't work well was because the v-breaks had no tension and were
+loose. The v-break has a spring which pulls it away from the frame, the spring
+is hooked through one of three holes in different positions. The breaks were
+in the middle position, I moved them to the third and they were much better (I
+guess the springs are not as good as they used to be).</p>
+
+<p>So happy that now my breaks are better they have been for years.</p>
+
+<p>This took me some time and it was raining constantly and I was exposed. When I
+finished I jumped into the land-rover and woke my brother up (he was sleeping
+in the car and his friend in the tent). I was feeling a bit dizzy and shaking.
+I made a peanut-butter sandwich and finished my coffee and made to leave.</p>
+
+<p>The previous night we had all sat down in the campsite's biergarten and eaten
+pizza and drank a few beers. It turns out we had left the shower keys (you
+use the coupon and get charged after the fact) in the biergarten. But they
+found them and were happy to give my brother new ones.</p>
+
+<p>I said goodbye to my brother and cycled out of the campsite. Wondering if I
+had forgotten anything. The weather improved, the sun came out. But it would
+alternate between gusty rain and sunshine all day.</p>
+
+<p>The campsite was located south of Bielefeld (over the Bielefeld Berg[1], or the
+Teuton burger Forest). And I cycled over the Bielefeld Pass. In Mitte
+(center) I went to the bakery and got 2 chocolate cookies and set off.</p>
+
+<p>The path was not clear to me at all, and there was no direct route, so I ended
+up zig-zagging my way up to Bad-Essen - which explains the extra
+distance.</p>
+
+<p>I tried reciting my memorised poetry collection (I had 6 poems, including The
+Waste Land and The Raven). I tried 5 and couldn't finish any of them, I think
+they will come back to me though. It's a good resource to have and I could
+keep myself occupied for an hour or more when I could remember them all.</p>
+
+<p>The breaks were replaced, but I still needed a back tire, it was smooth, there
+was no tread left on it at all. When the Schwarbe Marathon tires ware down too
+much they reveal a green color, which I think means "replace me now". There
+was much green.</p>
+
+<p>In Bad-Essen I found a pretty large cycle shop, and immediately found the
+required tire. I asked if I could replace the tire in the shop, and they were
+good enough to replace it for me. The bike was outside and the mechanic
+insisted that the baggage be removed (I just wanted to give the wheel). They
+put my baggage <em>outside</em> in the street, it wasn't many people and it was a
+small town but this worried me, while I didn't want to be awkard by moving it
+all inside the shop. I waited and guarded my luggage for about 20 minutes
+while the wheel was replaced. It cost about €54 including puncture repair
+patches and a water bottle.</p>
+
+<p>I still need to get tire levers and some gloves.</p>
+
+<p>It was cold at points today too, when it was raining and the wind was blowing
+at me my hands were going numb. I have gloves and will dig them out tomorrow.</p>
+
+<p>For lunch I pulled into a forest track and sat down on a log. I had a
+bread roll, peanut butter and assorted nuts. Shortly afterwards I found a
+bakery and topped with with an apple cake and a fizzy drink,</p>
+
+<p>At around 16:00 I realised that I wasn't even half way to Bremen (I started at
+around 10:30) and that I could realistically be there if I carried on until
+22:00 - but my body was suffering, I could have pushed through but would have
+caused myself damage one way or another. Epic 10 hour rides will have to wait.</p>
+
+<p>I decided to stop early, my current waypoint was where I am now, Diepholz, I
+hoped to find a campsite, but when I got to the center, the nearest was
+another 10km away, and in the wrong direction. I must have been looking lost
+because a man asked me if he could help, I said I was looking for a campsite,
+he suggested "Dümmer See" - but again it was 10km in the wrong direction. I
+asked about hotels.</p>
+
+<p>"Do you know any hotels in this town"
+"Yes, but I don't know the prices", he was thinking, "there is a guesthouse /
+pension Strangmeyer"</p>
+
+<p>I didn't understand all of what he said but got the directions and followed
+them. When I entered there was lots of people eating in the restaurant and the
+owner was very busy attending to them, but she managed to give me the key for
+the room and let me put my bike around the back.</p>
+
+<p>They were serving food, but I thought I would try my chances in the town -
+oddly all the restaurants seem to stop serving at 20:00, and I was confused
+when I asked in an Italian restaurant "We start serving at eight" - "but it
+<em>is</em> eight" "No we stop serving at eight" and he looked at me like I was a
+mentally challenged (my German still sucks).</p>
+
+<p>I ended up eating a simple Falafel Dürum from a Turkish Imbiss. I crowd of
+young kids were hanging around outside. The Dürum only cost €2 and it was
+slimmer than the ones I'm used to in Berlin (less salad). But it was good.</p>
+
+<p>Now I need to plan where I will go tomorrow, passing surely through Bremen.
+Hoping there will be a campsite at around the 100km mark.</p>
+
+<ol>
+<li>I climbed over this "mountain" the evening before with half of my touring
+equipment, it was heavy work and probably explains some of the issues I had
+today.</li>
+</ol>
+
+             </div>
+                          <p class="categories">
+             Categories:
+                          <a href="/blog/categories/norway2018">norway2018</a>                          </p>
+                          
+                          <nav class="article">
+                 <ul>
+                                          <li>Next: <a class="next" href="/blog/2018/06/22/diepholz-zeven/" title="Diepholz to Zeven"><span class="title">Diepholz to Zeven</span></a></li>
+                                                               <li>Previous: <a class="previous" href="/blog/2018/06/20/bielefeld/" title="Pre-flight checks"><span class="title">Pre-flight checks</span></a></li>
+                                      </ul>
+             </nav>
+                 </article>
+
+
+    
+                    </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="text-right">
+                <span class="text-muted small">&copy; 2019 Dans Blog powered by electricity, <a class="dull-link" href="https://github.com/sculpin/sculpin">sculpin</a> and possibly other things</span>
+            </div>
+        </footer>
+
+
+        <script src="/components/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="/components/bootstrap/js/bootstrap.min.js"></script>
+                
+                <script src="/components/highlightjs/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+                    </body>
+</html>
