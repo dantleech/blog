@@ -10,6 +10,7 @@ Some of the public talks I have given:
 
 ### 2019
 
+- 11-09: Exploring Async PHP [BHPHP](https://www.bgphp.org/) [[slides](https://www.slideshare.net/dantleech/2019-11bgphp)] [[joind.in](https://joind.in/event/bulgaria-php-conference-2019/exploring-async-php)]
 - 09-27: Exploring Async PHP [Symfony Live Berlin](https://berlin2019.live.symfony.com/) [[slideshare](http://www.slideshare.net/dantleech/exploring-async-php-sf-live-berlin-2019)] [[joind.in](https://t.co/BrJhuB2ofm)]
 - 09-03: Maestro and Satellite Packages [PHP User Group Berlin](https://www.bephpug.de/2019/09/03/september.html) 
 - 04-27: Exploring Async PHP [Symfony User Group
