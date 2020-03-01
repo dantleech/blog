@@ -6,7 +6,16 @@ article h3.subtitle {
 }
 
 article h2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
     font-size: 1.5em;
+}
+
+article h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 small {
