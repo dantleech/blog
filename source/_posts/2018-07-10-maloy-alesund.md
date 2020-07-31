@@ -15,7 +15,6 @@ Trondheim. I knew the route of course, because I have a map, but local
 knowledge is always good. He wasn't there in any case.
 
 ![Pulling out of the campsite, maybe](/images/norway/2018-07-10/IMG_20180710_093006.jpg) 
-
 *Rolling, rolling, rolling*
 
 The mountains are getting bigger as I go north, today there have been two or
@@ -27,7 +26,6 @@ mountain pass wasn't so high, I measured only 280m, so in all I saved a time
 and kilometers.
 
 ![Hut and mountain](/images/norway/2018-07-10/IMG_20180710_135442.jpg) 
-
 *Hut and mountain*
 
 The first ferry crossing of the day was at Koparnes, when I was 2k from the
@@ -39,7 +37,6 @@ The port had a small cabin with a power socket, so I plugged my laptop in and
 worked for 20 minutes before jumping on the ferry.
 
 ![Ferry port](/images/norway/2018-07-10/IMG_20180710_140604.jpg) 
-
 *Ferry port*
 
 On the ferry a man came round to each car and collected the fare, but he
@@ -72,7 +69,6 @@ There was a waiting area, but I couldn't see any indication that it was for
 in at 19:00.
 
 ![Top view](/images/norway/2018-07-10/IMG_20180710_152157.jpg) 
-
 *High view*
 
 The boat didn't cost much, and only took 25 minutes to get to its destination
@@ -90,7 +86,6 @@ for my tent and bike. They had a kitchen, and I just purchased a shower token
 for 10kr (I didn't shower last night because of the fee).
 
 ![The road](/images/norway/2018-07-10/IMG_20180710_112721.jpg) 
-
 *The road*
 
 My roaming data allowance has just run out, so now I have no mobile internet

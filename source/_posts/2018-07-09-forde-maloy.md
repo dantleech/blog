@@ -33,7 +33,6 @@ busy E5 main road. Then there was a 5km tunnel which I could not cycle down,
 so I had to go over the mountain.
 
 ![View from the top](/images/norway/2018-07-09/IMG_20180709_114518.jpg) 
-
 *View from the top of the pass*
 
 The mountain pass was extremely quiet, not a single car passed me on the 1
@@ -42,7 +41,6 @@ on the surrounding mountains. Afterwards the pass descended and rejoined the
 E5 which took me most of the way to Florø.
 
 ![Mountain top tunnel](/images/norway/2018-07-09/IMG_20180709_114605.jpg) 
-
 *Mountain top tunnel*
 
 I had no idea when the ferry would leave, so I hurried straight to the ferry
@@ -59,7 +57,6 @@ reach another ferry port to Måloy. It would maybe be 18:30 by the time I got
 to the ferry port, and then I didn't know how often they ran.
 
 ![On the E5 to Flora](/images/norway/2018-07-09/IMG_20180709_125404.jpg) 
-
 *On the E5 to Florø*
 
 I decided to skip the island and go straight to Måløy.
@@ -105,7 +102,6 @@ caravans, the camping section is separated from the rest of it and a very well
 kept lawn by the sea. I am the only camper and it is very quiet.
 
 ![VIM by the sea](/images/norway/2018-07-09/IMG_20180709_202611.jpg) 
-
 *VIM by the sea*
 
 I made progress on my soup recipe by adding an onion - lentils, vegetable

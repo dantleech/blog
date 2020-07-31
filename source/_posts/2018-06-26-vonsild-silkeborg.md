@@ -17,7 +17,6 @@ pulled out one the pegs there was a sudden crack and the tent changed shape.
 Puzzled, I inspected it and the tent pole had cracked.
 
 ![Broken Pole](/images/norway/2018-06-26/IMG_20180626_085347.jpg)
-
 *Broken Pole*
 
 The previous day I had found a zip bag with a chrome metal tube in it, it was
@@ -60,7 +59,6 @@ holding out, feet and nose are slightly red. Hopefully my skin will adapt
 before I am a blistered mess.
 
 ![Lots of hills](/images/norway/2018-06-26/IMG_20180626_121632.jpg)
-
 *More than a couple of hills like this*
 
 When I finally joined the EV3 it took me to the town of Jelling where I
@@ -71,7 +69,6 @@ mounds, a church, a ring of strange markers surrounding everything and a
 museum "Enter the Home of the Viking Kings".
 
 ![Enter the home of the Viking Kings](/images/norway/2018-06-26/IMG_20180626_133421.jpg)
-
 *Museum at Jelling*
 
 Jelling is where the first Monarchs of Denmark ruled from. The strange markers

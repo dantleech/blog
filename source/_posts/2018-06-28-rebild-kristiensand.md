@@ -67,7 +67,6 @@ fiddled about with my money trying to find 14kr. "You can keep the change".
 not", she was amused and said that she should have said "OK".
 
 ![Looking out towards Norway](/images/norway/2018-06-28/IMG_20180628_191022.jpg)
-
 *Looking out from the ferry to Norway*
 
 As of today I hadn't spent half of the money I took out when entering Denmark,
@@ -99,5 +98,4 @@ last only another couple of days. I'm hoping to stay in a hostel tomorrow, and
 if I do, and it's cheap enough, I may take a rest day.
 
 ![Camp site](/images/norway/2018-06-28/IMG_20180628_214305.jpg)
-
 *Tent pitch*

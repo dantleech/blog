@@ -39,7 +39,6 @@ in such a way that it was pushing against the mud guard. Fixing this my bike
 was again running silent, which is always reassuring.
 
 ![The Road](/images/norway/2018-07-04/IMG_20180704_141606.jpg)
-
 *Another picture of the road*
 
 I used my gloves and hat, although it was not so cold as to require me to
@@ -49,7 +48,6 @@ in, and up to a certain point you can only turn the music up, but the ringing
 in my ears is a constant reminder not to do that anymore.
 
 ![Land](/images/norway/2018-07-04/IMG_20180704_123436.jpg)
-
 *Land*
 
 I did two more Norwegian lessons, and can now count to thirteen: et, to, tre
@@ -63,7 +61,6 @@ the center. I considered getting a coffee and sitting down, but then the cost
 would have been about €8, so I passed and found a bench in the center.
 
 ![Haugesund](/images/norway/2018-07-04/IMG_20180704_104646.jpg)
-
 *Haguesund*
 
 The second stop was the single ferry crossing of the day. I hadn't done any
@@ -74,7 +71,6 @@ correct time table and it ran every hour. Soon a few cars turned up. I sat
 down and had my lunch and eventually watched the car-ferry pull in to the dock.
 
 ![Ferry](/images/norway/2018-07-04/IMG_20180704_132436.jpg)
-
 *Ferry*
 
 On board, a man came around and collected the fare, which was 40kr (about €4),
@@ -87,7 +83,6 @@ There was another two crossings, but these were done by suspension bridges (each
 kilometer long).
 
 ![Suspension Bridge Number Two](/images/norway/2018-07-04/IMG_20180704_164640.jpg)
-
 *The Second Suspension Bridge*
 
 I saw a fair amount of people painting their characteristic Norwegian

@@ -18,7 +18,6 @@ luckily I still have some of the original artifacts from my first tour 8 years
 ago across France, including the following camping stove:
 
 ![Kit](/images/norway/2018-06-20-kit.jpg)
-
 _Rusted but not useless_
 
 The bike will likely need some maintenance, it wasn't in great shape when I

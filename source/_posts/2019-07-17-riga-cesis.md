@@ -37,7 +37,6 @@ switched to forest and country roads, before the main road split a.d the
 traffic was much reduced. I flowed this until the town of Sigulda.
 
 ![Road out of Riga](/images/tallinn/2019-07-17/1.JPG)
-
 *Road out of Riga*
 
 Here it started spitting raina and the sky had the now familiar even leaden
@@ -47,7 +46,6 @@ the town and the asphalt gave way to the beloved gravel, soon after tgethunder
 started rolling and it rained hard.
 
 ![Back to sand](/images/tallinn/2019-07-17/2.JPG)
-
 *More sand*
 
 I also discovered that I was riding on the "tour de LatEst" cycle route, which
@@ -55,14 +53,12 @@ is marked on my map and which goes at least to this town, and probably all the
 way to Tartu.
 
 ![Caves](/images/tallinn/2019-07-17/5.JPG)
-
 *LatEst*
 
 The gravel-sand is more problematic in the rain, and the sand grains are
 attracted to my gears causing them to crunch, grind and vacillate (??).
 
 ![Caves](/images/tallinn/2019-07-17/4.JPG)
-
 *These caves entrances were scattered everywhere at Līgatne*
 
 I avoided energy drinks today and managed thus to avoid road directed
@@ -71,7 +67,6 @@ the road, rain and thunder. I seem to be missing around 10 chapters and was
 fast forwarded to the Clinton administration.
 
 ![Bridge of Doom](/images/tallinn/2019-07-17/6.JPG)
-
 *There was a diversion which I missed, and this bridge was the cause of it -
 luckily I could cross (even if I risked being impaled by the exposed iron
 works)*
@@ -83,7 +78,6 @@ but, well, I could book a relatively cheap hotel (€30) with breakfast and
 get a good nights sleep (hopefully).
 
 ![Sigulda](/images/tallinn/2019-07-17/3.JPG)
-
 *Sigulda*
 
 Tomorrow the weather hopes to be better, and I will ride to Valka/Valga - the
@@ -92,5 +86,4 @@ to stay in a hostel (there seems to be at least one), after that the next stop
 is Tartu, 
 
 ![Castle](/images/tallinn/2019-07-17/7.JPG)
-
 *Castle at Cēsis*

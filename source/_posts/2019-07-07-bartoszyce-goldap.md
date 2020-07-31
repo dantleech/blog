@@ -41,7 +41,6 @@ is another cycling infrastructure project sponsered by the European Union, and
 today I was almost exclusively on this path.
 
 ![Taking the cycle path](/images/tallinn/2019-07-07/1.JPG)
-
 *Taking the cycle path*
 
 The cycle path was clearly sign posted, with distances to the next village,
@@ -64,11 +63,9 @@ onto the path, see me, and then run full speed away up the road. Once the
 opposite happened and a rabbit was charging down the road directly at me.
 
 ![Rabbit in the road](/images/tallinn/2019-07-07/2.JPG)
-
 *Rabbit in the road, taken from a distance with 30x zoom*
 
 ![Wrong direction](/images/tallinn/2019-07-07/3.JPG)
-
 *Going in the wrong direction*
 
 At around the 100km mark, it started raining reasonably hard, and I put my
@@ -77,7 +74,6 @@ also seemed to make the gravel road less effective, so I either had to slow
 down or put more effort in to keep my speed up, I did a little of both.
 
 ![Tower](/images/tallinn/2019-07-07/4.JPG)
-
 *Lots of these, don't know what they were for*
 
 As mentioned previously, I had two choices, either a short or a long day. When
@@ -87,7 +83,6 @@ was around 50km away, I had an early start and I figured I could make it to
 Goldap by around 4pm.
 
 ![GreenVelo Signpost](/images/tallinn/2019-07-07/5.JPG)
-
 *Detailed information for the cycle path, they also had a phone app*
 
 When I rode into Goldap I saw a sign "HOTEL" and it didn't look expensive, and
@@ -99,7 +94,6 @@ did, and directed me immediately to a place where I could safely store my
 bike.
 
 ![Typical](/images/tallinn/2019-07-07/6.JPG)
-
 *Typical route for today (before it started raining)*
 
 This hotel is great, it's 100 Zsloty for the room and 20 for breakfast (about

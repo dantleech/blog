@@ -40,7 +40,6 @@ for me), I phoned ahead and made sure they could store my bike, and booked
 (online, as they weren't keen on booking me over the phone).
 
 ![Recommended](/images/tallinn/2019-07-23/1.JPG)
-
 *The much recommended Project Kodu, which I passed, but I could have cycled
 an extra 21k yesterday and stayed here if I had known*
 
@@ -59,7 +58,6 @@ especially after I had a mantrum at my phone's audio player and decided it
 wasn't worth the effort and unplugged it.
 
 ![Smoke on the water](/images/tallinn/2019-07-23/2.JPG)
-
 *Smoke on the water*
 
 I had given up on my MP3 player, and thought I'd try playing music from my
@@ -78,7 +76,6 @@ guess was confirmed later - I was looking at some kind of power plant outside
 of Tallinn.
 
 ![Road](/images/tallinn/2019-07-23/3.JPG)
-
 *Road*
 
 It was hot today, and as I started to feel thirsty, and then hungry (more so
@@ -95,7 +92,6 @@ post office and ate the beans, the bread, the chocolates and a pint of energy
 drink, and then read a chapter of the book, and I was quite full.
 
 ![Source of the smoke](/images/tallinn/2019-07-23/4.JPG)
-
 *Source of the smoke*
 
 Coming into Tallinn, there was the EuroVelo route, but it seemed unnecessarily
@@ -108,7 +104,6 @@ I joined the now 3-lane dual carriage way, there were no signs prohibiting
 cyclists, so I guess this was fine, if not comfortable.
 
 ![TV tower](/images/tallinn/2019-07-23/5.JPG)
-
 *TV tower, similar to the one in Berlin*
 
 The hostel I arrived at easily enough and checked in, there were already
@@ -120,7 +115,6 @@ guitar, it's jazz and it sounds as amazing as a saxophone does cutting into
 the empty air.
 
 ![View on Tallinn](/images/tallinn/2019-07-23/6.JPG)
-
 *View on the old town close to the hostel*
 
 This is potentially my last post, this was my original destination. I just

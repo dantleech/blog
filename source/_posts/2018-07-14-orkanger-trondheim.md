@@ -87,7 +87,6 @@ are very solid and the facility is modern, and there is a large cupboard of
 free food. It cost around €34 for a single bed in a four bed dormitory.
 
 ![Reflection](/images/norway/2018-07-14/IMG_20180714_090356.jpg)
-
 *Reflection*
 
 For dinner I have just finished a pizza. It has been 8 days since my last

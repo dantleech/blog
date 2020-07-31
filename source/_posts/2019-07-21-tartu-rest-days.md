@@ -33,7 +33,6 @@ only medieval thing I saw was a single lost-looking woman in a medieval
 was a lot of fun.
 
 ![Cathedral](/images/tallinn/2019-07-21/1.png)
-
 *Ruined cathedral in Tartu (from
 [Wikipedia](https://en.wikipedia.org/wiki/Tartu))*
 

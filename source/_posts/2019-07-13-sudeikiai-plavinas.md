@@ -38,7 +38,6 @@ all 6 were quickly dispatched and I decided buying chocolates is always a bad
 idea.
 
 ![Latvia](/images/tallinn/2019-07-13/2.JPG)
-
 *Latvia*
 
 I idly looked up the Wikipedia for what now seems to be a village, it used to
@@ -60,7 +59,6 @@ the civil war, but to be honest my concentration was waning at this point. But
 it passed a great deal of time.
 
 ![Lake](/images/tallinn/2019-07-13/1.JPG)
-
 *Lots of lakes around these parts*
 
 It wasn't at all clear where I would rest tonight, Jekabpils was the logical
@@ -74,7 +72,6 @@ Latvia I noticed a number of what I guess are nuclear bomb shelters in
 peoples gardens.
 
 ![Bomb shelter](/images/tallinn/2019-07-13/3.JPG)
-
 *One of three back-garden bomb shelters I saw today*
 
 The road was mainly surrounded by forests, at one point this changed to a
@@ -82,7 +79,6 @@ massive clearing of freshly dug earth, it looked as if an enormous amount of
 forest had been cleared and the earth turned over.
 
 ![Missing trees](/images/tallinn/2019-07-13/4.JPG)
-
 *Missing trees*
 
 I passed through Jekabpils without seeing any accommodation (I did see a
@@ -106,7 +102,6 @@ respond to my question negatively when I asked him if there was a Hotel in
 either direction.
 
 ![Approaching rain](/images/tallinn/2019-07-13/5.JPG)
-
 *Approaching rain*
 
 I carried on down the road, and went to the effort of connecting my phone to a

@@ -51,7 +51,6 @@ asked "How is my English?" I replied with "Dobre!" (good). It was just a
 simple transaction, but it left a good impression on me.
 
 ![Headphone town](/images/tallinn/2019-07-03/1.JPG)
-
 *The town where I got my headphones*
 
 I was skeptical about the headphones -- I had never heard of the brand, and
@@ -67,7 +66,6 @@ suited to lying on your bed and not moving. Given a choice I always prefer the
 type that just rest in your ears (peak circa 1999).
 
 ![Improving cycle network](/images/tallinn/2019-07-03/2.JPG)
-
 *The cycle network has been quite good so far, and still under construction*
 
 I now had music available to play, this is a nice facility sometimes, as you
@@ -88,7 +86,6 @@ compared to the €16 yesterday), but breakfast is included, and I'm not on a
 strict budget.
 
 ![Church in Bytow](/images/tallinn/2019-07-03/3.JPG)
-
 *Religion is still here*
 
 The bike was still missing the rear breaks due to the screw falling out on the
@@ -100,7 +97,6 @@ me with a new screw, for free, and I should now be one again at 100% breaking
 capacity.
 
 ![Courtyard](/images/tallinn/2019-07-03/4.JPG)
-
 *Inside the Teutonic courtyard*
 
 The main attraction in Bytów is it's Teutonic Castle, built originally by the
@@ -118,7 +114,6 @@ sort of thing". After doing this, he asked if I'd like him to take a photo of
 me, and I agreed.
 
 ![Dangerous person](/images/tallinn/2019-07-03/5.JPG)
-
 *Stay away from this guy*
 
 After the museum I found a cafe, and worked for an hour on some open-source

@@ -26,7 +26,6 @@ and the guy who was managing it told me there was a shop just around the
 corned and I picked up some beers.
 
 ![Stag](/images/tallinn/2019-07-12/5.JPG)
-
 *Stag*
 
 This morning I woke up in the dormitory after a good nights sleep and went
@@ -61,7 +60,6 @@ could find accomodation. I read that it was increasingly popular with tourists
 2,000 jews were rounded up and shot uner the Nazis during World War II).
 
 ![Green](/images/tallinn/2019-07-12/3.JPG)
-
 *Green*
 
 The major A road, was under construction however, so the minor road had much
@@ -78,7 +76,6 @@ for a bench, but I left the town without finding one. About 5km later I found
 a lonely bus stop, and had a picnic there.
 
 ![Lunch](/images/tallinn/2019-07-12/1.JPG)
-
 *Lunch*
 
 Arriving in Utena I headed to what I assumed was a "hotel", but when I arrived
@@ -91,7 +88,6 @@ So as mentioned at the beginning, it was empty I checked out the other
 campsite didn't like it and came back.
 
 ![The road](/images/tallinn/2019-07-12/4.JPG)
-
 *The road*
 
 Whilst writing this blog post a couple has setup 20m from my tent.
@@ -108,5 +104,4 @@ not understand one another, and the words for "hello", "goodbye" and (I think)
 "thankyou" are different, so it will be back to square one.
 
 ![Lake](/images/tallinn/2019-07-12/6.JPG)
-
 *Lake about 50m from my tent*

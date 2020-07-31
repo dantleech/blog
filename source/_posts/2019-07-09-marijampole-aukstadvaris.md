@@ -32,7 +32,6 @@ the night before, so I sat and drank a coffee, and ate chocolate and tried to
 plan my route for today.
 
 ![Lake](/images/tallinn/2019-07-09/1.JPG)
-
 *Lake*
 
 This was not easy. There was a single major road heading all the way to
@@ -50,7 +49,6 @@ conceded that I could take a shorter day today, as the total distance to
 Vilenus was less than two times my standard daily target of 100km.
 
 ![Crucifix](/images/tallinn/2019-07-09/2.JPG)
-
 *Crucifixion*
 
 I left the Marijampole, and was soon on the familiar minor gravel roads,
@@ -66,7 +64,6 @@ This was slow going, and when I finally got back to the gravel I decided to
 try and stick to the roads.
 
 ![Stuck in the mud](/images/tallinn/2019-07-09/4.JPG)
-
 *Stuck in the mud*
 
 I arrived at Prienai, and was hungry, having only eaten 5 peices of chocolate
@@ -75,7 +72,6 @@ like eating something savoury, had a look around town, before deciding that
 this was the best option and sat down and oreded a coffee and a slice of cake.
 
 ![Biohazard](/images/tallinn/2019-07-09/3.JPG)
-
 *Not sure what this means or if I should be concerned*
 
 I resumed my puzzled look as I stared at my map and tried to determine how to
@@ -117,7 +113,6 @@ from yesterday, I was the only person on the campsite (and it is relatively
 large one).
 
 ![The A Road](/images/tallinn/2019-07-09/5.JPG)
-
 *The A Road was not very busy*
 
 Another cycle tourer entered the campsite. As mentioned at the beginning, he

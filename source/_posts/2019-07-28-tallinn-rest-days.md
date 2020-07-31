@@ -19,7 +19,6 @@ were fully booked and I was referred to another hostel and was allowed to
 leave my bike in the atic of the hostel.
 
 ![View](/images/tallinn/2019-07-28/1.JPG)
-
 *View from the fortified old town*
 
 "Hey, I made a reservation"
@@ -40,7 +39,6 @@ was hauling several of my bags across the old town I regretted not just
 packing bringing my bike from Euphoria.
 
 ![View2](/images/tallinn/2019-07-28/2.JPG)
-
 *Another view from the old town*
 
 As it happened it would have been no problem to store my bike in the new
@@ -65,7 +63,6 @@ out long or drink much as all were quite sensible and it was already getting
 late.
 
 ![Looking](/images/tallinn/2019-07-28/3.JPG)
-
 *Looking onto the modern sky scrapers*
 
 The second day I went for a run to the lake in the south, it was meant to be a
@@ -98,7 +95,6 @@ with rusty steel being revealed from the missing concrete. It was sunset and
 we sat and talked.
 
 ![Recommended](/images/tallinn/2019-07-28/4.JPG)
-
 *Sunset from the soviet defenses*
 
 Police were walking up and down and passively telling people drinking
@@ -129,7 +125,6 @@ going to the town of Haapsalu to make glass sculptures with a group for a week
 before returning to study in Germany.
 
 ![More Sunset](/images/tallinn/2019-07-28/5.JPG)
-
 *An hour later as above*
 
 The hostel itself seemed quite disorganized, the check-in procedure was very
@@ -176,7 +171,6 @@ would take three working days. This wasn't really acceptable for me, as it
 could be denied and I would be missing more days of work.
 
 ![Jamming](/images/tallinn/2019-07-28/6.JPG)
-
 *Jamming*
 
 So then there were flights, and the ferry. The flights were also not as

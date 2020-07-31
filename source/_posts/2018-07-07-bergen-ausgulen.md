@@ -38,7 +38,6 @@ days to cycle down Sweden - but then of I assume I could get the train again,
 or a bus.
 
 ![Tunnel](/images/norway/2018-07-07/IMG_20180707_180830.jpg)
-
 *Tunnel*
 
 I imagined the negativity I would express when people asked me about my trip
@@ -57,7 +56,6 @@ Liervag to Slovag, which cost 40kr and took around 20 minutes or less. I
 napped on the ferry.
 
 ![Suspension Bridge](/images/norway/2018-07-07/IMG_20180707_111528.jpg)
-
 *Suspension Bridge*
 
 There is not an abundance of campsites on this route, and I had a choice
@@ -74,7 +72,6 @@ around it, and the road went into the mountains. On the other side was the
 fjord.
 
 ![Lake](/images/norway/2018-07-07/IMG_20180707_183622.jpg)
-
 *The Lake*
 
 I didn't realise it was a mountain pass until I rode up the first section and
@@ -82,7 +79,6 @@ looked up - I could a road 100m above me, and I hoped it wasn't my road, but
 it was. So I climbed and turned and climbed and turned.
 
 ![Looking down into the valley](/images/norway/2018-07-07/IMG_20180707_193823.jpg)
-
 *Looking back from the pass*
 
 The view was magnificent looking back down to the lake, the top of the pass
@@ -98,7 +94,6 @@ and pulled out an emergency pole repair segment I was hoping for (the same
 thing I had used to fix my pole the first time).
 
 ![View from the campsite](/images/norway/2018-07-07/IMG_20180707_221118.jpg)
-
 *View from the campsite*
 
 I was very lucky to have this man camping next to me - I'm not sure I could

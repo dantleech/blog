@@ -59,7 +59,6 @@ Danish and Norwegian kroner, and I had to ask the cashier to sort them for me.
 I then sat on a picnic table outside in the sun.
 
 ![Is this a Fjord](/images/norway/2018-06-29/IMG_20180629_155427.jpg)
-
 *A Fjord, I think*
 
 A couple of sections were very tough. At one point the cycle path continued
@@ -87,7 +86,6 @@ it was a very steep and long climb. I was ascending at the speed of about
 body.
 
 ![The summit](/images/norway/2018-06-29/IMG_20180629_170213.jpg)
-
 *The top*
 
 After this I decided to stop a bit earlier than anticipated as I had already

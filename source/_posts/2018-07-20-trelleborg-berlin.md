@@ -66,7 +66,6 @@ and get on the train. There was no absolute pressure, as the next was at
 Rostock HBF (train station).
 
 ![Sailing into Rostock](/images/norway/2018-07-20/IMG_20180720_132119.jpg)
-
 *Sailing into Rostock*
 
 By the time I had found the ticket office and purchased my tickets (~€35 for
@@ -107,7 +106,6 @@ my bike onto the platform the toddler-father handed me the last of my panniers
 and smiled "good luck" and I smiled back "Danke".
 
 ![Berlin Gesundbrunner](/images/norway/2018-07-20/IMG_20180720_171742.jpg)
-
 *Berlin Gesundbrunner*
 
 As I exited the station I recognized the place, although I had only been there
@@ -122,7 +120,6 @@ just in front of the mail boxes. I looked at my mail box and it was packed
 absolutely full of junk mail.
 
 ![Junk Mail](/images/norway/2018-07-20/IMG_20180720_174009.jpg)
-
 *My Junk Mail*
 
 It's probably like this in every city, but the local Netto supermarket sends a
@@ -140,7 +137,6 @@ spots, which may have been the flies) but in any case they were all gone (save
 one which I found in my shower).
 
 ![Bike in Room](/images/norway/2018-07-20/IMG_20180720_175126.jpg)
-
 *New Exhibition Piece*
 
 After depositing my bike, I went to the supermarket and got supplies - bread,

@@ -34,7 +34,6 @@ on `hostelworld.com` the beds for both 6 and 12 room dorms were advertised at
 they were advertised at €17/€18. So I phoned and got those prices.
 
 ![Quiet](/images/tallinn/2019-07-19/1.JPG)
-
 *Quiet road with cycle path, group of school children running on cycle path in
 far distance*
 
@@ -62,7 +61,6 @@ event. There were also more than a few people with cruising on the paths with
 Latvia/Lithuania.
 
 ![Panorama of field](/images/tallinn/2019-07-19/4.JPG)
-
 *finds panorama mode on camera*
 
 The MP3 player backlight has now completely gone, but I was somehow able to
@@ -95,7 +93,6 @@ the pizzas here look really good, and the pasta I could have happily made that
 myself and it would have tasted the same.
 
 ![Freight train](/images/tallinn/2019-07-19/6.JPG)
-
 *Freight train*
 
 I think I'll stay here for another night, it seems to be around 300km to

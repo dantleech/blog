@@ -23,7 +23,6 @@ century](https://www.visitnorway.com/places-to-go/fjord-norway/northwest/listing
 the tolls were removed.
 
 ![View from atlantic road](/images/norway/2018-07-12/IMG_20180712_115229.jpg)
-
 *View from the Atlantic Road*
 
 This was the first time I really smelt the salty sea air as I rode over the
@@ -68,7 +67,6 @@ I didn't stay long in Kirstiansund, I made my exit, riding through a section
 of the harbour which seemed like a working ship-building museum.
 
 ![View of Kristiansund](/images/norway/2018-07-12/IMG_20180712_151524.jpg)
-
 *View of Kristiansund from a bridge*
 
 I had now done about 75k, it was 15:00 and I hadn't eaten anything, and didn't
@@ -78,7 +76,6 @@ them selves expensive self-service food. 25 minutes later I rolled off the
 ferry.
 
 ![Another view from a bridge](/images/norway/2018-07-12/IMG_20180712_174734.jpg)
-
 *View from a bridge, not on Kristiansund*
 
 This was the last ferry before Trondheim, and very probably the last ferry in
@@ -93,7 +90,6 @@ normal stuff, where I'm from, where I'm going, where I'm _eventually_ going,
 etc. He recommended the campsite that I'm staying at now.
 
 ![Clouds](/images/norway/2018-07-12/IMG_20180712_180904.jpg)
-
 *Clouds*
 
 This campsite showed up on my map as "INTERNET-ACCESS: FEE CHARGED". Which
@@ -114,5 +110,4 @@ stay at another campsite tomorrow, and hopefully book a hostel in Trondheim,
 or buy a train ticket and get the night train directly.
 
 ![Dinner](/images/norway/2018-07-12/IMG_20180712_201249.jpg)
-
 *This was meant to be pea-soup*

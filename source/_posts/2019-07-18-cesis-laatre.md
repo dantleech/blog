@@ -33,7 +33,6 @@ Latvia and Estonia, which was around 80-90km north-east. I left at around
 10am.
 
 ![Promise of rain](/images/tallinn/2019-07-18/1.JPG)
-
 *Promise of rain*
 
 Although the weather forecast (for Riga at least) predicted it would not rain,
@@ -55,7 +54,6 @@ have also degraded to the point where music sounds klangy and actually not very
 musical at all. But for audiobooks it's fine, and I carried on with Zinn.
 
 ![Valka](/images/tallinn/2019-07-18/2.JPG)
-
 *Town sign*
 
 At Valka I crossed immediately to Valga, and passed the erstwhile border
@@ -73,7 +71,6 @@ Baltic countries). This has crossed my mind a few times, although I'm sure any
 danger is virtually non-existant.
 
 ![Estonia](/images/tallinn/2019-07-18/3.JPG)
-
 *Estonia*
 
 The other thing I noticed when crossing the border was that the roads improved
@@ -84,7 +81,6 @@ both Latvia and Lithuania _seemed_ more expensive than Poland, especially
 regarding hotels).
 
 ![Road](/images/tallinn/2019-07-18/5.JPG)
-
 *Section of cleared forest, some trees are usually left standing*
 
 I had originally considered staying in a hostel in Valga, there were two, but
@@ -102,7 +98,6 @@ but I was relieved when approaching to see official "Hostelling Estonia" signs
 pointing to my destination on the rural country roads.
 
 ![Estonia Hostelling](/images/tallinn/2019-07-18/4.JPG)
-
 *Hostelling sign - previous one had "Estonia Hostelling" written underneath*
 
 When I arrived the reception was closed but soon an old man appeared and
@@ -118,7 +113,6 @@ there is a place to make a fire with lots of wood, and the man sold me a
 couple of beers and some bread.
 
 ![Road](/images/tallinn/2019-07-18/6.JPG)
-
 *Large trees on either side*
 
 I had the option to stay in a bunk bed, or camp. I chose to camp, I'm not sure
@@ -129,7 +123,6 @@ and probably arriving in Tartu at around mid-day, hopefully with a hostel
 booked.
 
 ![Campsite](/images/tallinn/2019-07-18/7.JPG)
-
 *Campsite, flag poles out of shot on the left have Estonian, EU and German
 flags flying*
 

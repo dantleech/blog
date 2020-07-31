@@ -11,7 +11,6 @@ hilly and there were no "natural" rests along the way - no ferries or tunnels
 or places of note. I stopped for lunch at the top of a long climb.
 
 ![Valhalla](/images/norway/2018-07-13/IMG_20180713_114911.jpg)
-
 *Valhalla*
 
 It was cold again last night and hard to get to sleep, I woke up multiple
@@ -42,7 +41,6 @@ groups of people eating there, one group was leaving, and as I sat down on a
 vacant table a motorcyclist talked to me.
 
 ![View from the top](/images/norway/2018-07-13/IMG_20180713_125324.jpg)
-
 *After Lunch View from the Top*
 
 He was from Heidelberg in Germany, and was impressed with my journey. He had
@@ -58,7 +56,6 @@ seen or met have been cycling in pairs, I can only recall seeing two solo male
 tourers on the road (excluding the tourer I met in the hostel in Bergen)
 
 ![The Road](/images/norway/2018-07-13/IMG_20180713_134123.jpg)
-
 *The Road*
 
 At the campsite I was lucky to have a power outlet by my tent, and Wifi
@@ -73,7 +70,6 @@ view of the subjected - the native Americans, the indentured labourers, the
 black slaves. And really presents the dark side of American history.
 
 ![Cracked Road](/images/norway/2018-07-13/IMG_20180713_173718.jpg)
-
 *Cracked Road*
 
 I was glad to get to the campsite, the last part of the journey raised me to
@@ -84,7 +80,6 @@ passes. None of the climbs have compared to the big climbs in the Pyrenees or
 the Alps.
 
 ![View from the campsite](/images/norway/2018-07-13/IMG_20180713_183014.jpg)
-
 *View from the Campsite*
 
 Feeling quite worn out, I think I'm going to make something to eat.

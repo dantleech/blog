@@ -52,7 +52,6 @@ the river Oder as if it were any other bridge in Germany (Poland is in the
 Schengen zone, no passport checks).
 
 ![Polish Border](/images/tallinn/2019-07-01/one.JPG)
-
 *Polish Border*
 
 The subsequent road was fifty-percent cobblestones, but a walkway proved a
@@ -61,7 +60,6 @@ kept me eyes out for: 1. Bread, 2. Headphones. Bread would be easy to come by,
 headphones not so much. I found neither, not did I look very hard.
 
 ![Bridge to Gryfino](/images/tallinn/2019-07-01/two.JPG)
-
 *Bridge to Gryfino*
 
 The not-drunk pensioner from the last night had shown me some routes to take
@@ -71,7 +69,6 @@ just decided to head North or North East, taking any road that isn't a
 motorway.
 
 ![](/images/tallinn/2019-07-01/three.JPG)
-
 *Cobble #1*
 
 This policy led me to the second cobblestone road of the day, and there would
@@ -88,7 +85,6 @@ see if I could find it (it would have been big enough to be easily seen). But
 no luck.
 
 ![bad](/images/tallinn/2019-07-01/four.JPG)
-
 *Don't forget to tighten your parts before riding on cobbles*
 
 I removed the loose brake - it should be easy enough to get a replacement pin,
@@ -104,7 +100,6 @@ indicated the path of the Euro-Velo Iron Curtain Route. It passed straight up
 through the fields on these dotted green paths.
 
 ![bad](/images/tallinn/2019-07-01/five.JPG)
-
 *Givin way to dreaded sand*
 
 For lunch (well, it was 11:30am - but I left early) I found a Perogi
@@ -126,7 +121,6 @@ hostels which will cater for pilgrims either for free or for a reasonable
 price.
 
 ![bad](/images/tallinn/2019-07-01/six.JPG)
-
 *Sign of the Camino*
 
 The road started off as cobblestones, before giving way to sand, then to large
@@ -137,7 +131,6 @@ into motionlessness.  It was quite exhausting, but also good to be out in the
 open country away from all traffic.
 
 ![bad](/images/tallinn/2019-07-01/seven.JPG)
-
 *Sand*
 
 
@@ -153,7 +146,6 @@ completely, one I lost my balance and jumped off the bike, more often I kick
 the ground to keep the bike on the right course.
 
 ![bad](/images/tallinn/2019-07-01/eight.JPG)
-
 *Too much sand*
 
 Then there are the cobble roads - more consistent then the sand, but they
@@ -172,7 +164,6 @@ was a hige lumberyard, on the left, the factory. I guess a large proportion of
 this town worked for Ikea.
 
 ![bad](/images/tallinn/2019-07-01/nine.JPG)
-
 *First glimpse of the sea*
 
 The target for today was the north coast, from where I would cycle east. It
@@ -188,14 +179,12 @@ phone number, that I rang. But no response. It would have been a perfect place
 to camp, precisely because there was nobody there. But I decided to carry on.
 
 ![bad](/images/tallinn/2019-07-01/ten.JPG)
-
 *The Camp Site where nobody was home*
 
 The next camp site really was on the north coast, and due to the motorway I
 was obliged to follow the green-line / pilgrims path the whole way.
 
 ![bad](/images/tallinn/2019-07-01/eleven.JPG)
-
 *This was the wrong path*
 
 Despite the extra effort, and slow pace, time actually passes quicker on these

@@ -23,7 +23,6 @@ wasn't achievable, it was at least 200km. But there were some target campsites
 within a reasonable distance.
 
 ![Reflection](/images/norway/2018-07-11/IMG_20180711_153644.jpg) 
-
 *Reflection*
 
 The weather was hot again, and my left hand still hasn't recovered from its
@@ -43,7 +42,6 @@ modern church) so I went back and sat down and had lunch and then dozed in the
 sun for 45 minutes. Both ferries cost around €4.
 
 ![Church for Lunch](/images/norway/2018-07-11/IMG_20180711_133115.jpg) 
-
 *First water fountain seen in Norway*
 
 I passed three sets of cycle tourers. One pair on a tandem and another who
@@ -57,7 +55,6 @@ actually cycling at that speed.
 There was even more spectacular views today, especially when I took the ferry.
 
 ![View from the Ferry](/images/norway/2018-07-11/IMG_20180711_164937.jpg) 
-
 *View from the back of the ferry*
 
 In the evenings I am writing these blog posts, eating and reading. When I
@@ -68,7 +65,6 @@ Pevear version, but it has been many years. I started "Memoirs of a Geisha"
 last night.
 
 ![Three Hills](/images/norway/2018-07-11/IMG_20180711_144756.jpg) 
-
 *Three Hills*
 
 I will pass through Kristiansund tomorrow - it is on an island which has only
@@ -78,7 +74,6 @@ get to Trondheim, where I plan to stay in a hostel and then get the train to
 Oslo and start making my way back to Germany.
 
 ![Blue Mountains](/images/norway/2018-07-11/IMG_20180711_173515.jpg) 
-
 *Blue Mountains*
 
 The mosquitos and other bugs are becoming annoying while cycling towards the
@@ -87,7 +82,6 @@ eyes to avoid "mosquito-eye" or angle the visor of my cap down so I can only
 see the road immediately in front of me.
 
 ![Campsite](/images/norway/2018-07-11/IMG_20180711_190632.jpg) 
-
 *Campsite*
 
 Today marks 3 weeks on the road.

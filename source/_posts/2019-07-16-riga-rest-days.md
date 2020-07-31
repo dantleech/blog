@@ -38,7 +38,6 @@ from the end of World War I when both Germany and Russia had to relinquish
 their claims on the Baltic states leaving them to declare independence.
 
 ![Electric Arch](/images/tallinn/2019-07-16/1.JPG)
-
 *Some kind of "Electric Arch" with the Nativity Cathedral showing in the
 background*
 
@@ -62,7 +61,6 @@ of the war). Apparently in 1981 the percentage of Latvians in Riga was only
 36.5%.
 
 ![Freedom Monument](/images/tallinn/2019-07-16/2.png)
-
 *Freedom Monument (taken from Wikipedia): Errected in 1918 to celebrate
 Latvian independence and surviving to present day*
 

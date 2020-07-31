@@ -18,7 +18,6 @@ exception of Macedonia, so this will be the north eastern tour. Unfortunately
 I certainly won't be able to visit the Ukraine, and Belarus depends.
 
 ![Original Plan](/images/tallinn/2019-06-12/map.png)
-
 *Original Plan*
 
 Original plan was to cycle directly east from Berlin, through the center of
@@ -38,7 +37,6 @@ which held the derailleur was bent inwards, I got it fixed, part of the fixing
 involved bending the frame back to where it should have been.
 
 ![Something in Norway](/images/norway/2018-07-11/IMG_20180711_164937.jpg)
-
 *Something in Norway*
 
 After the quick repair in Norway I got the bicycle repaired "properly" a month
@@ -46,7 +44,6 @@ ago, and again the bicycle mechanic had to "bend" the frame back to it's
 original position, again.
 
 ![Broken Wheel](/images/norway/2018-07-17/IMG_20180717_145347.jpg)
-
 *When wheels go wrong*
 
 The entire transmission system was replaced, but the mechanic could give no

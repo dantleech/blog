@@ -81,7 +81,6 @@ A quick investigation revealed that the cable had snapped and I pulled the
 frailed end out of the gear changer on the handle bar.
   
 ![Broken Cable](/images/norway/2018-07-16/IMG_20180716_111541.jpg)
-
 *Broken Cable*
 
 This happened two years ago in Slovakia, I think on the other side. Then, I
@@ -140,7 +139,6 @@ strange state. This made me quite sad as the gears were working so well
 previously.
 
 ![Token Picture](/images/norway/2018-07-16/IMG_20180716_173108.jpg)
-
 *Token Picture*
 
 I didn't know what had happened, and the only way I could see to fix it was to

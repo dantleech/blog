@@ -21,7 +21,6 @@ but perhaps also owing to the weather. Today was also hot, but with lots of
 humidity too.
 
 ![133k](/images/norway/2018-07-18/IMG_20180718_090719.jpg)
-
 *133k (but think this was the motorway distance)*
 
 Before leaving the campsite I tried to use the internet and investigate a
@@ -42,7 +41,6 @@ Both countries use the term "Krona" but they are different currencies, but I
 believe the conversion rate is similar.
 
 ![Lumps](/images/norway/2018-07-18/IMG_20180718_103140.jpg)
-
 *Lumps*
 
 There was a slightly different selection of food, and I got a small
@@ -55,7 +53,6 @@ and then it started raining, but not very hard. I had covered about 70km when
 I sat down for lunch on a bench in the rain.
 
 ![Swedish Milestone](/images/norway/2018-07-18/IMG_20180718_093401.jpg)
-
 *Swedish Milestone*
 
 After navigating out of the city, and riding about 10km I had a puncture. The
@@ -78,7 +75,6 @@ surrounding the whole wheel, would cover maybe 30% of it, which might do for
 the remainder of the journey.
 
 ![Makeshift Rim-tape](/images/norway/2018-07-18/IMG_20180718_160258.jpg)
-
 *Makeshift Rim-tape*
 
 The puncture was near the valve, which is unfortunate as it was near a ridge.
@@ -103,7 +99,6 @@ remaining 20km. But it didn't last 20km, it lasted about 10km. I couldn't fix
 it so now I was walking.
 
 ![Grind](/images/norway/2018-07-18/IMG_20180718_100546.jpg)
-
 *Grind*
 
 I walked past a house, and could see some people. The house was actually under
@@ -155,7 +150,6 @@ To think, all of the problems I have had over the past two days have been
 because of a snapped gear cable and not trimming the end of the replacement.
 
 ![Riding by the motorway](/images/norway/2018-07-18/IMG_20180718_120845.jpg)
-
 *Riding by the motorway*
 
 I cycled onwards, I still had about 50k to cover. I managed to stay mostly on

@@ -16,7 +16,6 @@ Time and distance are estimates as I still haven't hooked up my cycle
 computer.
 
 ![Bielefeld to Diepholz Route](/images/norway/2018-06-21-map.png)
-
 *Very rough map*
 
 I am sitting on the bed of my room in the hotel Strangmeyer in

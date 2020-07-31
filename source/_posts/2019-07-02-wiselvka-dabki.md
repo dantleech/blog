@@ -39,7 +39,6 @@ only after 2 days it would be bad. If it happens at all it would probably mean
 I need a new frame sooner or later. So this was on my mind.
 
 ![The bit of my bike that could be bent but it isn't (apparently)](/images/tallinn/2019-07-02/1.JPG)
-
 *The bit of my bike that could be bent but it isn't (apparently)*
 
 I picked up an energy chocolate bar and a pastry at a small shop, then around
@@ -61,7 +60,6 @@ inland-blowing wind by trees. The wind was strong and the waves were blowing
 onto the beach.
 
 ![People walking on the beach](/images/tallinn/2019-07-02/2.JPG)
-
 *People walking on the beach*
 
 The Euro-Velo Iron Curtain Trail (13) is clearly marked on this part of the
@@ -70,7 +68,6 @@ the European Union. There were dedicated bike paths along much of this part of
 the coast, and some sections were _busy_.
 
 ![EV13](/images/tallinn/2019-07-02/4.JPG)
-
 *EV13*
 
 
@@ -81,7 +78,6 @@ spades. Pizzerias, Berlin Kebab Shops, and each has it's a fair ground which
 looked identical to all the others.
 
 ![Niechorze Lighthouse](/images/tallinn/2019-07-02/3.JPG)
-
 *Niechorze Lighthouse*
 
 The amount of people was astonishing, even on the rural cycle paths between
@@ -89,7 +85,6 @@ the towns people were passing at a rate of 10 a minute, I was slowed down by
 cyclist congestion at some points.
 
 ![Build more!](/images/tallinn/2019-07-02/5.JPG)
-
 *Build more!*
 
 I would say that the coast is saturated with tourists, and possibly there
@@ -98,7 +93,6 @@ areas promising even more hotels, apartments, restaurants, fair grounds,
 etc.
 
 ![Build more!](/images/tallinn/2019-07-02/6.JPG)
-
 *Build more!*
 
 Each town seemed to be linked to the next with a cycle path, except one which
@@ -109,7 +103,6 @@ more behind me, all with mountain bikes and all falling off and being unable
 to ride through the sand.
 
 ![Very sandy road](/images/tallinn/2019-07-02/8.JPG)
-
 *Very sandy road*
 
 For lunch I tried to find another Perogi restaurant, but the density of
@@ -125,7 +118,6 @@ may well distribute people into one town or another and make them all the same
 on purpose.
 
 ![Blocks of Flats (unrelated to rant)](/images/tallinn/2019-07-02/7.JPG)
-
 *Blocks of Flats (unrelated to rant)*
 
 After finishing 100 I could not bring myself to stay at any one of the 100s
@@ -154,7 +146,6 @@ reception, a man greeted me "Dzień dobry" (Jean Dobray), I asked in my best
 Polish if he understood English or German, he spoke German.
 
 ![Buggys](/images/tallinn/2019-07-02/9.JPG)
-
 *Loads of these things*
 
 My bike is in the reception area of the Pension. The pension will cost 60

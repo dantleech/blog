@@ -13,7 +13,6 @@ minutes ago. It has been an extremely long and beautiful day, even if I
 couldn't find a suitable place to do wild camping.
 
 ![Lake](/images/norway/2018-06-30/IMG_20180630_100545.jpg)
-
 *Lake*
 
 I left the campsite at 8am without thinking too much about where I was going
@@ -27,7 +26,6 @@ so far is around 300m but you are always starting from sea level, and this
 climb took a while.
 
 ![Bike and Fjord](/images/norway/2018-06-30/IMG_20180630_105458.jpg)
-
 *Bike and Fjord*
 
 Whilst I was climbing I saw two cyclists coming down the hill at speed. They
@@ -42,7 +40,6 @@ to win if you both nod. Sometimes it's obvious, especially with cycle tourers,
 there will usually be a big wave and grin.
 
 ![Another Fjord](/images/norway/2018-06-30/IMG_20180630_150741.jpg)
-
 *Another Fjord*
 
 There were lots of cyclists spread out, and eventually I broke out of their
@@ -64,7 +61,6 @@ hours. I wanted to do 100km, but not if it meant cycling, for example, 140km.
 Which is what I did.
 
 ![Another Lake](/images/norway/2018-06-30/IMG_20180630_150800.jpg)
-
 *Another Lake*
 
 The couple were right, the way ahead was incredibly steep and gravelly. It was
@@ -74,7 +70,6 @@ resting place, there were engravings/graffiti of the type "I was here" on the
 rock, and some of them pre-date the road from the 1700s.
 
 ![Information about the old road](/images/norway/2018-06-30/IMG_20180630_153530.jpg)
-
 *The resting rock and a sketch of the old road*
 
 
@@ -95,7 +90,6 @@ point that the car was about to pass you, it sounded like waves crashing on
 the shore and was incredibly loud (and somewhat frightening).
 
 ![Tunnel](/images/norway/2018-06-30/IMG_20180630_135017.jpg)
-
 *The long(ish) tunnel*
 
 But now it was a more and more exhausting one and I was gradually beginning
@@ -119,7 +113,6 @@ them, I'm glad I didn't as they had driven up and it seemed to be a family
 occasion. 
 
 ![Road and Water](/images/norway/2018-06-30/IMG_20180630_182903.jpg)
-
 *Road and Water*
 
 So now I had ridden for about 10 hours, it was 9 o'clock and it occurred to me

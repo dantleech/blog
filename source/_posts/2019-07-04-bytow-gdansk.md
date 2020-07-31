@@ -28,7 +28,6 @@ factor). I cycled past some lakes, on increasingly busy roads as I approached
 Gdansk. The route was relatively unremarkable compared to yesterday.
 
 ![Lake](/images/tallinn/2019-07-04/1.JPG)
-
 *A Lake*
 
 The previous night I had obtained some Polish, Lithuanian and Finish lessons.
@@ -82,7 +81,6 @@ For lunch I stopped at the half-way town in Kartuzy and sat in a burger bar
 and had the only vegetarian thing on the menu - a toasted sandwich.
 
 ![Katurzy](/images/tallinn/2019-07-04/2.JPG)
-
 *Katurzy*
 
 There was another liquid-related accident, as I had purchased an energy drink,
@@ -105,7 +103,6 @@ all my bags. In the basement there is a large room with a kitchen, sofas, and
 tables for breakfast (included). There is also a television.
 
 ![Gdansk](/images/tallinn/2019-07-04/3.JPG)
-
 *Looking towards St Mary's*
 
 If I'm in a Hostel and there is a television, if ever I'm alone with it I'll
@@ -120,7 +117,6 @@ I've had a walk around the center of Gdansk, and seen the epic Saint Mary's
 Church (2nd largest stone church in the world) and had an unremarkable pizza.
 
 ![Gdansk](/images/tallinn/2019-07-04/4.JPG)
-
 *Just outside the hostel*
 
 Later I joined an Australian couple in a game of cards (Asshole and President)

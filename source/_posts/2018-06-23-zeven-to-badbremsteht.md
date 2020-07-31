@@ -45,7 +45,6 @@ the world" due to a Brothers Grimm fairy tale being set there, and therefore
 it is sometimes claimed that it "doesn't exist".
 
 ![Airbus](/images/norway/2018-06-23/IMG_20180623_123316.jpg)
-
 *Brand new jet*
 
 I stopped in the town for a cake and a coffee, there was a school band (or at
@@ -102,5 +101,4 @@ the border to Denmark, and depending on accommodation options, possibly pass
 over to Denmark.
 
 ![Field](/images/norway/2018-06-23/IMG_20180623_160443.jpg)
-
 *Flat terrain, forest and fields*

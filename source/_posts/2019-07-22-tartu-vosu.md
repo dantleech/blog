@@ -20,7 +20,6 @@ good chats with people at the hostel, and the experience was running through
 my mind for the first few hours of the trip this morning.
 
 ![Tortu](/images/tallinn/2019-07-22/1.JPG)
-
 *Tortu's main square this morning*
 
 The weather was fine as I left the hostel and headed down to the river, and I
@@ -30,7 +29,6 @@ no campsites, so I had decided to continue to the coast and hope that the
 campsite on my map was existing.
 
 ![Lake](/images/tallinn/2019-07-22/2.JPG)
-
 *Lake with church behind trees*
 
 There was a meandering EuroVelo cycle route from Tartu to Talinn, this route
@@ -46,7 +44,6 @@ just over 20kmph for the whole day, I listened to the random songs on my MP3
 player for about 6-7 hours.
 
 ![Road](/images/tallinn/2019-07-22/3.JPG)
-
 *75% of today was like this*
 
 I stopped after 50km (energy drink and cake), and then at 100km (at Väike
@@ -54,7 +51,6 @@ Maarga) for lunch (another energy drink, a cheese/peanut-butter/nuts sandwich,
 and half a bar of chocolate. On both stops I read a chapter from Jane Eyre.
 
 ![Square outside the town hallin Rackvere](/images/tallinn/2019-07-22/4.JPG)
-
 *Square outside the town hall in Väike Maarja*
 
 I cycled around Rakvere at around 120k, passing a cemetery for German
@@ -63,7 +59,6 @@ hospital](https://www.tracesofwar.com/sights/3638/German-War-Cemetery-Wesenberg-
 during World War II. 
 
 ![Cemetary](/images/tallinn/2019-07-22/5.JPG)
-
 *Cemetary for German Soldiers*
 
 At one point I cycled past a couple and a man held out his arm at me, but I
@@ -89,7 +84,6 @@ significant to me because it is 100 miles, and would be the first "century" I
 have done in some years.
 
 ![Main street in Rakvere](/images/tallinn/2019-07-22/6.JPG)
-
 *Main street in Rakvere*
 
 I was, I noticed, riding through the Lahemaa National Park, which had been
@@ -108,7 +102,6 @@ I decided to check out the other campsite first, although this one seemed
 ideally ideal, it didn't have Wifi - at least that was my excuse.
 
 ![First campsite](/images/tallinn/2019-07-22/7.JPG)
-
 *Open campsite*
 
 The next campsite on my map didn't exist at all, there was no trace of it in
@@ -136,7 +129,6 @@ about it and went outside and studied my map for a minute, if only to see the
 campsite just 1km down the road which I knew was there, and I decided to stay.
 
 ![Beach](/images/tallinn/2019-07-22/9.JPG)
-
 *Beach at Vosu*
 
 "What time will you leave?" "err, 8 or 9" "If you leave at 9, then leave the
@@ -152,7 +144,6 @@ price at €9! The pasta was none that good also, and the croutons which were
 spread over the top were stale.
 
 ![Hostel](/images/tallinn/2019-07-22/10.JPG)
-
 *The hostel*
 
 Still, the supermarket is open (I hope), and there is (I hope) Wifi at the

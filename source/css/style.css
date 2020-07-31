@@ -1,52 +1,6 @@
-article h3.subtitle {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 1.5em;
-    color: #888;
-}
-
-article h2 {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    font-size: 1.5em;
-}
-
-article h3 {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
 small {
     display: block;
     color: #888;
-}
-
-main.container, footer.container {
-    max-width: 900px;
-}
-
-footer.container {
-    margin-top: 30px;
-    padding: 30px 0;
-    border-top: 1px dashed #aaa;
-}
-
-@media (max-width: 767px) {
-    .sidebar {
-        padding-top: 30px;
-    }
-}
-
-@media (min-width: 980px) {
-    body {
-        padding-bottom: 40px;
-    }
-}
-
-body > main.container {
-    padding: 10px 15px 0; /* 80px to make the container go all the way to the bottom of the topbar */
 }
 
 blockquote p:before {
@@ -72,6 +26,17 @@ a.dull-link:visited,a.dull-link:visited,a.dull-link:active   {
     color: #555;
 }
 
+article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+img + em {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
 img.image-right {
     float: right;
     padding: 0em 1em;

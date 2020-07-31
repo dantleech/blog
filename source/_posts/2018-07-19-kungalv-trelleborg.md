@@ -42,7 +42,6 @@ night and get the early ferry, which would probably be the cheapest option. So
 knowing I had some options, I hit the road.
 
 ![Tesla Charging Points](/images/norway/2018-07-19/IMG_20180719_091648.jpg)
-
 *There are a huge number of Tesla car charging stations in Norway and Sweden*
 
 Looking back I realised there was a large ruined castle opposite the campsite.
@@ -53,7 +52,6 @@ industrial areas and construction sites, there was a cycle path all of the
 way, although sometimes it was diverted due to the construction works.
 
 ![Crossing the Bridge](/images/norway/2018-07-19/IMG_20180719_101329.jpg)
-
 *Crossing the Bridge in Gothenburg*
 
 I didn't stick around and headed straight to the central train station and got
@@ -124,7 +122,6 @@ included in the price, but there is no Wifi at all. This is annoying, as I am
 now unable to (conveniently) further plan for tomorrow.
 
 ![The Campsite](/images/norway/2018-07-19/IMG_20180719_181844.jpg)
-
 *The Campsite*
 
 So I have an early start, I plan to be at the ferry port at around 6am, so
@@ -137,5 +134,4 @@ mobile internet, be able to withdraw cash and use my card without surcharges
 and return to my normal economy.
 
 ![My Washing](/images/norway/2018-07-19/IMG_20180719_181855.jpg)
-
 *Clothes Drying on my Bike*

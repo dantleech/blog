@@ -18,7 +18,6 @@ underwater for 10s of minutes and no sign of air release), and after 4 hours
 of sleep it would deflate and I would wake and not sleep so well.
 
 ![Stefan](/images/tallinn/2019-07-10/1.JPG)
-
 *Stefan*
 
 Six years ago I had gotten a "half air mattress" which covered the upper body
@@ -30,7 +29,6 @@ mosquito was circling around the interior of my tent periodically buzzing in
 my eat until I eventually had the initiative to exterminate it.
 
 ![Campsite lake](/images/tallinn/2019-07-10/0.JPG)
-
 *Lake by the campsite*
 
 In the morning (when was the morning? I woke at 3am 4:30am, 5:30am, 6am. ..)
@@ -52,7 +50,6 @@ understood the language they were speaking, when I paid attention it was a
 "strange" dialect of German. The south-germans were talkative.
 
 ![Castle and tourists](/images/tallinn/2019-07-10/2.JPG)
-
 *Castle and tourists*
 
 We ordered coffee and pasties (the same as in England, crispy hot pastry with
@@ -75,7 +72,6 @@ think we can be going now". In retrospect it would have been better to have
 accepted, but on leaving we said thankyou for the offer.
 
 ![Vilnius and rain](/images/tallinn/2019-07-10/5.JPG)
-
 *Vilnius and rain*
 
 We were looking for the hostel "Hostelgate", and I the hostel was clearly
@@ -105,7 +101,6 @@ castle. I spent 2 hours walking around tour 1 before closing at 6pm, and I can
 still use the ticket to visit the other 3 tours.
 
 ![Bell tower](/images/tallinn/2019-07-10/4.JPG)
-
 *Bell tower*
 
 As I was leaving the museum I got a text message from Stefan, from an hour

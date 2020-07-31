@@ -59,7 +59,6 @@ I removed my laptop bag, detached my mobile phone, put the lock around the
 wheel and went inside.
 
 ![East Sea](/images/norway/2018-06-25/IMG_20180625_120800.jpg)
-
 *East sea*
 
 First stop, muesli - I need something for breakfast on the campsite. Then
@@ -87,7 +86,6 @@ into the day.
 
 
 ![Pretty Forest Paths](/images/norway/2018-06-25/IMG_20180625_123032.jpg)
-
 *Pretty Forest Paths*
 
 The Danish language is only familiar to me through TV, but much of the signage

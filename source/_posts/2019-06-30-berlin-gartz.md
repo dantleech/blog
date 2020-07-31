@@ -31,7 +31,6 @@ fortunately I have an even cheaper multi-tool knife purchased in France almost
 new Swiss Army knife.
 
 ![zero](/images/tallinn/2019-06-30/zero.JPG)
-
 *Mirror*
 
 After checking everything was turned off, then unplugging everything, I
@@ -52,7 +51,6 @@ months ago, was a single 100 ride around Brandenburg, which included the
 first checkpoint of today's ride: Bernau bei Berlin.
 
 ![two](/images/tallinn/2019-06-30/two.JPG)
-
 *Dashboard*
 
 A pensioner just sat beside me. He is also from Berlin, and cycled from Berlin
@@ -68,7 +66,6 @@ some emergency Euros -- I would soon be leaving Germany, to Poland which has a
 different currency, but Euros are always a good fallback plan.
 
 ![two](/images/tallinn/2019-06-30/three.JPG)
-
 *Falafel and Beer*
 
 Until 12, and even until 2pm the heat was not too extreme, and I wondered if
@@ -83,7 +80,6 @@ open country, through various small rural towns, with falling-down buildings
 and churches.
 
 ![four](/images/tallinn/2019-06-30/four.JPG)
-
 *Canal - aparently there is a cycle path here*
 
 The bike is holding up after 130km. After the last tour it was in a fragile,
@@ -124,7 +120,6 @@ could, and recommended it heartily (the alternative was a diversion on a main
 road).
 
 ![five](/images/tallinn/2019-06-30/six.JPG)
-
 *Rock sculpture near the lake at Gartz*
 
 So here I am in the campsite "Campingplatz Meschern". On arriving I could see
@@ -149,7 +144,6 @@ my skin is reddening, and although I was wearing socks and sandals (to protect
 my white feet), the socks didn't completely cover the "white" area.
 
 ![six](/images/tallinn/2019-06-30/seven.JPG)
-
 *The first 100k*
 
 When I realised my feet were burning I decided to put on some more appropriate
@@ -161,7 +155,6 @@ socks to protect my feet until they can defend themselves from the heat, and
 then I will wear only sandals.
 
 ![seven](/images/tallinn/2019-06-30/eight.JPG)
-
 *Path running next to the Oder river to the campsite*
 
 I don't feel very hungry, there is a restaurant here, but I might just cook up

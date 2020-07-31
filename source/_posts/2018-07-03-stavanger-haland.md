@@ -48,7 +48,6 @@ if I took the 15:30 then I would have most of the day at the hostel with no
 extra cost and still make some headway to continue the next day.
 
 ![image](/images/norway/2018-07-03/IMG_20180703_172138.jpg)
-
 *Life across the water*
 
 When I left the hostel and got my ticket at the station, I saw two more
@@ -77,7 +76,6 @@ welcomingly and I asked if this was the camping, she said yes and told me
 where to put my tent, and when I asked her if she took card she said "yes".
 
 ![Campsite](/images/norway/2018-07-03/IMG_20180703_183748.jpg)
-
 *Current Campsite*
 
 I've just had my dinner and I've tried a variation on my lentil soup recipe.

@@ -26,7 +26,6 @@ seems that it's not as useful, so far nobody has been able to converse with me
 in either English or German.
 
 ![Riding by a beach](/images/tallinn/2019-07-06/1.JPG)
-
 *Riding past empty beach*
 
 I had a good breakfast in the hotel, cheese, cucumber, tomato and egg. I
@@ -40,11 +39,9 @@ eventually opened out in to a meadow, before hitting the road and leading on
 to Frombork.
 
 ![Forst Path](/images/tallinn/2019-07-06/2.JPG)
-
 *Ride the forest*
 
 ![and the meadows](/images/tallinn/2019-07-06/3.JPG)
-
 *...and the meadows*
 
 On the way I heard another KLUNK! This time it was the sound of my bottom
@@ -54,7 +51,6 @@ big disaster, not like, for example, something going wrong when driving a car
 up a mountain in Albania.
 
 ![Fellen out thing](/images/tallinn/2019-07-06/4.JPG)
-
 *When things become lose and fall out but it's fine because you found the bit
 and it wouldn't have mattered much anyway to be honest with you*
 
@@ -67,7 +63,6 @@ radied and eventually sacked the town (but Corpernicus had already left ahead
 of the event).
 
 ![Copernicus](/images/tallinn/2019-07-06/5.JPG)
-
 *Archcathedral Basilica of the Assumption of the Blessed Virgin Mary and Saint
 Andrew (ABABVMSA for short), statue of Corpernicus in foreground*
 
@@ -85,11 +80,9 @@ go green, I just rode through the red lights, there was rarely any traffic,
 and it's easy to move a bicycle out of the way.
 
 ![Bird 1](/images/tallinn/2019-07-06/6.JPG)
-
 *Nobody knows what these birds are*
 
 ![Bird 2](/images/tallinn/2019-07-06/7.JPG)
-
 *They occupy poles*
 
 I had lunch in front of a statue of the pope (not the first I've seen, he's
@@ -113,7 +106,6 @@ the main road to go to Bartosxyce (the next town) was not possible, and that
 you needed to follow a 10km diversion.
 
 ![Napolean](/images/tallinn/2019-07-06/8.JPG)
-
 *Somebody dedicated this bench to Napolean Bonaparte - he fought an
 [inconclusive](https://en.wikipedia.org/wiki/Battle_of_Eylau) battle here
 abouts*

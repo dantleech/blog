@@ -13,7 +13,6 @@ my tent. I was woken up to an already too-hot-for-comfort tent, the sun was
 scorching it, and I decided to leave.
 
 ![The Path](/images/norway/2018-07-01/IMG_20180701_121244.jpg)
-
 *The Path*
 
 Initially I noticed that my leg was stiff from the 11 hours of cycling
@@ -31,7 +30,6 @@ In general really liking the language so far, although it, like German, has
 three genders, it otherwise *seems* quite simple so far.
 
 ![Corridor of Rock](/images/norway/2018-07-01/IMG_20180701_121802.jpg)
-
 *Corridor of Rock*
 
 The cycle path took me across some rugged terrain during the morning, another
@@ -39,7 +37,6 @@ The cycle path took me across some rugged terrain during the morning, another
 "hallo" and "hi". I sat down for lunch in a picturesque spot.
 
 ![Lunch](/images/norway/2018-07-01/IMG_20180701_130635.jpg)
-
 *Lunch*
 
 I was cycling down one of the steep inclines and I could see it going back up
@@ -62,7 +59,6 @@ woman shouted "Bravo!" and I raised my hand in victory and fell off.
 I didn't really fall off.
 
 ![Rocky Terrain](/images/norway/2018-07-01/IMG_20180701_130148.jpg)
-
 *Rocky Terrain*
 
 Eventually I left the trail by way of a colourful garden nursery and I had to
@@ -92,7 +88,6 @@ up behind me at speed.  I eventually rejoined the cycle path and rode through
 10s of kilometers of boring suburbs.
 
 ![Flat Terrain](/images/norway/2018-07-01/IMG_20180701_151859.jpg)
-
 *It's flat now*
 
 At around 80 I was exhausted, and as I closed in on my target a tendon in

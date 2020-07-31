@@ -35,7 +35,6 @@ than riding 100km primary route (even if it was Sunday and there was not much
 traffic).
 
 ![Dust](/images/tallinn/2019-07-14/6.JPG)
-
 *Dust - by the time I got the camera ready the worst was over*
 
 The slightly zany lady at the hotel prepared my breakfast, but I don't think
@@ -47,7 +46,6 @@ she brought out another 4 slices of cheese I tried to say no, but she assumed
 I was being polite, and that I really did want the cheese.
 
 ![Ruiner manor](/images/tallinn/2019-07-14/1.JPG)
-
 *Ruined Manor*
 
 Some other guests (possibly family) were having breakfast, and the lady used
@@ -60,7 +58,6 @@ dinner. He name, I found out eventually, was Kristi, and I said goodbye and
 thank you as I cycled back up to take my alternate route to Riga.
 
 ![Grass Hopper](/images/tallinn/2019-07-14/2.JPG)
-
 *Grass Hopper - these things make lots of noise*
 
 Today again I spent lots of time listening to Howard Zinn's book. Today was
@@ -74,7 +71,6 @@ often the road was very smooth and from a small altitude you could see a
 landscape of boundless forest.
 
 ![Flat landscape](/images/tallinn/2019-07-14/3.JPG)
-
 *Flat landscape*
 
 There was a headwind, as I was now cycling into the great wind which had
@@ -91,7 +87,6 @@ also, and I also lubricated the place where the cables pass under the drive,
 and that made them easier to change, and the bike seemed a _bit_ faster now.
 
 ![Ruined factory](/images/tallinn/2019-07-14/4.JPG)
-
 *Ruined Factory*
 
 I had a couple of energy drinks today, one more than normal, and felt a bit
@@ -106,7 +101,6 @@ which is just as well, as my phone's internet ran out of internet without
 warning today.
 
 ![Lookout](/images/tallinn/2019-07-14/5.JPG)
-
 *Lookout Tower*
 
 This was annoying -- I had received no text at all when I crossed any border,

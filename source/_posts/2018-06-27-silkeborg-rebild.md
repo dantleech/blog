@@ -35,7 +35,6 @@ Viborg, and I took it. It was basically the same one that I would have taken
 anyway.
 
 ![The Road](/images/norway/2018-06-27/IMG_20180627_094541.jpg)
-
 *The Road*
 
 I made good time and had quickly covered the distance to Viborg, on the
@@ -44,7 +43,6 @@ sun-bleached foliage and you could just see glimpses of the rippling
 waters. 
 
 ![Lake at Viborg](/images/norway/2018-06-27/IMG_20180627_120254.jpg)
-
 *Lake at Viborg*
 
 Searching for lunch I stopped after around 50 and got my self an expensive
@@ -64,7 +62,6 @@ pannier and it was still pretty cool after half an hour. Baked beans and beer.
 
 
 ![Lunch](/images/norway/2018-06-27/IMG_20180627_132006.jpg)
-
 *Lunch*
 
 The heat was oppressive at this point. My lips were dry and I was rationing my
@@ -79,7 +76,6 @@ they are usually in groups and once they were all running down a huge field
 together beside me, often they can be seen necking each-other in family groups.
 
 ![Rough path](/images/norway/2018-06-27/IMG_20180627_145122.jpg)
-
 *Rough path, ants everywhere!*
 
 While I have lost a few things on the way, somethings have come back into
@@ -90,7 +86,6 @@ reset itself twice yesterday (the battery cover was not fully closed, which
 might have explained it turning off... time will tell).
 
 ![2 True](/images/norway/2018-06-27/IMG_20180627_161818.jpg)
-
 *Self explanatory*
 
 I am now in a campsite, like the campsite yesterday they have cooking
@@ -99,7 +94,6 @@ an hour now and has yet to boil. Hoping to eat my dinner and sit down in the
 TV room and do some programming whilst charging my laptop.
 
 ![Another forest road](/images/norway/2018-06-27/IMG_20180627_172908.jpg)
-
 *Another forest road, with runner in the distance*
 
 I chatted with a guy in the kitchen, he lives on the campsite but had

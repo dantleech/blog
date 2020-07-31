@@ -37,7 +37,6 @@ exactly for Phpactor's use case, I also decided to take a more pragmatic
 approach to the project.
 
 ![The Phpactor logo](/images/2018-08-19/phpactor.png)
-
 *The Phpactor logo*
 
 What single thing would deliver the most value to _me_, what would provide the
@@ -68,7 +67,6 @@ more and more functionality spread out over different repositories. The class
 moving library has basically remained the same since it's creation.
 
 ![Parameter Completion](/images/2018-08-19/param_completion.gif)
-
 *Parameter Completion*
 
 The origins of Phpactor can be found in some humble VIM plugins I wrote, one which
@@ -208,7 +206,6 @@ stability) (see pull
 allow Phpactor to be used transparently by many more editors.
 
 ![Implement Contract](/images/2018-08-19/import_and_implement.gif)
-
 *Import class and Implement Contract*
 
 Return on Investment
@@ -252,7 +249,6 @@ is as accurate or comprehensive as PHPStorm (because it is not), but it does a
 pretty good job.
 
 ![Class References](/images/2018-08-19/class_references.gif)
-
 *Class References*
 
 Finally, there is more interaction with other people in the Phpactor project

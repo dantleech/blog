@@ -12,7 +12,6 @@ amazing view over the fjord. Clouds were dripping off one of the further
 cliffs.
 
 ![Leaving the campsite](/images/norway/2018-07-08/IMG_20180708_090418.jpg) 
-
 *Leaving the campsite*
 
 Today I would get a ferry and make prgress northwards, to Førde or Naustdal.
@@ -56,7 +55,6 @@ in the day, but the lift saved me an hour and a half and I got to meet some
 great people.
 
 ![More water](/images/norway/2018-07-08/IMG_20180708_121444.jpg)
-
 *Water, water and more water*
 
 I was now at Lavik, about 15km from the original ferry port, but there was a
@@ -66,7 +64,6 @@ of skirting around and getting another ferry. It was faster, but I'm sure I
 missed some nice sights, and it would be very steep.
 
 ![Bridge by the tunnels](/images/norway/2018-07-08/IMG_20180708_151815.jpg)
-
 *In between tunnels*
 
 My route led me to the town of Dale, where the main road disapeared into
@@ -75,7 +72,6 @@ which was probably an old road, and had it's own tunnels. Cycling down these
 tunnels was quiet eerie, as they felt abandoned somehow (but they had lights).
 
 ![Heading towards Dale](/images/norway/2018-07-08/IMG_20180708_145916.jpg)
-
 *Heading towards Dale*
 
 Exiting the tunnels I was riding the side of the mountain with the fjord at my
@@ -83,11 +79,9 @@ left, the opposite side seemed like a sheer wall of rock, and there was a
 multi-streamed waterfall pouring white into the water.
 
 ![Waterfall](/images/norway/2018-07-08/IMG_20180708_152040.jpg) 
-
 *The waterfall, I need a new camera*
 
 ![After the fall](/images/norway/2018-07-08/IMG_20180708_152615.jpg) 
-
 *After the 'fall*
 
 The last stretch from Dale to Førde led eventually up to a 400m high plateau -

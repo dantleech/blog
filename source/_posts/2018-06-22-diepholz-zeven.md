@@ -63,7 +63,6 @@ many benches (with back rests) all the green, grassy, banks. There was a
 mobile toilet (good because I could keep my bike close), and a kiosk.
 
 ![River Weser](/images/norway/2018-06-22/IMG_20180622_131040.jpg)
-
 *River Weser, Bremen*
 
 I went to the loo, got a Club-Maté drink (€1.80 - pretty expensive) and sat
@@ -98,5 +97,4 @@ In Zeven I have found a great campsite (Camping Sonnencamp). It cost €10
 table inside, and there is a power outlet. It is peaceful and the sun is out.
 
 ![Camping Office](/images/norway/2018-06-22/IMG_20180622_183324.jpg)
-
 *Camping Office, Sonnencamp, Zeven*

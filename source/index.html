@@ -7,7 +7,7 @@ pagination:
 use:
     - posts
 ---
-{% for post in page.pagination.items %}
+{% for post in page.pagination.items if not post.draft %}
     <article>
         <header>
             <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>

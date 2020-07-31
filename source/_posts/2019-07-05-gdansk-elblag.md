@@ -44,7 +44,6 @@ or at one point an industrial lorry checkpoint, eventually I found myself on a
 clealy signed cycle path (all of EuroVelo routes 9, 10 and 13).
 
 ![Eurovelo](/images/tallinn/2019-07-05/1.JPG)
-
 *EV 9,10,13*
 
 I discovered that EV 10 would take me to my milestone today, Elbląg, so I
@@ -62,7 +61,6 @@ picnic-bench lunch next to the river. From there it was mostly plain sailing
 to the city of Elbląg.
 
 ![Field Road](/images/tallinn/2019-07-05/4.JPG)
-
 *Field Road*
 
 
@@ -72,7 +70,6 @@ east on the EV 9, so it might be good to stay in a hotel before hitting the
 trail tomorrow and riding around the border of Russia.
 
 ![Lake](/images/tallinn/2019-07-05/2.JPG)
-
 *Lake*
 
 I'm riding around the border of Russia, because Russia has an enclave between
@@ -88,7 +85,6 @@ to stay here after only 80km. I had a late start from the hostel (at 10:00)
 and this city looks worthy of investigation.
 
 ![Tree-lined road](/images/tallinn/2019-07-05/3.JPG)
-
 *Tree-lined road*
 
 The hotel I found is "no frills" but very clean, and the staff are very nice.
@@ -97,7 +93,6 @@ into town and found an Italian Coffee shop, had a coffee and did some work,
 and then asked where I could buy socks.
 
 ![The Hotel](/images/tallinn/2019-07-05/5.JPG)
-
 *The Hotel*
 
 I didn't think my missing socks (I forgot most of them, and only packed two
@@ -107,7 +102,6 @@ clothes-wash at some point, but probably not for another week. I found some
 socks in a supermarket at the recommandation of the waitress.
 
 ![My Room](/images/tallinn/2019-07-05/6.JPG)
-
 *My Room*
 
 For dinner am now in the hotel's retaurant - they speak German (most older

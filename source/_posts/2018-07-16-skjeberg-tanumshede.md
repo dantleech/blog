@@ -28,7 +28,6 @@ down and ate the pastry, which was dry and disapointing, and I assumed the
 same of the bread, but as it turned out the bread was pretty good.
 
 ![Bridge over the border](/images/norway/2018-07-17/IMG_20180717_100240.jpg)
-
 *Bridge Over Bordered Waters*
 
 So then I was in Sweden, and again I was following the motorway rather than
@@ -38,7 +37,6 @@ road. It was suffering a little from lack of maintainence, and there were
 derelict rest areas and abandonned restaurants and shops along the route.
 
 ![Flags Flying](/images/norway/2018-07-17/IMG_20180717_101824.jpg)
-
 *Flags Flying*
 
 I made pretty good progress in good time, as most of the terrain was flat,
@@ -50,7 +48,6 @@ town I now know is "Tanumshede". On the way I listened to Tom Waits, and was
 quietly singing along to the "Rain Dogs".
 
 ![Bjork](/images/norway/2018-07-17/IMG_20180717_123252.jpg)
-
 *Bjork*
 
 About 10km from the town, when I was riding up a minor hill, my gears crunched
@@ -86,7 +83,6 @@ restaurant, and wondered if it was one of the couples I had already met on my
 journey, and then CRACK!
   
 ![Disaster Wheel](/images/norway/2018-07-17/IMG_20180717_145347.jpg)
-
 *Catastrophic Bike Failure*
 
 My chain slipped and there was a crunch of gears and my bike was completely
@@ -198,7 +194,6 @@ and asked if I could "buy" some cash, he replied "only for the shower". I
 needed a shower "How many showers do you need?" I should have said fifty.
 
 ![Pea Soup](/images/norway/2018-07-17/IMG_20180717_200958.jpg)
-
 *Improved Pea Soup*
 
 *PEA SOUP*: Before leaving the campsite I took some of my dried peas and put

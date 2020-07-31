@@ -37,7 +37,6 @@ proceed any further, and I wasn't even sure where they were from. After
 securing my gear I left and overtook them with a wave after 10 minutes.
 
 ![Road](/images/tallinn/2019-07-08/1.JPG)
-
 *Road*
 
 The weather has generally been overclouded for the past days, with intervals
@@ -48,7 +47,6 @@ on them for the past two days), but otherwise I'm good, my feet have been
 completely unaffected by the suns rays.
 
 ![Water](/images/tallinn/2019-07-08/2.JPG)
-
 *Water*
 
 On the road out of Goldap, I again had the choice of riding the GreenVelo
@@ -65,7 +63,6 @@ The terrain is getting more hilly, and at one point I was elevated to 300m,
 and was offered a panoramic view of the land.
 
 ![Panoramic](/images/tallinn/2019-07-08/4.JPG)
-
 *Panoramic view*
 
 I stopped at a shop and got an energy drink, and, not finding any peanut
@@ -74,7 +71,6 @@ enough Zslotys for the biscuits, which meant that I had successfully spent all
 my Zslotys, and when I cross the border I can go back to Euros.
 
 ![Steep](/images/tallinn/2019-07-08/3.JPG)
-
 *Normally I associate the gradient signs with a mountain, but what you see is
 all of it*
 
@@ -83,9 +79,7 @@ sign with "Republic of Lithuania" surrounded by the stars of the European
 Union.
 
 ![Border](/images/tallinn/2019-07-08/5.JPG)
-
 *Crossing the border*
-
 First impression of Lithuania was that it was full of forest, the road signs
 changed their form, and so did the roads. 
 
@@ -106,7 +100,6 @@ excessive vibration, so far it is fine, but I am now making an effort to wrap
 it up in my hoodie to dampen the vibrations.
 
 ![Raw road](/images/tallinn/2019-07-08/6.JPG)
-
 *Horrible road*
 
 I did my first two Lithuanian lessons, initially it bore some resemblance to
@@ -167,7 +160,6 @@ led me to the fact that Lithuania is EET (UTC+2), compared to my watch which
 is CET (UTC+1). So no beer for me this evening.
 
 ![No beers](/images/tallinn/2019-07-08/7.png)
-
 *No beers after 20:00*
 
 It is 57k taking major roads to the nearest city, Kaunas, or 120k as the bird

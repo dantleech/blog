@@ -42,7 +42,6 @@ ferry to Bergen however.
 The ferry crossing cost around €7.50 and didn't take very long.
 
 ![Approaching Land](/images/norway/2018-07-05/IMG_20180705_121841.jpg)
-
 *Approaching Land*
 
 After leaving the ferry I was on the look out for a place to eat lunch (a
@@ -60,7 +59,6 @@ know how to make a booking, but we have 4 beds free so if you just turn up it
 will be fine".
 
 ![Reflection](/images/norway/2018-07-05/IMG_20180705_100010.jpg)
-
 *Reflection*
 
 The route to Bergen took me over a 260m mountain-hill. Not high enough to be a

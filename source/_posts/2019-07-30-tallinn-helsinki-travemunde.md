@@ -25,7 +25,6 @@ in the hours preceding the arrival it had been pouring in rain. The weather
 now however is fine, but the campsite is good enough.
 
 ![Crossing](/images/tallinn/2019-07-30/1.JPG)
-
 *Crossing*
 
 Two days ago I succeeded in getting up early at the hostel, helping myself to
@@ -37,7 +36,6 @@ time and did not wait long before boarding started and it left promptly at
 so.
 
 ![Debarking](/images/tallinn/2019-07-30/2.JPG)
-
 *Debarking*
 
 Arriving in Helsinki I had some time to kill, and rode around with no
@@ -47,7 +45,6 @@ returning to the port to get the ferry at around 15:00 (it was leaving at
 port as the one in which I arrived, but another 18km away.
 
 ![Church](/images/tallinn/2019-07-30/4.JPG)
-
 *Religious Building*
 
 I had experienced considerable stress the previous day when I booked the
@@ -69,7 +66,6 @@ quite cheerful and would smile, apparently Finland ranked 1st in the happiness
 index in 2018 and 2019.
 
 ![Street](/images/tallinn/2019-07-30/5.JPG)
-
 *A Street in Helsinki*
 
 I made my way to the port, passing some cycle tourists coming the other way
@@ -86,7 +82,6 @@ locked" "So, just the toilet then?" "err, yeah. You need to wait for around 2
 hours".
 
 ![Yellow Jackets](/images/tallinn/2019-07-30/4-5.JPG)
-
 *Yellow jackets being led the boat*
 
 The other cyclists had already started sitting on the road barrier beyond the
@@ -103,7 +98,6 @@ go before us, before we were told to follow a leading car to the boat and we
 went up the ramp and were inside.
 
 ![Deck](/images/tallinn/2019-07-30/7.JPG)
-
 *The Deck*
 
 I went directly upstairs and got a coffee. I would have gotten a cake, but
@@ -132,7 +126,6 @@ guess 90% had cabins, and the number of "recliner seats" (my accommodation
 choice) was very limited.
 
 ![Boat](/images/tallinn/2019-07-30/8.JPG)
-
 *Boat Spotted*
 
 I didn't sleep well accordingly and woke early and made my way to the cafe for
