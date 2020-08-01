@@ -60,4 +60,6 @@ _Me sitting somewhere in France 10 years ago_
 
 Europe has been my home ever since.
 
-It's been 10 years - and I never did make it to Scotland.
+I never did make it to Scotland 10 years ago but that's not the reason I'm
+going. My brother has moved there with his partner and their new daughter and
+I'm visiting them for the first time.
