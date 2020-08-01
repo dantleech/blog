@@ -22,9 +22,12 @@ is in 5 days from today, so this is something like the reverse operation 10 year
 
 At the time I had worked in the same company for 3 years, and had handed in my
 notice some 3 months earlier with the intention of cycling around France
-(partially with my father). But first I decided I would cycle to Scotland. It
-was my first cycle tour, and I thought I would make it in 2 weeks - as I had
-booked the ferry to France in advance.
+(partially with my father).
+
+But first I decided I would cycle to Scotland. 
+
+It was my first cycle tour, and I calculated that it would take me 2 weeks
+(the maximimum as we had booked the ferry to France in advance).
 
 ![Me](/images/scotland/10yearsago2.jpg)
 _The Lake Distrnct_
