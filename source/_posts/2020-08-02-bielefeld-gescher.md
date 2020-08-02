@@ -61,7 +61,7 @@ _Windmills_
 
 In the morning I woke up at the campsite and already at 7:30 they were
 apparently sitting outside again and chatting away and having a good old time.
-I resorted to Beethoven again, had breakfast then packed up and left.
+I resorted to Beethoven, had breakfast, packed up and left.
 
 I had no clear idea of where I would aim for today - I knew I would try and
 follow the `D3` cycle path (which I _think_ is the EuroVelo 1, at least it's a
@@ -83,7 +83,7 @@ it was another 60km - as it was so early I thought I could make it and it
 would be good to do a long day on the bicycle.
 
 ![Me](/images/scotland/2020-08-02-2.jpg)
-_Bicycles in Munster_
+_Bicycles in Munster - they are like this everywhere_
 
 My rear break is still disconnected, I didn't have the patience to repair it
 on the campsite this morning with the Scandinavian cacophony. It's mostly not
