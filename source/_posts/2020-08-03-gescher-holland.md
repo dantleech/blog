@@ -1,5 +1,5 @@
 --- 
-title: Geschner to Holland (past Apeldoorn)
+title: Geschner to Holland (past Apeldoorn))
 categories: [scotland2020]
 distance: 116
 time: 6h18m
@@ -58,10 +58,10 @@ sandwich at a bakery. The route was perfectly flat and there was no wind as I
 passed the abandoned border control to Holland.
 
 I stopped at a supermarket - parked the bike outside alongside many others,
-took my expensive bag, and also my tent - which cost over €400 - it will take
-some time before I feel comfortable leaving that outside on the back of my
-bike (although I can probably leave my bike unlocked overnight and nobody
-would touch it).
+took my expensive bag (laptop), and also my tent - which cost over €400 - it
+will take some time before I feel comfortable leaving that outside on the back
+of my bike (although I can probably leave my bike unlocked overnight and
+nobody would touch it).
 
 In the supermarket the first thing I noticed is that nobody was wearing a
 mask. In German the mark "law" had been in place for about 3 months, in
@@ -87,7 +87,7 @@ my phone on the charger and when I woke up the charger was almost empty and
 the phone was only on 70% (the USB connection isn't very good, and I need to
 carefully adjust the position until it connects and gives power, but it often
 loses the connection - the probability space for "charging" is decreasing all
-the time. My laptop can also be used as a backup source of power, but at 3
+the time). My laptop can also be used as a backup source of power, but at 3
 years old it can only last 2 hours, and I burnt half of that writing my blog
 last night.
 
