@@ -103,18 +103,19 @@ After 10km I arrived in Haarlem, which is really like a smaller Amsterdam - it
 has similar canals and bridges (also tourists and restaurants). I hadn't yet
 decided on what I was doing and I stopped at bar for a beer and had a think.
 
-I checked my map and there were a couple of hostels, one was called "Live like
-a local" or similar, and I checked the website, which seemed intentionally
-"low-fi". The price for a bed was €31 which seemed compareably cheap, and it
-had good reviews on Tripadvisor, I booked on the phone and finished my beer
-then made my way (maybe 200m) to the place.
+I checked my map and there were a couple of hostels, one was called [Hello
+I'm local!](http://www.helloimlocal.com). I checked the website, which
+seemed intentionally "low-fi". The price for a bed was €31 which seemed
+comparably cheap, and it had good reviews on Tripadvisor, I booked on the
+phone (it was cute and said "WARNING: you have successfully booked your stay")
+and finished my beer then made my way (maybe 200m) to the place.
 
 It appeared very nice, there were plants, jazz music and everything was wood
 and clean, behind the bar was a big kitchen. The young girl (most serice
 people seem to be young) always said "You can use _my_ garage", "you can use
-_my_ room". Obviously this seemed very unnatural, and I guess this was
-corporate policy, but all the same she was very hospitable, and as was quick
-to ask about my travel plans. Even if it was a trained act, it is still nicer
+_my_ room". Obviously this seemed very unnatural, and this sounded like forced
+policy, but all the same she was very hospitable, and as was quick to ask
+about my travel plans. Even if it was a trained act, it is still nicer
 than a cold welcome.
 
 The dorm room was well ventilated and clean. The en-suite bathroom provided
@@ -143,7 +144,3 @@ trip north in England.
 I want to cycle the Scottish Highlands, I will have around 3.5 weeks, and I
 think it's around 4 days or so from Newcastle to my brothers place. No idea
 how far it is to the Highlands, so will make these decisions later.
-
-
-
-
