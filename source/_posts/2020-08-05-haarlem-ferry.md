@@ -79,4 +79,5 @@ prices onboard seem a little bit cheaper than Helsinki - Travemunde last
 year (breakfast is €11, dinner €29, coffee is €3.95). Internet is stupid
 expensive (e.g. €20 for 24h).
 
-I am cutting this blog post short as I will not have internet later on.
+I am cutting this blog post short as I will not have internet later on, but
+should arrive in Newcastle at around 9am and the can start cycling north.
