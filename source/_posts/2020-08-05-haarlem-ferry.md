@@ -81,3 +81,9 @@ expensive (e.g. €20 for 24h).
 
 I am cutting this blog post short as I will not have internet later on, but
 should arrive in Newcastle at around 9am and the can start cycling north.
+
+My initial route looks something like this, but may take a train from Glasgow
+to Inverness:
+
+![Lost](/images/scotland/2020-08-05-4.jpg)
+_Route_
