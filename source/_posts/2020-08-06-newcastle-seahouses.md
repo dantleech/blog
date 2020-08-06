@@ -1,8 +1,8 @@
 --- 
 title: Newcastle to Seahouses
 categories: [scotland2020]
-distance: 
-time: 
+distance: 124
+time: 7h02m
 geopoints: 
   - [54.98982777844543, -1.4920806884765625]
   - [55.04769570951166, -1.4584350585937502]
@@ -61,7 +61,8 @@ didn't understand "Ploughman's" but she did have a cheese, pickle and salad
 sandwich.  I guess some terms are not universal in England.
 
 I passed maybe 4 castles today and was cycling along the coast with the sea
-salt smell in the air.
+salt smell in the air. There were lots of hills which I actually like - it
+gives the day more variation.
 
 ![...](/images/scotland/2020-08-06-3.jpg)
 _World War II Bunker (I assume)_
@@ -121,3 +122,11 @@ my tent.
 
 ![...](/images/scotland/2020-08-06-5.jpg)
 _Bamburgh Castle_
+
+Yesterday I was thinking of cycling up the west coast, including the
+now-quarantined town of Aberdeen. Now I think I will cycle through the middle
+of Scotland to Inverness. Not just because of the quarantine, but because I
+would pass through the mountains that way, then I can cycle down the east
+coast of Scotland to my brothers.
+
+I guess I should be in Scotland tomorrow evening.
