@@ -2,7 +2,7 @@
 title: Haarlem to Newcastle
 categories: [scotland2020]
 distance: 18
-time: 2h
+time: 1h
 geopoints: 
   - [52.38272474814214, 4.640350341796876]
   - [52.455590969224914, 4.657516479492188]
