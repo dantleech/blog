@@ -1,5 +1,5 @@
 --- 
-title: Seahouses to Edinburgh
+title: Edinburgh to Pitlochry
 categories: [scotland2020]
 distance: 148
 time: 9h20m
