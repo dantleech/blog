@@ -105,7 +105,7 @@ feeling dead - both because of the sun and because of my energy levels.
 _I may have additionally passed the second highest point on the scottish cycle network today 401m compared to the 457m from earlier_
 
 I ploughed on regardless, I purchased a beer in Aviemore at least, and after
-an hour I stopped, not finding a bench, but finding a bridge with a curb. I
+an hour I stopped, not finding a bench, but finding an abandonned bridge with a curb. I
 sat down and slumped against the old rock wall of the bridge watching the ants
 crawling all over the place as I cracked open my beer, then a car pulled up, a
 family taking the dogs for a walk I nodded hello, "looking hot there mate"
