@@ -47,8 +47,8 @@ and two fried eggs.
 
 When I finished I went to pay and was astonished when she said that it would
 cost £5, it was astonishing because the menu said £10. When she saw my
-astonishment she said "Eat out to help out" (or similar) and explained it
-briefly to me.  Eat-in food is half price on Monday, Tuesdays and Wednesdays
+astonishment she said it was "Eat out to help out" and explained it
+briefly to me:  Eat-in food is half price on Monday, Tuesdays and Wednesdays
 until the [end of august](https://www.gov.uk/guidance/get-a-discount-with-the-eat-out-to-help-out-scheme) with the limit capped at £10 per person.
 
 I paid and left and walked about the town and looked around the shops. I saw
@@ -92,33 +92,33 @@ was half price.
 
 I am now sitting in an Indian Restaurant. English Indian restaurants are
 unlike Indian Restaurants in other countries, in general, and I wanted to have
-a "good Indian". There are no less than three in the vicinity of the hostel.
+a "good Indian". There were three in the immediate vicinity of the hostel.
 Only one was open however, and it was full "until nine" so I started walking
 in search of more.
 
 The one I'm sitting in seems to have ample space, I am the only person sitting
 in this room. Maybe because of the prices - the main dish alone £10.95, the
 Naan £2.95 and the rice a further £3.95, one beer was around £4. I can't
-remember if this is normal in UK, but in Berlin the price would be less than
-half.
+remember if this is normal in UK, but in Berlin it would cost half as much.
 
 I said "it seems expensive, but I guess it's 50% off?" 
 
 "yes, not the drinks, but the food, yes 50% off"
 
 The food was a bit underwhelming, nothing fancy. Normally I'd expect "free"
-poppadoms and sauces and large servings. But this ostensibly £23 meal was not
-special in anyway, I think our local Indian by the office in Berlin serves
+poppadoms and sauces and large servings. But this meal that would cost £23 was
+not special in any way, I think our local Indian by the office in Berlin serves
 more interesting food.
 
-When I got the bill, the guy presented me with the full amount - £25 - 
+When I got the bill, the guy presented me with the full amount - £23:
 
 "hmm, I thought the food had a 50% discount"
 
 "yes yes! must take your phone and name then 50% off, only 50% when we take
-your details".
+your phone and name".
 
 ![view](/images/scotland/2020-08-10-3.jpg)
 _Sunset in Inverness_
 
-Tomorrow I'll be eating more discounted food and cycling the length of [Loch Ness](https://en.wikipedia.org/wiki/Loch_ness)
+Tomorrow I'll be eating more discounted food and cycling the length of [Loch
+Ness](https://en.wikipedia.org/wiki/Loch_ness).
