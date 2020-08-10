@@ -59,9 +59,9 @@ refurbished, media devices (e.g. mobile phones, tablets, consoles).
 _Grumpy seagull_
 
 I have been wanting to get a tablet for some years - but only one upon which I
-can install the Lineage OS (a free and open source distribution of Google's
-Android operating system). I wanted to have control of my own device as much
-as it's possible.
+can install the [Lineage OS](https://lineageos.org/) (a free and open source
+distribution of Google's Android operating system). Which avoids much if not
+all the rubbish found on the shipped operating systems.
 
 In the shop I saw a number of Samsung tablets, and one Nexus from 2012 (I
 previously owned two of these, but they both suffered from a shattered
