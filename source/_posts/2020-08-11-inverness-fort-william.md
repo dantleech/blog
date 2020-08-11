@@ -18,8 +18,6 @@ geopoints:
 Today was another spectacular day of cycling featuring some of the best
 scenery of the trip so far, and I wasn't expecting it.
 
-I expected to see Loch Ness, but that was far from the highlight.
-
 In the morning I woke and checked my watch. The bunk bed was equipped with a
 shelf offering USB ports and a power outlet. I had plugged in my phone and
 battery directly above my head, and when I went to check my phone it slipped
