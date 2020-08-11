@@ -169,4 +169,6 @@ ferry. I didn't want to do that, I was knackered. I decided to stay at the £50
 "hostel".
 
 I locked my bike in the car park. My "room" has two bunk beds in it and little
-else, it's all mine. It does have a window with a nice view however.
+else, it's all mine, It feels cheap,, the reception is 24h and you need to
+leave your key at the reception when you leave, the WiFi is absolutely awful.
+The room has a nice view on the loch however.
