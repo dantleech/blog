@@ -1,6 +1,8 @@
 --- 
 title: Inverness Rest Day
 categories: [scotland2020]
+distance: 116
+time: 7h28m
 geopoints: 
   - [57.47874220561133, -4.226818084716798]
 ---
