@@ -1,6 +1,8 @@
 --- 
 title: Inverness to Fort William (via Loch Ness)
 categories: [scotland2020]
+distance: 115
+time: 7h
 geopoints: 
   - [57.47874220561133, -4.226818084716798]
   - [57.46415790200031, -4.232482910156251]
