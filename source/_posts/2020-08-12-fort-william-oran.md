@@ -1,5 +1,5 @@
 --- 
-title: Fort William to Oran
+title: Fort William to Oban
 categories: [scotland2020]
 distance: 106
 time: 6h39m
@@ -117,10 +117,10 @@ _Weather got better_
 
 
 I wasn't sure where I would stay this evening, but I knew I would head to
-Oran. I followed the cycle route, which was very hilly at times. There were
-two hostels in Oran, and two campsites closeby further down the coast, I
-reached the point where the cycle path turned towards Oran, but there was a
-dilemma: Oran was a dead-end and the town was 2.6 miles, and the campsites a
+Oban. I followed the cycle route, which was very hilly at times. There were
+two hostels in Oban, and two campsites closeby further down the coast, I
+reached the point where the cycle path turned towards Oban, but there was a
+dilemma: Oban was a dead-end and the town was 2.6 miles, and the campsites a
 further 2 miles on top. I could continue east, but there were no shops for
 quite some distance.
 
@@ -130,17 +130,17 @@ _SLOW_
 
 I had plenty of water (I filled up all my bottles at a caravan park on the
 way) and I had enough food for dinner, but not breakfast. I could either go to
-Oran and try my luck at the campsites, then cycle back, or I could continue
-and wild camp. I decided to go to Oran.
+Oban and try my luck at the campsites, then cycle back, or I could continue
+and wild camp. I decided to go to Oban.
 
 ![view](/images/scotland/2020-08-12-7.jpg)
-_This castle was swapped for a small boat away by a drunken Lord_
+_[Eilean Donar Castle](https://en.wikipedia.org/wiki/Eilean_Donan#Origins_of_the_castle) which was at one point swapped for a small boat away by a drunken Lord_
 
 As I was cycling I regretted this decision more and more - the route wasn't
 "down hill" it was significantly "up down up down up down" - I was going in
 the wrong direction for the sake of a campsite and a supermarket.
 
-To make things worse, I passed through Oran without going to the supermarket,
+To make things worse, I passed through Oban without going to the supermarket,
 and when I got to the campsite it was shut. I had cycled 4.5 miles and it had
 taken maybe 45 minutes. But there was another campsite, which was a mile
 _to the east_. I rode up some more steep hills and arrived it said "Caravan
@@ -174,7 +174,7 @@ I'm glad I did stop, as the campsite is really nice, it's extremely quiet and
 I've had some nice chats with some of the other campers.
 
 Today wasn't a good day for distance, I managed to do 100k, but I probably
-lost 20k by getting lost and then going to Oran. I have arranged to stay with
+lost 20k by getting lost and then going to Oban. I have arranged to stay with
 a friend near Glasgow in Eaglesham - ideally have liked nearer, but I think I
 can be in Eaglesham on Friday evening, and at my brothers on Saturday evening.
 
