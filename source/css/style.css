@@ -37,7 +37,7 @@ a.dull-link:visited,a.dull-link:visited,a.dull-link:active   {
 article img {
     display: block;
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 100%;
 }
 
 img + em {
