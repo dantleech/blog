@@ -1,8 +1,8 @@
 --- 
 title: Tarbert to Eaglesham
 categories: [scotland2020]
-distance: 115
-time: 7h
+distance: 111
+time: 7h09m
 geopoints: 
   - [55.85604579744279, -5.437545776367188]
   - [55.876081238490315, -5.410766601562501]
