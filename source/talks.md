@@ -8,6 +8,10 @@ title: Talks
 
 Some of the public talks I have given:
 
+### 2020
+
+- 09-01 : PHPBench - Testing code performance [PHPNW](https://www.phpnw.org.uk/)
+
 ### 2019
 
 - 11-09: Exploring Async PHP [BHPHP](https://www.bgphp.org/) [[slides](https://www.slideshare.net/dantleech/2019-11bgphp)] [[joind.in](https://joind.in/event/bulgaria-php-conference-2019/exploring-async-php)]
