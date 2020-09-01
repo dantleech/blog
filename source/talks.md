@@ -10,7 +10,7 @@ Some of the public talks I have given:
 
 ### 2020
 
-- 09-01 : PHPBench - Testing code performance [PHPNW](https://www.phpnw.org.uk/)
+- 09-01 : PHPBench - Testing code performance [PHPNW](https://www.phpnw.org.uk/) (user group, remote)
 
 ### 2019
 
