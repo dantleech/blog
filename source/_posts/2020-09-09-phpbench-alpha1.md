@@ -66,6 +66,11 @@ In summary:
 - Features have been
   [removed](https://github.com/phpbench/phpbench/issues/650).
 - The README and documentation has been reviewed and updated.
+- The codebase has variously updated including type-hints have been added
+  internally with the help of [Rector](https://github.com/rectorphp/rector).
+- XDebug [profile
+  generation](https://phpbench.readthedocs.io/en/latest/extensions/xdebug.html)
+  is now included by default.
 
 ![Baseline](/images/2020-09-09/baseline.png)
 *Showing the % difference to a previous run*
