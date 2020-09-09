@@ -5,25 +5,27 @@ categories: [phpbench,php]
 
 ![New PHPBench Logo](/images/2020-09-09/logo.png)
 
-PHPBench is over 5 years old. I started working on it because I wanted to
-write a new implementation of the [PHPCR](http://phpcr.github.io/) spec, and I
-wanted to ensure that it was faster than the existing
-[Jackalope](http://jackalope.github.io/) implementation, I needed a framework
-to write a large number of performance tests. The existing
-[Athletic](https://github.com/polyfractal/athletic) framework didn't quite
-meet my needs so I decided to write my own.
+[PHPBench](https://github.com/phpbench/phpbench) is over 5 years old. I
+started working on it because I wanted to write a new implementation of the
+[PHPCR](http://phpcr.github.io/) spec, and I wanted to ensure that it was
+faster than the existing [Jackalope](http://jackalope.github.io/)
+implementation, I needed a framework to write a large number of performance
+tests. The existing [Athletic](https://github.com/polyfractal/athletic)
+framework didn't quite meet my needs so I decided to write my own.
 
 I didn't write the next PHPCR implementation (luckily, it would have been
 terrible) but I did spend the next several months working on PHPBench, a large
-part of it was written while I was cycling from Vorarlberg (Austria) to
-Ankara going back through Greece and up to Slovenia. I gave one of my first
-talks ever at the Istanbul PHP User Group.
+part of it was written while I was cycling from [Vorarlberg (Austria) to
+Ankara](https://www.crazyguyonabike.com/doc/?doc_id=16302) going back through
+Greece and up to Slovenia. I gave one of my first talks ever at the Istanbul
+PHP User Group.
 
 Lots of experiments were carried out, some of which really useful ([retry
-threshold](https://phpbench.readthedocs.io/en/latest/benchmark-runner.html#progress-reporters), some were
-awesome in a [nerdy
-way](https://phpbench.readthedocs.io/en/latest/benchmark-runner.html#progress-reporters), and some were, in retrospect, bad ideas (implementing
-a JSON query language to query a database).
+threshold](https://phpbench.readthedocs.io/en/latest/benchmark-runner.html#progress-reporters)),
+some were awesome in a [nerdy
+way](https://phpbench.readthedocs.io/en/latest/benchmark-runner.html#progress-reporters),
+and some were, in retrospect, bad ideas (implementing a JSON query language to
+query a database - now fortunately removed).
 
 ![Blinken Logger](/images/2020-09-09/blinken.gif)
 *Blinken logger*
