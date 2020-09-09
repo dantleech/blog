@@ -61,12 +61,13 @@ In summary:
   suite](https://phpbench.readthedocs.io/en/latest/regression-testing.html) as
   a baseline when running your benchmarks and generating reports.
 - The Assertion feature has been completely re-implemented with a [DSL](https://phpbench.readthedocs.io/en/latest/writing-benchmarks.html#assertions)
-- You can assert against the baseline (within a margin of error) - which
+- You can assert against the baseline (within a [margin of
+  error](https://phpbench.readthedocs.io/en/latest/assertions.html#tolerance)) - which
   hopefully will allow regression testing in CI environments.
 - Features have been
   [removed](https://github.com/phpbench/phpbench/issues/650).
 - The README and documentation has been reviewed and updated.
-- The codebase has variously updated including type-hints have been added
+- The codebase has variously updated, notably real type-hints have been added
   internally with the help of [Rector](https://github.com/rectorphp/rector).
 - XDebug [profile
   generation](https://phpbench.readthedocs.io/en/latest/extensions/xdebug.html)
