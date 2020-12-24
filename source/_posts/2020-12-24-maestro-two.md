@@ -3,6 +3,13 @@ title: Maestro the Package Automator
 categories: [php,maestro,phpactor]
 ---
 
+---
+
+**TL;DR;** [Maestro](https://github.com/dantleech/maestro2) is a package
+maintenance automator which is in development.
+
+---
+
 It's Christmas and Phpactor needs to be upgraded to PHP 8.0, but Phpactor has
 many packages:
 
