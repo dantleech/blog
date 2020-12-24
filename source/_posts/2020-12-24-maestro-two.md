@@ -101,7 +101,7 @@ the complicated crap, but that's not easy.
 Maestro 2
 ---------
 
-Maestro 2 (hitherto to be known simply as Maestro) is now basically working
+Maestro 2 (henceforth to be known simply as Maestro) is now basically working
 and I have used it to (in single upgrades):
 
 - [Migrate 42
