@@ -33,8 +33,9 @@ Maestro One
 -----------
 
 Last year I regretted spending upwards of 3 months of my personal time working
-on a project called Maestro. It was designed to solve this problem, it was
-basically a parallel task runner for repositories, very similar in concept to
+on the [original](https://github.com/dantleech/maestro) project called
+Maestro. It was designed to solve this problem, it was basically a parallel
+task runner for repositories, very similar in concept to
 [Ansible](https://www.ansible.com/overview/how-ansible-works). You could use
 it to maintain metadata, run tests, and, well, pretty much do anything. It
 also generated beautiful graphs:
