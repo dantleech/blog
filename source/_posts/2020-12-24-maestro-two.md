@@ -7,7 +7,7 @@ It's Christmas and Phpactor needs to be upgraded to PHP 8.0, but Phpactor has
 many packages:
 
 ```
-composer show | grep phpactor | wc -l
+$ composer show | grep phpactor | wc -l
 42
 ```
 
