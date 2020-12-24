@@ -111,6 +111,8 @@ and I have used it to (in single upgrades):
 - [Migrate 42
   repositories](https://github.com/phpactor/phpactor-hub/blob/master/pipeline/Upgrade/PHPUnitPipeline.php) from minimum PHPUnit 7 to PHPUnit 9.
 
+_the above links are to the pipelines_
+
 
 How it Works
 ------------
