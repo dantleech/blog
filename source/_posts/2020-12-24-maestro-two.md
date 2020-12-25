@@ -90,7 +90,7 @@ The new Maestro has:
   theory](https://en.wikipedia.org/wiki/Graph_theory).
 
 I was quite depressed the previous year when the first Maestro failed - as it
-seems that you wasted so much of your time - but it wasn't wasted.
+had appeared to waste so much of my time - but it wasn't wasted.
 
 Many of the _good_ ideas from the first Maestro have been carried across. I
 think there is a lesson to be learned which has something to do with the
