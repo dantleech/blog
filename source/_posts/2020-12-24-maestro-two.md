@@ -56,21 +56,21 @@ or do any of the other things that you might like to do if you were actually
 programming.
 
 In the end I spent so much time _staring_ at JSON and trying to figure out
-what was wrong with the model that I reluctantly gave up - it just wasn't
-worth the time.
+what was wrong with the model that I reluctantly gave up - it wasn't worth the
+time.
 
 PHP 8.0 and Travis
 ------------------
 
 As previously mentioned Travis has just become awful since it got taken over
-by new management, so I reluctantly decided to migrate to Github Actions.
+by new management, so I decided to migrate to Github Actions.
 
 My decision was helped when [Oskar Stark](https://twitter.com/oskarstark) made
 a pull request on [PHPBench](https://github.com/phpbench/phpbench) and by
 doing so illustrated the process of adding Github Actions (would _I_ read
 documentation?).
 
-But doing this on scale was unimaginable, so I thought back to Maestro and
+But doing this on scale was challenging, so I thought back to Maestro and
 then I thought about the newly released PHP 8.0 and I decided to write _the
 entire thing from **SCRATCH**_.
 
