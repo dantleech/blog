@@ -8,8 +8,14 @@ title: Talks
 
 Some of the public talks I have given:
 
+### 2021
+
+- 02-11 : Integration Testing - The 🐘Elephant in the Room (Internal Inviqa Code Talk)
+- 02-09 : PHPBench - Testing code performance [VlbgWebDev](https://www.meetup.com/de-DE/VlbgWebDev/events/llpqfryccdbmb/) (user group, remote)
+
 ### 2020
 
+- 12-03 : PHP 8 - First Impressions (Internal Inviqa Code Talk)
 - 09-01 : PHPBench - Testing code performance [PHPNW](https://www.phpnw.org.uk/) (user group, remote)
 
 ### 2019
