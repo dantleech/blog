@@ -47,8 +47,17 @@ The original assertion DSL introduced in `alpha1` was quite limited. Probably
 the biggest issue was that you could only assert against hardcoded and
 pre-calculated values, other than that it only allowed simple comparisons.
 
-The [new DSL](https://phpbench.readthedocs.io/en/latest/expression.html) is much more comprehensive featuring (for example) arithmetic, logical
+The [assertions](https://phpbench.readthedocs.io/en/latest/assertions.html) now use a custom [expression language](https://phpbench.readthedocs.io/en/latest/expression.html) is much more comprehensive featuring (for example) arithmetic, logical
 operators, operator precdence, and _functions_.
+
+```
+/**
+ * @Assert("mode(variant.time.avg) as ms < mode(baseline.time.avg) as ms +/- 5%")
+ */
+public function benchFoo(): void
+{
+}
+```
 
 It provides full access to ANY metrics which were recorded against an
 iteration, by default this builds down to `time` and `memory` - but extensions
@@ -58,6 +67,12 @@ could theoretically provide, for example, the number of function calls.
 
 Assertion results are displayed and partially evaluated to provide better
 context.
+
+### Integrated Documentation
+
+The _new_ examples in the documentation are included from
+[code](https://github.com/phpbench/phpbench/blob/master/examples/Assertion/ExampleAssertionsBench.php)
+which is executed in continuous integration.
 
 ### Next Steps
 
