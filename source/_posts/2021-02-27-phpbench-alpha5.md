@@ -30,7 +30,8 @@ whatever you need to do (`var_dump($foo);die()`) to debug your benchmark.
 
 ### Better Assertion and Baseline Feedback
 
-The default progress logger has been simplified. If a `--ref` baseline reference is given it also shows the precent difference:
+The default progress logger has been simplified. If a `--ref` baseline
+reference is given it also shows the percent difference:
 
 ![Progress](/images/2021-02-27/output_1.png)
 
@@ -60,7 +61,7 @@ public function benchFoo(): void
 ```
 
 It provides full access to ANY metrics which were recorded against an
-iteration, by default this builds down to `time` and `memory` - but extensions
+iteration, by default `time` and `memory` - but extensions
 could theoretically provide, for example, the number of function calls.
 
 ![Assertions](/images/2021-02-27/assertions.png)
