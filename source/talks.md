@@ -10,7 +10,7 @@ Some of the public talks I have given:
 
 ### 2021
 
-- 03-25 : PHPBench - Testing code performance [PHP South Wales](https://www.youtube.com/watch?v=-qxu6n9Q-3k) ([video](https://www.youtube.com/watch?v=-qxu6n9Q-3k))
+- 03-25 : PHPBench - Testing code performance [PHP South Wales](https://www.youtube.com/watch?v=-qxu6n9Q-3k) [[video](https://www.youtube.com/watch?v=-qxu6n9Q-3k)]
 - 02-11 : Integration Testing - The 🐘Elephant in the Room (Internal Inviqa Code Talk)
 - 02-09 : PHPBench - Testing code performance [VlbgWebDev](https://www.meetup.com/de-DE/VlbgWebDev/events/llpqfryccdbmb/) (user group, remote)
 
