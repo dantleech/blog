@@ -54,7 +54,8 @@ settings, Google them).
 
 But the small annoyances aside, I can't imagine going back to a
 pretty-clicky-pointy desktop environment. I want things to be instantly
-available and I don't want to use the mouse more than I have to.
+available and I don't want to use the mouse more than I have to. I live in the
+shell.
 
 ## Disable Sleep on Lid Close
 
