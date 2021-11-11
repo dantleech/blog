@@ -51,6 +51,10 @@ least with Sway, some apps do not run in "Wayland" mode and appear "blurry".
 This can be fixed for some apps (`GDK_BACKEND=wayland` and some other
 settings, Google them).
 
+But the small annoyances aside, I can't imagine going back to a
+pretty-clicky-pointy desktop environment. I want things to be instantly
+available and I don't want to use the mouse more than I have to.
+
 ## Disable Sleep on Lid Close
 
 By default the operating system is configured to sleep when you close the
