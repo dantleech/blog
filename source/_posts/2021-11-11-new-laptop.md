@@ -23,7 +23,8 @@ laptop config wit Ansible, but I didn't maintain it, and well, why would I).
 I have historically always used Debian. I tried Arch twice, and have
 previously also used Ubuntu. As this is a work laptop, and work recommend
 Ubuntu, and lots of people complain about it "not working" I wanted to install
-an operating system that my colleagues would use.
+an operating system that my colleagues would use and see what the fuss is
+about.
 
 ## Install Sway (a tiling window manager)
 
