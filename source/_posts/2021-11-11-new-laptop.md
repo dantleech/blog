@@ -140,7 +140,8 @@ daniel  ALL=(ALL) NOPASSWD: ALL
 ## Summary
 
 The above points were some of the more interesting of the many changes I've
-made in the past hours.
+made in the past hours. There are surely countless other hacks that I don't
+know about. I'm lazy. I live with problems rather than solving them.
 
 As for Linux and this Lenovo Thinkpad X1 Generation 9:
 
