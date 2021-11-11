@@ -133,7 +133,7 @@ you have in `$HOME`?
 Somebody could do far more damage with my standard login than with my `root`
 account. My laptop isn't a web server.
 
-Disable the sudo for your user in`/etc/sudoers`:
+Disable the sudo password for your user in`/etc/sudoers`:
 
 ```
 daniel  ALL=(ALL) NOPASSWD: ALL
