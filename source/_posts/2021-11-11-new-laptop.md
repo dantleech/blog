@@ -121,7 +121,8 @@ Lots of people use [ohmyzsh](https://ohmyz.sh) but I use Prezzo, or, wait it's c
 it, but about 7 years ago I used `ohmyzsh` and it was slow. Prezzo is fast and
 most importantly it has a `history-substring-search` plugin which is my
 single *killer feature* for a shell. It will basically do a substring search
-over my entire history when I press `Up`: enabling me to recall _obscure_
+over my entire history when I press `Up` (yes, in Bash it's `<ctrl-r>` but
+this is less intrusive and easier). It enables me to recall _obscure_
 commands which I would never otherwise remember or have the patience to type.
 
 ## Remove the sudo password to save time
