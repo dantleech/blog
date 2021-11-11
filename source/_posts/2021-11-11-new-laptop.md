@@ -1,6 +1,6 @@
 ---
 title: New Laptop
-categories: [sway]
+categories: [sway,linux]
 ---
 Today my new laptop arrived. My previous X1 Carbon lasted for around 4 years -
 I say lasted: it still works, but the keyboard was completely destroyed:
@@ -101,7 +101,7 @@ keyboard.
 
 The [Compose](https://en.wikipedia.org/wiki/Compose_key) key allows you to
 press a specified key (e.g. `PrintScreen`) followed by a character you want to
-"decorate" followed by another character to "composer" into it. So for example
+"decorate" followed by another character to "compose" into it. So for example
 I press `PrintScreen`, `e` and `'` to give `é`. This becomes second nature and
 it's easy to guess.
 
