@@ -79,7 +79,7 @@ HandleLidSwitch=ignore
 When was the last time you used the caps-lock key? How many times a day do you
 press the ESC key? Are you a VIM user?
 
-I'm a VIM user, and I press the `Esc` key _alot_. The `Esc` is is however in a
+I'm a VIM user (😮), and I press the `Esc` key _alot_. The `Esc` is is however in a
 _shitty_ location, I swap it with the `CapsLock` key that I never use.
 
 In Sway this can be done in `.config/sway/config`:
