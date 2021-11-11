@@ -5,7 +5,7 @@ categories: [sway]
 Today my new laptop arrived. My previous X1 Carbon lasted for around 4 years -
 I say lasted: it still works, but the keyboard was completely destroyed:
 
-![destroyed](images/2021-11-11/compare.png)
+![destroyed](/images/2021-11-11/compare.png)
 
 It could have been repaired. I feel guilty. On the plus side this laptop
 actually has a UK layout keyboard (for the past 4 years I got very good at
@@ -145,10 +145,10 @@ As for Linux and this Lenovo Thinkpad X1 Generation 9:
 
 Before:
 
-![before](images/2021-11-11/before.png)
+![before](/images/2021-11-11/before.png)
 
 After:
 
-![after](images/2021-11-11/after.png)
+![after](/images/2021-11-11/after.png)
 
-Minimalism for the win yes.
+Minimalism for the **win** yes.
