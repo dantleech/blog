@@ -1,11 +1,11 @@
---
+---
 title: New Laptop
 categories: [sway]
 ---
 Today my new laptop arrived. My previous X1 Carbon lasted for around 4 years -
 I say lasted: it still works, but the keyboard was completely destroyed:
-GIMP
-[destroyed](images/2021-11-11/compare.png)
+
+![destroyed](images/2021-11-11/compare.png)
 
 It could have been repaired. I feel guilty. On the plus side this laptop
 actually has a UK layout keyboard (for the past 4 years I got very good at
@@ -54,12 +54,12 @@ settings, Google them).
 By default the operating system is configured to sleep when you close the
 laptop lid. I **don't like this**: I close my laptop lid to save power or conserve
 physical _space_ when my laptop it busy doing some task. The last thing I want
-it to do is sleep! 
+it to do is sleep! Maybe I want it to play music.
 
 If I want my laptop to sleep I press the sleep button (ok, there is no sleep
 button any more, I press `<function key>+4`, I also **hate** the fact there is
 no sleep or multi media buttons on these modern Thinkpad laptops, or any other
-laptop you can buy).
+laptop you can buy in 2021).
 
 Edit `/etc/systemd/logind.conf` and find the commented line
 `HandleLidSwitch=suspend`. Uncomment it and change the value to `ignore`:
@@ -74,7 +74,7 @@ When was the last time you used the caps-lock key? How many times a day do you
 press the ESC key? Are you a VIM user?
 
 I'm a VIM user, and I press the `Esc` key _alot_. The `Esc` is is however in a
-_shitty_ location, I swap it with the `CapsLock` key.
+_shitty_ location, I swap it with the `CapsLock` key that I never use.
 
 In Sway this can be done in `.config/sway/config`:
 
@@ -88,7 +88,7 @@ input * {
 ## Configure the Compose key to type non-native characters
 
 I previously moved to France, and now I live in Germany. French and German
-anguages have special characters, and I want to type them on a UK layout
+languages have special characters, and I want to type them on a UK layout
 keyboard.
 
 The [Compose](https://en.wikipedia.org/wiki/Compose_key) key allows you to
@@ -150,3 +150,5 @@ Before:
 After:
 
 ![after](images/2021-11-11/after.png)
+
+Minimalism for the win yes.
