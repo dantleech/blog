@@ -35,7 +35,9 @@ interface is synonymous with the Operating System. Windows is Windows, MacOS
 is MacOS. On Linux the UI is a **choice**: Unity, Gnome, KDE, XFCE...
 
 For the past several years I have used [i3](http://i3wm.org), and before that
-[Awesome](http://awesomewm.org) and today I installed [sway](http://swaywm.org).
+[Awesome](http://awesomewm.org) and today I installed
+[sway](http://swaywm.org). These are all minimal tiling window managers. The
+year of the Linux desktop is **this year**.
 
 Sway is a i3 compatible but in runs on Wayland. i3 doesn't run on Wayland
 because it runs on X. Wayland is the replacement for X. Lots of things do not
