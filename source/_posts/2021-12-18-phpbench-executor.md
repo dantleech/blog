@@ -234,13 +234,3 @@ the `for` loop entirely:
 
 So we see a small reduction in the no-op time as we might expect by removing
 the for-loop.
-
-Thoughts
---------
-
-- The loop seems questionable when we switch to using
-  `hrtime`, although I can imagine it still being useful in some situations,
-- Use of the loop for anything which takes > 1ms or so may not provide value
-  while increasing the amount of time required for the benchmark.
-- `hrtime` seems able to capture very small intervals, but we can see that by
-  calling `sleep(0)` we already introduce a 50μs penalty.
