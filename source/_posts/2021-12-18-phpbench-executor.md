@@ -232,5 +232,76 @@ the `for` loop entirely:
 +--------------+---------------+--------------------+
 ```
 
-So we see a small reduction in the no-op time as we might expect by removing
+We see a small reduction in the no-op time as we might expect by removing
 the for-loop.
+
+Hashing Algorithm Comparison 10 revs
+------------------------------------
+
+Copmaring various hashing algorithms using the two different executors we can
+see that `hrtime` is much more nuanced.
+
+```
++-------------------+------------------+------------------+------------------+-------------------+
+|                   | time (kde mode)                     | memory                               |
++-------------------+------------------+------------------+------------------+-------------------+
+| subject           | Tag: microalgos  | Tag: hrtimealgos | Tag: microalgos  | Tag: hrtimealgos  |
++-------------------+------------------+------------------+------------------+-------------------+
+| benchAlgos (0,0)  | 0.500μs (±0.00%) | 0.384μs (±3.63%) | 1.557mb          | 1.549mb           |
+| benchAlgos (1,0)  | 0.300μs (±0.00%) | 0.331μs (±4.55%) | 1.557mb          | 1.549mb           |
+| benchAlgos (2,0)  | 0.500μs (±0.00%) | 0.473μs (±4.38%) | 1.557mb          | 1.549mb           |
+| benchAlgos (3,0)  | 0.700μs (±0.00%) | 0.651μs (±3.03%) | 1.557mb          | 1.549mb           |
+| benchAlgos (4,0)  | 0.800μs (±5.95%) | 0.617μs (±3.91%) | 1.557mb          | 1.549mb           |
+| benchAlgos (5,0)  | 1.000μs (±4.72%) | 0.723μs (±2.82%) | 1.557mb          | 1.549mb           |
+| benchAlgos (6,0)  | 1.000μs (±3.92%) | 0.742μs (±3.75%) | 1.557mb          | 1.549mb           |
+| benchAlgos (7,0)  | 0.750μs (±6.67%) | 0.717μs (±4.35%) | 1.557mb          | 1.549mb           |
+| benchAlgos (8,0)  | 1.000μs (±3.03%) | 0.751μs (±3.88%) | 1.557mb          | 1.549mb           |
+| benchAlgos (9,0)  | 1.500μs (±6.36%) | 1.157μs (±4.47%) | 1.557mb          | 1.549mb           |
+| benchAlgos (10,0) | 1.401μs (±3.45%) | 1.125μs (±3.96%) | 1.557mb          | 1.549mb           |
+| benchAlgos (11,0) | 1.373μs (±6.34%) | 1.184μs (±6.73%) | 1.557mb          | 1.549mb           |
+| benchAlgos (12,0) | 1.298μs (±4.69%) | 1.177μs (±6.61%) | 1.557mb          | 1.549mb           |
+| benchAlgos (13,0) | 0.500μs (±0.00%) | 0.455μs (±7.14%) | 1.557mb          | 1.549mb           |
+| benchAlgos (14,0) | 0.700μs (±0.00%) | 0.528μs (±4.21%) | 1.557mb          | 1.549mb           |
+```
+
+Hashing Algorithm Comparison 1 vs. no revs
+------------------------------------------
+
+Copmaring various hashing algorithms using the two different executors we can
+see that `hrtime` is much more nuanced.
+
+```
++-------------------+-------------------+-------------------+-------------------+--------------------+
+|                   | time (kde mode)                       | memory                                 |
++-------------------+-------------------+-------------------+-------------------+--------------------+
+| subject           | Tag: hrtime1revs  | Tag: hrtimenorevs | Tag: hrtime1revs  | Tag: hrtimenorevs  |
++-------------------+-------------------+-------------------+-------------------+--------------------+
+| benchAlgos (0,0)  | 2.552μs (±4.48%)  | 2.284μs (±5.07%)  | 1.549mb           | 1.549mb            |
+| benchAlgos (1,0)  | 1.815μs (±5.94%)  | 1.747μs (±4.50%)  |                   |                    |
+| benchAlgos (2,0)  | 2.795μs (±4.51%)  | 2.539μs (±3.42%)  |                   |                    |
+| benchAlgos (3,0)  | 2.930μs (±4.04%)  | 2.568μs (±5.29%)  |                   |                    |
+| benchAlgos (4,0)  | 2.681μs (±5.81%)  | 3.044μs (±4.00%)  |                   |                    |
+| benchAlgos (5,0)  | 3.081μs (±4.69%)  | 2.754μs (±4.19%)  |                   |                    |
+| benchAlgos (6,0)  | 3.460μs (±5.86%)  | 2.630μs (±5.23%)  |                   |                    |
+| benchAlgos (7,0)  | 2.763μs (±6.44%)  | 2.965μs (±5.17%)  |                   |                    |
+| benchAlgos (8,0)  | 3.428μs (±2.70%)  | 2.687μs (±4.49%)  |                   |                    |
+| benchAlgos (9,0)  | 7.510μs (±3.75%)  | 7.182μs (±4.52%)  |                   |                    |
+| benchAlgos (10,0) | 7.343μs (±3.15%)  | 7.275μs (±4.62%)  |                   |                    |
+| benchAlgos (11,0) | 7.662μs (±4.96%)  | 7.147μs (±4.09%)  |                   |                    |
+| benchAlgos (12,0) | 7.539μs (±3.53%)  | 6.952μs (±2.64%)  |                   |                    |
+| benchAlgos (13,0) | 2.220μs (±5.38%)  | 2.468μs (±6.81%)  |                   |                    |
+| benchAlgos (14,0) | 2.764μs (±4.65%)  | 2.343μs (±4.24%)  |                   |                    |
+| benchAlgos (15,0) | 3.024μs (±4.00%)  | 2.420μs (±8.11%)  |                   |                    |
+| benchAlgos (16,0) | 2.585μs (±7.13%)  | 2.514μs (±4.58%)  |                   |                    |
+```
+
+With both a single loop and no loop we see huge increase in time.
+
+
+
+
+Conclusions
+-----------
+
+Clearly there is no difference between `microtime` and `hrtime` when the
+time sample is over
