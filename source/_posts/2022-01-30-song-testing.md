@@ -134,3 +134,6 @@ The track could be improved in _many_ ways, but specifically:
 2. Try and record from start to end first before refining and layering up. I
    recorded this song part by part in full segments, this led to it having an
    arbitrary structure with lots of copy-and-pasted segments.
+3. I did have some crashes while developing the song, so might try and
+   repurpose an old laptop with a dedicated O/S for music production, rather
+   than use my work laptop which has god-knows-what running in the background.
