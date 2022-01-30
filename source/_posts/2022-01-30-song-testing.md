@@ -137,3 +137,5 @@ The track could be improved in _many_ ways, but specifically:
 3. I did have some crashes while developing the song, so might try and
    repurpose an old laptop with a dedicated O/S for music production, rather
    than use my work laptop which has god-knows-what running in the background.
+4. The drums were sequenced manually which was tedious, it would be easier to
+   use a MIDI keyboard to record them.
