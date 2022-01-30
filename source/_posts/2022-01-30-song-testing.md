@@ -107,6 +107,13 @@ The plugin doesn't look fancy (no LV2 plugins do IIRC) but it sounds great.
 apt-get install guitarx-lv2
 ```
 
+### The audio device
+
+![mixer](/images/2022-01-30/mixed.jpg)
+
+This [ZEDi10](https://www.allen-heath.com/ahproducts/zedi-10/) mixer doubles
+as an audio interface, providing 4 distinct inputs.
+
 ### The real instruments
 
 ![guitar](/images/2022-01-30/guitar.jpg)
@@ -122,6 +129,8 @@ many years, finally I flew it back to Berlin but the neck was cracked, I had
 it repaired and it still sounding pretty good.
 
 ![piano](/images/2022-01-30/piano.jpg)
+
+The electric piano.
 
 Learnings
 ---------
@@ -139,3 +148,5 @@ The track could be improved in _many_ ways, but specifically:
    than use my work laptop which has god-knows-what running in the background.
 4. The drums were sequenced manually which was tedious, it would be easier to
    use a MIDI keyboard to record them.
+5. The lyrics didn't always have the correct meter, which could have improved
+   the song in some places.
