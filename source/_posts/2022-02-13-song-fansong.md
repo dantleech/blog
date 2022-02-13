@@ -11,7 +11,7 @@ browser doesn't playback audio, <a href="/audio/fansong.mp3">Download</a></audio
 ```
 You people out there give us something more than just record sales
 You give us something to hate
-Ad we hate you, you brainless mutants
+And we hate you, you brainless mutants
 ```
 
 I recorded it between 14:00 and midnight on Saturday, the idea was to try and
