@@ -15,7 +15,9 @@ Ad we hate you, you brainless mutants
 ```
 
 This song may or may not count as my February song. I thought it would be good
-as a learning exercise to cover a song.
+as a learning exercise to cover a song. Although ideally I wanted every month
+to be a song about [software
+development](https://www.dantleech.com/blog/2022/01/30/song-testing/).
 
 Learnings
 ---------
