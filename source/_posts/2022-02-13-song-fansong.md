@@ -51,6 +51,17 @@ Having multiple guitar parts was also nice, panning them left or right, and
 using different amp simulations. Breaking out the guitar parts to separate
 tracks and boosting for the purposes of boosting or decreasing the volume.
 
+### Bass
+
+After recording all the guitar parts the sound was already pretty faithful to
+the original, but I hadn't yet put down the bass part. I listened to the
+original, and I couldn't pick out the bass guitar at all, did it even have
+one?
+
+In anycase I did lay down some bass, but it's quite low in the mix and is
+completely in step with the guitar parts. I added a bass "enhancer" (see
+"exciter" below).
+
 ### Limiters
 
 On my previous recording I had used heavy
