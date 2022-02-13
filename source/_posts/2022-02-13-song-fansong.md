@@ -22,6 +22,14 @@ development](https://www.dantleech.com/blog/2022/01/30/song-testing/).
 Learnings
 ---------
 
+### Vocals
+
+The room I'm recording in causes lots of reverb to be picked up by the
+microphone. This means the vocals are more "fuzzy". I used a noise gate to try
+and clean them up (automatically cut the sound when the level drops below a
+certain threshold), but it only goes so far. Ultimately I need to find a way
+to improve the acoustics of the room.
+
 ### Drums
 
 I tried to faithfully copy the drums. I improved my MIDI editing capability by
