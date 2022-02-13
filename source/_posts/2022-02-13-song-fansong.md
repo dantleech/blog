@@ -55,7 +55,7 @@ tracks and boosting for the purposes of boosting or decreasing the volume.
 
 On my previous recording I had used heavy
 [compression](https://en.wikipedia.org/wiki/Dynamic_range_compression) on the vocals, which
-sounded OK, but there was still clipping and the volume was not as uniform as
+seemed to improve the sound, but there was still clipping and the volume was not as uniform as
 it could have been. I just rediscovered "limiter" which is a more aggressive
 compressor and really helps to avoid clips and keep the vocals at a constant
 (or at least limited) volume.
