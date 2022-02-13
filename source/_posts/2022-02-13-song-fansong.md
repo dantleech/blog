@@ -14,10 +14,9 @@ You give us something to hate
 Ad we hate you, you brainless mutants
 ```
 
-This song may or may not count as my February song. I thought it would be good
-as a learning exercise to cover a song. Although ideally I wanted every month
-to be a song about [software
-development](https://www.dantleech.com/blog/2022/01/30/song-testing/).
+I recorded it between 14:00 and midnight on Saturday, the idea was to try and
+learn stuff. As such it may not actually count towards my 2022 goal of [recording a song](https://www.dantleech.com/blog/2022/01/30/song-testing/) every
+month (ideally on the topic of software engineering).
 
 Learnings
 ---------
@@ -36,7 +35,7 @@ I tried to faithfully copy the drums. I improved my MIDI editing capability by
 discovering how to select multiple notes at the same time - the trick is to use
 `internal edit mode` vs. `draw mode` (unlike other DAWs the editing in Ardour
 isn't that context sensitive). This allowed me to more effectively compose
-long regions of MIDI without resorting to copying a single (lined) region
+long regions of MIDI without resorting to copying a single (linked) region
 multiple times.
 
 ### Lead Guitar
