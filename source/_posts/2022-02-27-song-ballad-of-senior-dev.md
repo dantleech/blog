@@ -46,6 +46,12 @@ version 2, and decided on something simple with a verse, chorus and bridge.
 The final version here seems very loud, louder and more distorted than the
 final in mix in Ardour.
 
+No new musical equipment since the last recording. I actually used both the
+shitty MIDI keyboard and DAW controller extensively this time round. The
+usefulness of the MIDI controller was improved by getting the DAW latency down
+to about 4ms which probably helped with being able to play realtime "drums"
+(previously the latency was 12ms).
+
 The following are the raw, nonsense, lyrics, not all of them used:
 
 ```
