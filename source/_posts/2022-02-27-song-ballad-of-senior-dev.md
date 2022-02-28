@@ -24,15 +24,24 @@ _Glory to Ukraine and I hope Putin fucks himself_
 _two days later_
 
 I invested a short amount of time over two evenings writing the lyrics, the
-following weekend I then recorded an initial version of the song, a very poor
+following weekend I then recorded an initial version of the song (version 1), a very poor
 Nick-Cave style ballad, it was out of time and not very great. I resolved to
-record a metal version of it instead and that it what we have here.
+record a metal version of it instead and that it.
 
-I remembered to push up the kick drum in the mix, for the vocals I tried mitigating the
-poor acoustics in the room by putting a sheet over my head. I think that _did_
-improve the quality, but not hugely, and it made reading the lyrics and
-performing repeated takes tiresome, so I abandoned that and accepted the
-reverb.
+On Saturday, I spent 4 hours recording a first "metal" (version 2). Usually I
+find that as much as I hate the thing I'm recording, the more I work on it the
+more I can make it something I "like". Listening to "version 2" now I'm pretty
+sure it was doomed. So I then started version 3, it took the remainder of
+Saturday and then Sunday morning before and after the anti-war demonstration.
+
+Comparing it to Lamb of God mixes I tried to turn up the kick drum and make it
+"click". For the vocals I tried mitigating the poor acoustics in the room by
+putting a sheet over my head. I think that _did_ improve the quality, but not
+hugely, and it made reading the lyrics and performing repeated takes tiresome,
+so I abandoned that and accepted the reverb.
+
+I actually googled "meatal song structure" after recording and failing with
+version 2, and decided on something simple with a verse, chorus and bridge.
 
 The final version here seems very loud, louder and more distorted than the
 final in mix in Ardour.
