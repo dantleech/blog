@@ -26,7 +26,7 @@ _two days later_
 I invested a short amount of time over two evenings writing the lyrics, the
 following weekend I then recorded an initial version of the song (version 1), a very poor
 Nick-Cave style ballad, it was out of time and not very great. I resolved to
-record a metal version of it instead and that it.
+record a metal version of it.
 
 On Saturday, I spent 4 hours recording a first "metal" (version 2). Usually I
 find that as much as I hate the thing I'm recording, the more I work on it the
@@ -45,6 +45,10 @@ version 2, and decided on something simple with a verse, chorus and bridge.
 
 The final version here seems very loud, louder and more distorted than the
 final in mix in Ardour.
+
+For drums: I used the AVL drumkit plugin (the Black Pearl Kit) for version 2
+(version 1 had no drums) but I switched back to DrumGizmo (used on my
+"testing" song) for the 3rd version. It seems to sound better.
 
 No new musical equipment since the last recording. I actually used both the
 shitty MIDI keyboard and DAW controller extensively this time round. The
