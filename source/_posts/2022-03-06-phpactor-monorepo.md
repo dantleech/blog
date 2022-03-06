@@ -32,11 +32,12 @@ package:
     package.
 
 So, potentially, for every "domain" in Phpactor there were up to 4 packages.
-In theory this was amazingly powerful. 
+In theory this was amazingly powerful:
 
 - You could mix and match [extensions](https://www.dantleech.com/blog/2018/11/25/extensions/)
   to build new distributions of Phpactor. 
-- External "plugins" could depend on only what the needed and be reused in different contexts. 
+- External Phpactor extensions could depend on only what the needed, instead
+  of the whole of Phpactor.
 - Domain boundaries were very explicit, it helped to ensure code was
   decoupled.
 - You could add new implementations without touching either the domain or
