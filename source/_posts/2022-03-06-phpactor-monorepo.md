@@ -39,10 +39,15 @@ In theory this was amazingly powerful.
 - External "plugins" could depend on only what the needed and be reused in different contexts. 
 - Domain boundaries were very explicit, it helped to ensure code was
   decoupled.
+- You could add new implementations without touching either the domain or
+  domain extension.
+- You could integrate the package with other frameworks (e.g. Symfony) without
+  depending on the Phpactor "framework".
 
-In reality, as the number of packages grew, the time to develop and iterate
-Phpactor grew, adding a feature would often take me an entire weekend, and I
-was adding lots of features for a long time until it just got depressing.
+In reality, very few of these advantages paid off and as the number of
+packages grew, the time to develop and iterate Phpactor grew, adding a feature
+would often take me an entire weekend, and I was adding lots of features for a
+long time until it just got depressing.
 
 About 3 years ago I tried to create a mono repo using an automated package
 split which preserved the commit history, but it was heavy and complicated.
