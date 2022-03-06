@@ -107,6 +107,16 @@ Downsides
 - **Package level metadata**: Package-level README files and other meta files
   are gone, but on the plus side tooling configuration is now global.
 
+Upsides
+-------
+
+- **Easy refactoring**: No need to do the same work in 50 repositories.
+- **Easier to contribute**: Most of the code is right there in
+    `phpactor/phpactor`. I would think many features and imrovements would require a single
+    PR.
+- **Centralised tooling**: No more upgrade PHPUnit on 50 repositories, and
+    easy to maintain the same coding standard.
+
 Archived
 --------
 
