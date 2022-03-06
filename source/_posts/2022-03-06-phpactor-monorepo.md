@@ -98,6 +98,8 @@ Downsides
 - **Extensions**: The 3 extant Phpactor extensions depend on the individual packages. For now
   `phpactor/phpactor` replaces them. Going forward they will need to depend on
   the monolith.
+- **Package level metadata**: Package-level README files and other meta files
+  are gone, but on the plus side tooling configuration is now global.
 
 Archived
 --------
