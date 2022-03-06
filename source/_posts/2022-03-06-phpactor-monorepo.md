@@ -3,51 +3,11 @@ title: Phpactor is a monolith
 categories: [phpactor]
 ---
 
-TL;DR;
-------
-
 Phpactor is a [monolith](https://github.com/phpactor/phpactor/pull/1349) with
 some exceptions. Over 20 packages have been imported into the main repo and
 their github repositories abandoned.
 
 This should make development far easier going forward.
-
-The following packages have been archived:
-
-```
-✓ Archived repository phpactor/class-mover
-✓ Archived repository phpactor/class-to-file-extension
-✓ Archived repository phpactor/code-builder
-✓ Archived repository phpactor/code-transform
-✓ Archived repository phpactor/code-transform-extension
-✓ Archived repository phpactor/completion
-✓ Archived repository phpactor/completion-extension
-✓ Archived repository phpactor/completion-rpc-extension
-✓ Archived repository phpactor/completion-worse-extension
-✓ Archived repository phpactor/composer-autoloader-extension
-✓ Archived repository phpactor/config-loader
-✓ Archived repository phpactor/console-extension
-✓ Archived repository phpactor/debug-extension
-✓ Archived repository phpactor/extension-manager-extension
-✓ Archived repository phpactor/file-path-resolver
-✓ Archived repository phpactor/file-path-resolver-extension
-✓ Archived repository phpactor/indexer-extension
-✓ Archived repository phpactor/language-server-extension
-✓ Archived repository phpactor/language-server-phpactor-extensions
-✓ Archived repository phpactor/logging-extension
-✓ Archived repository phpactor/name
-✓ Archived repository phpactor/path-finder
-✓ Archived repository phpactor/php-extension
-✓ Archived repository phpactor/reference-finder
-✓ Archived repository phpactor/reference-finder-extension
-✓ Archived repository phpactor/reference-finder-rpc-extension
-✓ Archived repository phpactor/rpc-extension
-✓ Archived repository phpactor/source-code-filesystem
-✓ Archived repository phpactor/source-code-filesystem-extension
-✓ Archived repository phpactor/worse-reference-finder-extension
-✓ Archived repository phpactor/worse-reference-finder
-✓ Archived repository phpactor/worse-reflection-extension
-```
 
 Background
 ----------
@@ -127,12 +87,55 @@ matches the autoloader exactly.
 Downsides
 ---------
 
-- Having the `Tests` in the `src` directory didn't feel great. My usual strategy
+- **No hard boundaries between packages**: It's now easy to violate package
+  boundaries, although this can be fixed with some tooling.
+- **Tests in new location**: Having the `Tests` in the `src` directory didn't feel great. My usual strategy
   is to have `tests/{Unit,Integration,Benchmarks}`, but a single package can
   belong to all of those categories. I could also have had
   `tests/{packageName}/{Unit,Integration,Benchamarks}` but this means adding
   lots of explicit mappings to the autoloader.
-- We also lost all the commit history for all of these files.
-- The 3 extant Phpactor extensions depend on the individual packages. For now
+- **No commit history**: We also lost all the commit history for all of these files.
+- **Extensions**: The 3 extant Phpactor extensions depend on the individual packages. For now
   `phpactor/phpactor` replaces them. Going forward they will need to depend on
   the monolith.
+
+Archived
+--------
+
+The following packages have been archived and are now part of
+`phpactor/phpactor`:
+
+```
+✓ Archived repository phpactor/class-mover
+✓ Archived repository phpactor/class-to-file-extension
+✓ Archived repository phpactor/code-builder
+✓ Archived repository phpactor/code-transform
+✓ Archived repository phpactor/code-transform-extension
+✓ Archived repository phpactor/completion
+✓ Archived repository phpactor/completion-extension
+✓ Archived repository phpactor/completion-rpc-extension
+✓ Archived repository phpactor/completion-worse-extension
+✓ Archived repository phpactor/composer-autoloader-extension
+✓ Archived repository phpactor/config-loader
+✓ Archived repository phpactor/console-extension
+✓ Archived repository phpactor/debug-extension
+✓ Archived repository phpactor/extension-manager-extension
+✓ Archived repository phpactor/file-path-resolver
+✓ Archived repository phpactor/file-path-resolver-extension
+✓ Archived repository phpactor/indexer-extension
+✓ Archived repository phpactor/language-server-extension
+✓ Archived repository phpactor/language-server-phpactor-extensions
+✓ Archived repository phpactor/logging-extension
+✓ Archived repository phpactor/name
+✓ Archived repository phpactor/path-finder
+✓ Archived repository phpactor/php-extension
+✓ Archived repository phpactor/reference-finder
+✓ Archived repository phpactor/reference-finder-extension
+✓ Archived repository phpactor/reference-finder-rpc-extension
+✓ Archived repository phpactor/rpc-extension
+✓ Archived repository phpactor/source-code-filesystem
+✓ Archived repository phpactor/source-code-filesystem-extension
+✓ Archived repository phpactor/worse-reference-finder-extension
+✓ Archived repository phpactor/worse-reference-finder
+✓ Archived repository phpactor/worse-reflection-extension
+```
