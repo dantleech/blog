@@ -17,7 +17,7 @@ time I tell it.
 
 When I started Phpactor in 2015 I had just read "principles of package
 design", and wanting to be a good developer, I decided to architect Phpactor
-as a set of decoupled packages, in general there would be three classes of
+as a set of decoupled packages, in general there would be four classes of
 package:
 
 - **Domain package**: a package defining the interfaces and business model for
