@@ -53,10 +53,16 @@ scratch.
 
 ## Mikado
 
-This time I used what I believe is known as the Mikado Method: basically I would start
-working towards the goal of the new type system run into a problem - I'd then
-create a new branch, fix the problem, make the tests green and merge to
-master. This avoided the situation of having a huge multi-thousand line PR
+This time I used what I believe is known as the Mikado Method: basically I would:
+
+- Start working towards the goal of the new type system
+- Run into a problem. 
+- Create a new branch
+- Fix the problem and make the tests green
+- Merge the branch into `master`
+- Resume the journey
+
+This avoided the situation of having a huge multi-thousand line PR
 with various changes and allowed me to progress steadily whilst locking in
 improvements along the way.
 
