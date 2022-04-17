@@ -100,7 +100,7 @@ Implementing Generics has been one of the main motivations for this
 refactoring. At the time of writing Phpactor supports `@implements` and
 `@extends` only, but more support is forthcoming.
 
-The following demonstrates Phpactor's current capability:
+The following demonstrates some of Phpactor's current capability:
 
 ```php
 <?php
