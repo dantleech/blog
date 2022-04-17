@@ -66,6 +66,10 @@ This avoided the situation of having a huge multi-thousand line PR
 with various changes and allowed me to progress steadily whilst locking in
 improvements along the way.
 
+The resulting code has _evolved_ from the original system - if there were ugly
+things there which did not need to be changed, they have remained. They may be
+have been ugly, but they worked.
+
 ## Type Classes
 
 The first thing was to represent each type by a class, something like:
