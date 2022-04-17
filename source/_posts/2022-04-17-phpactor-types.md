@@ -219,7 +219,7 @@ if ($foo instanceof Foobar) {
 // $foo is possibly an instanceof Foobar
 ```
 
-How would we do this?:
+How would we imagine to do this?:
 
 - Find a binary operator node (`operand·operator·operand`) with the operator
     `instanceof`
@@ -306,7 +306,7 @@ TypeAssertion::variable(
 ```
 
 The type assertion can then be "polarised" to `true` or `false` by negating
-conditions (e.g. `!`, `true === `, `false === `, etc).
+conditions (e.g. `!`, `!!`, `true === `, `false === `, etc).
 
 > Note that it would probably be better to not return a `Closure` but
 > instead an object representing the transformation or a type itself (e.g.
