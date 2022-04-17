@@ -43,8 +43,8 @@ intersections, etc - and things got awkward when PHP 7.1 introduced the
 [unions](https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.composite.union)
 and 8.1 the
 [intersection](https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.composite.intersection)
-(ok, I still haven't added support for
-[intersection](https://github.com/phpactor/phpactor/issues/1442) types...).
+(ok, I [still haven't](https://github.com/phpactor/phpactor/issues/1442) added support for
+types, but it will happen soon 👀).
 
 Over the past years I've made some attempts to tackle this, but they all
 started off by prematurely jumping to supporting generics (and having to solve
@@ -73,7 +73,7 @@ The first thing was to represent each type by a class, something like:
 ```
 $string = new StringType();
 $class = new ClassType('Foobar');
-$string = new ArrayType(
+$array = new ArrayType(
     keyType: new StringType(),
     valueType: new ClassType('Foobar'),
 );
@@ -145,7 +145,7 @@ foreach ($reflection->methods()->byName('foobar') as $method) {
 ## Type Combination
 
 What's type combination? According to me (I'm not sure if it's the correct
-term) it is the addition or subtraction of types based on control flow.
+term) it is the addition, replacement or subtraction of types based on control flow.
 
 This is one of Phpactor's tests:
 
@@ -218,7 +218,7 @@ if ($foo instanceof Foobar) {
 How would we do this?:
 
 - Find a binary operator node (`operand·operator·operand`) with the operator
-    `intsanceof`
+    `instanceof`
 - Replace the type of the variable (operand 1) with the class name (operand 2)
   within the if branch
 
@@ -231,10 +231,10 @@ if ($foo instanceof Foobar) {
     $foo; // instanceof Foobar;
     die();
 }
-// $foo is definitely ont an instanceof Foobar
+// $foo is definitely not an instanceof Foobar
 ```
 
-Then we need to negate it. How does negation work?
+Then we need to negate it. How would we imagine that?
 
 ```php
 if (!$foo instanceof Foobar) {
@@ -244,7 +244,7 @@ if (!$foo instanceof Foobar) {
 
 - Look for a unary operator (`operator·operand`). If the operator is `!` and
   the operand is a binary expression whose operator is `instanceof`
-- Remove the type from the variable
+- Remove the type from the variable?
 
 Or if we only have a variable:
 
@@ -267,7 +267,8 @@ probably due to bad initial preconceptions.
 
 Finally I ended up with the concept of `TypeAssertions`.
 
-In Phpactor we return a `NodeContext` when evaluating an AST node, this class
+In Phpactor we return a `NodeContext` when evaluating an AST node (e.g. the if
+statement's _expression_), this class
 contains the node's `Type` (and used to include the node's _value_ but now
 that concept is replaced by `Literal` types).
 
