@@ -22,15 +22,18 @@ didn't succeed, so I decided to record a cover of a song I've been listening
 to on repeat for the past 3 weeks.
 
 I'm not very happy with it, in particular I'm not happy with my voice - I'm
-incapabable of singing, especially in this vocal range 😅. I am siniging
+incapable of singing, especially in this vocal range 😅. I am singing
 weakly at the top of my range, and there are some notes which I simply cannot
-reach.
+reach. I tried to improve them by double (and triple) tracking.
 
 I feel sorry for my neighbours listening to me singing at the top of my voice
 for more than a few hours.
 
-Still, it was an interesting excercise. To begin with I tried to be faithful
+Still, it was an interesting exercise. To begin with I tried to be faithful
 with the drums, but when I realised how long the song was I started to copy
-and paste more, by the end of the song I had largely given up.
+and paste more, by the end of the song I had largely given up. As usual for
+the guitar solo I started with good intentions, reproducing the first few
+bars, but then decided it was too much work and just played random notes.
 
-If anything it made me appreciate the song more.
+Recording the song made me appreciate the song structure and the drumming
+more.
