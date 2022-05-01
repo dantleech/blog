@@ -26,8 +26,11 @@ incapabable of singing, especially in this vocal range 😅. I am siniging
 weakly at the top of my range, and there are some notes which I simply cannot
 reach.
 
-I feel sorry for my neighbours.
+I feel sorry for my neighbours listening to me singing at the top of my voice
+for more than a few hours.
 
 Still, it was an interesting excercise. To begin with I tried to be faithful
 with the drums, but when I realised how long the song was I started to copy
 and paste more, by the end of the song I had largely given up.
+
+If anything it made me appreciate the song more.
