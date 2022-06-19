@@ -26,8 +26,9 @@ almost perfectly to DrumGizmo.
 ## Guitar
 
 I had some fun with the guitar, using the book as a reference at points. As
-with other covers I started by copying the solo then realised it would take
-too long so just improvised.
+with other covers I started by copying the first few bars of the solo then
+realised it would take too long so just improvised badly for the remaining
+time.
 
 ## Vocals
 
