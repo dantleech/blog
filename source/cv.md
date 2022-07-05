@@ -72,7 +72,7 @@ Programming has been and is a hobby for me, my two most active projects are:
 
 Other projects include:
 
-- [Gherkinlint](https://github.com/dantleech/gherkin-lint): [2022] (**active**) Linter for Gherkin  files,
+- [Gherkinlint](https://github.com/dantleech/gherkin-lint-php): [2022] (**active**) Linter for Gherkin  files,
 - [Fink](https://github.com/dantleech/fink): [2018] (**active**) Link Crawler for PHP
 - [PsiPhp](https://github.com/phpactor/phpactor): [2016] (**defunct**) Content Management Framework.
 - [Symfony CMF RoutingAuto](http://symfony.com/doc/current/cmf/bundles/routing_auto/introduction.html): [2014] (**defunct**) Component and bundle. Automatically generates
