@@ -7,7 +7,7 @@ Daniel Leech, Senior Software Engineer
 ======================================
 
 <div style="float: right">
-<img src="images/me-small.jpg"/>
+<img src="/images/me-small.jpg"/>
 </div>
 
 - Name: Daniel Leech
