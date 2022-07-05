@@ -99,8 +99,9 @@ Institutional Education
 Personal
 --------
 
-- Like to try and go on a cycle tour once a year.
-- Play piano and guitar and this year I'm trying to record a metal song each month.
-- Run regularly
+- Like to try and go on a cycle tour once a year. Play piano and guitar, and
+- this year I'm trying to record a metal song each month and occasionally play
+  in a band.
+- Regular runner.
 
 
