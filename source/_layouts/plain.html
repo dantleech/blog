@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>{% block title %}{{ page.title }}{% endblock %} &mdash; {{ site.title }} &mdash; {{ site.subtitle }}</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% block head_meta %}
+            <meta name="robots" content="noindex, follow">
+        {% endblock %}
+        <link href="{{ site.url }}/components/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ site.url }}/css/style.css" rel="stylesheet" type="text/css" />
+
+        <link rel="apple-touch-startup-image" href="{{ site.url }}/images/jackson/2048x2048.png">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" sizes="76x76" href="{{ site.url }}/images/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="{{ site.url }}/images/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="{{ site.url }}/images/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="{{ site.url }}/images/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="{{ site.url }}/images/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="{{ site.url }}/images/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="{{ site.url }}/images/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="{{ site.url }}/images/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/images/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/images/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="{{ site.url }}/images/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/images/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="{{ site.url }}/images/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="{{ site.url }}/images/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="{{ site.url }}/images/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="{{ site.url }}/images/jackson/2048x2048.png">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+                               integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                               crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+                integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+                crossorigin=""></script>
+
+        <link rel="stylesheet" href="{{ site.url }}/components/highlightjs/styles/github.css" />
+        <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="{{ site.title }} activity feed" />
+        {% block head_styles %}
+        {% endblock %}
+        {% block head_scripts %}
+        {% endblock %}
+    </head>
+    <body>
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+
