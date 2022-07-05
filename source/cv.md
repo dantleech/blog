@@ -3,14 +3,17 @@ layout: plain
 title: CV
 ---
 
-Daniel Leech, Software Engineer
-===============================
+Daniel Leech, Senior Software Engineer
+======================================
 
-![picture of me](images/me-small.jpg)
+<div style="float: right">
+<img src="images/me-small.jpg"/>
+</div>
 
-- Twitter [dantleech](https://twitter.com/dantleech)
+- Name: Daniel Leech
+- Email daniel at dantleech.com
 - GitHub [dantleech_](https://github.com/dantleech)
-- Email daniel@dantleech.com
+- Twitter [dantleech](https://twitter.com/dantleech)
 - Website [https://www.dantleech.com](https://dantleech.com)
 - Born: 1980
 
@@ -65,9 +68,9 @@ Open source projects
 Programming has been and is a hobby for me, my two most active projects are:
 
 - [Phpactor](https://github.com/phpactor/phpactor): **2017** Language Server for PHP: provides code completion, automated refactoring etc.
-- [PhpBench](https://github.com/phpbench/phpbench): **2015** A benchmarking framework (~400 stars on GitHub, used by Doctrine ORM).
+- [PhpBench](https://github.com/phpbench/phpbench): **2015** The PHP benchmarking framework.
 
-Other projects:
+Other projects include:
 
 - [Gherkinlint](https://github.com/dantleech/gherkin-lint): [2022] (**active**) Linter for Gherkin  files,
 - [Fink](https://github.com/dantleech/fink): [2018] (**active**) Link Crawler for PHP
@@ -89,9 +92,9 @@ Spoken Languages
 Institutional Education
 -----------------------
 
-- 2001-2004: BA in Music Technology, Bath, England.
-- 1999-2001: BTEC Music Technology, Weymouth, England
-- 1997-1999: BTEC Computer Studies, Weymouth, England.
+- **2001-2004**: BA in Music Technology, Bath, England.
+- **1999-2001**: BTEC Music Technology, Weymouth, England
+- **1997-1999**: BTEC Computer Studies, Weymouth, England.
 
 Personal
 --------
