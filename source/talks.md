@@ -8,7 +8,12 @@ title: Talks
 
 Some of the public talks I have given:
 
+### 2022
+
+- 07-10 : Pets and Pickle - Insights and lessons from how we've written our Behat tests on the Inviqa VetPartners project.
+
 ### 2021
+
 
 - 07-29 : PHPBench 1.1 - Testing code performance [PHP Oxford](https://www.meetup.com/PHP-Oxford/events/sksjlsycckblc/)
 - 03-25 : PHPBench - Testing code performance [PHP South Wales](https://www.youtube.com/watch?v=-qxu6n9Q-3k) [[video](https://www.youtube.com/watch?v=-qxu6n9Q-3k)]
