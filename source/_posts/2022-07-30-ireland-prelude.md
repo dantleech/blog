@@ -57,8 +57,10 @@ and 4 weeks. After that I don't know. Maybe I'll carry on cycling, maybe I'll
 hole-up and do something different.
 
 Not sure what to expect on this tour, although I am looking forward to seeing
-the mountins in the south. I have not done any training for this tour and am
-kindof expecting the first few days to be tough.
+the [mountains in the
+south](https://en.wikipedia.org/wiki/Lists_of_mountains_in_Ireland). I have
+not done any training for this tour and am kindof expecting the first few days
+to be tough.
 
 I will fly out to Glasgow on Monday and expect to start cycling at some point
 after that.
