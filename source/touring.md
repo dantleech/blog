@@ -10,6 +10,7 @@ Riding bike with much equipment over long distances with tent and painful.
 
 ## Tours
 
+- **2022**: Ireland [Scotland to Weymouth](/blog/categories/ireland2022)
 - **2020**: Scotland [Germany to Scotland](/blog/categories/scotland2020)
 - **2019**: Baltic [Berlin to Helsinki](/blog/categories/helsinki2019)
 - **2018**: Norway [Bielefeld to Trondheim](/blog/categories/norway2018)
