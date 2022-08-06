@@ -1,6 +1,8 @@
 --- 
 title: Day 1: Leaving Scotland
 categories: [ireland2022]
+distance: 35.5
+time: 2h23m (net)
 ---
 
 I am now sitting in a ferry teriminal in Craegvany waiting for the Stena Lines
@@ -44,6 +46,9 @@ breakthoughs of sun, but the weather for the next week looks better,
 nethertheless I'm preparing myself to get wet.
 
 ---
+
+![Map](/images/ireland2022/20220806_map.jpg) 
+*From the ferry port to Larne*
 
 The crossing was uneventful, it took about two hours, when they called for the
 people to return to their cars I went down and got lost in the maze of lorries
@@ -109,3 +114,4 @@ warned me about (while also saying that it was beautiful).There seems to be a
 fair number of campsites on the way, so that shouldn't be an issue.
 
 Now I'm going to try and cook some baked beans.
+
