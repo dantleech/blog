@@ -161,5 +161,5 @@ able to handle it then (fingers crossed).
 
 **[1]** I don't particularly _like_ CC&B, or at least I don't like them now. I
 used to like them when I was a teenager, usually at 3AM at Scoffers in
-Weymouth town center. I try to like them each time I return to England.
+Weymouth town center. I try to like them each time I return to the UK.
 
