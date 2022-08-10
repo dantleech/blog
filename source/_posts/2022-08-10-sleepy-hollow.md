@@ -2,7 +2,7 @@
 title: Day 5: Sleep Hollow
 categories: [ireland2022]
 distance: 75
-time: 6h (approx)
+time: 5h30m (approx)
 ---
 
 ![Map](/images/ireland2022/20220810_map.jpg) 
@@ -65,6 +65,10 @@ ino a bog and my feet and wheels were covered in slimy muck, socks and all. I
 pulled out and continued walking my bike (my socks and sandals squelching) 
 until I found bridge with a stream running underneath shaded by trees. I took
 my wheel off, pulled the tube out and patched the tube.
+
+![Mud](/images/ireland2022/20220810_mud.jpg) 
+*Mud*
+
 
 Fixing a puncture is (for me) a labor intensive process, removing the tire,
 finding the puncture, putting the tire back on, and then reinflating the tube
