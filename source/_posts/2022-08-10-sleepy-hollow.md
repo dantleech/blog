@@ -98,6 +98,12 @@ When I got to the campsite at around six I was given a quick guided tour by
 the owner, "how did you find it?" "tough" "it's supposed to be tough" he said
 matter-of-factly. I then put my tent and fell into a coma for one hour.
 
+The campsite didn't have a place to plug my laptop and "work" but it did have
+a kitchen, and I cooked my food and charged the laptop, also leaving my
+battery pack overnight to charge. The battery pack was mysteriously empty when
+I got to this campsite, I'm not sure why as it seemed to be half full not so
+long ago.
+
 I think my body will adapt soon, my skin will tan and my muscles will level
 up. But for now I need a rest, I might see if I can arrange either a couple of
 days in a hostel (which doesn't look good, most of them are booked up) or a
