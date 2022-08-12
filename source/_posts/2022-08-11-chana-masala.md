@@ -1,7 +1,7 @@
 --- 
 title: Day 6: Chana Palak
 categories: [ireland2022]
-distance: 130k
+distance: 130
 time: 8h (approx)
 ---
 
