@@ -15,18 +15,21 @@ here, but I haven't got a key, because I've given the keys to the others - but
 it's OK, you can just put your hand through the window" and he looked at me
 and the swiss people as if it was self evident and normal.
 
-This place had good reviews on Hostelworld, I don't know how. It's basically a
-doss house, 5 people in the room I'm in, and it's a small room. I'm not even
-sure if we are sharing the room with other travellers or local heroin adicts.
+This place had good reviews on Hostelworld, I don't know how. It's not a
+hostel as you would hope for one, 5 people in the room I'm in, and it's a
+small room. I'm not even sure if we are sharing the room with other travellers
+or local heroin adicts.
 
 It's not the worst shithole I've stayed in, but at €30 a night it's the most
 expensive one. The Swiss couple looked like they were in shock, they
 gave me their key explaining that they would be out late.
 
-On the door there is a sign "Checkout 10AM - Late fees apply".
+On the door there is a sign "Checkout 10AM - Late fees apply". The bunkbed
+wobbled and creaked loudly as I clambered on top of it. At least they provided
+a towel and the sheets were clean.
 
 I am staying in the town of Bundoran, which seems a bit rough and run down,
-yet at the same time offering eye wateringly expensive accomodation.
+yet at the same time offering very expensive accomodation.
 
 ![Tourism](/images/ireland2022/20220811_tourisim.jpg) 
 *Tourism*
@@ -89,9 +92,6 @@ matress. Any sharp or prickly object on the ground is liable to stick throuh
 the flimsy material and puncture my air matress (I hate punctures of all
 kinds, but micro-punctures in air mattresses deserve a special place).
 
-![Plastic](/images/ireland2022/20220811_plastic.jpg) 
-*The Plastic Sheet which I had to cut in half*
-
 I passed a general agricultural store. which seemed to be both a supermarket
 and a hardware store, and a "general agricultural" shop. I went in and asked
 the guy if he had any tarp suitable for a ground sheet, he pointed at this
@@ -104,6 +104,9 @@ offense "You don't get it do you? I'm giving it to yer for free", "well, I
 guess I could cut it down, thanks!" the missing context was that I'm on a
 bicycle. So I left the hardware store with a ginormous bulk of harvy duty
 plastic.
+
+![Plastic](/images/ireland2022/20220811_plastic.jpg) 
+*The Plastic Sheet which I had to cut in half*
 
 I found a quiet corner, got my knife out and began hacking it in half. This
 work compete I took the smaller half and folded it up so that it would just
