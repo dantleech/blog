@@ -28,7 +28,7 @@ e-commerce and content management.
 While PHP has been my focus, I have quickly adapted to other languages
 including Typescript and Golang.
 
-I am peripheral member of the PHP and Symfony community. I give many talks a
+I am peripheral member of the PHP and Symfony communities. I give many talks a
 year at local many meetups and conferences over the years.
 
 My time has been spent working in England, France, Austria and I currently
@@ -38,10 +38,9 @@ Key Technical skills
 --------------------
 
 - Code architecture.
-- In depth knowledge of PHP and it's ecosystem.
+- In depth knowledge of PHP and it's ecosystem (including Symfony since version 1)
 - Linux and the command line.
 - Automated quality assurance.
-- PHP and it's ecosystem (incl. Symfony framework since version 1).
 - Planning and iteratively breaking down work.
 
 Other Skills
@@ -55,20 +54,20 @@ Other Skills
 Employment History
 ------------------
 
-- **2017-2022**: Senior Software Developer and Techincal Team Lead at [Inviqa](https://inviqa.com): involved in many large content and commerce projects.
+- **2017-2022**: Techincal Team Lead and Senior Software Engineer at [Inviqa](https://inviqa.com): involved in many large content and commerce projects.
 - **2016-2017**: Freelance.
 - **2014-2016**: Senior developer at [MassiveArt](https://www.massiveart.com), Austria. Working on the [Sulu](https**://sulu.io)
 - **2011-2014**: Lead developer at [YProximité](https://www.y-proximite.fr), in Paris then Lyon.  Developed a multi-platform Symfony 2.0 CMS (actually starting with the alpha version)
 - **2010-2010**: Freelance: Contract management system for a large engineering firm (Symfony 1.0).
-- **2006-2010**: Web developer, [Gradwell](https://www.gradwell.com). Developing web based control panels, API queuing systems (Symfony 1.0 and custom frameworks).
+- **2006-2010**: Web developer, [Gradwell](https://www.gradwell.com). Developing web based control panels, data synchronisation (Symfony 1.0 and custom frameworks).
 
 Open source projects
 --------------------
 
-Programming has been and is a hobby for me, my two most active projects are:
+Programming has and continues to be a hobby, my two most active projects are:
 
-- [Phpactor](https://github.com/phpactor/phpactor): **2017** Language Server for PHP: provides code completion, automated refactoring etc.
-- [PhpBench](https://github.com/phpbench/phpbench): **2015** The PHP benchmarking framework.
+- [Phpactor](https://github.com/phpactor/phpactor): **2017-present** Language Server for PHP: provides code completion, automated refactoring etc.
+- [PhpBench](https://github.com/phpbench/phpbench): **2015-present** The PHP benchmarking framework.
 
 Other projects include:
 
@@ -99,9 +98,10 @@ Institutional Education
 Personal
 --------
 
-- Like to try and go on a cycle tour once a year. Play piano and guitar, and
-- this year I'm trying to record a metal song each month and occasionally play
-  in a band.
-- Regular runner.
+In my spare time I like to:
+
+- Go on a cycle tour once a year. 
+- Play and record rock music (I play guitar and piano).
+- Run.
 
 
