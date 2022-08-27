@@ -22,7 +22,7 @@ only 20-30k by lunch time and would feel the weight of the remaining
 kilometers. I don't _have_ to cycle 100k a day, but it's good to have a
 target.
 
-This morning I decided that I would take the most direct route west, although
+This morning I decided that I would take the most direct route east, although
 avoiding major roads where possible, only following the EV1 where convenient.
 I've been on the road now for 3 weeks, and I'd like to be back in Weymouth in
 a week, although it will perhaps be a bit longer.
