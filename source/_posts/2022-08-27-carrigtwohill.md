@@ -1,5 +1,5 @@
 --- 
-title: Day 21: Ultima Peninsular
+title: Day 21: Carrigtwohill
 categories: [ireland2022]
 distance: 107
 time: 7h
