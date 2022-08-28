@@ -1,7 +1,7 @@
 --- 
 title: Day 20: Sheeps Head
 categories: [ireland2022]
-distance: 120k
+distance: 120
 time: 7h51m
 ---
 
