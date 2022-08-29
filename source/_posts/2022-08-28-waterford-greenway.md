@@ -16,6 +16,15 @@ at least another 3 or 4 days, but I am now in "get out of Ireland" mode.
 ![1](/images/ireland2022/20220828_1.jpg) 
 *Midleton - lots of Ironman stuff here*
 
+I rose quite late from my tent to see the Austraian girl had just packed her
+stuff opposite me, I made breakfast - coffee and cereal with water - and
+proceeded to pack up my tent. I was hoping to have a chat with the girl that
+had cycled across Europe but it seemed awkward to go over purposefully to
+start a perhaps unwanted conversation. As it happened she was quite slow in
+packing and leaving and I managed to say hello as we were both ready to leave,
+she is finishing her current "tour" in the next town where she secured a job
+for Autumn.
+
 Could I ride on the busy dual carriageway which I would join immediately after
 exiting the campsite? The road that ran all the way to Roselare? It turned out
 that yes I could, and there were lots other cyclists on this busy 100kmph
@@ -71,9 +80,30 @@ front wheel.
 ![5](/images/ireland2022/20220828_5.jpg) 
 *Fairy installation*
 
-It's now quite late in the evening so this is a short post, I will need to get
-up early tomorrow in order to catch the ferry.
+The town of Tramore was the location of my campsite, it was on the EV1 but not
+on the Greenway which I left 6km from it's end (or rather it's start) in
+Waterford. I had phoned ahead to the camping park to make sure that they were
+open and what time the reception closed, it seems there were two parks but
+only this one was to be found on Google or my OSM map.
+
+The campsite wasn't all I had hoped for for €14 a night. While it had a games
+room, the games room didn't have a table that I could work at. It had no
+kitchen or dinning room either, so I was to cook in my tent again, but today I
+had no pasta sauce so an post-camping cycle trip was required.
+
+I went down the road to the sea front. It was _packed_ there were buskers
+playing on the promenade and a funfair with roller-coasters and spinning rides
+and people screaming and seagulls shitting and fish and chip shops and ice
+creams.
+
+At the end of the promenade was the supermarket, an Aldi, I found Pasta Sauce,
+bread, and chocolate, and all at a very reasonable price. I should've shopped
+in Aldi more often.
 
 ![6](/images/ireland2022/20220828_6.jpg) 
 *Tree person*
 
+I decided to forgo the shower for €1.50. Most campsite showers in Ireland
+(maybe everywhere else) cost between €1 and €2 euro a pop for anywhere between
+2 and 5 minutes and it's frustrating, especially when the campsite costs more
+than average to start with.
