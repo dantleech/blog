@@ -15,7 +15,7 @@ quick wash in the toilets.
 
 My laundry situation isn't very good, most of my stuff is damp and nothing is
 clean. I'm due a rest day and I'm hoping to find a good place in Wales to
-start a coupe of nights.
+stay a couple of nights.
 
 This morning I woke, again, in a campsite. I woke at the normal time, 7am, but
 abnormally I made an effort to get out of my sleeping bag. This effort took
