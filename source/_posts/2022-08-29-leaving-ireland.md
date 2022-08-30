@@ -1,8 +1,8 @@
 --- 
 title: Day 23: Leaving Ireland
 categories: [ireland2022]
-distance: 75
-time: 5h
+distance: 83
+time: 5h18m
 ---
 
 ![Map](/images/ireland2022/20220829_map.jpg) 
@@ -57,8 +57,8 @@ easy ride to the ferry port. I considered going to the beach and having a swim
 
 ---
 
-Now I'm sitting in my tent on the Tregroes Camping Park. It's absolutely
-silent and the night sky is clear and the stars are shining.
+Now I'm sitting in my tent on the Tregroes Camping Park. It's 11pm and
+absolutely silent and the night sky is clear and the stars are shining.
 
 The ferry took about 3.5 hours, with an additional 30m waiting for all the
 other vehicles to debark before the bicycles were permitted to leave.
