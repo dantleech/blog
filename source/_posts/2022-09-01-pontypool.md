@@ -32,7 +32,9 @@ to the town of Pontypridd. Where I stopped for (another) morning coffee. There
 was a cafe on the corner of the high street and I waited in line and then
 ordered "what you up to?" the guy behind the counter asked "i just cycled
 around Ireland" we had a little chat "are you writing it down or doing it for
-yourself?" "I've got a blog, can write it down for you".
+yourself?" "I've got a blog, can write it down for you" in return he gave me a
+loyalty card with all the stamps except one already made "next time you're in
+Ponty you can get a free one"
 
 ![Stile](/images/ireland2022/20220901_2.jpg) 
 *River*
