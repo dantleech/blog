@@ -1,5 +1,5 @@
 --- 
-title: Day 30: Pembrokeshire
+title: Day 24: Pembrokeshire
 categories: [ireland2022]
 distance: 93
 time: 7h15m
