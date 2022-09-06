@@ -1,0 +1,42 @@
+{{ define "main" }}
+    <article>
+        <h1 class="float-left">{{ .Title }}</h1>
+        <time class="float-right text-4xl mt-6" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <div class="clear-both"/>
+        {{ if and (isset .Params "distance") (.Params.distance) }}
+        <div>
+            <table class="table-fixed w-full">
+                <tbody>
+                    <tr class="border-b-2">
+                        <th class="text-left">Distance</th>
+                        <td class="text-left">{{ .Params.distance }}km</td>
+                    </tr>
+                    {{ if (isset .Params "time") }}
+                    <tr class="border-b-2">
+                        <th class="text-left">Time</th>
+                        <td>{{ .Params.time}}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+        {{ end }}
+        {{ if isset .Params "geopoints" }}
+            {{ partial "map.html" . }}
+            <hr/>
+        {{ end }}
+        <div>
+            {{ .Content }}
+        </div>
+        {{ with .Params.tags }}
+        <div>
+            <ul id="tags">
+                {{ range . }}
+                <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </article>
+{{ partial "sidebar.html" . }}
+{{ end }}

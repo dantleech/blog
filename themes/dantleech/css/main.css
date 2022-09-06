@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-serif
+}
+
+a {
+    @apply underline;
+    @apply text-blue-900;
+}
+
+article {
+    @apply text-lg tracking-wide;
+}
+
+article p img {
+    @apply block m-auto shadow shadow-lg;
+    @apply p-4 pb-10;
+    @apply mb-2;
+}
+
+article h1 {
+    @apply text-6xl mt-6 mb-4 font-extrabold;
+}
+article h2 {
+    @apply text-4xl mt-6 mb-4 text-gray-700;
+}
+article h3 {
+    @apply text-2xl mt-4 mb-4 text-gray-700;
+}
+article h4 {
+    @apply text-xl mt-4;
+}
+
+img + em {
+    @apply block;
+    @apply m-auto;
+    @apply text-center;
+    margin-top: -2.5rem;
+    margin-bottom: 3.5rem;
+}
+
+p {
+    @apply mb-2
+}
+
+.highlight pre {
+    padding: 2rem;
+    @apply mb-2
+}
+
+ul {
+    @apply list-disc list-inside ml-4 mb-4 mt-4;
+}
+#mapid { 
+    @apply m-4;
+    height: 380px; 
+}
+
+blockquote {
+    @apply bg-gray-100 p-4 m-1
+}

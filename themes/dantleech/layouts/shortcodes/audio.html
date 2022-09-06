@@ -1,0 +1,8 @@
+<div class="mt-4 mb-8 border p-2 shadow-xl">
+    <figure>
+      <audio controls preload="{{ .Get "preload" | default "metadata" }}">
+        {{ with .Get "src" }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+      </audio>
+      {{ with .Get "caption" }}<figcaption class="italic">{{ . }}</figcaption>{{ end }}
+    </figure>
+</div>

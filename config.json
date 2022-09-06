@@ -1,0 +1,17 @@
+{
+    "frontmatter": {
+        "date": [
+            "date"
+        ]
+    },
+    "baseURL": "https://www.dantleech.com/",
+    "languageCode": "en-gb",
+    "paginate": 50,
+    "title": "Dans Blog",
+    "theme": "dantleech",
+    "permalinks": {
+        "posts": "/blog/:year/:month/:day/:slug/",
+        "categories": "/blog/categories/:slug/"
+    }
+}
+

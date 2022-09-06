@@ -1,3 +1,2 @@
-source/components
-vendor
-output_dev
+node_modules/
+public/

@@ -1,0 +1,15 @@
+<header>
+	{{ with .Site.Menus.main }}
+
+    <nav class="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between sm:items-baseline w-full border-b-4">
+      <div class="mb-2 sm:mb-0">
+        <a href="/" class="text-base no-underline text-grey-darkest hover:text-blue-dark">Dans Blog</a>
+      </div>
+      <div>
+        {{ range . }}
+        <a href="{{ .URL | relURL }}" class="text-base no-underline text-grey-darkest hover:text-blue-dark ml-2">{{ .Name }}</a>
+        {{ end }}
+      </div>
+    </nav>
+    {{ end }}
+</header>

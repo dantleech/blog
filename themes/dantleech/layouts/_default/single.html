@@ -1,0 +1,41 @@
+{{ define "main" }}
+    <article>
+        <h1 class="float-left">{{ .Title }}</h1>
+        <div class="clear-both"/>
+        {{ if and (isset .Params "distance") (.Params.distance) }}
+        <div>
+            <table class="table-fixed w-full">
+                <tbody>
+                    <tr class="border-b-2">
+                        <th class="text-left">Distance</th>
+                        <td class="text-left">{{ .Params.distance }}km</td>
+                    </tr>
+                    {{ if (isset .Params "time") }}
+                    <tr class="border-b-2">
+                        <th class="text-left">Time</th>
+                        <td>{{ .Params.time}}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+        {{ end }}
+        {{ if isset .Params "geopoints" }}
+            {% include "_map.html" %}
+            <hr/>
+        {{ end }}
+        <div>
+            {{ .Content }}
+        </div>
+        {{ with .Params.tags }}
+        <div>
+            <ul id="tags">
+                {{ range . }}
+                <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </article>
+{{ partial "sidebar.html" . }}
+{{ end }}
