@@ -15,7 +15,7 @@ Riding bike with much equipment over long distances with tent and painful.
 - **2016**: Belgium, Italy, Croatia.
 - **2015**: Balkans, Turkey [Vorarlberg to Istanbul](https://www.crazyguyonabike.com/doc/?doc_id=16302)
 - **2014**: France (?), Italy, Switzerland, Austria, Germany, Austria...
-- **2013**: Spain, Portugal, France.
+- **2013**: [Spain, Portugal, France](/blog/categories/oporto2013) (blog posts restored from old database).
 - **2011**: Paris, Moroco.
 - **2010**: England, Santander, Alps.
 
