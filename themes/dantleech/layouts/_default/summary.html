@@ -1,5 +1,5 @@
 <article>
-	<h1 class="mb-0"><a class="no-underline" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+	<h1 class="mb-0 text-4xl mt-6"><a class="no-underline" href="{{ .Permalink }}">{{ .Title }}</a></h1>
     {{ if .Params.categories }}
         <div class="font-bold mb-4" >
             <time class="inline" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time>, tagged: {{ range .Params.categories }}

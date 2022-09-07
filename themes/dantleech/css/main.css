@@ -22,9 +22,6 @@ article p img {
     @apply mb-2;
 }
 
-article h1 {
-    @apply text-6xl mt-6 mb-4 font-extrabold;
-}
 article h2 {
     @apply text-4xl mt-6 mb-4 text-gray-700;
 }

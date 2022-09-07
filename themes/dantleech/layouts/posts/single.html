@@ -1,8 +1,9 @@
 {{ define "main" }}
+    {{ partial "nextprev.html" . }}
     <article>
-        <h1 class="float-left">{{ .Title }}</h1>
-        <time class="float-right text-4xl mt-6" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time>
-        <div class="clear-both"/>
+        <h1 class="font-extrabold mt-6 text-4xl float-left">{{ .Title }}</h1>
+        <time class="float-right text-2xl mt-6" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <hr class="clear-both mb-6"/>
         {{ if and (isset .Params "distance") (.Params.distance) }}
         <div>
             <table class="table-fixed w-full">
@@ -38,5 +39,5 @@
         </div>
         {{ end }}
     </article>
-{{ partial "sidebar.html" . }}
+    {{ partial "nextprev.html" . }}
 {{ end }}
