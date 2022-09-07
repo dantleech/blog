@@ -805,8 +805,10 @@ p{
 }
 
 .highlight pre {
-  padding: 2rem;
-  margin-bottom: 0.5rem
+  padding: 1rem;
+  overflow: scroll;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
 ul{

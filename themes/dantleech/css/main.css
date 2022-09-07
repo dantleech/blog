@@ -48,8 +48,9 @@ p {
 }
 
 .highlight pre {
-    padding: 2rem;
-    @apply mb-2
+    padding: 1rem;
+    @apply overflow-scroll;
+    @apply mb-2 text-base;
 }
 
 ul {
@@ -61,5 +62,5 @@ ul {
 }
 
 blockquote {
-    @apply bg-gray-100 p-4 m-1
+    @apply bg-gray-100 p-4 m-1;
 }
