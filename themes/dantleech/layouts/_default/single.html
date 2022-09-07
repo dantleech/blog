@@ -1,6 +1,6 @@
 {{ define "main" }}
     <article>
-        <h1 class="float-left">{{ .Title }}</h1>
+        <h1 class="font-extrabold mt-6 text-4xl">{{ .Title }}</h1>
         <div class="clear-both"/>
         {{ if and (isset .Params "distance") (.Params.distance) }}
         <div>
