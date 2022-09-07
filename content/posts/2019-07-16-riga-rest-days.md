@@ -2,6 +2,7 @@
 title: Riga Rest Days
 categories: [helsinki2019]
 date: 2019-07-16
+image: images/tallinn/2019-07-16/2.png
 ---
 
 I don't seem to have succeeded in integrating very well in the hostel I've

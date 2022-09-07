@@ -3,6 +3,7 @@ title: Preparation
 subtitle: Berlin to Tallinn
 categories: [helsinki2019]
 date: 2019-06-12
+image: images/norway/2018-07-11/IMG_20180711_164937.jpg
 ---
 
 In two weeks time I'm going to cycle from Berlin to Tallinn.

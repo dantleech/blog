@@ -4,7 +4,7 @@ categories: [ireland2022]
 distance: 107
 time: 7h
 date: 2022-08-27
-date: 2022-08-27
+image: images/ireland2022/20220827_3.jpg
 ---
 
 ![Map](/images/ireland2022/20220827_map.jpg) 

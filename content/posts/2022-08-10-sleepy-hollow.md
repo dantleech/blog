@@ -4,6 +4,7 @@ categories: [ireland2022]
 distance: 75
 time: 5h30m (approx)
 date: 2022-08-10
+image: images/ireland2022/20220810_hills.jpg
 ---
 
 ![Map](/images/ireland2022/20220810_map.jpg) 

@@ -2,6 +2,7 @@
 title: PHPBench 1.0.0-alpha1
 categories: [phpbench,php]
 date: 2020-09-09
+image: images/2020-09-09/blinken.gif
 ---
 
 ![New PHPBench Logo](/images/2020-09-09/logo.png)

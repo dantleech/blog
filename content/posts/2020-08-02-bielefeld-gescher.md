@@ -9,6 +9,7 @@ geopoints:
   - [51.97642166216334, 7.621765136718751]
   - [51.957807388715544, 7.003097534179688]
 date: 2020-08-02
+image: images/scotland/2020-08-02-4.jpg
 ---
 
 I pitched my tent slowly on the green field in the campsite - I was a bit

@@ -4,6 +4,7 @@ categories: [norway2018]
 distance: 130
 time: 8h
 date: 2018-07-16
+image: images/norway/2018-07-16/IMG_20180716_173108.jpg
 ---
 
 

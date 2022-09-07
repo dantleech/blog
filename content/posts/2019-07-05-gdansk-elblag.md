@@ -8,6 +8,7 @@ geopoints:
     - [54.2170730662912, 19.119644165039066]
     - [54.14634989865955, 19.407348632812504]
 date: 2019-07-05
+image: images/tallinn/2019-07-05/4.JPG
 ---
 
 Woke up in the dormitory this morning with a heavy head, we had consumed a

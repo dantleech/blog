@@ -4,6 +4,7 @@ categories: [norway2018]
 distance: 112.91
 time: ~06m26m
 date: 2018-06-23
+image: images/norway/2018-06-23/IMG_20180623_125352.jpg
 ---
 
 

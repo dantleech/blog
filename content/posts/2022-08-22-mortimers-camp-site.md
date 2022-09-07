@@ -4,6 +4,7 @@ categories: [ireland2022]
 distance: 0
 time: 0
 date: 2022-08-22
+image: images/ireland2022/20220822_2.jpg
 ---
 
 Today was my second rest day. I wasn't planning on taking a rest day, but the
@@ -24,14 +25,23 @@ removed first my jacket, and then, seeing that there were no other walkers on
 the hill, my t-shirt (which was getting sweaty) and it found a new place on my
 head, giving the appearance of a turban. 
 
+![Turban](/images/ireland2022/20220822_1.jpg) 
+*Me*
+
 The summit was covered in cloud, but the view just below the cloud line was
 spectacular. On the way down I felt a strange sense of joy, in the entire 3
 hour hike I did not encounter a single other person, just sheep.
+
+![View](/images/ireland2022/20220822_2.jpg) 
+*View*
 
 The shops in the town were open, and I found a hardware shop that had both a
 coffee maker and wireless bluetooth earbuds. The coffee maker was a bit more
 expensive than I bargined for however, and the ear buds were poor quality, I
 didn't buy anything.
+
+![Deal](/images/ireland2022/20220822_3.jpg) 
+*Deal of the year*
 
 I stopped at the supermarket and got some pasta sauce for dinner and some
 pastries.

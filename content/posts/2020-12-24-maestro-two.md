@@ -2,6 +2,7 @@
 title: Maestro the Package Automator
 categories: [php,maestro,phpactor]
 date: 2020-12-24
+image: images/2020-12-24/empty-pipeline.png
 ---
 
 ---

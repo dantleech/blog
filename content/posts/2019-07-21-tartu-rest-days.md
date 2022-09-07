@@ -2,6 +2,7 @@
 title: Tartu
 categories: [helsinki2019]
 date: 2019-07-21
+image: images/tallinn/2019-07-21/1.png
 ---
 
 I intended to stay two nights in Tartu, but have ended up staying three. There

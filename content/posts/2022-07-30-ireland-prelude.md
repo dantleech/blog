@@ -2,6 +2,7 @@
 title: Ireland Prelude
 categories: [ireland2022]
 date: 2022-07-30
+image: images/2022-07-30/ireland1.png
 ---
 
 It's been 2 years since I [blogged about about a cycle tour](/touring), but

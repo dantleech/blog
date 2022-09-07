@@ -11,6 +11,7 @@ geopoints:
     - [54.32012780850593, 16.36070251464844]
     - [54.37965758026856, 16.315212249755863]
 date: 2019-07-02
+image: images/tallinn/2019-07-02/2.JPG
 ---
 
 Today has been a long day. I am now finally sitting in a Pizzeria in one of

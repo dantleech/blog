@@ -15,6 +15,7 @@ geopoints:
     - [54.23955053156179, 22.21572875976563]
     - [54.308511957926754, 22.296752929687504]
 date: 2019-07-07
+image: images/tallinn/2019-07-07/2.JPG
 ---
 
 The hotel wasn't the best. I didn't sleep well, and was anxious about my

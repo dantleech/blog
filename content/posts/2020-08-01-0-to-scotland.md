@@ -2,6 +2,7 @@
 title: Cycling to Scotland
 categories: [scotland2020]
 date: 2020-08-01
+image: images/scotland/10yearsago5.jpg
 ---
 
 This year I'm cycling from Germany to Scotland.

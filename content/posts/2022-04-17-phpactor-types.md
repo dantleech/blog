@@ -2,6 +2,7 @@
 title: Phpactor's (New) Type System
 categories: [phpactor]
 date: 2022-04-17
+image: images/2018-08-19/phpactor.png
 ---
 
 ![The Phpactor logo](/images/2018-08-19/phpactor.png)

@@ -4,6 +4,7 @@ categories: [norway2018]
 distance: 113
 time: 7h23m
 date: 2018-07-12
+image: images/norway/2018-07-12/IMG_20180712_151524.jpg
 ---
 
 

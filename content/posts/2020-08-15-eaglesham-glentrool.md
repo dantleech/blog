@@ -13,6 +13,7 @@ geopoints:
   - [55.08937178977164, -4.570999145507813]
   - [55.079055105586384, -4.6233558654785165]
 date: 2020-08-15
+image: images/scotland/2020-08-15-2.jpg
 ---
 
 I said goodbye to my friend and his fiance, and proceed down the "moor road".

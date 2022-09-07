@@ -13,6 +13,7 @@ geopoints:
   - [52.217704193421454, 5.961456298828126]
   - [52.18151078711858, 5.546722412109375]
 date: 2020-08-03
+image: images/scotland/2020-08-03-2.jpg
 ---
 
 I woke up at 3am and couldn't get back to sleep. I lay the wondering why I had

@@ -16,6 +16,7 @@ geopoints:
     - [54.40774166820072, 23.22372436523438]
     - [54.559322587438636, 23.362426757812504]
 date: 2019-07-08
+image: images/tallinn/2019-07-08/2.JPG
 ---
 
 Loud music was pounding on the street, I thought I would wait until 12, maybe

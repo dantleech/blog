@@ -17,6 +17,7 @@ geopoints:
     - [56.61544283337093, 25.779418945312504]
     - [56.60637380984016, 25.664749145507816]
 date: 2019-07-13
+image: images/tallinn/2019-07-13/1.JPG
 ---
 
 As normal I slept not to well on the campsite, but woke up at 06:00 and made

@@ -11,6 +11,7 @@ geopoints:
     - [57.826108568703425, 26.17973327636719]
     - [57.835979288892574, 26.264877319335938]
 date: 2019-07-18
+image: images/tallinn/2019-07-18/2.JPG
 ---
 
 At the hotel I settled down with a few beers and Series 8 of of Game of

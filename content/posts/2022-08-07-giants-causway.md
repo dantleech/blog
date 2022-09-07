@@ -4,6 +4,7 @@ categories: [ireland2022]
 distance: 100
 time: 6h (approx)
 date: 2022-08-07
+image: images/ireland2022/2022-08-07_beach.jpg
 ---
 
 ![Map](/images/ireland2022/20220807_map.jpg) 

@@ -13,6 +13,7 @@ geopoints:
     - [58.06189739812231, 26.50588989257813]
     - [58.38299839694763, 26.71600341796875]
 date: 2019-07-19
+image: images/tallinn/2019-07-19/2.JPG
 ---
 
 As predicted I slept terribly, falling initially to sleep but soon waking up

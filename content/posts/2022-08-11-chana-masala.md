@@ -4,6 +4,7 @@ categories: [ireland2022]
 distance: 130
 time: 8h (approx)
 date: 2022-08-11
+image: images/ireland2022/20220811_tourisim.jpg
 ---
 
 ![Map](/images/ireland2022/20220811_map.jpg) 

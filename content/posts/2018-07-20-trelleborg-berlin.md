@@ -4,6 +4,7 @@ categories: [norway2018]
 distance: 22.85
 time: 1h16m
 date: 2018-07-20
+image: images/norway/2018-07-20/IMG_20180720_171742.jpg
 ---
 
 I am now sitting on my cheap Ikea office chair typing this blog post on my

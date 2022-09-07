@@ -16,6 +16,7 @@ geopoints:
     - [54.258406101375975, 20.66459655761719]
     - [54.25178757462486, 20.80913543701172]
 date: 2019-07-06
+image: images/tallinn/2019-07-06/2.JPG
 ---
 
 Slept perfectly in the airy and cheap room. I really liked the old hotel, it

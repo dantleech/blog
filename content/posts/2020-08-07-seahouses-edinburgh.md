@@ -16,6 +16,7 @@ geopoints:
   - [55.94304778489654, -3.0559158325195317]
   - [55.95035322177703, -3.193931579589844]
 date: 2020-08-07
+image: images/scotland/2020-08-07-2.jpg
 ---
 
 Today was a very long day. It was a beautiful day. It was an exhausting day.

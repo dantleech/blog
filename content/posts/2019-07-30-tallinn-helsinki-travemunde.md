@@ -15,6 +15,7 @@ geopoints:
     - [55.02802211299252, 12.7880859375]
     - [53.97547425742953, 10.8599853515625]
 date: 2019-07-30
+image: images/tallinn/2019-07-30/2.JPG
 ---
 
 I am now in the campsite at Travemunde, which was conveniently immediately

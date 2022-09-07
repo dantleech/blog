@@ -13,6 +13,7 @@ geopoints:
     - [59.42691879972502, 26.290283203125004]
     - [59.576417167837526, 25.97030639648438]
 date: 2019-07-22
+image: images/tallinn/2019-07-22/2.JPG
 ---
 
 I had prepared for a long day today, and after two days at the Looming hostel

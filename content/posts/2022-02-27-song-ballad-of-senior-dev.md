@@ -2,6 +2,7 @@
 title: Ballad of Senior Dev
 categories: [song2022]
 date: 2022-02-27
+image: images/2022-02-27/seule.jpg
 ---
 
 February song, it's called "Ballad of Senior Dev"

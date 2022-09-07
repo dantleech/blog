@@ -18,6 +18,7 @@ geopoints:
     - [53.966083969361065, 14.570789337158205]
 
 date: 2019-07-01
+image: images/tallinn/2019-07-01/two.JPG
 ---
 
 Didn't sleep too well last night. I situated my tent close the the main

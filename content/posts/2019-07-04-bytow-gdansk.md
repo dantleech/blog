@@ -10,6 +10,7 @@ geopoints:
     - [54.313318914476056, 18.377380371093754]
     - [54.34455044818014, 18.65341186523438]
 date: 2019-07-04
+image: images/tallinn/2019-07-04/2.JPG
 ---
 
 There was a buffer breakfast at the hotel, featuring feta cheese, bread,

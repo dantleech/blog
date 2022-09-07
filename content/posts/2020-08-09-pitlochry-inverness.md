@@ -17,6 +17,7 @@ geopoints:
   - [57.478926779744015, -4.172058105468751]
   - [57.47874220561133, -4.226818084716798]
 date: 2020-08-09
+image: images/scotland/2020-08-09-3.jpg
 ---
 
 I fell asleep last night staring out of my open tent flap at the stars, or the

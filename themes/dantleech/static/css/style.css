@@ -652,6 +652,10 @@ video {
   display: table;
 }
 
+.grid{
+  display: grid;
+}
+
 .w-full{
   width: 100%;
 }
@@ -664,8 +668,16 @@ video {
   table-layout: fixed;
 }
 
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+
 .flex-col{
   flex-direction: column;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .truncate{

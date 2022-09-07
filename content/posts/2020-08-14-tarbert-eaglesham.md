@@ -15,6 +15,7 @@ geopoints:
   - [55.84949350761968, -4.426116943359376]
   - [55.740834606065185, -4.274024963378907]
 date: 2020-08-14
+image: images/scotland/2020-08-14-3.jpg
 ---
 
 This morning I didn't rush to leave the campsite, but sat and made two pots of

@@ -9,6 +9,7 @@ geopoints:
     - [54.36270788235009, 16.678018569946293]
     - [54.17167947814425, 17.49229431152344]
 date: 2019-07-03
+image: images/tallinn/2019-07-03/2.JPG
 ---
 
 I'm glad that I turned inland. I decided to head to the town of Bytów which

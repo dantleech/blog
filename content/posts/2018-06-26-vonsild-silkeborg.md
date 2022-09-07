@@ -5,6 +5,7 @@ distance: 110
 distanceEstaimate: true
 time: 7h?
 date: 2018-06-26
+image: images/norway/2018-06-26/IMG_20180626_121632.jpg
 ---
 
 

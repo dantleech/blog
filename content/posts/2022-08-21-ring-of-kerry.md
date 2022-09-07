@@ -4,6 +4,7 @@ categories: [ireland2022]
 distance: 81.70
 time: 5h18m
 date: 2022-08-21
+image: images/ireland2022/20220821_2.jpg
 ---
 
 ![Map](/images/ireland2022/20220821_map.jpg) 

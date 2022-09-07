@@ -13,6 +13,7 @@ geopoints:
   - [55.866835396047925, -5.4155731201171875]
   - [55.85604579744279, -5.437545776367188]
 date: 2020-08-13
+image: images/scotland/2020-08-13-2.jpg
 ---
 
 The campsite provided a good nights sleep, and it wasn't cold in the morning.

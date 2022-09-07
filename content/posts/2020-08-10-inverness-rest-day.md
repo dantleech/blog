@@ -6,6 +6,7 @@ time: 7h28m
 geopoints: 
   - [57.47874220561133, -4.226818084716798]
 date: 2020-08-10
+image: images/scotland/2020-08-10-2.jpg
 ---
 
 This morning I had no particular motivation to move from the bed. The thought

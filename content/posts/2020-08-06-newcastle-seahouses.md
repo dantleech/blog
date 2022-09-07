@@ -14,6 +14,7 @@ geopoints:
   - [55.609965842663705, -1.7487144470214846]
   - [55.603953962610454, -1.7677688598632815]
 date: 2020-08-06
+image: images/scotland/2020-08-06-2.jpg
 ---
 
 I wasted the night watching a film ("Get Out") and an episode and a half of

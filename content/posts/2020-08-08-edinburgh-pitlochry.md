@@ -12,6 +12,7 @@ geopoints:
   - [56.70902860935762, -3.7435913085937504]
   - [56.757428274711316, -3.8177490234375004]
 date: 2020-08-08
+image: images/scotland/2020-08-08-2.jpg
 ---
 
 The only other guy in the room (I guess the dorms are not at full capacity due

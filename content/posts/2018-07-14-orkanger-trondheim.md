@@ -4,6 +4,7 @@ categories: [norway2018]
 distance: 65
 time: 4h ?
 date: 2018-07-14
+image: images/norway/2018-07-14/IMG_20180714_090356.jpg
 ---
 
 

@@ -4,6 +4,7 @@ categories: [helsinki2019]
 geopoints:
     - [59.43178616740596, 24.743388891220096]
 date: 2019-07-28
+image: images/tallinn/2019-07-28/2.JPG
 ---
 
 I have now stayed in Tallinn for 5 nights, stayed in two separate hostels,

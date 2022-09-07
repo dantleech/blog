@@ -3,6 +3,7 @@ title: Day 26 - Pontypool
 categories: [ireland2022]
 distance: 70
 time: 4h50m
+image: images/ireland2022/20220901_4.jpg
 date: 2022-09-01
 ---
 
