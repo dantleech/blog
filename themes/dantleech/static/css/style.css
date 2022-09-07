@@ -612,32 +612,28 @@ video {
   margin-top: 1.5rem;
 }
 
-.mb-0{
-  margin-bottom: 0px;
+.mt-4{
+  margin-top: 1rem;
 }
 
 .mb-4{
   margin-bottom: 1rem;
 }
 
-.mt-4{
-  margin-top: 1rem;
+.mb-0{
+  margin-bottom: 0px;
 }
 
 .ml-2{
   margin-left: 0.5rem;
 }
 
-.mb-8{
-  margin-bottom: 2rem;
-}
-
-.mb-1{
-  margin-bottom: 0.25rem;
-}
-
 .mb-6{
   margin-bottom: 1.5rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
 }
 
 .block{
@@ -694,10 +690,6 @@ video {
   padding: 0.5rem;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -713,10 +705,6 @@ video {
   padding-right: 1.5rem;
 }
 
-.pb-10{
-  padding-bottom: 2.5rem;
-}
-
 .text-left{
   text-align: left;
 }
@@ -729,28 +717,24 @@ video {
   font-size: 2.25rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+}
+
 .text-base{
   font-size: 1rem;
-}
-
-.text-6xl{
-  font-size: 4rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
 }
 
 .text-2xl{
   font-size: 1.5rem;
 }
 
-.font-bold{
-  font-weight: 700;
-}
-
 .font-extrabold{
   font-weight: 800;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .italic{
@@ -885,19 +869,5 @@ blockquote{
 
   .sm\:text-left{
     text-align: left;
-  }
-
-  .sm\:text-2xl{
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 768px){
-  .md\:text-4xl{
-    font-size: 2.25rem;
-  }
-
-  .md\:text-2xl{
-    font-size: 1.5rem;
   }
 }
