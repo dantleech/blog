@@ -35,3 +35,6 @@ or so days of the journey.
 The distance, duration and max speed for most of my cycle rides (according to
 the cycle computer) were recorded. In addition there were photos with
 geo-locations which enabled me to draw lines on the map.
+
+[Click here to read the blog](/blog/categories/oporto2013).
+
