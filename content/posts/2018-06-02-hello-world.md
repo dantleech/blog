@@ -1,7 +1,7 @@
 ---
 title: Hello World
 tags: []
-categories: []
+categories: [blog]
 date: 2018-06-02
 ---
 
