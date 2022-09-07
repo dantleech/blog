@@ -5,8 +5,11 @@ date: 2013-03-17
 distance: 32.189
 time: 1h30m
 image: /images/oporto2013/IMAG0402.jpg
+geopoints:
+- [ 43.450236, -3.839969 ]
+- [ 43.450242, -3.839942 ]
+map_label: Map points inferred photo geolocations
 ---
-![image](/images/oporto2013/IMAG0402.jpg)
 
 Dads last day, we rode into Santander, going straight to the Ferry terminal where Dad would be setting sail for England - but it was deserted, we eventually spoke to an offial who said that the passenger terminal had been temporarily moved further down the road. After assertaining the location we went to search for some accomodation for me for the night, then a coffee and adios!
 
@@ -16,4 +19,5 @@ From Dads journal: Awake at 3am and reading War and Peace for an hour. A good br
 
 ---
 
+![image](/images/oporto2013/IMAG0402.jpg)
 ![image](/images/oporto2013/IMAG0403.jpg)

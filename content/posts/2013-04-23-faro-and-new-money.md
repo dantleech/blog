@@ -5,9 +5,21 @@ date: 2013-04-23
 distance: 88
 time: 4h7m
 maxspeed: 43.2
-image: /images/oporto2013/IMAG0654.jpg
+image: /images/oporto2013/IMAG0652.jpg
+geopoints:
+- [ 37.097950, -8.677186 ]
+- [ 37.105136, -8.673147 ]
+- [ 37.115497, -8.674928 ]
+- [ 37.151683, -8.510939 ]
+- [ 37.151694, -8.510800 ]
+- [ 37.151303, -8.505564 ]
+- [ 37.151294, -8.505553 ]
+- [ 37.097950, -8.677186 ]
+- [ 37.034461, -7.950083 ]
+- [ 37.034200, -7.949972 ]
+- [ 37.015147, -7.935167 ]
+map_label: Map points inferred photo geolocations
 ---
-![image](/images/oporto2013/IMAG0654.jpg)
 
 My card finally arrived this morning, (thanks Ana for letting me know). I withdrew some money to ensure that it worked before finally checking out of the Pousada de Juventude. It had been a productive 2 weeks, but the inertia got to me. When the card arrived I had only enough money for one more night.
 
@@ -21,13 +33,14 @@ Spoke to lots of guests. There was a guy from California, who had lived in Hawai
 
 ---
 
-![image](/images/oporto2013/IMAG0658.jpg)
-![image](/images/oporto2013/IMAG0653.jpg)
-![image](/images/oporto2013/IMAG0655.jpg)
-![image](/images/oporto2013/IMAG0659.jpg)
-![image](/images/oporto2013/IMAG0662.jpg)
-![image](/images/oporto2013/IMAG0660.jpg)
-![image](/images/oporto2013/IMAG0657.jpg)
-![image](/images/oporto2013/IMAG0661.jpg)
-![image](/images/oporto2013/IMAG0656.jpg)
 ![image](/images/oporto2013/IMAG0652.jpg)
+![image](/images/oporto2013/IMAG0653.jpg)
+![image](/images/oporto2013/IMAG0654.jpg)
+![image](/images/oporto2013/IMAG0655.jpg)
+![image](/images/oporto2013/IMAG0656.jpg)
+![image](/images/oporto2013/IMAG0657.jpg)
+![image](/images/oporto2013/IMAG0658.jpg)
+![image](/images/oporto2013/IMAG0659.jpg)
+![image](/images/oporto2013/IMAG0660.jpg)
+![image](/images/oporto2013/IMAG0661.jpg)
+![image](/images/oporto2013/IMAG0662.jpg)

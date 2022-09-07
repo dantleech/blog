@@ -25,4 +25,9 @@
     L.polyline({{ .Params.geopoints }}, {color: 'red'}).addTo(mymap);
     L.control.scale().addTo(mymap);
 </script>
+{{ if .Params.map_label }}
+<center><i>{{ .Params.map_label }}</i></center><br/>
+{{ end }}
+
+
 

@@ -2,9 +2,14 @@
 title: The New Blog - 10 days in Lagos
 categories: ['oporto2013']
 date: 2013-04-18
-image: /images/oporto2013/IMAG0643.jpg
+image: /images/oporto2013/IMAG0642.jpg
+geopoints:
+- [ 37.110181, -8.659056 ]
+- [ 37.120772, -8.620239 ]
+- [ 37.120772, -8.620239 ]
+- [ 37.120792, -8.620250 ]
+map_label: Map points inferred photo geolocations
 ---
-![image](/images/oporto2013/IMAG0643.jpg)
 
 Last tuesday I phoned my friend Franck in Paris
 
@@ -26,7 +31,8 @@ Anyway, the weather is hot and I have been hacking away at this computer since 9
 
 ---
 
-![image](/images/oporto2013/IMAG0645.jpg)
 ![image](/images/oporto2013/IMAG0642.jpg)
-![image](/images/oporto2013/IMAG0646.jpg)
+![image](/images/oporto2013/IMAG0643.jpg)
 ![image](/images/oporto2013/IMAG0644.jpg)
+![image](/images/oporto2013/IMAG0645.jpg)
+![image](/images/oporto2013/IMAG0646.jpg)

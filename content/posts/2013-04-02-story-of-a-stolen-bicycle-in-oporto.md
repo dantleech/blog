@@ -3,9 +3,14 @@ title: Story of a stolen bicycle in OPorto
 categories: ['oporto2013']
 date: 2013-04-02
 distance: 100
-image: /images/oporto2013/IMAG0529.jpg
+image: /images/oporto2013/IMAG0527.jpg
+geopoints:
+- [ 40.190892, -8.433611 ]
+- [ 40.073678, -8.448553 ]
+- [ 40.073586, -8.448681 ]
+- [ 40.036322, -8.455358 ]
+map_label: Map points inferred photo geolocations
 ---
-![image](/images/oporto2013/IMAG0529.jpg)
 
 I rode into the center of Oporta. Struggling up the narrow, ancient streets with my heavy bicycle. Passing by residençials (cheap hotels) that looked to run-down for me to stay in.
 
@@ -181,11 +186,14 @@ So, what did I have? At one point I had lost everything, at one point I really d
 
 ---
 
-![image](/images/oporto2013/IMAG0535.jpg)
-![image](/images/oporto2013/IMAG0534.jpg)
-![image](/images/oporto2013/IMAG0532.jpg)
-![image](/images/oporto2013/IMAG0533.jpg)
-![image](/images/oporto2013/IMAG0531.jpg)
-![image](/images/oporto2013/IMAG0530.jpg)
 ![image](/images/oporto2013/IMAG0527.jpg)
 ![image](/images/oporto2013/IMAG0528.jpg)
+![image](/images/oporto2013/IMAG0529.jpg)
+![image](/images/oporto2013/IMAG0530.jpg)
+![image](/images/oporto2013/IMAG0531.jpg)
+![image](/images/oporto2013/IMAG0532.jpg)
+![image](/images/oporto2013/IMAG0533.jpg)
+![image](/images/oporto2013/IMAG0534.jpg)
+*Bicycle before it was stolen*
+
+![image](/images/oporto2013/IMAG0535.jpg)

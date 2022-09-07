@@ -1,5 +1,5 @@
 ---
-title: ?? to Deba, Spain
+title: Bayonne to Deba, Spain
 categories: ['oporto2013']
 date: 2013-03-14
 distance: 38.624

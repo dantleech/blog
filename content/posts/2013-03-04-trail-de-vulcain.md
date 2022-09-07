@@ -2,9 +2,29 @@
 title: Trail de vulcain
 categories: ['oporto2013']
 date: 2013-03-04
-image: /images/oporto2013/IMAG0326.jpg
+image: /images/oporto2013/IMAG0312.jpg
+geopoints:
+- [ 45.869744, 3.043511 ]
+- [ 45.869583, 3.043689 ]
+- [ 45.869583, 3.043689 ]
+- [ 45.869583, 3.043689 ]
+- [ 45.902983, 3.113864 ]
+- [ 45.902983, 3.113864 ]
+- [ 45.845456, 3.071433 ]
+- [ 45.902983, 3.113864 ]
+- [ 45.895772, 3.107561 ]
+- [ 45.851486, 3.064497 ]
+- [ 45.851486, 3.064497 ]
+- [ 45.869472, 3.038769 ]
+- [ 45.886283, 3.078775 ]
+- [ 45.869953, 3.039911 ]
+- [ 45.869583, 3.043689 ]
+- [ 45.869583, 3.043689 ]
+- [ 45.869953, 3.039911 ]
+- [ 45.869953, 3.039911 ]
+- [ 45.869953, 3.039911 ]
+map_label: Map points inferred photo geolocations
 ---
-![image](/images/oporto2013/IMAG0326.jpg)
 
 This event was:
 
@@ -43,37 +63,38 @@ From Dads journal: Left hotel for Volvic race venue at 8am in Frank’s car. Dan
 
 ---
 
-![image](/images/oporto2013/IMAG0346.jpg)
-![image](/images/oporto2013/IMAG0334.jpg)
+![image](/images/oporto2013/IMAG0312.jpg)
+![image](/images/oporto2013/IMAG0313.jpg)
+![image](/images/oporto2013/IMAG0314.jpg)
 ![image](/images/oporto2013/IMAG0315.jpg)
-![image](/images/oporto2013/IMAG0327.jpg)
-![image](/images/oporto2013/IMAG0333.jpg)
+![image](/images/oporto2013/IMAG0316.jpg)
+![image](/images/oporto2013/IMAG0317.jpg)
 ![image](/images/oporto2013/IMAG0318.jpg)
 ![image](/images/oporto2013/IMAG0319.jpg)
-![image](/images/oporto2013/IMAG0312.jpg)
-![image](/images/oporto2013/IMAG0341.jpg)
-![image](/images/oporto2013/IMAG0343.jpg)
-![image](/images/oporto2013/IMAG0338.jpg)
-![image](/images/oporto2013/IMAG0328.jpg)
-![image](/images/oporto2013/IMAG0314.jpg)
 ![image](/images/oporto2013/IMAG0320.jpg)
-![image](/images/oporto2013/IMAG0316.jpg)
-![image](/images/oporto2013/IMAG0329.jpg)
-![image](/images/oporto2013/IMAG0342.jpg)
-![image](/images/oporto2013/IMAG0331.jpg)
-![image](/images/oporto2013/IMAG0317.jpg)
-![image](/images/oporto2013/IMAG0313.jpg)
-![image](/images/oporto2013/IMAG0335.jpg)
-![image](/images/oporto2013/IMAG0325.jpg)
-![image](/images/oporto2013/IMAG0340.jpg)
-![image](/images/oporto2013/IMAG0324.jpg)
-![image](/images/oporto2013/IMAG0323.jpg)
 ![image](/images/oporto2013/IMAG0321.jpg)
+![image](/images/oporto2013/IMAG0322.jpg)
+![image](/images/oporto2013/IMAG0323.jpg)
+![image](/images/oporto2013/IMAG0324.jpg)
+![image](/images/oporto2013/IMAG0325.jpg)
+![image](/images/oporto2013/IMAG0326.jpg)
+![image](/images/oporto2013/IMAG0327.jpg)
+![image](/images/oporto2013/IMAG0328.jpg)
+![image](/images/oporto2013/IMAG0329.jpg)
+![image](/images/oporto2013/IMAG0330.jpg)
+![image](/images/oporto2013/IMAG0331.jpg)
+![image](/images/oporto2013/IMAG0332.jpg)
+![image](/images/oporto2013/IMAG0333.jpg)
+![image](/images/oporto2013/IMAG0334.jpg)
+![image](/images/oporto2013/IMAG0335.jpg)
+![image](/images/oporto2013/IMAG0336.jpg)
 ![image](/images/oporto2013/IMAG0337.jpg)
+![image](/images/oporto2013/IMAG0338.jpg)
+![image](/images/oporto2013/IMAG0339.jpg)
+![image](/images/oporto2013/IMAG0340.jpg)
+![image](/images/oporto2013/IMAG0341.jpg)
+![image](/images/oporto2013/IMAG0342.jpg)
+![image](/images/oporto2013/IMAG0343.jpg)
 ![image](/images/oporto2013/IMAG0344.jpg)
 ![image](/images/oporto2013/IMAG0345.jpg)
-![image](/images/oporto2013/IMAG0336.jpg)
-![image](/images/oporto2013/IMAG0332.jpg)
-![image](/images/oporto2013/IMAG0339.jpg)
-![image](/images/oporto2013/IMAG0322.jpg)
-![image](/images/oporto2013/IMAG0330.jpg)
+![image](/images/oporto2013/IMAG0346.jpg)
