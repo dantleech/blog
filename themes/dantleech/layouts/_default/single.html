@@ -1,29 +1,14 @@
 {{ define "main" }}
     <article>
-        <h1 class="font-extrabold mt-4 mb-4 text-5xl">{{ .Title }}</h1>
-        <div class="clear-both"/>
-        {{ if and (isset .Params "distance") (.Params.distance) }}
-        <div>
-            <table class="table-fixed w-full">
-                <tbody>
-                    <tr class="border-b-2">
-                        <th class="text-left">Distance</th>
-                        <td class="text-left">{{ .Params.distance }}km</td>
-                    </tr>
-                    {{ if (isset .Params "time") }}
-                    <tr class="border-b-2">
-                        <th class="text-left">Time</th>
-                        <td>{{ .Params.time}}</td>
-                    </tr>
-                    {{ end }}
-                </tbody>
-            </table>
+        <div class="grid grid-cols-2 gap-4 auto-cols-auto">
+            <h1 class="font-extrabold mt-6 text-4xl">{{ .Title }}</h1>
+            <div class="text-right pt-6">
+                <time class="text-2xl mt-6" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time><br/>
+                {{ range .Params.categories }}
+                <a href="{{ "/blog/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+            </div>
         </div>
-        {{ end }}
-        {{ if isset .Params "geopoints" }}
-            {% include "_map.html" %}
-            <hr/>
-        {{ end }}
         <div>
             {{ .Content }}
         </div>

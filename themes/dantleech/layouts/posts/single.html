@@ -9,9 +9,6 @@
                 <a href="{{ "/blog/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
                 {{ end }}
             </div>
-        {{ if .Params.categories }}
-        {{ end }}
-        <hr class="clear-both mb-6"/>
         </div>
         {{ if and (isset .Params "distance") (.Params.distance) }}
         <div>
