@@ -1,6 +1,6 @@
 --- 
 title: Bulgaria PHP
-categories: [helsinki2019]
+categories: [conference]
 geopoints:
     - [52.5293,13.3575 ]
     - [42.69454866207692, 23.318481445312504]
