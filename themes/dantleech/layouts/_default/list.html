@@ -5,9 +5,16 @@
         {{ with .Content }}<div>{{ . }}</div>{{ end }}
     </div>
     {{ end }}
+    {{ $distance := 0 }}
     {{ range .Paginator.Pages }}
         {{ .Render "summary" }}
+        {{ if isset .Params "distance" }}
+            {{ $distance = add $distance .Params.distance }}
+        {{ end }}
     {{ end }}
     {{ partial "pagination.html" . }}
+    {{ if gt $distance 0 }}
+    <p class="mt-4 bg-yellow-200 block rounded p-4">{{ math.Round $distance }}km of achievement on this page!</p>
+    {{ end }}
 {{ partial "sidebar.html" . }}
 {{ end }}
