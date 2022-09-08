@@ -1,0 +1,328 @@
+{
+    "basics": {
+        "name": "Daniel Leech",
+        "label": "Software Engineer",
+        "image": "/images/me_small2.jpg",
+        "email": "daniel@dantleech.com",
+        "url": "https://www.dantleech.com",
+        "summary": "Software Engineer with over 16 years of experience",
+        "location": {
+            "address": "Behaimstraße, 41",
+            "postalCode": "13086",
+            "city": "Berlin",
+            "countryCode": "DE"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "dantleech",
+                "url": "https://twitter.com/dantleech"
+            },
+            {
+                "network": "Github",
+                "username": "dantleech",
+                "url": "https://github.com/dantleech"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Inviqa",
+            "position": "Senior Developer / Team Lead",
+            "url": "https://inviqa.com",
+            "startDate": "2014",
+            "endDate": "2016",
+            "summary": "Being involved in many projects as either a Senior Developer and/or Team Lead",
+            "highlights": [
+                "Organizing in-house community events and giving talks"
+            ]
+        },
+        {
+            "name": "MassiveArt",
+            "position": "Senior Developer",
+            "url": "https://massiveart.com",
+            "startDate": "2014",
+            "endDate": "2016",
+            "summary": "Developing the Sulu CMS",
+            "highlights": [
+                "Developing the PHPCR based document manager"
+            ]
+        },
+        {
+            "name": "yProximité",
+            "position": "Lead Developer",
+            "url": "https://www.y-proximite.fr",
+            "startDate": "2011",
+            "endDate": "2014",
+            "summary": "Building and managing multi-tenancy website platform",
+            "highlights": [
+                "Building a multi-tenancy CMS from scratch with Symfony 2.0",
+                "Introducing an effective agile process based on Scrum"
+            ]
+        },
+        {
+            "name": "Gradwell",
+            "position": "Web Developer",
+            "url": "https://gradwell.com",
+            "startDate": "2006",
+            "endDate": "2010",
+            "summary": "Building and maintaining end-user hosting and VoIP control panels and sign-up processes",
+            "highlights": [
+            ]
+        }
+    ],
+    "education": [{
+        "institution": "Bath Spa University",
+        "area": "Music Technology",
+        "studyType": "Bachelor of Arts",
+        "startDate": "2001",
+        "endDate": "2004"
+    }],
+    "certificates": [{
+        "name": "Spryker Certified Developer",
+        "date": "2020",
+        "issuer": "Spryker"
+    }],
+    "skills": [
+        {
+            "name": "Valuable Skills",
+            "keywords": [
+                "PHP",
+                "Symfony",
+                "Software Design",
+                "Pairing",
+                "Breaking down work",
+                "Delivering"
+            ]
+        },
+        {
+            "name": "Other Skills",
+            "keywords": [
+                "VIM",
+                "Go",
+                "Docker",
+                "Kubernetes",
+                "Linux"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "French",
+            "fluency": "Good"
+        },
+        {
+            "language": "German",
+            "fluency": "Intermediate"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Music",
+            "keywords": [
+                "Piano",
+                "Guitar",
+                "Bass",
+                "Recording"
+            ]
+        },
+        {
+            "name": "Programming",
+            "keywords": [
+                "Open source"
+            ]
+        },
+        {
+            "name": "Long Distance Cycling"
+        },
+        {
+            "name": "Running"
+        }
+    ],
+    "open-source-projects": [
+        {
+            "name": "Phpactor",
+            "description": "PHP Language Server",
+            "role": "Author and maintainer",
+            "keywords": [
+                "Async",
+                "PHP",
+                "Parsers"
+            ],
+            "startDate": "2015-09-01",
+            "endDate": null,
+            "url": "https://github.com/phpactor/phpactor"
+        },
+        {
+            "name": "PHPBench",
+            "description": "Defacto PHP Code Benchmarking Framework",
+            "role": "Author and maintainer",
+            "keywords": [
+                "PHP"
+            ],
+            "startDate": "2015-04-01",
+            "url": "https://github.com/phpbench/phpbench",
+            "endDate": null
+        },
+        {
+            "name": "Fink",
+            "description": "Link Checker",
+            "role": "Author and maintainer",
+            "keywords": [
+                "PHP",
+                "Async"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": null,
+            "url": "https://github.com/dantleech/fink"
+        },
+        {
+            "name": "Gherkin Lint",
+            "description": "Gherkin Linter",
+            "role": "Author and maintainer",
+            "keywords": [
+                "PHP",
+                "BDD"
+            ],
+            "startDate": "2022-06-01",
+            "endDate": null,
+            "url": "https://github.com/dantleech/gherkin-lint-php"
+        },
+        {
+            "name": "Symfony CMF",
+            "description": "",
+            "role": "Component author and conributor",
+            "keywords": [
+                "PHP",
+                "BDD"
+            ],
+            "startDate": "2014",
+            "endDate": "2017",
+            "url": "https://github.com/symfony-cmf"
+        }
+    ],
+    "projects": [
+        {
+            "name": "VetPartners",
+            "description": "Digital Platform",
+            "highlights": [
+                "Online Booking System",
+                "Online Ordering System"
+            ],
+            "keywords": [
+                "Apollo",
+                "Go",
+                "Typescript",
+                "Sylus",
+                "Kubernetes",
+                "AWS"
+            ],
+            "startDate": "2020",
+            "endDate": "2021",
+            "roles": [
+                "Team lead and lead software engineer"
+            ],
+            "type": "website"
+        },
+        {
+            "name": "Reiss",
+            "description": "B2C Ecommerce Site",
+            "highlights": [
+                "refactored order management system"
+            ],
+            "keywords": [
+                "Sylius",
+                "Symfony"
+            ],
+            "startDate": "2020",
+            "endDate": "2021",
+            "roles": [
+                "Senior Software Engineer"
+            ],
+            "type": "website"
+        },
+        {
+            "name": "Lautsprecher Teufel",
+            "description": "B2C Ecommerce Site",
+            "highlights": [
+            ],
+            "keywords": [
+                "Spryker"
+            ],
+            "startDate": "2019-09-01",
+            "endDate": "2019-12-01",
+            "roles": [
+                "Senior Software Engineer"
+            ],
+            "type": "website"
+        },
+        {
+            "name": "Metro",
+            "description": "International B2B Wholesale Platform",
+            "highlights": [
+            ],
+            "keywords": [
+                "Spryker"
+            ],
+            "startDate": "2018-10-01",
+            "endDate": "2019-09-01",
+            "roles": [
+                "Senior Software Engineer"
+            ],
+            "type": "website"
+        },
+        {
+            "name": "SES Astra",
+            "description": "Website for SES Astra",
+            "highlights": [
+                "Channel Finder"
+            ],
+            "keywords": [
+                "PHP",
+                "Drupal"
+            ],
+            "startDate": "2018-01-01",
+            "endDate": "2018-07-01",
+            "roles": [
+                "Lead Software Engineer"
+            ],
+            "type": "website"
+        },
+        {
+            "name": "Bosch funded startup (cancelled)",
+            "description": "B2B marketplace for machine parts",
+            "keywords": [
+                "Spryker"
+            ],
+            "startDate": "2017-07-01",
+            "endDate": "2017-12-01",
+            "roles": [
+                "Software Engineer",
+                "Team Lead"
+            ],
+            "type": "website"
+        },
+        {
+            "name": "Financial Times",
+            "description": "Involved with developing a Financial Times site for a few months",
+            "highlights": [
+            ],
+            "keywords": [
+                "PHP",
+                "Javascript",
+                "EZPublish",
+                "YUI"
+            ],
+            "startDate": "2017-10-01",
+            "endDate": "2017-12-01",
+            "roles": [
+                "Software Engineer"
+            ],
+            "type": "website"
+        }
+    ]
+}
