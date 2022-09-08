@@ -77,8 +77,7 @@ reading instructions and replacing the operating system.
 ![view](/images/scotland/2020-08-10-1.jpg)
 _Tablets in Entertainment Exchange_
 
-A tablet is really useful to have on a cycle tour - it's a backup map with GPS
-- and it's a great e-book reader. The downside is that I have increased the
+A tablet is really useful to have on a cycle tour - it's a backup map with GPS - and it's a great e-book reader. The downside is that I have increased the
 number of items which require charging:
 
 - Battery pack
