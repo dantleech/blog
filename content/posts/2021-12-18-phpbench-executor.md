@@ -2,6 +2,7 @@
 title: Hrtime and Loops
 categories: [php,phpbench]
 date: 2021-12-18
+image: images/2021-12-18/loop10.png
 ---
 PHPBench currently samples the time taken (in microseconds) to run code around a loop.
 
