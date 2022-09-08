@@ -3,9 +3,11 @@
         "name": "Daniel Leech",
         "label": "Software Engineer",
         "image": "/images/me_small2.jpg",
-        "email": "daniel@dantleech.com",
-        "url": "https://www.dantleech.com",
+        "email": "daniel at dantleech dot com",
+        "url": "www.dantleech.com",
         "summary": "Software Engineer with over 16 years of experience",
+        "dob": "1980",
+        "nationality": "British",
         "location": {
             "address": "Behaimstraße, 41",
             "postalCode": "13086",
@@ -15,7 +17,7 @@
         "profiles": [
             {
                 "network": "Twitter",
-                "username": "dantleech",
+                "username": "@dantleech",
                 "url": "https://twitter.com/dantleech"
             },
             {
@@ -30,8 +32,7 @@
             "name": "Inviqa",
             "position": "Senior Developer / Team Lead",
             "url": "https://inviqa.com",
-            "startDate": "2014",
-            "endDate": "2016",
+            "startDate": "2016",
             "summary": "Being involved in many projects as either a Senior Developer and/or Team Lead",
             "highlights": [
                 "Organizing in-house community events and giving talks"
@@ -85,31 +86,47 @@
     }],
     "skills": [
         {
-            "name": "Valuable Skills",
+            "name": "Main",
             "keywords": [
                 "PHP",
-                "Symfony",
                 "Software Design",
+                "Automated Testing",
+                "Static Analysis",
                 "Pairing",
                 "Breaking down work",
-                "Delivering"
+                "Delivering value"
             ]
         },
         {
-            "name": "Other Skills",
+            "name": "Incidental",
             "keywords": [
-                "VIM",
                 "Go",
                 "Docker",
                 "Kubernetes",
-                "Linux"
+                "Linux",
+                "VIM",
+                "Command line",
+                "Javascript",
+                "Typescript"
+            ]
+        },
+        {
+            "name": "Other",
+            "keywords": [
+                "Agile",
+                "Patterns",
+                "UML",
+                "BDD",
+                "DDD",
+                "TDD",
+                "..."
             ]
         }
     ],
     "languages": [
         {
             "language": "English",
-            "fluency": "Native speaker"
+            "fluency": "Native"
         },
         {
             "language": "French",
@@ -133,17 +150,19 @@
         {
             "name": "Programming",
             "keywords": [
-                "Open source"
+                "Open source",
+                "PHP"
             ]
         },
         {
-            "name": "Long Distance Cycling"
-        },
-        {
-            "name": "Running"
+            "name": "Physical Activities",
+            "keywords": [
+                "Cycle Touring",
+                "Running"
+            ]
         }
     ],
-    "open-source-projects": [
+    "openSourceProjects": [
         {
             "name": "Phpactor",
             "description": "PHP Language Server",
@@ -153,52 +172,49 @@
                 "PHP",
                 "Parsers"
             ],
-            "startDate": "2015-09-01",
-            "endDate": null,
+            "startDate": "2015",
             "url": "https://github.com/phpactor/phpactor"
         },
         {
             "name": "PHPBench",
-            "description": "Defacto PHP Code Benchmarking Framework",
+            "description": "Defacto PHP Code benchmarking framework",
             "role": "Author and maintainer",
             "keywords": [
                 "PHP"
             ],
-            "startDate": "2015-04-01",
-            "url": "https://github.com/phpbench/phpbench",
-            "endDate": null
+            "startDate": "2015",
+            "url": "https://github.com/phpbench/phpbench"
         },
         {
             "name": "Fink",
-            "description": "Link Checker",
+            "description": "Link checker",
             "role": "Author and maintainer",
             "keywords": [
                 "PHP",
                 "Async"
             ],
-            "startDate": "2019-01-01",
-            "endDate": null,
+            "startDate": "2019",
             "url": "https://github.com/dantleech/fink"
         },
         {
             "name": "Gherkin Lint",
-            "description": "Gherkin Linter",
+            "description": "Gherkin static analyser",
             "role": "Author and maintainer",
             "keywords": [
                 "PHP",
                 "BDD"
             ],
-            "startDate": "2022-06-01",
-            "endDate": null,
+            "startDate": "2022",
             "url": "https://github.com/dantleech/gherkin-lint-php"
         },
         {
             "name": "Symfony CMF",
-            "description": "",
-            "role": "Component author and conributor",
+            "description": "Community initiative to create a Symfony based content-management framework based on JCR standards",
+            "role": "Author and contributor",
             "keywords": [
                 "PHP",
-                "BDD"
+                "PHPCR",
+                "Symfony"
             ],
             "startDate": "2014",
             "endDate": "2017",
@@ -221,11 +237,9 @@
                 "Kubernetes",
                 "AWS"
             ],
-            "startDate": "2020",
+            "startDate": "2021/2",
             "endDate": "2021",
-            "roles": [
-                "Team lead and lead software engineer"
-            ],
+            "role": "Team lead and lead software engineer",
             "type": "website"
         },
         {
@@ -240,9 +254,7 @@
             ],
             "startDate": "2020",
             "endDate": "2021",
-            "roles": [
-                "Senior Software Engineer"
-            ],
+            "role": "Senior Software Engineer",
             "type": "website"
         },
         {
@@ -253,11 +265,9 @@
             "keywords": [
                 "Spryker"
             ],
-            "startDate": "2019-09-01",
-            "endDate": "2019-12-01",
-            "roles": [
-                "Senior Software Engineer"
-            ],
+            "startDate": "2019",
+            "endDate": "2019",
+            "role": "Senior Software Engineer",
             "type": "website"
         },
         {
@@ -268,11 +278,9 @@
             "keywords": [
                 "Spryker"
             ],
-            "startDate": "2018-10-01",
-            "endDate": "2019-09-01",
-            "roles": [
-                "Senior Software Engineer"
-            ],
+            "startDate": "2018",
+            "endDate": "2019",
+            "role": "Senior Software Engineer",
             "type": "website"
         },
         {
@@ -285,25 +293,21 @@
                 "PHP",
                 "Drupal"
             ],
-            "startDate": "2018-01-01",
-            "endDate": "2018-07-01",
-            "roles": [
-                "Lead Software Engineer"
-            ],
+            "startDate": "2018",
+            "endDate": "2018",
+            "role": "Lead Software Engineer",
             "type": "website"
         },
         {
             "name": "Bosch funded startup (cancelled)",
             "description": "B2B marketplace for machine parts",
             "keywords": [
-                "Spryker"
+                "Spryker",
+                "Platform SH"
             ],
-            "startDate": "2017-07-01",
-            "endDate": "2017-12-01",
-            "roles": [
-                "Software Engineer",
-                "Team Lead"
-            ],
+            "startDate": "2017",
+            "endDate": "2017",
+            "role": "Software Engineer and acting Team Lead",
             "type": "website"
         },
         {
@@ -317,11 +321,9 @@
                 "EZPublish",
                 "YUI"
             ],
-            "startDate": "2017-10-01",
-            "endDate": "2017-12-01",
-            "roles": [
-                "Software Engineer"
-            ],
+            "startDate": "2017",
+            "endDate": "2017",
+            "role": "Software Engineer",
             "type": "website"
         }
     ]

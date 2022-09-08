@@ -2,6 +2,7 @@
 layout: default
 title: About
 menu: main
+type: plain
 ---
 My name is Daniel Leech. I am PHP developer since 2007. I live mostly in
 Berlin.

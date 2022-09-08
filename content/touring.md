@@ -2,6 +2,7 @@
 layout: default
 title: Cycle Touring
 menu: main
+type: plain
 ---
 
 Riding bike with much equipment over long distances with tent and painful.

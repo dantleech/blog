@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 menu: main
-
+type: plain
 ---
 By far the two biggest projects I'm responsible for are:
 

@@ -4,7 +4,11 @@
 @tailwind utilities;
 
 body {
-    @apply font-serif
+    @apply font-serif;
+}
+
+p code, li code {
+    @apply text-pink-500 font-bold;
 }
 
 a {

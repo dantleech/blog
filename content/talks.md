@@ -2,7 +2,7 @@
 layout: default
 title: Talks
 menu: main
-
+type: plain
 ---
 Some of the public talks I have given:
 

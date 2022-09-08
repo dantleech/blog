@@ -2,6 +2,7 @@
 layout: default
 title: Music
 menu: main
+type: plain
 ---
 
 Occasionally I record terrible music.

@@ -1,0 +1,141 @@
+{{ with $.Site.Data.cv }}
+    <section>
+        <div class="grid grid-cols-2 gap-4">
+            <div>
+            {{ with .basics }}
+                <ul>
+                    <li>Website: <a href="https://{{ .website }}">{{ .url }}</a></li>
+                    <li>Email: {{ .email }}</li>
+                {{ range .profiles }}
+                    <li>{{ .network }}: <a href="{{ .url }}">{{ .username }}</a></li>
+                {{ end }}
+                <li>Born: {{ .dob }}</li>
+                <li>Nationality: {{ .nationality }}</li>
+                </ul>
+            {{ end }}
+            </div>
+            <div style="margin-left: auto">
+                {{ $image := resources.Get "/images/me-small2.jpg" }}
+                {{ $image = $image.Fit "300x300" }}
+                <img src="{{ $image.RelPermalink }}"/>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Background</h2>
+        <p>16 years experience in software development with a focus on PHP
+        applications and libraries. My time has been split between writing
+        open source projects and involvement and leadership of projects in
+        the areas of e-commerce and content management.</p>
+
+        <p>I am member of the PHP and Symfony community and I give talks
+        at work, meetups and conferences.</p>
+
+        <p>Currently I reside in Germany, but England, France and Austria have also been places I have called my home, but I am now considering a move back to the United Kingdom.</p>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <div class="grid grid-cols-3 gap-4">
+        {{ range .skills }}
+            <div>
+                <p>{{ .name }}</p>
+                <ul>
+                {{ range .keywords }}
+                <li>{{ . }}</li>
+                {{ end }}
+                </ul>
+            </div>
+        {{ end }}
+        </div>
+    </section>
+    <section>
+        <h2>Employment</h2>
+        <table class="table-fixed">
+            <thead>
+                <tr>
+                    <th class="pr-4 pl-4 text-left">Period</th>
+                    <th class="pr-4 pl-4 text-left">Company</th>
+                    <th class="pr-4 pl-4 text-left">Role</th>
+                    <th class="pr-4 pl-4 text-left">Summary</th>
+                </tr>
+            </thead>
+        {{ range .work }}
+            <tr>
+                <td class="whitespace-nowrap pr-4 pl-4 border align-top">{{ .startDate }} &gt; {{ if isset . "endDate" }}{{ .endDate }}{{ else }}present{{ end}}</td>
+                <td class="pr-4 pl-4 border align-top"><a href="{{ .url }}">{{ .name }}</a></td>
+                <td class="pr-4 pl-4 border align-top">{{ .position }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ .summary }}</td>
+            </tr>
+        {{ end }}
+        </table>
+    </section>
+    <section>
+        <h2>Open Source Projects</h2>
+        <table class="table-fixed">
+            <thead>
+                <tr>
+                    <th class="pr-4 pl-4 text-left">Period</th>
+                    <th class="pr-4 pl-4 text-left">Name</th>
+                    <th class="pr-4 pl-4 text-left">Role</th>
+                    <th class="pr-4 pl-4 text-left">Description</th>
+                    <th class="pr-4 pl-4 text-left">Keywords</th>
+                </tr>
+            </thead>
+        {{ range .openSourceProjects }}
+            <tr>
+                <td class="whitespace-nowrap pr-4 pl-4 border align-top">
+                    {{ .startDate }} &gt; {{ if isset . "endDate" }}{{ .endDate }}{{ else }}present{{ end }}
+                </td>
+                <td class="whitespace-nowrap pr-4 pl-4 border align-top"><a href="{{ .url }}">{{ .name }}</a></td>
+                <td class="whitespace-nowrap pr-4 pl-4 border align-top">{{ .role }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ .description }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ delimit .keywords ", " }}</td>
+            </tr>
+        {{ end }}
+        </table>
+    </section>
+    <section>
+        <h2>Agency Projects</h2>
+        <table class="table-fixed">
+            <thead>
+                <tr>
+                    <th class="pr-4 pl-4 text-left">Period</th>
+                    <th class="pr-4 pl-4 text-left">Client</th>
+                    <th class="pr-4 pl-4 text-left">Role</th>
+                    <th class="pr-4 pl-4 text-left">Keywords</th>
+                </tr>
+            </thead>
+        {{ range .projects }}
+            <tr>
+                <td class="whitespace-nowrap pr-4 pl-4 border align-top">{{ .startDate }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ .name }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ .role }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ delimit .keywords ", " }}</td>
+            </tr>
+        {{ end }}
+        </table>
+    </section>
+    <section>
+        <h2>Spoken Languages</h2>
+        <ul>
+        {{ range .languages }}
+            <li><b>{{ .language }}</b>: {{ .fluency }}</li>
+        {{ end }}
+        </ul>
+    </section>
+    <section>
+        <h2>Interests</h2>
+        <div class="grid grid-cols-3 gap-4">
+        {{ range .interests }}
+            <div>
+                <p><b>{{ .name }}</b></p>
+                <ul>
+                {{ range .keywords }}
+                <li>{{ . }}</li>
+                {{ end }}
+                </ul>
+            </div>
+        {{ end }}
+        </div>
+    </section>
+{{ end }}
