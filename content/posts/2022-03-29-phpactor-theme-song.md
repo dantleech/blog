@@ -9,11 +9,9 @@ This is a song about
 
 {{<audio src="/audio/phpactor.mp3" caption="Phpactor Theme Song" >}}
 
-> Phpactor - It's a Language Server
->
-> Don't use it on a project that it is to big
->
-> It will crash
+> Phpactor - It's a Language Server  
+> Don't use it on a project that it is to big  
+> It will crash  
 
 I have spent the majority of my spare (project) time this month working on
 Phpactor, this weekend was my last opportunity to record a song, and I had not

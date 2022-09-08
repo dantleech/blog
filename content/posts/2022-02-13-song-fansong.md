@@ -9,7 +9,7 @@ This song is a cover of "Fansong" by [Dethklok](https://en.wikipedia.org/wiki/De
 
 {{<audio src="/audio/fansong.mp3" caption="Fansong" >}}
 
-```
+```text
 You people out there give us something more than just record sales
 You give us something to hate
 And we hate you, you brainless mutants

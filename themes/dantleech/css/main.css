@@ -16,6 +16,10 @@ a {
     @apply text-blue-900;
 }
 
+div.highlight pre {
+    @apply rounded-lg;
+}
+
 article {
     @apply text-lg tracking-wide;
 }
@@ -63,5 +67,7 @@ ul {
 }
 
 blockquote {
-    @apply bg-gray-100 p-4 m-1;
+    @apply bg-gray-100 p-4 mt-4 mb-4;
+    @apply rounded-lg;
+    @apply shadow-lg;
 }

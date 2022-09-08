@@ -124,7 +124,7 @@ Archived
 The following packages have been archived and are now part of
 `phpactor/phpactor`:
 
-```
+```text
 ✓ Archived repository phpactor/class-mover
 ✓ Archived repository phpactor/class-to-file-extension
 ✓ Archived repository phpactor/code-builder

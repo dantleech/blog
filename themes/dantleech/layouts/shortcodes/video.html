@@ -1,0 +1,6 @@
+<figure>
+    <video controls width="{{ .Get "width" }}">
+      {{ with .Get "src" }}<source type="video/mp4" src="{{ . }}"/>{{ end }}
+  </video>
+  {{ with .Get "caption" }}<figcaption class="pt-4 italic font-bold">{{ . }}</figcaption>{{ end }}
+</figure>

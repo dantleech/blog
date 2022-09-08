@@ -127,7 +127,7 @@ processes known values, providing very limited scope for customization.
 
 For example the typical `aggregate` report for PHPBench is defined like this:
 
-```
+```php
 return [
     'aggregate' => [
         'generator' => 'table',
@@ -141,7 +141,7 @@ calculated.
 
 With the expression lanaguage this could be written as:
 
-```
+```php
 return [
     'expression-report' => [
         'generator' => 'expressive-table',

@@ -1,8 +1,8 @@
-<div class="mt-4 mb-8 border p-2 shadow-xl">
+<div class="mt-4 mb-4 border p-2 shadow-xl rounded-lg bg-slate-500 text-white p-6">
     <figure>
       <audio controls preload="{{ .Get "preload" | default "metadata" }}">
         {{ with .Get "src" }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
       </audio>
-      {{ with .Get "caption" }}<figcaption class="italic">{{ . }}</figcaption>{{ end }}
+      {{ with .Get "caption" }}<figcaption class="pt-4 italic font-bold">{{ . }}</figcaption>{{ end }}
     </figure>
 </div>

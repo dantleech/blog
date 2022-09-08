@@ -299,7 +299,7 @@ if ($foobar) {
 So for example the type assertion for the `is_null` function will look like
 this:
 
-```
+```php
 TypeAssertion::variable(
     '$foobar',
     true:  fn (Type $type) => TypeFactory::null(),
@@ -323,14 +323,14 @@ _literals_.
 You can do math in Phpactor (this worked before too, but I think it's cool
 even if I've never used it 😃):
 
-```
+```php
 $result = 5 + 5; // type of $result is now 10
 $result = array_sum([5, 5, 5, 5]); // type of $result is now 20
 ```
 
 This also means:
 
-```
+```php
 $tags = ['tag1', 'tag2'];
 
 if (in_array($tag, $tags)) {
@@ -340,15 +340,14 @@ if (in_array($tag, $tags)) {
 
 We also support array shapes:
 
-```
+```php
 /** @var array{foo: int, bar: string} */
 ```
 
 With completion:
 
-<video controls width="500">
-<source type="video/mp4" src="https://video.twimg.com/ext_tw_video/1513995640124194817/pu/vid/916x510/enFFMfMJYRFJ5p4T.mp4"/>
-</video>
+
+{{<video width=800 src="https://video.twimg.com/ext_tw_video/1513995640124194817/pu/vid/916x510/enFFMfMJYRFJ5p4T.mp4">}}
 
 ## Acknowledgements
 

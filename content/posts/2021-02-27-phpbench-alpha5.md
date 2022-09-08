@@ -23,7 +23,7 @@ One problem I had when developing benchmarks is that it's difficult to debug
 when the benchmark launches in a separate process, for this reason there is
 now the `local` executor:
 
-```
+```bash
 $ phpbench run --executor=local
 ```
 
@@ -53,7 +53,7 @@ pre-calculated values, other than that it only allowed simple comparisons.
 The [assertions](https://phpbench.readthedocs.io/en/latest/assertions.html) now use a custom [expression language](https://phpbench.readthedocs.io/en/latest/expression.html) is much more comprehensive featuring (for example) arithmetic, logical
 operators, operator precdence, and _functions_.
 
-```
+```php
 /**
  * @Assert("mode(variant.time.avg) as ms < mode(baseline.time.avg) as ms +/- 5%")
  */

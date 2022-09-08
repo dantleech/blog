@@ -17,10 +17,9 @@ in the UK. There always has to a goal, and visiting Glasgow, Sheffield,
 Manchester, Leeds, London and Brighton sounded appealing, I also considered
 doing collecting money for charity for the first time.
 
-After briefly looking into it (I to collect money for Ukraine), I couldn't
+After briefly looking into it (how to collect money for Ukraine), I couldn't
 find a reasonable, easy, way to collect money and somehow the idea of doing
-these things for charity seemed to take away from the feeling of freedom and
-independence. Maybe I'll do a charity ride another day.
+these things for charity adds pressure and stress and I decided to duck out..
 
 Instead I setup a monthly donation to the [Come Back Alive
 organisation](https://www.comebackalive.in.ua/) and would encourage you to do

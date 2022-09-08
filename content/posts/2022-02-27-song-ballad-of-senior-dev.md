@@ -59,7 +59,7 @@ to about 4ms which probably helped with being able to play realtime "drums"
 
 The following are the raw, nonsense, lyrics, not all of them used:
 
-```
+```text
 Deprecation Hysteria
 
 50 packages engineered to perfection

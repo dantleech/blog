@@ -49,7 +49,7 @@ class MyController {
 Now without creating any templates the first thing that will happen is you
 will get an exception message:
 
-```
+```text
 Unable to find template at `templates/BlogPostView.twig`
 ```
 
@@ -67,7 +67,7 @@ Exception Driven Development
 
 So then, let's create a template:
 
-```
+```html
 <html>
     <head>
         <title>{{ view.title }}</title>
@@ -81,13 +81,13 @@ So then, let's create a template:
 We call `render(<object>)` to render the `Post` object and we will get an
 exception:
 
-```
+```text
 Unable to find template at `templates/entity/Post.twig`
 ```
 
 Great! Let's create that:
 
-```
+```html
 <article>
     <h2>{{ view.title }}</h2>
     <div>
@@ -100,7 +100,7 @@ Great! Let's create that:
 Note that the template always has exactly one parameter: `view`. Can you guess
 what happens next?
 
-```
+```text
 Unable to find template at `templates/entity/Tag.twig`
 ```
 
@@ -150,7 +150,7 @@ with any objects extending that class.
 
 So for example, if we are rendering a list:
 
-```
+```php
 $list = new List([
     new Header([
         new StringCell('ID'),
@@ -184,4 +184,3 @@ Into The Wild
 
 I've used this so far on
 [phpactor](https://github.com/phpactor/phpactor) to render [markdown help](https://github.com/phpactor/language-server-phpactor-extensions/tree/master/templates/markdown/Phpactor) for code reflection elements (e.g. rendering method / class / type information).
-tu
