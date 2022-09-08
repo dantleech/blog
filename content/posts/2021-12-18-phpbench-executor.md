@@ -21,7 +21,7 @@ revolutions to provide the time measurement (the time sample for an
 
 This essentially boils down to the following code (the _sampling script_):
 
-```
+```php
 $start = microtime(true);
 for ($r = 0; $r < $revs; $r++) {
     $yourBenchmark->callSubject();
@@ -72,7 +72,7 @@ measurements.
 All benchmarks were taken with PHP8.1 with Xdebug turned off, the overview is
 as follows:
 
-```
+```text
 +--------------+---------------------+-------+------------------+--------+------------+------+---------+----------+
 | suite        | date                | php   | vcs branch       | xdebug | iterations | revs | mode    | net_time |
 +--------------+---------------------+-------+------------------+--------+------------+------+---------+----------+
@@ -92,7 +92,7 @@ is the absolute minimum time we can measure in PHP?
 
 The following script compares `microtime` (microseconds) and `hrtime` (nanoseconds scaled to microseconds):
 
-```
+```php
 for ($i = 0; $i < 10; $i++) {
 
     $start = hrtime(true);
@@ -107,7 +107,7 @@ for ($i = 0; $i < 10; $i++) {
 
 Produces:
 
-```
+```text
 Min hrtime interval (μs) 0.270000 | Min microtime interval (μs) 0.000000
 Min hrtime interval (μs) 0.039000 | Min microtime interval (μs) 0.000000
 Min hrtime interval (μs) 0.033000 | Min microtime interval (μs) 0.000000
@@ -146,7 +146,7 @@ The results:
 
 ![loop10](/images/2021-12-18/loop10.png)
 
-```
+```text
 +--------------+---------------+--------------------+--------------------+
 | subject      | sleep         | Tag: microloop10   | Tag: hrtimeloop10  |
 +--------------+---------------+--------------------+--------------------+
@@ -188,7 +188,7 @@ And the results:
 
 ![loop1](/images/2021-12-18/loop1.png)
 
-```
+```text
 +--------------+---------------+--------------------+--------------------+
 | subject      | sleep         | Tag: microloop1    | Tag: hrtimeloop1   |
 +--------------+---------------+--------------------+--------------------+
@@ -215,7 +215,7 @@ Hrtime with no loop
 The new executor allows you to define how the script is built. Let's remove
 the `for` loop entirely:
 
-```
+```text
 +--------------+---------------+--------------------+
 | subject      | sleep         | Tag: hrtimenoloop  |
 +--------------+---------------+--------------------+
@@ -242,7 +242,7 @@ Hashing Algorithm Comparison 10 revs
 Copmaring various hashing algorithms using the two different executors we can
 see that `hrtime` is much more nuanced.
 
-```
+```text
 +-------------------+------------------+------------------+------------------+-------------------+
 |                   | time (kde mode)                     | memory                               |
 +-------------------+------------------+------------------+------------------+-------------------+
@@ -271,7 +271,7 @@ Hashing Algorithm Comparison 1 vs. no revs
 Copmaring various hashing algorithms using the two different executors we can
 see that `hrtime` is much more nuanced.
 
-```
+```text
 +-------------------+-------------------+-------------------+-------------------+--------------------+
 |                   | time (kde mode)                       | memory                                 |
 +-------------------+-------------------+-------------------+-------------------+--------------------+
@@ -299,10 +299,21 @@ see that `hrtime` is much more nuanced.
 With both a single loop and no loop we see huge increase in time.
 
 
-
-
 Conclusions
 -----------
 
-Clearly there is no difference between `microtime` and `hrtime` when the
-time sample is over
+As expected `hrtime` offers increased precision at extremely short
+intervals. Executing the subject repeatedly in a loop, however, normalizes the
+precision between `microtime` and `hrtime`.
+
+But this post questions if, with the introduction of `hrtime` it would not be
+sensible to offer an option to run _without_ the a loop, i.e. `hrtime();
+subject(); hrtime()` without the overhead of the loop and without the
+possibity of PHP optimizing the code and therefore giving a potentially
+misleading report.
+
+It would seem sensible to:
+
+- Refactor PHPBench to work with nanoseconds.
+- Introduce a `hrtime` executor.
+- Provide an explicit option to remove the loop (e.g. `@Revs(0)`).
