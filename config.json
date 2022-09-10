@@ -14,40 +14,46 @@
         "categories": "/blog/categories/:slug/"
     },
     "module": {
-      "mounts": [
-         {
-            "source": "content",
-            "target": "content"
-         },
-         {
-            "source": "static/images",
-            "target": "assets/images"
-         },
-         {
-            "source": "static",
-            "target": "static"
-         },
-         {
-            "source": "layouts",
-            "target": "layouts"
-         },
-         {
-            "source": "data",
-            "target": "data"
-         },
-         {
-            "source": "assets",
-            "target": "assets"
-         },
-         {
-            "source": "i18n",
-            "target": "i18n"
-         },
-         {
-            "source": "archetypes",
-            "target": "archetypes"
-         }
-      ]
-   }
+        "imports": {
+            "path": "github.com/kaushalmodi/hugo-atom-feed"
+        },
+        "mounts": [
+            {
+                "source": "content",
+                "target": "content"
+            },
+            {
+                "source": "static/images",
+                "target": "assets/images"
+            },
+            {
+                "source": "static",
+                "target": "static"
+            },
+            {
+                "source": "layouts",
+                "target": "layouts"
+            },
+            {
+                "source": "data",
+                "target": "data"
+            },
+            {
+                "source": "assets",
+                "target": "assets"
+            },
+            {
+                "source": "i18n",
+                "target": "i18n"
+            },
+            {
+                "source": "archetypes",
+                "target": "archetypes"
+            }
+        ]
+    },
+    "outputs": {
+        "home": ["HTML", "RSS", "ATOM"]
+    }
 }
 
