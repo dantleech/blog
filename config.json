@@ -15,7 +15,7 @@
     },
     "module": {
         "imports": {
-            "path": "github.com/kaushalmodi/hugo-atom-feed"
+            "path": "hugo-atom-feed"
         },
         "mounts": [
             {
