@@ -3,6 +3,8 @@ title: The Testing Song
 categories: [song2022]
 date: 2022-01-30
 image: images/2022-01-30/drumgizmo.png
+aliases:
+  - /blog/2022/01/30/song-testing
 ---
 
 15 years ago I was having a conversation with a friend:

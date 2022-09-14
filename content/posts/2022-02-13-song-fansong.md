@@ -3,6 +3,8 @@ title: Fansong
 categories: [song2022]
 date: 2022-02-13
 image: images/2022-02-13/exciter.png
+aliases:
+  - /blog/2022/02/13/song-fansong
 ---
 
 This song is a cover of "Fansong" by [Dethklok](https://en.wikipedia.org/wiki/Dethklok):

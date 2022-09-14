@@ -5,6 +5,8 @@ distance: 35.5
 time: 2h23m (net)
 date: 2022-08-06
 image: images/ireland2022/bike_spray.jpg
+aliases:
+  - /blog/2022/08/06/leaving-scotland
 ---
 
 I am now sitting in a ferry teriminal in Craegvany waiting for the Stena Lines

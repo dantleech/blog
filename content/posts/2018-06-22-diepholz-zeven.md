@@ -9,6 +9,8 @@ geopoints:
   - [53.31118556593909, 9.276580810546877]
 date: 2018-06-22
 image: images/norway/2018-06-22/IMG_20180622_131040.jpg
+aliases:
+  - /blog/2018/06/22/diepholz-zeven
 ---
 
 

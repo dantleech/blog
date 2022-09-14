@@ -14,6 +14,8 @@ geopoints:
   - [55.079055105586384, -4.6233558654785165]
 date: 2020-08-15
 image: images/scotland/2020-08-15-2.jpg
+aliases:
+  - /blog/2020/08/15/eaglesham-glentrool
 ---
 
 I said goodbye to my friend and his fiance, and proceed down the "moor road".

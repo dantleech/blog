@@ -5,6 +5,8 @@ distance: 121
 time: 6h55m
 date: 2022-08-28
 image: images/ireland2022/20220828_2.jpg
+aliases:
+  - /blog/2022/08/28/waterford-greenway
 ---
 
 ![Map](/images/ireland2022/20220828_map.jpg) 

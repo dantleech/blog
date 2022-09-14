@@ -5,6 +5,8 @@ distance: 137
 time: 8h50m
 date: 2022-08-09
 image: images/ireland2022/20220809_small.jpg
+aliases:
+  - /blog/2022/08/09/wild-atlanic
 ---
 
 ![Map](/images/ireland2022/20220809_map.jpg) 

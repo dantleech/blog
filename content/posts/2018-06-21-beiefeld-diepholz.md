@@ -11,6 +11,8 @@ geopoints:
   - [52.51454943590012, 8.368492126464846]
   - [52.61242954349211, 8.37089538574219]
 date: 2018-06-21
+aliases:
+  - /blog/2018/06/21/beiefeld-diepholz
 ---
 
 Time and distance are estimates as I still haven't hooked up my cycle

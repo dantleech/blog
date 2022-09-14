@@ -2,6 +2,8 @@
 title: Holy Diver Cover
 categories: [song2022]
 date: 2022-05-01
+aliases:
+  - /blog/2022/05/01/holy-diver
 ---
 
 This song is a cover of "Holy Diver" by [Dio](https://en.wikipedia.org/wiki/Holy_Diver):

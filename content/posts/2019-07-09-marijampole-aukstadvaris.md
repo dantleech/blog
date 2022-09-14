@@ -11,6 +11,8 @@ geopoints:
     - [54.57842969715518, 24.576416015625004]
 date: 2019-07-09
 image: images/tallinn/2019-07-09/2.JPG
+aliases:
+  - /blog/2019/07/09/marijampole-aukstadvaris
 ---
 
 Me and another cyclist are the only two people on a large campsite 50km from

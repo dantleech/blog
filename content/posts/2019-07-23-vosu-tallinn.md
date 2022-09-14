@@ -17,6 +17,8 @@ geopoints:
     - [59.43739477678559, 24.735717773437504]
 date: 2019-07-23
 image: images/tallinn/2019-07-23/2.JPG
+aliases:
+  - /blog/2019/07/23/vosu-tallinn
 ---
 
 I'm sitting in the Eurphoria hostel in Tallinn, I got in around an hour and a

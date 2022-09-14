@@ -2,6 +2,8 @@
 title: Trondheim to Oslo (train)
 categories: [norway2018]
 date: 2018-07-15
+aliases:
+  - /blog/2018/07/15/trondheim-oslo
 ---
 
 The hostel provided free coffee in the morning and, as hostels often do, free

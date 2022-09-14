@@ -5,6 +5,8 @@ distance: 123.66
 time: 7h31
 date: 2018-06-27
 image: images/norway/2018-06-27/IMG_20180627_120254.jpg
+aliases:
+  - /blog/2018/06/27/silkeborg-rebild
 ---
 
 

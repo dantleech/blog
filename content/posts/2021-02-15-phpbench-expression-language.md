@@ -2,6 +2,8 @@
 title: PHPBench Expression Language
 categories: [phpbench]
 date: 2021-02-15
+aliases:
+  - /blog/2021/02/15/phpbench-expression-language
 ---
 
 In September 2020 I was on holiday and I made a decided effort to start

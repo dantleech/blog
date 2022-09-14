@@ -14,6 +14,8 @@ geopoints:
     - [58.38299839694763, 26.71600341796875]
 date: 2019-07-19
 image: images/tallinn/2019-07-19/2.JPG
+aliases:
+  - /blog/2019/07/19/laatre-tartu
 ---
 
 As predicted I slept terribly, falling initially to sleep but soon waking up

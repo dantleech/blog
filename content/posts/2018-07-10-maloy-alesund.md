@@ -5,6 +5,8 @@ distance: 115
 time: 8h2m
 date: 2018-07-10
 image: images/norway/2018-07-10/IMG_20180710_135442.jpg
+aliases:
+  - /blog/2018/07/10/maloy-alesund
 ---
 
 

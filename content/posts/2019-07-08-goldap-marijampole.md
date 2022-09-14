@@ -17,6 +17,8 @@ geopoints:
     - [54.559322587438636, 23.362426757812504]
 date: 2019-07-08
 image: images/tallinn/2019-07-08/2.JPG
+aliases:
+  - /blog/2019/07/08/goldap-marijampole
 ---
 
 Loud music was pounding on the street, I thought I would wait until 12, maybe

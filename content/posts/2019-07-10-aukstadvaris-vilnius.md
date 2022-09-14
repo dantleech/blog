@@ -9,6 +9,8 @@ geopoints:
     - [54.689709430616546, 25.271301269531254]
 date: 2019-07-10
 image: images/tallinn/2019-07-10/0.JPG
+aliases:
+  - /blog/2019/07/10/aukstadvaris-vilnius
 ---
 
 This was the third time camping on this trip, and the third time I had a bad

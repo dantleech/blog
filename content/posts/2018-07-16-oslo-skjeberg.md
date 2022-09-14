@@ -5,6 +5,8 @@ distance: 130
 time: 8h
 date: 2018-07-16
 image: images/norway/2018-07-16/IMG_20180716_173108.jpg
+aliases:
+  - /blog/2018/07/16/oslo-skjeberg
 ---
 
 

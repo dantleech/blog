@@ -12,6 +12,8 @@ geopoints:
     - [54.37965758026856, 16.315212249755863]
 date: 2019-07-02
 image: images/tallinn/2019-07-02/2.JPG
+aliases:
+  - /blog/2019/07/02/wiselvka-dabki
 ---
 
 Today has been a long day. I am now finally sitting in a Pizzeria in one of

@@ -4,6 +4,8 @@ subtitle: Creating an  auto-completion and refactoring tool for PHP
 categories: [phpactor]
 date: 2018-08-19
 image: images/2018-08-19/param_completion.gif
+aliases:
+  - /blog/2018/08/19/phpactor-3-years
 ---
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Wondering how much work it would be to create an SQlite backed PHP plugin for VIM for &quot;refactoring&quot;, NS aware autocomplete &amp; jumping etc.</p>&mdash; Dan Leech (@dantleech) <a href="https://twitter.com/dantleech/status/646913136541454336?ref_src=twsrc%5Etfw">24 September 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 

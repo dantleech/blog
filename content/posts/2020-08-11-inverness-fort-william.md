@@ -17,6 +17,8 @@ geopoints:
   - [56.824181393937394, -5.104522705078126]
 date: 2020-08-11
 image: images/scotland/2020-08-11-2.jpg
+aliases:
+  - /blog/2020/08/11/inverness-fort-william
 ---
 
 Today was another spectacular day of cycling featuring some of the best

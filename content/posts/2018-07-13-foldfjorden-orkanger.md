@@ -5,6 +5,8 @@ distance: 109.11
 time: 8h09m ??
 date: 2018-07-13
 image: images/norway/2018-07-13/IMG_20180713_125324.jpg
+aliases:
+  - /blog/2018/07/13/foldfjorden-orkanger
 ---
 
 

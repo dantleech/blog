@@ -5,6 +5,8 @@ distance: 120
 time: 7h51m
 date: 2022-08-25
 image: /images/ireland2022/20220825_2.jpg
+aliases:
+  - /blog/2022/08/25/sheeps-head
 ---
 
 I'm finally sending this at lunchtime having failed to send this blog post

@@ -27,6 +27,8 @@ geopoints:
   - [56.39832454146607, -5.4979705810546875]
 date: 2020-08-12
 image: images/scotland/2020-08-12-2.jpg
+aliases:
+  - /blog/2020/08/12/fort-william-oran
 ---
 
 Slept well in the hostel and left to find breakfast - hoping to find a café

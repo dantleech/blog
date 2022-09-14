@@ -16,6 +16,8 @@ geopoints:
     - [54.308511957926754, 22.296752929687504]
 date: 2019-07-07
 image: images/tallinn/2019-07-07/2.JPG
+aliases:
+  - /blog/2019/07/07/bartoszyce-goldap
 ---
 
 The hotel wasn't the best. I didn't sleep well, and was anxious about my

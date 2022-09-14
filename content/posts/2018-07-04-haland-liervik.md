@@ -5,6 +5,8 @@ distance: 110
 time: 7h00m
 date: 2018-07-04
 image: images/norway/2018-07-04/IMG_20180704_123436.jpg
+aliases:
+  - /blog/2018/07/04/haland-liervik
 ---
 
 

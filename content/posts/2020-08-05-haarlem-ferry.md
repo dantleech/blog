@@ -11,6 +11,8 @@ geopoints:
   - [55.02802211299252, -1.4337158203125]
 date: 2020-08-05
 image: images/scotland/2020-08-05-2.jpg
+aliases:
+  - /blog/2020/08/05/haarlem-ferry
 ---
 
 Slept well in the hostel but was awake at 7am, and out of bed at eight. I went

@@ -3,6 +3,8 @@ title: Hello World
 tags: []
 categories: [blog]
 date: 2018-06-02
+aliases:
+  - /blog/2018/06/02/hello-world
 ---
 
 > This is my new blog. There have been many like it. But this is my new one

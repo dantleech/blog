@@ -5,6 +5,8 @@ distance: 83
 time: 5h18m
 date: 2022-08-29
 image: images/ireland2022/20220829_3.jpg
+aliases:
+  - /blog/2022/08/29/leaving-ireland
 ---
 
 ![Map](/images/ireland2022/20220829_map.jpg) 

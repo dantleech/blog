@@ -11,6 +11,8 @@ geopoints:
     - [54.34455044818014, 18.65341186523438]
 date: 2019-07-04
 image: images/tallinn/2019-07-04/2.JPG
+aliases:
+  - /blog/2019/07/04/bytow-gdansk
 ---
 
 There was a buffer breakfast at the hotel, featuring feta cheese, bread,

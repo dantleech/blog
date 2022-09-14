@@ -2,6 +2,8 @@
 title: Phpactor Theme Song
 categories: [song2022]
 date: 2022-03-29
+aliases:
+  - /blog/2022/03/29/phpactor-theme-song
 ---
 
 This is a song about

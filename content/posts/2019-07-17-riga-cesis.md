@@ -11,6 +11,8 @@ geopoints:
     - [57.31169078996896, 25.27267456054688]
 date: 2019-07-17
 image: images/tallinn/2019-07-17/2.JPG
+aliases:
+  - /blog/2019/07/17/riga-cesis
 ---
 
 

@@ -15,6 +15,8 @@ geopoints:
   - [52.38272474814214, 4.640350341796876]
 date: 2020-08-04
 image: images/scotland/2020-08-04-2.jpg
+aliases:
+  - /blog/2020/08/04/apeldoorn-haarlem
 ---
 I am now sitting outside at a pizza restuarnt in Haarlem, about 10km west of
 Amsterdam, and about 10km from the ferry port.

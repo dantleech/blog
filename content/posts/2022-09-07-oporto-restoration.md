@@ -2,6 +2,8 @@
 title: Oporto 2013 Blog Restoration
 categories: [oporto2013]
 date: 2022-09-07
+aliases:
+  - /blog/2022/09/07/oporto-restoration
 ---
 
 Today I plugged in my old X40 laptop, I purchased this laptop in Portugal

@@ -17,6 +17,8 @@ geopoints:
     - [54.25178757462486, 20.80913543701172]
 date: 2019-07-06
 image: images/tallinn/2019-07-06/2.JPG
+aliases:
+  - /blog/2019/07/06/elblag-bartoszyce
 ---
 
 Slept perfectly in the airy and cheap room. I really liked the old hotel, it

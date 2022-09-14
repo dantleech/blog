@@ -3,6 +3,8 @@ title: Ballad of Senior Dev
 categories: [song2022]
 date: 2022-02-27
 image: images/2022-02-27/seule.jpg
+aliases:
+  - /blog/2022/02/27/song-ballad-of-senior-dev
 ---
 
 February song, it's called "Ballad of Senior Dev"

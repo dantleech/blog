@@ -2,6 +2,8 @@
 title: Phpactor is a monolith
 categories: [phpactor]
 date: 2022-03-06
+aliases:
+  - /blog/2022/03/06/phpactor-monorepo
 ---
 
 Phpactor is a [monolith](https://github.com/phpactor/phpactor/pull/1349) with

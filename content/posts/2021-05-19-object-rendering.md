@@ -2,6 +2,8 @@
 title: Object Rendering or MVC the right way
 categories: [phpbench,php]
 date: 2021-05-19
+aliases:
+  - /blog/2021/05/19/object-rendering
 ---
 
 The templates we use in our favourite MVC frameworks are awful. You pass an

@@ -10,6 +10,8 @@ geopoints:
   - [51.957807388715544, 7.003097534179688]
 date: 2020-08-02
 image: images/scotland/2020-08-02-4.jpg
+aliases:
+  - /blog/2020/08/02/bielefeld-gescher
 ---
 
 I pitched my tent slowly on the green field in the campsite - I was a bit

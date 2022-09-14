@@ -5,6 +5,8 @@ distance: 0
 time: 0
 date: 2022-08-22
 image: images/ireland2022/20220822_2.jpg
+aliases:
+  - /blog/2022/08/22/mortimers-camp-site
 ---
 
 Today was my second rest day. I wasn't planning on taking a rest day, but the

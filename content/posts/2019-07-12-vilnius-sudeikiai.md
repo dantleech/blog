@@ -12,6 +12,8 @@ geopoints:
     - [55.59192743777548, 25.670242309570316]
 date: 2019-07-12
 image: images/tallinn/2019-07-12/3.JPG
+aliases:
+  - /blog/2019/07/12/vilnius-sudeikiai
 ---
 
 The campsite is almost empty and again it's a big one sponsered by the EU.

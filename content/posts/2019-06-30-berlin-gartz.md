@@ -5,6 +5,8 @@ time: 6h30m
 distance: 129.15
 date: 2019-06-30
 image: images/tallinn/2019-06-30/two.JPG
+aliases:
+  - /blog/2019/06/30/berlin-gartz
 ---
 
 Sitting in a campsite in the sun, in front of reception. Occuping one of 4

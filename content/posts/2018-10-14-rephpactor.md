@@ -3,6 +3,8 @@ title: Rephpactor
 subtitle: ... or what would become Phpactor 1.0
 categories: [phpactor]
 date: 2018-10-14
+aliases:
+  - /blog/2018/10/14/rephpactor
 ---
 
 TL;DR

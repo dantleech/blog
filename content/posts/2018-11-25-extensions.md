@@ -4,6 +4,8 @@ subtitle: or how to build a stupid completion application
 categories: [phpactor]
 date: 2018-11-25
 image: images/2018-11-25/installing_extensions.gif
+aliases:
+  - /blog/2018/11/25/extensions
 ---
 
 Over the past month or so I have been gradually migrating Phpactor to use

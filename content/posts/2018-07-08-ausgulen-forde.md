@@ -5,6 +5,8 @@ distance: 113.24
 time: 7h34m
 date: 2018-07-08
 image: images/norway/2018-07-08/IMG_20180708_121444.jpg
+aliases:
+  - /blog/2018/07/08/ausgulen-forde
 ---
 
 

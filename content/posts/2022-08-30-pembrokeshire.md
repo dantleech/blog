@@ -5,6 +5,8 @@ distance: 93
 time: 7h15m
 date: 2022-08-30
 image: images/ireland2022/20220830_3.jpg
+aliases:
+  - /blog/2022/08/30/pembrokeshire
 ---
 
 ![Map](/images/ireland2022/20220830_map.jpg) 

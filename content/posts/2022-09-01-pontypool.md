@@ -5,6 +5,8 @@ distance: 70
 time: 4h50m
 image: images/ireland2022/20220901_4.jpg
 date: 2022-09-01
+aliases:
+  - /blog/2022/09/01/pontypool
 ---
 
 ![Map](/images/ireland2022/20220901_map.jpg) 

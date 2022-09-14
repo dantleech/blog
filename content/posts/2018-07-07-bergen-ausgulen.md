@@ -5,6 +5,8 @@ distance: 124
 time: 8h30m
 date: 2018-07-07
 image: images/norway/2018-07-07/IMG_20180707_111528.jpg
+aliases:
+  - /blog/2018/07/07/bergen-ausgulen
 ---
 
 

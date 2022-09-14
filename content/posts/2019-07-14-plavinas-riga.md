@@ -16,6 +16,8 @@ geopoints:
     - [56.95471060692076, 24.109497070312504]
 date: 2019-07-14
 image: images/tallinn/2019-07-14/1.JPG
+aliases:
+  - /blog/2019/07/14/plavinas-riga
 ---
 
 The road suddenly changed from a very smooth asphalt road to the worst kind

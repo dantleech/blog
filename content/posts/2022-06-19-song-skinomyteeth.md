@@ -3,6 +3,8 @@ title: Skin O' My Teeth (Megadeth Cover)
 categories: [song2022]
 date: 2022-06-19
 image: images/2022-06-19/countdown.png
+aliases:
+  - /blog/2022/06/19/song-skinomyteeth
 ---
 
 {{<audio src="/audio/skinofmyteeth.mp3" caption="Skin O' My Teeth" >}}

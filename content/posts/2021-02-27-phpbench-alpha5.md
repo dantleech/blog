@@ -3,6 +3,8 @@ title: PHPBench 1.0.0-alpha5
 categories: [phpbench,php]
 date: 2021-02-27
 image: images/2021-02-27/output_1.png
+aliases:
+  - /blog/2021/02/27/phpbench-alpha5
 ---
 
 ![PHPBench](/images/2020-09-09/logo.png)

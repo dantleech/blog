@@ -5,6 +5,8 @@ distance: 81.70
 time: 5h18m
 date: 2022-08-21
 image: images/ireland2022/20220821_2.jpg
+aliases:
+  - /blog/2022/08/21/ring-of-kerry
 ---
 
 ![Map](/images/ireland2022/20220821_map.jpg) 

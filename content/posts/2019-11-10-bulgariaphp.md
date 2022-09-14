@@ -5,6 +5,8 @@ geopoints:
     - [52.5293,13.3575 ]
     - [42.69454866207692, 23.318481445312504]
 date: 2019-11-10
+aliases:
+  - /blog/2019/11/10/bulgariaphp
 ---
 
 I left the flat in a panic, I assumed I would be queuing at the airport and

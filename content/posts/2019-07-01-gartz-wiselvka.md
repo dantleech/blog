@@ -19,6 +19,8 @@ geopoints:
 
 date: 2019-07-01
 image: images/tallinn/2019-07-01/two.JPG
+aliases:
+  - /blog/2019/07/01/gartz-wiselvka
 ---
 
 Didn't sleep too well last night. I situated my tent close the the main

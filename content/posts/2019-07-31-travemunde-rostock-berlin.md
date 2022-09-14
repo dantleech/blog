@@ -4,6 +4,8 @@ categories: [helsinki2019]
 geopoints:
     - [53.97547425742953, 10.8599853515625]
 date: 2019-07-31
+aliases:
+  - /blog/2019/07/31/travemunde-rostock-berlin
 ---
 
 This is the last blog post of the trip. I'm on the train to Berlin and from

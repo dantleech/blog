@@ -5,6 +5,8 @@ distance: 75
 time: 5h30m
 date: 2022-08-20
 image: images/ireland2022/20220820_4.jpg
+aliases:
+  - /blog/2022/08/20/inch-beach
 ---
 
 ![Map](/images/ireland2022/20220820_map.jpg) 

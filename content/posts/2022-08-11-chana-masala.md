@@ -5,6 +5,8 @@ distance: 130
 time: 8h (approx)
 date: 2022-08-11
 image: images/ireland2022/20220811_tourisim.jpg
+aliases:
+  - /blog/2022/08/11/chana-masala
 ---
 
 ![Map](/images/ireland2022/20220811_map.jpg) 

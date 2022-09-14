@@ -5,6 +5,8 @@ distance: 115
 time: 6h34m
 date: 2018-06-28
 image: images/norway/2018-06-28/IMG_20180628_214305.jpg
+aliases:
+  - /blog/2018/06/28/rebild-kristiensand
 ---
 
 

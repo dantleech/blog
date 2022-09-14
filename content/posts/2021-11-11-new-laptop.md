@@ -3,6 +3,8 @@ title: New Laptop
 categories: [sway,linux]
 date: 2021-11-11
 image: images/2021-11-11/before.png
+aliases:
+  - /blog/2021/11/11/new-laptop
 ---
 Today my new laptop arrived. My previous X1 Carbon lasted for around 4 years -
 I say lasted: it still works, but the keyboard was completely destroyed:

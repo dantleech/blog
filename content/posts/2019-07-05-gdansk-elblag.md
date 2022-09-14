@@ -9,6 +9,8 @@ geopoints:
     - [54.14634989865955, 19.407348632812504]
 date: 2019-07-05
 image: images/tallinn/2019-07-05/4.JPG
+aliases:
+  - /blog/2019/07/05/gdansk-elblag
 ---
 
 Woke up in the dormitory this morning with a heavy head, we had consumed a

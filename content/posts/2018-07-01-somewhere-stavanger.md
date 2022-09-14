@@ -6,6 +6,8 @@ time: 7h17m
 date: 2018-07-01
 date: 2018-07-01
 image: images/norway/2018-07-01/IMG_20180701_121802.jpg
+aliases:
+  - /blog/2018/07/01/somewhere-stavanger
 ---
 
 

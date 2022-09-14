@@ -5,6 +5,8 @@ distance: 121
 time: 7h32m
 date: 2018-07-11
 image: images/norway/2018-07-11/IMG_20180711_133115.jpg
+aliases:
+  - /blog/2018/07/11/alesund-malmefjorden
 ---
 
 

@@ -3,6 +3,8 @@ title: Make Timesheet Parser with Hoa Compiler
 subtitle: For greater good
 categories: [php]
 date: 2019-02-11
+aliases:
+  - /blog/2019/02/11/timesheet-parser-hoa-compiler
 ---
 
 I have been keeping my timelogs in a plain-text timesheet format as follows:
