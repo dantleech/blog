@@ -1,5 +1,5 @@
 ---
 title: Daniel Leech, Software Engineer
-type: plain
+type: cv
 ---
 {{<cv>}}

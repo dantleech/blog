@@ -71,3 +71,9 @@ blockquote {
     @apply rounded-lg;
     @apply shadow-lg;
 }
+
+.cv section {
+    page-break-after: always;
+    page-break-before: always;
+}
+

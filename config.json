@@ -4,6 +4,11 @@
             "date"
         ]
     },
+    "sitemap": {
+        "changefreq": "monthly",
+        "filename": "sitemap.xml",
+        "priority": 0.5
+   },
     "baseURL": "https://www.dantleech.com/",
     "languageCode": "en-gb",
     "paginate": 50,
