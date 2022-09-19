@@ -29,7 +29,7 @@ elsewhere in Inviqa we had already started using Go.
 
 I knew I was taking a risk, our team didn't have any Go experience, even if
 people in the wider company did. But I also wanted to use the best tool for
-the job. In the end I decided to write the services in Go and I haven't
+the job. In the end we decided to write the services in Go and haven't
 regretted it.
 
 This blog post (originally written in January 2021) is an attempt to give my
