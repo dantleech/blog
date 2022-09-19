@@ -180,7 +180,7 @@ Composer vs. Go Modules
 
 Go does not have a third-party "package" manager - this functionality is built
 in. What we call *packages* in PHP are known as *modules* in Go (packages are
-something else - see [packages](#namespaces-vs.-packages)).
+something else - see the following [packages](#namespaces-vs-packages) section).
 
 To require a new module use `go get`
 
