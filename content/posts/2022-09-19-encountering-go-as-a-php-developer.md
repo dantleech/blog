@@ -127,7 +127,7 @@ Var Dump and Die
 ----------------
 
 When learning a new language the first thing I want to do is be able to
-`var_dump` `console.log` or whatever it takes to know:
+`var_dump`, `console.log` or whatever it takes to know:
 
 - The my code is being executed.
 - The value of a variable, method call, etc.
@@ -386,7 +386,7 @@ type Foobar struct {
 ```
 
 In PHP methods are defined within the `class` definition. In Go they are
-attached _outside_ of the `struct` definition.
+attached _outside_ of the `struct` definition (more on this in the [methods](#methods) section).
 
 Structs can be "instantiated":
 
