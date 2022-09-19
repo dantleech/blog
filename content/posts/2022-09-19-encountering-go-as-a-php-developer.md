@@ -1,7 +1,7 @@
 --- 
 title: Encountering Go as PHP a developer
 categories: [php,go]
-date: 2022-09-11
+date: 2022-09-19
 ---
 One morning I sat down at my laptop and looked at a Go service, written 2
 months previously, that represented my first attempt with the language. When I
@@ -788,7 +788,7 @@ achieve more colorful results.
 Summary
 -------
 
-Above I've outlined some of the concepts which I was able to map from PHP. I
+Above I've outlined _some_ of the concepts which I was able to map from PHP. I
 am an aspiring [Gopher](https://go.dev/blog/gopher) and am capable of
 being productive and applying most of my existing progamming knowledge to Go.
 
