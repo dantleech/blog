@@ -1,5 +1,5 @@
 --- 
-title: Go as PHP a developer
+title: Encountering Go as PHP a developer
 categories: [php,go]
 date: 2022-09-11
 ---
