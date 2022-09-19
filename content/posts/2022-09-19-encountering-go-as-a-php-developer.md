@@ -182,7 +182,7 @@ Go does not have a third-party "package" manager - this functionality is built
 in. What we call *packages* in PHP are known as *modules* in Go (packages are
 something else - see [packages](#namespaces-vs.-packages)).
 
-To require a new package use `go get`
+To require a new module use `go get`
 
 ```bash
 $ go get github.com/stretchr/testify
