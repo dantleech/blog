@@ -10,7 +10,7 @@ frequently googling things like "how to do a foreach in Go". In just two
 months I was now able to look at this code and immediately see several ways in
 which it could be improved. I now have opinions and feel confident.
 
-I have been a PHP developer for around 14 years. At least 99.99% of the code
+I have been a PHP developer for around 14 years. At least 99.9% of the code
 I've written has been PHP, my coding experience and skill set has evolved
 through PHP and it's community. At this stage in my career I consider myself
 to be a relatively good architect, I have a mature understanding of object
@@ -18,9 +18,9 @@ oriented programming and it's patterns.
 
 So why did I start writing Go code?
 
-I was the technical lead of a project at Inviqa and the project had a
-microservice architecture. I tended to imagine that microservices should be
-_fast_ and _self contained_.
+I was the technical lead of a project at [Inviqa](https://inviqa.com) and the
+project had a microservice architecture. I tended to imagine that
+microservices should be _fast_ and _self contained_.
 
 PHP was an option, libraries such as
 [Amphp](https://amphp.org/) or [ReactPhp](https://reactphp.org/) allow you to
@@ -74,6 +74,12 @@ expect to find in other languages. This is both a strength and a weakness as
 you either writing everything verbosely, or create your own library for each
 microservice or you end up using any number of publically available packages,
 any one of which could be abandonned.
+
+> I don't think one letter variables are that popular as they make it seem to
+> be. The idea is to have the more verbose variable name the longer it lives,
+> so one or two liners can have one-letter variables indeed. Exceptions could
+> be indexes in for loops, or reference to the struct we're working with, which
+> in PHP would be `$this` - **@SirRFI** _via. Symfony Slack_
 
 Read more:
 
@@ -362,8 +368,9 @@ Classes vs. Structs
 -------------------
 
 Go is not an object-oriented language but a huge amount of knowledge from that
-domain can be transferred to Go. The concept of `class` can be mapped to
-`struct`.
+domain can be transferred to Go. The concept of `class` can be roughly mapped to
+`struct`. Unlike classes structs are simply data structures, but they are data
+structures to which you can associate methods as we will see later.
 
 This PHP class:
 
@@ -371,12 +378,12 @@ This PHP class:
 <?php
 
 class Foobar {
-    private string $one;
-    private string $two;
+    public string $one;
+    public string $two;
 }
 ```
 
-would be represented in Go as:
+could be represented in Go as:
 
 ```go
 type Foobar struct {
@@ -385,8 +392,13 @@ type Foobar struct {
 }
 ```
 
+> Note that capitalisation of the fields - in Go capitalisation is used to
+> determine the (package level) visiblity of the fields, see
+> [methods](#visibility)
+
 In PHP methods are defined within the `class` definition. In Go they are
-attached _outside_ of the `struct` definition (more on this in the [methods](#methods) section).
+attached _outside_ of the `struct` definition (more on this in the
+[methods](#methods) section).
 
 Structs can be "instantiated":
 
@@ -466,6 +478,13 @@ Notice that these functions are defined with a _reciever_ (`(f *Foobar)`).
 This reciever indicates to which type the method should be bound. The
 reciever name maps to the concept of `$this` in PHP.
 
+Notice above that we use a pointer reciever, it's known as a pointer receiver
+because we specified `f *Foobar` as a pointer. This effectively means that we
+can _mutate_ the fields of the struct to which the method is attached.
+
+If your method only needs to read the field, then it makes sense to use a
+_value receiver_, for example `f Foobar`.
+
 The above "public" method can be called as follows:
 
 ```go
@@ -485,26 +504,23 @@ is no `implements` keyword). Rather they define the "methods" that a struct
 needs in order to be accepted as an argument.
 
 ```go
-type logger interface {
-	Infof(string, ...interface{})
+type user interface {
+	name() string
 }
 ```
 
-Above we define a logger interface (with a lowercase `l` meaning it's
+Above we define a user interface (with a lowercase `u` meaning it's
 private and available only to the current package). We can depend on an
 interface:
 
 ```go
-type Website struct {
-}
-
-func (w Website) start(l logger) {
-    logger.Infof("Hello %s", "Daniel")
+func hello(l user) {
+    fmt.Printf("Hello %s", u.name())
 }
 ```
 
 This enables _any_ struct to be passed as long as it exactly implements the
-`Infof` method.
+`name` function.
 
 Compared to PHP this is arguably more flexible. Each package can define what
 it needs and it doesn't care how you supply them. On the other hand it makes
@@ -513,6 +529,9 @@ implementations until they are used.
 
 `interface{}` is also a type which can be used to indicate "any value"
 (similar to `mixed` in PHP). We will see more about this later.
+
+> since Go 1.18 you can also use `any` to indicate any value (it's an alias to
+> `interface{}`)
 
 Read more:
 
@@ -544,8 +563,12 @@ type Foobar struct {
 }
 ```
 
-Above `One` is public while `three` is private (the concept of `protected`
-does not exist as one `struct` cannot inherit from another).
+Above `One` is public while `three` is private to the current _package_ (the
+concept of `protected` does not exist as one `struct` cannot inherit from
+another).
+
+> Private fields are not private to the struct which defined them, but rather
+> private to the entire package in which the struct is defined.
 
 This rule applies to any definition:
 
@@ -571,7 +594,7 @@ NULL vs. Nil
 ------------
 
 The Go concept of `Nil` roughly corresponds to the `null` in PHP but differs
-in various important aspects.
+in some important aspects.
 
 `Nil` represents the "empty" value of various, but not all, types.
 
@@ -579,12 +602,12 @@ Unlike PHP there is no concept of "nullability" and there are no union types.
 If you declare a field to be `string` then it has to be a string, if no value
 is specified the "empty" value will be used (in this case an empty string).
 
-While a string _value_ cannot be `Nil` a _pointer_ to a string value can be
+While a string _value_ cannot be `Nil`, a _pointer_ to a string value can be
 `Nil`. This is because the default value of a pointer value is `Nil`.
 
-Unlike PHP there are various different types of `Nil` as they differ based on
-the type they are the empty value for: `Nil` for a pointer cannot be compared
-with `Nil` for a `map` for example.
+There are various different types of `Nil` as they differ based on the type
+they are the empty value for: `Nil` for a pointer cannot be compared with
+`Nil` for a `map` for example.
 
 ```php
 <?php
@@ -602,6 +625,9 @@ type Foo struct {
 fmt.Printf("%#v", Foo{}) // Bar is empty string
 ```
 
+> If you are using a relational database you will likely soon encounter the
+> **joy** of mapping [nullable database fields to structs in Go](https://ente.io/blog/tech/go-nulls-and-sql/)
+
 Read more:
 
 - [Nils in Go](https://go101.org/article/nil.html)
@@ -614,7 +640,7 @@ exeption will _bubble up_ through the call stack and can be _handled_ with a
 try/catch.
 
 In Go the concept of exceptions maps to the concept of panic/recover but
-it is idiomatic to explicitly return errors:
+it is common to explicitly return errors:
 
 ```go
 func GetUser(name string) (Something, error) {
@@ -643,14 +669,22 @@ if err != nil {
 // do something with "something"
 ```
 
-Explicitly returning an error clearly indicates to the user of the library
-that an error can occur and is expected. It _forces_ the user to consider the
-handling of the error.
+Explicitly returning an error clearly indicates to the consumer of the library
+that an error can occur and is expected. It _forces_ the consumer to consider
+the handling of the error.
 
 The alternate way of handling an error is to `panic`. Panic maps roughly to
-the concept of "exception". It bubbles-up through the call stack and can be
+the concept of "Exception". It bubbles-up through the call stack and can be
 handled via. the `recover` mechanism. Panic should generally be used only when
-an _unexpected_ error occcurs.
+an _unexpected_ error occcurs. If you have an error that must be handled
+further up the call stack, it's idiomatic and wise to return an error, if you
+have an error that nothing can handle (e.g. `MySQL connection has gone away`)
+then panicing is fine.
+
+> There seems to be a general misconception that panicing will crash your entire
+> application, but in reality panics can be "caught" and handled in much the 
+> same way exceptions can be. The Go HTTP server will handle panics from
+> handlers and return a 500 (not crashing the entire server).
 
 Read more:
 
@@ -728,7 +762,8 @@ Testing
 -------
 
 Go has a built-in test _runner_ based on a convention: any file ending with
-`_test.go` will be treated as test:
+`_test.go` will be treated as test. It is conventional to place test files
+"next" to the files they test:
 
 ```text
 handler/
@@ -795,5 +830,10 @@ being productive and applying most of my existing progamming knowledge to Go.
 If you haven't already it is strongly encouraged to do the [Go
 Tour](https://tour.golang.org/welcome/1) to fill in the blanks. In fact you
 should have done that before reading this blog post.
+
+Better learning resources:
+
+- [The Go Tour](https://tour.golang.org/welcome/1)
+- [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 
 
