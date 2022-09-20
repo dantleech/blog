@@ -84,6 +84,7 @@ any one of which could be abandonned.
 Read more:
 
 - [Hacker News on short names in Go](https://news.ycombinator.com/item?id=16564965)
+- [Reddit on naming conventions](https://www.reddit.com/r/golang/comments/j7o96q/variable_naming_conventions_in_go/)
 
 Executing Code
 --------------
