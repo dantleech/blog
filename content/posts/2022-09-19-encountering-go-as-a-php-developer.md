@@ -2,7 +2,7 @@
 title: Encountering Go as a PHP developer
 categories: [php,go]
 date: 2022-09-19
-lastmod: 2022-09-20 19:00:00
+lastmod: 2022-09-20 19:40:00
 aliases:
   - /blog/2022/09/19/encountering-go-as-php-a-developer/
 ---
@@ -702,9 +702,15 @@ Pointers vs. Pass-By-Reference
 In PHP objects are always passed by reference. If you pass an object to a
 function and modify that object not only in the local scope, but in all other
 scopes where that object is referenced - because it's an alias to the same
-object! You will likely have seen that you can pass primitive values by
-reference by type hinting the parameter with `&`: `function foobar(&$array) {
-$array['bar'] = 'baz'; }`.
+object! 
+
+In contrast non-object values in PHP are passed by _value_ by default, and you
+can pass  _by reference_ by type hinting the parameter with `&` (e.g. `function
+foobar(&$array) { $array['bar'] = 'baz'; }`).
+
+Unlike PHP Go does not change it's behavior based on the type of value that is
+passed. If you pass a struct as a parameter to a function it is passed by
+_value_ by default.
 
 Go has pointers which are different to references in that they actually
 reference the memory location where a value is stored.
