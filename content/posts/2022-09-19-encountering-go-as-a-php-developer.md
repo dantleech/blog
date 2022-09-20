@@ -1,7 +1,9 @@
 --- 
-title: Encountering Go as PHP a developer
+title: Encountering Go as a PHP developer
 categories: [php,go]
 date: 2022-09-19
+aliases:
+  - /blog/2022/09/19/encountering-go-as-php-a-developer/
 ---
 One morning I sat down at my laptop and looked at a Go service, written 2
 months previously, that represented my first attempt with the language. When I
