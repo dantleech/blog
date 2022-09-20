@@ -75,11 +75,11 @@ you either writing everything verbosely, or create your own library for each
 microservice or you end up using any number of publically available packages,
 any one of which could be abandonned.
 
-> I don't think one letter variables are that popular as they make it seem to
+> "I don't think one letter variables are that popular as they make it seem to
 > be. The idea is to have the more verbose variable name the longer it lives,
 > so one or two liners can have one-letter variables indeed. Exceptions could
 > be indexes in for loops, or reference to the struct we're working with, which
-> in PHP would be `$this` - **@SirRFI** _via. Symfony Slack_
+> in PHP would be `$this`" - **@SirRFI** _via. Symfony Slack_
 
 Read more:
 
@@ -820,6 +820,56 @@ The output is minimal. You can use a third-party tool such as
 [gotestsum](https://github.com/gotestyourself/gotestsum#documentation) to
 achieve more colorful results.
 
+Collections and Arrays
+----------------------
+
+In PHP we have the `array` type which can be either a list or a dictionary. In
+go we have distinct types for lists (as
+[arrays](https://go.dev/tour/moretypes/6) and [slices](https://go.dev/tour/moretypes/7)) and
+[maps](https://gobyexample.com/maps):
+
+For example:
+
+```php
+$foo = [1, 2, 3];
+$bar = ['one' => 1, 'two' => 2];
+```
+
+could be represented in Go as:
+
+```go
+foo := []int{1,2,3} // dynamically sized slice
+bar := map[string]int{"one": 1, "two": 2} // map
+```
+
+> note that [arrays](https://go.dev/tour/moretypes/6) are fixed size lists,
+> e.g. `[3]int` is an "list" of 3 ints
+
+One of the features of Go's type system is type aliasing and being able to
+associate functions to any type, in the following example we define
+`FooCollection` as an alias of a "slice" of users:
+
+```go
+type User struct {
+    Name string;
+}
+type FooCollection []User
+```
+
+Now we now add methods to this "collection":
+
+```go
+func (c UserCollection) ByName() UserCollection {
+    // filter by user name and return a new collection
+    // return c
+}
+```
+
+Read more:
+
+- [Go tour on arrays](https://go.dev/tour/moretypes/6)
+- [Go tour on slices](https://go.dev/tour/moretypes/7)
+
 Summary
 -------
 
@@ -835,5 +885,3 @@ Better learning resources:
 
 - [The Go Tour](https://tour.golang.org/welcome/1)
 - [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
-
-
