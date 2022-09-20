@@ -39,6 +39,12 @@
             {{ partial "map.html" . }}
             <hr/>
         {{ end }}
+        {{ if and (isset .Params "toc") (.Params.toc) }}
+        <aside class="hidden lg:block float-right p-0 ml-4">
+            <h3 class="mt-0">Table of Contents</h3>
+            {{ .TableOfContents }}
+        </aside>
+        {{ end }}
         <div>
             {{ .Content }}
         </div>
