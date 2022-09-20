@@ -160,7 +160,7 @@ func main() {
 }
 ```
 
-This will print a representation of the value to `STDOUT`:
+This will print a representation of the value to `STDERR`:
 
 ```bash
 $ go run test.go
@@ -176,7 +176,7 @@ panic(fmt.Sprintf("%#v", hello))
 
 Note that we use `Sprintf` (which is [analagous](https://pkg.go.dev/fmt) to
 PHP `sprintf`). It returns a formatted string, while `Printf` will send it to
-`STDOUT`.
+`STDERR`.
 
 Recently I started using [Spew](https://github.com/davecgh/go-spew) which is
 to `fmt.Sprintf("%v")` what `dump(...)` is to `var_dump(...);`.
