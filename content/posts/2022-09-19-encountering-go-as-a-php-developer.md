@@ -2,7 +2,7 @@
 title: Encountering Go as a PHP developer
 categories: [php,go]
 date: 2022-09-19
-lastmod: 2022-09-20 19:40:00
+lastmod: 2022-09-20 22:20:00
 toc: false
 aliases:
   - /blog/2022/09/19/encountering-go-as-php-a-developer/
@@ -858,13 +858,13 @@ bar := map[string]int{"one": 1, "two": 2} // map
 
 One of the features of Go's type system is type aliasing and being able to
 associate functions to any type, in the following example we define
-`FooCollection` as an alias of a "slice" of users:
+`UserCollection` as an alias of a "slice" of users:
 
 ```go
 type User struct {
     Name string;
 }
-type FooCollection []User
+type UserCollection []User
 ```
 
 Now we now add methods to this "collection":
