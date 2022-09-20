@@ -438,8 +438,9 @@ Methods
 -------
 
 As previously mentioned a `struct` loosely corresponds to a `class`. A `struct` can have
-methods associated with it, but unlike PHP, you can associate methods with
-almost any type in Go.
+methods associated with it, but unlike PHP, you can associate methods on
+any type as long as it is [defined in the same
+package](https://go.dev/tour/methods/3).
 
 In PHP a class may look like this:
 
@@ -479,7 +480,7 @@ func (f *Foobar) doFooTheBar() {
 > Note the `*` asterix, this means that `Foobar` is a pointer and it passed
 > "by reference", more on this later.
 
-Notice that these functions are defined with a _reciever_ (`(f *Foobar)`).
+Notice that these methods are defined with a _reciever_ (`(f *Foobar)`).
 This reciever indicates to which type the method should be bound. The
 reciever name maps to the concept of `$this` in PHP.
 
@@ -525,7 +526,7 @@ func hello(u user) {
 ```
 
 This enables _any_ struct to be passed as long as it exactly implements the
-`name` function.
+`name` method.
 
 Compared to PHP this is arguably more flexible. Each package can define what
 it needs and it doesn't care how you supply them. On the other hand it makes
@@ -857,8 +858,9 @@ bar := map[string]int{"one": 1, "two": 2} // map
 > e.g. `[3]int` is an "list" of 3 ints
 
 One of the features of Go's type system is type aliasing and being able to
-associate functions to any type, in the following example we define
-`UserCollection` as an alias of a "slice" of users:
+associate methods to structs any type which is defined in the same package, in
+the following example we define `UserCollection` as an alias of a "slice" of
+users:
 
 ```go
 type User struct {
