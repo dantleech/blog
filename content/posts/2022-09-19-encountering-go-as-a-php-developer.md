@@ -12,7 +12,7 @@ months previously, that represented my first attempt with the language. When I
 wrote it I had been unsure about everything, questioning each line and
 frequently googling things like "how to do a foreach in Go". In just two
 months I was now able to look at this code and immediately see several ways in
-which it could be improved. I now have opinions and feel confident.
+which it could be improved. I now had opinions and felt confident.
 
 I had been a PHP developer for around 14 years. At least 99.9% of the code
 I've written has been PHP, my coding experience and skill set has evolved
@@ -327,7 +327,7 @@ In PHP we import classes, functions and constants using `use`:
 
 use MyProject\Handler\PostHandler;
 use function Amp\call;
-use const MyProject/FOOBAR;
+use const MyProject\FOOBAR;
 ```
 
 We can either import the fully-qualified name and use it (e.g. `echo FOOBAR`)
