@@ -708,12 +708,8 @@ In contrast non-object values in PHP are passed by _value_ by default, and you
 can pass  _by reference_ by type hinting the parameter with `&` (e.g. `function
 foobar(&$array) { $array['bar'] = 'baz'; }`).
 
-Unlike PHP Go does not change it's behavior based on the type of value that is
-passed. If you pass a struct as a parameter to a function it is passed by
-_value_ by default.
-
-Go has pointers which are different to references in that they actually
-reference the memory location where a value is stored.
+Go has the concept of pointers which are different to references in that they actually
+[reference the memory location](https://go.dev/tour/moretypes/1) where a value is stored.
 
 In the following code example we set the `name` on a `User` struct, but it
 does not work you might expect:
@@ -767,6 +763,10 @@ func main() {
     fmt.Printf("%v", user.Name) // prints "Daniel"
 }
 ```
+
+Unlike PHP Go does not change it's behavior based on the type of value that is
+passed. If you pass a struct as a parameter to a function it is passed by
+_value_ by default.
 
 Testing
 -------
