@@ -515,7 +515,7 @@ private and available only to the current package). We can depend on an
 interface:
 
 ```go
-func hello(l user) {
+func hello(u user) {
     fmt.Printf("Hello %s", u.name())
 }
 ```
