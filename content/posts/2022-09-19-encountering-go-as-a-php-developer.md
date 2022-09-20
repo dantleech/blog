@@ -10,7 +10,7 @@ frequently googling things like "how to do a foreach in Go". In just two
 months I was now able to look at this code and immediately see several ways in
 which it could be improved. I now have opinions and feel confident.
 
-I have been a PHP developer for around 14 years. At least 99.9% of the code
+I had been a PHP developer for around 14 years. At least 99.9% of the code
 I've written has been PHP, my coding experience and skill set has evolved
 through PHP and it's community. At this stage in my career I consider myself
 to be a relatively good architect, I have a mature understanding of object
