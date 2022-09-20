@@ -871,6 +871,25 @@ Read more:
 - [Go tour on arrays](https://go.dev/tour/moretypes/6)
 - [Go tour on slices](https://go.dev/tour/moretypes/7)
 
+Foreach and loop scope
+----------------------
+
+```php
+foreach ($foobar as $foo => $bar) {
+}
+```
+
+translates to:
+
+```go
+for foo, bar := range foobar {
+}
+```
+
+One nice feature of Go's variable scoping is that `foo` and `bar` above are
+only available within the scope of the `for` loop, which means you can have a
+for loop without polluting the subsequent code with `foo` and `bar`.
+
 Summary
 -------
 
