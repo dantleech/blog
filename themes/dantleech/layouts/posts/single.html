@@ -1,9 +1,16 @@
 {{ define "main" }}
     {{ partial "nextprev.html" . }}
     <article>
-        <div class="grid grid-cols-2 gap-4 auto-cols-auto">
-            <h1 class="font-extrabold mt-6 text-4xl">{{ .Title }}</h1>
-            <div class="text-right pt-6">
+        <div class="grid grid-cols-4 mb-8">
+            <div class=" col-span-3">
+                <h1 class="font-extrabold mt-6 text-4xl">{{ .Title }}</h1>
+                {{ if (ne .Page.Lastmod  .Date) }}
+                <i>Last modified {{ .Page.Lastmod.Format "2006/01/02 15:04" }}</i>
+                {{ end }}
+
+            </div>
+
+            <div class="text-right pt-6 col-span-1">
                 <time class="text-2xl mt-6" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time><br/>
                 {{ range .Params.categories }}
                 <a href="{{ "/blog/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>

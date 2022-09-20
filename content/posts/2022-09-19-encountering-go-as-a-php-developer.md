@@ -2,6 +2,7 @@
 title: Encountering Go as a PHP developer
 categories: [php,go]
 date: 2022-09-19
+lastmod: 2022-09-20 19:00:00
 aliases:
   - /blog/2022/09/19/encountering-go-as-php-a-developer/
 ---
@@ -422,8 +423,8 @@ it is typical to create "constructor functions":
 ```go
 func NewFoobar(one string, two string) Foobar {
     return Foobar{
-        One: "One",
-        Two: "Two",
+        One: one,
+        Two: two,
     }
 }
 ```
