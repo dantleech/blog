@@ -766,7 +766,7 @@ func main() {
 
 Unlike PHP Go does not change it's behavior based on the type of value that is
 passed. If you pass a struct as a parameter to a function it is passed by
-_value_ by default.
+_value_ by default (i.e. it is copied).
 
 Testing
 -------
