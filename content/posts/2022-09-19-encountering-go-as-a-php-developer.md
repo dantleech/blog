@@ -2,10 +2,14 @@
 title: Encountering Go as a PHP developer
 categories: [php,go]
 date: 2022-09-19
-lastmod: 2022-09-20 22:20:00
+lastmod: 2022-09-21 23:50:00
 toc: false
 aliases:
   - /blog/2022/09/19/encountering-go-as-php-a-developer/
+changelog:
+  - corrected STDERR to STDOUT
+  - made code examples more realistic
+  - various corrections
 ---
 One morning I sat down at my laptop and looked at a Go service, written 2
 months previously, that represented my first attempt with the language. When I
@@ -148,40 +152,44 @@ variants](https://symfony.com/doc/current/components/var_dumper.html)). In Go
 the native equivalent is `fmt.Printf("%#v", value)`:
 
 ```go
-import {
-    "fmt"
-}
+package main
 
-type Barfoo struct {
-    Foobar string;
-    Boobar int;
+import (
+    "fmt"
+)
+
+type Command struct {
+    Name string;
+    Args []string;
 }
 
 func main() {
-    fmt.Printf("%#v", Barfoo{
-        Foobar: "hello",
-        Boobar: 12,
-    })
+    cmd := Command{
+        Name: "greet",
+        Args: []string{"Daniel"},
+    }
+
+    fmt.Printf("%#v", cmd) // print the value
 }
 ```
 
-This will print a representation of the value to `STDERR`:
+This will print a representation of the value to `STDOUT`:
 
 ```bash
 $ go run test.go
-main.Dan{Foobar:"hello", Boobar:12}
+main.Command{Name:"greet", Args:[]string{"Daniel"}}
 ```
 
 If you want to "var dump and die":
 
-```bash
+```go
 // ...
-panic(fmt.Sprintf("%#v", hello))
+panic(fmt.Sprintf("%#v", cmd))
 ```
 
 Note that we use `Sprintf` (which is [analagous](https://pkg.go.dev/fmt) to
 PHP `sprintf`). It returns a formatted string, while `Printf` will send it to
-`STDERR`.
+`STDOUT`.
 
 Recently I started using [Spew](https://github.com/davecgh/go-spew) which is
 to `fmt.Sprintf("%v")` what `dump(...)` is to `var_dump(...);`.
@@ -228,21 +236,21 @@ The following source file in PHP:
 
 ```php
 <php
-// src/Handler/FoobarHandler.php
+// src/Handler/InvoiceHandler.php
 
 namespace MyProject\\Handler;
 
-class FoobarHandler {
+class InvoiceHandler {
 }
 ```
 
 Might look like this in Go:
 
 ```go
-// handler/foobar_handler.go
+// handler/invoice_handler.go
 package handler
 
-type FoobarHandler struct {
+type InvoiceHandler struct {
 }
 ```
 
@@ -382,24 +390,26 @@ This PHP class:
 ```php
 <?php
 
-class Foobar {
-    public string $one;
-    public string $two;
+class Pet {
+    public string $name;
+    public string $species;
+    public int $age;
 }
 ```
 
 could be represented in Go as:
 
 ```go
-type Foobar struct {
-    One string;
-    Two string;
+type Pet struct {
+    Name string;
+    Species string;
+    Age int;
 }
 ```
 
 > Note that capitalisation of the fields - in Go capitalisation is used to
 > determine the (package level) visiblity of the fields, see
-> [methods](#visibility)
+> [visiblity](#visibility)
 
 In PHP methods are defined within the `class` definition. In Go they are
 attached _outside_ of the `struct` definition (more on this in the
@@ -408,9 +418,10 @@ attached _outside_ of the `struct` definition (more on this in the
 Structs can be "instantiated":
 
 ```go
-foobar := Foobar{
-    One: "One",
-    Two: "Two",
+pet := Pet{
+    Name: "Thor",
+    Species: "Hamster",
+    Age: 5,
 }
 ```
 
@@ -422,12 +433,16 @@ Structs do not have this mechanism. There are no constructors in Go. Instead
 it is typical to create "constructor functions":
 
 ```go
-func NewFoobar(one string, two string) Foobar {
-    return Foobar{
-        One: one,
-        Two: two,
+func NewPet(string name, string species, age int) Pet {
+    return Pet{
+        Name: name,
+        Species: species,
+        Age: age,
     }
 }
+
+// and use it as follows
+fmt.Printf("%#v", NewPet("Thor", "Hamster", 5))
 ```
 
 Read more:
@@ -447,55 +462,53 @@ In PHP a class may look like this:
 ```php
 <?php
 
-class Foobar {
-    private string $bar = '';
+class Pet {
+    private bool $vaccinated = false;
 
-    public function fooTheBar(): void {
-        $this->doFooTheBar();
+    public function isVaccinated(): void {
+        return $this->vaccinated;
     }
 
-    private function doFooTheBar(): void {
-        $this->bar = 'foo';
+    public function vaccinate(): void {
+        $this->vaccinated = true;
     }
-
 }
 ```
 
 In Go this might look something like:
 
 ```go
-type Foobar struct {
-    bar string;
+type Pet struct {
+    vaccinated bool;
 }
 
-func (f *Foobar) FooTheBar() {
-    f.doFooTheBar()
+func (p Pet) IsVaccinated() bool {
+    return p.vaccinated
 }
 
-func (f *Foobar) doFooTheBar() {
-    f.bar = "foo"
+func (p *Pet) Vaccinate() {
+    p.vaccinated = true
 }
+
 ```
 
-> Note the `*` asterix, this means that `Foobar` is a pointer and it passed
-> "by reference", more on this later.
-
-Notice that these methods are defined with a _reciever_ (`(f *Foobar)`).
+Notice that the first method is defined with a _reciever_ (`p Pet`).
 This reciever indicates to which type the method should be bound. The
 reciever name maps to the concept of `$this` in PHP.
 
-Notice above that we use a pointer reciever, it's known as a pointer receiver
-because we specified `f *Foobar` as a pointer. This effectively means that we
-can _mutate_ the fields of the struct to which the method is attached.
+The second method uses a pointer reciever, we know it's a pointer because the
+type is prefixed with `*`. This effectively means that we can _mutate_ the
+fields of the struct to which the method is attached - more on this
+[later](#pointers-vs-pass-by-reference)
 
 If your method only needs to read the field, then it makes sense to use a
-_value receiver_, for example `f Foobar`.
+_value receiver_. The first method uses a value reciever: `(p Pet)`.
 
-The above "public" method can be called as follows:
+The public (see [visiblity](#visibility)) `Vaccinate` method can be called as follows:
 
 ```go
-foobar := Foobar{}
-foobar.FooTheBar()
+pet := Pet{}
+pet.Vaccinate()
 ```
 
 Read more:
@@ -552,7 +565,7 @@ In PHP, class-member visiblity is determined by the `private`, `protected` and
 ```php
 <?php
 
-class Foobar {
+class Example {
     public int $one;
     protected int $two;
     private int $three;
@@ -563,7 +576,7 @@ In Go visiblity is NOT indicated by a keyword but by the case of the first
 character of the field name:
 
 ```go
-type Foobar struct {
+type Example struct {
     One string;   // public
     three string; // private
 }
@@ -649,18 +662,18 @@ In Go the concept of exceptions maps to the concept of panic/recover but
 it is common to explicitly return errors:
 
 ```go
-func GetUser(name string) (Something, error) {
+func GetUser(name string) (User, error) {
     if name == "Alice" {
-         return Something{Name: "Alice"}, nil
+         return User{Name: "Alice"}, nil
     }
 
-    return Something{}, errors.New("Name must be 'Alice'")
+    return User{}, errors.New("Name must be 'Alice'")
 }
 ```
 
 Note that we return both a value and an error type. If the happy path is
-followed (the name is "Alice") then we return a populated `Something` struct
-and `nil` as the error, in the error case we return an _empty_ `Something` and
+followed (the name is "Alice") then we return a populated `User` struct
+and `nil` as the error, in the error case we return an _empty_ `User` and
 a non-nil error. 
 
 The call is handled as follows:
@@ -836,7 +849,7 @@ Collections and Arrays
 ----------------------
 
 In PHP we have the `array` type which can be either a list or a dictionary. In
-go we have distinct types for lists (as
+Go we have distinct types for lists (as
 [arrays](https://go.dev/tour/moretypes/6) and [slices](https://go.dev/tour/moretypes/7)) and
 [maps](https://gobyexample.com/maps):
 
@@ -886,21 +899,23 @@ Read more:
 Foreach and loop scope
 ----------------------
 
+In PHP we iterate over arrays and iterables with the `foreach` loop:
+
 ```php
-foreach ($foobar as $foo => $bar) {
+foreach ($items as $key => $value) {
 }
 ```
 
-translates to:
+In Go this translates to:
 
 ```go
-for foo, bar := range foobar {
+for key, value := range items {
 }
 ```
 
-One nice feature of Go's variable scoping is that `foo` and `bar` above are
-only available within the scope of the `for` loop, which means you can have a
-for loop without polluting the subsequent code with `foo` and `bar`.
+One nice feature of Go's variable scoping is that the variables `key` and
+`value` above are only available within the scope of the `for` loop, they do
+not pollute the subsequent code.
 
 Summary
 -------
