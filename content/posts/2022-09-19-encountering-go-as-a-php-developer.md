@@ -633,6 +633,8 @@ There are various different types of `Nil` as they differ based on the type
 they are the empty value for: `Nil` for a pointer cannot be compared with
 `Nil` for a `map` for example.
 
+In PHP we can have a nullable string type:
+
 ```php
 <?php
 
@@ -642,12 +644,17 @@ class Foo {
 var_dump(new Foo()); // bar is NULL
 ```
 
+But in Go a string value can only be a string:
+
 ```go
 type Foo struct {
     Bar string
 }
 fmt.Printf("%#v", Foo{}) // Bar is empty string
 ```
+
+Unless it is a pointer, in which case it can also be `Nil` as all pointers can
+be `Nil` - but of course then you have to be careful to avoid NULL pointer errors!
 
 > If you are using a relational database you will likely soon encounter the
 > **joy** of mapping [nullable database fields to structs in Go](https://ente.io/blog/tech/go-nulls-and-sql/)
