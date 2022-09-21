@@ -587,10 +587,6 @@ video {
   }
 }
 
-.invisible{
-  visibility: hidden;
-}
-
 .col-span-3{
   grid-column: span 3 / span 3;
 }
@@ -609,10 +605,6 @@ video {
 
 .clear-both{
   clear: both;
-}
-
-.m-4{
-  margin: 1rem;
 }
 
 .mx-auto{
@@ -648,24 +640,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.mt-0{
-  margin-top: 0px;
-}
-
-.mt-1{
-  margin-top: 0.25rem;
-}
-
 .ml-4{
   margin-left: 1rem;
 }
 
-.ml-8{
-  margin-left: 2rem;
-}
-
-.ml-6{
-  margin-left: 1.5rem;
+.mt-0{
+  margin-top: 0px;
 }
 
 .block{
@@ -700,12 +680,20 @@ video {
   max-width: 72rem;
 }
 
+.flex-auto{
+  flex: 1 1 auto;
+}
+
 .table-fixed{
   table-layout: fixed;
 }
 
 .auto-cols-auto{
   grid-auto-columns: auto;
+}
+
+.grid-flow-row{
+  grid-auto-flow: row;
 }
 
 .grid-flow-col{
@@ -776,16 +764,16 @@ video {
   padding: 1rem;
 }
 
+.p-0{
+  padding: 0px;
+}
+
 .p-2{
   padding: 0.5rem;
 }
 
 .p-6{
   padding: 1.5rem;
-}
-
-.p-0{
-  padding: 0px;
 }
 
 .px-1{
@@ -823,10 +811,6 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-0{
-  padding-top: 0px;
-}
-
 .text-left{
   text-align: left;
 }
@@ -859,14 +843,6 @@ video {
   font-size: .875rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-}
-
 .font-extrabold{
   font-weight: 800;
 }
@@ -889,29 +865,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-red-500{
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.text-gray-500{
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-gray-100{
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-
 .text-gray-200{
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
-.text-gray-400{
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .no-underline{
@@ -1043,6 +999,14 @@ blockquote{
     margin-bottom: 0px;
   }
 
+  .sm\:block{
+    display: block;
+  }
+
+  .sm\:hidden{
+    display: none;
+  }
+
   .sm\:flex-row{
     flex-direction: row;
   }
@@ -1061,16 +1025,8 @@ blockquote{
 }
 
 @media (min-width: 768px){
-  .md\:visible{
-    visibility: visible;
-  }
-
-  .md\:invisible{
-    visibility: hidden;
-  }
-
-  .md\:block{
-    display: block;
+  .md\:hidden{
+    display: none;
   }
 }
 
