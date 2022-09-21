@@ -514,8 +514,7 @@ pet.Vaccinate()
 > we did not give `vaccinated` a default value. In PHP we'd expect the value
 > to be NULL (or more recently for an uninitialized property to cause an
 > error) but in Go types are not nullable, instead they assume the "empty"
-> value, in the case of `bool` that value is `false`. See [null vs.
-> nil](#null-vs-nil) for more information.
+> value, in the case of `bool` that value is `false`. See [null vs. nil](#null-vs-nil) for more information.
 
 Read more:
 
@@ -578,7 +577,7 @@ class Example {
 }
 ```
 
-In Go visiblity is NOT indicated by a keyword but by the case of the first
+In Go visiblity is NOT indicated by a keyword but by the case (🤯) of the first
 character of the field name:
 
 ```go
