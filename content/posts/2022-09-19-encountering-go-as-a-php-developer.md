@@ -511,6 +511,12 @@ pet := Pet{}
 pet.Vaccinate()
 ```
 
+> we did not give `vaccinated` a default value. In PHP we'd expect the value
+> to be NULL (or more recently for an uninitialized property to cause an
+> error) but in Go types are not nullable, instead they assume the "empty"
+> value, in the case of `bool` that value is `false`. See [null vs.
+> nil](#null-vs-nil) for more information.
+
 Read more:
 
 - [Go101 / Methods in Go](https://go101.org/article/method.html)
