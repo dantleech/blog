@@ -2,7 +2,7 @@
 title: Encountering Go as a PHP developer
 categories: [php,go]
 date: 2022-09-19
-lastmod: 2022-09-21 23:50:00
+lastmod: 2022-09-22 23:50:00
 toc: false
 aliases:
   - /blog/2022/09/19/encountering-go-as-php-a-developer/
