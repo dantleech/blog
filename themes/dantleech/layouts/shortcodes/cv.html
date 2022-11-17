@@ -30,8 +30,6 @@
 
         <p>I am member of the PHP and Symfony community and I give talks
         at work, meetups and conferences.</p>
-
-        <p>Currently I reside in Germany, but England, France and Austria have also been places I have called my home, but I am now considering a move back to the United Kingdom.</p>
     </section>
     <section>
         <h2>Skills</h2>
@@ -70,6 +68,27 @@
         </table>
     </section>
     <section>
+        <h2>Inviqa Projects</h2>
+        <table class="table-fixed">
+            <thead>
+                <tr>
+                    <th class="pr-4 pl-4 text-left">Period</th>
+                    <th class="pr-4 pl-4 text-left">Client</th>
+                    <th class="pr-4 pl-4 text-left">Role</th>
+                    <th class="pr-4 pl-4 text-left">Keywords</th>
+                </tr>
+            </thead>
+        {{ range .projects }}
+            <tr>
+                <td class="whitespace-nowrap pr-4 pl-4 border align-top">{{ .startDate }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ .name }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ .role }}</td>
+                <td class="pr-4 pl-4 border align-top">{{ delimit .keywords ", " }}</td>
+            </tr>
+        {{ end }}
+        </table>
+    </section>
+    <section>
         <h2>Open Source Projects</h2>
         <table class="table-fixed">
             <thead>
@@ -89,27 +108,6 @@
                 <td class="whitespace-nowrap pr-4 pl-4 border align-top"><a href="{{ .url }}">{{ .name }}</a></td>
                 <td class="whitespace-nowrap pr-4 pl-4 border align-top">{{ .role }}</td>
                 <td class="pr-4 pl-4 border align-top">{{ .description }}</td>
-                <td class="pr-4 pl-4 border align-top">{{ delimit .keywords ", " }}</td>
-            </tr>
-        {{ end }}
-        </table>
-    </section>
-    <section>
-        <h2>Agency Projects</h2>
-        <table class="table-fixed">
-            <thead>
-                <tr>
-                    <th class="pr-4 pl-4 text-left">Period</th>
-                    <th class="pr-4 pl-4 text-left">Client</th>
-                    <th class="pr-4 pl-4 text-left">Role</th>
-                    <th class="pr-4 pl-4 text-left">Keywords</th>
-                </tr>
-            </thead>
-        {{ range .projects }}
-            <tr>
-                <td class="whitespace-nowrap pr-4 pl-4 border align-top">{{ .startDate }}</td>
-                <td class="pr-4 pl-4 border align-top">{{ .name }}</td>
-                <td class="pr-4 pl-4 border align-top">{{ .role }}</td>
                 <td class="pr-4 pl-4 border align-top">{{ delimit .keywords ", " }}</td>
             </tr>
         {{ end }}
