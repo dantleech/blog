@@ -215,6 +215,10 @@ than Phpactor Container then **because it does more stuff**. But who cares about
 
 {{< /callout >}}
 
+### But is it PSR safe?
+
+Yes! It's 100% safe for PSR and Agile. It implements the PSR-11 interface:
+
 ### Summary
 
 The Phpactor Container is really simple and that is it's greatest strength.
