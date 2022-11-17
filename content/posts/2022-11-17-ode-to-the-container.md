@@ -4,7 +4,8 @@ categories: [phpactor]
 date: 2022-10-17
 ---
 
-There are **few** things that I _really_ like about Phpactor, but it's DI Container is one of them.
+There are **few** things that I _really_ like about Phpactor, but it's DI
+Container is one of them.
 
 In seven years it has hardly changed at all. It is modular, supports tags,
 parameters (with schemas) and the has only 233 lines of code including
@@ -17,7 +18,7 @@ default and if you want a factory, well, you _make a factory_. That's OOP
 right? Phpactor does not allow you to have `$container->get('current_user')` or
 `$container->get('current_request')`.
 
-It's **PHP**! No fancy PHPStorm extensions required to jump to or rename your classes, and
+It's **PHP**! No fancy [PHPStorm](https://github.com/phpactor/phpactor) extensions required to jump to or rename your classes, and
 since it has a [conditional](https://github.com/phpactor/container/blob/master/lib/Container.php#L12) return type your static analysis tool automatically
 understands that `$foo = $container->get(Foo::class)` provides a `Foo`
 instance.
@@ -70,22 +71,25 @@ class MyExtension extends Extension {
 }
 ```
 
-Interview with Dan:
-
+{{< callout >}}
 **Wait, that looks alot like the Symfony Options Resolver - why didn't you use
 that?**
 
-I didn't want to have a Symfony dependency because 1) I can't modify it, 2) I
-don't want to bump the dependencies every year.
+I didn't want to have a Symfony dependency because 
+
+- I can't modify it.
+- I don't want to bump the dependencies every year even if they don't change.
 
 **Was that a good choice?**
 
 Probably not. The Symfony one works better but if I did it again I'd probably
 not use that pattern at all.
+{{< /callout >}}
 
 ### What about tags?
 
-You need to add services by tag
+You need to aggregate services by tag? Why not:
+
 ```php
 class MyExtension extends Extension {
     public const TAG_MY_SERVICE = 'service';
@@ -111,6 +115,13 @@ class MyExtension extends Extension {
 }
 ```
 
+{{< callout >}}
+**That tag concpet looks alot like Symfony**
+
+Yes it does doesn't it.
+{{< /callout >}}
+
+
 ### Environment variables?
 
 Sure!! Use `getenv` however you like.
@@ -120,7 +131,7 @@ Sure!! Use `getenv` however you like.
 That's a weird question, it's a container. It doesn't even need to be used on
 the web.
 
-But yes, it certainly is web scale, I didn't show you how the container is
+But yes, it certainly is web scale! I didn't show you how the container is
 created yet:
 
 ```php
@@ -136,22 +147,31 @@ $container = new PhpactorContainer([
 ]);
 ```
 
-You can easily and effectively [structure your
+You can easily [structure your
 application](https://github.com/phpactor/phpactor/tree/master/lib/Extension). No [bundles](https://symfony.com/doc/current/bundles.html)!
+
+{{< callout >}}
+**Wait! This isn't simple at all! look at all the code you need to write!**
+
+Well, you _do_ need to write an extension **and** create the container and
+bootstrap it. But hey, you only need to do this once. It's totally worth it.
+{{< /callout >}}
+
 
 ### Limitations
 
 It does have some limitations though - it registers at runtime, which makes it
-unsuitable for large projects that have the short-lived request lifecycle that
-PHP is famous for. It's great for small services or long running processes
+unsuitable for **large** projects that have the short-lived request lifecycle that
+PHP is famous for. It's great for small projects or long running processes
 like a [language server](https://github.com/phpactor/language-server).
 
 ### Shoud I use this great container?
 
-Probably not, but I do. I've tried to use other light-weight containers like
-[Pimple](https://github.com/silexphp/Pimple) and [league](https://container.thephpleague.com/) but often I just
-_don't need_ the extra, complicating, features they provide (and nobody really
-wants use array sytax to define services right?? right?).
+Probably not, but I **do** sometimes use it at work. I've tried to use other
+light-weight containers like [Pimple](https://github.com/silexphp/Pimple) and
+[League](https://container.thephpleague.com/) but often I just _don't need_
+the extra, complicating, features they provide (and nobody really wants use
+array sytax to define services right?? right?).
 
 For example with League:
 
@@ -162,23 +182,38 @@ $container->add(Acme\Bar::class);
 $foo = $container->get(Acme\Foo::class);
 ```
 
-So far so good. But (don't ask me why) what if I wanted to delegate toanother
-container? What if I want to actually control exactly how my class is
-instantiated? Maybe you but I don't care, it shouldn't be hard!
+So far so good. But (don't ask me why) what if I wanted to delegate to another
+container? Use env variables? Do weird shit? Maybe it's possible, but is it
+simple?
 
-```
+```php
 $container->register(
     Acme\Foo::class, 
     fn(Container $c) => new Acme\Foo($c->get(Acme\Bar::class))
 );
 ```
 
-That's the definition I want.
+That's the definition I want. I can do anything I like there - by _default_. I
+don't need to spend hour becoming an expert and writing enterprise code to
+fulfil a simple requirement:
 
-**but Dan that library is awesome and it compiles the container so it's really
+```php
+$container->register(
+    Acme\Foo::class, 
+    fn(Container $c) => new Acme\Foo(\Drupal::service('acme_bar'))
+);
+```
+
+What?
+
+{{< callout >}}
+**But Dan that League library is awesome and it compiles the container so it's really
 fast**
 
-Yeah that's true.
+Yeah that's true... or - wait, oh no, it doesn't compile. It's much slower
+than Phpactor Container then **because it does more stuff**. But who cares about microseconds anyway.
+
+{{< /callout >}}
 
 ### Summary
 
@@ -186,7 +221,7 @@ The Phpactor Container is really simple and that is it's greatest strength.
 
 Can you get simpler? Sure, it's called a factory:
 
-```
+```php
 class MyFactory {
     public function myService(): MyService {
         return new MyService($this->dependencyOne());
@@ -198,8 +233,10 @@ class MyFactory {
 }
 ```
 
-Sometimes this is all you need, often you need shared services and this method
-begins to get cumbersome. The Phpactor container adds more complexity
-than this and enables the composition of hundreds or thousands of services,
-but it doesn't add anywhere near the amount of complexity seen in other
-containers.
+Sometimes this is all you need. Use this. But at other times you need shared
+services and to scale your application and this method begins to get
+cumbersome.
+
+This isn't a promotion of the Phpactor container, more that everything else is
+far more complicated than I like. I really _enjoy_ working on Phpactor because I spend my
+time being **frustrated** by **Phpactor** 🥳 and not it's **DI container** 😥
