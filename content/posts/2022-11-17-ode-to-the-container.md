@@ -243,4 +243,4 @@ cumbersome.
 
 This isn't a promotion of the Phpactor container, more that everything else is
 far more complicated than I like. I really _enjoy_ working on Phpactor because I spend my
-time being **frustrated** by **Phpactor** 🥳 and not it's **DI container** 😥
+time being **frustrated** by **Phpactor** 🥳 and not its **DI container** 😥
