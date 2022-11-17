@@ -55,7 +55,7 @@ But wait Dan, are you saying I just pass in an unstructured array to the contain
 Well, I'm not showing you the whole thing here:
 
 ```php
-class MyExtension extends Extension {
+class MyExtension implements Extension {
     public function configure(Resolver $resolver): void {
         $resolver->setDefault([
             'foo.bar' => 'Hello World',
@@ -90,7 +90,7 @@ not use that pattern at all.
 You need to aggregate services by tag? Why not:
 
 ```php
-class MyExtension extends Extension {
+class MyExtension implements Extension {
     public const TAG_MY_SERVICE = 'service';
 
     public function configure(Resolver $resolver): void {
