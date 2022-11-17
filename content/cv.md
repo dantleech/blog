@@ -1,5 +1,5 @@
 ---
-title: Daniel Leech, Software Engineer
+title: Daniel Leech, Techincal Team Lead
 type: cv
 ---
 {{<cv>}}

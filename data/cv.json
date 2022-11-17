@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Daniel Leech",
-        "label": "Software Engineer",
+        "label": "Techincal Team Lead / Senior Software Engineer",
         "image": "/images/me_small2.jpg",
         "email": "daniel at dantleech dot com",
         "url": "www.dantleech.com",
@@ -105,7 +105,8 @@
                 "Linux",
                 "VIM",
                 "Command line",
-                "Javascript",
+                "Rust",
+                "NodeJS",
                 "Typescript"
             ]
         },
@@ -232,7 +233,7 @@
                 "Apollo",
                 "Go",
                 "Typescript",
-                "Sylus",
+                "Symfony (Sylius)",
                 "Kubernetes",
                 "AWS"
             ],
