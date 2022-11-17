@@ -37,7 +37,7 @@ The Phpactor Container is simple:
 
 ```php
 $container->register(Foo::class, function (Container $container) {
-    return new MyService($container->get(DependencyOne::class);
+    return new MyService($container->get(DependencyOne::class));
 });
 ```
 
@@ -47,7 +47,7 @@ It's got you:
 
 ```php
 $container->register(Foo::class, function (Container $container) {
-    return new MyService($container->getParameter('foo.bar');
+    return new MyService($container->getParameter('foo.bar'));
 });
 ```
 
@@ -65,7 +65,7 @@ class MyExtension extends Extension {
 
     public function build(ContainerBuilder $container): void {
         $container->register(Foo::class, function (Container $container) {
-            return new MyService($container->getParameter('foo.bar');
+            return new MyService($container->getParameter('foo.bar'));
         });
     }
 }
