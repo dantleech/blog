@@ -23,9 +23,9 @@ since it has a [conditional](https://github.com/phpactor/container/blob/master/l
 understands that `$foo = $container->get(Foo::class)` provides a `Foo`
 instance.
 
-Want to know how your object is instantiated? There's no magic. Want to do
-some weird shit because why not? Go for it! It's PHP code. You don't need
-compiler passes to do weird shit here.
+Want to know how your object is instantiated? There's no magic. No mystery.
+Want to do some weird shit because why not? Go for it! It's PHP code. You
+don't need compiler passes to do weird shit here.
 
 [1] ok that excludes the schema thing in another
 package.
