@@ -1,11 +1,11 @@
 --- 
 title: The Best Container
-categories: [phpactor]
+categories: [phpactor,php]
 date: 2022-10-17
 ---
 
 There are **few** things that I _really_ like about Phpactor, but it's DI
-Container is one of them.
+Container [[link](https://github.com/phpactor/container)] is one of them.
 
 In seven years it has hardly changed at all. It is modular, supports tags,
 parameters (with schemas) and the has only 233 lines of code including
@@ -15,18 +15,17 @@ There is **no YAML**, XML or compilation. No auto wiring, no _property injection
 factory modifiers, weird ways to [extend
 services](https://github.com/silexphp/Pimple). Everything is a singleton by
 default and if you want a factory, well, you _make a factory_. That's OOP
-right? Phpactor does not allow you to have `$container->get('current_user')` or
-`$container->get('current_request')`.
+right? Phpactor does **not** allow you to have `$container->get('current_user')` or
+`$container->get('current_request')` .
 
 It's **PHP**! No fancy [PHPStorm](https://github.com/phpactor/phpactor) extensions required to jump to or rename your classes, and
 since it has a [conditional](https://github.com/phpactor/container/blob/master/lib/Container.php#L12) return type your static analysis tool automatically
 understands that `$foo = $container->get(Foo::class)` provides a `Foo`
 instance.
 
-Want to know how your object is instantiated? Jump directly to the extension
-where it is defined! Want to know where the vars come from, it's all there.
-Want to do some weird shit because why not? Go for it! It's PHP code. You
-don't need compiler passes to do weird shit here.
+Want to know how your object is instantiated? There's no magic. Want to do
+some weird shit because why not? Go for it! It's PHP code. You don't need
+compiler passes to do weird shit here.
 
 [1] ok that excludes the schema thing in another
 package.
@@ -165,7 +164,7 @@ unsuitable for **large** projects that have the short-lived request lifecycle th
 PHP is famous for. It's great for small projects or long running processes
 like a [language server](https://github.com/phpactor/language-server).
 
-### Shoud I use this great container?
+### Should I use this great container?
 
 Probably not, but I **do** sometimes use it at work. I've tried to use other
 light-weight containers like [Pimple](https://github.com/silexphp/Pimple) and
@@ -183,7 +182,7 @@ $foo = $container->get(Acme\Foo::class);
 ```
 
 So far so good. But (don't ask me why) what if I wanted to delegate to another
-container? Use env variables? Do weird shit? Maybe it's possible, but is it
+container? Use environment variables? Do weird shit? Maybe it's possible, but is it
 simple?
 
 ```php
