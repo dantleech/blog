@@ -192,7 +192,8 @@ $container->register(
 );
 ```
 
-That's the definition I want. I can do anything I like there - by _default_. I
+That's the definition I want. I can do anything I like there - by _default_ -
+because there is **ONLY ONE WAY TO CREATE A SERVICE**. I
 don't need to spend hour becoming an expert and writing enterprise code to
 fulfil a simple requirement:
 
