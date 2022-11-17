@@ -680,20 +680,12 @@ video {
   max-width: 72rem;
 }
 
-.flex-auto{
-  flex: 1 1 auto;
-}
-
 .table-fixed{
   table-layout: fixed;
 }
 
 .auto-cols-auto{
   grid-auto-columns: auto;
-}
-
-.grid-flow-row{
-  grid-auto-flow: row;
 }
 
 .grid-flow-col{
@@ -839,10 +831,6 @@ video {
   font-size: 1rem;
 }
 
-.text-sm{
-  font-size: .875rem;
-}
-
 .font-extrabold{
   font-weight: 800;
 }
@@ -986,8 +974,6 @@ blockquote{
 }
 
 .cv section {
-  page-break-after: always;
-  page-break-before: always;
 }
 
 .visited\:text-gray-500:visited{
@@ -1001,10 +987,6 @@ blockquote{
 
   .sm\:block{
     display: block;
-  }
-
-  .sm\:hidden{
-    display: none;
   }
 
   .sm\:flex-row{
@@ -1021,12 +1003,6 @@ blockquote{
 
   .sm\:text-left{
     text-align: left;
-  }
-}
-
-@media (min-width: 768px){
-  .md\:hidden{
-    display: none;
   }
 }
 
