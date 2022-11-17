@@ -38,7 +38,7 @@ The Phpactor Container is simple:
 ```php
 $container->register(Foo::class, function (Container $container) {
     return new MyService($container->get(DependencyOne::class);
-}, []);
+});
 ```
 
 ### You need parameters?
@@ -48,7 +48,7 @@ It's got you:
 ```php
 $container->register(Foo::class, function (Container $container) {
     return new MyService($container->getParameter('foo.bar');
-}, []);
+});
 ```
 
 But wait Dan, are you saying I just pass in an unstructured array to the container? Where's the safety and **power**?
