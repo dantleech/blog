@@ -4,19 +4,19 @@ categories: [phpactor,php]
 date: 2022-10-17
 ---
 
-There are **few** things that I _really_ like about Phpactor, but it's DI
+There are **few** things that I _really_ like about Phpactor, but its DI
 Container [[link](https://github.com/phpactor/container)] is one of them.
 
-In seven years it has hardly changed at all. It is modular, supports tags,
+In seven years it has hardly changed at all. It's modular, supports tags,
 parameters (with schemas) and the has only 233 lines of code including
 comments and whitespace[1]
 
-There is **no YAML**, XML or compilation. No auto wiring, no _property injection_
+There is **no YAML**, XML or compilation. No auto wiring, no _property injection_,
 factory modifiers, weird ways to [extend
-services](https://github.com/silexphp/Pimple). Everything is a singleton by
-default and if you want a factory, well, you _make a factory_. That's OOP
-right? Phpactor does **not** allow you to have `$container->get('current_user')` or
-`$container->get('current_request')` .
+services](https://github.com/silexphp/Pimple). All services are singletons.
+Singletons. And if you want a factory, well, you _make a factory_. That's OOP
+right? Phpactor does **not** allow you to have
+`$container->get('current_user')` or `$container->get('current_request')` .
 
 It's **PHP**! No fancy [PHPStorm](https://github.com/phpactor/phpactor) extensions required to jump to or rename your classes, and
 since it has a [conditional](https://github.com/phpactor/container/blob/master/lib/Container.php#L12) return type your static analysis tool automatically
