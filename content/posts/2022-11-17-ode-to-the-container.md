@@ -159,10 +159,17 @@ bootstrap it. But hey, you only need to do this once. It's totally worth it.
 
 ### Limitations
 
-It does have some limitations though - it registers at runtime, which makes it
-unsuitable for **large** projects that have the short-lived request lifecycle that
-PHP is famous for. It's great for small projects or long running processes
-like a [language server](https://github.com/phpactor/language-server).
+It does have some limitations though - it registers at runtime - which, if you
+have eager services, could add overhead that may make it unsuitable for
+**large** projects that have the short-lived request lifecycle that PHP is
+famous for (although it would be good to get some actual benchmarks on that).
+But i's great for small projects or long running processes like a [language
+server](https://github.com/phpactor/language-server).
+
+### Cache?
+
+No cache! That's right, no compilation no cache. You can deploy this in a lambda or on a read-only
+filesystem.
 
 ### Should I use this great container?
 
