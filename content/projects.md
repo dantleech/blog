@@ -11,6 +11,7 @@ By far the two biggest projects I'm responsible for are:
 
 But I've written smaller projects which are actively used:
 
+- [Pttlog](https://github.com/dantleech/pttlog): Plain Text Time Logger TUI written in Rust.
 - [Fink](https://github.com/dantleech/fink): Link checker.
 - [What Changed](https://github.com/dantleech/what-changed): Composer plugin to see what changed.
 - [Gherkin Lint](https://github.com/dantleech/gherkin-lint-php): Gherkin  Linter
