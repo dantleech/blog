@@ -20,7 +20,7 @@ somebody who wanted me to build some intranet web application, it took 3 months 
 and I earned about £3,000. In retrospect I was grossly underpaid, but it gave
 me the financial freedom to leave the UK and cycle around France.
 
-In the following years I have mostly been living in Europe - France,
+In the following years I have mostly been [travelling](https://www.dantleech.com/touring/) and living in Europe - France,
 Austria and, for the past 5 years, Germany.
 
 ![karlmarxallee](/images/2022-12-18/1.jpg)
