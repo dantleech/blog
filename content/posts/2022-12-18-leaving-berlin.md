@@ -4,9 +4,12 @@ categories: [berlin]
 date: 2022-12-18
 ---
 
-My apartment is in a rare state - it's tidy. I came to Berlin with the
+My apartment is in a rare state - it's tidy. I came to Berlin in 2017 with the
 following items: 1 bicycle, 2 speakers, 1 monitor, a laptop and some
 clothes, this week I shipped seven boxes of stuff back to the UK.
+
+![how it started](/images/2022-12-18/5.jpg)
+*After moving, 2017*
 
 ### How it started
 
