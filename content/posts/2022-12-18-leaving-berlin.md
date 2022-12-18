@@ -85,3 +85,5 @@ furnished accommodation for 3 months, after that time has elapsed I don't know.
 
 In the words of the theme tune to the [Littlest Hobo](https://en.wikipedia.org/wiki/The_Littlest_Hobo): Maybe tomorrow I'll want to settle down,
 Maybe tomorrow I'll just keep moving on.
+
+Berlin - goodbye, and thanks for all the Pfannkuchen!
