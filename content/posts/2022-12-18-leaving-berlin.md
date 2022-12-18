@@ -4,7 +4,7 @@ categories: [berlin]
 date: 2022-12-18
 ---
 
-My appartment is in a rare state - it's tidy. I came to Berlin with the
+My apartment is in a rare state - it's tidy. I came to Berlin with the
 following items: 1 bicycle, 2 speakers, 1 monitor, a laptop and some
 clothes, this week I shipped seven boxes of stuff back to the UK.
 
@@ -13,9 +13,9 @@ clothes, this week I shipped seven boxes of stuff back to the UK.
 I am was born and grew up in the UK, when I was 22 I left home to study at
 University, I lived in the city Bath for 6 years, never earning enough money
 to break even at the end of the month, a friend put my in contact with
-somebody who wanted me to build some software, it took 3 months of hard work
-and I earned about £3,500. In retrospect I was grossly underpaid, but it gave
-me the financial freedom to leave the UK and cycle around France. 
+somebody who wanted me to build some intranet web application, it took 3 months of hard work
+and I earned about £3,000. In retrospect I was grossly underpaid, but it gave
+me the financial freedom to leave the UK and cycle around France.
 
 In the following years I have mostly been living in Europe - France,
 Austria and, for the past 5 years, Germany.
@@ -31,17 +31,17 @@ travel bug in me, I just wanted to turn a new page and immerse myself in a
 different environment.
 
 ![Zum Fernsehr Turm](/images/2022-12-18/2.jpg)
-*Looking onto the TV tower*
+*Looking onto the TV tower from a bridge*
 
 ### Challenges
 
-Life in Berlin has sometimes been tough. I've been targetted by copyright
-lawyers, I've made silly mistakes, and I've been challenged by the bureaucracy
-and the language barrier.
+Life in Berlin has sometimes been tough. I've been targeted by dreaded German
+copyright lawyers, I've made silly mistakes, and I've been challenged by the
+bureaucracy and the language barrier.
 
 Given one of my ostensible aims was to master the German language, it's
 something I am still struggling with. In France we rarely spoke English, I was
-thrown into a situation where the only commuincation channel available to me
+thrown into a situation where the only communication channel available to me
 was French and by the end of my time there it became my primary language. 
 
 In Germany everybody I was in contact with regularly spoke good English, and
@@ -61,7 +61,7 @@ people in Berlin are very open and friendly and I regret that I have not made
 the best of my time here. Berlin has a huge amount to offer and I could have
 made more effort to enjoy it.
 
-Berlin is full of surprises, I've been living in Weisenßee for almost 5 years
+Berlin is full of surprises, I've been living in Weißensee for almost 5 years
 and I am still discovering the city and the adjacent fields, parks and
 ghostly abandoned buildings. A few weeks ago I discovered an entire canal.
 
@@ -78,8 +78,7 @@ that is spoken around me.
 
 Tomorrow I will (hopefully) board a plane to London, from there I will get the
 train to my hometown, Weymouth, where I will be staying in an expensive
-furnished accomodation for 3 months, after that time has elapsed I don't know.
-
+furnished accommodation for 3 months, after that time has elapsed I don't know.
 
 In the words of the theme tune to the [Littlest Hobo](https://en.wikipedia.org/wiki/The_Littlest_Hobo): Maybe tomorrow I'll want to settle down,
 Maybe tomorrow I'll just keep moving on.
