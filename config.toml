@@ -1,0 +1,55 @@
+baseURL = "https://www.dantleech.com/"
+languageCode = "en-gb"
+paginate = 50
+title = "Dans Blog"
+theme = "dantleech"
+
+[frontmatter]
+date = [ "date" ]
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[permalinks]
+posts = "/blog/:year/:month/:day/:slug/"
+categories = "/blog/categories/:slug/"
+
+[module.imports]
+path = "hugo-atom-feed"
+
+[[module.mounts]]
+source = "content"
+target = "content"
+
+[[module.mounts]]
+source = "static/images"
+target = "assets/images"
+
+[[module.mounts]]
+source = "static"
+target = "static"
+
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "data"
+target = "data"
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "i18n"
+target = "i18n"
+
+[[module.mounts]]
+source = "archetypes"
+target = "archetypes"
+
+[outputs]
+home = [ "HTML", "RSS", "ATOM" ]
