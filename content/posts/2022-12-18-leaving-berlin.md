@@ -2,6 +2,7 @@
 title: Leaving Berlin
 categories: [berlin]
 date: 2022-12-18
+image: /images/2022-12-18/2.jpg
 ---
 
 My apartment is in a rare state - it's tidy. I came to Berlin in 2017 with the
