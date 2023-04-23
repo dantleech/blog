@@ -28,7 +28,7 @@ be validated.
 
 > **Disclaimer**: I may have ~~stolen~~ been inspired for this idea from [PHP-CS-Fixer](https://github.com/kubawerlos/php-cs-fixer-custom-fixers/blob/main/src/Fixer/CommentedOutFunctionFixer.php#L32), but I'm sure it has been invented countless times before.
 
-In this case the `DiagnosticProvider` providers it's own "test" examples and
+In this case the `DiagnosticProvider` provides its own "test" examples and
 also assertions for validating them, below is a simplified example of the
 [MissingMethodProvider](https://github.com/phpactor/phpactor/blob/master/lib/WorseReflection/Bridge/TolerantParser/Diagnostics/MissingMethodProvider.php):
 
