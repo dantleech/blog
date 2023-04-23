@@ -1,5 +1,5 @@
 --- 
-title: Self documenting and self testing units
+title: Self-testing code units
 categories: [phpactor,php,testing]
 date: 2023-04-23
 ---
@@ -9,7 +9,7 @@ itself](https://phpactor.readthedocs.io/en/master/reference/diagnostic.html)
 
 In Phpactor there are lots of _units_ of code which add a category of
 functionality. One such examples is a _Diagnostic Provider_. Diagnostic
-providers provide feedback about your code:
+providers provide diagnostics which provide feedback about your code:
 
 ![diagnostic](/images/2023-04-23/diagnostic.png)
 *a diagnostic being shown in Neovim*
@@ -109,3 +109,8 @@ This means:
 Currently I have only implemented this approach for diagnostics in Phpactor,
 but hope to extend it to other similar units to increase the quality and
 accuracy of the documentation while also reducing the maintenance overhead.
+
+The code for generating the documentation is a bit clunky and could be
+improved and I'm unsure yet as to how much the concept can be _generalized_,
+but even if it takes an hour or two to write the generator, it's time well
+invested as it cuts the time required to implement new code units in half.
