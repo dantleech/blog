@@ -1,6 +1,6 @@
 --- 
 title: Self documenting and self testing units
-categories: [phpactor,php]
+categories: [phpactor,php,testing]
 date: 2023-04-23
 ---
 
