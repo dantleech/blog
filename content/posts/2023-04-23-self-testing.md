@@ -101,7 +101,7 @@ This means:
 
 - The documentation is _necessarily_ accurate.
 - The code examples _work_ because they are tested.
-- We can use the documentation in the class "comment" for the any prose
+- We can use the documentation in the class docblock for the any prose
   documentation required.
 
 ## Further Work
