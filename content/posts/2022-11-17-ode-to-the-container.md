@@ -35,7 +35,7 @@ package.
 The Phpactor Container is simple:
 
 ```php
-$container->register(Foo::class, function (Container $container) {
+$container->register(MyService::class, function (Container $container) {
     return new MyService($container->get(DependencyOne::class));
 });
 ```
@@ -45,7 +45,7 @@ $container->register(Foo::class, function (Container $container) {
 It's got you:
 
 ```php
-$container->register(Foo::class, function (Container $container) {
+$container->register(MyService::class, function (Container $container) {
     return new MyService($container->getParameter('foo.bar'));
 });
 ```
@@ -115,7 +115,7 @@ class MyExtension implements Extension {
 ```
 
 {{< callout >}}
-**That tag concpet looks alot like Symfony**
+**That tag concept looks alot like Symfony**
 
 Yes it does doesn't it.
 {{< /callout >}}
