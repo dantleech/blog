@@ -18,7 +18,7 @@ Riding bike with much equipment over long distances with tent and painful.
 - **2014**: France (?), Italy, Switzerland, Austria, Germany, Austria...
 - **2013**: [Spain, Portugal, France](/blog/categories/oporto2013) (blog posts restored from old database).
 - **2011**: Paris, Moroco.
-- **2010**: England, Santander, Alps.
+- **2010**: [England, Santander, Alps](/travelblog2010/frontend.php) static version of original website
 
 ![Somewhere in Turkey](/images/touring.png){.img-responsive}
 
