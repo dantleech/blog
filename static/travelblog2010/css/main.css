@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+  font-size: 12px;
+  background-color: #444444;
+}
+
+h2 {
+  color: #ff5a00;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: #004400;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+img {
+  border-style: none;
+}
+
+div {
+}
+
+
+#header {
+  padding: 0.25em;
+  font-family: sans-serif;
+  background: url(../images/header.png);
+  background-repeat: no-repeat;
+  height: 114px;
+  border-bottom-style: groove;
+}
+
+#header h1 {
+  padding: 0px;
+  margin: 0px;
+  color: #4444dd;
+  letter-spacing: 0.25em;
+}
+
+#navigation {
+  text-align: right;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#navigation ul {
+  padding: 0.25em;
+  margin-right: 1em;
+  float: right;
+  list-style: url(../images/nav_bullet.png) inside;
+}
+
+#navigation ul li {
+  vertical-align: center;
+  float: right;
+  padding-left: 1em;
+}
+
+#navigation ul #rss {
+  list-style: url(../images/rss.png) inside;
+}
+
+.content {
+  padding: 0.5em;
+}
+
+.content p {
+  text-indent: 1em;
+}
+
+.journey_list table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.journey_list table td {
+  padding: 0px 12px 0px 12px
+}
+
+.journey_list .description {
+  width: 250px;
+}
+
+.journey_list .date {
+  width: 100px;
+}
+
+.note {
+  display: none;
+  background-color: #ffffaa;
+  z-index: 9999;
+  width: 200px;
+  position: absolute;
+  padding: 1em;
+  border-style: solid;
+  border-color: #aaaaaa;
+  border-width: 1px;
+  text-align: left;
+  color: black;
+}
+
+.tag {
+  display: inline;
+  margin: 5px;
+  font-size: 10px;
+  border-style: solid;
+  border-color: #aaaa00;
+  border-width: 1px;
+  padding: 2px;
+  margin: 2px;
+  background-color: #ffffaa;
+}
+
+.tag a {
+  text-decoration: none;
+}
+
+.tag_cloud_tag {
+  letter-spacing: 0.25em;
+  padding-right: 1em;
+}
+
+.tag_cloud_wrapper {
+  margin: auto;
+}
+
+.tag_cloud {
+  text-align: center;
+  width: 80%;
+}
+
+.media_list {
+  padding: 5px;
+}
+
+.media_item {
+  float: left;
+  text-align: center;
+  margin: 1em;
+}
+
+#culture {
+  text-align: right;
+  padding: 1em;
+}
+
+#culture li {
+  display: inline;
+}
+
+#navigation {
+  height: 100px;
+}

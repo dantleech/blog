@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+    <link rel="shortcut icon" href="http://localhost:8089/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="../../../../css/smoothness/jquery-ui-1.8.5.custom.css" />
+    <script type="text/javascript" src="../../../../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../../../../js/jquery-ui.min.js"></script>
+  </head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1>Dans Velo Stats</h1>
+    </div>
+    <div id="navigation">
+      <ul>
+        <li id="rss"><a href="../../../rss.html">RSS Feed</a></li>
+        <li><a href="../../../index.html">Statistics</a></li>
+        <li><a href="../../tags.html">Media</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <h2>Media</h2>
+
+<h3>for Prades - Saint Marie sur le mer</h3>
+
+<div class="media_list">
+    
+<div class="media_item">
+    <img src="../../../../thumbs/48be3f4156dd1d874bbe17fffc3daf9c.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101014_009.jpg">[download]</a>
+  <div id="tag_list_2062">
+      <div class="ui-corner-all tag">
+      <a href="36.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/19b20a51c75f1cefa398349d9b5f5854.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101014_012.jpg">[download]</a>
+  <div id="tag_list_2076">
+      <div class="ui-corner-all tag">
+      <a href="36.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/6774d9536c6f4879804dbd2d24cc9930.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101014_004.jpg">[download]</a>
+  <div id="tag_list_2223">
+      <div class="ui-corner-all tag">
+      <a href="36.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/8f8e432d1aad31dead9c5c9308a564f2.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101014_001.jpg">[download]</a>
+  <div id="tag_list_2256">
+      <div class="ui-corner-all tag">
+      <a href="36.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/37a8a36b42abb755096dda1ecae367cb.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101014_006.jpg">[download]</a>
+  <div id="tag_list_2322">
+      <div class="ui-corner-all tag">
+      <a href="36.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/734a3f1bb3c76e2a354b88ea4b4d2c9e.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101014_002.jpg">[download]</a>
+  <div id="tag_list_2374">
+      <div class="ui-corner-all tag">
+      <a href="36.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/cc8a36024fa42829a7edbf2843de8023.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101014_005.jpg">[download]</a>
+  <div id="tag_list_2415">
+      <div class="ui-corner-all tag">
+      <a href="36.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/11ead57fe616fe750f5c28fd16da77fe.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101014_011.jpg">[download]</a>
+  <div id="tag_list_2526">
+      <div class="ui-corner-all tag">
+      <a href="36.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+  </div>
+<div style="clear: both"></div>
+
+<div id="add_tag_dialog" title="Add Tag">
+  <form action="36.html#" id="add_tag_form">
+  <table class="form">
+    <tr>
+      <th>Name</th>
+      <td><input id="add_tag_form_name" name="name"/></td>
+      <td><input type="submit" value="Add Tag"/></td>
+    </tr>
+  </table>
+  </form>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $('#add_tag_dialog').css('display', 'none');
+
+  $('.tag_delete').click(function () {
+    var delete_request = Object();
+    var tag = $(this).parent();
+    delete_request.tag_id = $(this).parent().attr('ref');
+    delete_request.media_id = $(this).parents('.media_item').attr('ref');
+
+    $.post(
+      "/frontend.php/media/deleteTag",
+      delete_request,
+      function (data) {
+        tag.remove();
+      }
+    );
+  });
+
+  $('.add_tag').click(function () {
+    var media_id = $(this).parent().parent().parent().attr('ref');
+
+    $('#add_tag_form').unbind('submit');
+    $('#add_tag_form').submit(function () {
+      $.post(
+      "/frontend.php/media/addTag?media_id=" + media_id, 
+      $(this).serializeArray(),
+      function (data) {
+        $('#add_tag_dialog').dialog("close");
+        $('#add_tag_form_name').val('');
+        $('#tag_list_' + media_id).prepend(
+          '<div class="ui-corner-all tag" ref="' + data.id + '">' + data.name + '</div>');
+      }, 'json'
+      );
+
+      return false;
+    });
+
+    $('#add_tag_dialog').dialog({ height: 100, width: 400 }).title =  'Media ADd';
+  });
+});
+</script>
+    </div>
+  </div>
+    <br/><br/><br/><br/>
+</body>
+</html>

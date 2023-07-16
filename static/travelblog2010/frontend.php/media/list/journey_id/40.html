@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+    <link rel="shortcut icon" href="http://localhost:8089/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="../../../../css/smoothness/jquery-ui-1.8.5.custom.css" />
+    <script type="text/javascript" src="../../../../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../../../../js/jquery-ui.min.js"></script>
+  </head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1>Dans Velo Stats</h1>
+    </div>
+    <div id="navigation">
+      <ul>
+        <li id="rss"><a href="../../../rss.html">RSS Feed</a></li>
+        <li><a href="../../../index.html">Statistics</a></li>
+        <li><a href="../../tags.html">Media</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <h2>Media</h2>
+
+<h3>for Marsailles - Cassis</h3>
+
+<div class="media_list">
+    
+<div class="media_item">
+    <img src="../../../../thumbs/f4ea68e4755150ab68f4c8ebe0dcfa04.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101020_005.jpg">[download]</a>
+  <div id="tag_list_2079">
+      <div class="ui-corner-all tag">
+      <a href="40.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/fb51fdd922a2df21b84a68d1876206c1.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101020_006.jpg">[download]</a>
+  <div id="tag_list_2174">
+      <div class="ui-corner-all tag">
+      <a href="40.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/dea6f9600883171650a4c759d6a1ae71.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101020_007.jpg">[download]</a>
+  <div id="tag_list_2186">
+      <div class="ui-corner-all tag">
+      <a href="40.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/9295ec8985b60f3dbe50f86f9b094cce.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101020_002.jpg">[download]</a>
+  <div id="tag_list_2198">
+      <div class="ui-corner-all tag">
+      <a href="40.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/90be81e72e0bbbf87c4b3aa1743440f7.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101020_004.jpg">[download]</a>
+  <div id="tag_list_2303">
+      <div class="ui-corner-all tag">
+      <a href="40.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+    
+<div class="media_item">
+    <img src="../../../../thumbs/293932fab8a6e2346c7095f98e83fbd0.jpg" /><br/>
+    00:00:00 : <a href="../../../../media/IMG20101020_003.jpg">[download]</a>
+  <div id="tag_list_2485">
+      <div class="ui-corner-all tag">
+      <a href="40.html#" class="add_tag">+</a>
+    </div>
+  </div>
+</div>
+  </div>
+<div style="clear: both"></div>
+
+<div id="add_tag_dialog" title="Add Tag">
+  <form action="40.html#" id="add_tag_form">
+  <table class="form">
+    <tr>
+      <th>Name</th>
+      <td><input id="add_tag_form_name" name="name"/></td>
+      <td><input type="submit" value="Add Tag"/></td>
+    </tr>
+  </table>
+  </form>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $('#add_tag_dialog').css('display', 'none');
+
+  $('.tag_delete').click(function () {
+    var delete_request = Object();
+    var tag = $(this).parent();
+    delete_request.tag_id = $(this).parent().attr('ref');
+    delete_request.media_id = $(this).parents('.media_item').attr('ref');
+
+    $.post(
+      "/frontend.php/media/deleteTag",
+      delete_request,
+      function (data) {
+        tag.remove();
+      }
+    );
+  });
+
+  $('.add_tag').click(function () {
+    var media_id = $(this).parent().parent().parent().attr('ref');
+
+    $('#add_tag_form').unbind('submit');
+    $('#add_tag_form').submit(function () {
+      $.post(
+      "/frontend.php/media/addTag?media_id=" + media_id, 
+      $(this).serializeArray(),
+      function (data) {
+        $('#add_tag_dialog').dialog("close");
+        $('#add_tag_form_name').val('');
+        $('#tag_list_' + media_id).prepend(
+          '<div class="ui-corner-all tag" ref="' + data.id + '">' + data.name + '</div>');
+      }, 'json'
+      );
+
+      return false;
+    });
+
+    $('#add_tag_dialog').dialog({ height: 100, width: 400 }).title =  'Media ADd';
+  });
+});
+</script>
+    </div>
+  </div>
+    <br/><br/><br/><br/>
+</body>
+</html>
