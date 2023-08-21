@@ -137,5 +137,8 @@ though it was an easy one geographically.
 The Crêperie was closed, but there was a restaurant on the other side of the
 lake, where I got an OK burger and chips and beer for €18.50 which is a bit
 more than I budgeted for as I still have fond memories of my large beer and
-vegetarian Crêpe which cost just €7.50 a few days ago. Can't win them all.
+vegetarian Crêpe which cost just €8.50 a few days ago. Can't win them all.
+
+![burger](/images/spain2023/0821/009.jpg)
+*Vegeburger*
 
