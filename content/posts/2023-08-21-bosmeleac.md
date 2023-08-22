@@ -2,8 +2,8 @@
 title: "Day 9: Bosmeleac"
 categories: [spain2023]
 date: 2023-08-21
-distance: 110
-time: 6h
+distance: 116
+time: 6h30m
 image: images/spain2023/0821/001.jpg
 draft: false
 ---
@@ -140,5 +140,5 @@ more than I budgeted for as I still have fond memories of my large beer and
 vegetarian Crêpe which cost just €8.50 a few days ago. Can't win them all.
 
 ![burger](/images/spain2023/0821/009.jpg)
-*Vegeburger*
+*Vnegeburger*
 
