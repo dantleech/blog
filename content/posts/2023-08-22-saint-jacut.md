@@ -127,7 +127,7 @@ getting any sleep tonight, but anyway, good sleep or not, time continues.
 
 After chatting with my neighbors, who turned out to be quite friendly, I
 headed into town to eat, not finding a suitable restaurant I sat at a fancy
-Creperie "The beers, they are 50cl? 33cl" "Non messieur, 25cl" oh well. It was
+Creperie "The beers, they are 50cl? 33cl?" "Non messieur, 25cl" oh well. It was
 a fancy Crepe, and I started writing this blog post with it, but due to the
 fact that my 25cl beer was gone rather quickly and I was taking up a precious
 table I decided to leave, and on my way back I saw what I was looking for, aj
