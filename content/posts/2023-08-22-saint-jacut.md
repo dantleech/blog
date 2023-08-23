@@ -11,12 +11,16 @@ draft: false
 ![map](/images/spain2023/0822/map.png)
 *Map [strava]()*
 
-I'm not sitting in "Le Petite Creperie" in St-Jacut-de-la-mer. They don't have
+I'm now sitting in "Le Petite Creperie" in St-Jacut-de-la-mer. They don't have
 50cl beers, and only have 25cl, it's going to be an expensive crepe. The
 campsite was a mistake, there are so many tents it's rather more like a
 refugee camp than a campsite (to be fair I think it's also a refugee camp).
 I'm installed in close proximity (very close proximity) with a cycling couple
 from Brighton.
+
+--- 
+
+_yesterday..._
 
 The big man asked me "are you of the camping" I answed "yes" then thinking
 about the question, "no, I make camping, but I'm not of the camping" "ah well,
@@ -69,7 +73,7 @@ with my hands softly, suffering only from a slightly tender toe.
 ![mer](/images/spain2023/0822/004.png)
 *La Mer*
 
-This was before I had a beer, which I purchased (I treated myself to a Blone
+This was before I had a beer, which I purchased (I treated myself to a Blonde
 Leff) along with a baguette at a supermarket, I then walked the bike to the
 promenade and wheeled it to vacant bench, carefully propped up the bike behind
 the bench (oh I miss my kickstand) grabbed my knife and my Laughing Cow cheese
@@ -96,14 +100,16 @@ rotate it backwards to look cool.
 
 There were some long descents today. The previous evening I had succeeded in
 transferring my music (albeit without my knowledge) and spent time listening
-to David Bowie and Leonard Cohens final albums, getting lost in the words
-until I realised I was going down a hill. Realsing you are going down a hill
-is always a bit concerning, especiailly if you are a significant down it, as
+to David Bowie and Leonard Cohen (their final albums), getting lost in the words
+until I realised I was going down a hill.
+
+Realising you are going down a hill
+is always a bit concerning, especially if you are a significant way down it -
 often it could be the _wrong_ hill. Fortunately I only went down the right
 hills today.
 
 ![mer](/images/spain2023/0822/005.png)
-*Le Batteau (in town in which I found no food)*
+*Les Batteaux (in town in which I found no food)*
 
 For some reason I thought I was going to be in St. Malo tonight, but it seems
 I didn't take in to consideration a large swath of land between here and
