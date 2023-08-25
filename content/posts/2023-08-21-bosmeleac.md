@@ -112,7 +112,7 @@ reached under and felt that it was swollen, after thinking for a bit and later
 googling I think it's a swollen gland, probably from over exertion, possibly
 because of an infection, but I feel otherwise fine and expect it to go away.
 
-The knee didn't cause any further trouble today, in fact if anything the right
+The left knee didn't cause any further trouble today, in fact if anything the right
 knee was threatening to play up, which  is good I guess. There was one very
 steep incline today, which I chose to walk up to be on the cautious side.
 
