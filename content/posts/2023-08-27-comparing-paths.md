@@ -96,7 +96,7 @@ the black route has a **similarity score** of `0.76` against the green route.
 
 Dorchester and Weymouth are clearly not the same route giving a similarity
 score of `481`, so we could say that if the similarity score is less than
-`1.0` then we have a match! This seems like a good approach
+`1.0` then we have a match! This seems like a good approach to start with.
 
 However, as a **human** I was able to draw some arbitrary lines to geographically
 similar points, but unfortunately making the computer do this would be
@@ -123,10 +123,10 @@ Now we're getting somewhere, the number of segments will contribute to the
 accuracy of the matching. The more segments the greater the matching
 precision.
 
-As a human I would obviously calculate the length of the path, divide it by the desired number
+As a human I would _obviously_ calculate the length of the path, divide it by the desired number
 of segments to get the segment length and then at each length interval add a
-new coordinate... or... wait there are more problems than answers in that
-solution:
+new coordinate... or... wait **there are more problems than answers in that
+solution**:
 
 - How to calculate the length?
 - How to determine what the new coordinates should be?
@@ -134,7 +134,7 @@ solution:
 
 ### Route Length
 
-I have been drawing "analogue" routes, but in reality the route is a series of
+I have been drawing curvy "analogue" routes, but in reality the route is a series of
 straight lines:
 
 ![routes](/images/2023-08-27/routes8.png)
