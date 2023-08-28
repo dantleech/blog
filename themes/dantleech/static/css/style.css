@@ -976,6 +976,20 @@ blockquote{
 .cv section {
 }
 
+table {
+  layout: fixed;
+}
+
+table th, td {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+table th {
+  background-color: #eee;
+}
+
 .visited\:text-gray-500:visited{
   color: rgb(107 114 128 );
 }
@@ -1011,4 +1025,3 @@ blockquote{
     display: block;
   }
 }
-
