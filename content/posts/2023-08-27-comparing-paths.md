@@ -5,8 +5,6 @@ date: 2023-08-27
 draft: false
 ---
 
-(this post is a WIP)
-
 [Strava](https://www.strava.com) is a service that allows you to record,
 analyze and share your sporting activities.  [Strava RS](https://github.com/dantleech/strava-rs) is a TUI (terminal user
 interface) client for Strava that I'm working on. It provides an offline,
@@ -191,7 +189,7 @@ ends. Surely the only way to do this is with a **red carpet**:
 As preparation:
 
 - Ensure you have a very long (infinitely so if possible) **red carpet**.
-- Cut the carpet to the length of the polyline
+- Cut the carpet to the **length** of the route.
 - Cut the carpet into 100 strips of equal length (increase number of strips
   for accuracy).
 - Walk up to the first coordinate and roll out a strip of carpet
@@ -199,10 +197,10 @@ As preparation:
 
 Then:
 
-- Does the carpet extends further than the next coordinate?
+- Does the carpet extend further than the next coordinate?
 - If so cut it at the intersection and place the remaining strip in the
   direction of the next coordinate.
-- Otherwise _calculate`[*]`_ the **new co-ordinates** based on the direction of the old
+- Otherwise **calculate`[*]`** the new co-ordinates based on the direction of the old
   segment and the length of the carpet from the last intersection and **write
   them down**.
 - Repeat.
@@ -240,8 +238,8 @@ can directly compare them:
 | 2.2, 0.3  | 2.1, 0.2  |
 
 
-To do this we need to determine the length between the carpet points
-and sum them up:
+To do this we need to determine the distance/length between the adjacent carpet co-ordinates
+(using Pythagoras again) and sum them up:
 
 ```text
 0.38 = sum(
