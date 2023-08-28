@@ -146,12 +146,12 @@ straight lines:
 All we need to do is determine the length of each straight line. But how?
 Pythagoras to the rescue!
 
-The [Pythagorean Theorum](https://en.wikipedia.org/wiki/Pythagorean_theorem)
+The [Pythagorean Theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem)
 allows us to determine the length of hypotenuse in a right-angled triangle if
 we have the lengths of the sides with the formular: `c = √(a² + b²)` (`c` is the
 square root of the sum of `a` multiplied by `a` and `b` multiplied by `b`).
 
-{{< image "/images/2023-08-27/routes9.png" Resize "300x" "Pythagoreum Theorem" >}}
+{{< image "/images/2023-08-27/routes9.png" Resize "300x" "Pythagorean Theorem" >}}
 
 Our route can be represented as a bunch of triangles:
 
@@ -179,8 +179,8 @@ coordinates as a triangle and determining the length of the sides:
 - the length of the line between the first and second coordinates is then
   `length = √(0.75² + 1.1²) = 1.3313`
 
-So now we can just calculate the length for each segment and sum them all to
-provide a length.
+So now we can calculate the length for each segment and sum them all to
+provide a **length**.
 
 ## Plotting the New Coordinates
 
@@ -210,7 +210,8 @@ Then:
 {{< image "/images/2023-08-27/flow1.png" Resize "800x" "The only way to do this (a flowchart)">}}
 
 Having finished you should have a list of the **normalized** co-ordinates, but
-unfortuantely there was a `[*]` about calculating the co-ordinates.
+unfortunately there was a `[*]` as we didn't explain how to calculate the new
+co-ordinates...
 
 ## [*] Calculating the New Co-ordinates
 
