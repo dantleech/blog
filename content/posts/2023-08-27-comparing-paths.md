@@ -79,7 +79,7 @@ Weymouth Parkruns:
 
 {{< image "/images/2023-08-27/routes2.png" Resize  "500x" "Three similar routes overlaid on top of one another" >}}
 
-As a human we can clearly see they are the same:
+As a human we recognise them as the same "route":
 
 - They share the same geographical area.
 - The paths are very close together.
