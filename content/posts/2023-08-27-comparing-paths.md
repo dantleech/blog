@@ -11,8 +11,8 @@ interface) client for Strava that I'm working on. It provides an offline,
 keyboard driven, interface to Strava using data collected fro the [Strava
 API](https://developers.strava.com/docs/reference/).
 
-One of the feature the Strava app provides is "Matched Routes": if
-the activity you performed _closely matches_ the route of any previous
+One of the feature the Strava app provides is **Matched Routes**. If
+an activity you performed _closely matches_ the route of any previous
 activities, you can list and compare your previous performances.
 
 In Strava this is a premium feature. I wanted to implement this feature in
@@ -23,14 +23,14 @@ I had no idea how to answer this question so, after googling and not finding
 anything was applicable (or if it was, I didn't understand), I decided to
 figure it out by myself.
 
-> **disclaimer**: there may well be better ways to solve this problem, my
-> solution will be blindingly obvious to some, it's possibly also wrong. But
-> hey, I got a new graphics tablet and wanted to try it out.
+> **Disclaimer**: there may well be better ways to solve this problem, my
+> solution will be blindingly obvious to some, it's possibly also wrong. But,
+> well, I got a new graphics tablet and wanted to try it out.
 
 ## The Problem
 
 Strava provides the routes as a series of
-[longitude/latitude](https://en.wikipedia.org/wiki/Geographic_coordinate_system) coordinates encoded using the [Google Polyline Algorithm](https://developers.google.com/maps/documentation/utilities/polylinealgorithm). Once decoded you have:
+[latitude/longitude](https://en.wikipedia.org/wiki/Geographic_coordinate_system) coordinates encoded using the [Google Polyline Algorithm](https://developers.google.com/maps/documentation/utilities/polylinealgorithm). Once decoded you have:
 
 ```text
 -2.44698, 50.62649
@@ -106,14 +106,14 @@ compare?
 
 ## Normalisation
 
-{{< image "/images/2023-08-27/routes6.png" Resize "550x" "Two similar routes with different number of co-ordinates" >}}
+{{< image "/images/2023-08-27/routes6.png" Resize "550x" "Two similar routes with different number of coordinates" >}}
 
 Route A has 20 coordinates and route B has 15 coordinates (vastly simplified).
 
 We can _normalize_ the routes to have the same number of coordinates, we can
 then score each coordinate against its counterpart:
 
-{{< image "/images/2023-08-27/routes7.png" Resize "500x" "Normalized routes with same number of co-ordinates" >}}
+{{< image "/images/2023-08-27/routes7.png" Resize "500x" "Normalized routes with same number of coordinates" >}}
 
 So we can now summarise the proposal
 
@@ -200,20 +200,20 @@ Then:
 - Does the carpet extend further than the next coordinate?
 - If so cut it at the intersection and place the remaining strip in the
   direction of the next coordinate.
-- Otherwise **calculate`[*]`** the new co-ordinates based on the direction of the old
+- Otherwise **calculate`[*]`** the new coordinates based on the direction of the old
   segment and the length of the carpet from the last intersection and **write
   them down**.
 - Repeat.
 
 {{< image "/images/2023-08-27/flow1.png" Resize "800x" "The only way to do this (a flowchart)">}}
 
-Having finished you should have a list of the **normalized** co-ordinates, but
+Having finished you should have a list of the **normalized** coordinates, but
 unfortunately there was a `[*]` as we didn't explain how to calculate the new
-co-ordinates...
+coordinates...
 
 ## [*] Calculating the New Co-ordinates
 
-To determine the new co-ordinates we can determine the ratio (or percentage)
+To determine the new coordinates we can determine the ratio (or percentage)
 of the segment that is occupied by the slice of **red carpet**.
 
 - Calculate the remaining length `c` from the last known carpet-coordinate to the end of the
@@ -223,12 +223,12 @@ of the segment that is occupied by the slice of **red carpet**.
 
 - Divide the carpet slice length `sl` by the remaining length `c` to obtain the
   ratio or "percentage" (`ratio = sl / c`)
-- Multiple the last known co-ordinates by the resulting ratio to obtain the
-  new co-ordinates: `xᵢ₊₁ = xᵢ * ratio` and `yᵢ₊₁ = yᵢ * ratio`
+- Multiple the last known coordinates by the resulting ratio to obtain the
+  new coordinates: `xᵢ₊₁ = xᵢ * ratio` and `yᵢ₊₁ = yᵢ * ratio`
 
 ## Scoring
 
-Now we have two routes with the same number of co-ordinates and we
+Now we have two routes with the same number of coordinates and we
 can directly compare them:
 
 | Route A   | Route B   |
@@ -238,7 +238,7 @@ can directly compare them:
 | 2.2, 0.3  | 2.1, 0.2  |
 
 
-To do this we need to determine the distance/length between the adjacent carpet co-ordinates
+To do this we need to determine the distance/length between the adjacent carpet coordinates
 (using Pythagoras again) and sum them up:
 
 ```text
