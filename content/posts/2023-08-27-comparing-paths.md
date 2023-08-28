@@ -3,6 +3,7 @@ title: "Comparing Paths"
 categories: [strava]
 date: 2023-08-27
 draft: false
+toc: true
 ---
 
 [Strava](https://www.strava.com) is a service that allows you to record,
@@ -134,7 +135,7 @@ solution**:
 - How to determine what the new coordinates should be?
 
 
-### Route Length
+## Route Length
 
 I have been drawing curvy "analogue" routes, but in reality the route is a series of
 straight lines:
