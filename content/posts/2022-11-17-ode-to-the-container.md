@@ -190,7 +190,9 @@ $foo = $container->get(Acme\Foo::class);
 
 So far so good. But (don't ask me why) what if I wanted to delegate to another
 container? Use environment variables? Do weird shit? Maybe it's possible, but is it
-simple?
+simple? The answer is no. No it's not.
+
+The previous example can be written like this with the Phpactor container:
 
 ```php
 $container->register(
