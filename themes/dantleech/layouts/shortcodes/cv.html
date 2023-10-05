@@ -15,7 +15,7 @@
             {{ end }}
             </div>
             <div style="margin-left: auto">
-                {{ $image := resources.Get "/images/me-small2.jpg" }}
+                {{ $image := resources.Get "/images/me-small3.jpg" }}
                 {{ $image = $image.Fit "300x300" }}
                 <img src="{{ $image.RelPermalink }}"/>
             </div>
@@ -23,10 +23,11 @@
     </section>
     <section>
         <h2>Background</h2>
-        <p>16 years experience in software development with a focus on PHP
-        applications and libraries. My time has been split between writing
-        open source projects and involvement and leadership of projects in
-        the areas of e-commerce and content management.</p>
+        <p>17 years experience in software development with a focus on PHP
+        applications and libraries but can adapt to other languages. My time
+        has been split between writing open source projects and involvement and
+        leadership of projects in the areas of e-commerce and content
+        management.</p>
 
         <p>I am member of the PHP and Symfony community and I give talks
         at work, meetups and conferences.</p>
@@ -62,7 +63,17 @@
                 <td class="whitespace-nowrap pr-4 pl-4 border align-top">{{ .startDate }} &gt; {{ if isset . "endDate" }}{{ .endDate }}{{ else }}present{{ end}}</td>
                 <td class="pr-4 pl-4 border align-top"><a href="{{ .url }}">{{ .name }}</a></td>
                 <td class="pr-4 pl-4 border align-top">{{ .position }}</td>
-                <td class="pr-4 pl-4 border align-top">{{ .summary }}</td>
+                <td class="pr-4 pl-4 border align-top">
+                    {{ .summary }}
+                    {{ if .highlights }}
+                    </br></br>
+                        {{ range .highlights }}
+                        <p>
+                        🌟 {{ . }}
+                        </p>
+                        {{ end }}
+                    {{ end }}
+                </td>
             </tr>
         {{ end }}
         </table>

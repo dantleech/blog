@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Daniel Leech",
-        "label": "Techincal Team Lead / Senior Software Engineer",
+        "label": "Technical Team Lead / Senior Software Engineer",
         "image": "/images/me_small2.jpg",
         "email": "daniel at dantleech dot com",
         "url": "www.dantleech.com",
@@ -9,12 +9,22 @@
         "dob": "1980",
         "nationality": "British",
         "location": {
-            "address": "Behaimstraße, 41",
-            "postalCode": "13086",
-            "city": "Berlin",
-            "countryCode": "DE"
+            "address": "Flat 3, 44 Rodwell Road",
+            "postalCode": "DT4 8QU",
+            "city": "Weymouth",
+            "countryCode": "UK"
         },
         "profiles": [
+            {
+                "network": "Mastodon",
+                "username": "@dantleech@fosstodon.org",
+                "url": "https://fosstodon.org/@dantleech"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "daniel-leech-a32851252",
+                "url": "https://www.linkedin.com/in/daniel-leech-a32851252"
+            },
             {
                 "network": "Twitter",
                 "username": "@dantleech",
@@ -29,13 +39,28 @@
     },
     "work": [
         {
+            "name": "AltoVita",
+            "position": "Staff Engineer",
+            "url": "https://altovita.com",
+            "startDate": "2023",
+            "endDate": "2023",
+            "summary": "Working to support a large team of software engineers",
+            "highlights": [
+                "Migrating services to Kubernetes and AWS",
+                "Providing support and consultancy for developers",
+                "Architecting a multi-stage import pipeline"
+            ]
+        },
+        {
             "name": "Inviqa",
             "position": "Senior Developer / Team Lead",
             "url": "https://inviqa.com",
             "startDate": "2016",
+            "endDate": "2023",
             "summary": "Being involved in many projects as either a Senior Developer and/or Team Lead",
             "highlights": [
-                "Organizing in-house community events and giving talks"
+                "Organizing in-house community events and giving talks",
+                "Working on a variety of e-commerce and CMS projects (see below)"
             ]
         },
         {
@@ -46,7 +71,7 @@
             "endDate": "2016",
             "summary": "Developing the Sulu CMS",
             "highlights": [
-                "Developing the PHPCR based document manager"
+                "Developed a PHPCR based ORM"
             ]
         },
         {
@@ -57,8 +82,8 @@
             "endDate": "2014",
             "summary": "Building and managing multi-tenancy website platform",
             "highlights": [
-                "Building a multi-tenancy CMS from scratch with Symfony 2.0",
-                "Introducing an effective agile process based on Scrum"
+                "Built a multi-tenancy CMS from scratch with Symfony 2.0",
+                "Introduced an effective agile process based on Scrum"
             ]
         },
         {
@@ -69,6 +94,7 @@
             "endDate": "2010",
             "summary": "Building and maintaining end-user hosting and VoIP control panels and sign-up processes",
             "highlights": [
+                "Introduced unit testing and a web framework (Symfony 1)"
             ]
         }
     ],
@@ -92,8 +118,9 @@
                 "Software Design",
                 "Automated Testing",
                 "Static Analysis",
-                "Planning and breaking down work",
-                "Pairing"
+                "Pairing",
+                "Planning and delivery",
+                "Board Gardening"
             ]
         },
         {
@@ -151,7 +178,8 @@
             "name": "Programming",
             "keywords": [
                 "Open source",
-                "PHP"
+                "PHP",
+                "Rust"
             ]
         },
         {
@@ -163,6 +191,18 @@
         }
     ],
     "openSourceProjects": [
+        {
+            "name": "Strava RS",
+            "description": "TUI for Strava",
+            "role": "Author and maintainer",
+            "keywords": [
+                "Rust",
+                "Strava",
+                "TUI"
+            ],
+            "startDate": "2022",
+            "url": "https://github.com/dantleech/strava-rs"
+        },
         {
             "name": "Phpactor",
             "description": "PHP Language Server",
