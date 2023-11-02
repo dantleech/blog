@@ -114,10 +114,11 @@
         {
             "name": "Main",
             "keywords": [
-                "PHP",
                 "Software Design",
                 "Automated Testing",
                 "Static Analysis",
+                "PHP",
+                "Go",
                 "Pairing",
                 "Planning and delivery",
                 "Board Gardening"
@@ -126,11 +127,9 @@
         {
             "name": "Incidental",
             "keywords": [
-                "Go",
                 "Docker",
                 "Kubernetes",
                 "Linux",
-                "VIM",
                 "Command line",
                 "Rust",
                 "NodeJS",
@@ -192,6 +191,17 @@
     ],
     "openSourceProjects": [
         {
+            "name": "PHP-TUI",
+            "description": "TUI framework and supporting libraries based on Rust/Golang ecosystem",
+            "role": "Author and maintainer",
+            "keywords": [
+                "TUI",
+                "PHP"
+            ],
+            "startDate": "2023",
+            "url": "https://github.com/php-tui"
+        },
+        {
             "name": "Strava RS",
             "description": "TUI for Strava",
             "role": "Author and maintainer",
@@ -210,6 +220,7 @@
             "keywords": [
                 "Async",
                 "PHP",
+                "Static Analysis",
                 "Parsers"
             ],
             "startDate": "2015",
@@ -241,6 +252,7 @@
             "description": "Gherkin static analyser",
             "role": "Author and maintainer",
             "keywords": [
+                "Static Analysis",
                 "PHP",
                 "BDD"
             ],
@@ -270,12 +282,12 @@
                 "Online Ordering System"
             ],
             "keywords": [
-                "Apollo",
                 "Go",
-                "Typescript",
-                "Symfony (Sylius)",
                 "Kubernetes",
-                "AWS"
+                "AWS",
+                "Apollo",
+                "Typescript",
+                "Symfony (Sylius)"
             ],
             "startDate": "2021/2",
             "endDate": "2021",
@@ -289,6 +301,7 @@
                 "refactored order management system"
             ],
             "keywords": [
+                "Ecommerce",
                 "Sylius",
                 "Symfony"
             ],
@@ -303,7 +316,9 @@
             "highlights": [
             ],
             "keywords": [
-                "Spryker"
+                "Ecommerce",
+                "Spryker",
+                "Typescript"
             ],
             "startDate": "2019",
             "endDate": "2019",
