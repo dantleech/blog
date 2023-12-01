@@ -21,6 +21,4 @@ Riding bike with much equipment over long distances with tent and painful.
 - **2011**: Paris, Moroco.
 - **2010**: [England, Santander, Alps](/travelblog2010/frontend.php) static version of original website
 
-![Somewhere in Turkey](/images/touring.png){.img-responsive}
-
-<a class="twitter-timeline" href="https://twitter.com/biketourdan?ref_src=twsrc%5Etfw">Tweets by biketourdan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+![Somewhere in Turkey](/images/touring.png)
