@@ -9,7 +9,7 @@ Riding bike with much equipment over long distances with tent and painful.
 
 ## Tours
 
-- **2023**: Brittany [Weymouth to Brittany](/blog/categories/spain2023) *ongoing*
+- **2023**: Brittany [Weymouth to Brittany](/blog/categories/spain2023)
 - **2022**: Ireland [Scotland to Weymouth](/blog/categories/ireland2022)
 - **2020**: Scotland [Germany to Scotland](/blog/categories/scotland2020)
 - **2019**: Baltic [Berlin to Helsinki](/blog/categories/helsinki2019)
