@@ -4,6 +4,7 @@ categories: [strava]
 date: 2023-08-27
 draft: false
 toc: true
+image: /images/2023-08-27/finish.png
 ---
 
 [Strava](https://www.strava.com) is a service that allows you to record,
