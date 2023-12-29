@@ -47,7 +47,7 @@ years that is and maintain my current position of privilege in the economy.
 
 There was one property which I took my interest. It was the top flat in an old
 victorian house conversion, which had a view over Weymouth Bay. After some
-debating I put in an offer at the asking price and that was the only house I
+debating I put in an offer at the asking price and that was the only flat I
 looked at.
 
 ![view](/images/2023-12-29/2.jpg)
@@ -88,7 +88,8 @@ lost it. After that I decided not to buy anymore, and haven't smoked for the
 past 6 months.
 
 My drinking has started again, although it's been stable, and I drink no more
-than a litre of beer a day, usually taking a day off each week.
+than a litre of beer a day, usually taking a day off each week and have
+probably been "drunk" only a few times this year.
 
 ![view](/images/2023-12-29/3.jpg)
 *Sunset on the coast path up to Moonfleet*
@@ -119,11 +120,14 @@ sell before leaving Berlin. I ordered a Clavinova, it took over a month to
 arrive.
 
 The company rented out the Sky Garden in London for an event. It was great to
-travel up and meet the West Europeans of the company and enjoy the spectacular
+travel up and meet the West Europeans(*) of the company and enjoy the spectacular
 views from the skyscraper.
 
 ![view](/images/2023-12-29/4.jpg)
 *looking onto the Thames from the Sky Garden*
+
+[*] there were a number of east-europeans that were unable to travel due to
+the ongoing invasion situation.
 
 ## August: Redundancy
 
