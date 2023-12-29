@@ -43,7 +43,7 @@ mortgage as soon as possible.
 Getting the mortgage was relatively easy via. the use of a no-fee mortgage
 advisor. The mortgage rate was about 5% however, but I figured if I could pay
 off my mortgage in 5 years it wouldn't matter. If I could keep my job for 5
-years that is.
+years that is and maintain my current position of privilege in the economy.
 
 There was one property which I took my interest. It was the top flat in an old
 victorian house conversion, which had a view over Weymouth Bay. After some
