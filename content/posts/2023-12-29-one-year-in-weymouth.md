@@ -62,8 +62,16 @@ The contract on my holiday let ran out and I was homeless! Or, I guess, my
 home was where I lay my hat and I stayed with friends and family. I stayed in
 Scotland, London, Portsmouth and Berlin.
 
+While staying with family in Lee-on-Solent I attended a functional fitness
+session, and when I returned to Weymouth I joined a gym and went regularly
+until I went cycling, then I didn't return and cancelled my membership 2
+months later.
+
+At this point I also promised to run the Portsmouth Great South Run with my
+cousin in October!
+
 ![view](/images/2023-12-29/9.jpg)
-*lee-on-solent*
+*Lee-on-solent*
 
 ## April: New Job
 
@@ -74,7 +82,7 @@ wider picture, and trying to find ways to improve the architecture and the
 working enviornments, and adding lots of new emojis and channels to Slack.
 
 ![view](/images/2023-12-29/8.jpg)
-*working remotely in scotland during an internet outage*
+*working remotely in Scotland with Max and Rocket during an internet outage*
 
 ## No Smoking
 
@@ -120,19 +128,19 @@ sell before leaving Berlin. I ordered a Clavinova, it took over a month to
 arrive.
 
 The company rented out the Sky Garden in London for an event. It was great to
-travel up and meet the West Europeans(`*`) of the company and enjoy the spectacular
-views from the skyscraper.
+travel up and meet the western-europeans(`*`) of the company and enjoy the
+spectacular views from the skyscraper.
 
 ![view](/images/2023-12-29/4.jpg)
 *looking onto the Thames from the Sky Garden*
 
-`[*]` there were a number of east-europeans that were unable to travel due to
-the ongoing invasion situation.
+`[*]` the other half of the company were from eastern europe and were unable
+to travel due to the ongoing invasion situation.
 
 ## August: Redundancy
 
 I started the day like any other, but when the day was over I was unemployed.
-They paid me for a month after that, but for the firs time in my life I had
+They paid me for a month after that, but for the first time in my life I had
 been "let go" along with the entire team.
 
 It was quietly devastating, perhaps the hardest part was leaving all the
@@ -171,6 +179,17 @@ Software LTD.
 ![view](/images/2023-12-29/6.jpg)
 *my high resolution company logo*
 
+## October: Running Events
+
+As promised in March I ran the [Great South
+Run](https://www.greatrun.org/the-aj-bell-great-south-run-returns-to-portsmouth/)
+(10 miles) with my cousin and her friend. I managed to beat my target time,
+the very next week I ran the Weymouth 10, getting a slightly worse time but
+not feeling bad about it due to the presence of two hills on the course.
+
+![running](/images/2023-12-29/7.jpg)
+*Me with pain face coming into the final 100m of the Weymouth 10*
+
 ## Fight Club
 
 I had now been in Weymouth for almost a year, but socially I had not made much
@@ -195,8 +214,6 @@ The training sessions have been great fun and the speed sessions exhausting, I
 hope it can improve my ParkRun time from around 22:00 minutes to 21:00 this
 year with the ultimate aim being to break 20 minutes!
 
-![running](/images/2023-12-29/7.jpg)
-*Me with pain face coming into the final 100m of the Weymouth 10*
 
 ## November: PHP-TUI
 
@@ -214,6 +231,11 @@ feel like I didn't waste my time.
 
 ![phptui logo](/images/2023-11-03/phptui.png)
 *PHP-TUI lnogo*
+
+I travelled and stayed overnight in Bristol in order to give a 15 minutes talk
+at [PHPSW](https://phpsw.uk/) about PHP-TUI and hopefully drink some beer.
+Just before the talk was informed of some very heavy family news - not
+everything was great.
 
 As I was now self-employed, and reasoning that it would be good publicity in
 addition to the main benefit of meeting people and getting drink I submitted
