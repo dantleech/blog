@@ -120,13 +120,13 @@ sell before leaving Berlin. I ordered a Clavinova, it took over a month to
 arrive.
 
 The company rented out the Sky Garden in London for an event. It was great to
-travel up and meet the West Europeans(*) of the company and enjoy the spectacular
+travel up and meet the West Europeans(`*`) of the company and enjoy the spectacular
 views from the skyscraper.
 
 ![view](/images/2023-12-29/4.jpg)
 *looking onto the Thames from the Sky Garden*
 
-[*] there were a number of east-europeans that were unable to travel due to
+`[*]` there were a number of east-europeans that were unable to travel due to
 the ongoing invasion situation.
 
 ## August: Redundancy
@@ -135,7 +135,7 @@ I started the day like any other, but when the day was over I was unemployed.
 They paid me for a month after that, but for the firs time in my life I had
 been "let go" along with the entire team.
 
-It was quitely devestating, perhaps the hardest part was leaving all the
+It was quietly devastating, perhaps the hardest part was leaving all the
 people I had gotten to know over the 7 months, I don't find it easy to meet
 people, so as much as it was sad to see all my professional efforts wasted, it
 was leaving the people that hurt.
@@ -148,7 +148,7 @@ without pissing anybody off. I was free and I could buy a new laptop.
 
 ## September: Searching
 
-On the other side my job was _INSANELY STRESSFULL_. I had become a firefighter
+On the other side my job was _INSANELY STRESSFUL_. I had become a firefighter
 and was supporting an AWS migration, while most interactions were good, there
 were some stressful interpersonal relations also. The company was investing
 more and more in feature development and driving full speed ahead.
@@ -156,7 +156,7 @@ more and more in feature development and driving full speed ahead.
 A week afterwards I was still waking in the morning with my mind **churning** problems that no longer concerned me.
 
 I started looking for jobs, applying all over the place, and got many
-invitations and recommendations, and pointers, and recruters, etc. Finally
+invitations and recommendations, and pointers, and recruiters, etc. Finally
 there were not so many options.
 
 I failed a take-home test, which was **gutting**. I had assumed it was a formality
