@@ -178,18 +178,18 @@ progress. The other thing I had not made much progress on was my running.
 Despite running regularly, and doing the [ParkRun]() every single Saturday at
 a very uncomfortable pace I had not improved significantly.
 
-In the 90s my Dad was one of the founders of a local running club (he was [club
-champion](https://www.egdonheathharriers.com/ecc/halloffame.php) in '88, '89
-and '90). It turns out that 37 years later it's still going and has a large
-membership.
+In the late 80s my Dad was one of the founding members of a local running club
+(he was [club champion](https://www.egdonheathharriers.com/ecc/halloffame.php)
+in '88, '89 and '90). It turns out that 37 years later it's still going and
+has a large membership.
 
 I joined the Tuesday training session, and a month later joined the Thursday
 speed session too.
 
 It's been good to get out and have the opportunity to meet people, even if I'm
 one of the strange social introverts while somehow managing to appear as an
-extrovert at work. I find it hard to "act normally" and "make friends" (what
-the fuck do people talk about anyway?) but I guess it's happening slowly.
+extrovert at work. I find it hard to "**act normally**" and "**make friends**" (_what
+the fuck do people talk about anyway_?) but I it's happening slowly.
 
 The training sessions have been great fun and the speed sessions exhausting, I
 hope it can improve my ParkRun time from around 22:00 minutes to 21:00 this
