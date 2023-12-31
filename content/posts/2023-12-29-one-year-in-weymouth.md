@@ -75,6 +75,11 @@ cousin in October!
 
 ## April: New Job
 
+After seven wonderful years at Inviqa I had decided to move on, and I secured
+a new job at the end of 2022, but was happy to work through my notice period
+and hand-over the project I was leading. It was hard to leave a company that
+has been such a formative part of my life.
+
 I started my new job on the 27th of March. It was exciting, and I dived into
 the new role, trying to understand what the role was. I was one of two Staff
 Engineers. I started by working with squads on tickets before looking at the
