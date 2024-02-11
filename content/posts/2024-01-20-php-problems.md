@@ -5,7 +5,7 @@ date: 2024-01-20
 toc: false
 ---
 
-For the past month I've been keeping a list of things I encountered in PHP
+For the past months I've been keeping a list of things I encountered in PHP
 that I've found to be **problematic**, or in other words **things that piss me
 off**.
 
@@ -18,6 +18,15 @@ and for the past month I've been working on:
 - **Spryker**: A large E-Commerce project. My current day job.
 
 ## Constructors
+
+This is a strange one, yet one that bothers me. I clearly see the need for
+static constructors, but I also cringe when using them unnecessarily. Should I
+use static constructors for _everything_, a specific subset of objects or
+introduce them only when required?
+
+What's the big deal you ask? Consistency is the big deal. I don't want to have
+to type `new ` only to realise there the class is final or that there are
+static constructors.
 
 ```php
 <?php
