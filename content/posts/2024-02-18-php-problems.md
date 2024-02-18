@@ -43,7 +43,7 @@ introduce pointless indirection fo the _sake_ of consistency:
 // instantiation with the new keyword
 new Foobar(['foo1', 'foo2']);
 
-// static new with a variadic
+// static new
 Foobar::new(['foo1', 'foo2']);
 
 // dedicated constructor with variadic
