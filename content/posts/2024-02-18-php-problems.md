@@ -18,9 +18,8 @@ on the things I'm working on, and for the past month I've been working on:
 - [CLI Parser](https://github.com/php-tui/cli-parser): me messing about creating a new CLI argument parser
 - [Work Project](#): large E-Commerce project based on Spryker - my current day contract.
 
-There are lots of things I **like** in PHP, and I hope the language continues to
-evolve but the fact is that sometimes it's a joy to develop in other
-languages and it's certainly **educational**.
+There are lots of things I **like** in PHP and some of the points that follow
+would annoy me in other languages too!
 
 ## Constructors
 
