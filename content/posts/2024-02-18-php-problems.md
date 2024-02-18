@@ -349,7 +349,7 @@ Oops, can't use variadics in promoted properties. Why!?! See [generics](https://
 
 ## Iterator to Array: Preserve Keys
 
-I've get bitten by this over and again
+I get bitten by this over and again
 
 ```php
 <?php
