@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+div.callout a {
+    @apply text-blue-100;
+}
+
 body {
     @apply font-serif;
 }
