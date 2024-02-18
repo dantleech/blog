@@ -349,7 +349,8 @@ Oops, can't use variadics in promoted properties. Why!?! See [generics](https://
 
 ## Iterator to Array: Preserve Keys
 
-I get bitten by this over and again
+I get bitten by this over and again,  `yield from` to `yield` from
+another generator:
 
 ```php
 <?php
@@ -363,9 +364,10 @@ function two() {
 }
 
 $bars = iterator_to_array(one());
+var_dump($bars);
 ```
 
-Gives:
+Shows:
 
 ```php
 array(1) {
@@ -374,7 +376,7 @@ array(1) {
 }
 ```
 
-And t
+And then passing the second argument as `false`:
 
 ```php
 <?php
@@ -383,7 +385,7 @@ And t
 $bars = iterator_to_array(one(), false);
 ```
 
-Gives:
+I get answer I was expecting:
 
 ```php
 array(2) {
