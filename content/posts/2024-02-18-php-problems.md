@@ -280,7 +280,7 @@ types, are missing or if there are extra fields. (_it has some serious
 limitations too, and I wouldn't recommend using it in your projects_).
 
 {{< callout >}}
-**PROTIP**: Map to **[DTOs](https://en.wikipedia.org/wiki/Data_transfer_object)**. Don't use [groups](https://jmsyst.com/libs/serializer/master/cookbook/exclusion_strategies). Don't [map to entities](https://symfony.com/doc/current/forms.html#building-forms). DTOs are the correct targets for deserialization. This is not controversial.
+**PROTIP**: Map to **[DTOs](https://en.wikipedia.org/wiki/Data_transfer_object)**. Don't use [serialization groups](https://jmsyst.com/libs/serializer/master/cookbook/exclusion_strategies) to "reuse" objects for multiple use cases. Don't [map to entities](https://symfony.com/doc/current/forms.html#building-forms). DTOs are the correct targets for deserialization. This is not controversial.
 {{</ callout >}}
 
 Even more recently we have [Valinor](https://github.com/CuyZ/Valinor) which
