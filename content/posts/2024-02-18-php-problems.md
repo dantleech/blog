@@ -258,8 +258,7 @@ We then have
 serialization libraries such as [JMS
 Serializer](https://github.com/schmittjoh/serializer) and later the [Symfony
 Serializer](https://symfony.com/doc/current/components/serializer.html). This
-is a _huge_ improvement, but both libraries are complex and offer a range of
-footguns which can **degrade the quality of your life**.
+is a _huge_ improvement, but both libraries are complex.
 
 Maybe I was **burned** by **JMS serializer** earlier in my career, and I
 still have **nightmares** about debugging the `Serializer` stack in **API Platform**.
