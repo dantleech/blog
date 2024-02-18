@@ -235,7 +235,7 @@ Serialization/deserailization
 This is something that didn't really _bother_ me until I used [Go](https://pkg.go.dev/encoding/json) and [Rust](https://serde.rs/).
 
 Deserializing byte streams to objects is our daily bread. Whether it be HTTP
-requests or RPC messages. We need to ingest data streams and map them to data
+requests or RPC messages. We need to ingest bytes and map them to data
 structures.
 
 In PHP we start with:
