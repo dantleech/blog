@@ -16,7 +16,7 @@ on the things I'm working on, and for the past month I've been working on:
 - [Phpactor](https://github.com/phpactor/phpactor): PHP language server
 - [PHP-TUI](https://github.com/php-tui/php-tui) TUI framework and port of Rust's Ratatui.
 - [CLI Parser](https://github.com/php-tui/cli-parser): me messing about creating a new CLI argument parser
-- [Work Project](#): !arge E-Commerce project based on Spryker - my current day contract.
+- [Work Project](#): large E-Commerce project based on Spryker - my current day contract.
 
 There are lots of things I **like** in PHP, and I hope the language continues to
 evolve but the fact is that sometimes it's a joy to develop in other
@@ -78,7 +78,7 @@ class Foobar
 }
 ```
 
-This is painful when you need to this metadata in other contexts:
+This is painful when you need to use this metadata in other contexts:
 
 ```php
 class FoobarDTO
@@ -121,7 +121,7 @@ class FoobarDTO
 ```
 
 Is that better? Of course not, it's **HORRIBLE**. We are importing **types** for
-**types**. We could also imagine:
+**types**. We could also [imagine](https://jmsyst.com/libs/serializer/master/reference/annotations#type):
 
 ```php
 <?php
@@ -142,9 +142,16 @@ annotation, it's still annoying.
 Generics would solve much of this pain, but it is [tricky](https://stitcher.io/blog/generics-in-php-3).
 One solution that has been discussed is extending the PHP parser to accept
 ([but ignore](https://en.wikipedia.org/wiki/Type_erasure)) generic annotations
-purely for the sake of static analysis tools: `public Foobar<string,Closure>`.
-This would allow the `array<Foobar>` syntax, and maybe we can even get away
-with other exotic types like `Closure`:
+purely for the sake of static analysis tools, for example:
+
+```php
+class Hello
+{
+    public Foobar<string,Closure> $foobar;
+}
+```
+
+This would allow the `array<Foobar>` syntax, and maybe we can even get away with other exotic types like `Closure`:
 
 ```php
 <?php
