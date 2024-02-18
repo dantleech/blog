@@ -4,11 +4,15 @@ categories: [php]
 date: 2024-02-18
 toc: true
 draft: false
+image: /images/2024-02-18/problems.png
 ---
 
 For the past months I've been keeping a list of things I encountered in PHP
 that I've found to be _problematic_, or in other words **things that annoy
 me**. 
+
+![problems](/images/2024-02-18/problems.png)
+_me having problems and being annoyed_
 
 This is not my definitive list and things that annoy me in PHP largely depend
 on the things I'm working on, and for the past month I've been working on:
@@ -582,3 +586,5 @@ even by type erasure, would, I think, take the language to the next level.
 I still enjoy PHP in comparison to some other languages, and it certainly has
 practical some advantages over Rust and Go and I'm excited to see it evolve
 more!
+
+[image](term
