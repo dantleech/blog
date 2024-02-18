@@ -114,11 +114,14 @@ In attribute land this becomes:
 ```php
 <?php
 
-use Php\Type\{GenericType,StringType,IntType};
+use Php\Type\{GenericClassType,StringType,IntType};
 
 class FoobarDTO
 {
-    #[GenericType(new ClosureType(StringType(), new IntType()))]
+    #[GenericClassType('Foobar', [
+        new StringType(),
+        new ClosureType(new StringType(), new IntType()),
+    ])]
     public Foobar $foobar;
 }
 ```
