@@ -446,6 +446,7 @@ multiple statements:
 $func = fn($foo) => {
     echo 'hello';
     echo 'world';
+    return 'goodbye';
 }
 ```
 
