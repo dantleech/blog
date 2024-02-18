@@ -58,11 +58,11 @@ constructors in PHP).
 The claimed **disadvantage** of bypassing the constructor is that you allow the
 "unsupervised" creation of the data structure - you can't control and enforce
 the [business invariants](https://ddd-practitioners.com/home/glossary/business-invariant/). However this is mitigated in both languages as they
-both have _package level visiblity_ and _static types_.
+both have _package level visibility_ and _a strong type system_.
 
 Am I suggesting we abolish the `new` keyword and adopt better types and
 package level visibility? Yes? No? Maybe? I don't know. The truth is it's
-just something that bugs me.
+just something that **bugs me**.
 
 ## Annotations vs. Attributes
 
