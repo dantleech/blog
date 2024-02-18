@@ -54,7 +54,7 @@ constructor and both have unwritten conventions on using constructor functions
 (in Rust they are conventionally attached to the struct - similarly to static
 constructors in PHP).
 
-The claimed **disadvantage** of bypassing the constructor is that you allow the
+The **disadvantage** of bypassing (or simply not having) a constructor is that you permit the
 "unsupervised" creation of the data structure - you can't control and enforce
 the [business invariants](https://ddd-practitioners.com/home/glossary/business-invariant/). However this is mitigated in both languages as they
 both have _package level visibility_ and _a strong type system_.
