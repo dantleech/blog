@@ -374,6 +374,8 @@ array(1) {
 }
 ```
 
+And t
+
 ```php
 <?php
 
@@ -563,13 +565,13 @@ Would this be a good idea?
 ```php
 class Foobar {
    public class {
-      string $foo;
-      string $bar;
+      public string $foo;
+      public string $bar;
    } $foobar;
 }
 ```
 
-I don't know. But it would sure make somethings easier.
+I don't know. But it would sure make some things easier.
 
 Conclusion
 ----------
@@ -586,5 +588,3 @@ even by type erasure, would, I think, take the language to the next level.
 I still enjoy PHP in comparison to some other languages, and it certainly has
 practical some advantages over Rust and Go and I'm excited to see it evolve
 more!
-
-[image](term
