@@ -347,7 +347,7 @@ class Foobar {
 
 Oops, can't use variadics in promoted properties. Why!?! See [generics](https://stitcher.io/blog/constructor-promotion-in-php-8#variadic-parameters-cannot-be-promoted).
 
-## Iterator to Aggregate Preserve Keys
+## Iterator to Array: Preserve Keys
 
 I've get bitten by this over and again
 
