@@ -430,7 +430,7 @@ Short closures cannot have statements
 I **like** short closures! **But** I find my self converting my beloved short closures back to long closures
 whenever:
 
-- I need to add another statement
+- I need to add a statement
 - I need to debug it[*]
 
 I'd much prefer to enjoy the short syntax while also being able to have
