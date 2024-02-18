@@ -7,17 +7,16 @@ draft: false
 ---
 
 For the past months I've been keeping a list of things I encountered in PHP
-that I've found to be **problematic**, or in other words _things that annoy
-me_. This is not a definitive list but I have returned to this list multiple
-times only to realise that I had already listed my gripe.
+that I've found to be _problematic_, or in other words **things that annoy
+me**. 
 
-Things that annoy me in PHP largely depend on the things I'm working on,
-and for the past month I've been working on:
+This is not my definitive list and things that annoy me in PHP largely depend
+on the things I'm working on, and for the past month I've been working on:
 
-- **Phpactor**: PHP language server
-- **PHP-TUI**: TUI framework and port of Rust's Ratatui.
-- **CLI Parser**:  messing about creating a new CLI argument parser
-- **Work Project**: large E-Commerce project based on Spryker - my current day contract.
+- [Phpactor](https://github.com/phpactor/phpactor): PHP language server
+- [PHP-TUI](https://github.com/php-tui/php-tui) TUI framework and port of Rust's Ratatui.
+- [CLI Parser](https://github.com/php-tui/cli-parser): me messing about creating a new CLI argument parser
+- [Work Project](#): !arge E-Commerce project based on Spryker - my current day contract.
 
 There are lots of things I **like** in PHP, and I hope the language continues to
 evolve but the fact is that sometimes it's a joy to develop in other
