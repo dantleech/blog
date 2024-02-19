@@ -235,7 +235,7 @@ See the
 [RFC](https://wiki.php.net/rfc/attributes_v2#why_are_nested_attributes_not_allowed) for the reasons why
 nested were excluded from the final implementation.
 
-Serialization/deserailization
+Serialization/deserialization
 -----------------------------
 
 This is something that didn't really _bother_ me until I used [Go](https://pkg.go.dev/encoding/json) and [Rust](https://serde.rs/).
