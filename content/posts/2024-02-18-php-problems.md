@@ -592,5 +592,5 @@ Of the 11 annoyances 3 of them would be solved by generics. Generics support,
 even by type erasure, would, I think, take the language to the next level.
 
 I still enjoy PHP in comparison to some other languages, and it certainly has
-practical some advantages over Rust and Go and I'm excited to see it evolve
+some practical advantages over Rust and Go and I'm excited to see it evolve
 more!
