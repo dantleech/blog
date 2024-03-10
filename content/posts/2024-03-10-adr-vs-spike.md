@@ -31,7 +31,7 @@ consequences. Sometimes we need to change those decisions but more often we
 need to **understand why decisions were made** and this is where the ADR
 proposes to help.
 
-{{<callout>}}**TL;DR;** if ADRs are not working for you consider using **spike** documents insted{{</callout>}}
+{{<callout>}}**TL;DR;** if ADRs are not working for you consider using **spike** documents instead{{</callout>}}
 
 
 ## The ADR Document
