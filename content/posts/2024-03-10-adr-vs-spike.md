@@ -45,7 +45,8 @@ ADRs usually have the following sections:
 - **Status**: The state of the ADR e.g. `proposed`, `accepted`, `rejected`.
 - **Context**: Why the decision needed to be made.
 - **Decision**: What the decision was.
-- **Consequence**: What the decision was.
+- **Consequence**: What should the consequences of this decision be (good and
+  bad).
 - **Altenatives**: What alternatives were considered and why were they
   rejected.
 
