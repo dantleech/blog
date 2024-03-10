@@ -594,3 +594,10 @@ even by type erasure, would, I think, take the language to the next level.
 I still enjoy PHP in comparison to some other languages, and it certainly has
 some practical advantages over Rust and Go and I'm excited to see it evolve
 more!
+
+
+{{<callout>}}This post made it on to
+[hackernews](https://news.ycombinator.com/item?id=39428002) you can read
+varied reactions to it there.{{</callout>}}
+
+
