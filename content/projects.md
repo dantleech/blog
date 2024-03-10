@@ -18,6 +18,10 @@ But I've written smaller projects which are actively used:
 - [What Changed](https://github.com/dantleech/what-changed): Composer plugin to see what changed.
 - [Gherkin Lint](https://github.com/dantleech/gherkin-lint-php): Gherkin  Linter
 
+And some interesting ones:
+
+- [PHP-TUI](https://github.com/php-tui/php-tui): PHP port of [Ratatui](https://github.com/ratatui-org/ratatui) including supporting libs (cassowary and terminal).
+
 Going back further in time:
 
 - [PHPCRShell](https://github.com/phpcr/phpcr-shell): Shell for PHPCR (PHP version of the JCR content repository).
