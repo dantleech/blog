@@ -91,7 +91,7 @@ In my experience the following problems prevent the concept from thriving:
 - **Bureaucracy**: Needing approvals, making pull requests, high barriers to editing the document.
 - **Penmanship**: Some (or most) developers are not good documentors.
 
-In the real world, you did some research, made a merge request and then an
+In the real world, you did some research, made a merge request and then a
 team leader breathes heavily over your virtual shoulder and then whispers
 [ADR ... pleeeeaaaassse](https://www.youtube.com/watch?v=bDFt_Dhxg8k)... or they
 don't in which case you don't make one because, you're done 👍
@@ -187,7 +187,11 @@ The spike concept has a low barrier for entry. During the course of your work
 you _will_ research things, you _will_ need to justify decisions to your
 peers. The spike provides a place for _raw information_. It's a place for
 brain dumps. You can polish that document, you can rework it. But the
-information should be preserved. The _process_ should be preserved.
+information should be preserved. The _process_ should be preserved. 
+
+Even if it's just a collection of notes future **code archeologists** can
+study these historical artifacts to help make sense of the present state of
+the project.
 
 What I am suggesting in this blog post is to provide a place where these
 spikes can be **captured systematically**, as a **natural** part of the process.
