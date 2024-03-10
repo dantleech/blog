@@ -214,7 +214,8 @@ in the case that you don't tidy it up!
 
 Some of you are _screaming_ at me "we use ADRs all the time and it works for
 us". Well done! If it works for you then that's great. ADRs exist to solve a
-problem, the problem exists, it should be solved. Spikes are a more passive way to solve the same
-problem
+problem, the problem exists, it should be solved. Spikes are a more passive
+way to solve the same problem. The most important thing is that we **capture the
+reasoning**, how we get there isn't important.
 
 If ADRs don't work, maybe try adopting Spikes documents.
