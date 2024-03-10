@@ -1,8 +1,9 @@
 --- 
 title: Why I don't write ADRs
-categories: [programming]
+categories: [documentation]
 date: 2024-03-10
 toc: false
+image: /images/2024-03-10/no.png
 ---
 
 An **Architectural Decision Record** ([ADR](https://adr.github.io/)) is a document that records an
