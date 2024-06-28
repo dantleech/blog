@@ -106,7 +106,7 @@ extracted the code that executes the action to the method `importTraits`:
         self::assertCount(0, $traitImports, 'No traits were imported');
     }
 
-    protected function importTraits(string $source): Traitimports
+    private function importTraits(string $source): Traitimports
     {
         $this->parseSource($source);
         $classDeclaration = $rootNode->getFirstDescendantNode(ClassDeclaration::class);
