@@ -167,3 +167,6 @@ results in very ungainly and unreliable tests.
 **Use 🏭 factory methods in your tests**! If nothing else do that. If you want to
 use data providers, and you have varying requirements for assertions, then you
 can use **Assertion Closures**.
+
+![lambda superimposed on a factory with seaguls and flying elephants](/images/2024-06-28/lambdafactory.png)
+*lambda superimposed on a burning factory with seaguls and flying elephants*
