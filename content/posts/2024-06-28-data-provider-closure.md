@@ -3,6 +3,7 @@ title: PHPUnit Assertion Closures
 categories: [testing,phpunit,php]
 date: 2024-06-28
 toc: false
+image: /images/2024-06-28/lambdafactory.png
 ---
 
 One of the testing patterns that I've selected for over the years is combining data providers and `Closure`:
@@ -157,7 +158,7 @@ it starts well and **gets worse**. The following should hurt:
 ```
 
 The above case is contrived but in the past I've often tried to squeeze more
-responsiblity into my data providers by adding more parameters but this
+responsibility into my data providers by adding more parameters but this
 results in very ungainly and unreliable tests.
 
 
