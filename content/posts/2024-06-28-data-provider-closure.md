@@ -114,6 +114,32 @@ extracted the code that executes the action to the method `importTraits`:
     }
 ```
 
+{{<callout>}}
+**That's not a factory!** Well, it kindof is but I see your point. More typically
+the factory would look like:
+
+```php
+<?php
+public function createExecutor(
+    string $name = 'default_name',
+    array $wimwams = [],
+    bool $fam =false
+): Executor
+{
+    return new Executor($name, $wimwams, $fam);
+}
+```
+
+In addition to cutting down on noise using a factory makes tests easier to
+refactor and you can make use of _named parameters_ to have sensible defaults:
+
+```php
+<?php
+self::assertTrue($this->createExecutor()->execute()->didExecute());
+self::assertFalse($this->createExecutor(fam: false)->execute()->didExecute());
+```
+{{</callout>}}
+
 ## Data Providers
 
 ❌ We alternatively (or subsequently) decide to refactor to data providers and
@@ -164,7 +190,7 @@ results in very ungainly and unreliable tests.
 
 ## Summary
 
-**Use 🏭 factory methods in your tests**! If nothing else do that. If you want to
+**Use 🏭 factory 🏭 methods in your tests**! If nothing else do that. If you want to
 use data providers, and you have varying requirements for assertions, then you
 can use **Assertion Closures**.
 
