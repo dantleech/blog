@@ -1,5 +1,5 @@
 --- 
-title: "Flying out"
+title: "Barcleona con la Bici"
 categories: [spain2024]
 date: 2024-08-22
 draft: false
