@@ -7,6 +7,9 @@ distance: 118
 time: 11h
 ---
 
+![map](/images/spain2024/20240824-map.jpg)
+*This is not a map*
+
 A long day which hasn't finished yet. It's 19:30 and I'm sitting at a bar but
 I haven't got a hotel or a campsite, but I've got a wild camping spot in a
 little forest. I haven't got a place to stay because:
@@ -20,6 +23,7 @@ This morning started at Carlo's flat in Barcelona, I slept on the sofa and it
 was _hot_. Really hot. Sweating in my underwear and nothing else hot. I didn't
 sleep that well and woke up feeling like I had a hangover even though I only
 drank a few beers the night before and we were back at 12.
+
 
 We had breakfast at the cafe downstairs and after that we had to get the bike
 down. Carlos lives on the 8th floor so we have to get the elevator, which is
@@ -165,9 +169,9 @@ to wild camping.
 Finally I started to nod off, and I inflated my sleeping matress and laid down
 staring up at what could be seen of the stars through the light pollution and
 the almost full moon shining through the trees and reflecting on the sea which
-had shimmering waves being blown to the east. I nodded off several times but
-it seemed like I was awake just as much. It was humid and hot and I didn't use
-my sleeping bag.
+had shimmering waves being blown to the east. The trees overhead began to
+morph into different shapes. I nodded off several times but it seemed like I
+was awake just as much. It was humid and hot and I didn't use my sleeping bag.
 
 ![OpenCamera/IMG_20240824_055121_HDR.jpg](/images/spain2024/202408222313-sleeping.jpg)
 *My bed - it was actually a beautiful spot*
