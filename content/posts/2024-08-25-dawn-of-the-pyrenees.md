@@ -4,6 +4,7 @@ categories: [spain2024]
 date: 2024-08-25
 draft: false
 distance: 98.9
+image: /images/spain2024/202408242005-banyuls.jpg
 time: 6h26
 ---
 
