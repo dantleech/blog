@@ -7,6 +7,9 @@ distance: 98.9
 time: 6h26
 ---
 
+![Map](/images/spain2024/20240825-map.jpg)
+*Map*
+
 I'm now sat in a campsite beneath a towering mountain. It's a very quiet
 campsite, so quiet in-fact that I've just been told there is a bar/restaurant
 in the middle of it and I had no idea, which is a shame because I just ate a
