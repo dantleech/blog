@@ -5,7 +5,7 @@ date: 2024-08-27
 draft: false
 distance: 87
 image: /images/spain2024/202408262003-9colduportsummit.jpg
-time: 5h
+time: 4h30m
 ---
 
 ![map](/images/spain2024/202408262003-map.jpg)
@@ -125,7 +125,7 @@ of).
 As I was headbanging my way down the col the most notable thing was that the
 trees were different this side of the mountain, it seemed more "alpine" and in
 contrast to the other side they were _there_. After some minutes I was given a
-break-taking view which to which my camera can do no justice. When I did this
+breathtaking view which to which my camera can do no justice. When I did this
 trip in 2010 I may well have missed all of this as it was raining and misty.
 
 ![OpenCamera/IMG_20240827_135407.jpg](/images/spain2024/202408262003-10distantmountains.jpg)
