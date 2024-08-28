@@ -55,7 +55,7 @@ climb. The first was the Col de Buret 599m:
 ![OpenCamera/IMG_20240828_115823.jpg](/images/spain2024/202408271841-buret.jpg)
 *Col de Buret*
 
-{{< callout >}}DISCLAIMER: I may have mixed up the order of the cols{{</
+{{< callout >}}DANGER: I may have mixed up the order of the cols{{</
 callout >}}
 
 
