@@ -30,7 +30,7 @@ breaks do work, and anyway I'd jump off the bike before I rode off a mountain.
 The mattress had held the night and was still kept a space between me and the
 earth.
 
-Packing my tent three were slugs, slugs on my tent, slugs on the ground, and
+Packing my tent there were slugs, slugs on my tent, slugs on the ground, and
 even (as I discovered later) slugs in my food bag. I packed my tent up quickly
 barefoot being concious of my slimy friends and then rode out of the campsite
 into the cafe and got a coffee and a Pain aux Raisin from the bakery across
@@ -94,7 +94,7 @@ have stayed for two nights and gone hiking. Alas! I had only done 45k, it was
 ![OpenCamera/IMG_20240828_120719.jpg](/images/spain2024/202408271841-ares.jpg)
 *Col des Ares*
 
-The bike-packers bike was had a frame bag, the water bottles were on the
+The bike-packer's bike was had a frame bag, the water bottles were on the
 handlebars and there was a large bag protruding from the seat post. He doing
 west-to-east and was much lighter than I was.
 
