@@ -144,7 +144,8 @@ tent when you could go to a cafe and get a piece of bread and an espresso?
 Cooking came to mind but then I reminded myself I'd just been eating cold
 baked beans and canned vegetables and that was fine, hmm. Pasta! I can cook
 pasta with camping gas and I was surprised to be served by an attractive
-woman which for some reason was not what I was expecting.
+woman (or rather a woman that I was attracted to) which for some reason was
+not what I was expecting.
 
 ![OpenCamera/IMG_20240827_163903.jpg](/images/spain2024/202408262003-sunflowers.jpg)
 *Sunflowers*
