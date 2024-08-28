@@ -4,7 +4,7 @@ categories: [spain2024]
 date: 2024-08-28
 draft: false
 distance: 66.8
-image: /images/spain2024/202408262003-9colduportsummit.jpg
+image: /images/spain2024/202408271841-grafitti.jpg
 time: 3h55m
 ---
 
