@@ -204,7 +204,7 @@ in French
 
 "In fact, the problem, it's that I come with the bicycle and normally I would
 arrive before ten-nine hour, but, then, you see, it is necessary that I make 3
-mountain passes. Is it grave if I arrive late?". 
+mountain passes. Is it grave if I am tardy?". 
 
 "You speak English? Your French is very good but because of the traffic..."
 
