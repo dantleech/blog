@@ -48,12 +48,16 @@ not being able to see the scenery about me.
 *Graffiti de la rue de tradition*
 
 I proceeded out of town in silence and felt pretty good. My legs were not
-aching. There were two cols today, they were relatively small but all that
+aching. There were three cols today, they were relatively small but all that
 means is that you spend less time climbing each required at least one hour of
 climb. The first was the Col de Buret 599m:
 
 ![OpenCamera/IMG_20240828_115823.jpg](/images/spain2024/202408271841-buret.jpg)
 *Col de Buret*
+
+{{< callout >}}DISCLAIMER: I may have mixed up the order of the cols{{</
+callout >}}
+
 
 There were lots of lorries on the roads, and they were lorries of the same
 type with the same cargo. At one point a cyclist overtook me before he was
@@ -97,7 +101,7 @@ west-to-east and was much lighter than I was.
 ![OpenCamera/IMG_20240828_130246.jpg](/images/spain2024/202408271841-nopissing.jpg)
 *Well done*
 
-Continuing wasn't the best choice in retrospect, the sun increased it's
+Continuing wasn't the best choice in retrospect, the sun increased its
 intensity and I was looking for lunch. Although I could've sat down at many
 places of convenience I chose to continue to find a cold beer. I found a
 supermarket with _cool_ (not cold) beer and also some olive paste which I
@@ -202,7 +206,7 @@ in French
 arrive before ten-nine hour, but, then, you see, it is necessary that I make 3
 mountain passes. Is it grave if I arrive late?". 
 
-"You speak English, your French is very good but because of the traffic..."
+"You speak English? Your French is very good but because of the traffic..."
 
 Damn it. We proceeded to speak in English and he explained that he could
 _wait_ until 19:30 but he had in-fact to return to his children and could not
