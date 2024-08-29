@@ -8,6 +8,12 @@ image: /images/spain2024/202408281956-24bikeclouds.jpg
 time: 8h?
 ---
 
+![20240829_164201.jpg](/images/spain2024/20240829-map.jpg)
+*Fucked up map*
+
+> DANGER: I forgot to start my GPS recording and only got the last 20k of
+> today and tried to fix it manually but heh...
+
 I'm now sitting in the hostel, there is French music playing in a large common
 room with books, plenty of sofas, table tennis and a bar. This is the low
 season because this is a ski-town. So it's pretty quiet, but the atomsphere is
@@ -114,7 +120,7 @@ spent the next 15m wonder how those things worked.
 
 
 Now the weather started to get cloudy and I was on the Col d'Aspin, slightly
-"lower" than Col de Puresourde at 1481m. As I climbed the clouds closed in and
+"lower" than Col de Pyresourde at 1481m. As I climbed the clouds closed in and
 it was damp, at some points raining. I couldn't see the mountains around me.
 It took some time but no endorphine shocks, I listened to the Game of Thrones
 audiobook for most of it. I was overtaken by various cyclists.
@@ -138,7 +144,7 @@ warnings, I was really looking for some reassurance. Would I be crazy to ride
 the Tourmalet in a storm? He seemed happy with this option which gave me some
 of the reassurance I wanted.
 
-I was descending now, the descent would not be as long as Puresourde, but the
+I was descending now, the descent would not be as long as Pyresourde, but the
 Tourmalet is almost 800m higher than the Col d'Aspin and it would be the
 biggest climb of the day. I had to eat. There was a restaurant on the descent
 and I pulled over. I was happy to see they had vegetarian Tacos to take away,
@@ -240,3 +246,6 @@ up later.
 I cooked and ate and opened a beer and now I'm sitting upstairs in the common
 area. The "Orage" (thunderstorm) has come, and I feel sorry for the girl who
 went into town to eat.
+
+Tomorrow I will take a rest day and in the spirit of resting try and do a 20k
+train run. But will see what the weather is like 😛
