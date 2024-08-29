@@ -16,12 +16,12 @@ time: 8h?
 
 I'm now sitting in the hostel, there is French music playing in a large common
 room with books, plenty of sofas, table tennis and a bar. This is the low
-season because this is a ski-town. So it's pretty quiet, but the atomsphere is
+season because this is a ski-town. So it's pretty quiet, but the atmosphere is
 nice. A rumble of thunder can be heard outside and the patter of rain which I
 was fortunate to (mostly) avoid today. But I shuoldn't have been so lucky
-according to the weather forcast. Today I did 3 cols including the Col de
+according to the weather forecast. Today I did 3 cols including the Col de
 Tourmalet - one of the most famous and one of the highest road passes in the
-Pyrenees which seems to be frequenty used in the Tour de France.
+Pyrenees which seems to be frequently used in the Tour de France.
 
 This morning I woke up at 07:45 and knew that it would be a tough day. I had
 reserved the hostel and it was 100k away and there were three cols to climb.
@@ -63,26 +63,28 @@ decided long ago to stop playing the nodding game.
 I felt good climbing Pyresourde. As I passed 1000m as I was vibing to Stevie
 Wonder's "Free" and my muscles were aching but working, sweat pouring from my
 pores, the sun was shining but cool, the landscape spectacular and I had
-endorphine chills flooding through my body and I let out a coarse throated
+endorphin chills flooding through my body and I let out a coarse throated
 "whoop" and I felt great.
 
 ![OpenCamera/IMG_20240829_091217.jpg](/images/spain2024/202408281956-5lacoo.jpg)
 *And some great commune names*
 
-Soon afterwards I saw a cyclist with paniers in my rearview mirror and he was
+Soon afterwards I saw a cyclist with panniers in my rear-view mirror and he was
 gaining very slowly but surely and a conversation would probably ensue. I
 wanted that conversation to be over so I pulled in and slowed "Salut!"
 
 "Salut!" I said and then "Comment ca va?" 
 "Bien et toi" I replied "Bien"
 
-He was from Bryancon and cycling east to west, camping if it was raining, bivouac if not. After talking he pulled in behind me and I saw that he was travelling with his girlfriend and we went three of us to the summit.
+He was from Bryancon and cycling east to west, camping if it was raining,
+bivouac if not. After talking he pulled in behind me and I saw that he was
+travelling with his girlfriend and we went three of us to the summit.
 
 ![OpenCamera/IMG_20240829_100326.jpg](/images/spain2024/202408281956-7twistinghairpins.jpg)
 *Looking at the hairpin rises*
 
 At the summit I didn't hang around. I took my photos and said goodbye to the
-couple who had sat down for a sandwhich. I was hungry and after the
+couple who had sat down for a sandwich. I was hungry and after the
 significant descent I stopped in a village by a river and it was 10:30 and I
 cracked open the French of equivalent of baked beans drank some water and then
 continued to the next col.
@@ -107,22 +109,22 @@ worker said, and then said that the diversion was the for market.
 *Descending*
 
 The market was packed with people and I had to dismount my bike to walk
-through the center, in a crowded sqaure I saw a water fountain, the type with
+through the center, in a crowded square I saw a water fountain, the type with
 a rotating handle on top. I parked my bike got my water bottle and span the
-wheel, soon enough water begain pouring out. Having had my fill I waited for
+wheel, soon enough water begin pouring out. Having had my fill I waited for
 it to stop but it didn't. I tried spinning it again and waited, and it kept
 gushing. I didn't want to leave it running, but it wouldn't stop. A local man
 (he had to be local) was sitting by "it will stop yes?" I asked, the man gave
 the barest of notice and gave a hardly imperceptible shrug while staring a
 head out of his weathered and tanned head. Another local approached without
-making eye contact with me and roated the handle precisely to stop the gush. I
+making eye contact with me and rotated the handle precisely to stop the gush. I
 spent the next 15m wonder how those things worked.
 
 
 Now the weather started to get cloudy and I was on the Col d'Aspin, slightly
 "lower" than Col de Pyresourde at 1481m. As I climbed the clouds closed in and
 it was damp, at some points raining. I couldn't see the mountains around me.
-It took some time but no endorphine shocks, I listened to the Game of Thrones
+It took some time but no endorphin shocks, I listened to the Game of Thrones
 audiobook for most of it. I was overtaken by various cyclists.
 
 > At around this time I checked my phone to see how many kilometers I had cycled
@@ -139,7 +141,7 @@ and who was sitting on the ground at the top.
 "Why not!" I said
 "Why not!" he replied
 
-We talked about the weather forcast and the ominous thunder and storm
+We talked about the weather forecast and the ominous thunder and storm
 warnings, I was really looking for some reassurance. Would I be crazy to ride
 the Tourmalet in a storm? He seemed happy with this option which gave me some
 of the reassurance I wanted.
@@ -151,7 +153,7 @@ and I pulled over. I was happy to see they had vegetarian Tacos to take away,
 but it was a lie. I got a can of cola and a chocolate cake. The man wished me
 courage and I continued to descend to the village of Sainte-Marie de Campan
 where the descent becomes ascent and the road of the Tourmalet would start.
-Here I ordered a sandwich - which was furnished to me with artechokes, salad,
+Here I ordered a sandwich - which was furnished to me with artichokes, salad,
 tomatoes and mayonnaise but no cheese but I didn't complain.
 
 ![OpenCamera/IMG_20240829_131542.jpg](/images/spain2024/202408281956-13clouds.jpg)
@@ -161,7 +163,7 @@ tomatoes and mayonnaise but no cheese but I didn't complain.
 *Sandwich*
 
 The mist increased and I was climbing and only seeing the road ahead of me. It
-was chilly and there were few cyclists - probably they saw the weather forcast
+was chilly and there were few cyclists - probably they saw the weather forecast
 and decided to avoid the climb.
 
 ![OpenCamera/IMG_20240829_152708.jpg](/images/spain2024/202408281956-16starttourmalet.jpg)
@@ -207,7 +209,7 @@ clouds it added another dimension to the splendor.
 *Mist*
 
 ![OpenCamera/IMG_20240829_170449.jpg](/images/spain2024/202408281956-20breakthrough.jpg)
-*Beakthrough*
+*Breakthrough*
 
 The summit was spectacular. There were lots of Spanish tourists and
 motorcyclists and a few cyclists. A huge sculpture of a cyclist against the
@@ -221,7 +223,7 @@ backdrop of a sky kingdom of clouds through which the mountains reared up.
 
 I decided to listen to Guns and Roses for the descent - which was unusually
 steep. So much in fact that after 15m I decided that it was better to remove
-my airpods as I clould feel them moving with the wind that was blasting in my
+my air-pods as I could feel them moving with the wind that was blasting in my
 face. I had thought the descent would be cold and misty but the mist on this
 stide of the mountain was minimal and although there was some wind chill I
 didn't feel cold. In only 30m I had traversed 20k and was in the town where
