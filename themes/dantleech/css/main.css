@@ -69,6 +69,10 @@ ul {
     @apply m-4;
     height: 380px; 
 }
+#gpx { 
+    @apply m-4;
+    height: 380px; 
+}
 
 blockquote {
     @apply bg-gray-100 p-4 mt-4 mb-4;
