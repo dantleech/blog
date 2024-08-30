@@ -5,11 +5,10 @@ date: 2024-08-29
 draft: false
 distance: 100
 image: /images/spain2024/202408281956-24bikeclouds.jpg
+gpx: /gpx/spain2024/2024-08-29_12-39_Thu.gpx
+map_label: 33/100k
 time: 8h?
 ---
-
-![20240829_164201.jpg](/images/spain2024/20240829-map.jpg)
-*Fucked up map*
 
 > DANGER: I forgot to start my GPS recording and only got the last 20k of
 > today and tried to fix it manually but heh...

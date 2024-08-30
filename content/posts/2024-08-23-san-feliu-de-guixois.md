@@ -4,12 +4,11 @@ categories: [spain2024]
 date: 2024-08-23
 draft: false
 image: /images/spain2024/202408222313-mojjito.jpg
+gpx: /gpx/spain2024/2024-08-23_09-35_Fri.gpx 
+map_label: This is not a map
 distance: 118
 time: 11h
 ---
-
-![map](/images/spain2024/20240824-map.jpg)
-*This is not a map*
 
 A long day which hasn't finished yet. It's 19:30 and I'm sitting at a bar but
 I haven't got a hotel or a campsite, but I've got a wild camping spot in a

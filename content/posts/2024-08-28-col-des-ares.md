@@ -5,11 +5,10 @@ date: 2024-08-28
 draft: false
 distance: 66.8
 image: /images/spain2024/202408271841-grafitti.jpg
+gpx: /gpx/spain2024/2024-08-28_08-47_Wed.gpx
+map_label: Success
 time: 3h55m
 ---
-
-![Map](/images/spain2024/202408281449-map.jpg)
-*Success*
 
 I'm now sitting in a hotel room having covered 68k today, those 68k included
 three "minor" cols and blasting midday heat, but I decided to finish early and

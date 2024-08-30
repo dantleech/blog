@@ -5,11 +5,10 @@ date: 2024-08-27
 draft: false
 distance: 87
 image: /images/spain2024/202408262003-9colduportsummit.jpg
+gpx: /gpx/spain2024/2024-08-27_09-21_Tue.gpx
+map_label: Map
 time: 4h30m
 ---
-
-![map](/images/spain2024/202408262003-map.jpg)
-*Map*
 
 Another beating hot day and another evening sitting down writing a blog post
 in a campsite. No two campsites are the same this is one of the ones with a
