@@ -153,6 +153,10 @@ I found the campsite and went for pizza.
 ![OpenCamera/IMG_20240901_183925.jpg](/images/spain2024/202408311859-12pizzeria.jpg)
 *Vim by the Pizza*
 
+Tomorrow will take me to the coast (specifically to Hendaye). I told my client
+that I would be on holiday for a month. One option would be to head directly
+to Bilbao and get the next ferry to Portsmouth, but there are other options.
+
 
 
 
