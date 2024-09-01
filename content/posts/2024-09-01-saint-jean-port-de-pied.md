@@ -13,7 +13,7 @@ elevation_gain: 1307
 
 Sitting in a pizzeria in Saint Jean Port de Pied. It's been a slog of a day
 and there I'm sitting in a room with pilgrims. A Japanese man is talking about
-signs and an odly dressed man next to him and a european girl whose accent I
+signs and an oddly dressed man next to him and a European girl whose accent I
 cannot place. It's an historic town with lots of tourists and pilgrims. When I
 arrived at the camp site the kid said asked me to look at the tent in the
 corner. "that's number 5 - you can share the pitch with the guy there and ask
@@ -94,8 +94,9 @@ the mountains were behind.
 ![OpenCamera/IMG_20240901_153613.jpg](/images/spain2024/202408311859-10flats.jpg)
 *Looking flatter*
 
-_a young Korean is talking to a stranger about playing Grand Theft Auto - in
-the shadow, murder, kill_
+_A young Korean is talking to a stranger at this hotel bar about playing Grand
+Theft Auto - "shadow", "murder", "kill". It seems lots of people are paired
+with strangers here_
 
 The next hours were essentially a slog. At 13:00 I looked at my phone and I
 had covered 46k - not "half" of my (flexible) 100k daily goal and I was
@@ -128,8 +129,9 @@ listened to Game of Thrones which held my sanity and passed the time.
 ![OpenCamera/IMG_20240901_151855.jpg](/images/spain2024/202408311859-9view.jpg)
 *View*
 
-When I was going slowly flies had started to gather about me buzzing in my
-face and I wanted to go faster to make them go away.
+While I was rolling slowly up the imperceptible climbs insects buzzed around
+and found my bicycle to be an interesting place to hang out and took little
+notice of me.
 
 ![OpenCamera/IMG_20240901_154330.jpg](/images/spain2024/202408311859-11osquich.jpg)
 *Col d'Osquich*
@@ -144,8 +146,7 @@ where the pilgrims are.
 
 I rode down the road. Tyrion Lannister has just been accused of conspiracy to
 murder by Catlin Stark after he revealed her identity in a tavern. I've seen
-the televison series but it's fun listening to the book and getting the extra
-context.
+the televison series but it's fun listening to the book.
 
 I found the campsite and went for pizza.
 
