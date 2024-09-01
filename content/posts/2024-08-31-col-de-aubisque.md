@@ -5,6 +5,7 @@ date: 2024-08-31
 draft: false
 distance: 69
 gpx: /gpx/spain2024/2024-08-31_08-48_Sat.gpx
+image: /images/spain2024/202408301929-6cheeseview.jpg
 time: 5h51
 ---
 

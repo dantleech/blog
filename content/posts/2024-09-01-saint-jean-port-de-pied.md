@@ -7,6 +7,7 @@ distance: 101
 gpx: /gpx/spain2024/2024-09-01_08-34_Sun.gpx
 time: 7h43
 elapsed: 9h36
+image: /images/spain2024/202408311859-3rain.jpg
 elevation_gain: 1307
 ---
 
