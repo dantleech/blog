@@ -69,8 +69,8 @@ finally the mist departed and the only sun remained.
 *Clearing mist*
 
 During the descent I noticed that I had to pull my levers much further to
-break than when I had started and I tightened them on the headset. 7 days of
-mountains will wear your breaks down.
+brake than when I had started and I tightened them on the headset. 7 days of
+mountains will wear your brakes down.
 
 ![OpenCamera/IMG_20240902_124002.jpg](/images/spain2024/202409011845-7lastcolsign.jpg)
 *Last col*
