@@ -1,5 +1,5 @@
 --- 
-title: Profiling with PHPBench and XDebug
+title: Profiling with PHPBench and Xdebug
 categories: [phpbench,xdebug,php]
 date: 2024-09-29
 toc: true
@@ -181,10 +181,10 @@ regressions:
 We can see that my change didn't make much impact. So it's time to go
 **deeper**.
 
-## XDebug Profiling
+## Xdebug Profiling
 
-A little known feature of PHPBench is it's integration with
-[XDebug](https://xdebug.org/). We can
+A little known feature of PHPBench is its integration with
+[Xdebug](https://xdebug.org/). We can
 generate [cachegrind](https://valgrind.org/docs/manual/cg-manual.html) dumps
 for a specific benchmark:
 
@@ -236,7 +236,7 @@ After changing the code you can update Kcachegrind:
 
 ## Confirming the results
 
-The XDebug profiler is _intrusive_ and will have a not-nececessarily relative impact on performance.
+The Xdebug profiler is _intrusive_ and will have a not-nececessarily relative impact on performance.
 
 Once I'm done profiling I do another round of `--tag=before` and
 `--ref=before` to see if I **really** improved things.
