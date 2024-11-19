@@ -6,7 +6,7 @@ toc: true
 image: /images/2024-11-19/phpbench.png
 ---
 
-At the time of writing this article I created PHPBench over 9 years ago, for
+At the time of writing this article I created [PHPBench](https://github.com/phpbench/phpbench) over 9 years ago, for
 the first 5 years I didn't use it. 
 
 Now I seem to be using PHPBench almost frequently at work and it might even be suggested that I'm **profficient** at using the tool that I built (although it's a stretch).
@@ -183,7 +183,8 @@ We can see that my change didn't make much impact. So it's time to go
 
 ## XDebug Profiling
 
-A little known feature of PHPBench is it's integration with XDebug. We can
+A little known feature of PHPBench is it's integration with
+[XDebug](https://xdebug.org/). We can
 generate [cachegrind](https://valgrind.org/docs/manual/cg-manual.html) dumps
 for a specific benchmark:
 
