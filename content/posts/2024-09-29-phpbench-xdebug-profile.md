@@ -3,7 +3,7 @@ title: Profiling with PHPBench and XDebug
 categories: [phpbench,xdebug,php]
 date: 2024-09-29
 toc: false
-image: /images/2018-08-19/phpactor.png
+image: /images/2024-11-19/phpbench.png
 ---
 
 At the time of writing this article I created PHPBench over 9 years ago, for
