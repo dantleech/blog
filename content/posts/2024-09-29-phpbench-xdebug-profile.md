@@ -72,8 +72,12 @@ final class ProductServiceBench
     public function benchProductService(array $params): void
     {
         $products = $this->service->findProducts($params['skus']);
-        if (count($products) != count($params['skus'])) {
-            throw new RuntimeException(sprintf('Expected %d products but got %d',  count($params['skus']), count($products)));
+        if (count($products) !== count($params['skus'])) {
+            throw new RuntimeException(sprintf(
+                'Expected %d products but got %d',
+                count($params['skus']),
+                count($products)
+            ));
         }
     }
 
@@ -102,7 +106,8 @@ In above I have:
 - Used a
   [ParamProvider](https://phpbench.readthedocs.io/en/latest/annotributes.html#parameterized-benchmarks) to provide parameters to the service, doubling the
   "scale" each time. This will let us see how the performance scales.
-- Write an **assertion** to make sure that it did _something_.
+- Write an **assertion** to make sure that it did _something_ (the assertion
+  becomes part of the sample but it makes no difference at this scale).
 
 {{< callout >}}
 In this case the application database is primed with the data so I didn't need
@@ -148,7 +153,7 @@ Average iteration times by variant
 1: benchProductService᠁ 2: benchProductService᠁ 3: benchProductService᠁ 4: benchProductService᠁
 ```
 
-Now we have something to work with.
+Now I have something to work with.
 
 {{< callout >}}
 I specified the number of iterations (i.e. samples) with `--iterations=4`.
@@ -160,7 +165,7 @@ however.
 
 ## Simple Changes
 
-Before diving in to profiling and getting heavy I try and isolate the
+Before diving in to profiling and getting heavy I try and identify the
 performance sensitive code through trial and error:
 
 First I `tag` the current performance profile:
@@ -189,13 +194,20 @@ regressions:
     benchProductService # 8 products........I3 - [Mo1.222ms vs. Mo1.239ms] -1.40% (±0.75%)
 ```
 
-We can see that my change didn't make much impact. So it's time to go
+{{< callout >}}
+In reality I'd run this a few times to get more confidence about the results.
+Typically I will see the results vary to one side or the other by lesser or
+greater degrees. Measuring performance on a multi-tasking operating system is
+always going to be a precarious and non-deterministic task.
+{{</ callout >}}
+
+I can see that my change didn't make much impact. So it's time to go
 **deeper**.
 
 ## Xdebug Profiling
 
 A little known feature of PHPBench is its integration with
-[Xdebug](https://xdebug.org/). We can
+[Xdebug](https://xdebug.org/). I can
 generate [cachegrind](https://valgrind.org/docs/manual/cg-manual.html) dumps
 for a specific benchmark:
 
@@ -207,7 +219,7 @@ $ ./vendor/bin/phpbench xdebug:profile tests/Bench/ProductServiceBench.php
     /data/.phpbench/xdebug-profile/0dd26689b2ee89797c2037aa2ad43ed8.cachegrind.gz
 ```
 
-Then we can use [kcachegrind](https://docs.kde.org/stable5/en/kcachegrind/kcachegrind/) to visualise
+Then I can use [kcachegrind](https://docs.kde.org/stable5/en/kcachegrind/kcachegrind/) to visualise
 the trace:
 
 ```bash
@@ -254,10 +266,11 @@ magnitude).
 
 ## Confirming the results
 
-The Xdebug profiler is _intrusive_ and will have a not-nececessarily-relative impact on performance.
+The Xdebug profiler is _intrusive_ and will have a not-necessarily-relative
+impact on performance.
 
-Once I'm done profiling I do another round of `--tag=before` and
-`--ref=before` to see if I **really** improved things.
+Once I've made some changes I'll be running PHPBench with `--ref=before`
+again to confirm performance gains.
 
 ## Generating Reports
 
