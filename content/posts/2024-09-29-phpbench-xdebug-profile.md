@@ -3,7 +3,7 @@ title: Profiling with PHPBench and Xdebug
 categories: [phpbench,xdebug,php]
 date: 2024-09-29
 toc: true
-image: /images/2024-11-19/phpbench.png
+image: /images/2024-11-19/image.png
 ---
 
 At the time of writing this article I created [PHPBench](https://github.com/phpbench/phpbench) over 9 years ago, for
@@ -13,6 +13,8 @@ Now I seem to be using PHPBench almost frequently at work and it might even be s
 
 In this blog post I want to show **how I use PHPBench**. This is not an
 introduction, for that see the [official documentation](https://phpbench.readthedocs.io/en/latest/quick-start.html).
+
+![throwing the bench](/images/2024-11-19/image.png)
 
 ## Where to put benchmarks
 
