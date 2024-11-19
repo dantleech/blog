@@ -11,8 +11,9 @@ the first 5 years I didn't use it.
 
 Now I seem to be using PHPBench almost frequently at work and it might even be suggested that I'm **profficient** at using the tool that I built (although it's a stretch).
 
-In this blog post I want to show **how I use PHPBench**. This is not an
-introduction, for that see the [official documentation](https://phpbench.readthedocs.io/en/latest/quick-start.html).
+In this blog post I want to show **how I use PHPBench** (note that this is not
+an introduction, for that see the [official
+documentation](https://phpbench.readthedocs.io/en/latest/quick-start.html)).
 
 ![throwing the bench](/images/2024-11-19/image.png)
 
@@ -149,6 +150,11 @@ Average iteration times by variant
 
 Now we have something to work with.
 
+{{< callout >}}
+I specified the number of iterations (i.e. samples) with `--iterations=4`.
+**Four is a good number** (*no evidence provided). You may want to specify them with an attribute however.
+{{</ callout >}}
+
 ## Simple Changes
 
 Before diving in to profiling and getting heavy I try and isolate the
@@ -236,9 +242,16 @@ After changing the code you can update Kcachegrind:
 - Run `xdebug:profile` command again (the filename stays the same!).
 - Hit **reload** in KCacheGrind (`File > Reload`).
 
+{{< callout >}}
+For me the biggest benefit to using PHPBench here is being able to _isolate_
+the issue and quickly re-profile after making a change. The alternative
+approach is often capturing the profile for a web request (which is more tedious by one one order of 
+magnitude).
+{{</ callout >}}
+
 ## Confirming the results
 
-The Xdebug profiler is _intrusive_ and will have a not-nececessarily relative impact on performance.
+The Xdebug profiler is _intrusive_ and will have a not-nececessarily-relative impact on performance.
 
 Once I'm done profiling I do another round of `--tag=before` and
 `--ref=before` to see if I **really** improved things.
