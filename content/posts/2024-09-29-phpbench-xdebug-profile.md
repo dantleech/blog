@@ -94,9 +94,10 @@ final class ProductServiceBench
 
 In above I have:
 
-- **Setup** the test in the `__construct`. I could use `#[BeforeMethods]` but
+- **Setup** the test in the `__construct`. I could use [BeforeMethods](https://phpbench.readthedocs.io/en/latest/annotributes.html#benchmark-hooks) but
   doing it in the `__construct` is simpler.
-- Used a **ParamProvider** to provide parameters to the service, doubling the
+- Used a
+  [ParamProvider](https://phpbench.readthedocs.io/en/latest/annotributes.html#parameterized-benchmarks) to provide parameters to the service, doubling the
   "scale" each time. This will let us see how the performance scales.
 - Write an **assertion** to make sure that it did _something_.
 
@@ -223,8 +224,8 @@ Some tips:
 
 After identifying a busy call I might:
 
-- **Delete the code** and see how much impact it has if any.
-- **Refactor** some or all of the code
+- **Delete the code** and see how much impact it has (if any).
+- **Refactor** some or all of the code.
 - **Write a new implementation** of the code and A/B test it.
 
 After changing the code you can update Kcachegrind:
