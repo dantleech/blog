@@ -152,7 +152,10 @@ Now we have something to work with.
 
 {{< callout >}}
 I specified the number of iterations (i.e. samples) with `--iterations=4`.
-**Four is a good number** (*no evidence provided). You may want to specify them with an attribute however.
+**Four is a good number** (*no evidence provided). You may want to specify
+them with an
+[attribute](https://phpbench.readthedocs.io/en/latest/annotributes.html#iterations)
+however.
 {{</ callout >}}
 
 ## Simple Changes
