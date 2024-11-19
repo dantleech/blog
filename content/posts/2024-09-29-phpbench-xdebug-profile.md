@@ -2,7 +2,7 @@
 title: Profiling with PHPBench and XDebug
 categories: [phpbench,xdebug,php]
 date: 2024-09-29
-toc: false
+toc: true
 image: /images/2024-11-19/phpbench.png
 ---
 
