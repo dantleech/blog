@@ -9,7 +9,7 @@ image: /images/2024-11-19/image.png
 At the time of writing this article I created [PHPBench](https://github.com/phpbench/phpbench) over 9 years ago, for
 the first 5 years I didn't use it. 
 
-Now I seem to be using PHPBench almost frequently at work and it might even be suggested that I'm **profficient** at using the tool that I built (although it's a stretch).
+Now I seem to be using PHPBench almost frequently for my client and it might even be suggested that I'm **profficient** at using the tool that I built (although it's a stretch).
 
 In this blog post I want to show **how I use PHPBench** (note that this is not
 an introduction, for that see the [official
