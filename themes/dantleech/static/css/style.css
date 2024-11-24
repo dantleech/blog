@@ -883,6 +883,18 @@ p code,  li code{
   --tw-text-opacity: 1;
   color: rgb(236 72 153 / var(--tw-text-opacity));
 }
+a.footnote-ref::before {
+    content: '[';
+}
+
+.footnotes ol {
+    margin-left: 1em;
+    list-style-type: decimal;
+}
+
+a.footnote-ref::after {
+    content: ']';
+}
 
 a{
   -webkit-text-decoration-line: underline;

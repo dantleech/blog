@@ -3,6 +3,7 @@ languageCode = "en-gb"
 paginate = 50
 title = "Dans Blog"
 theme = "dantleech"
+
 [params]
 umami_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 
