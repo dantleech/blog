@@ -3,43 +3,35 @@ title: PHP, Value Objects and You 🫵
 categories: [programming,php]
 date: 2024-11-24
 toc: true
-draft: true
 image: /images/2024-11-24/title.png
 ---
 
-There seems to be a deal of confusion about value objects. What _is_ a value
-object? And why is it useful.
+What _is_ a value object? And why is it useful.
 
-In this post I hope to explain what I mean by _value object_ and why it's **one
-of the most powerful tools in my programming toolbox**. They are right up
-there with **collections** and __DTOs__ which I may hopefully explain in
-subsequent posts.
+In this post I hope to explain what I mean by _value object_ and let you see
+why they are **one of the most powerful tools in our programming toolbox**[^6]
 
 ## TL;DR;
 
-Value objects are objects that represent a value. Everything else is a
+**Value objects are objects that represent a value!** Everything else is a
 consequence of that, they:
 
 - .. are immutable.
 - .. perform validation.
-- .. have no identity other than themselves.
+- .. have no identity other than themselves[^7]
 
-And, to be more opinionated, they:
+And, as a rule they:
 
 - .. do not extend or implement anything.
 - .. have associated functionality.
 - .. have a private constructor and one or more static constructors.
 
-The rest of this post is here to persuade you how **great** this **simple pattern** is.
-
 ## Spotting a Value Object in the Wild
 
-**A value object is an object that represents a value!** The following are
-examples are all what I would unequivocally categorise as value objects:
+The following are all unequivocally value objects:
 
-- ✅ `Date::fromYmd(2011, 1, 1)`: a date. It has three distinct fields But it represents _one value_: **a specific day in the year**.
-- ✅ `Money::fromCentsAndCode(100, 'GBP')`: an amount of currency. It
-  has two _fields_ but **both are necessary** to know "how much" currency there is.
+- ✅ `Date::fromYmd(2011, 1, 1)`: a specific day in the year.
+- ✅ `Money::fromCentsAndCode(100, 'GBP')`: an amount of currency.
 - ✅ `Geolocation::fromLatLong(50.8137, -2.4747)`: the exact
   position of the [Cerne Abbas Giant](https://en.wikipedia.org/wiki/Cerne_Abbas_Giant).
 - ✅ `Color::fromRgb(165, 42, 42)`: the colour brown.
@@ -51,18 +43,24 @@ examples are all what I would unequivocally categorise as value objects:
 
 Now what about these?
 
-- ❓ `Address::fromLines("10, Rover Straet", "DT1PVZ", "UK")`: It represents an
-  address, you could write that on a letter and it would get to where
-  it needs to go but can you **compare it**? Can you **convert it** to an **exact
-  position**? Can you **measure it?**. It's got **typos**. 
-  It's a **useful** object, but I would **hesitate to call it a value object**
-  but according to the [Eric Evans in the Blue
-  Book](https://www.domainlanguage.com/ddd/blue-book/) it depends how it is
-  used. Finally
-  though it _shouldn't matter_[^1].
-- ❌ `Order::fromLineItems(ItemOne::fromSku("SKU-1"))`: An e-commerce order is
-  **mutable** as time progresses and has many independent concerns. **An order is not a value
-  object**.
+- ❓ `Address::fromLines("10, Rover Straet", "DT1PVZ", "UK")`: An address.
+- ❓ `Order::fromLineItems(ItemOne::fromSku("SKU-1"))`: An e-commerce order.
+
+For me, the `Address` doesn't intuitively seem like a _value_. As a human I
+understand that it is a specific location, but given two addresses like this
+there would be no absolute way to compare them. [Eric Evans specifically
+mentions this example in the Blue
+Book](https://www.domainlanguage.com/ddd/blue-book/) and it **depends** on how it is
+used. Finally though it _shouldn't matter_[^1].
+
+The `Order` is definitely NOT a value object:
+
+- It has mutable state.
+- It has an identifier (e.g. the order reference, and/or an auto-incrementing
+  database ID).
+- It has many different concerns.
+
+The order is an _entity_ but we don't talk about those here.
 
 {{< callout >}}
 Value Objects are _always_ **immutable**. 7 is a value. If you change
@@ -81,7 +79,7 @@ function interpolate(int $r1, int $g1, int $b1, int $r2, int $g2, int $b2, float
 function center_map(float $long, float $lat): void;
 ```
 
-Then you **need** value objects:
+Then can refactor to:
 
 ```php
 function make_payment(Money $money): Receipt
@@ -112,11 +110,8 @@ value object for a _gradient_:
 $color = Gradient::fromColors(
     Color::fromRgb(0,0,0),
     Color::fromRgb(255,255,255)
-)->at(0.5)
+)->at(0.5);
 ```
-
-This is a good example of how you can **encapsulate** utility functions into
-value objects.
 
 ## From All Creatures Great and Small
 
@@ -199,21 +194,15 @@ importantly because **the concept of equality is contextual**.
 
 ## Contextual Equality
 
-Equality is contextual. The following two sets of tags are _equal_:
-
-```php
-true === ['tag1', 'tag2', 'tag3'] == ['tag2', 'tag1', 'tag2']
-```
-
-They are equal because the **order does not matter**. But in some cases the
-order **does matter**. For example creating a [polyline](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline):
+Take for example a series of co-ordinates to draw a line on a
+plane:
 
 ```php
 $polyline1 = [ [0,0], [3,3], [3,0], [0,0] ];
 $polyline2 = [ [0,0], [3,0], [0,0], [3,3] ];
 ```
 
-According to `==` these two values are equal but they look like this:
+Order dictates how the line is rendered:
 
 ```text
       +            +
@@ -224,16 +213,16 @@ According to `==` these two values are equal but they look like this:
 $polyline1   $polyline2
 ```
 
-They are **not the same** because the **order matters**. So we can implement
-the correct equality semantics in our _own_ `equals` method:
+So order is important, but if we have a set of tags:
 
 ```php
-$polyline1 = Polyline::fromTuples([0,0], [3,3], [3,0], [0,0]);
-$polyline2 = Polyline::fromTuples([0,0], [3,0], [0,0], [3,3]);
-assert(false === $polyline1->equals($polyline2)); // correct! they are not the same.
+$tags1 = ['one', 'two'];
+$tags2 = ['two', 'one'];
 ```
 
-The concept of value equality **may not even exist for your value**!
+Then order isn't important. By implementing a value object (or is it a
+collection?) for `Polyline` or `Tags` we are able to control the semantics of
+`equals()`.
 
 ## Validation
 
@@ -252,12 +241,21 @@ final readonly class Color {
 
         return new self($r, $g, $b);
     }
+
+    public static function fromRgb(int $r, int $g, int $b): self {
+        return new self($r, $g, $b);
+    }
+
+    public static function fromHex(int $r, int $g, int $b): self {
+        // conert to RGB and instantiate via. self($r, $g, $b)
+    }
+
     // ...
 }
 ```
 
 Note that we put the validation in the **constructor** and **all static
-constructors MUST delegate to the private constructor**. This is essential as
+constructors delegate to the private constructor**. This is essential as
 it means that no matter which format we create the value object from, it will
 always be validated by the same rules.
 
@@ -271,32 +269,33 @@ I and my future selves also value good exception messages and prefer to write
 them personally **and so should you**.
 {{</ callout >}}
 
-## Spoiling Your Appetite
+## Spoiling the Appetite
 
 So I love value objects, but I think some common practices reduce the
 value that can be gained from them.
 
 ### No Extends or Implements
 
-Value objects should **start life in ignorance** and only get what they need.
+Value objects should **start life in ignorance** and evolve what they need.
 This is the process of **modelling your problem** and modelling your problem
-leads to better software and is also satisfying! Using `extends` or
+leads to better software and is also **satisfying**! Preemptively using `extends` or
 `implements` should be considered a code smell here[^4].
 
-Let's say for example you decide to implement a `ValueObject` interface in
+Let's say we decide to implement a `ValueObject` interface in
 your project:
 
 ```php
+// don't do this
 interface ValueObject {
     public function eq(ValueObject $v): bool;
     public function greaterThan(ValueObject $v): bool;
 }
 ```
 
-You're assuming that everything can be compared for equality - **which is not
-true**. In addition you are likely to add more and more things to this class,
-further restricting the usefulness and expressiveness of anything that
-implements it.
+We're assuming that all value objects can be compared for equality - **which is not
+true**. And can a `ClassName` instance be said to be "greater" than another?
+Adding these types of constraints will tie us in knots while adding no benefit
+at all. Add what you **need** remove the superfluous.
 
 ### No "ValueObject" Namespace
 
@@ -308,13 +307,12 @@ You should structure your code by the problems they solve, for example:
 
 ```text
 src/
-    Application/
-    Users/
-    Reports/
-        Charts/
-            Color.php
-            Gradient.php
-            Gradients.php // a collection!
+  Runner/
+  Users/
+  Charts/
+    Color.php
+    Gradient.php
+    Gradients.php // a collection!
 ```
 
 I won't go too far into this topic here as, honestly, every project is
@@ -328,14 +326,18 @@ We also see `toArray` and `fromArray` for use in serialization processes (i.e.
 converting JSON to objects):
 
 ```php
+// don't do this
 interface ValueObject {
     // ...
     public function fromArray(array $data): VO;
     public function toArray(): array;
 }
 
+// don't do this
 class Money implements ValueObject {
+
     public function fromArray(array $data): self {
+        // so many problems below...
         Assert::arrayHasKey('currency', $data);
         Assert::arrayHasKey('amount', $data);
         $currency = $data['currency'];
@@ -354,14 +356,25 @@ class Money implements ValueObject {
 }
 ```
 
+The problems I have with the above:
+
 - How the value is represented "on the wire" is not the concern of the value!
-- It's the developers responsibly to validate the raw array.
-- Developers are **not good at that** and you **will** end up with `undefined
-  array key` and type errors.
+- It's the developers responsibly to validate the raw array and developers are
+  **not good at that** and you **will** end up with `undefined array key` and
+  type errors.
 - The property names are referenced in the class, and several times in the to
   and from array methods.
 
 Most importantly **none of that code is necessary [if](https://symfony.com/doc/current/serializer.html) [you](https://valinor.cuyz.io/latest/) [use](https://github.com/thephpleague/object-mapper) a serialization or mapping library** and you absolutely should.
+
+## No Masters
+
+Value Objects are objects we use to model problems. You don't need a licence
+to use a Value Object, they are not available by subscription, they are not
+"introduced" into a project through a third-party library. They are **just
+objects**.
+
+You can use them any time! **Create Value** Objects **today** and **profit**!
 
 --- 
 
@@ -390,3 +403,6 @@ goal of it.
 [^5]: So much fun can be had when different softwares have different opinions
     on whether things should be zero or 1 based. The good news is that value
     objects can at least **ensure** that 0-based offsets invalid if that's the case.
+[^6]: They are right up there with **collections** and __DTOs__ which I may hopefully explain in
+subsequent posts.
+[^7]: You could you imagine two or more versions of the value `7`?
