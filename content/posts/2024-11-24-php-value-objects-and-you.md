@@ -6,7 +6,7 @@ toc: true
 image: /images/2024-11-24/title.png
 ---
 
-What _is_ are value objects? And why are they useful.
+What are value objects? And why are they useful.
 
 In this post I hope to explain what I mean by _value object_ and let you see
 why they are **one of the most powerful tools in our programming toolbox**[^6]
@@ -100,7 +100,7 @@ disastrous!
 {{< callout >}}
 You could argue that `$amount` in the `interpolate` example should also be a
 value object as it must be a value between 0 and 1. But how much _value_ does
-that add? It can also be validated wthin the function afterall. Is it a
+that add? It can also be validated within the function afterall. Is it a
 constraint that's going to occur in other places? You decide.
 {{</ callout >}}
 
@@ -197,7 +197,7 @@ $isBrighter = $color1->isBrighterThan($color2);
 $date2 = $date1->addDays(2); // returns a new date 2 days ahead of `$date1`
 ```
 
-Some people like to explcitly add `->equals()` methods to value objects instead of
+Some people like to explicitly add `->equals()` methods to value objects instead of
 using the `==` operator - but why? There are good technical reasons[^3] but most
 importantly because **the concept of equality is contextual**.
 
@@ -256,7 +256,7 @@ final readonly class Color {
     }
 
     public static function fromHex(int $r, int $g, int $b): self {
-        // conert to RGB and instantiate via. self($r, $g, $b)
+        // convert to RGB and instantiate via. self($r, $g, $b)
     }
 
     // ...
@@ -380,7 +380,7 @@ Most importantly **none of that code is necessary [if](https://symfony.com/doc/c
 
 Value Objects are objects we use to model problems. You don't need a licence
 to use a Value Object, they are not available by subscription, they are not
-"introduced" into a project through a third-party library. They are **just
+"introduced" into a project through a third-party library[^third]. They are **just
 objects** and there is rarely a day that goes by that I don't use them.
 
 You can use them any time! **Create Value** Objects **today** and **profit**!
@@ -417,3 +417,4 @@ subsequent posts.
 [^7]: You could you imagine two or more versions of the value `7`?
 [^parameter]: This "refactoring" is also known as [Introducing a Parameter
     Object](https://refactoring.com/catalog/introduceParameterObject.html)
+[^third]: of course there are (very good) libraries that provide domain-specific value objects such as [Carbon](https://github.com/briannesbitt/Carbon) and [Money](https://github.com/moneyphp/money). I'm allergic to dependencies however so I'd think carefully before introducing them.
