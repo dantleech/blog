@@ -223,14 +223,14 @@ order dictates how the line is rendered:
 $polyline1   $polyline2
 ```
 
-So order is important when we talk about a polyline. If we have a set of tags:
+So **order is important** when we talk about a polyline. If we have a set of tags:
 
 ```php
 $tags1 = ['one', 'two'];
 $tags2 = ['two', 'one'];
 ```
 
-Then order isn't important. By implementing a value object (or is it a
+Then **order is not important**. By implementing a value object (or is it a
 collection?) for `Polyline` or `Tags` we are able to control the semantics of
 `equals()`.
 
