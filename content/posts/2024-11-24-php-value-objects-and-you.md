@@ -342,7 +342,8 @@ DistanceValueObject::fromNauticalMiles(2.69978);
 
 And ask ourselves _WHY DID WE JUST DO THAT_. It **doesn't matter** that Color is a value object.
 **It matters that it's a color**. Again we are modelling - the real world doesn't
-care about value objects, collections or interfaces. As mentioned in the
+care about value objects, collections or
+[interfaces](https://verraes.net/2013/09/sensible-interfaces/). As mentioned in the
 footnbotes these are a _consequence_ of the modelling and not the _goal_.
 
 Which makes you think more in terms of the problem?
