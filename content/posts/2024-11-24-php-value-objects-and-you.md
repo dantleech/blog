@@ -348,13 +348,19 @@ footnbotes these are a _consequence_ of the modelling and not the _goal_.
 Which makes you think more in terms of the problem?
 
 ```php
-ColorValueObject::fromRedColorGreenColorBlueColor(255, 10, 255);
+ColorValueObject::fromRedIntegerGreenIntegerBlueInteger(255, 10, 255);
 // or
 Color::fromRgb(255, 10, 255);
 ```
 
+Is the suffix necessary? Would removing it break the world? Would removing it
+make the code **easier to reason about**? [^occams]
+
+{{< callout >}}
 I'm not **against** suffixes. I use them to disambiguate classes that
-have a specific function. For example I may have `ColorDTO` or `ColorWidget`. But these things _relate_ to the color, the value object **IS** the color! [^occams]
+have a specific function. For example I may have `ColorDTO` or `ColorWidget`. But these things _relate_ to the color, the value object **IS** the color!
+{{</ callout >}}
+
 
 ### No Serialization!
 
