@@ -6,7 +6,7 @@ toc: true
 image: /images/2024-11-24/title.png
 ---
 
-What _is_ a value object? And why is it useful.
+What _is_ are value objects? And why are they useful.
 
 In this post I hope to explain what I mean by _value object_ and let you see
 why they are **one of the most powerful tools in our programming toolbox**[^6]
@@ -26,7 +26,7 @@ And, as a rule they:
 - .. have associated functionality.
 - .. have a private constructor and one or more static constructors.
 
-## Spotting a Value Object in the Wild
+## Spotting a Value Object in the Wild 🐰
 
 The following are all unequivocally value objects:
 
@@ -70,7 +70,7 @@ Value Objects are _always_ **immutable**. 7 is a value. If you change
 
 Now lets look at why value objects will **make you a better person**.
 
-## Too Many Arguments
+## Too Many Arguments 
 
 If you ever have:
 
@@ -90,7 +90,7 @@ function center_map(Geolocation $location): void;
 
 As separate arguments `$amount` and `$code` represent a quantity and a
 unit respectively. But together they represent a **an amount of currency**
-and that's **what the function needs!**.
+and that's **what the function needs!**[^parameter]
 
 Now _maybe_ your shop only deals in GBP[^2] so the currency code is not
 important, but in other cases NOT passing the currency code, or even
@@ -129,10 +129,12 @@ $c2 = ClassName::fromString('Acme\Colors\Color');
 
 assert(true === $c1 == $c2); // they are the same value
 
-$5k = Distance::fromMiles(3.1);
+$5k = Distance::fromMiles(3.10686);
 $5k = Distance::fromFoot(416.6667);
 $5k = Distance::fromKilometers(5);
-$5k = Distance::fromMeters(500);
+$5k = Distance::fromMeters(5000);
+$5k = Distance::fromMillimeters(5_000_000);
+// ...
 ```
 
 Even though we create them with different arguments, they are represented
@@ -167,6 +169,7 @@ Value objects can be used to convert between formats:
 ```php
 Color::fromHex('#A52A2A')->toRgb() === [154,42,42];
 Color::fromRgb([154,42,42)->toHex() === '#A52A2A';
+Distance::fromKilometers(5)->toMiles() === '3.10686';
 ```
 
 This is (ideally 😅) a **lossless** (reversible) transformation. But we can also profit
@@ -378,7 +381,7 @@ Most importantly **none of that code is necessary [if](https://symfony.com/doc/c
 Value Objects are objects we use to model problems. You don't need a licence
 to use a Value Object, they are not available by subscription, they are not
 "introduced" into a project through a third-party library. They are **just
-objects**.
+objects** and there is rarely a day that goes by that I don't use them.
 
 You can use them any time! **Create Value** Objects **today** and **profit**!
 
@@ -412,3 +415,5 @@ goal of it.
 [^6]: They are right up there with **collections** and __DTOs__ which I may hopefully explain in
 subsequent posts.
 [^7]: You could you imagine two or more versions of the value `7`?
+[^parameter]: This "refactoring" is also known as [Introducing a Parameter
+    Object](https://refactoring.com/catalog/introduceParameterObject.html)
