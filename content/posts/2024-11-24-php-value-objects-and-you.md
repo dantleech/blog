@@ -283,7 +283,7 @@ them personally **and so should you**.
 So I love value objects, but I think some common practices reduce the
 value that can be gained from them.
 
-### No Extends or Implements
+### No Extends or Implements!
 
 Value objects should **start life in ignorance** and evolve what they need.
 This is the process of **modelling your problem** and modelling your problem
@@ -306,7 +306,7 @@ true**. And can a `ClassName` instance be said to be "greater" than another?
 Adding these types of constraints will tie us in knots while adding no benefit
 at all. Add what you **need** remove the superfluous.
 
-### No "ValueObject" Namespace
+### No "ValueObject" Namespace!
 
 You should not have a special folder in your project where you put all your
 value objects `src/ValueObject`.
@@ -328,6 +328,33 @@ I won't go too far into this topic here as, honestly, every project is
 different. But the important thing is to keep **value objects close to the
 code that they relate to** and there should be no barrier to creating new
 value objects where they are needed.
+
+### No "ValueObject" Suffix!
+
+Let's add a suffix to some of our examples:
+
+```php
+// don't do this
+GradientValueObject::fromColors(ColorValueObject::red(), ColorValueObject::green());
+ColorValueObject::fromRgb(255, 10, ,255);
+DistanceValueObject::fromNauticalMiles(2.69978);
+```
+
+And ask ourselves _WHY DID WE JUST DO THAT_. It **doesn't matter** that Color is a value object.
+**It matters that it's a color**. Again we are modelling - the real world doesn't
+care about value objects, collections or interfaces. As mentioned in the
+footnbotes these are a _consequence_ of the modelling and not the _goal_.
+
+Which makes you think more in terms of the problem?
+
+```php
+ColorValueObject::fromRedColorGreenColorBlueColor(255, 10, 255);
+// or
+Color::fromRgb(255, 10, 255);
+```
+
+I'm not **against** suffixes. I use them to disambiguate classes that
+have a specific function. For example I may have `ColorDTO` or `ColorWidget`. But these things _relate_ to the color, the value object **IS** the color! [^occams]
 
 ### No Serialization!
 
@@ -414,7 +441,7 @@ goal of it.
     ```
 [^4]: There are no absolute rules however. You need to do what you need to do,
     just make sure that choices are driven by the needs of your model and not
-    the needs of your framework or latest [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult).
+    the needs of your framework or latest [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult#Postwar_developments).
 [^5]: So much fun can be had when different softwares have different opinions
     on whether things should be zero or 1 based. The good news is that value
     objects can at least **ensure** that 0-based offsets invalid if that's the case.
@@ -426,3 +453,6 @@ subsequent posts.
 [^third]: of course there are (very good) libraries that provide domain-specific value objects such as [Carbon](https://github.com/briannesbitt/Carbon) and [Money](https://github.com/moneyphp/money). I'm allergic to dependencies however so I'd think carefully before introducing them.
 [^immutable]: actually a value object could be mutable, but it's just considered bad
     practice. PHP's [DateTime](https://www.php.net/manual/en/class.datetime.php) is a notable example, many bugs have been caused because modifying the date in one place has the side effect of modifying it in any place it is referenced. This is probably not what you'd expect, fortunately we now have [DateTimeImmutable](https://www.php.net/manual/en/class.datetimeimmutable.php).
+[^occams]: when solving problems always apply [Occams
+    Razor](https://en.wikipedia.org/wiki/Occam%27s_razor): "Entities must not
+    be multiplied beyond necessity"
