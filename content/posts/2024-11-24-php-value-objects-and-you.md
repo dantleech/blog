@@ -40,6 +40,7 @@ The following are all unequivocally value objects:
 - ✅ `ByteOffset::fromInt(12)`: a ... byte offset.
 - ✅ `Position::new(line: 1, char: 5)`: a position in a text document[^5]
 - ✅ `ByteOffsetRange::fromInts(1, 2)`: a range of byte offsets.
+- ✅ `Distance::fromMiles(2)`: 2 miles.
 
 Now what about these?
 
@@ -127,6 +128,11 @@ $c1 = ClassName::fromSegments('Acme', 'Colors', 'Color');
 $c2 = ClassName::fromString('Acme\Colors\Color');
 
 assert(true === $c1 == $c2); // they are the same value
+
+$5k = Distance::fromMiles(3.1);
+$5k = Distance::fromFoot(416.6667);
+$5k = Distance::fromKilometers(5);
+$5k = Distance::fromMeters(500);
 ```
 
 Even though we create them with different arguments, they are represented
