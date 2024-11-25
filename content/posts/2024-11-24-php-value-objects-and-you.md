@@ -203,7 +203,7 @@ importantly because **the concept of equality is contextual**.
 
 ## Contextual Equality
 
-Take for example a series of co-ordinates to draw a line on a
+Take for example a _series_ of co-ordinates to draw a line on a
 plane:
 
 ```php
@@ -211,7 +211,8 @@ $polyline1 = [ [0,0], [3,3], [3,0], [0,0] ];
 $polyline2 = [ [0,0], [3,0], [0,0], [3,3] ];
 ```
 
-Order dictates how the line is rendered:
+Both polylines have the same _set_ of values and the **sets are equal**, but
+order dictates how the line is rendered:
 
 ```text
       +            +
@@ -222,7 +223,7 @@ Order dictates how the line is rendered:
 $polyline1   $polyline2
 ```
 
-So order is important, but if we have a set of tags:
+So order is important when we talk about a polyline. If we have a set of tags:
 
 ```php
 $tags1 = ['one', 'two'];
