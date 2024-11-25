@@ -385,6 +385,12 @@ objects** and there is rarely a day that goes by that I don't use them.
 
 You can use them any time! **Create Value** Objects **today** and **profit**!
 
+## Further Reading
+
+- [Bring Value to your
+  code](https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/):
+  A more in depth article by [Dimitri Goosens](https://fosstodon.org/@dgoosens@phpc.social) .
+
 --- 
 
 [^1]: It shouldn't matter because our value objects shouldn't live in a 
