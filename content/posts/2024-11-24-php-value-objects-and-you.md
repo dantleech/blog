@@ -164,7 +164,7 @@ for equivalent values**.
 
 ## Representation and Conversion
 
-Value objects can be used to convert between formats:
+Value objects can be used for conversion:
 
 ```php
 Color::fromHex('#A52A2A')->toRgb() === [154,42,42];
