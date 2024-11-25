@@ -16,9 +16,9 @@ why they are **one of the most powerful tools in our programming toolbox**[^6]
 **Value objects are objects that represent a value!** Everything else is a
 consequence of that, they:
 
-- .. are immutable.
+- .. are immutable[^immutable].
 - .. perform validation.
-- .. have no identity other than themselves[^7]
+- .. have no identity other than themselves[^7].
 
 And, as a rule they:
 
@@ -418,3 +418,5 @@ subsequent posts.
 [^parameter]: This "refactoring" is also known as [Introducing a Parameter
     Object](https://refactoring.com/catalog/introduceParameterObject.html)
 [^third]: of course there are (very good) libraries that provide domain-specific value objects such as [Carbon](https://github.com/briannesbitt/Carbon) and [Money](https://github.com/moneyphp/money). I'm allergic to dependencies however so I'd think carefully before introducing them.
+[^immutable]: actually a value object could be mutable, but it's just considered bad
+    practice. PHP's [DateTime](https://www.php.net/manual/en/class.datetime.php) is a notable example, many bugs have been caused because modifying the date in one place has the side effect of modifying it in any place it is referenced. This is probably not what you'd expect, fortunately we now have [DateTimeImmutable](https://www.php.net/manual/en/class.datetimeimmutable.php).
