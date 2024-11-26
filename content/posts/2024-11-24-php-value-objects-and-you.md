@@ -305,7 +305,7 @@ interface ValueObject {
 We're assuming that all value objects can be compared for equality - **which is not
 true**. And can a `ClassName` instance be said to be "greater" than another?
 Adding these types of constraints will tie us in knots while adding no benefit
-at all. Add what you **need** remove the superfluous.
+at all. Add what you **need** and remove the superfluous.
 
 ### No "ValueObject" Namespace!
 
