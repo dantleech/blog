@@ -18,6 +18,7 @@ consequence of that, they:
 
 - .. are immutable[^immutable].
 - .. perform validation.
+- .. have no side-effects.
 - .. have no identity other than themselves[^7].
 
 And, as a rule they:
@@ -269,7 +270,7 @@ constructors delegate to the private constructor**. This is essential as
 it means that no matter which format we create the value object from, it will
 always be validated by the same rules.
 
-The `__construct` is your **guard against invalid state**.
+The `__construct` is your **guard against invalid state**[^invariants].
 
 {{< callout >}}
 Why not use an assertion library? For example: `Assert::lessThan(255, $r)`.
@@ -411,6 +412,39 @@ The problems I have with the above:
 
 Most importantly **none of that code is necessary [if](https://symfony.com/doc/current/serializer.html) [you](https://valinor.cuyz.io/latest/) [use](https://github.com/thephpleague/object-mapper) a serialization or mapping library** and you absolutely should.
 
+### No Mocking!
+
+Mocking objects in tests is a hot-topic for developers. There's a side that
+advocates for mocking dependencies, and another that advocates for using fake
+implementations.
+
+**NEITHER SIDE ADVOCATES FOR MOCKING VALUE OBJECTS!**
+
+```php
+$color = $this->createMock(Color::class);
+$color->method('toRgb')->willReturn([10, 20, 128]);
+$calculator->calculateNewColor($color);
+```
+
+{{< callout >}}
+"But Dan, that's not what the PHPUnit mock API looks like" yeah - 
+because I've _forgotten how to use it_.
+{{</ callout >}}
+
+Mocking a value object is entirely pointless:
+
+- **They have no side effects**: calling one should not write to the disk, modify
+  a global variable or drop a database.
+- **Mocking is more work**: Writing a mock is more work than `Color::fromRgb(10,20,128)`.
+- **Mocking is not safe captain**: You're testing your code with a fake version of
+  something don't be surprised when it fails with the real version.
+- **It's value - values are _pure_**: It's like mocking the number seven. Should you mock the
+  result of 7 / 2?
+
+People in the mocking camp never intended for you to mock value objects,
+collections, DTOs or entities. If you do mock, then mock **services** (typically the things you
+inject into your `__construct`).
+
 ## No Masters
 
 Value Objects are objects we use to model problems. You don't need a licence
@@ -464,3 +498,4 @@ subsequent posts.
 [^occams]: when solving problems always apply [Occams
     Razor](https://en.wikipedia.org/wiki/Occam%27s_razor): "Entities must not
     be multiplied beyond necessity"
+[^invariants]: see also [invariants](https://en.wikipedia.org/wiki/Class_invariant#Assertions).
