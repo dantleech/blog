@@ -421,6 +421,7 @@ implementations.
 **NEITHER SIDE ADVOCATES FOR MOCKING VALUE OBJECTS!**
 
 ```php
+// don't do this
 $color = $this->createMock(Color::class);
 $color->method('toRgb')->willReturn([10, 20, 128]);
 $calculator->calculateNewColor($color);
