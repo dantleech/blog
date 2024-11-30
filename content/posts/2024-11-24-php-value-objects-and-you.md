@@ -439,8 +439,8 @@ Mocking a value object is entirely pointless:
 - **Mocking is more work**: Writing a mock is more work than `Color::fromRgb(10,20,128)`.
 - **Mocking is not safe captain**: You're testing your code with a fake version of
   something don't be surprised when it fails with the real version.
-- **It's value - values are _pure_**: It's like mocking the number seven. Should you mock the
-  result of 7 / 2?
+- **Values are _pure_**: It's like mocking the number seven. Should you mock the
+  result of 7 / 2? Do you expect a different answer each time?
 
 People in the mocking camp never intended for you to mock value objects,
 collections, DTOs or entities. If you do mock, then mock **services** (typically the things you
