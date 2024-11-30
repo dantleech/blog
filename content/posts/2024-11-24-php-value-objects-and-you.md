@@ -444,7 +444,7 @@ Mocking a value object is entirely pointless:
 
 People in the mocking camp never intended for you to mock value objects,
 collections, DTOs or entities. If you do mock, then mock **services** (typically the things you
-inject into your `__construct`).
+inject into _your_ service's `__construct`).
 
 ## No Masters
 
