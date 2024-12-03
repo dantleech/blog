@@ -460,6 +460,7 @@ You can use them any time! **Create Value** Objects **today** and **profit**!
 - [Bring Value to your
   code](https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/):
   A more in depth article by [Dimitri Goosens](https://fosstodon.org/@dgoosens@phpc.social) .
+- [Is it a DTO or a Value Object](https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/): Short article by [Matthias Noback](https://mastodon.social/@matthiasnoback) on differentiating a data-transfer-object from a value object.
 
 --- 
 
