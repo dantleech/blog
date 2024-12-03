@@ -199,8 +199,8 @@ $date2 = $date1->addDays(2); // returns a new date 2 days ahead of `$date1`
 ```
 
 Some people like to explicitly add `->equals()` methods to value objects instead of
-using the `==` operator - but why? There are good technical reasons[^3] but most
-importantly because **the concept of equality is contextual**.
+using the `==` operator - but why? Most importantly because **the concept of
+equality is contextual**.
 
 ## Contextual Equality
 
@@ -470,19 +470,6 @@ we don't model value objects. They are a consequence of our modelling, not the
 goal of it.
 [^2]: I thought this stood for Great British Pounds but it's [more boring than
     that](https://en.wikipedia.org/wiki/Pound_sterling#Currency_code).
-[^3]: Technical reasons include that `==` is not "deep" and does not take
-    into account "nested objects":
-    ```php
-    class Two {
-        public function __construct(public string $val) {}
-    }
-    class One {
-        public function __construct(Two $two) {}
-    }
-
-    // `==` thinks these are the same
-    assert(true === new One(new Two('hello')) == new One(new Two('goodbye')));
-    ```
 [^4]: There are no absolute rules however. You need to do what you need to do,
     just make sure that choices are driven by the needs of your model and not
     the needs of your framework or latest [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult#Postwar_developments).
