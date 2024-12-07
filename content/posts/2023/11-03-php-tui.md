@@ -6,7 +6,7 @@ image: /images/2023-11-03/phptui.png
 toc: true
 ---
 
-**Update 30/11/2023**: I continued to work on it and [versions have been tagged](https://github.com/php-tui/php-tui/releases/tag/0.1.0) and you can visit the [docs](https://php-tui.github.io/php-tui/) and view a **follow up** blog post about [Term]({{< ref "/posts/2023-11-27-php-term.md" >}})).
+**Update 30/11/2023**: I continued to work on it and [versions have been tagged](https://github.com/php-tui/php-tui/releases/tag/0.1.0) and you can visit the [docs](https://php-tui.github.io/php-tui/) and view a **follow up** blog post about [Term]({{< ref "/posts/2023/11-27-php-term.md" >}})).
 
 ---
 
@@ -61,7 +61,7 @@ writing event driven interfaces...
 
 ## Learning Rust
 
-A few years ago I was learning [Golang](https://go.dev/) (see my [post about it]({{< ref "/posts/2022-09-19-encountering-go-as-a-php-developer.md" >}})), and was interested in learning [Rust](https://www.rust-lang.org/).
+A few years ago I was learning [Golang](https://go.dev/) (see my [post about it]({{< ref "/posts/2022/09-19-encountering-go-as-a-php-developer.md" >}})), and was interested in learning [Rust](https://www.rust-lang.org/).
 
 Whenever I want to learn a new language I start thinking about a project to work on -
 something that I would find useful. My first project was a [Plain Text Time

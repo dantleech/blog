@@ -6,7 +6,7 @@ toc: false
 ---
 
 This time last year I had just [moved back from Berlin]({{< ref
-"/posts/2022-12-18-leaving-berlin.md" >}}) to my hometown Weymouth after an
+"/posts/2022/12-18-leaving-berlin.md" >}}) to my hometown Weymouth after an
 absence of about 20 years.
 
 ## January: Temporary Accomodation
@@ -229,7 +229,7 @@ What could I work on? Why should I work at all?
 Programming is my hobby I guess, I do it in my spare time. So having all this
 time off left me with a rare opportunity to fix one of the two projects that I
 maintain: [Phapctor](https://github.com/phpactor/phpactpr) and [PHPBench](https://github.com/phpbench/phpbench). Instead I decided to spend months porting
-[Ratatui to PHP]({{< ref "/posts/2023-11-03-php-tui.md" >}}).
+[Ratatui to PHP]({{< ref "/posts/2023/11-03-php-tui.md" >}}).
 
 It was very cool, and other people that it was very cool too. Which made me
 feel like I didn't waste my time.

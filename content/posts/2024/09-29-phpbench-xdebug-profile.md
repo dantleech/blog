@@ -283,7 +283,7 @@ $ ./vendor/bin/phpbench run tests/Bench/ProductServiceBench.php --output=html --
 
 I don't usually share the generated PHPBench reports directly, but usually use
 copy/paste/screenshot parts of them and write up a [spike]({{< ref
-"2024-03-10-adr-vs-spike" >}}):
+"posts/2024/03-10-adr-vs-spike" >}}):
 
 - Open `.phpbench/html/index.html` in a browser.
 - Take a screenshot of the graphs therein.

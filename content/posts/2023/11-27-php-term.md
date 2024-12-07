@@ -12,7 +12,7 @@ Crossterm. Give it a [star](https://github.com/php-tui/term).
 ![phptui logo](/images/2023-11-27/term.png)
 *(professional) Term logo*
 
-When I started porting [Ratatui](https://github.com/ratatui-org/ratatui) to PHP ([see previous post]({{< ref "/posts/2023-11-03-php-tui.md" >}})) I
+When I started porting [Ratatui](https://github.com/ratatui-org/ratatui) to PHP ([see previous post]({{< ref "/posts/2023/11-03-php-tui.md" >}})) I
 didn't fully realise what I was getting myself into.
 
 PHP-TUI is a framework which allows you to create terminal user interfaces,
