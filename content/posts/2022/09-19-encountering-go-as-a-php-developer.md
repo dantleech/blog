@@ -465,7 +465,7 @@ In PHP a class may look like this:
 class Pet {
     private bool $vaccinated = false;
 
-    public function isVaccinated(): void {
+    public function isVaccinated(): bool {
         return $this->vaccinated;
     }
 
