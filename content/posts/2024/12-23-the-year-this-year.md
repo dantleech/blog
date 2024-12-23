@@ -33,7 +33,7 @@ This year I had **1 scaffolding** and lots of associated **trauma**.
 
 ## Work
 
-My contract with ALDI was renewed and fortunately I haven't had a shortage of
+My contract was renewed and fortunately I haven't had a shortage of
 work although being self-employed brings it's own challenges and I am keen to
 diversify my clients and to explore new ways of working and am mindful about
 the years to come.
@@ -147,7 +147,7 @@ myself in the wrong room in a self-service accomodation. I met old and new
 friends and had a **fantastic pizza**. The Pope visited Verona on the final
 day but I didn't make the effort to see him.
 
-This year also saw me returning to [Web Summer Camp](https://websummercamp.com/2024) after [pehaps a decade](https://2014.phpsummercamp.com/). My workshop was on [Locking Down Perforamance with PHPBench](https://websummercamp.com/2024/workshop/locking-down-performance-with-phpbench) which I think went down well and as it was one of the first I was able to most of the remainder of the conference sitting in the sun and drinking beer with some familiar faces. In retrospect I may have had **too much beer** and had a very challening recovery run up and down the promenade the following day.
+The year also saw me returning to [Web Summer Camp](https://websummercamp.com/2024) after [pehaps a decade](https://2014.phpsummercamp.com/). My workshop was on [Locking Down Perforamance with PHPBench](https://websummercamp.com/2024/workshop/locking-down-performance-with-phpbench) which I think went down well and as it was one of the first I was able to most of the remainder of the conference sitting in the sun and drinking beer with some familiar faces. In retrospect I may have had **too much beer** and had a very challening recovery run up and down the promenade the following day.
 
 I need to make more effort to ~drink beer~ attend conferences and submit talks and
 workshops next year and I have already committed to giving a talk at the
@@ -174,7 +174,7 @@ leaving me just **13 seconds** from my **best time in 2018**. So I'm hopeful
 to finally getting a new personal best and reaching parity with past me 😅.
 
 The first part of the year featured some **disasterous performances** in races
-that I had hoped to give my best. The [Weymouth
+that I had hoped to give my all. The [Weymouth
 Half](https://justracinguk.eventrac.co.uk/e/weymouth-half-marathon-10202) was
 a flat course and after a confident start my body stopped working after 4
 miles and the rest was a painful slog. The same happened at the [Hardy's
@@ -236,7 +236,7 @@ This year I cycled **1,967 miles**.
 
 ## Music
 
-This year also saw me on the mustical stage for the first time in 20 years
+This year also saw me return to the musical stage for the first time in 20 years
 with my friend's project "Cosmic Bungalow":
 
 ![stage](/images/2024-12-23/stage.png)
