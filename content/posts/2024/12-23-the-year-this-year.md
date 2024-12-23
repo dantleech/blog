@@ -7,7 +7,7 @@ image: /images/2024-12-23/portland.jpg
 ---
 
 This is the year that was last year of the year, the year of the year, the
-best and worst year that was in the last year. This is my story.
+best and worst year that was in the last year. **This is my story**.
 
 ## Ownership Anxiety
 
