@@ -13,7 +13,7 @@ that]({{< ref "../2023/12-29-one-year-in-weymouth.md" >}}). **This is my story**
 ## Ownership Anxiety
 
 In January I purchased a bed. For the previous 6 months I had been sleeping on
-a matres on the floor. This was my first real bed, a big bed. It was about
+a mattress on the floor. This was my first real bed, a big bed. It was about
 this time that I also started to notice a powdery substance on the ceiling
 above my bed.
 
