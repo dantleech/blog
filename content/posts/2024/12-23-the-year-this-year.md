@@ -140,11 +140,11 @@ This year I **spent money on stuff**.
 
 ## Conferences and Workshops
 
-I visited Verona for PHPDay. I got soaked to the bone on the first evening and
-managed to cause much distress by installing myself in the wrong room in a
-self-service accomodation. I met old and new friends and had a **fantastic
-pizza**. The Pope visited Verona on the final day but I didn't make the effort
-to see him.
+I visited Verona for [PHPDay](https://2024.phpday.it/). I got soaked to the
+bone on the first evening and managed to cause much distress by installing
+myself in the wrong room in a self-service accomodation. I met old and new
+friends and had a **fantastic pizza**. The Pope visited Verona on the final
+day but I didn't make the effort to see him.
 
 This year also saw me returning to [Web Summer Camp](https://websummercamp.com/2024) after [pehaps a decade](https://2014.phpsummercamp.com/). My workshop was on [Locking Down Perforamance with PHPBench](https://websummercamp.com/2024/workshop/locking-down-performance-with-phpbench) which I think went down well and as it was one of the first I was able to most of the remainder of the conference sitting in the sun and drinking beer with some familiar faces. In retrospect I may have had **too much beer** and had a very challening recovery run up and down the promenade the following day.
 
