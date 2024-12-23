@@ -3,11 +3,11 @@ title: The Year This Year
 categories: [personal]
 date: 2024-12-23
 draft: false
-image: /images/2024-11-24/title.png
+image: /images/2024-12-23/portland.jpg
 ---
 
-It's a dissapointing time to exist in this world as a species but individually
-we're alright? right?
+It's a disappointing time to exist in this world as a species but individually
+we're alright? right!? This is my year in summary.
 
 ## Ownership Anxiety
 
