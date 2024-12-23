@@ -44,7 +44,7 @@ Some of the interesting things I've worked on:
 - **Self Executing Tutorials**: Run tutorials in CI[^demo]
 - **Super Fast Serializer POC**: code-generating serializer that's super fast while
   also providing validation.
-- **Proptrine**: What happens when you combine [Propel](http://propelorm.org/) and [Doctrine](https://www.doctrine-project.org/).
+- **Proptrine**: This is what happens when you combine [Doctrine](https://www.doctrine-project.org/) with [Propel](http://propelorm.org/) (but Docpel doesn't have the same ring)[^notreally].
 
 The thing I'm most happy with is the framework documentation which
 provides structured guides, tutorials, references and explanations whilst
@@ -243,3 +243,5 @@ This year I **played 1 gig**.
 ...profit?
 
 [^demo]: I made an independent demonstation of the idea [here](https://github.com/dantleech/docbot)
+[^notreally]: Proptrine never happened fortunately, but we did integrate
+    Doctrine on top of Propel's schema management.
