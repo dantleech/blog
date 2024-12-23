@@ -1,5 +1,5 @@
 --- 
-title: The Year This Year
+title: The Year This Year of 2024
 categories: [personal]
 date: 2024-12-23
 draft: false
