@@ -67,7 +67,8 @@ News](https://news.ycombinator.com/item?id=39428002) which was **mildly
 terrifying** and was as close as I've been to internet fame (which isn't very
 close - nor wanted 😅).
 
-For the first ever I installed [analytics](https://umami.is/) on this website - although not the kind that requires a
+I installed [analytics](https://umami.is/) on this website for the first time
+- although not the kind that requires a
 [GDPR](https://www.gov.uk/data-protection) banner. It's somewhat important to
 know if people read what you write so **I'm glad I did it**.
 
