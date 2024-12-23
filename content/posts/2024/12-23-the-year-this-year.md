@@ -21,8 +21,8 @@ ceiling above my bed.  My bedroom is in the attic of a victorian house and my
 bed was adjacent to the chimney stack and as I would find out later it was
 **damp** . I've learnt lots of new terms: **chimney stack**, hygroscopic
 salts, efflorescence, flashing, pointing, reflaunching. I learnt how to spell
-**scaffolding** and the pain of inspecting an unused, shared, chimney the 4th
-floor.
+**scaffolding** and the absurd effort required to access a large, shared,
+chimney on a pitched roof.
 
 This year I had **1 scaffolding** and lots of associated **trauma**.
 
