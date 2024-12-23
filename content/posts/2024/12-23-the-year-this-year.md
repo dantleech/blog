@@ -33,9 +33,9 @@ This year I had **1 scaffolding** and lots of associated **trauma**.
 ## Work
 
 My contract with ALDI was renewed and fortunately I haven't had a shortage of
-work, this has been my highest earning year to date - although being
-self-employed brings it's own challenges and I am keen to diversify my clients
-and to explore new ways of working and am mindful about the years to come.
+work although being self-employed brings it's own challenges and I am keen to
+diversify my clients and to explore new ways of working and am mindful about
+the years to come.
 
 Some of the interesting things I've worked on:
 
