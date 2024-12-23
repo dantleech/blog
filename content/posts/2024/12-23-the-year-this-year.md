@@ -67,8 +67,7 @@ News](https://news.ycombinator.com/item?id=39428002) which was **mildly
 terrifying** and was as close as I've been to internet fame (which isn't very
 close - nor wanted 😅).
 
-I installed [analytics](https://umami.is/) on this website for the first time
-- although not the kind that requires a
+I installed [analytics](https://umami.is/) on this website for the first time - although not the kind that requires a
 [GDPR](https://www.gov.uk/data-protection) banner. It's somewhat important to
 know if people read what you write so **I'm glad I did it**.
 
@@ -114,17 +113,21 @@ connection - it can analyse traffic, provide a VPN server, route devices to
 other VPNs, block certain devices from communicating with the internet, and,
 most critically **use my pi-hole as a DNS server** and block ads.
 
-The NAS not only provides storage but also enough power to fill the role of an
-always-on server and run docker containers. At the moment it provides me with
-[Jellyfin](https://jellyfin.org/) for watching home movies,
-[Linkding](https://github.com/sissbruecker/linkding) for hosting bookmarks, in
-addition it's also running [Surveillance
+The NAS not only provides storage but also some power to fill the role of an
+always-on server to run docker containers. At the moment it provides me with
+[Syncthing](https://syncthing.net/) for file synchronization and
+[Linkding](https://github.com/sissbruecker/linkding) for hosting bookmarks and
+Grafana and related tools. It's also running [Surveillance
 Station](https://www.synology.com/en-global/surveillance) which is constantly
 recoding video streams from my cameras, one of which is triggered by traffic
 vibrations measured by an
 [m5stick](http://docs.m5stack.com/en/core/m5stickc_plus) - I measure traffic
 vibrations because my flat shakes when buses drive past and **it's driving me
 insane**.
+
+The VPN server on Ubqiuity router also means I can login to my home network
+from anywhere and check-in on my
+[home-assistant](https://www.home-assistant.io/).
 
 This year I **spent money on stuff**.
 
