@@ -191,6 +191,10 @@ personal bests at the [Weymouth
 10](https://www.timingmonkey.co.uk/results/Weymouth10-24/index.html#0_8AF0E5)
 and at the Osprey 10k.
 
+I've entered the [2025 Marathon of
+Barcelona](https://www.zurichmaratobarcelona.es/en/course/) which will be my
+first Marathon in many years and it will hurt.
+
 This year I ran **1,621 miles**.
 
 ![Weymouth 10 Finisher](/images/2024-12-23/weymouth10.png)
@@ -212,7 +216,7 @@ every single day](http://localhost:1313/blog/categories/spain2024/).
 *Bike in the clouds*
 
 My running fitness was one thing, but I had a new found cycling fitness to
-maintain and my racer bike was on it's last legs as I was riding around the
+maintain and my racer bike was on it's last legs[^lastlegs] as I was riding around the
 Dorset countryside so I got a new one.
 
 Initially I was going to replace my aluminium-framed £600 racer
@@ -248,3 +252,5 @@ This year I **played 1 gig**.
 [^notreally]: Proptrine never happened fortunately, but we did integrate
     Doctrine on top of Propel's schema management.
 [^dontknow]: well, we've got a general idea...
+[^lastlegs]: or at least the bicycle mechanic said it would cost as much to
+    fix it as get a new one but that was ultimately **not quite true at all**.
