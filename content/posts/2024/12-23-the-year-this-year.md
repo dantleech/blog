@@ -149,7 +149,7 @@ day but I didn't make the effort to see him.
 
 This year also saw me returning to [Web Summer Camp](https://websummercamp.com/2024) after [pehaps a decade](https://2014.phpsummercamp.com/). My workshop was on [Locking Down Perforamance with PHPBench](https://websummercamp.com/2024/workshop/locking-down-performance-with-phpbench) which I think went down well and as it was one of the first I was able to most of the remainder of the conference sitting in the sun and drinking beer with some familiar faces. In retrospect I may have had **too much beer** and had a very challening recovery run up and down the promenade the following day.
 
-I need to make more effort to both attend conferences and submit talks and
+I need to make more effort to ~drink beer~ attend conferences and submit talks and
 workshops next year and I have already committed to giving a talk at the
 [PHPSW meetup](https://www.meetup.com/php-sw/events/305093943) in January and have been accepted for a workshop at [Norfolk Developers](https://norfolkdevelopers.com/) in February, so I should be off to a good start.
 
