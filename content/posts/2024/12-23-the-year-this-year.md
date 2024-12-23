@@ -232,7 +232,7 @@ in the cold and dark I decided to invest further in a [Wahoo Kickr Core](https:/
 This year I cycled **1,967 miles**.
 
 ![trainer](/images/2024-12-23/trainer.jpg)
-*Expensive bike on trainer*
+*Bike on trainer*
 
 ## Music
 
