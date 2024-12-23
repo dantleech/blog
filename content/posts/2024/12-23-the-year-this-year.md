@@ -27,6 +27,8 @@ floor.
 ![Scaffolding](/images/2024-12-23/scaffolding.jpg)
 *Up with the scaffolding*
 
+This year I had **1 scaffolding**.
+
 ## Work
 
 My contract with ALDI was renewed and I haven't had a shortage of work this
@@ -50,6 +52,8 @@ striving to be **necessarily correct** through the means of including tested
 code examples, generated reference docs, self-executing
 tutorials and static analyis to ensure consistent formatting.
 
+This year I made about **270 merge requests** and **2,144** commits.
+
 ![Errors](/images/2024-12-23/errors.jpg)
 
 ## Blogging
@@ -63,10 +67,9 @@ News](https://news.ycombinator.com/item?id=39428002) which was **mildly
 terrifying** and was as close as I've been to internet fame (which isn't very
 close - nor wanted 😅).
 
-For the first ever I installed [analytics](https://umami.is/) on this website
-- although not the kind that require a
+For the first ever I installed [analytics](https://umami.is/) on this website - although not the kind that require a
 [GDPR](https://www.gov.uk/data-protection) banner. It's somewhat important to
-know if people read what you write.
+know if people read what you write so **I'm glad I did it**.
 
 ![My PHP Problems Art](/images/2024-02-18/problems.png)
 *Artwork*
@@ -75,8 +78,10 @@ know if people read what you write.
 
 This year saw me [delete my entire **Twitter**
 history](https://github.com/lucahammer/tweetXer) and join a new network called
-[bluesky](https://bsky.app/profile/dantleech.bsky.social) which I don't use.
-In the meantime I've made [883](https://fosstodon.org/@dantleech) shit posts on Mastodon.
+[Bluesky](https://bsky.app/profile/dantleech.bsky.social) which I don't use.
+In the meantime I've made [883](https://fosstodon.org/@dantleech) shit posts
+on Mastodon. It will be interesting to see what things look like this time
+next year.
 
 ## Open Source and Hobby Programming
 
@@ -181,18 +186,19 @@ and at the Osprey 10k.
 This year I ran **1,621 miles**.
 
 ![Weymouth 10 Finisher](/images/2024-12-23/weymouth10.png)
-*Running in to finish 79/280*
+*Running in to finish the Weymouth 10 79th / 280*
 
 ## Cycling
 
 I lost about 5kg of weight during my [Cycle Trip accross the
 Pyrenees](https://www.dantleech.com/blog/categories/spain2024/) in December
-(making a loss of 10kg over the entire year) and found that the 8 hour cycling
+(making a loss of ~8kg over the entire year) and found that the 8 hour cycling
 days had helped to put my injuries and poor performance (at least temporarily)
 behind me and I was setting new
 [PBs](https://en.wikipedia.org/wiki/Athletics_abbreviations#Bests) in the
 weeks that followed. The cycle trip was arduous and beautiful and took rather
-less time than I had thought.
+less time than I had thought although I was happy to not have to [write a blog
+every single day](http://localhost:1313/blog/categories/spain2024/).
 
 ![OpenCamera/IMG_20240829_172759.jpg](/images/spain2024/202408281956-24bikeclouds.jpg)
 *Bike in the clouds*
@@ -211,10 +217,10 @@ much as I've never owned a motor).
 As the winter set in, and after having experienced some unpleastant punctures
 in the cold and dark I decided to invest further in a [Wahoo Kickr Core](https://uk.wahoofitness.com/devices/indoor-cycling/bike-trainer-bundles/zwift-bundles/kickr-core-zwift-buy) indoor trainer and (rather grudgingly) purchased an expensive years membership on [Zwift](https://www.zwift.com/uk/home?msclkid=d0b077ac52a21517536b10c5dffd8667). This gives me the **boring** option of cycling indoors when it's dark and cold.
 
+This year I cycled **1,967 miles**.
+
 ![trainer](/images/2024-12-23/trainer.jpg)
 *Expensive bike on trainer*
-
-This year I cycled **1,967 miles**.
 
 ## Music
 
@@ -224,8 +230,10 @@ with my friend's project "Cosmic Bungalow":
 ![stage](/images/2024-12-23/stage.png)
 *Me playing bass on't left*
 
+This year I **played one gig**.
+
 ## Next Year
 
-Profit? Finally?
+...profit?
 
 [^demo]: I made an independent demonstation of the idea [here](https://github.com/dantleech/docbot)
