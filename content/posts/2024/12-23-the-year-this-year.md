@@ -23,7 +23,8 @@ bed was adjacent to the chimney stack and as I would find out later it was
 **damp** . I've learnt lots of new terms: **chimney stack**, hygroscopic
 salts, efflorescence, flashing, pointing, reflaunching. I learnt how to spell
 **scaffolding** and the absurd effort required to access a large, shared,
-chimney on a pitched roof.
+chimney on a pitched roof to get a professional to say with confidence that
+they _"don't know what's wrong with it"_.[^dontknow]
 
 This year I had **1 scaffolding** and lots of associated **trauma**.
 
@@ -246,3 +247,4 @@ This year I **played 1 gig**.
 [^demo]: I made an independent demonstation of the idea [here](https://github.com/dantleech/docbot)
 [^notreally]: Proptrine never happened fortunately, but we did integrate
     Doctrine on top of Propel's schema management.
+[^dontknow]: well, we've got a general idea...
