@@ -85,11 +85,13 @@ blockquote {
 
 table {
     layout: fixed;
+    margin: 2em 0em;
 }
 table th, td {
     border-style: solid;
     border-width: 1px;
     padding: 10px;
+    text-align: left;
 }
 table th {
     background-color: #eee;

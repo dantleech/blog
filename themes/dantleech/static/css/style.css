@@ -883,26 +883,6 @@ p code,  li code{
   --tw-text-opacity: 1;
   color: rgb(236 72 153 / var(--tw-text-opacity));
 }
-a.footnote-ref::before {
-    content: '[';
-}
-
-.footnotes hr {
-    height: 4px;
-    color: red;
-    border-width: 10px;
-    border-style: dotted;
-    margin: 2em 0em 2em 0em;
-}
-
-.footnotes ol {
-    margin-left: 1em;
-    list-style-type: decimal;
-}
-
-a.footnote-ref::after {
-    content: ']';
-}
 
 a{
   -webkit-text-decoration-line: underline;
@@ -986,6 +966,11 @@ ul{
   height: 380px;
 }
 
+#gpx{
+  margin: 1rem;
+  height: 380px;
+}
+
 blockquote{
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1003,12 +988,14 @@ blockquote{
 
 table {
   layout: fixed;
+  margin: 2em 0em;
 }
 
 table th, td {
   border-style: solid;
   border-width: 1px;
   padding: 10px;
+  text-align: left;
 }
 
 table th {
