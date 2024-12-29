@@ -1002,6 +1002,27 @@ table th {
   background-color: #eee;
 }
 
+a.footnote-ref::before {
+  content: '[';
+}
+
+.footnotes hr {
+  height: 4px;
+  color: red;
+  border-width: 10px;
+  border-style: dotted;
+  margin: 2em 0em 2em 0em;
+}
+
+.footnotes ol {
+  margin-left: 1em;
+  list-style-type: decimal;
+}
+
+a.footnote-ref::after {
+  content: ']';
+}
+
 .visited\:text-gray-500:visited{
   color: rgb(107 114 128 );
 }
