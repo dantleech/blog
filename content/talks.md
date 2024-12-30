@@ -4,11 +4,10 @@ title: Talks
 menu: main
 type: plain
 ---
-Some of the public talks I have given:
 
 ### 2024
 
-...
+- July: Workshop - Locking Down Performance with PHPBench [Web Summer Camp](https://websummercamp.com/2024/workshop/locking-down-performance-with-phpbench)
 
 ### 2023
 
@@ -20,7 +19,6 @@ Some of the public talks I have given:
 - 07-06 : Pets and Pickle - Insights and lessons from how we've written our Behat tests on the Inviqa VetPartners project. Symfony User Group Berlin (Meet24 office)
 
 ### 2021
-
 
 - 07-29 : PHPBench 1.1 - Testing code performance [PHP Oxford](https://www.meetup.com/PHP-Oxford/events/sksjlsycckblc/)
 - 03-25 : PHPBench - Testing code performance [PHP South Wales](https://www.youtube.com/watch?v=-qxu6n9Q-3k) [[video](https://www.youtube.com/watch?v=-qxu6n9Q-3k)]
@@ -47,4 +45,15 @@ Some of the public talks I have given:
 
 ### 2017
 
+- 22-02: PHPBench - [Inviqa Dev Day](https://joind.in/event/inviqa-dev-day-2017/phpbench)
 - 11-29: PHP Benchmarking [Symfony User Group](https://www.meetup.com/sfugberlin/events/245025070)
+
+### 2015
+
+- 12-09: PHPBench - [Istanbul PHP Meetup](https://kommunity.com/istanbulphp/events/225200327)
+
+### 2014
+
+- 03-08: Creating a basic CMS with the CMF and the RoutingAutoBundle [PHP
+  Summer Camp](https://2014.phpsummercamp.com/Programme/Creating-a-Basic-CMS-with-the-CMF-and-the-RoutingAutoBundle-intermediate)
+- 11-03: Introduction à PHPCR (in terrible french) [SF Pot, Lyon](https://github.com/SfPot/2014-talks?tab=readme-ov-file#introduction-%C3%A0-phpcr-french)
