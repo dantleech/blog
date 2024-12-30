@@ -4,6 +4,11 @@ paginate = 50
 title = "Dans Blog"
 theme = "dantleech"
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [params]
 umami_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 
