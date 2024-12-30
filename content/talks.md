@@ -16,7 +16,7 @@ type: plain
 
 ### 2022
 
-- 07-06 : Pets and Pickle - Insights and lessons from how we've written our Behat tests on the Inviqa VetPartners project. Symfony User Group Berlin (Meet24 office)
+- 07-06 : Pets and Pickle - Behat in Real Life. Symfony User Group Berlin (Meet24 office)
 
 ### 2021
 
@@ -50,10 +50,12 @@ type: plain
 
 ### 2015
 
+- 12-05: Ansible Live Demo - [Vorarlberg Web Dev Meetup](https://www.meetup.com/vlbgwebdev/)
 - 12-09: PHPBench - [Istanbul PHP Meetup](https://kommunity.com/istanbulphp/events/225200327)
 
 ### 2014
 
+- 13-10: Shell Productivity - [Vorarlberg Web Dev Meetup](https://www.meetup.com/vlbgwebdev/)
 - 03-08: Creating a basic CMS with the CMF and the RoutingAutoBundle [PHP
   Summer Camp](https://2014.phpsummercamp.com/Programme/Creating-a-Basic-CMS-with-the-CMF-and-the-RoutingAutoBundle-intermediate)
 - 11-03: Introduction à PHPCR (in terrible french) [SF Pot, Lyon](https://github.com/SfPot/2014-talks?tab=readme-ov-file#introduction-%C3%A0-phpcr-french)
