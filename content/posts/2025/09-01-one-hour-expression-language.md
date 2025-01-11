@@ -6,10 +6,9 @@ toc: true
 draft: true
 ---
 
-In this blog post I'll attempt to show you how to create an expression
-language in hour or less[^actual].
+This blog post is to accompany a talk entitled "The One Hour Expression Language" and aims to provide a review of both the concepts and the code in that talk[^talk].
 
-An expression language[^interpreter] in our sense is essentially something that **ealuates**
+An expression language[^interpreter] in our sense is essentially something that **evaluates**
 an **expression** where an expression is a sequence of bytes which are highly likely
 to be unicode characters and would look something like:
 
@@ -19,41 +18,35 @@ to be unicode characters and would look something like:
 
 Examples of applications with expression languages (or DSLs) would include:
 
-- `symfony`
-- `jq`
-- `xpath`
+- [Symfony Expression Language](https://symfony.com/doc/current/components/expression_language.html)
+- [JQ](https://jqlang.github.io/jq/manual)
+- [Kibana Query Language](https://www.elastic.co/guide/en/kibana/current/kuery-query.html)
+- [XPath Language](https://www.w3.org/TR/1999/REC-xpath-19991116/)
 
-Why would you want to create **your own** expression language[^dsl])? In your real-world
-job there may be few opportunities to use this skill, but you may be susprised
-at how the knowledge required to build one can be used in other areas of your
-business.
-
-It is also true that expression languages and the way they are built can be
-optimised for particular use cases, so that while the Symfony Expression
-Language is useful, the parser doesn't preserve whitespace and you cannot add
-custom operators.
-
-Most importantly if you never _build_ an expression language (or parser) you
-won't be able to evaluate other expression lanagues (or parsers) to know if
-they fit your needs or even be aware of the problems they can solve.
-
-Building an expression language will **level up your programming skills!**.
+Why would you want to create **your own** expression language[^dsl]? Well, why **wouldn't you?**. Perhaps you are too busy? Never fear! It needn't take months, weeks nor days to write an expression lanaguage, you can do it in an hour with my patentented[^patents] **One Hour Expression Langauge**!
 
 ## ProCalc2000
 
 We will be building the **ProCalc2000** expression language. **ProCalc2000**
-is a next generation arithmetic calculator for the year 2000 and subsequent years.
+is a next generation non-scientific, precedent-disrespecting, arithmetic calculator for the year 2000 and subsequent years.
 
 It allows the evaluation of complex expressions such as `1 + 1` or even `1 +
-2`, and you may not beleive it but even 🦣 mamoths of complexity such as `1 +
-3 + 2`.
+2`, and can even be extended to solve division problems such as `1 +
+3 + 2 / 2`.
+
+{{% godzilla %}}
+Godzilla doesn't like division. It results in floating point numbers which he
+don't want to deal with today.
+{{%/ godzilla %}}
 
 The expression language consists of _numbers_ (i.e. `1` and `2`) and _operators_ (i.e. `+`, `-`,
-`*`, etc) and will not support [operator precedence]().
+`*`, etc) and **will not** support [operator precedence]().
 
 Despite it's simplicity it does provide the **foundations** from which you can
 **easily** introduce more features and essentially extend the language to
-accomodate almost any expression language you can conceive of.
+accomodate almost any expression language you can conceive of, _even division_
+ in spite of Godzilla's objections. **But seriously**, you can add variables,
+ functions, pipe operators, suffixes, string concatenation, anything you can imagine.
 
 ## What's in One, Please?
 
@@ -87,7 +80,7 @@ Token(Integer, 3)
 ```
 
 The tokenizer _scans_ the expression string from left to right and identifies
-and categorises "chunks" that are interesting - in our expression language
+"chunks" that are interesting. In our expression language
 those interesting chunks are:
 
 - positive integer numbers.
@@ -119,7 +112,7 @@ class Parser
 ```
 
 So given a list of tokens (`list<Token>`) the parser will return an AST which
-is the root of a **tree of nodes**. In _our case_ each and every node in the tree is an _expression_ that can be evaluated and there are two node types `BinaryOp` and `Integer`.
+is the root `Node` of a **tree of nodes**. In _our case_ each and every node in the tree is an _expression_ that can be evaluated and there are two node types `BinaryOp` and `Integer`.
 
 The expression `1 + 1 / 5` is represented as a single `BinaryOp` node for example:
 
@@ -155,12 +148,12 @@ $ast = new BinaryOp(
 );
 ```
 
-{{< callout >}}
+{{% godzilla %}}
 ProCal2000 could be implemented with only the `Tokenizer` and a [stack
 machine](https://en.wikipedia.org/wiki/Stack_machine) which is **also a cool
 thing to do** but we continue to implement a `Parser` and an `Evaluator` because
-because it's a **different journey**.
-{{</ callout >}}
+because **Godzilla** wants you to.
+{{%/ godzilla %}}
 
 ### Evaluator
 
@@ -474,3 +467,6 @@ You can see the whole thing [here](https://github.com/dantleech/onehourexpr/tree
 [^dsl]: or **domain-specific language** - while an expression language isn't a _full_
     "language" in the PHP sense they can be categorised as DSLs.
 [^interpreter]: or more specifically an expresison language _interpreter_.
+[^patents]: there is no patent - but don't get any ideas.
+[^talk]: actually the specific code created at the PHPSW meetup in January
+    2025. The actual code changes each time.

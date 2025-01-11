@@ -595,6 +595,14 @@ video {
   grid-column: span 1 / span 1;
 }
 
+.col-span-10{
+  grid-column: span 10 / span 10;
+}
+
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
 .float-right{
   float: right;
 }
@@ -704,6 +712,10 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-12{
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -750,6 +762,11 @@ video {
 .bg-slate-500{
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.object-fill{
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-4{
