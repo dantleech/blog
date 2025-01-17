@@ -60,4 +60,8 @@ source = "archetypes"
 target = "archetypes"
 
 [outputs]
-home = [ "HTML", "RSS", "ATOM" ]
+home = [ "html", "rss", "atom" ]
+
+[services]
+  [services.rss]
+    limit = 25

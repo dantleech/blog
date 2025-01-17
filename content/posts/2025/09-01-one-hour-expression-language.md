@@ -6,24 +6,26 @@ toc: true
 draft: true
 ---
 
-This blog post is to accompany a talk entitled "The One Hour Expression Language" and aims to provide a review of both the concepts and the code in that talk[^talk].
+This blog post is to accompany a talk entitled **The One Hour Expression Language** and aims to provide a review of both the concepts and the code in that talk[^talk].
 
-An expression language[^interpreter] in our sense is essentially something that **evaluates**
+An expression language[^interpreter] in our sense is something that **evaluates**
 an **expression** where an expression is a sequence of bytes which are highly likely
-to be unicode characters and would look something like:
+to be [utf-8](https://en.wikipedia.org/wiki/UTF-8) characters[^utf8] Some
+examples:
 
 - `1 + 1`
-- `foo,bar > 5 and 10 = foo.count` 
-- `iteration.samples[].time | flatten | mean`
+- `//article[@title="foobar"]//image`
+- `.items[].foo|select(.bar = "foo")`
+- `a.comments > 1 and a.category not in ["misc"]`
 
-Examples of applications with expression languages (or DSLs) would include:
+Examples of expression languages (or DSLs[^dsl]) would include:
 
-- [Symfony Expression Language](https://symfony.com/doc/current/components/expression_language.html)
 - [JQ](https://jqlang.github.io/jq/manual)
 - [Kibana Query Language](https://www.elastic.co/guide/en/kibana/current/kuery-query.html)
 - [XPath Language](https://www.w3.org/TR/1999/REC-xpath-19991116/)
+- [Symfony Expression Language](https://symfony.com/doc/current/components/expression_language.html)
 
-Why would you want to create **your own** expression language[^dsl]? Well, why **wouldn't you?**. Perhaps you are too busy? Never fear! It needn't take months, weeks nor days to write an expression lanaguage, you can do it in an hour with my patentented[^patents] **One Hour Expression Langauge**!
+Why would you want to create **your own** expression language? Well, why **wouldn't you?**. Perhaps you are too busy? Never fear! It needn't take months, weeks nor days to write an expression lanaguage, you can do it in an hour with my patentented[^patents] **One Hour Expression Langauge**!
 
 ## ProCalc2000
 
@@ -36,11 +38,11 @@ It allows the evaluation of complex expressions such as `1 + 1` or even `1 +
 
 {{% godzilla %}}
 Godzilla doesn't like division. It results in floating point numbers which he
-don't want to deal with today.
+doesn't want to deal with today.
 {{%/ godzilla %}}
 
 The expression language consists of _numbers_ (i.e. `1` and `2`) and _operators_ (i.e. `+`, `-`,
-`*`, etc) and **will not** support [operator precedence]().
+`*`, etc) and **will not** support [operator precedence](https://www.mathsisfun.com/operation-order-bodmas.html) (see Appendix I).
 
 Despite it's simplicity it does provide the **foundations** from which you can
 **easily** introduce more features and essentially extend the language to
@@ -91,10 +93,15 @@ any other character we will produce an error.
 
 Our set of token _types_ will be `Integer`, `Plus`, `Minus` and `Multiply`.
 
-{{< callout >}}
+{{% godzilla %}}
+ProCal2000 could be implemented with only the `Tokenizer` and a [stack
+machine](https://en.wikipedia.org/wiki/Stack_machine) which is **also a cool
+thing to do** but we continue to implement a `Parser` and an `Evaluator` because
+because **Godzilla** wants you to. Listen to Godzilla.
+{{%/ godzilla %}}
+
 Note that the tokenizer doesn't care if the expression is _valid_ it only
-cares about splitting the expression into distinct and categorised chunks.
-{{< /callout >}}
+cares about splitting the expression into distinct and categorised chunks[^othercool].
 
 ### Parser
 
@@ -112,9 +119,9 @@ class Parser
 ```
 
 So given a list of tokens (`list<Token>`) the parser will return an AST which
-is the root `Node` of a **tree of nodes**. In _our case_ each and every node in the tree is an _expression_ that can be evaluated and there are two node types `BinaryOp` and `Integer`.
+is the root `Node` of a [tree](https://en.wikipedia.org/wiki/Tree_(abstract_data_type)) of nodes. In _our case_ each and every node in the tree is an _expression_ that can be evaluated and there are two node types `BinaryOp` and `Integer`.
 
-The expression `1 + 1 / 5` is represented as a single `BinaryOp` node for example:
+The expression `1 + 1 / 5` is represented as a single `BinaryOp` with an operator (`+`) and two operands: the integer value `1` and _another_ binary operation:
 
 ```text
                         +-------------+
@@ -148,18 +155,12 @@ $ast = new BinaryOp(
 );
 ```
 
-{{% godzilla %}}
-ProCal2000 could be implemented with only the `Tokenizer` and a [stack
-machine](https://en.wikipedia.org/wiki/Stack_machine) which is **also a cool
-thing to do** but we continue to implement a `Parser` and an `Evaluator` because
-because **Godzilla** wants you to.
-{{%/ godzilla %}}
 
 ### Evaluator
 
 Finally we have the evaluator which accepts a `Node` and returns _something
-else_ in our case it will return an integer value. The Evaluator is more
-generally known as a **tree walking interpreter**.
+else_ in **our case** it will return an integer value. The Evaluator is more
+generally known as a tree-walking **interpreter**.
 
 ```php
 class Evaluator
@@ -173,12 +174,13 @@ class Evaluator
 
 ## Show Me Your Code, Please?
 
-This code was created at the PHPSW meetup on the 9th of July.
+This code was created at the PHPSW meetup on the 9th of July and was driven by
+unit tests which have been omitted in this blog post. See the [repository](https://github.com/dantleech/onehourexpr/tree/phpsw).
 
-{{% callout %}}
-I do not claim that this code is particularly _good_ but I would
-leave refactoring as an excercise to you the reader, because I'm **actually a nice guy**.
-{{%/ callout %}}
+{{% godzilla %}}
+Godzilla says that if he wrote this code he would be **angry**. He suggests
+you refactor it or you'll be angry too. **Thankyou Godzilla**.
+{{%/ godzilla %}}
 
 ### Tokenizer
 
@@ -203,7 +205,7 @@ offset of the token within the expression string which would be both more memory
 efficient and more generally useful. But **we're being lazy today**.
 {{</ callout >}}
 
-We also need our `TokenType` [enum](https://www.php.net/manual/en/language.types.enumerations.php) defining our 4 token types:
+As we used a `TokenType` [enum](https://www.php.net/manual/en/language.types.enumerations.php) we'd better define it with our 4 token types:
 
 ```php
 <?php
@@ -217,6 +219,7 @@ enum TokenType
 }
 ```
 
+{{% callout %}}
 Tokens would then look like:
 
 ```php
@@ -226,8 +229,10 @@ Tokens would then look like:
     // ...
 ]
 ```
+{{%/ callout %}}
 
-Then we have the actual `Tokenizer` class that does all the work:
+The mammoth 🦣 in the room is the `Tokenizer` class. It does all the
+work[^allthework]:
 
 ```php
 <?php
@@ -252,8 +257,6 @@ class Tokenizer
             //
             // if the char is a number...
             if (is_numeric($char)) {
-                // disclaimer: i don't claim this is good code.
-                //
                 // while the _next_ char is a number
                 while (is_numeric($expression[$offset] ?? null)) {
                     // append the current char and advance the pointer
@@ -290,13 +293,13 @@ class Tokenizer
             $tokens[] = $token;
         }
 
-        // return a _collection_ of tokens.
+        // return a _collection_ of tokens, Godzilla is angry.
         return new Tokens($tokens);
     }
 }
 ```
 
-You may have noticed that we return a `Tokens` collection object:
+Finally let's define that `Tokens` collection object:
 
 ```php
 <?php
@@ -305,6 +308,8 @@ use ArrayIterator;
 use IteratorAggregate;
 use Traversable;
 
+// _almost_ all of my collection objects implement IteratorAggregate
+// as it's the easiest way to make the collection iterable.
 class Tokens implements IteratorAggregate
 {
     // we use a "pointer" to track where we are in the tokens array.
@@ -313,6 +318,8 @@ class Tokens implements IteratorAggregate
     public function __construct(private array $tokens)
     {
     }
+
+    // from the IteratorAggregate interface
     public function getIterator(): Traversable
     {
         return new ArrayIterator($this->tokens);
@@ -335,11 +342,11 @@ class Tokens implements IteratorAggregate
 }
 ```
 
-{{< callout >}}
-We could also do this without a collection object, for example by using an
-`array` and `array_shift` instead of `take()` or by having the `Tokenizer`
-return a `Generator` and then we can **tokenize and parse at the same time!**
-{{</ callout >}}
+{{< godzilla >}}
+Godzilla interjects and says that he would do this without a collection object by using an
+`array` and `array_shift` instead of `take()` or possibly by having the `Tokenizer`
+return a `Generator` and then, he says, he can **tokenize and parse at the same time!**. Well done Godzilla.
+{{</ godzilla >}}
 
 ### Parser
 
@@ -402,7 +409,9 @@ class Parser
 
 ### Evaluator
 
-Finally:
+Finally the Evaluator is where the real magic happens 🪄 and **it's not even
+hard**. The evaluator accepts **any node** and will resolve it to a value -
+using recursion to evaluate any nested nodes:
 
 ```php
 <?php
@@ -458,15 +467,61 @@ the PHP South West PHP code meetup.
 
 You can see the whole thing [here](https://github.com/dantleech/onehourexpr/tree/phpsw).
 
+---
 
+## Appendix I: What About Operator Precedence?
 
+What about [BODMAS](https://www.mathsisfun.com/operation-order-bodmas.html)?
+The expression `1 * 3 + 4` should be evaluate multiplication operations first so that:
+
+```text
+2 * 3 + 4 = (2 * 3) + 4 = 6 + 4 = 10
+```
+
+But it will counterintuitively do the following because we _always evaluate
+the entire right hand side of the expression_ due to the way we parsed the
+tokens:
+
+```text
+2 * 3 + 4 = 2 * (3 + 4) = 2 * 7 = 14
+```
+
+We need to change the way the parser builds the AST. One way would be by a implementing a [Pratt
+Parser](https://en.wikipedia.org/wiki/Operator-precedence_parser#Pratt_parsing):
+
+```php
+// pratt parser here please
+```
+
+{{% godzilla %}}
+The Pratt Parser makes use of recursion which is [far too complex for the
+human mind](https://www.youtube.com/watch?v=zrweu0GRJnE). Fortunately
+Godzilla, as a giant lizard, understands. **Trust Godzilla.**
+{{%/ godzilla %}}
+
+## Appendix II: What About Godzilla?
+
+...
+
+## Further Reading
+
+- [Doctrine Lexer](https://www.doctrine-project.org/projects/doctrine-lexer/en/3.1/dql-parser.html): I _think_ I based my parsers on this library, a long time ago.[^doctrine]
+- [Crafting Interpreters](http://www.craftinginterpreters.com/): If you ever
+  wanted to write your own programming langauge.
 
 ---
 
 [^actual]: Actual times may vary according to you.
-[^dsl]: or **domain-specific language** - while an expression language isn't a _full_
-    "language" in the PHP sense they can be categorised as DSLs.
+[^dsl]: **domain-specific language** - while an expression languages aren't _full_
+    languages (in the sense that PHP is a language) they can be categorised as DSLs.
 [^interpreter]: or more specifically an expresison language _interpreter_.
 [^patents]: there is no patent - but don't get any ideas.
 [^talk]: actually the specific code created at the PHPSW meetup in January
     2025. The actual code changes each time.
+[^utf8]: if you don't know what UTF-8 is don't worry about it. We're talking
+    about a _string_.
+[^othercool]: the tokenizer is useful in its own right, for example you could
+    easily create a basic syntax highlighter.
+[^allthework]: it's common and possibly more performant to implement the
+    tokenizer with `preg_` methods, for example: [phpstan docblock lexer](https://github.com/phpstan/phpdoc-parser/blob/2.0.x/src/Lexer/Lexer.php) or [my own soon-to-be-abandoned docblock parser](https://github.com/phpactor/docblock-parser/blob/master/src/Lexer.php#L77)
+[^doctrine]: it was also through the Doctrine project's query builders that I discovered the power of walking trees 🌲.
