@@ -5,6 +5,10 @@ menu: main
 type: plain
 ---
 
+### 2025
+
+- January: PHPSW - [The One Hour Expression Language](https://www.meetup.com/php-sw/events/305093943/?eventOrigin=group_past_events)
+
 ### 2024
 
 - July: Workshop - Locking Down Performance with PHPBench [Web Summer Camp](https://websummercamp.com/2024/workshop/locking-down-performance-with-phpbench)

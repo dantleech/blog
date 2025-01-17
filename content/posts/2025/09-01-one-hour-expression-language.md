@@ -1,4 +1,4 @@
---- 
+---
 title: The One Hour Expression Language
 categories: [programming,php]
 date: 2025-01-09
