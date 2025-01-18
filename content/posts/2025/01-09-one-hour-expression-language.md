@@ -492,7 +492,7 @@ That was the code that I live coded when I live coded the code at
 the PHP South West PHP code meetup, although the live demo included the
 **tests**.
 
-You can see the whole thing [here](https://github.com/dantleech/onehourexpr/tree/phpsw) and even clone it and run `bin/scalc2000` to solve maths.
+You can see the whole thing [here](https://github.com/dantleech/onehourexpr/tree/phpsw) and clone it to run `bin/scalc2000` to solve maths.
 
 ---
 
