@@ -501,7 +501,7 @@ Oh if you **really want to know**. The expression `1 * 3 + 4` should be evaluate
 2 * 3 + 4 = (2 * 3) + 4 = 6 + 4 = 10
 ```
 
-But it will counterintuitively do the following because we _always evaluate
+But our expression language will counter-intuitively do the following because we _always evaluate
 the entire right hand side of the expression_ due to the way we parsed the
 tokens:
 
@@ -568,7 +568,8 @@ class Parser
             // only now do we consume the operator
             $token = $tokens->mustTake();
 
-            // we parse the rest of the expression but ONLY up 
+            // we parse the expression until an operator with a higher
+            // precedence than `$newPrecedence` is encountered.
             $rightNode = $this->parse($tokens, $newPrecedence);
             $node = new BinaryOp(
                 $node,
