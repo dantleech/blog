@@ -100,7 +100,7 @@ any other character we will produce an error.
 Our set of token _types_ will be `Integer`, `Plus`, `Minus` and `Multiply`.
 
 {{% godzilla %}}
-**ProCal2000** could also be implemented a `Tokenizer` and a [stack
+**ProCal2000** could also be implemented with a `Tokenizer` and a [stack
 machine](https://en.wikipedia.org/wiki/Stack_machine) which is
 **virtuous** but we will implement a `Parser` and an `Evaluator` because
 because **Godzilla cares about you**.
