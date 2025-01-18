@@ -629,7 +629,7 @@ brain and how he evaluates `2 * 3 + 4`:
 - Current token is `NULL` with a precedence of `0`
 - `0` is not less than `0`.
 - Exit the loop
-- Return the final value.
+- Return the final `Node`.
 
 The evaluator can now, without modification, give the "correct" answer of
 `10`.
