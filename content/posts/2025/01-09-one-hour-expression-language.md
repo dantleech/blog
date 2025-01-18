@@ -360,7 +360,7 @@ return a `Generator` and then, he says, he can **tokenize and parse at the same 
 ```php
 <?php
 
-use DTL\OneHourExp\Node\BinaryOpNode;
+use DTL\OneHourExp\Node\BinaryOp;
 use DTL\OneHourExp\Node\Integer;
 use RuntimeException;
 
@@ -398,7 +398,7 @@ class Parser
         // if we do have an operator then return a binary operation
         // with the $node as the left operand and the REST OF THE
         // EXPRESSION as the right operand.
-        return new BinaryOpNode(
+        return new BinaryOp(
             $node,
             match ($token->type) {
                 TokenType::Plus => '+',
@@ -439,7 +439,7 @@ using recursion to evaluate any nested nodes:
 ```php
 <?php
 
-use DTL\OneHourExp\Node\BinaryOpNode;
+use DTL\OneHourExp\Node\BinaryOp;
 use DTL\OneHourExp\Node\Integer;
 use Exception;
 use RuntimeException;
@@ -456,7 +456,7 @@ class Evaluator
         }
 
         // oh boy! a BinaryNode!
-        if ($node instanceof BinaryOpNode) {
+        if ($node instanceof BinaryOp) {
 
             // this is where things get interesting as we recurse...
             $leftValue = $this->evaluate($node->left);
@@ -516,7 +516,7 @@ Parser](https://en.wikipedia.org/wiki/Operator-precedence_parser#Pratt_parsing):
 ```php
 <?php
 
-use DTL\OneHourExp\Node\BinaryOpNode;
+use DTL\OneHourExp\Node\BinaryOp;
 use DTL\OneHourExp\Node\Integer;
 use RuntimeException;
 
@@ -570,7 +570,7 @@ class Parser
 
             // we parse the rest of the expression but ONLY up 
             $rightNode = $this->parse($tokens, $newPrecedence);
-            $node = new BinaryOpNode(
+            $node = new BinaryOp(
                 $node,
                 match ($token->type) {
                     TokenType::Plus => '+',
