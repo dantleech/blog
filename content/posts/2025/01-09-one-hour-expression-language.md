@@ -574,6 +574,8 @@ class Parser
             // we parse the expression until an operator with a higher
             // precedence than `$newPrecedence` is encountered.
             $rightNode = $this->parse($tokens, $newPrecedence);
+
+            // we construct the BinaryOp and assign it to `$node`
             $node = new BinaryOp(
                 $node,
                 match ($token->type) {
