@@ -624,7 +624,7 @@ brain and how he evaluates `2 * 3 + 4`:
 - Exit the loop
 - Return the final value.
 
-The evaluator can now, without modification, given the "correct" answer of
+The evaluator can now, without modification, give the "correct" answer of
 `10`.
 
 ## Further Reading
