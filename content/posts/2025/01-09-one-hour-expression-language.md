@@ -542,7 +542,7 @@ class Parser
         };
     }
 
-    // our original parse function is updated to accept a "precedence"
+    // our original parse function is updated to accept a "precedence" which we'll set when we recurse.
     public function parse(Tokens $tokens, int $precedence = 0): Node
     {
         // parse the operand (e.g. 5) as we did before.
@@ -610,11 +610,11 @@ brain and how he evaluates `2 * 3 + 4`:
   - Parse the operand `Integer(3)`
   - The current token is a `+` operator with precedence `10`
   - `10` is NOT less than than `20` so we exit the loop and return `Integer(3)`
-- Return and now have our right value: `$node = BinaryOp(Integer(2), *, Integer(3))`
+- Now have resolved our `BinaryOp` node's right value: `$node = BinaryOp(Integer(2), *, Integer(3))`
 - The loop is evaluated again and the operator is `+` with precedence `10`
 - `10` is greater than `0` so we enter the loop
 - Create a new binary node with the left hand side inherited from the previous iteration: `BinaryOp(BinaryOp(Integer(2), *, Integer(3), '+', ...)`
-- Recurse to evaluate the right hand side with the new precedence of `10`:
+- Recurse to evaluate the right hand side of the `BinaryOp` with the new precedence of `10`:
   - Enter `parse` with a precedence of `10`.
   - Parse the operand `Integer(4)`.
   - There are no more tokens so we return `Integer(4)`.
