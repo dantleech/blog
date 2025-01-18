@@ -26,7 +26,7 @@ Examples of expression languages (or DSLs[^dsl]) would include:
 - [XPath Language](https://www.w3.org/TR/1999/REC-xpath-19991116/)
 - [Symfony Expression Language](https://symfony.com/doc/current/components/expression_language.html)
 
-Why would you want to create **your own** expression language? Well, why **wouldn't you?**. Perhaps you are too busy? Never fear! It needn't take months, weeks nor days to write an expression lanaguage, you can do it in an hour with my patented[^patents] **One Hour Expression Language**!
+Why would you want to create **your own** expression language? Well, why **wouldn't you?** Perhaps you are too busy? Never fear! It needn't take months, weeks nor days to write an expression lanaguage, you can do it in an hour with my patented[^patents] **One Hour Expression Language**!
 
 ## ProCalc2000
 
@@ -487,7 +487,8 @@ class Evaluator
 ## That's It
 
 That was essentially the code that I live coded when I live coded the code at
-the PHP South West PHP code meetup.
+the PHP South West PHP code meetup, although the live demo included the
+**tests**.
 
 You can see the whole thing [here](https://github.com/dantleech/onehourexpr/tree/phpsw).
 
