@@ -720,6 +720,10 @@ video {
   flex-direction: column;
 }
 
+.content-end{
+  align-content: flex-end;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -889,6 +893,10 @@ video {
 div.callout a{
   --tw-text-opacity: 1;
   color: rgb(219 234 254 / var(--tw-text-opacity));
+}
+
+div.callout code {
+  color: #ff748b;
 }
 
 body{

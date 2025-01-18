@@ -6,6 +6,9 @@
 div.callout a {
     @apply text-blue-100;
 }
+div.callout code {
+    color: #ff748b;
+}
 
 body {
     @apply font-serif;

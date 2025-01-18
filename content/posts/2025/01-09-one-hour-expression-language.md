@@ -3,10 +3,11 @@ title: The One Hour Expression Language
 categories: [programming,php]
 date: 2025-01-09
 toc: true
-draft: true
+draft: false
+image: /images/2025-01-18/onehourexpr.jpg
 ---
 
-This blog post is to accompany a talk entitled **The One Hour Expression Language** and aims to provide a review of both the concepts and the code in that talk[^talk].
+This blog post is based on a talk I did entitled **The One Hour Expression Language** and aims to provide a review of both the concepts and the code in that talk[^talk].
 
 An expression language[^interpreter] in our sense is something that **evaluates**
 an **expression** where an expression is a sequence of bytes which are highly likely
@@ -25,7 +26,7 @@ Examples of expression languages (or DSLs[^dsl]) would include:
 - [XPath Language](https://www.w3.org/TR/1999/REC-xpath-19991116/)
 - [Symfony Expression Language](https://symfony.com/doc/current/components/expression_language.html)
 
-Why would you want to create **your own** expression language? Well, why **wouldn't you?**. Perhaps you are too busy? Never fear! It needn't take months, weeks nor days to write an expression lanaguage, you can do it in an hour with my patentented[^patents] **One Hour Expression Langauge**!
+Why would you want to create **your own** expression language? Well, why **wouldn't you?**. Perhaps you are too busy? Never fear! It needn't take months, weeks nor days to write an expression lanaguage, you can do it in an hour with my patented[^patents] **One Hour Expression Language**!
 
 ## ProCalc2000
 
@@ -41,20 +42,26 @@ Godzilla doesn't like division. It results in floating point numbers which he
 doesn't want to deal with today.
 {{%/ godzilla %}}
 
-The expression language consists of _numbers_ (i.e. `1` and `2`) and _operators_ (i.e. `+`, `-`,
-`*`, etc) and **will not** support [operator precedence](https://www.mathsisfun.com/operation-order-bodmas.html) (see Appendix I).
+The expression language consists of _numbers_ (i.e. `1` and `2`) and _operators_ (`+`, `-`,
+`*`) and **will not** support [operator precedence](https://www.mathsisfun.com/operation-order-bodmas.html) (see Appendix I) or **division**.
 
 Despite it's simplicity it does provide the **foundations** from which you can
 **easily** introduce more features and essentially extend the language to
-accomodate almost any expression language you can conceive of, _even division_
- in spite of Godzilla's objections. **But seriously**, you can add variables,
+accommodate almost any expression language you can conceive of, _even division_
+ in spite of Godzilla's objections. You can add variables,
  functions, pipe operators, suffixes, string concatenation, anything you can imagine.
 
 ## What's in One, Please?
 
-There are a multitude of ways to write code to evaluate a sequence of bytes in
+There are a many ways to write code to evaluate a sequence of bytes in
 some way, but we will be using a **tokenizer**, **parser** and an
 **evaluator**:
+
+```goat
+              +-----------+  tokens  +--------+  ast  +-----------+ 
+EXPRESSION ==>| Tokenizer |--------->| Parser |------>| Evaluator | => VALUE
+              +-----------+          +--------+       +-----------+
+```
 
 ### Tokenizer
 
@@ -88,25 +95,27 @@ those interesting chunks are:
 - positive integer numbers.
 - the `+`, `-` and `*` operators.
 
-Whitespace is interesting only in that we will **skip it** and if we encounter
+White-space is interesting only in that we will **skip it** and if we encounter
 any other character we will produce an error.
 
 Our set of token _types_ will be `Integer`, `Plus`, `Minus` and `Multiply`.
 
 {{% godzilla %}}
-ProCal2000 could be implemented with only the `Tokenizer` and a [stack
-machine](https://en.wikipedia.org/wiki/Stack_machine) which is **also a cool
-thing to do** but we continue to implement a `Parser` and an `Evaluator` because
-because **Godzilla** wants you to. Listen to Godzilla.
+**ProCal2000** could also be implemented a `Tokenizer` and a [stack
+machine](https://en.wikipedia.org/wiki/Stack_machine) which is
+**virtuous** but we will implement a `Parser` and an `Evaluator` because
+because **Godzilla cares about you**.
 {{%/ godzilla %}}
 
 Note that the tokenizer doesn't care if the expression is _valid_ it only
 cares about splitting the expression into distinct and categorised chunks[^othercool].
 
+Once the tokenizer has produced tokens we hand them off to the **parser**.
+
 ### Parser
 
 The parser will accept the list of tokens and **make sense of them** by
-transforming them into an **Abstract Syntax Tree** (AST for short).
+transforming them into an **Abstract Syntax Tree** ([AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) for short).
 
 ```php
 class Parser
@@ -123,7 +132,7 @@ is the root `Node` of a [tree](https://en.wikipedia.org/wiki/Tree_(abstract_data
 
 The expression `1 + 1 / 5` is represented as a single `BinaryOp` with an operator (`+`) and two operands: the integer value `1` and _another_ binary operation:
 
-```text
+```goat
                         +-------------+
                         | Binary Op + | <-- root of the AST
                         +---+---+-----+
@@ -155,12 +164,11 @@ $ast = new BinaryOp(
 );
 ```
 
-
 ### Evaluator
 
 Finally we have the evaluator which accepts a `Node` and returns _something
-else_ in **our case** it will return an integer value. The Evaluator is more
-generally known as a tree-walking **interpreter**.
+else_ in **our case** it will return an integer value. The Evaluator is also
+known as a tree-walking **interpreter**.
 
 ```php
 class Evaluator
@@ -174,12 +182,13 @@ class Evaluator
 
 ## Show Me Your Code, Please?
 
-This code was created at the PHPSW meetup on the 9th of July and was driven by
-unit tests which have been omitted in this blog post. See the [repository](https://github.com/dantleech/onehourexpr/tree/phpsw).
+This code was created at the [PHPSW](https://phpsw.uk/) meetup on the 9th of July and was driven by
+**unit tests** which have been omitted in this blog post. See the [repository](https://github.com/dantleech/onehourexpr/tree/phpsw).
 
 {{% godzilla %}}
 Godzilla says that if he wrote this code he would be **angry**. He suggests
-you refactor it or you'll be angry too. **Thankyou Godzilla**.
+you refactor it or you'll be angry too and you will have to **fight
+Godzilla** but he always wins.
 {{%/ godzilla %}}
 
 ### Tokenizer
@@ -200,12 +209,13 @@ class Token
 ```
 
 {{< callout >}}
-An alternative (or additional) approach would be store the start and end
-offset of the token within the expression string which would be both more memory
-efficient and more generally useful. But **we're being lazy today**.
+We store the "value" (if applicable) in the token. An alternative approach
+would be store the start and end offset of the token within the expression
+string and reference the contents of the expression later. This can be more memory
+efficient and generally more useful. But **we're being lazy today**.
 {{</ callout >}}
 
-As we used a `TokenType` [enum](https://www.php.net/manual/en/language.types.enumerations.php) we'd better define it with our 4 token types:
+We used a `TokenType` [enum](https://www.php.net/manual/en/language.types.enumerations.php) so let's define it with our 4 token types:
 
 ```php
 <?php
@@ -219,7 +229,6 @@ enum TokenType
 }
 ```
 
-{{% callout %}}
 Tokens would then look like:
 
 ```php
@@ -229,7 +238,6 @@ Tokens would then look like:
     // ...
 ]
 ```
-{{%/ callout %}}
 
 The mammoth 🦣 in the room is the `Tokenizer` class. It does all the
 work[^allthework]:
@@ -293,7 +301,7 @@ class Tokenizer
             $tokens[] = $token;
         }
 
-        // return a _collection_ of tokens, Godzilla is angry.
+        // return a _collection_ of tokens, Godzilla is angry. Should he be?
         return new Tokens($tokens);
     }
 }
@@ -309,7 +317,7 @@ use IteratorAggregate;
 use Traversable;
 
 // _almost_ all of my collection objects implement IteratorAggregate
-// as it's the easiest way to make the collection iterable.
+// as it's an easy way to make an object itreable (e.g. in a foreach loop)
 class Tokens implements IteratorAggregate
 {
     // we use a "pointer" to track where we are in the tokens array.
@@ -343,8 +351,8 @@ class Tokens implements IteratorAggregate
 ```
 
 {{< godzilla >}}
-Godzilla interjects and says that he would do this without a collection object by using an
-`array` and `array_shift` instead of `take()` or possibly by having the `Tokenizer`
+Godzilla interjects rudely and growls that he would do this without a collection object by using an
+`array` and `array_shift` instead of `take()` or by having the `Tokenizer`
 return a `Generator` and then, he says, he can **tokenize and parse at the same time!**. Well done Godzilla.
 {{</ godzilla >}}
 
@@ -375,7 +383,7 @@ class Parser
 
             // otherwise throw an exception (e.g. "1 + + +").
             default => throw new RuntimeException(sprintf(
-                'Do not know what to do thanks: %s', $token->type->name ?? 'null'
+                'Do not know what to do, thanks: %s', $token->type->name ?? 'null'
             )),
         };
 
@@ -407,6 +415,22 @@ class Parser
 }
 ```
 
+{{% callout %}}
+It is here that you would add support for **operator precedence**, **suffix parsing**,
+pipe operators, etc. We'll talk about operator precedence later, but let's
+quickly look at suffix parsing.
+
+Say for example you want `5 miles` to return a `Miles` node (if you wanted to
+**defer** conversion to a sane unit system later) or a `Distance` node (if you
+wanted to **eagerly** make the conversion) so that `5 miles * 2 kilometers = (5 * 1.609.344) * 2 = 16.090`.
+
+After we've parsed `5` we'd look at the next token, if it's a _suffix_ token
+(i.e. one of `miles` or `kilometers`) then we'd combine the previous node
+(`IntegerNode`) into a `Distance` node before forwarding that node
+to the binary operation: `Distance(IntegerNode(5))` or `Distance(5)` or
+`Distance(5.0, 'miles')` or `Distance(5.0, UnitSystem::Imperial)`.
+{{%/ callout %}}
+
 ### Evaluator
 
 Finally the Evaluator is where the real magic happens 🪄 and **it's not even
@@ -424,7 +448,7 @@ use RuntimeException;
 class Evaluator
 {
     // accept any node and, in this case, return an int although
-    // typically an expression language would return `mixed` here.
+    // a typical evaluator would return `mixed` here.
     public function evaluate(Node $node): int
     {
         // if the node is an integer, then return the integer value
@@ -435,9 +459,9 @@ class Evaluator
         // oh boy! a BinaryNode!
         if ($node instanceof BinaryOpNode) {
 
-            // this is where things get interesting
+            // this is where things get interesting as we recurse...
             $leftValue = $this->evaluate($node->left);
-            // as we evaluate the left and right opeands
+            // ...evaluating the left and right opeands
             $rightValue = $this->evaluate($node->right);
 
             // and finally perform the arithmetic operations
@@ -469,10 +493,9 @@ You can see the whole thing [here](https://github.com/dantleech/onehourexpr/tree
 
 ---
 
-## Appendix I: What About Operator Precedence?
+## What About Operator Precedence?
 
-What about [BODMAS](https://www.mathsisfun.com/operation-order-bodmas.html)?
-The expression `1 * 3 + 4` should be evaluate multiplication operations first so that:
+Oh if you **really want to know**. The expression `1 * 3 + 4` should be evaluated so that multiplication operations are calculated before addition operations so that:
 
 ```text
 2 * 3 + 4 = (2 * 3) + 4 = 6 + 4 = 10
@@ -486,28 +509,133 @@ tokens:
 2 * 3 + 4 = 2 * (3 + 4) = 2 * 7 = 14
 ```
 
-We need to change the way the parser builds the AST. One way would be by a implementing a [Pratt
+**This is the wrong answer**. We need to change the way the parser builds the
+AST. One way would be by updating our parser to be a [Pratt
 Parser](https://en.wikipedia.org/wiki/Operator-precedence_parser#Pratt_parsing):
 
 ```php
-// pratt parser here please
+<?php
+
+use DTL\OneHourExp\Node\BinaryOpNode;
+use DTL\OneHourExp\Node\IntegerNode;
+use RuntimeException;
+
+class Parser
+{
+    // we've added a new function to return the precedence of any given
+    // operator
+    private function operatorPrecedence(?TokenType $type): int {
+        return match ($type) {
+            null => 0,
+            // plus and minus have the same precedence
+            TokenType::Plus => 10,
+            TokenType::Minus => 10,
+
+            // multiplication has a higher precedence
+            TokenType::Multiply => 20,
+
+            // we could have an Integer here which wouldn't make any sense
+            // so throw an exception.
+            default => throw new RuntimeException(sprintf(
+                '%s is not an operator', $type->name
+            )),
+        };
+    }
+
+    // our original parse function is updated to accept a "precedence"
+    public function parse(Tokens $tokens, int $precedence = 0): Node
+    {
+        // parse the operand (e.g. 5) as we did before.
+        $token = $tokens->take();
+        $node = match ($token?->type) {
+            TokenType::Integer => new IntegerNode((int)$token->value),
+            null => throw new RuntimeException('Unexpected end of expression'),
+            default => throw new RuntimeException(sprintf(
+                'Do not know what to do thanks: %s', $token->type->name ?? 'null'
+            )),
+        };
+
+        // we add a new method "current" to the Tokens collection to return the
+        // current token without consuming it.
+        $token = $tokens->current();
+
+        if ($token === null) {
+            return $node;
+        }
+
+        // we compare the given precedence with the precedence for the current operator.
+        while ($precedence < $newPrecedence = $this->operatorPrecedence($tokens->current()?->type)) {
+            // only now do we consume the operator
+            $token = $tokens->mustTake();
+
+            // we parse the rest of the expression but ONLY up 
+            $rightNode = $this->parse($tokens, $newPrecedence);
+            $node = new BinaryOpNode(
+                $node,
+                match ($token->type) {
+                    TokenType::Plus => '+',
+                    TokenType::Minus => '-',
+                    TokenType::Multiply => '*',
+                    default => throw new RuntimeException(sprintf(
+                        'Unknown operator: %s', $token->type->name
+                    )),
+                },
+                $rightNode,
+            );
+        }
+
+        return $node;
+    }
+
+}
 ```
 
 {{% godzilla %}}
-The Pratt Parser makes use of recursion which is [far too complex for the
-human mind](https://www.youtube.com/watch?v=zrweu0GRJnE). Fortunately
-Godzilla, as a giant lizard, understands. **Trust Godzilla.**
+The Pratt Parser makes use of **recursion** which is [far too complex for the
+human mind](https://www.youtube.com/watch?v=zrweu0GRJnE) but
+Godzilla, as a lizard, understands.
 {{%/ godzilla %}}
 
-## Appendix II: What About Godzilla?
+Even if recursion is too complex for humans, let's look inside of Godzilla's
+brain and how he evaluates `2 * 3 + 4`:
 
-...
+- Enter the function initially with precedence `0`
+- Parse the operand `IntegerNode(2)`.
+- The current token is `*` with a precedence of `20`.
+- `20` is greater than `0` so we enter the loop.
+- Create a binary operation with the left value of `2`: `$node = BinaryOp(IntegerNode(2), *, ...)`
+- Recurse to `parse` the right operand with the **new precedence** of `20`:
+  - Enter `parse` with a precedence of `20`.
+  - Parse the operand `IntegerNode(3)`
+  - The current token is a `+` operator with precedence `10`
+  - `10` is NOT less than than `20` so we exit the loop and return `IntegerNode(3)`
+- Return and now have our right value: `$node = BinaryOp(IntegerNode(2), *, IntegerNode(3))`
+- The loop is evaluated again and the operator is `+` with precedence `10`
+- `10` is greater than `0` so we enter the loop
+- Create a new binary node with the left hand side inherited from the previous iteration: `BinaryOp(BinaryOp(IntegerNode(2), *, IntegerNode(3), '+', ...)`
+- Recurse to evaluate the right hand side with the new precedence of `10`:
+  - Enter `parse` with a precedence of `10`.
+  - Parse the operand `IntegerNode(4)`.
+  - There are no more tokens so we return `IntegerNode(4)`.
+- Now we have: `$node = BinaryOp(BinaryOp(IntegerNode(2), *, IntegerNode(3)), +, IntegerNode(4))`
+- Loop is evaluated again.
+- Current token is `NULL` with a precedence of `0`
+- `0` is not less than `0`.
+- Exit the loop
+- Return the final value.
+
+The evaluator can now, without modification, given the "correct" answer of
+`10`.
 
 ## Further Reading
 
-- [Doctrine Lexer](https://www.doctrine-project.org/projects/doctrine-lexer/en/3.1/dql-parser.html): I _think_ I based my parsers on this library, a long time ago.[^doctrine]
 - [Crafting Interpreters](http://www.craftinginterpreters.com/): If you ever
-  wanted to write your own programming langauge.
+  wanted to write your own programming language then you can follow this
+  simple guide.
+- [Expression Parsing Made Easy](https://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/): By the same author as above, implementing a Pratt Parser in Java.
+- [Doctrine Lexer](https://www.doctrine-project.org/projects/doctrine-lexer/en/3.1/dql-parser.html): I _think_ I based my parsers on this library, a long time ago.[^doctrine]
+- [PHPStan Phpdoc Parser](https://github.com/phpstan/phpdoc-parser): Another
+  example of a parser.
 
 ---
 
