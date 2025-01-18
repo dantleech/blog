@@ -254,7 +254,7 @@ class Tokenizer
         // we will need to _collect_ the tokens we create
         $tokens = [];
 
-        // essentially scan from left to right
+        // scan from left to right
         while (isset($expression[$offset])) {
             // get the current char and advance the pointer to the
             // next char
