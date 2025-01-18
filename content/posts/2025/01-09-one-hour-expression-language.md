@@ -362,7 +362,7 @@ return a `Generator` and then, he says, he can **tokenize and parse at the same 
 <?php
 
 use DTL\OneHourExp\Node\BinaryOpNode;
-use DTL\OneHourExp\Node\IntegerNode;
+use DTL\OneHourExp\Node\Integer;
 use RuntimeException;
 
 class Parser
@@ -375,7 +375,7 @@ class Parser
         // resolve a node for the token
         $node = match ($token?->type) {
             // we actually only support Integers at this point
-            TokenType::Integer => new IntegerNode((int)$token->value),
+            TokenType::Integer => new Integer((int)$token->value),
 
             // if we get NULL then the token was not returned the expression
             // was not complete (e.g. "1 + 2 +" would cause this error).
@@ -426,8 +426,8 @@ wanted to **eagerly** make the conversion) so that `5 miles * 2 kilometers = (5 
 
 After we've parsed `5` we'd look at the next token, if it's a _suffix_ token
 (i.e. one of `miles` or `kilometers`) then we'd combine the previous node
-(`IntegerNode`) into a `Distance` node before forwarding that node
-to the binary operation: `Distance(IntegerNode(5))` or `Distance(5)` or
+(`Integer`) into a `Distance` node before forwarding that node
+to the binary operation: `Distance(Integer(5))` or `Distance(5)` or
 `Distance(5.0, 'miles')` or `Distance(5.0, UnitSystem::Imperial)`.
 {{%/ callout %}}
 
@@ -441,7 +441,7 @@ using recursion to evaluate any nested nodes:
 <?php
 
 use DTL\OneHourExp\Node\BinaryOpNode;
-use DTL\OneHourExp\Node\IntegerNode;
+use DTL\OneHourExp\Node\Integer;
 use Exception;
 use RuntimeException;
 
@@ -452,7 +452,7 @@ class Evaluator
     public function evaluate(Node $node): int
     {
         // if the node is an integer, then return the integer value
-        if ($node instanceof IntegerNode) {
+        if ($node instanceof Integer) {
             return $node->value;
         }
 
@@ -517,7 +517,7 @@ Parser](https://en.wikipedia.org/wiki/Operator-precedence_parser#Pratt_parsing):
 <?php
 
 use DTL\OneHourExp\Node\BinaryOpNode;
-use DTL\OneHourExp\Node\IntegerNode;
+use DTL\OneHourExp\Node\Integer;
 use RuntimeException;
 
 class Parser
@@ -548,7 +548,7 @@ class Parser
         // parse the operand (e.g. 5) as we did before.
         $token = $tokens->take();
         $node = match ($token?->type) {
-            TokenType::Integer => new IntegerNode((int)$token->value),
+            TokenType::Integer => new Integer((int)$token->value),
             null => throw new RuntimeException('Unexpected end of expression'),
             default => throw new RuntimeException(sprintf(
                 'Do not know what to do thanks: %s', $token->type->name ?? 'null'
@@ -600,24 +600,24 @@ Even if recursion is too complex for humans, let's look inside of Godzilla's
 brain and how he evaluates `2 * 3 + 4`:
 
 - Enter the function initially with precedence `0`
-- Parse the operand `IntegerNode(2)`.
+- Parse the operand `Integer(2)`.
 - The current token is `*` with a precedence of `20`.
 - `20` is greater than `0` so we enter the loop.
-- Create a binary operation with the left value of `2`: `$node = BinaryOp(IntegerNode(2), *, ...)`
+- Create a binary operation with the left value of `2`: `$node = BinaryOp(Integer(2), *, ...)`
 - Recurse to `parse` the right operand with the **new precedence** of `20`:
   - Enter `parse` with a precedence of `20`.
-  - Parse the operand `IntegerNode(3)`
+  - Parse the operand `Integer(3)`
   - The current token is a `+` operator with precedence `10`
-  - `10` is NOT less than than `20` so we exit the loop and return `IntegerNode(3)`
-- Return and now have our right value: `$node = BinaryOp(IntegerNode(2), *, IntegerNode(3))`
+  - `10` is NOT less than than `20` so we exit the loop and return `Integer(3)`
+- Return and now have our right value: `$node = BinaryOp(Integer(2), *, Integer(3))`
 - The loop is evaluated again and the operator is `+` with precedence `10`
 - `10` is greater than `0` so we enter the loop
-- Create a new binary node with the left hand side inherited from the previous iteration: `BinaryOp(BinaryOp(IntegerNode(2), *, IntegerNode(3), '+', ...)`
+- Create a new binary node with the left hand side inherited from the previous iteration: `BinaryOp(BinaryOp(Integer(2), *, Integer(3), '+', ...)`
 - Recurse to evaluate the right hand side with the new precedence of `10`:
   - Enter `parse` with a precedence of `10`.
-  - Parse the operand `IntegerNode(4)`.
-  - There are no more tokens so we return `IntegerNode(4)`.
-- Now we have: `$node = BinaryOp(BinaryOp(IntegerNode(2), *, IntegerNode(3)), +, IntegerNode(4))`
+  - Parse the operand `Integer(4)`.
+  - There are no more tokens so we return `Integer(4)`.
+- Now we have: `$node = BinaryOp(BinaryOp(Integer(2), *, Integer(3)), +, Integer(4))`
 - Loop is evaluated again.
 - Current token is `NULL` with a precedence of `0`
 - `0` is not less than `0`.
