@@ -488,7 +488,7 @@ class Evaluator
 
 ## That's It
 
-That was essentially the code that I live coded when I live coded the code at
+That was the code that I live coded when I live coded the code at
 the PHP South West PHP code meetup, although the live demo included the
 **tests**.
 
