@@ -512,7 +512,7 @@ tokens:
 2 * 3 + 4 = 2 * (3 + 4) = 2 * 7 = 14
 ```
 
-**This is the wrong answer**. We need to change the way the parser builds the
+**This is the wrong answer**[^thewrong]. We need to change the way the parser builds the
 AST. One way would be by updating our parser to be a [Pratt
 Parser](https://en.wikipedia.org/wiki/Operator-precedence_parser#Pratt_parsing):
 
@@ -657,3 +657,4 @@ The evaluator can now, without modification, give the "correct" answer of
 [^allthework]: it's common and possibly more performant to implement the
     tokenizer with `preg_` methods, for example: [phpstan docblock lexer](https://github.com/phpstan/phpdoc-parser/blob/2.0.x/src/Lexer/Lexer.php) or [my own soon-to-be-abandoned docblock parser](https://github.com/phpactor/docblock-parser/blob/master/src/Lexer.php#L77)
 [^doctrine]: it was also through the Doctrine project's query builders that I discovered the power of walking trees 🌲.
+[^thewrong]: it's only wrong if you expected a different answer.
