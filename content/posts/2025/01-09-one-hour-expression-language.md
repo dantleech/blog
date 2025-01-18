@@ -286,6 +286,8 @@ class Tokenizer
 
                 // return NULL for space so we can handle it specially
                 ' ' => null,
+
+                // otherwise the user was wrong, tell them why.
                 default => throw new RuntimeException(sprintf(
                     'Invalid operator: "%s"', $char
                 )),
@@ -297,6 +299,7 @@ class Tokenizer
                 continue;
             }
 
+            // if we get this far then we're winning!
             $tokens[] = $token;
         }
 
@@ -339,8 +342,8 @@ class Tokens implements IteratorAggregate
     // - chomp()
     // - eat()
     // - consume()
-    // - bite()
     // - next()
+    // - bite()
     // - ...
     public function take(): ?Token
     {
@@ -352,7 +355,7 @@ class Tokens implements IteratorAggregate
 {{< godzilla >}}
 Godzilla interjects rudely and growls that he would do this without a collection object by using an
 `array` and `array_shift` instead of `take()` or by having the `Tokenizer`
-return a `Generator` and then, he says, he can **tokenize and parse at the same time!**. Well done Godzilla.
+return a `Generator` and then, he claims, he can **tokenize and parse at the same time!**. Well done Godzilla.
 {{</ godzilla >}}
 
 ### Parser
