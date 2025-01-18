@@ -458,7 +458,7 @@ class Evaluator
             return $node->value;
         }
 
-        // oh boy! a BinaryNode!
+        // oh boy! a BinaryOp!
         if ($node instanceof BinaryOp) {
 
             // this is where things get interesting as we recurse...
