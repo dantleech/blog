@@ -47,9 +47,9 @@ The expression language consists of _numbers_ (i.e. `1` and `2`) and _operators_
 
 Despite it's simplicity it does provide the **foundations** from which you can
 **easily** introduce more features and essentially extend the language to
-accommodate almost any expression language you can conceive of, _even division_
+accommodate almost any expression language you can conceive of - you could even support _division_
  in spite of Godzilla's objections. You can add variables,
- functions, pipe operators, suffixes, string concatenation, anything you can imagine.
+ functions, pipe operators, suffixes, string concatenation, whatever.
 
 ## What's in One, Please?
 
