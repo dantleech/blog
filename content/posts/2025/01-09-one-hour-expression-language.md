@@ -355,7 +355,7 @@ class Tokens implements IteratorAggregate
 {{< godzilla >}}
 Godzilla interjects rudely and growls that he would do this without a collection object by using an
 `array` and `array_shift` instead of `take()` or by having the `Tokenizer`
-return a `Generator` and then, he claims, he can **tokenize and parse at the same time!**. Well done Godzilla.
+return a `Generator` and then, he claims, he can **tokenize and parse at the same time!** Well done Godzilla.
 {{</ godzilla >}}
 
 ### Parser
