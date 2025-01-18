@@ -46,8 +46,7 @@ The expression language consists of _numbers_ (i.e. `1` and `2`) and _operators_
 `*`) and **will not** support [operator precedence](https://www.mathsisfun.com/operation-order-bodmas.html) (see Appendix I) or **division**.
 
 Despite it's simplicity it does provide the **foundations** from which you can
-**easily** introduce more features and essentially extend the language to
-accommodate almost any expression language you can conceive of - you could even support _division_
+**easily** introduce more features - you could even support _division_
  in spite of Godzilla's objections. You can add variables,
  functions, pipe operators, suffixes, string concatenation, whatever.
 
