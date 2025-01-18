@@ -140,7 +140,7 @@ The expression `1 + 1 / 5` is represented as a single `BinaryOp` with an operato
                     |                    |
                 +-----------+      +-------------+
                 | Integer 1 |      | Binary Op / |
-                +-----------+      +-------------+
+                +-----------+      +----+---+----+
                                    left |   |right
                                  +------+   +----+
                                  |               |
@@ -616,7 +616,7 @@ brain and how he evaluates `2 * 3 + 4`:
   - Parse the operand `Integer(3)`
   - The current token is a `+` operator with precedence `10`
   - `10` is NOT less than than `20` so we exit the loop and return `Integer(3)`
-- Now have resolved our `BinaryOp` node's right value: `$node = BinaryOp(Integer(2), *, Integer(3))`
+- Now we have resolved our `BinaryOp` node's right value: `$node = BinaryOp(Integer(2), *, Integer(3))`
 - The loop is evaluated again and the operator is `+` with precedence `10`
 - `10` is greater than `0` so we enter the loop
 - Create a new binary node with the left hand side inherited from the previous iteration: `BinaryOp(BinaryOp(Integer(2), *, Integer(3), '+', ...)`
@@ -653,8 +653,8 @@ The evaluator can now, without modification, give the "correct" answer of
 [^patents]: there is no patent - but don't get any ideas.
 [^talk]: actually the specific code created at the PHPSW meetup in January
     2025. The actual code changes each time.
-[^utf8]: if you don't know what UTF-8 is don't worry about it. We're talking
-    about a _string_.
+[^utf8]: commonly known as a `string` in PHP (although let's hope they're not
+    multi-byte chars 😱).
 [^othercool]: the tokenizer is useful in its own right, for example you could
     easily create a basic syntax highlighter.
 [^allthework]: it's common and possibly more performant to implement the
