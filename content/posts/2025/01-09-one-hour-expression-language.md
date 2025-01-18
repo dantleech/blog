@@ -586,6 +586,9 @@ class Parser
                 },
                 $rightNode,
             );
+
+            // now the next iteration will either exit or have $node as the left operand of
+            // the _next_ BinaryOp.
         }
 
         return $node;
