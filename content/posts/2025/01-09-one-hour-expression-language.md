@@ -101,7 +101,7 @@ Our set of token _types_ will be `Integer`, `Plus`, `Minus` and `Multiply`.
 
 {{% godzilla %}}
 **ProCal2000** could also be implemented with a `Tokenizer` and a [stack
-machine](https://en.wikipedia.org/wiki/Stack_machine) which is
+machine](https://igor.io/2013/12/02/stack-machines-rpn) which is
 **virtuous** but we will implement a `Parser` and an `Evaluator` because
 because **Godzilla cares about you**.
 {{%/ godzilla %}}
@@ -646,10 +646,13 @@ The evaluator can now, without modification, give the "correct" answer of
 
 ## Further Reading
 
-- [Crafting Interpreters](http://www.craftinginterpreters.com/): If you ever
-  wanted to write your own programming language then you can follow this
-  simple guide.
-- [Expression Parsing Made Easy](https://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/): By the same author as above, implementing a Pratt Parser in Java.
+- [Crafting Interpreters](http://www.craftinginterpreters.com/): Book (with free web edition) by Robert
+  Nystrom - if you ever wanted to write your own programming language then you
+  can follow this simple guide.
+- [Expression Parsing Made Easy](https://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/): Blog post by the same author as above, implementing a Pratt Parser in Java.
+- [Stack Machine RPN
+  Calculator](https://igor.io/2013/12/02/stack-machines-rpn): 2014 Post by Igor
+  Wiedler followed by many more interesting articles.
 - [Doctrine Lexer](https://www.doctrine-project.org/projects/doctrine-lexer/en/3.1/dql-parser.html): I _think_ I based my parsers on this library, a long time ago.[^doctrine]
 - [PHPStan Phpdoc Parser](https://github.com/phpstan/phpdoc-parser): Another
   example of a parser.
