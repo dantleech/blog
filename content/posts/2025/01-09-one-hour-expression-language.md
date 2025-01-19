@@ -134,7 +134,7 @@ A [binary](https://en.wiktionary.org/wiki/binary) operation is an operation with
 
 Commonly we also have [unary](https://en.wiktionary.org/wiki/unary) operation with **one** operand. Negation is a unary operation - `!bar` could be `UnaryOp('!', Variable('bar'))`. Could `-1` be a unary operation? What about `----1`?
 
-[Ternary](https://en.wiktionary.org/wiki/ternary#English) operations have **three** operands and are most commonly seen in PHP as the [ternary expression](https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary) `foo ? bar : baz`.
+[Ternary](https://en.wiktionary.org/wiki/ternary#English) operations have **three** operands and are most commonly seen as the [ternary conditional](https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary) `foo ? bar : baz`.
 {{%/ callout %}}
 
 The expression `1 + 1 / 5` is represented as a single `BinaryOp` with an operator (`+`) and two operands: the integer value `1` and _another_ binary operation:
