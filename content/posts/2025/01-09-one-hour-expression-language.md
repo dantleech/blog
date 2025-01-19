@@ -130,9 +130,11 @@ So given a list of tokens (`list<Token>`) the parser will return an AST which
 is the root `Node` of a [tree](https://en.wikipedia.org/wiki/Tree_(abstract_data_type)) of nodes. In _our case_ each and every node in the tree is an _expression_ that can be evaluated and there are two node types `BinaryOp` and `Integer`.
 
 {{%  callout %}}
-A [binary](https://en.wiktionary.org/wiki/binary) operation is an operation with two operands, so for example: `foo or bar` could be `BinaryOp(Variable('foo'), 'or', Variable('bar'))` or `5 ** 6` would be `BinaryOp(Integer(5), '**', Integer(6))`.
+A [binary](https://en.wiktionary.org/wiki/binary) operation is an operation with **two** operands, so for example: `foo or bar` could be `BinaryOp(Variable('foo'), 'or', Variable('bar'))` or `5 ** 6` would be `BinaryOp(Integer(5), '**', Integer(6))`.
 
-Commonly we also have `UnaryOp` for example negation `!bar` which could be `UnaryOp('!', Variable('bar'))`. Could `-1` be a unary operation? What about `----1`?
+Commonly we also have [unary](https://en.wiktionary.org/wiki/unary) operation with **one** operand. Negation is a unary operation - `!bar` could be `UnaryOp('!', Variable('bar'))`. Could `-1` be a unary operation? What about `----1`?
+
+[Ternary](https://en.wiktionary.org/wiki/ternary#English) operations have **three** operands and are most commonly seen in PHP as the [ternary expression](https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary) `foo ? bar : baz`.
 {{%/ callout %}}
 
 The expression `1 + 1 / 5` is represented as a single `BinaryOp` with an operator (`+`) and two operands: the integer value `1` and _another_ binary operation:
