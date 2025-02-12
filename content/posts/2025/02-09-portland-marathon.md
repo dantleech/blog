@@ -53,7 +53,7 @@ different matter.
 
 The route would take us around the isle clockwise for a distance of around 10
 miles then we would run down the causeway connecting Portland with Weymouth,
-under the bridge, run _back_ to the start along Hamm Beach, turn around and
+under [Ferry Bridge](https://en.wikipedia.org/wiki/Ferry_Bridge,_Dorset), run _back_ to the start along Hamm Beach, turn around and
 then do the **entire thing in reverse**.
 
 So I paced myself, trying to go easy on my legs, but still running 8 minute
@@ -139,7 +139,8 @@ Cramp struck me in my calf, and my calfs felt _tight_ and I knew that cramp
 would strike again and my legs were constrained with pain and the threat of
 cramp and I shuffled onwards. The (to be) first lady caught up with me and we
 chatted a little bit, with me occasionally yelping as one calf or the other
-cramped up and I slowed again as she ran ahead. We "ran" up the "Church 'Ope"
+cramped up and I slowed again as she ran ahead. We "ran" up the [Church
+Ope](https://en.wikipedia.org/wiki/Church_Ope_Cove)
 steps, or rather, walked. "I'm like an 80 year old man" I said as I bent-over struggled
 to barely walk up the many steps, sometimes side stepping like a crab to
 mitigate the pain.
