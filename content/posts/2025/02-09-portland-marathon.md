@@ -164,7 +164,8 @@ of Jelly Babies.
 
 It was now the matter of a mild climb for a mile to the Nothe Citadel. I knew
 I should've been running 8 minute miles at this point but I was shuffling at
-12-14 minute miles thinking that **running shouldn't be this attritional**.
+12-14 minute miles with every stiff and aching step a risk of cramping,
+thinking that **running shouldn't be this attritional**.
 
 Finally I arrived at the Citadel and it was down the steps and descending
 back down the precipitous funnel to the road, turning into the Osprey Quay
