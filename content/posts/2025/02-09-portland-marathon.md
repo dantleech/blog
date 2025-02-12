@@ -45,19 +45,21 @@ but a **trail** marathon, with some very steep climbs and the winner from last
 year did it in about 3 hours and 20 minutes, and my target was 4 hours and 30
 minutes.
 
-Within the first mile we were already running up the "funnel" to the Verne
-Citadel - a 250ft climb on what was perhaps once a rail transportation system
+Within the first mile we were already running up the "funnel" to the [Verne
+Citadel](http://www.geoffkirby.co.uk/Portland/690735/) - a 250ft climb on what was perhaps once a rail transportation system
 to ferry goods and ammunition to the citadel. I got to the top and felt
 strong but the goal was to feel strong for the next 26 miles which was a
 different matter.
 
 The route would take us around the isle clockwise for a distance of around 10
-miles then we would run down the causeway connecting Portaland with Weymouth,
+miles then we would run down the causeway connecting Portland with Weymouth,
 under the bridge, run _back_ to the start along Hamm Beach, turn around and
 then do the **entire thing in reverse**.
 
 So I paced myself, trying to go easy on my legs, but still running 8 minute
-miles along the flats. It was not an entirely lonely race and within the first
+miles along the flats. 
+
+It was not an entirely lonely race and within the first
 5 miles there were 3 of us bunched together, at one point I was in the group leader
 and, thinking I knew the route, led out party on a minor, unhelpful,
 diversion.
@@ -75,8 +77,6 @@ rounded [Portland Bill](https://en.wikipedia.org/wiki/Portland_Bill) and I reali
 effortless was that the wind was behind me. Now the wind was against me and
 it was cold, and we were also running up a slope.
 
-![running](
-
 At the top of the slope is [Portland Lookout Station](https://intranet.nci.org.uk/portlandbill) hesitated at a junction, and turned around to see
 which way other runners would go, there was only a single runner behind me and
 he wasn't taking my road but I was to far ahead to change course, so I
@@ -87,8 +87,7 @@ We turned right at (what used to be) [Blacknor Fort](https://en.wikipedia.org/wi
 original coast path due to erosion - which was, for me, a somewhat welcome
 relief as it took us back on to the tarmac for a spell and run faster before
 we turned into the [Tout Quarry](https://en.wikipedia.org/wiki/Tout_Quarry)
-and making our way to the "Goat Path" which is a precipitous zig-zag trail
-dropping 200ft.
+and making our way to the path precipitous 200ft zig-zag descent from the quarry to sea-level.
 
 At this point my choice of footwear let me down slightly, my road shoes have
 had > 500 miles on them and are especially not suited to muddy slidy
@@ -96,11 +95,11 @@ conditions, but I _slided_ and _slode_ and made my way to the bottom without any
 injury onto the road "out" of Portland and onto the causeway.
 
 Here we continued to run into the wind, down the pedestrian pavement with
-traffic on our right and the wind against us, at this point the lead runner
-passed me and I clapped my hands for him (at this point he was probably 3
--4 miles ahead, having run up the otherside and returned), sporadically more
-runners crossed our paths as we made our way down to and under the bridge to
-run up [Hamm Beach](http://chesilbeach.org/hamm/).
+traffic on our right and the wind against us, at this point I crossed paths
+with the lead runner and I clapped my hands for him (at this
+point he was probably 3 -4 miles ahead, having run up the other side and
+returned). Sporadically more runners crossed our paths as we made our way down
+to and under the bridge to run up [Hamm Beach](http://chesilbeach.org/hamm/).
 
 I felt strong with the wind behind me and was feeling the benefits of the
 energy gel I had consumed at mile 10, I passed my companion and turned at the
@@ -108,8 +107,8 @@ half way point, seeing more and more runners the other way and clapping for
 them and overtaking some more runners which boosted my confidence a bit.
 
 Running back towards Portland I felt strong and lots of marathon and
-half-marathon runners and claps and "well dones" and at one point a high five
-before I had to **climb back up the goats path**.
+half-marathon runners and more claps and "well dones" and at one point a high five
+before I had to **climb back up the 200ft path to the quarry**.
 
 It seems a couple had gained on me as I started, and my "good pace" turned
 into nothing more than a shuffle. It was **very steep** and it was on this
@@ -124,10 +123,10 @@ and slow down and managed to take yet another diversion before looking back
 and seeing another runner taking a much more direct route back to Portland
 Bill.
 
-Meeting the Bill for the second time I turned around and the wind hit me, now
+Meeting the Lighthouse for the second time I turned around and the wind hit me, now
 I was shuffling along what really did not seem to be a gradient and had
 covered 20 miles. It was not getting easier from here on in and a runner
-overtook me "how you holding up" I asked, "not to bad" he replied. I wasn't
+overtook me "how you holding up?" I asked, "not to bad" he replied. I wasn't
 feeling the same, alarm bells were ringing in my legs and I continued to slow
 down.
 
@@ -139,8 +138,8 @@ would strike again and my legs were constrained with pain and the threat of
 cramp and I shuffled onwards. The (to be) first lady caught up with me and we
 chatted a little bit, with me occasionally yelping as one calf or the other
 cramped up and I slowed again as she ran ahead. We "ran" up the "Church 'Ope"
-steps, or rather, walked. "I'm like an 80 year old man" I said as I struggled
-to even walk up the many steps, sometimes side stepping like a crab to
+steps, or rather, walked. "I'm like an 80 year old man" I said as I bent-over struggled
+to barely walk up the many steps, sometimes side stepping like a crab to
 mitigate the pain.
 
 At this point I considered walking, but I only had a few miles to go. I was
@@ -154,7 +153,7 @@ water from it and was something of an acquired skill. So, although the were aid
 stations along the way, the event was "cup-less" so I was at the mercy of this
 hydration pipe.
 
-The ostensible final challenge was _climbing_ back up the goat path. My bag
+The ostensible final challenge was climbing _back_ up the 220ft zig-zag "goat path" to the [Grove Prison](http://www.geoffkirby.co.uk/PortlandArchivePictures/html/grove_prison.html) . My bag
 was hurting my shoulders and I felt sick and my legs were cramping up. At the
 top I had encouragement from some club runners staffing an aid station and for
 the first time I took advantage of the goods on offer and picked up a handful
