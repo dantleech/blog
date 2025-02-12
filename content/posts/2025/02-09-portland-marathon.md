@@ -22,8 +22,8 @@ my keys were inside the flat, breaking out my spare keys, retrieving my
 non-spare keys, and restoring my spare keys to their hidey-hole only to find
 them waiting for me on the floor when I returned.
 
-I was dropped off and made my way directly to the registration, in the National
-Sailing Academy, in a large hanger accessed by a ramp with some desks at one
+I was dropped off and made my way directly to the registration, in the [National
+Sailing Academy](http://www.geoffkirby.co.uk/Portland/680740/), in a large hanger accessed by a ramp with some desks at one
 end providing the bibs for the 10k, half-marathon and marathon events. I saw
 somebody I knew and had a chat, surprise was taken at my road shoes "yeah,
 should have invested in some trail shoes really". It was going to be slippy
@@ -77,11 +77,13 @@ rounded [Portland Bill](https://en.wikipedia.org/wiki/Portland_Bill) and I reali
 effortless was that the wind was behind me. Now the wind was against me and
 it was cold, and we were also running up a slope.
 
-At the top of the slope is [Portland Lookout Station](https://intranet.nci.org.uk/portlandbill) hesitated at a junction, and turned around to see
-which way other runners would go, there was only a single runner behind me and
-he wasn't taking my road but I was to far ahead to change course, so I
-continued on my route, with the other runner slipping past me and I'd be
-following him for the next five miles.
+At the top of the slope is [Portland Lookout
+Station](https://intranet.nci.org.uk/portlandbill) and I hesitated after
+proceeding down a fork in the path, and turned around to see which way other
+runners would go, there was only a single runner behind me and he wasn't
+taking my route but I was to far ahead to change course, so I continued, with
+the other runner slipping past me and I'd be following him for the next five
+miles.
 
 We turned right at (what used to be) [Blacknor Fort](https://en.wikipedia.org/wiki/Blacknor_Fort) - a diversion from the
 original coast path due to erosion - which was, for me, a somewhat welcome
