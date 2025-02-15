@@ -5,19 +5,21 @@ sitemap:
   disable: true
 ---
 
-## Tokenizer
+## Tokenizer Snapshot
 
-### PHP Test
+Run test with `vendor/bin/phpunit tests/TokenizerTest.php`.
+
+## Test
 
 Copy the contents to `tests/TokenizerTest.php`
 
 ```php
 <?php
 
-namespace DTL\OneHourExp\Tests;
+namespace Workshop\Tests;
 
-use DTL\OneHourExp\Token;
-use DTL\OneHourExp\Tokenizer;
+use Workshop\Token;
+use Workshop\Tokenizer;
 use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
@@ -64,7 +66,7 @@ Copy the contents to `src/Tokenizer.php`
 ```php
 <?php
 
-namespace DTL\OneHourExp;
+namespace Workshop;
 
 use RuntimeException;
 
@@ -105,6 +107,25 @@ class Tokenizer
             $tokens[] = $token;
         }
         return $tokens;
+    }
+}
+```
+
+In `Token.php`:
+
+```php
+<?php
+
+namespace Workshop;
+
+class Token {
+    public const T_INT = 'int';
+    public const T_ADD = 'add';
+    public const T_SUB = 'sub';
+    public const T_MUL = 'mul';
+
+    public function __construct(public string $type, public ?string $value = null)
+    {
     }
 }
 ```
