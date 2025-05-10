@@ -7,6 +7,8 @@ type: plain
 
 ### 2025
 
+- March: Dutch PHP Conference: PHP, Value Objects and You [joind.in](https://joind.in/event/dutch-php-conference-2025/php-value-objects-and-you-) [slides](/slides/2025/dpc-php-value-objects-and-you/presentation.html)
+- February: Nordev 2025 workshop: creating an expression language
 - January: PHPSW - [The One Hour Expression Language](https://www.meetup.com/php-sw/events/305093943/?eventOrigin=group_past_events)
 
 ### 2024
