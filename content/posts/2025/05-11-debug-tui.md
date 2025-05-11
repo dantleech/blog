@@ -91,6 +91,8 @@ created my third TUI application in Rust which has been educational.
 Creating an application from scratch offers rich opportunities to innovate and
 as far as I know the debug-tui already offers features that are not common.
 
+![tui animation](/images/2025-05-11/tui.gif)
+
 [^howhard]: I also asked this question about autocompletion in VIM 10 years
     ago and have been cursed to be the maintainer of
     [phpactor](https://github.com/phpactor/phpactor) ever since 😅
