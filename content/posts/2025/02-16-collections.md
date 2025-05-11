@@ -1,7 +1,7 @@
 --- 
 title: PHP, Collections and You 🫵
 categories: [programming,php]
-date: 2024-12-28
+date: 2025-05-11
 toc: true
 #image: /images/2024-12-28/cdto.png
 draft: true
