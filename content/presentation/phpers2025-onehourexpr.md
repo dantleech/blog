@@ -7,8 +7,8 @@ sitemap:
 
 ## The One Hour Expression Language 🫵
 
-- [Slides](): Slides for this talk.
-- [Joind.in](): Rate the talk!
+- [Slides](/slides/2025/onehourexpr-phpers/onehourexpr.html): Slides for this talk.
+- [Joind.in](https://joind.in/event/phpers-day-2025/schedule/list): Rate the talk!
 
 ### About Me
 
