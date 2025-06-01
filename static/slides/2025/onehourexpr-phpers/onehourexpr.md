@@ -24,6 +24,11 @@ Don't forget to start your stopwatch, Dan.
 - Running
 
 ---
+# Happiness
+
+![bg](assets/runner.png)
+
+---
 
 # Expression Language
 
@@ -66,14 +71,13 @@ echo "foobar" . date('c');
                              +--------------------+
 ```
           
-
 ---
 
-```php
-if ($foo > 5) {
-    echo "foobar";
-}
-```
+* Symfony Expression Language
+* XPath
+* `jq`
+* SQL
+
 
 ---
 
