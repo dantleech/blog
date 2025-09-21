@@ -9,9 +9,10 @@ type: plain
 
 - May: [Phpers Day, Poznan](https://phpers.day/): The One Hour Expression Language [slides and resources](/presentation/phpers2025-onehourexpr/)
 - May: PHP Day, Verona - Debug Tui (lightning talk)
-- March: [Dutch PHP Conference](https://phpconference.nl/): PHP, Value Objects and You [joind.in](https://joind.in/event/dutch-php-conference-2025/php-value-objects-and-you-) [slides](/slides/2025/dpc-php-value-objects-and-you/presentation.html) [video](https://phpconference.nl/session/value-objects-and-you/)
+- March: [Dutch PHP Conference](https://phpconference.nl/): PHP, Value Objects and You [joind.in](https://joind.in/event/dutch-php-conference-2025/php-value-objects-and-you-) [slides](/slides/2025/dpc-php-value-objects-and-you/presentation.html) [📹 video](https://phpconference.nl/session/value-objects-and-you/) [video](https://www.youtube.com/watch?v=FIKpNzEGQJY)
 - February: [Nordev 2025](https://nordevcon.com/) workshop: creating an expression language
 - January: PHPSW - [The One Hour Expression Language](https://www.meetup.com/php-sw/events/305093943/?eventOrigin=group_past_events) 
+- June: PHPSW - PHP, Value Objects and You [📹 video](https://www.youtube.com/watch?v=lFvU9PlwuRA) 
 
 ### 2024
 
@@ -29,7 +30,7 @@ type: plain
 ### 2021
 
 - 07-29 : PHPBench 1.1 - Testing code performance [PHP Oxford](https://www.meetup.com/PHP-Oxford/events/sksjlsycckblc/)
-- 03-25 : PHPBench - Testing code performance [PHP South Wales](https://www.youtube.com/watch?v=-qxu6n9Q-3k) [[video](https://www.youtube.com/watch?v=-qxu6n9Q-3k)]
+- 03-25 : PHPBench - Testing code performance [PHP South Wales](https://www.youtube.com/watch?v=-qxu6n9Q-3k) [[📹 video](https://www.youtube.com/watch?v=-qxu6n9Q-3k)]
 - 02-11 : Integration Testing - The 🐘Elephant in the Room (Internal Inviqa Code Talk)
 - 02-09 : PHPBench - Testing code performance [VlbgWebDev](https://www.meetup.com/de-DE/VlbgWebDev/events/llpqfryccdbmb/) (user group, remote)
 
