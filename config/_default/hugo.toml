@@ -1,8 +1,11 @@
 baseURL = "https://www.dantleech.com/"
 languageCode = "en-gb"
-paginate = 50
+
 title = "Dans Blog"
 theme = "dantleech"
+
+[pagination]
+pagerSize = 50
 
 [markup]
     [markup.goldmark]
