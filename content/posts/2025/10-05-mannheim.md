@@ -89,3 +89,6 @@ I got the train to Portsmouth:
 Ferry to France is tomorrow, I'll get to Ouistream (Caen) at 15:00 and then I
 start cycling. I'm not sure what I'll be doing after the conference, maybe
 I'll cycle back.
+
+*edit: looking at the map of _course_ I'll cycle back because it would make a
+triangle*
