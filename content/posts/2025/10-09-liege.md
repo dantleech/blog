@@ -1,13 +1,15 @@
 --- 
 title: "Day 5: Liege"
 categories: [mannheim2025]
-date: 2025-10-06
+date: 2025-10-07
 draft: false
 distance: 180
 time: 8h00m
 elapsed: 8h38m
 image: /images/mannheim2025/202510061746-strepylift.jpg
 gpx: /gpx/mannheim2025/day5.gpx
+aliases:
+  - /blog/2025/10/06/day-5-liege/
 ---
 I had a vegetarian Pita, it was served in a
 bowl and had pineapple cheese, and various other things, and it was surprisingly good. I didn't write this post there. Now I'm back in
