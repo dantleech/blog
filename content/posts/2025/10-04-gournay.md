@@ -110,7 +110,7 @@ moments.
 *Rouen - probably something important*
 
 ![Camera/IMG_20251004_160023_610.jpg](/images/mannheim2025/202510031824-ruen2.jpg)
-*Looking towards something that surely has a name*
+*Looking towards something that surely has a name[^name]*
 
 But I had decided not to stop at Rouen. Many many miles previously I had
 stopped for lunch. From the bakery I had a large "sandwich" with cheese, eggs,
@@ -154,3 +154,5 @@ would be more interesting.
 
 Tomorrow the weather should be dry and the town of Preonne is about 100 miles
 away, there's a campsite.
+
+[^name]: I've been informed that it is named the [Côte Sainte-Catherine](https://fr.wikipedia.org/wiki/C%C3%B4te_Sainte-Catherine_(Rouen)).
