@@ -83,7 +83,7 @@ out that it's really quite hilly in the South, and I climbed hairpins to an
 altitude of about 250m.
 
 ![Camera/IMG_20251009_105424_430.jpg](/images/mannheim2025/202510072003-hills.jpg)
-*Le payee-bas*
+*Les payee-bas*
 
 ![Camera/IMG_20251009_110207_288.jpg](/images/mannheim2025/202510072003-hills2.jpg)
 *Not so flat*
@@ -130,7 +130,7 @@ include the map but also important metrics such as speed, bearing and distance
 to destination:
 
 ![Camera/IMG_20251009_132644_495.jpg](/images/mannheim2025/202510072003-newscreen.jpg)
-*Reconfigured Garmin screen showing the GPX track*
+*Reconfigured Garmin screen showing THE LINE*
 
 Unfortunately didn't pass through Titz:
 
@@ -151,7 +151,7 @@ path finally to the "Ehermaliger Fernbandstrasse"
 *Ehermaliger Fernbandstrasse*
 
 I don't know exactly what a Fernbandstreasse is (speedway?), but it was
-curious and led eventually onto billowing chimneys and I stopped to take a photo. There
+curious and fast and led eventually onto billowing chimneys and I stopped to take a photo. There
 were people up ahead cycling towards me in the distance. I replaced my camera,
 put my foot on the pedal, locked in the left locked in the right, started
 **falling over**, continued falling over, my right foot woudln't clip-out and I
@@ -159,7 +159,7 @@ fell over, slowly and innevitably, sideways from standing with my foot locked fi
 [SPD](https://en.wikipedia.org/wiki/Shimano_Pedaling_Dynamics) distaster.
 
 ![Camera/IMG_20251009_152843_017.jpg](/images/mannheim2025/202510072003-evaportators.jpg)
-*Chimenys*
+*I fell over after taking this photo*
 
 It's a horrible feeling, nobody would intentionally throw themselves at the
 asphault. I instinctively put my hand out to break the fall and **SMASH** I hit
@@ -189,7 +189,7 @@ petrol station for some chocolate and offered my phone to the assistant to her
 confusion before realising the the chocolate bar was clamped under my armpit.
 
 ![Camera/IMG_20251009_164950_228.jpg](/images/mannheim2025/202510072003-dusselforf.jpg)
-*Just another TV tower*
+*Just another TV tower (Dusseldorf)*
 
 The hotel is awful considering the €220 cost. The private room smells of feet,
 the walls are made of paper (I can hear snoring from the next room) and the
