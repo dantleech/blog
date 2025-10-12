@@ -26,16 +26,16 @@ my laptop and do some work while on the train and offset the cost.
 
 With an hour to spare I purchased the ticket and picked out my bike from the
 cellar and returned the key to the reception and navigated over the crazy-busy
-traffic of Mannheim to the train station, wheeled my bike through the masses
-of people (so many people, it could be Paris or London) and up to the platform
+traffic of Dusseldorf to the train station, wheeled my bike through the masses
+of people (so many people - it could be Paris or London) and up to the platform
 before checking my ticket to determine where my bike would be put. Looking at
-the ticket, and looking again, and again, and once more. There was no mention
-of Fahrad on the ticket. The train was originally due in about 10 minutes, but
+the ticket, and looking again, and again, and once more. **There was no mention
+of Fahrad on the ticket**. The train was originally due in about 10 minutes, but
 it was delayed. "Fuck" I said out loud "Fuckety fuck" I said again and picked
 up my bike and adventured down the stairs to find the ticket office.
 
 I wasn't hopeful. My expectation was a queue of 50 people waiting to buy a
-ticket, despite the huge crowds I was able to imediately speak to a somebody
+ticket, despite the huge crowds I was able to immediately speak to a somebody
 (triage?) and get a ticket. Within the next 5 minnutes I spoke to a wonderful
 lady with tatoos on her fingers who said "I don't know what to do", "I can't
 add a bike reservataion", (what should I do, I asked?) "I don't know" and then
