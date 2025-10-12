@@ -1,5 +1,5 @@
 --- 
-title: "Day 10: Saarbrüke"
+title: "Day 10: Saarbrüken"
 categories: [mannheim2025]
 date: 2025-10-12
 distance: 137
@@ -10,7 +10,7 @@ gpx: /gpx/mannheim2025/day10.gpx
 ---
 
 Now in a hotel after having walked around in my barefoot shoes for a few hours
-in Saarbrüke (where luck can be found according to the advertisements on the
+in Saarbrüken (where luck can be found according to the advertisements on the
 way in). The hotels are quite cheap here and the town is nice. My ankle was
 giving me _some_ grief probably due to barefoot shoes and the running a few
 days ago. But it'll be fine.
