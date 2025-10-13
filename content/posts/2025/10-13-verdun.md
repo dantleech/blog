@@ -39,7 +39,7 @@ drink my beer and write the blog post all at the same time_
 
 I followed (or the Garmin directed me) along the canal on the way west, not
 for the first time there were works happening on the cycle path and I was sent
-on an "Unleitung" while the Garmin continuously recalculated the course -
+on an "Umleitung" while the Garmin continuously recalculated the course -
 which it was actually incapable of doing because I was in Germany and I didn't
 have the German map, so it was continuously beeping and calculating and
 burning the battery. I still haven't found out _exactly_ how to **stop** it
@@ -88,7 +88,7 @@ were no bakeries in sight. Ideally I'm looking for a bakery that will make
 sandwiches, but I'd settle for an oversized pain-au-raisin with icing on the
 top. I eventually found a supermarket, which isn't the instant-solution it
 would've been with the touring bike. I don't want to buy _ingredeients_ for a
-sandwich, I have nowhere to stop them, I also can't _buy_ a sandwich because
+sandwich, I have nowhere to store them, I also can't _buy_ a sandwich because
 they all have meat. My best effort was to buy two donuts a bar of chocolate
 and bannana (a new one, as I had eaten the other in desperation some 30
 minutes earlier and had decided that a bannana was a good thing to have).
@@ -183,7 +183,7 @@ must have just been the violence of the duck into the pot-hole and it's
 relative weight. Nothing else was damanged though.
 
 ![Camera/IMG_20251013_182900_307.jpg](/images/mannheim2025/202510121900-bagonwheel.jpg)
-*Bag stuck in wheel*
+*Bag (containing laptop) stuck in wheel - note the broken carry-loop*
 
 I paid for my pizza and walked back to the house. "Je vein manger" I announced
 in my bad french before I left, the old guy looked up "je vais ouvrir la porte
