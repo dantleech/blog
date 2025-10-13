@@ -12,9 +12,9 @@ Now sitting outside at a Pizzeria in Verdun, it's quiet and I hhave a strong
 IPA beer, the pizzeria doesn't serve beer but I was adivsed to grab one from
 the bar next door, it's slightly cold. I'm staying with at a bed-and-breakfast
 for about €40 which is pretty reasonable. Today was a long day and my back
-hurts slightly, the laptop has 13% charge due, I think, to it being on. But
-the laptop at least survived the trauma that was inflicted on it a few hours
-ago.
+hurts slightly, the laptop has 13% charge due, I think, to it being on in my
+bag. But the laptop at least survived the trauma that was inflicted on it a
+few hours ago and it was perhaps that that "woke it up".
 
 I rolled out of bed at around 7am and started transferring my stuff across the
 room as I changed for breakfast. The breakfast was €14 and in retrospect I
