@@ -1,12 +1,14 @@
 --- 
-title: "Day 12: Riems"
+title: "Day 12: Reims"
 categories: [mannheim2025]
 date: 2025-10-14
-distance: 150
+distance: 154
 time: 7h36m
 draft: false
 image: /images/mannheim2025/202510132016-selfie.jpg
 gpx: /gpx/mannheim2025/day12.gpx
+aliases:
+  - /blog/2025/10/14/day-12-riems/
 ---
 
 I'm not in Reims. Reims is pronounced "rance" with a french "urghhh", so
