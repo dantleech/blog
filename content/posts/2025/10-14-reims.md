@@ -26,7 +26,8 @@ being prepared. I woke, went to the bathroom, said "bonjour" to my hosts, who
 seemed entirely habituated to having guests in the house. It was a good
 breakfast with bread, home-made jam, cheese,
 "[Madelines](https://en.wikipedia.org/wiki/Madeleine_(cake))" (fluffy sponge
-cakes wrapped in plastic which I don't touch) and half a baguette. "En forme?"
+cakes wrapped in plastic which I don't touch) and half a baguette. "En
+forme[^enforme]?"
 (feeling strong?) the lady I asked me, "je ne sais pas" I said, "j'espere" (I
 hope). I did feel good. I had eaten well the night before and the breakfast
 wasn't insubstantial.
@@ -54,14 +55,14 @@ climbed out of the town.
 *Large war cemetery*
 
 The first part of the day was marked with some climbs. "I'm feeling strong" I
-thought. I passed some more forts, the area surrounding the road was military
-and it was an offense to trespass. I passed another tumbled down and
-over-grown fort.
+thought "I'm on-form". I passed some more forts, the area surrounding the road
+was military and it was an offense to trespass. I passed another tumbled down
+and over-grown fort.
 
 ![Camera/IMG_20251014_093011_286.jpg](/images/mannheim2025/202510132016-derelict.jpg)
 *Do not enter this fort*
 
-After the hills I was mostly descending and open roads until I reached the canal.
+After the hills I was mostly descending and wonderful open roads until I reached the canal.
 
 ![Camera/IMG_20251014_121705_709.jpg](/images/mannheim2025/202510132016-longopenroad.jpg)
 *Long and open road*
@@ -70,7 +71,8 @@ I was not taking the most direct route to Reims. The most direct route would
 have been 100k or less. Garmin was taking me on a scenic route, the most
 direct route would not have included the canal. The best thing about the
 Gravel bike is that I can easily cover 100k (the minimum respectable distance)
-and have the freedom to take the scenic routes.
+and have the freedom to take the scenic routes and still finish my day at
+around 17:00.
 
 I needed to poop. I had pooped this morning, but as I left I already realised
 that I hadn't pooped sufficiently. I would not poop for a further 6 hours and
@@ -91,8 +93,10 @@ derailleur. When I started cycling again it was still squeaking.
 *Village*
 
 At this point I entered a **village** called L'Epine and was astonished to see
-what appeared to be a [cathedral](https://en.wikipedia.org/wiki/Notre-Dame_de_l%27%C3%89pine). It was a church constructed (according to
-wikipedia) between 1405-1527 due to the site being the destination of a
+what appeared to be a
+[cathedral](https://en.wikipedia.org/wiki/Notre-Dame_de_l%27%C3%89pine). It
+was a church constructed (according to wikipedia) between 1405-1527 (i.e.
+construction took 122 years) due to the site being the destination of a
 pilgrimage.
 
 ![Camera/IMG_20251014_131217_703.jpg](/images/mannheim2025/202510132016-lepine.jpg)
@@ -133,7 +137,7 @@ only achieved 7 of them. The last 34 kilometers would contain the rest.
 Upon reaching the top of a hill I was astonished by the view, the photo
 doesn't do it much justice. Patchwork fields, and grape vines and distant
 villages on hills. I was now in Champagne land, where all the Champagne in the
-world is made.
+world is [made](https://en.wikipedia.org/wiki/Champagne).
 
 ![Camera/IMG_20251014_151253_602.jpg](/images/mannheim2025/202510132016-view.jpg)
 *Distance village*
@@ -155,7 +159,7 @@ from the center and I knew there would be more cars than pedestrians in that
 suburb.
 
 I won't see the cathedral this time, but more importantly I found a pizzeria,
-unfortunately it wasn't the best pizzeria, although the beer was pretty good.
+unfortunately it wasn't the best pizzeria and not the worst. The beer was pretty good.
 
 ![Camera/IMG_20251014_193059_051.jpg](/images/mannheim2025/202510132016-pizza.jpg)
 
@@ -164,10 +168,13 @@ already visited on this tour and so I'd now be, more or less, going back on my
 outward route. All in all it's about 260 miles to the ferry at Caen/Ouistream.
 Which is 3 days, which would mean getting there on Friday at some time or
 other, probably sailing to Portsmouth that day or overnight, I'd then be in
-Portsmouth on Saturday and the great south run (which I probably won't be able
+Portsmouth on Saturday and the Great South Run (which I probably won't be able
 to finish due to knee) is the very next day - and if I don't make it home I'll
 be running it in my bare-foot shoes.
 
+---
+
+[^enforme]: this is what the French say habitually to anybody about to partake in a sporting challenge - "en forme?" - "are you fit?"
 
 
 
