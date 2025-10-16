@@ -13,8 +13,8 @@ I'm in Rouen. I've been walking about trying to find a pizzeria for about an
 hour. My first attempt was an abject failure. It was a small pizzeria and I
 was directed to a table adjoined to the table of the only other customer in
 the shop. It was a small pizzeria and I felt self-concious and I _had no
-personal space_ and I'd be intimately concient of my unwanted dining partner and I hardly wanted to whip my laptop out and start writing. When the proprietress came to take my order I bottled it and said I had to
-leave.
+personal space_ and I'd be intimately concient of my dining partners movements and noises and I hardly wanted to whip out my laptop out and start writing. When the proprietress came to take my order I bottled it and said I had to
+leave "desole, je dois partir"
 
 Every subsequent restaurant I passed wasn't good enough, there were too many
 people, too few people, the tables were too close together. I started to have
@@ -25,11 +25,10 @@ This morning I was in ... (_I have to think about it_) ... **Beauvais**. I
 woke in the AirBnB at around 7:30 having told the host the night previously
 that I'd accept his offer of coffee at 8am. I joined him and he served me
 waffles (or _Gauffres_) and I was able to help myself to coffee. We had a good
-conversation in French (he didn't speak any English), the longest
-conversation in French I've had in years. He was a chef, the house used to
+conversation in French (he didn't speak any English). He was a chef, the house used to
 be his restaurant and it was currently for sale. "I try and do a good deed
 every day" he said, whether it was giving me free breakfast or giving somebody
-a lift from the station. He got 5 stars and I got a good breakfast.
+a lift from the station. He got 5 star review and I got a good breakfast.
 
 ![Camera/IMG_20251016_094344_525.jpg](/images/mannheim2025/202510152106-beauvais.jpg)
 *Beauvais*
@@ -41,26 +40,26 @@ I had decided to head to Rouen. It's about 260 kilometers (160 miles) to the
 ferry, which is roughly one and a half days. It would make sense to do the
 larger part of the trip first, so I could do the shorter part and get the
 16:30 ferry with ease. Unfortunately I didn't find any good accommodation
-options west of Rouen, and Rouen had a youth hostel. So it would be short and
+options west of Rouen, and Rouen had a youth hostel. So it would be a short ride and
 then long, which has implications on getting the ferry.
 
 ![Camera/IMG_20251016_105905_326.jpg](/images/mannheim2025/202510152106-tower.jpg)
 *Village*
 
-_at this point I realise I haven't booked the ferry, and I'm going to do it
-now_
+> ... at this point I realise I haven't booked the ferry, and I'm going to do it
+now
 
 ![Camera/IMG_20251016_110932_710.jpg](/images/mannheim2025/202510152106-road.jpg)
 *Road*
 
-I've now booked _a_ ferry. It's not the ferry I planned to book. I had hoped to
-cycle to Caen tomorrow and take the overnight ferry. At first I booked the
-_wrong_ ferry (Portsmouth to Caen), then I tried to book Caen to Portsmouth
-for _TODAY_. The overnight ferry for tomorrow is sold out, and so I had to
-book the 16:30 ferry. To cycle 160 kilometers I'd reserve 8 hours assuming a
-minimum average speed of 20kmph. I'd get there an hour before, so I'd have to
-leave at around 6am - which isn't likely. The other option is to get the train
-some or the entire way there. I have a few hours to think about it.
+> ... I've now booked _a_ ferry. It's not the ferry I planned to book. I had hoped to
+> cycle to Caen tomorrow and take the overnight ferry. At first I booked the
+> _wrong_ ferry (Portsmouth to Caen), then I tried to book Caen to Portsmouth
+> for _TODAY_. The overnight ferry for tomorrow is sold out, and so I had to
+> book the 16:30 ferry. To cycle 160 kilometers I'd reserve 8 hours assuming a
+> minimum average speed of 20kmph. I'd get there an hour before, so I'd have to
+> leave at around 6am - which isn't likely. The other option is to get the train
+> some or the entire way there. I have a few hours to think about it.
 
 Ok, now my head is spinning slightly, where was I. So I decided to cycle to
 Rouen, but not only was the distance below the minimum-acceptable-distance
@@ -83,7 +82,7 @@ I headed south as I approached Rouen, I saw a remarkable ruin of an old cotten
 mill [Filature
 Levavasseur](https://fr.wikipedia.org/wiki/Filature_Levavasseur). It looked
 like a ruined cathedral that lay directly on the river "l'Andelle". Construction was
-completed in 1961 and it burnt down in 1874 and has been in that state ever
+completed in 1861 and it burnt down in 1874 and has been in that state ever
 since.
 
 ![Camera/IMG_20251016_134905_625.jpg](/images/mannheim2025/202510152106-filature.jpg)
@@ -96,7 +95,7 @@ The "l'Andelle" flowed into the river Seine which I followed to the "Barage
 des Poses". A massive dam and lock with a footpath/cycleway running over it. I
 stopped to take photos holding my phone in my hand as I rode across with the
 fear that it would slip through my gloved fingers, bounce on the footway and
-over into the gushing waters below - which would be quite an inconvenience.
+over into the gushing waters below - which would be an inconvenience.
 
 ![Camera/IMG_20251016_141546_481.jpg](/images/mannheim2025/202510152106-poses.jpg)
 *Bike on Bridge*
