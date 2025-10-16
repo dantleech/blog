@@ -10,7 +10,7 @@ gpx: /gpx/mannheim2025/day13.gpx
 ---
 
 I'm in Rouen. I've been walking about trying to find a pizzeria for about an
-hour. My first attempt was an abject failure. It was a small pizzeria and I
+hour. My first attempt was an abject failure. I
 was directed to a table adjoined to the table of the only other customer in
 the shop. It was a small pizzeria and I felt self-concious and I _had no
 personal space_ and I'd be intimately concient of my dining partners movements and noises and I hardly wanted to whip out my laptop out and start writing. When the proprietress came to take my order I bottled it and said I had to
