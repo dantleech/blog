@@ -6,11 +6,13 @@ distance: 107
 time: 5h32m
 draft: false
 image: /images/mannheim2025/202510152106-filature.jpg
-gpx: /gpx/mannheim2025/day13.gpx
+gpx: /gpx/mannheim2025/day14.gpx
 ---
 
 I'm in Rouen. I've been walking about trying to find a pizzeria for about an
 hour. My first attempt was an abject failure. I
+👍
+
 was directed to a table adjoined to the table of the only other customer in
 the shop. It was a small pizzeria and I felt self-concious and I _had no
 personal space_ and I'd be intimately concient of my dining partners movements and noises and I hardly wanted to whip out my laptop out and start writing. When the proprietress came to take my order I bottled it and said I had to
@@ -128,7 +130,8 @@ felt tired.
 
 I walked into the center of Rouen and had a minor breakdown trying to find
 somewhere to eat as detailed at the start of this post On the way I was
-interested in the irregular timber framed buildings and big fucking cathedral.
+interested in the irregular timber framed buildings and big fucking
+cathedral that had (relatively) recently undergone an epic renovation to remove the dirt of the ages.
 
 ![Camera/IMG_20251016_185547_017.jpg](/images/mannheim2025/202510152106-cathedralrouen.jpg)
 *Rouen Cathedral*
