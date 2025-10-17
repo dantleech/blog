@@ -10,13 +10,12 @@ gpx: /gpx/mannheim2025/day14.gpx
 ---
 
 I'm in Rouen. I've been walking about trying to find a pizzeria for about an
-hour. My first attempt was an abject failure. I
-👍
-
-was directed to a table adjoined to the table of the only other customer in
-the shop. It was a small pizzeria and I felt self-concious and I _had no
-personal space_ and I'd be intimately concient of my dining partners movements and noises and I hardly wanted to whip out my laptop out and start writing. When the proprietress came to take my order I bottled it and said I had to
-leave "desole, je dois partir"
+hour. My first attempt was an abject failure. I was directed to a table
+adjoined to the table of the only other customer in the shop. It was a small
+pizzeria and I felt self-concious and I _had no personal space_ and I'd be
+intimately concient of my dining partners movements and noises and I hardly
+wanted to whip out my laptop out and start writing. When the proprietress came
+to take my order I bottled it and said I had to leave "desole, je dois partir"
 
 Every subsequent restaurant I passed wasn't good enough, there were too many
 people, too few people, the tables were too close together. I started to have
@@ -28,9 +27,10 @@ woke in the AirBnB at around 7:30 having told the host the night previously
 that I'd accept his offer of coffee at 8am. I joined him and he served me
 waffles (or _Gauffres_) and I was able to help myself to coffee. We had a good
 conversation in French (he didn't speak any English). He was a chef, the house used to
-be his restaurant and it was currently for sale. "I try and do a good deed
-every day" he said, whether it was giving me free breakfast or giving somebody
-a lift from the station. He got 5 star review and I got a good breakfast.
+be his restaurant and I noticed there was a for-sale sign outside. "I try and
+do a good deed every day" he said, whether it was giving me free breakfast or
+giving somebody a lift from the station. He got 5 star review and I got a good
+breakfast.
 
 ![Camera/IMG_20251016_094344_525.jpg](/images/mannheim2025/202510152106-beauvais.jpg)
 *Beauvais*
@@ -65,8 +65,8 @@ now
 
 Ok, now my head is spinning slightly, where was I. So I decided to cycle to
 Rouen, but not only was the distance below the minimum-acceptable-distance
-(MAD) the hostel was probably closed until 17:30. So I decided to add some
-more kilometers to the ride and to approach Rouen from the South.
+of 100k (MAD) but the hostel was probably closed until 17:30. So I decided to
+add some more kilometers to the ride and to approach Rouen from the South.
 
 It was another gray day - and colder as evidenced by my gloves still be on my
 hands well into the afternoon. My legs had the familiar ache of having done a

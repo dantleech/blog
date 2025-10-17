@@ -157,7 +157,7 @@ new ArrayObject([
 ```
 
 While you could technically call this a collection object, I would call it an
-**array with extra steps**, practically I urge you from the bottom of my heart
+**abberation**, practically I urge you from the bottom of my heart
 to not use `ArrayObject`. An `ArrayObject` adds nothing to your life. It [will
 not bring you joy](https://en.wikipedia.org/wiki/Marie_Kondo#KonMari_method).
 **THROW IT AWAY MARIE!!!**.
@@ -186,6 +186,63 @@ wouldn't create an objet to wrap an array in order to not use an array because
 immutable.
 
 ## Collections in Tests
+
+I've lost count of the number of times I've seen this:
+
+```php
+$foos = $mySubject->getFoos();
+self::assertEquals('Cheese', $foos[0]->title);
+```
+
+Or safer (assuming that `getFoos` returns a `list<Foo>`):
+
+```php
+$foos = $mySubject->getFoos();
+self::assertCount(1, $objects);
+self::assertEquals('Cheese', $foos[0]->title);
+```
+
+But this soon becomes hard to read, we're either risking the dreaded "array
+access on undefined offset" error in tests which is like telling future
+developers to "go fuck themselves". "Undefined index" - did you just tell me
+to go fuck myself?" "I believe I did Kevin, yes".
+
+By using collection objects we can both improve readability and provide useful
+error messages:
+
+```php
+self::assertEquals('Cheese', $mySubject->foos()->at(0)->title);
+```
+
+If there is a problem and the foo collection is empty, or the index is out of
+range we'd throw an exception as follows:
+
+```
+No Foo exists at offset 0 in collection with size 0
+```
+
+Note that we added some additional context there - the fact that we're
+operating on "Foo" and we provide the total size of the collection. This is
+like giving a birthday cake to the person that encounters this error and it
+will make them feel loved.
+
+A real life example:
+
+```php
+self::assertEquals(
+    'string',
+    $class->methods()->byName('toString')->first()->type()->__toString()
+);
+```
+
+In this case we:
+
+- Retrieve a "Methods" collection object from a "class" object (doesn't matter
+  what it is, but it's a `ReflectionClass`).
+- Retrieve all methods that have the name `toString`
+- We retrieve the first one (that method will throw if the collection is
+  empty)
+- We then operate on the returned object (in this case a `ReflectionMethod`).
 
 ## Collections in API clients
 
