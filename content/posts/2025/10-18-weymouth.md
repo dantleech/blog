@@ -2,11 +2,11 @@
 title: "Day 16: Weymouth"
 categories: [mannheim2025]
 date: 2025-10-18
-distance: 137
-time: 6h30m
+distance: 135
+time: 6h24m
 draft: false
-image: /images/mannheim2025/202510171650-bike.jpg
-gpx: /gpx/mannheim2025/day15.gpx
+image: /images/mannheim2025/202510172339-dwarfs.jpg
+gpx: /gpx/mannheim2025/day16.gpx
 ---
 This morning I woke early and said hello to my cousin with whom I was staying.
 I had decided both to do the 5k Parkrun in Lee-on-Solent and to cycle back to
@@ -34,7 +34,7 @@ toothy-jaws. In this case they only clung to my clothing and my bike and
 actually prevented me fromm continuing without unpicking them slowly from
 myself, my tent and my bike.
 
-![Camera/IMG_20251018_105648_501.jpg](/images/mannhiem2025/202510172339-badtrail.jpg)
+![Camera/IMG_20251018_105648_501.jpg](/images/mannheim2025/202510172339-badtrail.jpg)
 *This is where things went wrong*
 
 The front tire was not absolutely flat. I checked the distance left on the
@@ -42,7 +42,7 @@ trail: 300 meters. It didn't get much easier but there was no point in turning
 back and I pushed my bike from behind under fallen trees and navigated
 blankets of stingy-nettles until finally emerging onto the a road.
 
-![Camera/IMG_20251018_110053_731.jpg](/images/mannhiem2025/202510172339-vines.jpg)
+![Camera/IMG_20251018_110053_731.jpg](/images/mannheim2025/202510172339-vines.jpg)
 *Half-Life Vines*
 
 I pulled my bike up on the siding and took the wheel off and whipped my tire
@@ -54,7 +54,7 @@ couldn't have been the reason the tire deflated so quickly. It was so small I
 had difficulty finding it again, then I found the main puncture and fixed them
 both.
 
-![Camera/IMG_20251018_113050_807.jpg](/images/mannhiem2025/202510172339-puncture.jpg)
+![Camera/IMG_20251018_113050_807.jpg](/images/mannheim2025/202510172339-puncture.jpg)
 *Repair 1*
 
 
@@ -69,10 +69,10 @@ Staying calm in the face of adversity I grunted several explitives and found
 another bench and this time it would be a replacement. I replaced the inner
 tube.
 
-![Camera/IMG_20251018_131202_094.jpg](/images/mannhiem2025/202510172339-puncture2.jpg)
+![Camera/IMG_20251018_131202_094.jpg](/images/mannheim2025/202510172339-puncture2.jpg)
 *Replacing the inner tube*
 
-![Camera/IMG_20251018_141551_352.jpg](/images/mannhiem2025/202510172339-beauty.jpg)
+![Camera/IMG_20251018_141551_352.jpg](/images/mannheim2025/202510172339-beauty.jpg)
 *Beautiful Southampton*
 
 In contrast to all the previous rides I made routes for, this one featured
@@ -80,7 +80,7 @@ _very_ busy roads. "There roads are so busy" I thought to myself "maybe it's
 just Southampton being shit" I thought, but I saw the road turn off onto a
 B-Road and into the beautiful New Forest a few kilometers ahead.
 
-![Camera/IMG_20251018_151859_116.jpg](/images/mannhiem2025/202510172339-heath.jpg)
+![Camera/IMG_20251018_151859_116.jpg](/images/mannheim2025/202510172339-heath.jpg)
 *Heath*
 
 This was very welcome. The quiet lanes and the heath and forest and the
@@ -88,7 +88,7 @@ This was very welcome. The quiet lanes and the heath and forest and the
 So many ponies roaming freely which is something I don't think you'd see
 anywhere else in Europe.
 
-![Camera/IMG_20251018_151107_163.jpg](/images/mannhiem2025/202510172339-dwarfs.jpg)
+![Camera/IMG_20251018_151107_163.jpg](/images/mannheim2025/202510172339-dwarfs.jpg)
 *Ponies*
 
 Before turning off I had felt my tire and my heart sunk when I realised it had
@@ -96,7 +96,7 @@ deflated _again_ even with a new inner tube. The tire, I thought, the tire
 must have thorn(s) embedded in it in such a way that I couldn't see or feel
 them.
 
-![Camera/IMG_20251018_145150_002.jpg](/images/mannhiem2025/202510172339-horses.jpg)
+![Camera/IMG_20251018_145150_002.jpg](/images/mannheim2025/202510172339-horses.jpg)
 *Horses*
 
 
@@ -107,7 +107,7 @@ hadn't actually gone down. I was safe for the time being. Which is good,
 becuase if it _had_ gone down I would have to get the train back, and
 Borunemouth train station was 25 miles away.
 
-![Camera/IMG_20251018_153137_859.jpg](/images/mannhiem2025/202510172339-hello.jpg)
+![Camera/IMG_20251018_153137_859.jpg](/images/mannheim2025/202510172339-hello.jpg)
 *Hello*
 
 A cyclist pulled up beside me "going far" he asked. I said I was going to
@@ -142,7 +142,7 @@ Trail](https://www.dorsetcouncil.gov.uk/w/castleman-trailway). It was a gravel
 trail with runners, walkers and cyclists. It was a huge relief and it seemed
 to be never ending.
 
-![Camera/IMG_20251018_163109_464.jpg](/images/mannhiem2025/202510172339-castleman.jpg)
+![Camera/IMG_20251018_163109_464.jpg](/images/mannheim2025/202510172339-castleman.jpg)
 
 The Strava route took me off-trail too, across open fields and at one point to
 a very narrow bridge.  I mounted my bike, there was barely enough room to
@@ -152,7 +152,7 @@ and some effort to pull the bike out of the bridge and I then wheeled it
 carefully over the middle plank, a family were waiting for me to cross on the
 other side "alright" I said with a nod and carried on.
 
-![Camera/IMG_20251018_170142_896.jpg](/images/mannhiem2025/202510172339-thebridge.jpg)
+![Camera/IMG_20251018_170142_896.jpg](/images/mannheim2025/202510172339-thebridge.jpg)
 *The Bridge*
 
 Gradually the light began to fade. I knew I wouold need my lights. I also knew
@@ -162,7 +162,7 @@ realised that I didn't have a micro-USB cable. I had a mini-USB cable, a
 Garmin charging cable, and a USB-C cable. But nothing that could charge my
 light. I'd have to be resourceful and hope it lasted.
 
-![Camera/IMG_20251018_165430_685.jpg](/images/mannhiem2025/202510172339-openroad.jpg)
+![Camera/IMG_20251018_165430_685.jpg](/images/mannheim2025/202510172339-openroad.jpg)
 *Cross Country*
 
 Now I had 40 kilometers left. It occured to me to check the remaing ascent. I
@@ -171,7 +171,7 @@ route. Holy fuck. The route ran along the south-west coast path. I run this
 path ocassionally and it is _not_ something you cycle, especailly with a
 loaded gravel bike, and double-especially when you just want to get home.
 
-![Camera/IMG_20251018_163515_235.jpg](/images/mannhiem2025/202510172339-uddens.jpg)
+![Camera/IMG_20251018_163515_235.jpg](/images/mannheim2025/202510172339-uddens.jpg)
 *Uddens*
 
 At this point I was closing in on Wareham and familiar territory. I calculated
@@ -192,6 +192,7 @@ the occasional car speeding past me.
 Finally I made it to Osmington and the street lamps and then the Weymouth
 Esplanade which I've run up and down countless times.
 
-![Camera/IMG_20251018_193344_627.jpg](/images/mannhiem2025/202510172339-weymouth.jpg)
+![Camera/IMG_20251018_193344_627.jpg](/images/mannheim2025/202510172339-weymouth.jpg)
+*The lights of Weymouth*
 
 That's the end.
