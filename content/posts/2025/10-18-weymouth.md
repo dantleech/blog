@@ -32,12 +32,12 @@ brambles, then there was a corridor of hanging brambles that reminded me of
 the computer game "Half-Life" whereby the vines would pull you up to a pair of
 toothy-jaws. In this case they only clung to my clothing and my bike and
 actually prevented me fromm continuing without unpicking them slowly from
-myself, my tent and my bike.
+myself, my tent and my bike. I needed a machete.
 
 ![Camera/IMG_20251018_105648_501.jpg](/images/mannheim2025/202510172339-badtrail.jpg)
 *This is where things went wrong*
 
-The front tire was not absolutely flat. I checked the distance left on the
+The front tire was now absolutely flat. I checked the distance left on the
 trail: 300 meters. It didn't get much easier but there was no point in turning
 back and I pushed my bike from behind under fallen trees and navigated
 blankets of stingy-nettles until finally emerging onto the a road.
@@ -58,12 +58,12 @@ both.
 *Repair 1*
 
 
-I got the wheel back on, cycled down the road. Felt the tire - it had deflated
-- or had it? Maybe, I hoped, it had just "found more space". I was in denial.
+I got the wheel back on, cycled down the road. Felt the tire - it had deflated - or had it? Maybe, I hoped, it had just "found more space". I was in denial.
 When I checked it again 10 minutes later it was not deniable any more, it
 was still going down. Finding a bench I sat down and the tire was harder to
-get off than before and I found another hole and I patched it and I put it
-back on and I rode on and 10 kilometers later, again, it was going down.
+get off than before and I found another hole and I bloodied my hand and
+patched it and I put it back on and I rode on and 10 kilometers later, again,
+it was going down.
 
 Staying calm in the face of adversity I grunted several explitives and found
 another bench and this time it would be a replacement. I replaced the inner
@@ -85,8 +85,7 @@ B-Road and into the beautiful New Forest a few kilometers ahead.
 
 This was very welcome. The quiet lanes and the heath and forest and the
 [ponies](https://www.thenewforest.co.uk/explore/wildlife-and-nature/ponies/).
-So many ponies roaming freely which is something I don't think you'd see
-anywhere else in Europe.
+So many ponies roaming freely which is something I've never seen anywhere else.
 
 ![Camera/IMG_20251018_151107_163.jpg](/images/mannheim2025/202510172339-dwarfs.jpg)
 *Ponies*
