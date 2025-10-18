@@ -185,8 +185,8 @@ light had turned from green to red indicating that the battery was liable to
 run out. 14 miles to Weymouth. I recited my poems. "I'd be a good voice actor"
 I thought. My voice was gruff and I imagined I could be a knight in Game of
 Thrones "... and sail beyond the beds of all the western stars until I die". I
-was reciting the poems out loud. It was just the dark, the road, the rain and
-the occasional car speeding past me.
+was reciting the poems out loud to ignore the passing of time. It was just the
+dark, the road, the rain and the occasional car speeding past me.
 
 Finally I made it to Osmington and the street lamps and then the Weymouth
 Esplanade which I've run up and down countless times.
@@ -194,4 +194,23 @@ Esplanade which I've run up and down countless times.
 ![Camera/IMG_20251018_193344_627.jpg](/images/mannheim2025/202510172339-weymouth.jpg)
 *The lights of Weymouth*
 
-That's the end.
+## Final Thoughts
+
+That's the end. I've covered around 1,0090miles (1,761km) in 16 days of which
+three were rest days. The gravel bike and gear were a huge step up in terms of
+both speed and comfort. I was able to cover 100 miles a day in the time it
+used to take to do 100k with the heavy tourer. I had commented earlier that I
+was "trading comfort for speed" but in fact I was far more comfortable on this
+trip. The bib-shorts and bum-cream meant I had a mostly pain-free bum
+experience, the only thing I "missed" in my setup was running trainers, but
+the barefoot shoes filled that gap, and also provided a new experience.
+
+The gore-tex jacket and merino wool thermal top, bottoms were also a good
+investment (although the bottoms were only used when camping). The gore-tex
+jacket was extremely lightweight, breathable and actually waterproof. The
+Grip-Grab gloves and socks also served me well.
+
+I don't think there will be any going back to the heavy tourer now, the bike
+that I've used for the past 10 years. The gravel bike opens new possibltiies
+and I wonder where I'll go next and how I can make the setup more minimal and
+lightweight.
