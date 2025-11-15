@@ -1,0 +1,421 @@
+--- 
+title: Space
+categories: [programming,php]
+date: 2025-11-15
+toc: true
+#image: /images/2024-12-28/cdto.png
+draft: true
+---
+
+Space - the lack of space. That is what this blog post is about. The evolution
+of a legacy code base.
+
+The majority of code bases I approach are architected in the way that is
+recommended by frameworks, whether it be Symfony, Larvel, or whatever. They
+recommend an approach that makes it easy to get started.
+
+This approach is generally:
+
+```text
+src/
+    Command/
+        CleanOrdersCommand.php
+    Controller/
+        PlaceOrderController.php
+    Form/
+        SubmitCartForm.php
+    Entity/
+        Order.php
+```
+
+This _is_ a good way to get started. Right!? You have a command, put it in the
+`Command` directory. You have a Doctirne Entity, put it in the `Entity`
+folder. Easy!
+
+It's a good way to get started, the problem with this approach is that it's
+not a good way once you have more than a trivial number of concepts.
+
+Let's introduce a `Newsletter` to our app using this arbitrary collection of
+objects:
+
+- `Newsletter`: Stores the newsletter title, body, etc.
+- `EditNewsletterForm`: Form object for editing a newsletter.
+- `CreateNewsletterForm`: Form object for creating the same.
+- `SendNewsletterCommand`: CLI command to send newsletters.
+- `SubscriptionListController`: HTTP controller to view the newsletter.
+
+So:
+
+```text
+src/
+    Entity/
+        Order.php
+        Newsletter.php
+    Controller/
+        SubscriptionListCnotroller.php
+        PlaceOrderController.php
+    Form/
+        EditNewsletterForm.php
+        SubmitCartForm.php
+        CreateNewsletterForm.php
+    Command/
+        SendNewsletterCommand.php
+```
+
+Now the newsletter needs a "token substitution" service, we'll call it `TokenReplacer`, but where does it go?
+It's **not a framework class**. Let's put it in a `Newsletter` namesapce:
+
+```text
+src/
+    Newsletter/
+        TokenReplacer.php
+    Controller/
+    Form/
+    Command/
+    Entity/
+```
+
+{{< callout >}}
+We're being generous by placing `TokenReplacer` in it's own class and not
+simple lumping it in the `Newsletter` entity. Why shouldn't we? Isnt' this
+what DDD wants us to do? Discuss.
+{{</ callout >}}
+
+Some months later and a new developer "needs" to introduce a helper class:
+
+```text
+src/
+   Newsletter/
+   Contrller/
+   Frm/
+   Command/
+   Entity/
+   SkuHelper.php
+```
+
+And then somebody (ahem, John) needs to add a list of sanctioned countries (we can delete
+it after the deployment they say):
+
+```text
+src/
+   Newsletter/
+   Controller/
+   Form/
+   Command/
+   Entity/
+   sancount2025.csv
+   SkuHelper.php
+   Policy.php
+```
+
+A new developer joins and has to integrate monitoring into the platform, they
+believe they used DDD in their last job, and, after discussing with the team,
+they decide to implement a DDD approach going forward, and agree to clear up
+the other code later:
+
+```text
+src/
+    Newsletter/
+    Controller/
+        SubscriptionListController.php
+    Infrastructure/
+        Controller
+            StatusController.php
+        Monitoring/
+            RedisMonitor.php
+    Domain/
+        Monitring/
+            Monitor.php
+    Command/
+        SendAlertsCommand.php
+    SkuHelper.php
+    sancount2025.csv
+    sancount2026.csv
+    Policy.php
+    Ghandi.php
+```
+
+Over the years they completely forgot about DDD and they also needed to import
+various things:
+
+```text
+src/
+    // ...
+    Newsletter/
+    Controller
+        StatusController.php
+        DHLSyncController.php
+        EasyJetFlyerController.php
+        AcceleronPromtions.php
+    Classes/
+        PDF.php
+    // ...
+    __IDE.tmp
+xxx00011.dat
+```
+
+But somebody wants to introduce CQRS:
+
+
+```text
+src/
+    // ...
+    Command/
+    CQRS/
+        Command/
+        Query/
+    Bus/
+        CQRSBus.php
+    // ...
+    XML/
+        PO-XML.php
+        proc.inc
+    // ...
+    cunsanct2026_1.rev_1.json
+```
+
+Now, I join the project: 
+
+- Dan! introduce a new feature
+- Me: ok
+- Me: ...
+- Me: there is no good way to do this without making the project worse.
+
+**THERE IS NO WAY TO ADD CODE WITHOUT MAKING THE PROJECT WORSE**
+
+> **THERE IS NO WAY TO ADD CODE WITHOUT MAKING THE PROJECT WORSE**
+
+{{< callout >}}
+**THERE IS NO WAY TO ADD CODE WITHOUT MAKING THE PROJECT WORSE**
+{{</ callout >}}
+
+I would want to introduce code that's easy to maintain, that has tests, that
+separates policy from implementation. But there's no way to do this without
+introducing yet more concepts into the project. **There's no space**. I would
+only be adding noise to the project. The project has no facility to scale. I'm
+blocked in every direction:
+
+- I want to align my code with the codebase.
+- The codebase has no "space" for the code I want to write.
+- It's chaotic.
+
+I kindof appreciate the idea behind the `Infrastructure` and `Domain`
+directories, but I'd need to refactor the existing code to make space for my
+classes and the existing "art" in those directories is far from the code that
+I think it's necessary to write. Everything is covered in dirt.
+
+> Working on new features should always feel like a green field project.
+
+## Modularisation and Packages
+
+The cleanest approach to this problem is to strictly divide your project into
+packages, whereby each new feature would be provided by a package.
+
+The application would essentially be the place that all of these pacakges are
+**plumbed** together (integrated).
+
+In the **extreme** case each package is a separate repository:
+
+```text
+src/
+   // ...
+vendor/
+   acmecorp/
+       newsletter/
+           src/
+           tests/
+           composer.json
+       monitoring/
+           src/
+           tests/
+           composer.json
+```
+
+Note that we not only separate the feature, we also separate the business
+logic from the integration with the framework. We can take this even further
+by further dividing the packages by their dependencies:
+
+```text
+src/
+   // ... <- depends on monitoring
+vendor/
+   acmecorp/
+       monitoring/
+           src/
+           tests/
+           composer.json
+       monitoring-bundle/ (symfony integration)
+           // ...
+           composer.json
+       moniroring-redis/ (redis integration)
+           src/
+              RedisMonitor.php
+           tests/
+           composer.json
+       moniroring-redis-bundle/ (bundle to integrate with the monitoring bundle)
+           // ...
+           composer.json
+```
+
+// DIAGRAM
+
+This is great because:
+
+- There is a **very strong firewall** for each component.
+- The packages are closed for modification but open to extension.
+- CI is local to each component
+
+This is **absolutely terrible** because:
+
+- There's a huge amount of incidental effort involved in creating and
+  maintaining separte repositories.
+- Changes to one package often imply changes to other packages and must be
+  co-ordinated.
+- Upgrades to core dependencies (e.g. the framework) can imply work over
+  several dozen repositories.
+- Upgrading code for major language versions and packages has to be done many
+  times vs. doing it onoce. 
+
+We can improve the maintainence overhead by instead having a monorepository:
+
+```text
+myapp/
+    config/
+    src/
+    tests/
+    composer.json
+package/
+    monitoring/
+        composer.json
+    monitoring-bundle
+        composer.json
+    monitoring-redis/
+        composer.json
+    monitoring-redis-bundle/
+        composer.json
+```
+
+This is technically a good solution, providing you can invest in a **repository
+splitting** strategy:
+
+- Packages are fully decoupled.
+- Changes can be performed atomically within the same repository.
+
+It is however still a **heavy** approach. A less intensive approach would be
+to just use namespaces:
+
+```text
+src/
+   Monitoring/
+       Monitor.php
+       Metric.php
+   MonitoringBundle/
+       Adapter/
+           RedisMonitorAdapter.php
+       MonitoringBundle.php
+```
+
+{{< callout >}}
+One major disadvantage with this apporach is that dependencies cannot be
+controlled effectively without tooling. Wouldn't it be nice if each package
+could declare it's dependencies?
+{{</ callout >}}
+
+Note that there is one common theme:
+
+- Each **concept** has it's own space.
+- Each directory is a **firewall**.
+
+For example, John introduces his sanctions list:
+
+```text
+src/
+    Sanctions/
+        Controller/
+        Entity/
+        classes.php
+        f.sh
+        SancHelp.php
+        sancount2025_new.csv
+    Monitoring/
+    Newsletter/
+```
+
+**John** ~is~ was a **bad person** and ~has~ had made a mess, but **the fire ~is~ was contained** (_editor_: John perished in the fire ~unfortunately~). It will not **offend my eyes** when opening the `src` directory.
+
+Note now how we could break the above scheme:
+
+```text
+src/
+    ValueObject/
+        Sku.php
+    Sanctions/
+    Monitoring/
+    Newsletter/
+    Form/
+       NewsletterForm.php
+    Type/
+       TokenFormType.php
+    classes.php
+    Permission.php
+```
+
+This is a **violation** of the commons by **bandits** and they must be
+stopped. John was a bad person, but he was ~contained~ incinerated. The lunatics have now
+taken over the asylum and it's game over. You lost.
+
+This scenario is unlikely though - _if_ there is **a clear precdent**. People
+follow examples, so the better the initial examples the better your codebase
+will be. If you start with a piece of shit, your project will develop into a
+bigger piece of shit. If you start by emphasing the **separation of concerns**
+people will generally find that useful and fires will be contained.
+
+The next logical step would be to introduce static analysis rules to ensure
+that the architectural rules are respected.
+
+## Directory of concepts
+
+We can call this approach the direcotry of concepts. It's exactly the same as
+the list of packages on [packagist.org](https://packagist.org). Every task
+can be approached with exactly the gravity that it deserves.
+
+But of course these concepts still need to come together somehow.
+
+## My Feature is a Shotgun Blast
+
+## Broken window syndrome
+
+We can imagine the developer(s) that started the project, ah! a new start!
+**this time** it will be different. We'll using **best practices**.
+
+## Code Rot Is Inveitable
+
+Without guardrails **developers** will invevitably make code worse. This is
+normal.
+
+## Firewalls
+
+
+
+## Tradegy of the commons
+
+## Code rot
+
+## The root directory is sacred
+
+No you may not.
+
+## Givin problems the space they deserve
+
+Solve each problem in terms of itself.
+
+
+
+
+
+
+
+
+
+
+
