@@ -81,7 +81,8 @@ simple lumping it in the `Newsletter` entity. Why shouldn't we? Isnt' this
 what DDD wants us to do? Discuss.
 {{</ callout >}}
 
-Some months later and a new developer "needs" to introduce a helper class:
+Some months later and a new developer "needs" to introduce a helper class to
+clean SKUs:
 
 ```text
 src/
@@ -94,7 +95,7 @@ src/
 ```
 
 And then somebody (ahem, John) needs to add a list of sanctioned countries (we can delete
-it after the deployment they say):
+it after the deployment he says):
 
 ```text
 src/
@@ -132,7 +133,7 @@ src/
     sancount2025.csv
     sancount2026.csv
     Policy.php
-    Ghandi.php
+    GHANDI.php
 ```
 
 Over the years they completely forgot about DDD and they also needed to import
@@ -209,11 +210,15 @@ I think it's necessary to write. Everything is covered in dirt.
 
 ## Modularisation and Packages
 
-The cleanest approach to this problem is to strictly divide your project into
-packages, whereby each new feature would be provided by a package.
+The solition to this problem is to strictly divide your project into
+packages, whereby each new "feature" would be provided by a package. There are
+different approaches to this with different trade-offs.
 
-The application would essentially be the place that all of these pacakges are
-**plumbed** together (integrated).
+The application then becmes the the place that all of these pacakges are
+integrated (or **plumbed**) together.
+
+### Remote Packages
+
 
 In the **extreme** case each package is a separate repository:
 
@@ -226,10 +231,12 @@ vendor/
            src/
            tests/
            composer.json
+       newsletter-bundle/
        monitoring/
            src/
            tests/
            composer.json
+       monitoring-bundle/
 ```
 
 Note that we not only separate the feature, we also separate the business
@@ -303,7 +310,7 @@ The bundle packages integrate with the Symfony framework. You could equally
 have "integration" packages for other frameworks and platforms.
 {{</ callout >}}
 
-This is **absolutely terrible** because:
+This is **terrible** because:
 
 - There's a huge amount of incidental effort involved in creating and
   maintaining separte repositories.
@@ -314,6 +321,8 @@ This is **absolutely terrible** because:
   several dozen repositories.
 - Upgrading code for major language versions and packages has to be done many
   times vs. doing it onoce. 
+
+### Monorepository
 
 We can improve the maintainence overhead by instead having a monorepository:
 
@@ -342,6 +351,8 @@ splitting** strategy:
 - Packages can have still have indepent development cycles and their own
   release cadence.
 
+### Namespacing
+
 It is however still a **heavy** approach. A less intensive approach would be
 to just use namespaces:
 
@@ -356,11 +367,23 @@ src/
        MonitoringBundle.php
 ```
 
+Benefits:
+
+- One single autoloader entry.
+- Low barrier for adoption.
+
+Cons:
+
+- Difficult to separate dev dependencies.
+- Easy for pollution to spread.
+
 {{< callout >}}
 One major disadvantage with this apporach is that dependencies cannot be
 controlled effectively without tooling. Wouldn't it be nice if each
 package/namespace could declare its dependencies?
 {{</ callout >}}
+
+## Firewalls
 
 Note that there is one common theme in all of these approaches:
 
@@ -402,15 +425,12 @@ src/
     Permission.php
 ```
 
-This is a **violation** of the commons by **bandits** and they must be
-stopped. John was a bad person, but he was ~contained~ _incinerated_. The lunatics have now
-taken over the asylum and it's game over. You lost.
-
-But don't fear! This scenario is unlikely _if_ there is **a clear precdent**. People
-follow examples, so the better the initial examples the better your codebase
-will be. If you start with a piece of shit, your project will develop into a
-bigger piece of shit. If you start by emphasing the **separation of concerns**
-people will generally find that useful and fires will be contained.
+But don't fear! This scenario is unlikely _if_ there is **a clear precedent**. People
+follow **the weight of convention**, so the better the initial examples the
+better your codebase will be. If you **start with a piece of shit**, your project
+will develop into a **bigger piece of shit**. If you start by emphasing the
+**separation of concerns** people will generally find that useful and fires
+will be contained.
 
 The next logical step would be to introduce static analysis rules to ensure
 that the architectural rules are respected.
@@ -423,13 +443,81 @@ He could have:
 - created a directory that contains such data, e.g. `data/`.
 - create subdirectories in this folder (e.g. `data/sanctions`).
 
-The exact way that the data is organised is not important, what's important is
+The exact way that the data is organised is **not important**, what's important is
 that it **is** organised. Dropping random files in random places should be
 avoided at all costs.
 
-Had John lived, his next problem would be ensuring that his bold
-organisational scheme is adopted by his peers.
+Had John (🪦 R.I.P.) lived, his next problem would have been ensuring that his bold
+organisational scheme was adopted by his peers.
 {{</ callout >}}
+
+## Conways Law
+
+We've seen that convention plays an important part in keeping our code
+organised and providing _space_. Convention is **cultural** - and when we code
+we do so from a cultural perspective. 
+
+When Jane entered the project she did so with her own culture - her experience and
+that of her teachers and peers. When she joined a team she **adapted**
+to the team's culture - this is a two-way exchange, Jane was assimilated by
+the team and her and the team's culture were affected. The team, in turn, is
+part of a wider company culture.
+
+In an **ideal world** all developers in an organisation have the same culture.
+Any work by any developer would be of the same quality and abide by the same
+organisation principles as any other. **More often** each team will have
+people with radically different levels of experience and each team will have
+it's own culture. In the **worst case** each developer will be a silo and **do
+whatever they want** (John - 🪦 R.I.P.).
+
+Depending on the situtuation one approach may be to further divide code by
+team:
+
+```text
+teams/
+    billing/
+       docs/
+       lib/
+           Payment/
+           Invoicing/
+       tests/
+    product/
+       lib/
+           Import/
+           Pdp/
+    john/
+       sanfi_1_2_.inc
+       .
+       empleh
+```
+
+This is especially important if there is **poor communication** between teams.
+This provides the teams autonomy and a clear bounry. They billing team **may
+not** "simply" modify the code of the product team. They can, however, chose,
+within a prescribed limit, do whatever they want in their own "space". Whether
+that be **not** adopting a module system, deciding to use DDD, adopting a rare
+package, using their own coding styles or static analysis rules - in short
+they could have total freedom **without** fucking up the product team.
+
+Such an approach can also be useful for trialling different approaches.
+Experiments from one team can influence other teams.
+
+
+{{% callout %}}
+`CODEOWNERS` files can be used very effectively to ensure that changes to one set
+of files needs approval by a certain group of people.:
+
+```text
+/team/product @product-team
+/team/billing @billing-team
+```
+
+These files are supported by most common source code hosting platforms - [github](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), [gitlab](https://docs.gitlab.com/user/project/codeowners/), [forgeo](https://forgejo.org/docs/latest/user/pull-requests-and-git-flow/#review-requests-and-code-owners), etc.
+{{%/callout%}}
+
+
+
+
 
 ## Directory of concepts
 
@@ -466,3 +554,6 @@ No you may not.
 ## Givin problems the space they deserve
 
 Solve each problem in terms of itself.
+
+----
+
