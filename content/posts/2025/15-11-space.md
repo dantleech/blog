@@ -196,7 +196,8 @@ only be adding noise to the project. The project has no facility to scale. I'm
 blocked in every direction:
 
 - I want to align my code with the codebase.
-- The codebase has no "space" for the code I want to write.
+- But it has no "space" for the code I want to write.
+- It has no _direction_ - i.e. clear and universally adopted precedents.
 - It's chaotic.
 
 I kindof appreciate the idea behind the `Infrastructure` and `Domain`
@@ -257,20 +258,58 @@ vendor/
            composer.json
 ```
 
-// DIAGRAM
+```goat
+                        .-----------.
+                        |   MyApp   |
+                        .-----+-----.
+                              |
+                              v
+                +-------------+-------------+
+                |                           |
+                v                           v
+    .-----------+---------.  .---------------------------.
+    |  monitoring-bundle  |  |  monitoring-redis-bundle  |
+    .----------+----------.  .---------------------------.
+               |                            |
+               v                            v
+       .--------------.           .--------------------.
+       |  monitoring  |           |  monitoring-redis  |
+       .--------------.           .--------------------.
+```
 
 This is great because:
 
 - There is a **very strong firewall** for each component.
 - The packages are closed for modification but open to extension.
-- CI is local to each component
+- The concept of **package stability** can be meaninfully considered.
+- Each component can be developed independently and for its own sake.
+
+{{< callout >}}
+**Package stability**: reducing the reasons that a package should need to change.
+The `montitoring` package here can have interfaces, value objects and policy.
+It will **never** have implementation details. This means that the scope of
+this package is delimited - if the abstraction is, and remains, correct it
+will **never** have to be modified. Code that doesn't change is good!
+
+The **Redis** package however does not have this quality. It is dependent on the
+whims of Redis, or the Redis client that is used. If the Redis implementation
+were in the `monitoring` package we would have to "open" that package to
+modify it each time the Redis implementation changed - raising the major
+version perhaps regardless of the fact that other implementations did not
+change. If we were to implement an "open telemetry" monitoring package,
+then we can do so _without_ changing *monitoring*.
+
+The bundle packages integrate with the Symfony framework. You could equally
+have "integration" packages for other frameworks and platforms.
+{{</ callout >}}
 
 This is **absolutely terrible** because:
 
 - There's a huge amount of incidental effort involved in creating and
   maintaining separte repositories.
-- Changes to one package often imply changes to other packages and must be
-  co-ordinated.
+- Stable packages are an ideal, the reality is that packages, especially in
+  early-stage projects, are unstable and that implies changes across package
+  boundaries that must be time-intensively co-ordinated.
 - Upgrades to core dependencies (e.g. the framework) can imply work over
   several dozen repositories.
 - Upgrading code for major language versions and packages has to be done many
@@ -300,6 +339,8 @@ splitting** strategy:
 
 - Packages are fully decoupled.
 - Changes can be performed atomically within the same repository.
+- Packages can have still have indepent development cycles and their own
+  release cadence.
 
 It is however still a **heavy** approach. A less intensive approach would be
 to just use namespaces:
@@ -317,11 +358,11 @@ src/
 
 {{< callout >}}
 One major disadvantage with this apporach is that dependencies cannot be
-controlled effectively without tooling. Wouldn't it be nice if each package
-could declare it's dependencies?
+controlled effectively without tooling. Wouldn't it be nice if each
+package/namespace could declare its dependencies?
 {{</ callout >}}
 
-Note that there is one common theme:
+Note that there is one common theme in all of these approaches:
 
 - Each **concept** has it's own space.
 - Each directory is a **firewall**.
@@ -341,9 +382,10 @@ src/
     Newsletter/
 ```
 
-**John** ~is~ was a **bad person** and ~has~ had made a mess, but **the fire ~is~ was contained** (_editor_: John perished in the fire ~unfortunately~). It will not **offend my eyes** when opening the `src` directory.
+This is fine - although **John** ~is~ was a **bad person** and ~has~ had made a mess, but **the fire 🔥 ~is~ was contained** (_editor_: John perished in the fire ~unfortunately~). Mess from one namespace does not spread to the other namespaces.
 
-Note now how we could break the above scheme:
+Of course, without tooling in place to prevent it, nothing would prevent our
+firewalls from rotting:
 
 ```text
 src/
@@ -361,10 +403,10 @@ src/
 ```
 
 This is a **violation** of the commons by **bandits** and they must be
-stopped. John was a bad person, but he was ~contained~ incinerated. The lunatics have now
+stopped. John was a bad person, but he was ~contained~ _incinerated_. The lunatics have now
 taken over the asylum and it's game over. You lost.
 
-This scenario is unlikely though - _if_ there is **a clear precdent**. People
+But don't fear! This scenario is unlikely _if_ there is **a clear precdent**. People
 follow examples, so the better the initial examples the better your codebase
 will be. If you start with a piece of shit, your project will develop into a
 bigger piece of shit. If you start by emphasing the **separation of concerns**
@@ -372,6 +414,22 @@ people will generally find that useful and fires will be contained.
 
 The next logical step would be to introduce static analysis rules to ensure
 that the architectural rules are respected.
+
+{{< callout >}}
+What should **John** have done with his random CSV files? We can argue if the file
+should've been in the repository at all, but let's assume it was unavoidable.
+He could have:
+
+- created a directory that contains such data, e.g. `data/`.
+- create subdirectories in this folder (e.g. `data/sanctions`).
+
+The exact way that the data is organised is not important, what's important is
+that it **is** organised. Dropping random files in random places should be
+avoided at all costs.
+
+Had John lived, his next problem would be ensuring that his bold
+organisational scheme is adopted by his peers.
+{{</ callout >}}
 
 ## Directory of concepts
 
@@ -408,14 +466,3 @@ No you may not.
 ## Givin problems the space they deserve
 
 Solve each problem in terms of itself.
-
-
-
-
-
-
-
-
-
-
-
