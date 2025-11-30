@@ -7,14 +7,8 @@ toc: true
 draft: true
 ---
 
-Space - the lack of space. That is what this blog post is about. The evolution
-of a legacy code base.
-
-The majority of code bases I approach are architected in the way that is
-recommended by frameworks, whether it be Symfony, Larvel, or whatever. They
-recommend an approach that makes it easy to get started.
-
-This approach is generally:
+Many projects I see are organised in a way advocated by the frameworks they
+use. This approach is generally:
 
 ```text
 src/
@@ -28,12 +22,10 @@ src/
         Order.php
 ```
 
-This _is_ a good way to get started. Right!? You have a command, put it in the
-`Command` directory. You have a Doctirne Entity, put it in the `Entity`
-folder. Easy!
-
-It's a good way to get started, the problem with this approach is that it's
-not a good way once you have more than a trivial number of concepts.
+This _is_ a good way to get started. **Right!?** You have a command, put it in the
+`Command` directory. You have a Doctrine Entity, put it in the `Entity`
+folder. Easy! The problem with this approach is that it's not a good way once
+you have more than a trivial number of concepts.
 
 Let's introduce a `Newsletter` to our app using this arbitrary collection of
 objects:
@@ -75,12 +67,6 @@ src/
     Entity/
 ```
 
-{{< callout >}}
-We're being generous by placing `TokenReplacer` in it's own class and not
-simple lumping it in the `Newsletter` entity. Why shouldn't we? Isnt' this
-what DDD wants us to do? Discuss.
-{{</ callout >}}
-
 Some months later and a new developer "needs" to introduce a helper class to
 clean SKUs:
 
@@ -110,9 +96,7 @@ src/
 ```
 
 A new developer joins and has to integrate monitoring into the platform, they
-believe they used DDD in their last job, and, after discussing with the team,
-they decide to implement a DDD approach going forward, and agree to clear up
-the other code later:
+believe they used DDD in their last job and are looking for a promtion:
 
 ```text
 src/
@@ -136,8 +120,8 @@ src/
     GHANDI.php
 ```
 
-Over the years they completely forgot about DDD and they also needed to import
-various things:
+The DDD developer left for a higher-paying job and nobody else knew or cared about DDD but they did need to add
+lots of importers:
 
 ```text
 src/
@@ -155,7 +139,7 @@ src/
 xxx00011.dat
 ```
 
-But somebody wants to introduce CQRS:
+Now somebody wants to add CQRS:
 
 
 ```text
@@ -173,6 +157,57 @@ src/
         proc.inc
     // ...
     cunsanct2026_1.rev_1.json
+```
+
+Let's look at this project now:
+
+```text
+src/
+    Entity/
+        Order.php
+        Newsletter.php
+    Controller/
+        SubscriptionListCnotroller.php
+        PlaceOrderController.php
+        StatusController.php
+        DHLSyncController.php
+        EasyJetFlyerController.php
+        AcceleronPromtions.php
+    Classes/
+        PDF.php
+    CQRS/
+        Command/
+        Query/
+    Bus/
+        CQRSBus.php
+    Infrastructure/
+        Controller
+            StatusController.php
+        Monitoring/
+            RedisMonitor.php
+    Newsletter/
+        TokenReplacer.php
+    Domain/
+        Monitring/
+            Monitor.php
+    Form/
+        EditNewsletterForm.php
+        SubmitCartForm.php
+        CreateNewsletterForm.php
+    Command/
+        SendNewsletterCommand.php
+    XML/
+        PO-XML.php
+        proc.inc
+    sancount2025.csv
+    sancount2026.csv
+    Policy.php
+    SkuHelper.php
+    GHANDI.php
+    __IDE.tmp
+xxx00011.dat
+CONTRIBUTING.md
+README.md
 ```
 
 Now, I join the project: 
