@@ -159,46 +159,21 @@ src/
     cunsanct2026_1.rev_1.json
 ```
 
-Let's look at this project now:
+Let's look at the leaves of the `src` directory:
 
 ```text
 src/
     Entity/
-        Order.php
-        Newsletter.php
     Controller/
-        SubscriptionListCnotroller.php
-        PlaceOrderController.php
-        StatusController.php
-        DHLSyncController.php
-        EasyJetFlyerController.php
-        AcceleronPromtions.php
     Classes/
-        PDF.php
     CQRS/
-        Command/
-        Query/
     Bus/
-        CQRSBus.php
     Infrastructure/
-        Controller
-            StatusController.php
-        Monitoring/
-            RedisMonitor.php
     Newsletter/
-        TokenReplacer.php
     Domain/
-        Monitring/
-            Monitor.php
     Form/
-        EditNewsletterForm.php
-        SubmitCartForm.php
-        CreateNewsletterForm.php
     Command/
-        SendNewsletterCommand.php
     XML/
-        PO-XML.php
-        proc.inc
     sancount2025.csv
     sancount2026.csv
     Policy.php
@@ -210,142 +185,99 @@ CONTRIBUTING.md
 README.md
 ```
 
-Now, I join the project: 
+Is it starting to look familiar?
 
-- Dan! introduce a new feature
-- Me: ok
-- Me: ...
-- Me: there is no good way to do this without making the project worse.
+- Features are spread out like a **shotgun blast**.
+- [Windows have been smashed](https://en.wikipedia.org/wiki/Broken_windows_theory) and not repaired.
+- There is a clear lack of an organisational principle.
 
-**THERE IS NO WAY TO ADD CODE WITHOUT MAKING THE PROJECT WORSE**
+It's easy to look at this code and assume that everybody that worked on it
+were **awful** developers but this is not entirely fair. Every developer that
+joins this project has to answer the question: **WHERE DO I PUT MY STUFF**.
 
-> **THERE IS NO WAY TO ADD CODE WITHOUT MAKING THE PROJECT WORSE**
+Because it's not easy! You have three options:
 
-{{< callout >}}
-**THERE IS NO WAY TO ADD CODE WITHOUT MAKING THE PROJECT WORSE**
-{{</ callout >}}
+- Splatter your stuff all over the place.
+- Introduce a new standard (hello DDD guy).
+- Refactor the entire codebase to abide by a single organisational principle
+  before starting your task.
 
-I would want to introduce code that's easy to maintain, that has tests, that
-separates policy from implementation. But there's no way to do this without
-introducing yet more concepts into the project. **There's no space**. I would
-only be adding noise to the project. The project has no facility to scale. I'm
-blocked in every direction:
+The last option is the best option - but it's also the most time consuming and
+politically risky - one does not simply refactor the entire codebase.
 
-- I want to align my code with the codebase.
-- But it has no "space" for the code I want to write.
-- It has no _direction_ - i.e. clear and universally adopted precedents.
-- It's chaotic.
+But what's wrong with the **splatter**?
 
-I kindof appreciate the idea behind the `Infrastructure` and `Domain`
-directories, but I'd need to refactor the existing code to make space for my
-classes and the existing "art" in those directories is far from the code that
-I think it's necessary to write. Everything is covered in dirt.
+- Incidental coupling.
+- Lack of conceptual cohesiveness.
+- Conceptual contamination.
+- Problems are not solved in relation to themselves but as part of a [big ball
+  of mud](https://en.wikipedia.org/wiki/Spaghetti_code#big-ball-o-mud).
 
-> Working on new features should always feel like a green field project.
+## Rot
 
-## Modularisation and Packages
+Codebases **rot** - this rot doesn't happen with the passage of
+time but with the passage of changes that are affected upon it. Every
+developer introduces an amount of disorder with every change. This is
+**innevitable** despite the best intentions of the participants.
 
-The solition to this problem is to strictly divide your project into
-packages, whereby each new "feature" would be provided by a package. There are
-different approaches to this with different trade-offs.
+This isn't to say that some level of disorder is bad - having an amount of
+diversity is good. Evolution doesn't happen by resting with the status quo
+having competing ideas can be good.
 
-The application then becmes the the place that all of these pacakges are
-integrated (or **plumbed**) together.
+If we accept that disorder is inherent in a codebase, what can we do to
+prevent it?
 
-### Remote Packages
+## Firewalls
 
+[Firewalls](https://en.wikipedia.org/wiki/Firewall_(construction)) prevent
+fire from spreading from one part of a building to another. **Packages are
+strong firewalls for rot**.
 
-In the **extreme** case each package is a separate repository:
+But what _is_ a package? I would define it as a collection of code with clear
+conceptual boundaries, internal cohesion and singular purpose. They are most
+commonly recognised as distributable libraries and at best abide by the SOLID
+principles. Packages can measure their _stability_ by counting the number of
+reasons they need to change - each dependency that a package has is a
+reason reason to change - if a package needs to change often then it is
+unstable.
+
+Source code has  a fractal of organisation units:
+
+- Method and functions
+- Classes
+- Namespaces
+- Packages
+- Projects
+
+Packages provide the strongest **firewall**. Try as you may, you will find it
+difficult to
+[enshittify](https://en.wiktionary.org/wiki/enshittification#English) packages
+in your vendor directory:
+
+- These packages usually have a dedicated purpose.
+- They are usually open to extension.
+- They are naturally closed to modification.
+- They should specify precisely any dependencies they have.
+- You do not control them and thus you cannot change them.
+
+They are **well protected** from the chaos of your project. So it may be
+tempting to reorganise your code into distributable packages that are clearly
+owned and safe from contaminiation.
+
+## Death by Package
+
+So perhaps we should create sourcode repositories for our concerns:
 
 ```text
-src/
-   // ...
-vendor/
-   acmecorp/
-       newsletter/
-           src/
-           tests/
-           composer.json
-       newsletter-bundle/
-       monitoring/
-           src/
-           tests/
-           composer.json
-       monitoring-bundle/
+acmecorp/newsletter
+acmecorp/newsletter-bundle/
+acmecorp/monitoring/
+acmecorp/sanctions/
+// 100 other repositories.
 ```
 
-Note that we not only separate the feature, we also separate the business
-logic from the integration with the framework. We can take this even further
-by further dividing the packages by their dependencies:
-
-```text
-src/
-   // ... <- depends on monitoring
-vendor/
-   acmecorp/
-       monitoring/
-           src/
-           tests/
-           composer.json
-       monitoring-bundle/ (symfony integration)
-           // ...
-           composer.json
-       moniroring-redis/ (redis integration)
-           src/
-              RedisMonitor.php
-           tests/
-           composer.json
-       moniroring-redis-bundle/ (bundle to integrate with the monitoring bundle)
-           // ...
-           composer.json
-```
-
-```goat
-                        .-----------.
-                        |   MyApp   |
-                        .-----+-----.
-                              |
-                              v
-                +-------------+-------------+
-                |                           |
-                v                           v
-    .-----------+---------.  .---------------------------.
-    |  monitoring-bundle  |  |  monitoring-redis-bundle  |
-    .----------+----------.  .---------------------------.
-               |                            |
-               v                            v
-       .--------------.           .--------------------.
-       |  monitoring  |           |  monitoring-redis  |
-       .--------------.           .--------------------.
-```
-
-This is great because:
-
-- There is a **very strong firewall** for each component.
-- The packages are closed for modification but open to extension.
-- The concept of **package stability** can be meaninfully considered.
-- Each component can be developed independently and for its own sake.
-
-{{< callout >}}
-**Package stability**: reducing the reasons that a package should need to change.
-The `montitoring` package here can have interfaces, value objects and policy.
-It will **never** have implementation details. This means that the scope of
-this package is delimited - if the abstraction is, and remains, correct it
-will **never** have to be modified. Code that doesn't change is good!
-
-The **Redis** package however does not have this quality. It is dependent on the
-whims of Redis, or the Redis client that is used. If the Redis implementation
-were in the `monitoring` package we would have to "open" that package to
-modify it each time the Redis implementation changed - raising the major
-version perhaps regardless of the fact that other implementations did not
-change. If we were to implement an "open telemetry" monitoring package,
-then we can do so _without_ changing *monitoring*.
-
-The bundle packages integrate with the Symfony framework. You could equally
-have "integration" packages for other frameworks and platforms.
-{{</ callout >}}
-
-This is **terrible** because:
+Our main project is now only responsible for **plumbing** these packages
+together. This is however almost certainly goint to be a **terrible** idea:
 
 - There's a huge amount of incidental effort involved in creating and
   maintaining separte repositories.
@@ -357,238 +289,99 @@ This is **terrible** because:
 - Upgrading code for major language versions and packages has to be done many
   times vs. doing it onoce. 
 
-### Monorepository
+Basically - they solve one problem while creating many others and the you will
+not like the result.
 
-We can improve the maintainence overhead by instead having a monorepository:
+## So what then?
 
-```text
-myapp/
-    config/
-    src/
-    tests/
-    composer.json
-package/
-    monitoring/
-        composer.json
-    monitoring-bundle
-        composer.json
-    monitoring-redis/
-        composer.json
-    monitoring-redis-bundle/
-        composer.json
-```
+### Divide your project by topic
 
-This is technically a good solution, providing you can invest in a **repository
-splitting** strategy:
-
-- Packages are fully decoupled.
-- Changes can be performed atomically within the same repository.
-- Packages can have still have indepent development cycles and their own
-  release cadence.
-
-### Namespacing
-
-It is however still a **heavy** approach. A less intensive approach would be
-to just use namespaces:
+I don't even care if you have a `Core` directory to start with:
 
 ```text
 src/
-   Monitoring/
-       Monitor.php
-       Metric.php
-   MonitoringBundle/
-       Adapter/
-           RedisMonitorAdapter.php
-       MonitoringBundle.php
-```
-
-Benefits:
-
-- One single autoloader entry.
-- Low barrier for adoption.
-
-Cons:
-
-- Difficult to separate dev dependencies.
-- Easy for pollution to spread.
-
-{{< callout >}}
-One major disadvantage with this apporach is that dependencies cannot be
-controlled effectively without tooling. Wouldn't it be nice if each
-package/namespace could declare its dependencies?
-{{</ callout >}}
-
-## Firewalls
-
-Note that there is one common theme in all of these approaches:
-
-- Each **concept** has it's own space.
-- Each directory is a **firewall**.
-
-For example, John introduces his sanctions list:
-
-```text
-src/
-    Sanctions/
+    Core/
         Controller/
+        Foobar/
         Entity/
-        classes.php
-        f.sh
-        SancHelp.php
-        sancount2025_new.csv
-    Monitoring/
-    Newsletter/
 ```
 
-This is fine - although **John** ~is~ was a **bad person** and ~has~ had made a mess, but **the fire 🔥 ~is~ was contained** (_editor_: John perished in the fire ~unfortunately~). Mess from one namespace does not spread to the other namespaces.
-
-Of course, without tooling in place to prevent it, nothing would prevent our
-firewalls from rotting:
+When the newsletter feature comes in we know where to put it:
 
 ```text
 src/
-    ValueObject/
-        Sku.php
-    Sanctions/
-    Monitoring/
+    Core/
+        Controller/
     Newsletter/
-    Form/
-       NewsletterForm.php
-    Type/
-       TokenFormType.php
-    classes.php
-    Permission.php
+        Controller/
 ```
 
-But don't fear! This scenario is unlikely _if_ there is **a clear precedent**. People
-follow **the weight of convention**, so the better the initial examples the
-better your codebase will be. If you **start with a piece of shit**, your project
-will develop into a **bigger piece of shit**. If you start by emphasing the
-**separation of concerns** people will generally find that useful and fires
-will be contained.
+And monitoring just fits right in there:
 
-The next logical step would be to introduce static analysis rules to ensure
-that the architectural rules are respected.
+```text
+src/
+    Core/
+    Newsletter/
+    Monitoring/
+```
+
+The contents of these topical directories may not be perfect and never will
+be, but they can _improve_. The most important thing is that the top level
+`src` directory is **sacred** and should contain top-level concepts. The
+topical directories are **firewalls**.
+
+When I join a project and am asked to introduce an Invocing system and I can
+just get right in there and create:
+
+```text
+src/
+    Core/
+    Newsletter/
+    Monitoring/
+    Invoicing/
+```
+
+**John** can still make a mess of the `Sanctions` topic:
+
+```text
+src/
+   // ...
+   Sanctions/
+      GHANDI.inc
+      sanc2005.csv`
+```
+
+But it only serves of an example of what _not_ to do without necessarily
+adversely affecting the other topics.
 
 {{< callout >}}
-What should **John** have done with his random CSV files? We can argue if the file
-should've been in the repository at all, but let's assume it was unavoidable.
-He could have:
-
-- created a directory that contains such data, e.g. `data/`.
-- create subdirectories in this folder (e.g. `data/sanctions`).
-
-The exact way that the data is organised is **not important**, what's important is
-that it **is** organised. Dropping random files in random places should be
-avoided at all costs.
-
-Had John (🪦 R.I.P.) lived, his next problem would have been ensuring that his bold
-organisational scheme was adopted by his peers.
+Even if you start in confusion and put everything in an arbitrary namesapce
+(`Core` in this example) over time it will become clear what else _deserves_
+it's own topic and indeed you may discover that things you put in the `Core`
+topic can be neatly and satisfyingly extracted to a top-level topic.
 {{</ callout >}}
 
-## Conways Law
+## Summary
 
-We've seen that convention plays an important part in keeping our code
-organised and providing _space_. Convention is **cultural** - and when we code
-we do so from a cultural perspective. 
+I could write about the various ways of further organising a project -
+separating the _model_ (or domain) from the _implementation_ for example is something a
+value highly - but the impact of that is **far** less than the impact of
+just providing a simple organisation structure centered around topics.
 
-When Jane entered the project she did so with her own culture - her experience and
-that of her teachers and peers. When she joined a team she **adapted**
-to the team's culture - this is a two-way exchange, Jane was assimilated by
-the team and her and the team's culture were affected. The team, in turn, is
-part of a wider company culture.
+It wouldn't matter _hugely_ if the DDD developer implemented DDD inside the
+`Invoicing` topic. It could serve as a good example for other topics or it
+could be a lessonon learnt in over-engineering.
 
-In an **ideal world** all developers in an organisation have the same culture.
-Any work by any developer would be of the same quality and abide by the same
-organisation principles as any other. **More often** each team will have
-people with radically different levels of experience and each team will have
-it's own culture. In the **worst case** each developer will be a silo and **do
-whatever they want** (John - 🪦 R.I.P.).
+## But DDD?
 
-Depending on the situtuation one approach may be to further divide code by
-team:
+Domain Driven Design is a fantastic body of knowledge about best practices in
+software design. And of course what I'm here calling "topics" relate directly
+to the concept of domain _boundaries_ in DDD. But I also think that developers
+have a tendency to get carried away. What "level" of DDD is appropriate? What
+about hexagonal architecture? CQRS? Should you use BDD? What should the ratio
+of unit to integration tests be? Should you have 100% test coverage?
 
-```text
-teams/
-    billing/
-       docs/
-       lib/
-           Payment/
-           Invoicing/
-       tests/
-    product/
-       lib/
-           Import/
-           Pdp/
-    john/
-       sanfi_1_2_.inc
-       .
-       empleh
-```
-
-This is especially important if there is **poor communication** between teams.
-This provides the teams autonomy and a clear bounry. They billing team **may
-not** "simply" modify the code of the product team. They can, however, chose,
-within a prescribed limit, do whatever they want in their own "space". Whether
-that be **not** adopting a module system, deciding to use DDD, adopting a rare
-package, using their own coding styles or static analysis rules - in short
-they could have total freedom **without** fucking up the product team.
-
-Such an approach can also be useful for trialling different approaches.
-Experiments from one team can influence other teams.
-
-
-{{% callout %}}
-`CODEOWNERS` files can be used very effectively to ensure that changes to one set
-of files needs approval by a certain group of people.:
-
-```text
-/team/product @product-team
-/team/billing @billing-team
-```
-
-These files are supported by most common source code hosting platforms - [github](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), [gitlab](https://docs.gitlab.com/user/project/codeowners/), [forgeo](https://forgejo.org/docs/latest/user/pull-requests-and-git-flow/#review-requests-and-code-owners), etc.
-{{%/callout%}}
-
-
-
-
-
-## Directory of concepts
-
-We can call this approach the direcotry of concepts. It's exactly the same as
-the list of packages on [packagist.org](https://packagist.org). Every task
-can be approached with exactly the gravity that it deserves.
-
-But of course these concepts still need to come together somehow.
-
-## My Feature is a Shotgun Blast
-
-## Broken window syndrome
-
-We can imagine the developer(s) that started the project, ah! a new start!
-**this time** it will be different. We'll using **best practices**.
-
-## Code Rot Is Inveitable
-
-Without guardrails **developers** will invevitably make code worse. This is
-normal.
-
-## Firewalls
-
-
-
-## Tradegy of the commons
-
-## Code rot
-
-## The root directory is sacred
-
-No you may not.
-
-## Givin problems the space they deserve
-
-Solve each problem in terms of itself.
-
-----
-
+Sometimes it's easy to get lost in the forest and lose sight of what matters:
+delivering appropriate, working, software. There is no single "best" way to
+organise a project as each project has a uniuqe set of problems to solve but
+every productive projects have **space** for modelling new concepts.
