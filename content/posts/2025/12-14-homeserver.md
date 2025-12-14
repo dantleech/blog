@@ -374,7 +374,7 @@ had this setup on the Rasberry Pi 5.
 
 The NixOS wiki describes three different ways of setting up home assistant, I
 chose the "declarative" way. It **seems** (?) that you can't setup devices
-however and I needed to add those manually.
+however and I needed to add those manually[^manually].
 
 I had to configure the `x_forwarded_for` setting to allow it to work behind
 the reverse proxy:
@@ -520,3 +520,7 @@ services but this was the worst of it. **MY RASBERRY PIS ARE FREE**.
     [here](http://www.hietala.org/multi-room-audio-with-mpd-and-snapcast.html)
     but now I'll maybe use Music Assistant - in anycase Snapcast will be used
     as detailed in this post.
+
+[^manually]: adding devices in HomeAssistant manually made me sad. Having an
+    index of which devices are assigned to which IP address would already be
+    useful. Maybe it's possible? Send me a letter and let me know.
