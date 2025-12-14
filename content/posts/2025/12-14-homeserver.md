@@ -332,6 +332,11 @@ able to piece it together from the [configuration docs](https://search.nixos.org
     openFirewallDNS = true;
     openFirewallDHCP = false;
     useDnsmasqConfig = true;
+    lists = [
+      {
+        url = "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts";
+      }
+    ];
     settings = {
       dns = {
         upstreams = [
@@ -431,7 +436,7 @@ In order for the voice assistant to understand and respond to voice commands
 I'm using _whisper_ and _piper_ respectively:
 
 ```nix
-{p
+{
   services.wyoming.faster-whisper.servers.assist = {
     enable = true;
 
