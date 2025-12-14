@@ -229,6 +229,7 @@ are open. I had to open the Syncthing ports:
 ```nix
 {
   networking.firewall.allowedTCPPorts = [
+    80 443
     8384 22000
   ];
   networking.firewall.allowedUDPPorts = [
@@ -278,7 +279,7 @@ Setting up a reverse proxy would normally fill me with **fear** and
 ```
 
 {{< callout "info" >}}
-Because `.local` is a valid TLD Caddy can generate an SSL certificate for these domains.
+Because `.local` is a [valid TLD](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains) Caddy can generate an SSL certificate for these domains.
 I don't know why I want that on a local network, but hey, it's free.
 {{</ callout >}}
 
@@ -304,11 +305,12 @@ Jellyfin is a media server, I have a client on my "smart" TV and it's good:
 
 ## Pihole
 
-The Pihole is ostebsibly an ad-blocking DNS server. When your computer
-requests `https://myadcompany.com/trackme` the Pihole will simply not
-translate the domain name to an IP address. This is great but as a DNS server
-it also means we can register **custom DNS records for the local network** and
-now we can do that in configuration.
+The Pihole is ostebsibly an ad-blocking DNS server what you configure your
+router to point at. When your computer requests
+`https://myadcompany.com/trackme` the Pihole will simply not translate the
+domain name to an IP address. This is great but as a DNS server it also means
+we can register **custom DNS records for the local network** and now we can do
+that in configuration.
 
 There was no NixOS wiki page for configuring the Pihole but I was
 able to piece it together from the [configuration docs](https://search.nixos.org/options?channel=unstable&query=services.pihole):
