@@ -113,7 +113,7 @@ configuration**.
 {{< callout >}}
 This is far more than "dotfile" management. The entire state of the system is
 represented in configuration and after applying a configuration you're able to
-boot into any previously applied configuration at boot time.
+boot into any previously applied configuration.
 {{</ callout >}}
 
 I now use a single repository to manage the configuration for all of my
