@@ -7,6 +7,12 @@ image: /images/2025-12-14/gigabyte.png
 draft: false
 ---
 
+_This article describes roughly how I configured a Mini PC as a NixOS
+homeserver hosting [Pihole](https://pi-hole.net/), [Syncthing](https://syncthing.net/), [Jellyfin](https://jellyfin.org/), [Home Assistant](https://www.home-assistant.io/) and [Music
+Assistant](https://www.music-assistant.io/)_
+
+## History
+
 I've been running a mess of services within my home network:
 
 - **Rasberry Pi 4**:
@@ -14,6 +20,7 @@ I've been running a mess of services within my home network:
   - MPD (Music Player Daemon)
   - Jellyfin (Media Server)
   - Syncthing (File synchronization service)
+  - Music Assistant (another music server)
 - **Rasberry Pi 5**:
   - Home assistant (Controls and monitors the flat)
   - Faster Whisper (Open AI's voice recognition service, used by HA)
@@ -30,19 +37,7 @@ In addition some notable pieces of hardware:
 - Unifi Express (smart router which also provides an internet facing VPN)
 - Nabu Casa Voice Assistant (voice control for home assistant)
 
-The pihole provides local DNS:
-
-```text
-192.168.1.117 pi4.hole
-192.168.1.1 gateway.home
-192.168.1.112 pi5.home
-192.168.1.112 ha.home
-192.168.1.140 nas.home
-192.168.1.140 links.home
-192.168.1.140 jellyfin.home
-```
-
-The problems are:
+The first-world problems are:
 
 - My **voice assistant** is very dumb asd the Rasberry Pi5 can only run the least
   intensive model.
@@ -66,14 +61,10 @@ act as streaming clients for dumb speakers.
 
 ## Mini PC
 
-It's clear that the Rasberry PIs are not cutting the mustard properly. But it
-must be said that the Rasberry PI 4 has been running almost continuously for
-maybe **six years** (I think I upgraded the O/S twice in that time).
-
-The **silence** and low power consumption of these devices is important to me,
-but while the Pi 4 works perfectly for running Pihole and MPD it is not a 
-solution for running Jellyfin, so I needed something more - and if I'm getting
-something more then it may as well run **all the things**.
+My Rasberry PI 4 has been running silently and almost continuously for
+maybe **six years** and it's
+been perfect for MPD and Pihole, but Jellyfin and Music Assistant push it over
+the edge.
 
 I considered splurging on a high-power Mini PC, but that would mean that it
 would be capable of playing games and maybe even running a local LLM, but as
@@ -102,8 +93,8 @@ Memory: 4086MiB / 31936MiB
 
 Deciding to go with something more modest I visited my local [CEX](https://en.wikipedia.org/wiki/CeX_(retailer)) store (second
 hand devices) and was initially going to purchase an Intel NUC device until I
-noticed that it didn't have a headphone/mic jack, so I purchased a cheaper one
-that did, a Gigabit i5. It came with 8 gigabytes of RAM but I happened to have
+noticed that it didn't have a **headphone/mic** jack, so I purchased a cheaper one
+for £180 that did, a Gigabit i5. It came with 8 gigabytes of RAM but I happened to have
 a couple of 16GB sticks of DDR4 RAM lying about:
 
 ![current "rack"](/images/2025-12-14/gigabyte.png)
@@ -394,7 +385,7 @@ by default. The [wiki](https://wiki.nixos.org/wiki/Home_Assistant#First_start)
 isn't very clear on this and it took me a while to figure out how to enable
 the modules.
 
-It's necessary to monitor the logs and look for the `ModuleNotFoundError: No module named '<module name'` errors and then
+It's necessary to monitor the logs and look for the `ModuleNotFoundError: No module named '<module name>'` errors and then
 (😱) grep the [components-packages.nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/servers/home-assistant/component-packages.nix)
 file to find out which modules to add and then (and this information is the missing
 on the wiki) add `extraComponents` in the config:
