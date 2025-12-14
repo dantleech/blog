@@ -40,13 +40,13 @@ In addition some notable pieces of hardware:
 
 The first-world problems are:
 
-- My **voice assistant** is very dumb asd the Rasberry Pi5 can only run the least
+- My **voice assistant** is very dumb and the Rasberry Pi5 can only run the least
   intensive model.
 - The Pi 4 can stream videos just fine, but it's not powerful enough to
   **transcode subtitles** (?).
 - I can't **stream music** to different rooms in the flat.
 - There's **no reverse proxy** so I access all the services via. their ports (e.g.
-  `ha.home:8123`
+  `ha.home:8123`).
 - Although the NAS can run **containers**, it's not significantly more capable (if
   at all) than the Rasberry PIs.
 
