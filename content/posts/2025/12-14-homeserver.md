@@ -2,25 +2,28 @@
 title: Home Server
 categories: [programming,php]
 date: 2025-12-14
-toc: false
-#image: /images/2024-12-28/cdto.png
-draft: true
+toc: true
+image: /images/2025-12-14/gigabyte.png
+draft: false
 ---
 
 I've been running a mess of services within my home network:
 
-- Rasberry Pi 4:
+- **Rasberry Pi 4**:
   - Pihole (ad blocker and local DNS)
   - MPD (Music Player Daemon)
   - Jellyfin (Media Server)
   - Syncthing (File synchronization service)
-- Rasberry Pi 5:
+- **Rasberry Pi 5**:
   - Home assistant (Controls and monitors the flat)
   - Faster Whisper (Open AI's voice recognition service, used by HA)
   - Piper (text to voice service)
-- Synology Diskstation (NAS): 
+- **Synology Diskstation (NAS)**: 
   - Syncthing (the "master" synchronization service)
   - Linkling (a web bookmark manager)
+
+![current "rack"](/images/2025-12-14/rack.png)
+*My sophisticated stack*
 
 In addition some notable pieces of hardware:
 
@@ -29,7 +32,7 @@ In addition some notable pieces of hardware:
 
 The pihole provides local DNS:
 
-```
+```text
 192.168.1.117 pi4.hole
 192.168.1.1 gateway.home
 192.168.1.112 pi5.home
@@ -48,14 +51,14 @@ The problems are:
 - I can't **stream music** to different rooms in the flat.
 - There's **no reverse proxy** so I access all the services via. their ports (e.g.
   `ha.home:8123`
-- Although the NAS can run containers, it's not significantly more capable (if
+- Although the NAS can run **containers**, it's not significantly more capable (if
   at all) than the Rasberry PIs.
 
-And finally, and worst of all, **I have no idea how any of it works**. I've
-edited and created configuration files which I've since forgotten about and
-when there's a power cut I need to manually remember how to restart some
-services (were they dockerised? running in a tmux session? do they need to be
-kicked?).
+And finally, and worst of all, **I have no idea how any of it works**:
+
+- There may or may not be configuration files that I edtied.
+- I don't know which services run on which devices. 
+- Some of the services need to be started _manually_ if there's a powercut.
 
 So I've decided to iterate on the whole thing and install **everything with
 NixOS in a Mini PC**. I'll probably then repurpose one or both of the Pis to
@@ -77,14 +80,34 @@ would be capable of playing games and maybe even running a local LLM, but as
 I don't have a gaming device there's a high chance I'd start playing games no
 my "home server" which probably isn't a good idea.
 
-Deciding to go with something more modest I visited my local CEX store (second
+```text
+$ neofetch
+daniel@gigabyte
+---------------
+OS: NixOS 25.11.20251130.d542db7 (Xantusia) x86_64
+Host: GIGABYTE MCMLUEB-00
+Kernel: 6.12.59
+Uptime: 42 mins
+Packages: 1025 (nix-system), 1848 (nix-user)
+Shell: zsh 5.9
+Resolution: 3840x2160
+DE: sway
+WM: Mutter
+WM Theme: Adwaita
+Terminal: /dev/pts/0
+CPU: Intel i5-10210U (8) @ 4.200GHz
+GPU: Intel CometLake-U GT2 [UHD Graphics]
+Memory: 4086MiB / 31936MiB
+```
+
+Deciding to go with something more modest I visited my local [CEX](https://en.wikipedia.org/wiki/CeX_(retailer)) store (second
 hand devices) and was initially going to purchase an Intel NUC device until I
 noticed that it didn't have a headphone/mic jack, so I purchased a cheaper one
-that did, a Gigabit i5.
+that did, a Gigabit i5. It came with 8 gigabytes of RAM but I happened to have
+a couple of 16GB sticks of DDR4 RAM lying about:
 
-It initially came with 8GB of ram, and I noticed that Jellyfin and Whisper
-were taking abut half of that between them. Fortunately I had two 16GB sticks
-of DDR4 RAM left since I upgraded my laptop.
+![current "rack"](/images/2025-12-14/gigabyte.png)
+*The "Gigabyte" Mini PC*
 
 ## Operating System
 
@@ -92,12 +115,12 @@ NixOS is an operating system that is built 100% declarative configuration.
 There are no `apt-get install package1 package2`, no `vim
 .config/mpd/server.conf`, no blind fucking around. You edit configuration
 files and you rebuild the system and then you put the configuration files in
-version control. Which is good, because over the past 20 years I have a lot of
-custom configuration and it used to take months of progressive tinkering for a
-new laptop to be "restored" to the state I'd want it to be in. I now use a
-single repository to manage the configuration for all of my laptops and it
-typically takes about an hour to "onboard" a new laptop after which the system
-is essentially indistinguishable from the other laptops.
+version control. Which is good, because **I have a lot of
+custom configuration**. 
+
+I now use a single repository to manage the configuration for all of my
+laptops and it typically takes about an hour to "onboard" a new laptop after
+which the system is essentially indistinguishable from the other laptops.
 
 ## Installation
 
@@ -113,7 +136,7 @@ method is as follows:
   `firefox`).
 - Run `nixos-rebuild switch`
 - Reboot
-- `git clone git@github.com:dantleech/mynixossystem` (the repository
+- `git clone git@github.com:dantleech/mynixossystem` (the private repository
   containing my configurations).
 - Create a new folder for the host (I have one directory per host).
 - Copy the `/etc/nixos/configuration.nix` and
@@ -131,13 +154,11 @@ servers.
 At this point I was able to disconnect the keyboard and move the Mini PC to
 the corner of the room and continue to configure it headlessly over SSH.
 
-## Debugging
+{{< callout "info" >}}
+Although some things work first time, watching the logs with `jounalctl -f`
+was very helpful today.
+{{</ callout >}}
 
-Sometimes things don't work and you need to look at the logs:
-
-```
-jounalctl -f
-```
 
 ## Disable Sleeping
 
@@ -220,16 +241,60 @@ are open. I had to open the Syncthing ports:
 }
 ```
 
+## Reverse Proxy
+
+As the Mini PC will be hosting multiple web applications each will need a
+dedicated port, to access them we have two options:
+
+- Open up the ports.
+- Use a reverse proxy.
+
+Opening up the ports is easy, and we've already done that for Syncthing above,
+but given that we have domain names I'd rather type `pi.home` instead of
+`pi.home:8015`.
+
+Setting up a reverse proxy would normally fill me with **fear** and
+**anxiety**. But with Nixos it's fucking easy:
+
+
+```nix
+{
+  services.caddy = {
+    enable = true;
+    virtualHosts."pi.local".extraConfig = ''
+      reverse_proxy http://localhost:8015
+    '';
+    virtualHosts."jellyfin.local".extraConfig = ''
+      reverse_proxy http://localhost:8096
+    '';
+    virtualHosts."ha.local".extraConfig = ''
+      reverse_proxy http://localhost:8123
+    '';
+    virtualHosts."music.local".extraConfig = ''
+      reverse_proxy http://localhost:8095
+    '';
+    virtualHosts."snap.local".extraConfig = ''
+      reverse_proxy http://localhost:1705
+    '';
+  };
+}
+```
+
+{{< callout "info" >}}
+Because `.local` is a valid TLD Caddy can generate an SSL certificate for these domains.
+I don't know why I want that on a local network, but hey, it's free.
+{{</ callout >}}
+
+
 ## Jellyfin
 
-Again the Nixos wiki helped:
+Jellyfin is a media server, I have a client on my "smart" TV and it's good:
 
 ```nix
 { pkgs, ... }:
 {
   services.jellyfin = {
     enable = true;
-    openFirewall = true;
     user = "daniel";
   };
   environment.systemPackages = [
@@ -249,9 +314,9 @@ it also means we can register **custom DNS records for the local network** and
 now we can do that in configuration.
 
 Unfotunately there was no NixOS wiki page for configuring the Pihole but I was
-able to piece it together:
+able to piece it together from the [configuration docs](https://search.nixos.org/options?channel=unstable&query=services.pihole):
 
-```
+```nix
 {  
   # the web interface (using port 8015 as we'll be putting it behind a reverse
   # proxy later)
@@ -295,39 +360,8 @@ able to piece it together:
 }
 ```
 
-## Reverse Proxy
-
-As the Mini PC will be hosting multiple web applications each will need a
-dedicated port, to access them we have two options:
-
-- Open up the ports.
-- Use a reverse proxy.
-
-Opening up the ports is easy, and we've already done that for Syncthing above,
-but given that we have domain names I'd rather type `pi.home` instead of
-`pi.home:8015`.
-
-Setting up a reverse proxy would normally fill me with **fear** and
-**anxiety**. But with Nixos it's fucking easy:
-
-
-```nix
-{
-  services.caddy = {
-    enable = true;
-    virtualHosts."pi.home".extraConfig = ''
-      reverse_proxy http://localhost:8015
-    '';
-    virtualHosts."jellyfin.home".extraConfig = ''
-      reverse_proxy http://localhost:8096
-    '';
-  };
-}
-```
-
-> [^NOTE]
-> Because `.home` is a valid TLD Caddy can generate an SSL certificate for these domains.
-> I don't know why I want that, but hey, it's free.
+After that I tested it by changing the DNS server in `/etc/resolv.conf` before making the
+switch on my router.
 
 ## Home Assistant
 
@@ -361,9 +395,9 @@ isn't very clear on this and it took me a while to figure out how to enable
 the modules.
 
 It's necessary to monitor the logs and look for the `ModuleNotFoundError: No module named '<module name'` errors and then
-grep [components-packages.nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/servers/home-assistant/component-packages.nix)
-to find out which modules to add and then (and this is the missing
-informatino) add them as `extraComponents` in the config:
+(😱) grep the [components-packages.nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/servers/home-assistant/component-packages.nix)
+file to find out which modules to add and then (and this information is the missing
+on the wiki) add `extraComponents` in the config:
 
 ```nix
 {
@@ -378,14 +412,15 @@ informatino) add them as `extraComponents` in the config:
 
       # these are the ones I needed to add:
 
-      "ipp"          # internet printing protcol (discover printers)
-      "improv_ble"   # for my Nabu Casa Voice Assistant
-      "shelly"       # for my Shelly H&T Gen3
-      "ibeacon"      # Never found out what these devices are
-      "tplink"       # for TP Link smart lights and sockets
-      "synology_dsm" # to connect to the NAS
-      "wyoming"      # whisper (voice to text)
-      "xiaomi_ble"   # not sure!
+      "ipp"             # internet printing protcol (discover printers)
+      "improv_ble"      # for my Nabu Casa Voice Assistant
+      "shelly"          # for my Shelly H&T Gen3
+      "ibeacon"         # Never found out what these devices are
+      "tplink"          # for TP Link smart lights and sockets
+      "synology_dsm"    # to connect to the NAS
+      "wyoming"         # whisper (voice to text)
+      "xiaomi_ble"      # not sure!
+      "music_assistant"
     ];
   };
 }
@@ -413,3 +448,64 @@ I'm using _whisper_ and _piper_:
 }
 ```
 
+I then (had to?) manually add the Whisper and Piper integrations to home
+assistant and configure the Voice Assistant to use them.
+
+## Music Assistant
+
+[Music Assistant](https://www.music-assistant.io/) is a music server that integrates with a wide-range of music
+providers and a wide selection of _players_. I use it with Tidal and I _want_
+to use it with my local music collection. I want to be able to stream music to
+different rooms in my house. This can be done with [Snapcast](https://nixos.wiki/wiki/Snapcast).
+
+Below I enable Music Assistant and the provider packages that I want to use:
+
+```nix
+{ pkgs, ... }:
+{
+  services.music-assistant = {
+    enable = true;
+    providers = [
+      "tidal"          # tidal
+      "builtin"        # don't know but sounds good
+      "builtin_player" # also fine
+      "hass"           # home assistant
+      "snapcast"       # snapcast
+    ];
+  };
+}
+```
+
+To playback music using the in-built audio device I neded to run a
+`snapclient`. I had to add the `snapcast` package to my **main list of
+packages** as it's not currently configurable via. a `service` option.
+Therefore I also needed to add a systemd unit to start it automatically:
+
+```nix
+{
+  systemd.user.services.snapclient-local = {
+    wantedBy = [
+      "pipewire.service"
+    ];
+    after = [
+      "pipewire.service"
+    ];
+    serviceConfig = {
+      ExecStart = "${pkgs.snapcast}/bin/snapclient";
+    };
+  };
+}
+```
+
+I was then also able to manually add the Music Assistant integration to home
+assistant and add a [voice assistant
+blueprint](https://github.com/music-assistant/voice-support?tab=readme-ov-file)
+to support "Play the artist Pink Floyd" commands.
+
+![home assistant integration](/images/2025-12-14/pinkfloyd.png)
+*The Music Assistant Integration in Home Assistant*
+
+## That's it!
+
+I've finised for today and I'll wrap up this post. I still need to add a few
+services but this was the worst of it. **MY RASBERRY PIS ARE FREE**.
