@@ -19,8 +19,6 @@ date: 2020-08-07
 image: images/scotland/2020-08-07-2.jpg
 aliases:
   - /blog/2020/08/07/seahouses-edinburgh
-aliases:
-  - /blog/2020/08/07/seahouses-edinburgh
 ---
 
 Today was a very long day. It was a beautiful day. It was an exhausting day.

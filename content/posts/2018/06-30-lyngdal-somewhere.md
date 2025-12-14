@@ -4,7 +4,6 @@ categories: [norway2018]
 distance: 140.5
 time: 10h59m
 date: 2018-06-30
-date: 2018-06-30
 image: images/norway/2018-06-30/IMG_20180630_100545.jpg
 aliases:
   - /blog/2018/06/30/lyngdal-somewhere
