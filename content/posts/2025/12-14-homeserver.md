@@ -135,12 +135,10 @@ method is as follows:
 - Update the `flake.nix` to reference the new host...
 - Rebuild the system using the **flake** `nixos-rebuild switch --flake '.#gigabyte'`.
 
-Now, normally my laptops have the same configuration and I'd reuse shared
-settings between them, but the server is obviously not a laptop, but I still
-wanted to have the terminal environemnt the same. Fortunately it's easy to
-reuse configurations and I was able to easily include my Tmux, Zsh and Git
-setting in addition to my entire Neovim confguration with all the language
-servers.
+Normally my laptops have the same configuration but the server is not a
+laptop. So I started a new configuration and pulled in anything I needed from
+the shared configuration - Tmux, Zsh, Git and my entire Neovim configuration
+and all the language servers.
 
 At this point I was able to disconnect the keyboard and move the Mini PC to
 the corner of the room and continue to configure it headlessly over SSH.
