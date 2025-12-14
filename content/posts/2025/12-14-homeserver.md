@@ -82,6 +82,10 @@ hand devices) and was initially going to purchase an Intel NUC device until I
 noticed that it didn't have a headphone/mic jack, so I purchased a cheaper one
 that did, a Gigabit i5.
 
+It initially came with 8GB of ram, and I noticed that Jellyfin and Whisper
+were taking abut half of that between them. Fortunately I had two 16GB sticks
+of DDR4 RAM left since I upgraded my laptop.
+
 ## Operating System
 
 NixOS is an operating system that is built 100% declarative configuration.
@@ -126,6 +130,14 @@ servers.
 
 At this point I was able to disconnect the keyboard and move the Mini PC to
 the corner of the room and continue to configure it headlessly over SSH.
+
+## Debugging
+
+Sometimes things don't work and you need to look at the logs:
+
+```
+jounalctl -f
+```
 
 ## Disable Sleeping
 
@@ -228,13 +240,176 @@ Again the Nixos wiki helped:
 }
 ```
 
+## Pihole
+
+The Pihole is ostebsibly an ad-blocking DNS server. When your computer
+requests `https://myadcompany.com/trackme` the Pihole will simply not
+translate the domain name to an IP address. This is great but as a DNS server
+it also means we can register **custom DNS records for the local network** and
+now we can do that in configuration.
+
+Unfotunately there was no NixOS wiki page for configuring the Pihole but I was
+able to piece it together:
+
+```
+{  
+  # the web interface (using port 8015 as we'll be putting it behind a reverse
+  # proxy later)
+  services.pihole-web = {
+    enable = true;
+    ports = [
+      "8015"
+    ];
+  };
+
+  # the DNS service
+  services.pihole-ftl = {
+    enable = true;
+    openFirewallDNS = true;
+    openFirewallDHCP = false;
+    useDnsmasqConfig = true;
+    settings = {
+      dns = {
+        upstreams = [
+          # google
+          "8.8.8.8"
+          "8.8.4.4"
+
+          # opendns
+          "208.67.222.222"
+          "208.67.220.220"
+        ];
+        hosts = [
+          "192.168.1.17 pi.hole"
+          "192.168.1.126 laptop1.home"
+          "192.168.1.112 ha.home"
+          "192.168.1.140 nas.home"
+          "192.168.1.6 x230.home"
+          "192.168.1.222 x5.home"
+          "192.168.1.17 gigabyte.home"
+          # etc
+        ];
+      };
+    };
+  };
+}
+```
+
+## Reverse Proxy
+
+As the Mini PC will be hosting multiple web applications each will need a
+dedicated port, to access them we have two options:
+
+- Open up the ports.
+- Use a reverse proxy.
+
+Opening up the ports is easy, and we've already done that for Syncthing above,
+but given that we have domain names I'd rather type `pi.home` instead of
+`pi.home:8015`.
+
+Setting up a reverse proxy would normally fill me with **fear** and
+**anxiety**. But with Nixos it's fucking easy:
 
 
+```nix
+{
+  services.caddy = {
+    enable = true;
+    virtualHosts."pi.home".extraConfig = ''
+      reverse_proxy http://localhost:8015
+    '';
+    virtualHosts."jellyfin.home".extraConfig = ''
+      reverse_proxy http://localhost:8096
+    '';
+  };
+}
+```
+
+> [^NOTE]
+> Because `.home` is a valid TLD Caddy can generate an SSL certificate for these domains.
+> I don't know why I want that, but hey, it's free.
+
+## Home Assistant
+
+Home Assistant monitors and controls smart devices in the home. I previously
+had this setup on the Rasberry Pi 5.
+
+The NixOS wiki describes three different ways of setting up home assistant, I
+chose the "declarative" way. It **seems** (?) that you can't setup devices
+however and I needed to add those manually.
+
+I had to configure the `x_forwarded_for` setting to allow it to work behind
+the reverse proxy:
 
 
+```nix
+{  
+  services.home-assistant = {
+    enable = true;
+    config = {
+      http = {
+        trusted_proxies = [ "::1" ];
+        use_x_forwarded_for = true;
+      };
+    };
+}
+```
 
+You need modules in order to integrate with devices and they are not enabled
+by default. The [wiki](https://wiki.nixos.org/wiki/Home_Assistant#First_start)
+isn't very clear on this and it took me a while to figure out how to enable
+the modules.
 
+It's necessary to monitor the logs and look for the `ModuleNotFoundError: No module named '<module name'` errors and then
+grep [components-packages.nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/servers/home-assistant/component-packages.nix)
+to find out which modules to add and then (and this is the missing
+informatino) add them as `extraComponents` in the config:
 
+```nix
+{
+    extraComponents = [
+      # these components were listed in the wiki
+      "analytics"
+      "google_translate"
+      "met"
+      "radio_browser"
+      "shopping_list"
+      "isal"
 
+      # these are the ones I needed to add:
 
+      "ipp"          # internet printing protcol (discover printers)
+      "improv_ble"   # for my Nabu Casa Voice Assistant
+      "shelly"       # for my Shelly H&T Gen3
+      "ibeacon"      # Never found out what these devices are
+      "tplink"       # for TP Link smart lights and sockets
+      "synology_dsm" # to connect to the NAS
+      "wyoming"      # whisper (voice to text)
+      "xiaomi_ble"   # not sure!
+    ];
+  };
+}
+```
+
+## Voice Assistant
+
+In order for the voice assistant to understand and respond to voice commands
+I'm using _whisper_ and _piper_:
+
+```nix
+{
+  services.wyoming.faster-whisper.servers.assist = {
+    enable = true;
+
+    model = "distil-medium.en";
+    uri = "tcp://0.0.0.0:10300";
+    language = "en";
+  };
+  services.wyoming.piper.servers.assist = {
+    enable = true;
+    uri = "tcp://0.0.0.0:10200";
+    voice = "en_GB-southern_english_female-low";
+  };
+}
+```
 
