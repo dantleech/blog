@@ -9,7 +9,8 @@ draft: false
 
 _This article describes roughly how I configured a Mini PC as a NixOS
 homeserver hosting [Pihole](https://pi-hole.net/), [Syncthing](https://syncthing.net/), [Jellyfin](https://jellyfin.org/), [Home Assistant](https://www.home-assistant.io/) and [Music
-Assistant](https://www.music-assistant.io/)_
+Assistant](https://www.music-assistant.io/). It is not a tutorial but may
+provide some useful snippets._
 
 ## History
 
@@ -34,8 +35,8 @@ I've been running a mess of services within my home network:
 
 In addition some notable pieces of hardware:
 
-- Unifi Express (smart router which also provides an internet facing VPN)
-- Nabu Casa Voice Assistant (voice control for home assistant)
+- [Unifi Express](https://techspecs.ui.com/unifi/cloud-gateways/ux?subcategory=all-cloud-gateways) (smart router which also provides an internet facing VPN)
+- [Nabu Casa Voice Assistant](https://www.home-assistant.io/voice-pe/) (voice control client for home assistant)
 
 The first-world problems are:
 
@@ -57,7 +58,7 @@ And finally, and worst of all, **I have no idea how any of it works**:
 
 So I've decided to iterate on the whole thing and install **everything with
 NixOS in a Mini PC**. I'll probably then repurpose one or both of the Pis to
-act as streaming clients for dumb speakers.
+act as streaming clients for dumb speakers[^dumb].
 
 ## Mini PC
 
@@ -98,16 +99,22 @@ for £180 that did, a Gigabit i5. It came with 8 gigabytes of RAM but I happened
 a couple of 16GB sticks of DDR4 RAM lying about:
 
 ![current "rack"](/images/2025-12-14/gigabyte.png)
-*The "Gigabyte" Mini PC*
+*The Gigabyte Mini PC with audio out*
 
 ## Operating System
 
-NixOS is an operating system that is built 100% declarative configuration.
+NixOS is an operating system that is built from declarative configuration.
 There are no `apt-get install package1 package2`, no `vim
-.config/mpd/server.conf`, no blind fucking around. You edit configuration
-files and you rebuild the system and then you put the configuration files in
-version control. Which is good, because **I have a lot of
-custom configuration**. 
+.config/mpd/server.conf`, no blind fucking around. One edits the **Nix**
+configuration rebuilds the system and then put the configuration files in
+version control. Which is good, because **I have a lot of custom
+configuration**. 
+
+{{< callout >}}
+This is far more than "dotfile" management. The entire state of the system is
+represented in configuration and after applying a configuration you're able to
+boot into any previously applied configuration at boot time.
+{{</ callout >}}
 
 I now use a single repository to manage the configuration for all of my
 laptops and it typically takes about an hour to "onboard" a new laptop after
@@ -122,7 +129,7 @@ method is as follows:
 - Install with desktop environment.
 - Reboot into the new system.
 - Edit `/etc/configuration.nix` with `nano` (😧)
-- Change the hostname setting.
+- Change the hostname setting (to `gigabyte` in this case)b.
 - Add the `git`, `vim` and `openssh` packages (the default list includes only
   `firefox`).
 - Run `nixos-rebuild switch`
@@ -235,8 +242,9 @@ are open. I had to open the Syncthing ports:
 As the Mini PC will be hosting multiple web applications each will need a
 dedicated port, to access them we have two options:
 
-- Open up the ports.
-- Use a reverse proxy.
+- Open up the ports (i.e. blast holes in the [firewall](https://nixos.wiki/wiki/Firewall)).
+- Use a reverse proxy (i.e. listen on port 80 or 443 and forward traffic to
+  backend services using the `Host` header).
 
 Opening up the ports is easy, and we've already done that for Syncthing above,
 but given that we have domain names I'd rather type `pi.home` instead of
@@ -302,7 +310,7 @@ translate the domain name to an IP address. This is great but as a DNS server
 it also means we can register **custom DNS records for the local network** and
 now we can do that in configuration.
 
-Unfotunately there was no NixOS wiki page for configuring the Pihole but I was
+There was no NixOS wiki page for configuring the Pihole but I was
 able to piece it together from the [configuration docs](https://search.nixos.org/options?channel=unstable&query=services.pihole):
 
 ```nix
@@ -378,18 +386,18 @@ the reverse proxy:
 }
 ```
 
-You need modules in order to integrate with devices and they are not enabled
+You need **components** in order to integrate with devices and they are not enabled
 by default. The [wiki](https://wiki.nixos.org/wiki/Home_Assistant#First_start)
-isn't very clear on this and it took me a while to figure out how to enable
-the modules.
+isn't very clear...
 
 It's necessary to monitor the logs and look for the `ModuleNotFoundError: No module named '<module name>'` errors and then
 (😱) grep the [components-packages.nix](https://github.com/NixOS/nixpkgs/blob/master/pkgs/servers/home-assistant/component-packages.nix)
-file to find out which modules to add and then (and this information is the missing
-on the wiki) add `extraComponents` in the config:
+file to find out which modules to add and then add them to the list of `extraComponents` in the config:
 
 ```nix
 {
+  services.home-assistant = {
+    # ...
     extraComponents = [
       # these components were listed in the wiki
       "analytics"
@@ -418,10 +426,10 @@ on the wiki) add `extraComponents` in the config:
 ## Voice Assistant
 
 In order for the voice assistant to understand and respond to voice commands
-I'm using _whisper_ and _piper_:
+I'm using _whisper_ and _piper_ respectively:
 
 ```nix
-{
+{p
   services.wyoming.faster-whisper.servers.assist = {
     enable = true;
 
@@ -498,3 +506,10 @@ to support "Play the artist Pink Floyd" commands.
 
 I've finised for today and I'll wrap up this post. I still need to add a few
 services but this was the worst of it. **MY RASBERRY PIS ARE FREE**.
+
+---
+
+[^dumb]: I was going to make an MPD based setup as detailed
+    [here](http://www.hietala.org/multi-room-audio-with-mpd-and-snapcast.html)
+    but now I'll maybe use Music Assistant - in anycase Snapcast will be used
+    as detailed in this post.
