@@ -165,17 +165,18 @@ anybody took away from it and I decided to put the talk to bed.
 ![](/images/2025-12-28/poznan.png)
 *Poznan*
 
-October saw me **cycling** (more on that later) to Mannheim to attend the [Unkonf](https://unkonf.de/en) (and to have a
-cycling holiday). This saw me giving or conducting an impromptu and rambling
-talk about XDebug TUI and Rust for 45 minutes (I thought I'd be talking for
-15).
+October saw me **cycling** (more on that later) to Mannheim to attend the
+[Unkonf](https://unkonf.de/en) (and to have a cycling holiday). I volunteered
+to give (what I thought would be a 15 minute) lightening talk but it turned
+into an impromptu and rambling talk about Debug TUI and Rust for 45 minutes.
 
 ![](/images/2025-12-28/unkonf.png)
 *Unkonf Mannheim*
 
-My final conference of the year was the November Symfony Con in Amsterdam. I paid for this
-via. my company and was able to reconnect with lots of people I hadn't seen in
-a long time. I made another attempt at the Amsterdam Parkrun and did somewhat
+My final conference of the year was the November Symfony Con in Amsterdam. I
+paid for this via. my company and was able to reconnect with lots of people I
+hadn't seen in a long time. I made another attempt at the Amsterdam Parkrun
+and did somewhat
 [better](https://www.parkrun.co.nl/amsterdamsebos/results/208/).
 
 ## Sports
@@ -208,8 +209,8 @@ marathon a decade ago in Paris.
 
 
 After this I flew to Amsterdam for the DPC conference, but on the second day I
-fell over while running over a bridge, rolled my ankle to the ground in pain
-and fell over on my face. I hobbled back to the hotel but this would be the
+fell over while running over a bridge, **rolled my ankle to the ground in
+pain** and fell over on my face. I hobbled back to the hotel but this would be the
 beginning of what would be a lengthly period of injuries lasting until
 October - at which point I fell over and hurt my knee which took another two
 months of recovery. I tried to concentrate on cycling during this time, but
