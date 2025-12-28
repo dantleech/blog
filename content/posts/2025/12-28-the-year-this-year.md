@@ -239,7 +239,7 @@ let alone running. There was no room in the minimal setup for trainers but
 barefoot shoes can fold in half and easily fit into my saddle bag.
 
 The barefoot shoes take some adaption, the first 4 miles were very tenderly
-done, and I've since tried to do at least one run per week with them, I've managed t
+done, and I've since tried to do at least one run per week with them, I've managed to
 extend the distance and the "screaming calf pain" (exageration?) is improving
 while I think the barefoot-style (i.e. **not** landing on the heal) may actually
 help me avoid my common injuries (perhaps while causing new ones, but hey).
