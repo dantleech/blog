@@ -134,7 +134,7 @@ to **Amsterdam** to talk at the Dutch PHP Conference
 ([video 📹](https://phpconference.nl/session/value-objects-and-you/)). I
 rehearsed this talk extensively the day before, repeating it over and over
 again, and making changes and drawing silly pictures and finding comic
-timings - and it seemed to go down well, I only got two reviews but they were
+timings - and it seemed to go down well in front of a largeish audience, I only got two reviews but they were
 both 5/5 (and not from people I know 🤣). I got extremely drunk in the after
 party but managed to queasily make it to the [Amsterdam
 ParkRun](https://www.parkrun.co.nl/amsterdamsebos/) with Mike Lehan obtaining
@@ -157,7 +157,7 @@ of Bristolians ([video 📹](https://www.youtube.com/watch?v=lFvU9PlwuRA)).
 
 Shortly afterwards I gave my "One Hour Expression Langauge Talk" at
 [PHPDay](http://phpers.day/) in Poznan, Poland. The session seemed to go well
-enough, in front of maybe 300 people, but the main feedback I got after the
+enough, in front of maybe 150 people, but the main feedback I got after the
 talk, though very positive, was more focussed on my Neovim skills than TDD or
 Parsers, and even then it was from fellow speakers, so I'm not sure how much
 anybody took away from it and I decided to put the talk to bed.
@@ -225,7 +225,29 @@ cycle there in October.
 I invested in an entirely new setup - which was expensive - but I'm glad I
 did. The new setup is far more light-weight and I was able to travel much
 further than previously and I'm actively looking forward to using it again. As
-always I blogged about it in [excrutiating detail](https://www.dantleech.com/blog/categories/mannheim2025/).
+always I blogged about it in [excrutiating
+detail](https://www.dantleech.com/blog/categories/mannheim2025/) but in brief
+I cycled from **Caen**, through **Belgium** and **Holland** to **Germany**. I
+met up with my German client team in Dusseldorf before getting the train to
+Mannheim for the conference before (mostly) cycling back to Caen.
+
+While on tour I purchased some [bare-foot
+shoes](https://www.alpinetrek.co.uk/leguano-go-barefoot-shoes/) - mostly
+because I was cycling with cycling-shoes which were inappropriate for walking,
+let alone running. There was no room in the minimal setup for trainers but
+barefoot shoes can fold in half and easily fit into my saddle bag.
+
+The barefoot shoes take some adaption, the first 4 miles were very tenderly
+done, and I've since tried to do at least one run per week with them, I've managed t
+extend the distance and the "screaming calf pain" (exageration?) is improving
+while I think the barefoot-style (i.e. **not** landing on the heal) may actually
+help me avoid my common injuries (perhaps while causing new ones, but hey).
+
+My second running "highlight" of the year **was** going to be the Great South Run - for which I had a ticket from the cancelled event the previous year - as it
+happens I arrived back in the UK by ferry with my bike the day before and
+although I could've have rushed to Weymouth and back by train to get my
+trainers I knew that my injury would not see me crossing the finishing line,
+so I contented myself to the [Lee-On-Solent Parkrun](https://www.parkrun.org.uk/leeonthesolent/results/480/) in the barefoot shoes.
 
 I've continued running with the local running club, although less so than last
 year, still finding it very difficult to socialise but have had some good
@@ -298,12 +320,3 @@ different conferences this year, and was accepted to speak at the [PHP UK
 Conference](https://www.phpconference.co.uk/speaker/daniel-leech) in February.
 I'll need to spend another (probably) large amount of money on fixing my
 chimney and would very much like to not have that responsiblity.
-
-
-
-
-
-
-
-
-
