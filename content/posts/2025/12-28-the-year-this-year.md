@@ -1,5 +1,5 @@
 --- 
-title: 2025
+title: The Year of 2025 
 categories: [yearly]
 date: 2025-12-28
 toc: true
