@@ -1,6 +1,6 @@
 --- 
 title: One year back from Europe
-categories: [personal]
+categories: [yearly]
 date: 2023-12-28
 toc: false
 ---

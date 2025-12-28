@@ -116,7 +116,7 @@ represented in configuration and after applying a configuration you're able to
 boot into any previously applied configuration.
 {{</ callout >}}
 
-I now use a single repository to manage the configuration for all of my
+I use a single repository to manage the configuration for all of my
 laptops and it typically takes about an hour to "onboard" a new laptop after
 which the system is essentially indistinguishable from the other laptops.
 
@@ -129,7 +129,7 @@ method is as follows:
 - Install with desktop environment.
 - Reboot into the new system.
 - Edit `/etc/configuration.nix` with `nano` (😧)
-- Change the hostname setting (to `gigabyte` in this case)b.
+- Change the hostname setting (to `gigabyte` in this case).
 - Add the `git`, `vim` and `openssh` packages (the default list includes only
   `firefox`).
 - Run `nixos-rebuild switch`
@@ -439,7 +439,6 @@ I'm using _whisper_ and _piper_ respectively:
 {
   services.wyoming.faster-whisper.servers.assist = {
     enable = true;
-
     model = "distil-medium.en";
     uri = "tcp://0.0.0.0:10300";
     language = "en";
@@ -451,6 +450,11 @@ I'm using _whisper_ and _piper_ respectively:
   };
 }
 ```
+
+The `distil-medium.en` model seems to provide more accuracy than the previous
+model on the Rasberry Pi 5 but I'm not sure it's faster. I also changed the
+"piper" voice from "Alan" to "Southern English Female". Because quite
+honestly, I'd had enough of Alan.
 
 I then (had to?) manually add the Whisper and Piper integrations to home
 assistant and configure the Voice Assistant to use them.

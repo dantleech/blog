@@ -1,6 +1,6 @@
 --- 
 title: The Year This Year of 2024
-categories: [personal]
+categories: [yearly]
 date: 2024-12-23
 draft: false
 image: /images/2024-12-23/portland.jpg
