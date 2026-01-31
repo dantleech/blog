@@ -1,6 +1,6 @@
 --- 
 title: "Comparing Paths"
-categories: [strava]
+categories: [strava,programming]
 date: 2023-08-27
 draft: false
 toc: true
