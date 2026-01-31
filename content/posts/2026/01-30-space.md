@@ -334,7 +334,7 @@ They solve one problem while creating many others and the you will
 While packages as separate repositories are hard to maintain, you can get many
 of the benefits of a package by simply creating a new namespace. You can call
 the contents of this **namespace** a **package**, **module** an **extension**
-or whatever the **fuck** you like.
+or whatever the **hell** you like.
 
 I don't even care if you have a `Shared` directory to start with:
 
@@ -464,8 +464,9 @@ final class InvoicingExtension implements Extension
 The extension system above does not exist. It is somewhat similar to the extension system used in
 [Phpactor](https://github.com/phpactor/phpactor) and somewhat similar to the
 Laravel [Service
-Providers](https://laravel.com/docs/12.x/packages#service-providers) and
-Symfony [Bundles](https://symfony.com/doc/current/bundles.html). What I like
+Providers](https://laravel.com/docs/12.x/packages#service-providers),
+Symfony [Bundles](https://symfony.com/doc/current/bundles.html) and every
+plugin system ever created but what I like
 about the above is the **comparative simplicity**.
 
 {{< godzilla >}}
@@ -511,7 +512,7 @@ leaked into configuration at the project level.
 
 When working on a project I often find myself writing code that is not
 exclusively associated with the business or project and can be written without
-coupling to the framework or other libararies in the project. I'd
+coupling to the framework or other libraries in the project. I'd
 class this as a **library**. An example might be an API client, a barcode reader, a
 deserializer, a markdown linter, a caster, etc.
 
@@ -564,7 +565,7 @@ tell me which ones he uses but there are option that include:
 - [PHPAT](https://www.phpat.dev/): Define architectural rules as PHPStan rules in a test-style DSL.
 
 {{< godzilla >}}
-That's not what they said in Waynes World. Damn you.
+That's not what they said in Waynes World.
 {{</ godzilla >}}
 
 ## Separating Wheat from Chaff
@@ -584,7 +585,7 @@ Make every new feature a _greenfield_ feature.
 {{< image "/images/2026-01-31/green.png" Resize "1000x" "Greenfield features" >}}
 
 [^newsletter]: this is being generous. in reality the `NewsletterService` would
-    have been inlined in the controller and duplcated in the command.
+    have been inlined in the controller and duplicated in the command.
 [^rot]:  If firewalls stop fire then they also stop rot. Ok?
 [^patch]:  Some developers [patch](https://github.com/cweagans/composer-patches) packages in the vendor directory.
 [^packagedesign]: "UncleBob" defined [package principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) in addition to the SOLID principles. Mathias Noback wrote a [great book](https://matthiasnoback.nl/book/principles-of-package-design/) on the topic.
