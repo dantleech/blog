@@ -4,7 +4,7 @@ subtitle: ...or how the way you organise your project makes me sad
 categories: [programming,php]
 date: 2026-01-30
 toc: true
-image: /images/2026-01-31/yeah.png
+image: /images/2026-01-31/engine.png
 draft: false
 ---
 
