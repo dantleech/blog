@@ -8,11 +8,6 @@ image: /images/2026-01-31/engine.png
 draft: false
 ---
 
-_In this post I want to discuss how legacy projects evolve and discuss some
-ways to help projects to scale effectively._
-
----
-
 Many projects I see are organised in a way seemingly advocated by the frameworks they
 use. This approach is generally:
 
@@ -30,8 +25,17 @@ src/
 
 This _is_ a good way to get started. **Right!?** You have a command, put it in the
 `Command` directory. You have a Doctrine Entity, put it in the `Entity`
-folder. Easy! The problem with this approach is that it's not a good way once
-you have more than a trivial number of concepts.
+folder. Easy! 
+
+The problem with this approach is that 
+
+- It's not a good way once you have more than a trivial number of concepts...
+- ...projects **always** evolve to have more than a trivial number of concepts[^always]...
+- ...the structural architecture of the project does not evolve...
+- ...because it's following best practices dummy!
+
+In this post I want to explain how a legacy codebase might evolve over time
+and suggest a fundamental, time-tested and well known way to facilitate scaling.
 
 {{< image "/images/2026-01-31/engine.png" Resize "700x" "Car engine organised by categories of things" >}}
 
@@ -584,3 +588,5 @@ Make every new feature a _greenfield_ feature.
 [^rot]:  If firewalls stop fire then they also stop rot. Ok?
 [^patch]:  Some developers [patch](https://github.com/cweagans/composer-patches) packages in the vendor directory.
 [^packagedesign]: "UncleBob" defined [package principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) in addition to the SOLID principles. Mathias Noback wrote a [great book](https://matthiasnoback.nl/book/principles-of-package-design/) on the topic.
+[^always]: "always" because at I'm writing this from the point of view of
+    somebody adding a new concept.
