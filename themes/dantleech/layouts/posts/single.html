@@ -7,6 +7,9 @@
                 {{ if (ne .Page.Lastmod  .Date) }}
                 <i>Last modified {{ .Page.Lastmod.Format "2006/01/02 15:04" }}</i>
                 {{ end }}
+                {{ if isset .Params "subtitle" }}
+                <div class="subtitle font-extrabold mt-1 text-1xl italic">{{ .Params.Subtitle }}</div>
+                {{ end }}
 
             </div>
 
