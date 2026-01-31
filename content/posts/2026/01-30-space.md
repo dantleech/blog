@@ -268,7 +268,7 @@ strong firewalls for rot**[^rot].
 
 But what _is_ a package? I would define it as a collection of code with clear
 conceptual boundaries, internal cohesion and singular purpose. They are most
-commonly recognised as distributable libraries and at best abide by the
+commonly recognised as [distributable libraries](https://packagist.org/) and at best abide by the
 [SOLID](https://en.wikipedia.org/wiki/SOLID)
 principles[^packagedesign]. Packages can measure their _stability_ by counting the number of
 reasons they need to change - each concern or dependency that a package has is a
@@ -516,7 +516,7 @@ class this as a **library**. An example might be an API client, a barcode reader
 deserializer, a markdown linter, a caster, etc.
 
 While it might be tempting to create a new repository it comes with the
-burdens already mentioned and, while putting in a "module" isn't the worst
+burdens already mentioned and, while putting it in a "module" isn't the worst
 thing to do, it doesn't represent an _application concern_ - it's more akin to something in `vendor/`.
 
 One approach I like is to create a `lib` directory:
