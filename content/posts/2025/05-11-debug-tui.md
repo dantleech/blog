@@ -1,6 +1,6 @@
 --- 
 title: Debug TUI
-categories: [programming,php,tui]
+categories: [php,tui]
 date: 2025-05-11
 toc: true
 image: /images/2025-05-11/debug-tui.png

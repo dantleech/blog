@@ -1,6 +1,6 @@
 --- 
 title: Home Server
-categories: [programming,php]
+categories: [home]
 date: 2025-12-14
 toc: true
 image: /images/2025-12-14/gigabyte.png

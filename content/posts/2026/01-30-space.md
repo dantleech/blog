@@ -474,7 +474,7 @@ module with the framework in a **single class** and makes the module
 self-sufficient. The module can be maintained in isolation of other modules.
 {{</ godzilla >}}
 
-You application's bootstrap could then look something like this:
+The application's bootstrap could then look something like this:
 
 ```php
 // bootstrap.php
