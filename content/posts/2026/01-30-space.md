@@ -236,8 +236,8 @@ But what's wrong with the **splatter**?
   campgrounds encourage dirtier campgrounds, etc.
 
 You can't win. Any code you add will be absorbed into the giant amorphous ball of
-mud. The only winning move is **not to play*h
-retire into a dark cave and you are **eaten by a bear**.
+mud. The only winning move is **not to play**. You retire into a dark cave and
+are **eaten by a bear**.
 
 {{< godzilla >}}
 GOZILLA THINKS YOU ARE ALL AWFUL REGARDLESS.
@@ -366,7 +366,7 @@ be, but they can _improve_. The most important thing is that the top level
 `src` directory is **sacred** and should contain top-level concepts. The
 topical directories are **firewalls**.
 
-When I join a project and am asked to introduce an Invocing system and I can
+When I join a project and am asked to introduce an Invoicing system and I can
 just get right in there and create:
 
 ```text
@@ -391,7 +391,7 @@ But it only serves of an example of what _not_ to do without necessarily
 adversely affecting the other topics.
 
 {{< callout >}}
-Even if you start in confusion and put everything in an arbitrary namesapce
+Even if you start in confusion and put everything in an arbitrary namespace
 (`Shared` in this example) over time it will become clear what else _deserves_
 it's own topic and indeed you may discover that things you put in the `Shared`
 topic can be neatly and satisfyingly extracted to a top-level topic and, as
@@ -418,7 +418,7 @@ src/
 ```
 
 The `InvoicingExtension` _defines_ the module. It is responsible for configuring
-the depenency-injection container, exposing configuration schemas and even
+the dependency-injection container, exposing configuration schemas and even
 specifying what the module depends on.
 
 It might look like this:
@@ -470,7 +470,7 @@ module with the framework in a **single class** and makes the module
 self-sufficient. The module can be maintained in isolation of other modules.
 {{</ godzilla >}}
 
-You application's boostrap could then look something like this:
+You application's bootstrap could then look something like this:
 
 ```php
 // bootstrap.php
@@ -542,12 +542,9 @@ This also helps you to focus on writing code following the UNIX philosphy of
 doing [one thing and doing it
 well](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well).
 
-
-
-
 ## Enforcing Boundaries
 
-Dan - you are suggesting that, like in the filmthe film  **Waynes World**, if you
+Dan - you are suggesting that, like in the film  **Waynes World**, if you
 create order then it will follow. That order facilitates order. That people
 are naturally inclined to order rather than chaos. That people are afraid of breaking
 the first window and will look for other solutions?
