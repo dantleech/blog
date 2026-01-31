@@ -4,11 +4,16 @@ subtitle: ...or how the way you organise your project makes me sad
 categories: [programming,php]
 date: 2026-01-30
 toc: true
-#image: /images/2024-12-28/cdto.png
-draft: true
+image: /images/2026-01-31/yeah.png
+draft: false
 ---
 
-Many projects I see are organised in a way advocated by the frameworks they
+_In this post I want to discuss how legacy projects evolve and discuss some
+ways to help projects to scale effectively._
+
+---
+
+Many projects I see are organised in a way seemingly advocated by the frameworks they
 use. This approach is generally:
 
 ```text
@@ -28,14 +33,12 @@ This _is_ a good way to get started. **Right!?** You have a command, put it in t
 folder. Easy! The problem with this approach is that it's not a good way once
 you have more than a trivial number of concepts.
 
-{{< godzilla >}}
-You order your project by categories of class but categories are
-unbounded therefore **you have dissapointed me**.
-{{</ godzilla >}}
+{{< image "/images/2026-01-31/engine.png" Resize "700x" "Car engine organised by categories of things" >}}
+
 
 ## The Fall
 
-Let's introduce a `Newsletter` to our app using this arbitrary collection of
+Let's introduce a `Newsletter` feature to our app using this collection of
 objects:
 
 - `Newsletter`: Entity that stores the newsletter title, body, etc.
@@ -153,7 +156,7 @@ src/
 xxx00011.dat      / \
 ```
 
-Now the Senior Staff Engineer adds CQRS:
+Now the new Senior Staff Engineer VI adds CQRS:
 
 
 ```text
@@ -228,13 +231,13 @@ But what's wrong with the **splatter**?
 - Conceptual contamination.
 - Problems are not solved in relation to themselves but as part of a [big ball
   of mud](https://en.wikipedia.org/wiki/Spaghetti_code#big-ball-o-mud).
-- You're putting business logic into places where it has no business to be.
+- You're probably putting business logic into places where it has no business to be.
 - ...and of course the fact that broken windows encourage more broken windows. Dirty
   campgrounds encourage dirtier campgrounds, etc.
 
 You can't win. Any code you add will be absorbed into the giant amorphous ball of
 mud. The only winning move is not to play. You don't get paid and you
-go into a cave and die.
+retire into a dark cave and you are eaten by a bear.
 
 {{< godzilla >}}
 GOZILLA THINKS YOU ARE ALL AWFUL REGARDLESS.
@@ -263,7 +266,7 @@ But what _is_ a package? I would define it as a collection of code with clear
 conceptual boundaries, internal cohesion and singular purpose. They are most
 commonly recognised as distributable libraries and at best abide by the
 [SOLID](https://en.wikipedia.org/wiki/SOLID)
-principles. Packages can measure their _stability_ by counting the number of
+principles[^packagedesign]. Packages can measure their _stability_ by counting the number of
 reasons they need to change - each concern or dependency that a package has is a
 potential reason to change - **if a package needs to change often then it is
 unstable** and unstable code is unreliable.
@@ -278,8 +281,8 @@ a firewall:
 - Projects
 
 Packages provide the strongest firewall. Try as you may, you will find it
-difficult (but not impossible!) to
-[enshittify](https://en.wiktionary.org/wiki/enshittification#English) packages
+difficult (but not impossible![^patch]) to
+fuck up packages
 in your vendor directory:
 
 - These packages usually have a dedicated purpose.
@@ -319,15 +322,15 @@ together. This is however almost certainly going to be a **terrible** idea:
 - Upgrading code for major language versions and packages has to be done many
   times vs. doing it once. 
 
-Basically - they solve one problem while creating many others and the you will
+They solve one problem while creating many others and the you will
 **hate yourself**. So what then?
 
 ## Divide Your Project by Topic
 
 While packages as separate repositories are hard to maintain, you can get many
 of the benefits of a package by simply creating a new namespace. You can call
-the contents of this namespace a **package** or a **module** or whatever the
-**fuck** you like.
+the contents of this **namespace** a **package**, **module** an **extension**
+or whatever the **fuck** you like.
 
 I don't even care if you have a `Shared` directory to start with:
 
@@ -394,9 +397,111 @@ it's own topic and indeed you may discover that things you put in the `Shared`
 topic can be neatly and satisfyingly extracted to a top-level topic and, as
 if magic happened, the `Shared` module will be fade away like water 🌊.
 
-The only thing that will concern itself with all the crap in your shitty
-modules will be your applications bootstrap. The plumbing.
+The only thing that will concern itself and know about your shitty
+modules will be your application's bootstrap. The plumbing.
 {{</ callout >}}
+
+## Self-Sufficiency
+
+Let's assume we called these modules **Extensions**. A pattern I like is having extensions be responsible for
+**integrating themselves** with the project:
+
+```text
+src/
+   Invoicing/
+       Adapter/
+           AwesomePdf/
+                AwesomePdfInvoiceWriter.php
+       Model/
+           InvoiceComposer.php
+       InvoicingExtension.php <--
+```
+
+The `InvoicingExtension` _defines_ the module. It is responsible for configuring
+the depenency-injection container, exposing configuration schemas and even
+specifying what the module depends on.
+
+It might look like this:
+
+```php
+final class InvoicingExtension implements Extension
+{
+    public function configure(ConfgurationScheme $scheme): void
+    {
+        $scheme->define(
+            name: 'invoice_number_format',
+            description: 'Formatting to use when printing invoice numbers',
+            type: Type::string(),
+            required: true,
+            default: '%08d'
+        );
+    }
+
+    public function dependsOn(): array
+    {
+        return [
+            AwesomePdfExtension::class,
+        ];
+    }
+
+    public function load(ContainerBuidler $builder): void
+    {
+        $builder->register(InvoiceWriter::class, function (Container $container) {
+            return new AwesomePdfInvoiceWriter($container->get(AwesomePdf::class));
+        });
+
+        $builder->register(InvoiceComposer::class, function (Container $container) {
+            return new InvoiceComposer($container->get(InvoiceWriter::class));
+        });
+    }
+}
+```
+
+The extension system above does not exist. It is somewhat similar to the extension system used in
+[Phpactor](https://github.com/phpactor/phpactor) and somewhat similar to the
+Laravel [Servive
+Providers](https://laravel.com/docs/12.x/packages#service-providers) and
+Symfony [Bundles](https://symfony.com/doc/current/bundles.html). What I like
+about the above is the **comparative simplicity**.
+
+{{< godzilla >}}
+Godzilla **loves** Extension. It encapsulates the integration of the
+module with the framework in a **single class** and makes the module
+self-sufficient. The module can be maintained in isolation of other modules.
+{{</ godzilla >}}
+
+You application's boostrap would could then look something like this:
+
+```php
+// bootstrap.php
+return Container::fromExtensions(
+     InvoicingExtension::class,
+     AwesomePdfExtension::class
+);
+```
+
+{{< callout >}}
+A common alternative I see, especially in Symfony projects is:
+
+```text
+config/
+    services/
+        invoicing.yml
+        newsletter.yml
+        sanctions.yml
+    services.yml
+src/
+    Invoicing/
+    Newsletter/
+    Sanctions/
+```
+
+The problem with this approach is the _distance_ from the module to the DI
+configuration. Not to mention the **terrifying** possibility that you're using
+YAML. This is already a broken window as details of the module are needlessly
+leaked into configuration at the project level.
+{{</ callout >}}
+
 
 ## Create a Library Folder
 
@@ -437,6 +542,9 @@ This also helps you to focus on writing code following the UNIX philosphy of
 doing [one thing and doing it
 well](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well).
 
+
+
+
 ## Enforcing Boundaries
 
 Dan - you are suggesting that, like in **Waynes World**, if you
@@ -444,47 +552,38 @@ create order then it will follow. That order facilitates order. That people
 are naturally inclined to order rather than chaos. That people are afraid of breaking
 the first window and will look for other solutions?
 
-Yes I am. But also **Trust but Verify**! Use static analysis to enforce the
+Yes I am. But also [Trust, but Verify](https://en.wikipedia.org/wiki/Trust,_but_verify)! Use static analysis to enforce the
 firewalls in your project. I won't recommend any tools as Godzilla wouldn't
 tell me which ones he uses but there are option that include:
 
-- [PHPStan](): Write you architecture rules as custom PHPStan rules.
-- [PHP Architecture Tester](): Write them
-- [Deptrac](): In YAML and with collectors.
-- [PHPAT](): Write them as "tests" that run in PHPStan.
+- [PHPStan](https://phpstan.org/developing-extensions/rules): Write your own
+  rules from scratch with PHPStan.
+- [PHPArkitect](https://github.com/phparkitect/arkitect): Define architectural
+  rules in PHP.
+- [PHPAT](https://www.phpat.dev/): Define architectural rules as PHPStan rules in a test-style DSL.
 
 {{< godzilla >}}
 That's not what they said in Waynes World. Damn you.
 {{</ godzilla >}}
 
-## All Unhappy Families
+## Separating Wheat from the Chaff
 
 I could write about the various ways of further organising a project -
 separating the _model_ (or domain) from the _implementation_ for example is something I 
 value highly - but the impact is less than the impact of just providing a
-simple organisation structure centered around topics. You can apply **Hexagonal
-Architecture** or use practices from **DDD** (in which case the modules _can_ become "**bounded contexts**").
+simple organisation structure centered around topics. You can apply [Hexagonal
+Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) or use practices from [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) (in which case the modules _can_ become **bounded contexts**).
 
 It wouldn't matter _hugely_ if the DDD developer went rogue implemented DDD inside the
 `Invoicing` topic. It could serve as a good example for other topics or it
 could be a lesson learnt in how to over-engineer a simple task.
 
----
+Make every new feature a _greenfield_ feature.
 
-## But DDD?
-
-Domain Driven Design is a fantastic body of knowledge about best practices in
-software design. And of course what I'm here calling "topics" relate directly
-to the concept of domain _boundaries_ in DDD. But I also think that developers
-have a tendency to get carried away. What "level" of DDD is appropriate? What
-about hexagonal architecture? CQRS? Should you use BDD? What should the ratio
-of unit to integration tests be? Should you have 100% test coverage?
-
-Sometimes it's easy to get lost in the forest and lose sight of what matters:
-delivering appropriate, working, software. There is no single "best" way to
-organise a project as each project has a uniuqe set of problems to solve but
-every productive projects have **space** for modelling new concepts.
+{{< image "/images/2026-01-31/green.png" Resize "1000x" "Greenfield features" >}}
 
 [^newsletter]: this is being generous. in reality the `NewsletterService` would
     have been inlined in the controller and duplcated in the command.
 [^rot]:  If firewalls stop fire then they also stop rot. Ok?
+[^patch]:  Some developers [patch](https://github.com/cweagans/composer-patches) packages in the vendor directory.
+[^packagedesign]: "UncleBob" defined [package principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) in addition to the SOLID principles. Mathias Noback wrote a [great book](https://matthiasnoback.nl/book/principles-of-package-design/) on the topic.
