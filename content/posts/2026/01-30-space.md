@@ -236,7 +236,7 @@ But what's wrong with the **splatter**?
   campgrounds encourage dirtier campgrounds, etc.
 
 You can't win. Any code you add will be absorbed into the giant amorphous ball of
-mud. The only winning move is **not to play**. You don't get paid and you
+mud. The only winning move is **not to play*h
 retire into a dark cave and you are **eaten by a bear**.
 
 {{< godzilla >}}
@@ -248,7 +248,7 @@ GOZILLA THINKS YOU ARE ALL AWFUL REGARDLESS.
 Codebases **rot** - this rot doesn't happen with the passage of
 time but with the passage of changes that are affected upon it. Every
 developer introduces an amount of disorder with every commit. This is
-**innevitable** despite the best intentions of the participants.
+**inevitable** despite the best intentions of the participants.
 
 This isn't to say that some level of disorder is bad - having an amount of
 diversity is good. Evolution doesn't happen by resting with the status quo.
@@ -293,7 +293,7 @@ in your vendor directory:
 
 They are **well protected** from the chaos of your project. So it may be
 tempting to reorganise your code into distributable packages that are clearly
-owned and safe from contaminiation.
+owned and safe from contamination.
 
 
 ## Death by Package ☠
@@ -459,7 +459,7 @@ final class InvoicingExtension implements Extension
 
 The extension system above does not exist. It is somewhat similar to the extension system used in
 [Phpactor](https://github.com/phpactor/phpactor) and somewhat similar to the
-Laravel [Servive
+Laravel [Service
 Providers](https://laravel.com/docs/12.x/packages#service-providers) and
 Symfony [Bundles](https://symfony.com/doc/current/bundles.html). What I like
 about the above is the **comparative simplicity**.
@@ -470,7 +470,7 @@ module with the framework in a **single class** and makes the module
 self-sufficient. The module can be maintained in isolation of other modules.
 {{</ godzilla >}}
 
-You application's boostrap would could then look something like this:
+You application's boostrap could then look something like this:
 
 ```php
 // bootstrap.php
@@ -547,7 +547,7 @@ well](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well)
 
 ## Enforcing Boundaries
 
-Dan - you are suggesting that, like in **Waynes World**, if you
+Dan - you are suggesting that, like in the filmthe film  **Waynes World**, if you
 create order then it will follow. That order facilitates order. That people
 are naturally inclined to order rather than chaos. That people are afraid of breaking
 the first window and will look for other solutions?
@@ -566,7 +566,7 @@ tell me which ones he uses but there are option that include:
 That's not what they said in Waynes World. Damn you.
 {{</ godzilla >}}
 
-## Separating Wheat from the Chaff
+## Separating Wheat from Chaff
 
 I could write about the various ways of further organising a project -
 separating the _model_ (or domain) from the _implementation_ for example is something I 
