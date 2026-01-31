@@ -236,8 +236,8 @@ But what's wrong with the **splatter**?
   campgrounds encourage dirtier campgrounds, etc.
 
 You can't win. Any code you add will be absorbed into the giant amorphous ball of
-mud. The only winning move is not to play. You don't get paid and you
-retire into a dark cave and you are eaten by a bear.
+mud. The only winning move is **not to play**. You don't get paid and you
+retire into a dark cave and you are **eaten by a bear**.
 
 {{< godzilla >}}
 GOZILLA THINKS YOU ARE ALL AWFUL REGARDLESS.
@@ -481,7 +481,7 @@ return Container::fromExtensions(
 ```
 
 {{< callout >}}
-A common alternative I see, especially in Symfony projects is:
+A common alternative I see, in Symfony projects, is:
 
 ```text
 config/
