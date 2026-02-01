@@ -448,7 +448,7 @@ final class InvoicingExtension implements Extension
         ];
     }
 
-    public function load(ContainerBuidler $builder): void
+    public function load(ContainerBuilder $builder): void
     {
         $builder->register(InvoiceWriter::class, function (Container $container) {
             return new AwesomePdfInvoiceWriter($container->get(AwesomePdf::class));
@@ -470,9 +470,9 @@ plugin system ever created but what I like
 about the above is the **comparative simplicity**.
 
 {{< godzilla >}}
-Godzilla **loves** Extension. It encapsulates the integration of the
-module with the framework in a **single class** and makes the module
-self-sufficient. The module can be maintained in isolation of other modules.
+Godzilla **loves** Extension. Extension encapsulates integration of
+module with framework in **single class** and makes module
+self-sufficient. Module can be maintained isolation-wise of other modules.
 {{</ godzilla >}}
 
 The application's bootstrap could then look something like this:
