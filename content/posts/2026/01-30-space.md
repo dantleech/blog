@@ -6,6 +6,7 @@ date: 2026-01-30
 toc: true
 image: /images/2026-01-31/engine.png
 draft: false
+fediverse: 115990600487740811
 ---
 
 Many projects I see are organised in a way seemingly advocated by the frameworks they

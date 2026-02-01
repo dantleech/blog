@@ -15,6 +15,11 @@ pagerSize = 50
 [params]
 umami_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 
+[params.comment.fediverse]
+    enable = true
+    host = "fosstodon.org"
+    user = "dantleech"
+
 [frontmatter]
 date = [ "date" ]
 

@@ -64,6 +64,11 @@
             </ul>
         </div>
         {{ end }}
+        {{ if and (isset .Params "fediverse") (.Params.fediverse) }}
+            {{ partial "comments.html" . }}
+
+        {{ end }}
+
     </article>
     {{ partial "nextprev.html" . }}
 {{ end }}

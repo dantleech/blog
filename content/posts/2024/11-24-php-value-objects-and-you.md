@@ -4,6 +4,7 @@ categories: [programming,php]
 date: 2024-11-24
 toc: true
 image: /images/2024-11-24/title.png
+fediverse: 113543757222840273
 ---
 
 What are value objects? And why are they useful.
