@@ -6,6 +6,7 @@ toc: true
 image: /images/2025-12-28/medpc.png
 #image: /images/2025-12-28/gigabyte.png
 draft: false
+fediverse: 115799048082389036
 ---
 
 It feels like this year has passed rapidly and without incident. Writing these

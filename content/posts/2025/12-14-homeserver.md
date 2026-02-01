@@ -5,6 +5,7 @@ date: 2025-12-14
 toc: true
 image: /images/2025-12-14/gigabyte.png
 draft: false
+fediverse: 115719389120225061
 ---
 
 _This article describes roughly how I configured a Mini PC as a NixOS
