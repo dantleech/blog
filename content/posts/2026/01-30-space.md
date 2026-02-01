@@ -316,7 +316,7 @@ git clone git@shithub.com:acmecorp/sanctions/
 
 Our main project is now only responsible for **plumbing** these packages
 together. This is however almost certainly going to be a **terrible**
-idea[^terrible]G:
+idea[^terrible]:
 
 - There's a huge amount of incidental effort involved in creating and
   maintaining separate repositories.
@@ -516,7 +516,7 @@ When working on a project I often find myself writing code that is not
 exclusively associated with the business or project and can be written without
 coupling to the framework or other libraries in the project. I'd
 class this as a **library**. An example might be an API client, a barcode reader, a
-deserializer, a markdown linter, a caster, etc.
+deserializer, a markdown linter[^linter], a caster, etc.
 
 While it might be tempting to create a new repository it comes with the
 burdens already mentioned and, while putting it in a "module" isn't the worst
@@ -595,3 +595,5 @@ Make every new feature a _greenfield_ feature.
 [^terrible]: the terribleness can be mitigated by retaining a single
     repository but applying a heavy, up-front, investment in your code in a
     single repository but with automation to _split_ packages from it.
+[^linter]: ok, a markdown linter sounds more like a project, but I'd still put
+    it in `lib`.
