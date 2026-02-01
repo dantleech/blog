@@ -315,7 +315,8 @@ git clone git@shithub.com:acmecorp/sanctions/
 ```
 
 Our main project is now only responsible for **plumbing** these packages
-together. This is however almost certainly going to be a **terrible** idea:
+together. This is however almost certainly going to be a **terrible**
+idea[^terrible]G:
 
 - There's a huge amount of incidental effort involved in creating and
   maintaining separate repositories.
@@ -591,4 +592,6 @@ Make every new feature a _greenfield_ feature.
 [^patch]:  Some developers [patch](https://github.com/cweagans/composer-patches) packages in the vendor directory.
 [^packagedesign]: "UncleBob" defined [package principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) in addition to the SOLID principles. Mathias Noback wrote a [great book](https://matthiasnoback.nl/book/principles-of-package-design/) on the topic.
 [^always]: "always" because at I'm writing this from the point of view of
-    somebody adding a new concept.
+[^terrible]: the terribleness can be mitigated by retaining a single
+    repository but applying a heavy, up-front, investment in your code in a
+    single repository but with automation to _split_ packages from it.

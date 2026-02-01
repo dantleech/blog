@@ -4,6 +4,7 @@ categories: [testing,phpunit,php]
 date: 2024-06-28
 toc: false
 image: /images/2024-06-28/lambdafactory.png
+fediverse: 112693235068954459
 ---
 
 One of the testing patterns that I've selected for over the years is combining data providers and `Closure`:

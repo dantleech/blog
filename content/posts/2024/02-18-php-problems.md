@@ -5,6 +5,7 @@ date: 2024-02-18
 toc: true
 draft: false
 image: /images/2024-02-18/problems.png
+fediverse: 111952331002937855
 ---
 
 For the past months I've been keeping a list of things I encountered in PHP

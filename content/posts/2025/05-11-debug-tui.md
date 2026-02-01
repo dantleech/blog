@@ -5,6 +5,7 @@ date: 2025-05-11
 toc: true
 image: /images/2025-05-11/debug-tui.png
 draft: false
+fediverse: 114489000214857038
 ---
 
 For the past months I've been working intermittently on an DBGP (xdebug) TUI:
