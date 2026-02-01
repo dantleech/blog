@@ -65,6 +65,7 @@
         </div>
         {{ end }}
         {{ if and (isset .Params "fediverse") (.Params.fediverse) }}
+            <hr/>
             {{ partial "comments.html" . }}
 
         {{ end }}
