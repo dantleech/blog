@@ -294,7 +294,7 @@ in your vendor directory:
 - They are usually open to extension.
 - They are naturally closed to modification (you can't change their code).
 - They they (hopefully) specify precisely the dependencies they need.
-- You do not control them and thus you cannot change them.
+- You do not control them thus you cannot change them.
 
 They are **well protected** from the chaos of your project. So it may be
 tempting to reorganise your code into distributable packages that are clearly
@@ -565,6 +565,7 @@ tell me which ones he uses but there are option that include:
 - [PHPArkitect](https://github.com/phparkitect/arkitect): Define architectural
   rules in PHP.
 - [PHPAT](https://www.phpat.dev/): Define architectural rules as PHPStan rules in a test-style DSL.
+- [DepTrac](https://deptrac.github.io/deptrac/): Define rules in YAML using collectors.
 
 {{< godzilla >}}
 That's not what they said in Waynes World.

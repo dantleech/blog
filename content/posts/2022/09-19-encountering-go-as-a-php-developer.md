@@ -1,6 +1,6 @@
 --- 
 title: Encountering Go as a PHP developer
-categories: [php,go]
+categories: [php,go,programming]
 date: 2022-09-19
 lastmod: 2022-09-22 23:50:00
 toc: false
