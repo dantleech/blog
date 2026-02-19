@@ -7,7 +7,7 @@ sitemap:
 
 ## PHP, Value Objects and You 🫵
 
-- [Joind.in](https://joind.in/event/php-uk-conference-2026/php-value-objects-and-you-): Rate the talk!
+- [Joind.in](https://joind.in/event/php-uk-conference-2026/php-value-objects-and-you-): **Rate the talk**! ⭐
 - [Slides](/slides/2025/dpc-php-value-objects-and-you/presentation.html): Slides for this talk.
 
 ### About Me
@@ -18,6 +18,13 @@ sitemap:
 - [Phpactor](https://github.com/phpactor/phpactor): Look at the Phactor language server.
 - [PHP-TUI](https://github.com/php-tui/php-tui): Make TUIs with PHP-TUI.
 - [StravaRS](https://github.com/dantleech/strava-rs): Play with my stupid Rust Strava activity client.
+
+### Mapping Libraries
+
+- [Valinor](https://valinor.cuyz.io/latest/): Type safe mapping library (soon to be super fast).
+- [Automapper](https://automapper.jolicode.com/latest/): Haven't tried this but it's a new mappng library that uses code generation.
+- [Symfony Serializer](https://symfony.com/doc/current/serializer.html): The
+  tried and tested Symfony serializer.
 
 ### Blog Posts
 
