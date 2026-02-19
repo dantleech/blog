@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Music
-menu: main
 type: plain
 ---
 
