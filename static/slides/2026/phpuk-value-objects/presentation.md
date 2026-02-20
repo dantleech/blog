@@ -1,0 +1,640 @@
+---
+paginate: true
+theme: inver
+---
+# PHP,  Value Objects and You 🫵
+
+Daniel Leech
+PHPUK 2026
+
+---
+
+# Start your stopwatch Dan
+
+---
+![bg right](me.jpg)
+
+![DTL Soft](../../assets/dtlsoft.png)
+
+* Daniel Leech
+* DTLSOFT
+* All things Programming
+* Phpactor, PHPBench
+* +500 abandonned projects you never heard of
+
+---
+# Happiness
+
+![bg](assets/runner.png)
+
+---
+
+# PHP,  Value Objects and **You** 🫵
+
+---
+
+# Why am I giving this talk?
+
+* People debating if they should use Value Objects (or collections, DTOs,
+  etc).
+* Scratching my head, because **I USE THEM ALL THE TIME**
+
+---
+
+# Modelling is a way to **describe** and **represent** your problems
+
+---
+
+## Toolbox
+
+![](assets/toolbox.png)
+
+
+---
+
+## Modelling
+
+
+![](assets/marble.png)
+
+
+---
+
+# What are **Value Objects**?
+
+---
+
+# TL;DR;
+
+Value Objects are Objects that represent a Value!
+
+---
+
+# **Values** have no identity other than themselves.
+
+---
+
+# **7** is a value. 
+
+---
+
+# **8** is a different value. 
+
+---
+
+# **IpAddress::new(127, 0, 0, 1)** is a value. 
+
+---
+
+# **IpAddress::new(127, 0, 0, 2)** is a different value. 
+
+---
+
+# The **identity** of a value object is the **sum of it's parts**
+
+---
+
+```php
+class Integer {
+    public function __construct(public int $value)
+    }
+    }
+}
+
+$value = new Integer(7);
+```
+
+---
+
+# Spotting a Value Object in the Wild 🐇
+
+---
+
+```php
+$date = Date::fromYmd(2011, 1, 1);
+```
+
+---
+
+
+```php
+$money = new Money(100, 'GBP');
+```
+
+---
+
+```php
+$location = Geolocation::fromLatLong(50.8137, -2.4747);
+```
+
+---
+
+```php
+$color = Color::fromRgb(165, 42, 42);
+```
+---
+
+# What about:
+
+```php
+$order = new Order(
+    orderId: Uuid::v4(),
+    state: OrderState::Cart,
+    items: [
+        ItemOne::fromSku("SKU-1")
+    ],
+    customer: $customer,
+);
+```
+
+* This is not a value object...
+* It is an **entity** and tracks the progression of an order.
+
+---
+
+# The Picture of Value Object
+
+---
+
+## MVP
+
+```php
+class Color {
+    public function __construct(
+        public int $red,
+        public int $green,
+        public int $blue,
+    ) {}
+}
+```
+
+---
+
+## Immutable
+
+```php
+final readonly class Color {
+    public function __construct(
+        public int $red,
+        public int $green,
+        public int $blue,
+    ) {}
+}
+```
+---
+
+## Correct
+
+```php
+final readonly class Color {
+    public function __construct(
+        public int $red,
+        public int $green,
+        public int $blue,
+    ) {
+        foreach ([$this->red, $this->green, $this->blue] as $color) {
+            if ($color < 0 || $color > 255) {
+                throw new Exception(sprintf(
+                    'Invalid color (%d, %d, %d). Values must be between 0 and 255',
+                    $red, $green, $blue,
+                ));
+            }
+        }
+    }
+}
+
+new Color(10, 100, 20);
+```
+
+---
+
+## Statically Constructed
+
+```php
+final readonly class Color {
+    private function __construct(
+        private int $red,
+        private int $green,
+        private int $blue,
+    ) {
+        // validate the color
+    }
+
+    public static function fromRgb($red, $green, $blue): self
+    {
+        return new self($red, $green, $blue);
+    }
+
+}
+
+Color::fromRgb(10, 100, 20);
+```
+
+---
+
+```php
+$color1 = new Color(127, 0, 12);
+$color2 = Color::fromHsv(127, 200, 112);
+```
+
+---
+
+```php
+$color1 = Color::fromRgb(127, 0, 12);
+$color2 = Color::fromHsv(127, 200, 112);
+$color3 = Color::fromInt(1233312);
+$color4 = Color::fromHex('ddaa11');
+// ...
+```
+
+---
+
+## Convertable
+
+```php
+final readonly class Color {
+    private function __construct(private int $red, private int $green, private int $blue) {
+        // ...
+    }
+
+    public static function fromRgb($red, $green, $blue): self
+    {
+        // ...
+    }
+
+    public function toRgb(): array
+    {
+        return [$this->red, $this->green, $this->blue];
+    }
+}
+```
+
+---
+
+```php
+$color = Color::fromHex('FFFFFF');
+$color->toHex(); // #FFFFFF
+```
+
+---
+
+```php
+$color = Color::fromRgb(255, 255, 255);
+$color->toHex(); // FFFFFF
+```
+
+---
+
+```php
+$color = Color::fromHex('FFFFFF');
+$color->toRgb(); // [255, 255, 255]
+$color->toHsv(); // ...
+$color->toColorName(); // ...
+```
+---
+
+## Aggregate Value Objects
+
+```php
+$range = ByteOffsetRange::fromByteOffsets(
+    ByteOffset::fromInt(5),
+    ByteOffset::fromInt(10),
+);
+
+$range = ByteOffsetRange::fromInts(5, 10);
+$range->start()->toInt();
+$range->end()->toRowCol($textDocument); // line 2, row 3
+```
+---
+
+## Smells
+
+
+![](assets/2025-03-20-11-50-38.png)
+
+---
+
+<!-- header: `make_payment`  -->
+
+```php
+function make_payment(int $amount, string $code): Reciept;
+```
+
+---
+
+
+```php
+function make_payment(Money $money): Receipt
+```
+
+---
+
+# Color Interpolation
+
+---
+
+<!-- header: `interpolate`  -->
+
+
+```php
+class ColorUtils {
+    public static function interpolate(int $r1, int $g1, int $b1, int $r2, int $g2, int $b2, float $amount): array
+    {
+        // ...
+    }
+}
+```
+
+---
+
+```php
+class ColorUtils {
+    public static function interpolate(Color $color1, Color $color2, float $amount): Color
+    {
+
+        // ...
+    }
+}
+```
+
+---
+
+```php
+class ColorUtils {
+    public static function interpolate(ColorRange $range, float $amount): Color
+    {
+        // ...
+    }
+}
+```
+
+---
+
+```php
+$color = ColorRange::fromColors(
+    Color::fromRgb(0,0,0),
+    Color::fromRgb(255,255,255)
+)->interpolateAt(0.5);
+```
+
+---
+
+```php
+$newColor = $chart->colorRange()->iterpolateAt(0.5);
+```
+
+----
+
+# Operators
+
+<!-- header: "Equality"  -->
+
+* `1 + 2`
+* `4 / 2`
+* `"foo" . "bar"`
+* `Color::red() == Color::red();`
+* `Color::red() > Color::red();` ?
+* `Color::red() * Color::red();` ?
+
+----
+
+<!-- header: "Equality"  -->
+
+* `Color::red()->equals(Color::red());`
+* `Color::red()->brighterThan(Color::lightRed());`
+* `$newColor = Color::red()->mix(Color::green());`
+---
+
+# Bad Practice
+
+
+![](assets/baddog.png)
+
+---
+
+# Constructor Bypass
+
+```php
+// bad
+final readonly class Color {
+    private int $red;
+    private int $green;
+    private int $blue;
+    public static function fromRgb(int $red, int $green, int $blue): self
+    {
+        $color = new self();
+        $color->red = $red;
+        $color->green = $green;
+        $color->blue = $blue;
+
+        $this->assertValid();
+
+        return $color;
+    }
+
+    public static function fromHex(string $hex): self
+    {
+        [$red, $green, $blue] =  // convert hex to r,g,b
+        $color = new self();
+        $color->red = $red;
+        $color->green = $green;
+        $color->blue = $blue;
+
+        return $color;
+    }
+}
+```
+
+---
+
+## Always Delegate to the Primary Constructor
+
+```php
+// good
+final readonly class Color {
+    private function __construct(private int $red, private int $green, private int $blue)
+    {
+        // validate here!
+    }
+
+    public static function fromHex(string $hex): self
+    {
+        [$red, $green, $blue] =  // convert hex to r,g,b
+        return new self($red, $green, $blue);
+    }
+}
+```
+
+---
+
+# The constructor is your **guard** against **invalid state**
+
+---
+
+# No Extends or Implements!
+
+```php
+// don't do this
+interface ValueObject {
+    public function eq(ValueObject $v): bool;
+    public function greaterThan(ValueObject $v): bool;
+}
+```
+
+---
+
+# Value Objects are **not** an abstract type
+
+---
+<!-- header: No Value Object Namespace  -->
+
+# No "ValueObject" Namespace!
+
+```text
+src/
+  Entity/
+  Form/
+  ValueObject/
+    Color.php
+    Gradient.php
+    Gradients.php // a collection!
+    InvoiceNumber.php
+    Uuid.php
+    LicencePlate.php
+```
+
+* This is more about project structure
+* And it's a whole different talk
+
+---
+
+```text
+src/
+  Runner/
+  Users/
+  Charts/
+    Color.php
+    Gradient.php
+    Gradients.php // a collection!
+```
+
+---
+
+# Give yourself the **space** to solve problems
+
+---
+
+# No "ValueObject" Suffix!
+
+```php
+// don't do this
+GradientValueObject::fromColors(ColorValueObject::red(), ColorValueObject::green());
+ColorValueObject::fromRgb(255, 10, ,255);
+DistanceValueObject::fromNauticalMiles(2.69978);
+```
+
+---
+
+# No "ValueObject" Suffix!
+
+```php
+// do this!
+Gradient::fromColors(ColorValueObject::red(), ColorValueObject::green());
+Color::fromRgb(255, 10, ,255);
+Distance::fromNauticalMiles(2.69978);
+```
+---
+
+# Values objects **are** the value
+
+---
+
+# No Manual Mapping!
+
+```php
+// don't do this
+class Money {
+
+    public function fromArray(array $data): self {
+        // so many problems below...
+        Assert::arrayHasKey('currency', $data);
+        Assert::arrayHasKey('amount', $data);
+        $currency = $data['currency'];
+        $amount = $data['amount'];
+        Assert::isInt($amount);
+        Assert::isString($currency);
+        return new self($currency, $amount);
+    }
+
+    public function toArray(): array {
+        return [ 
+            'currency' => $this->currency,
+            'amount' => $this->amount,
+        ];
+    }
+}
+```
+---
+
+# Mapping is a **hard** and **important** problem.
+
+- Mapping/serialization is not a domain concern.
+- If you must, use a library such as Valinor. 
+- See links at end of presentation.
+
+---
+
+# No Mocking!
+
+```php
+// don't do this
+$color = $this->createMock(Color::class);
+$color->method('toRgb')->willReturn([10, 20, 128]);
+
+$calculator->calculateNewColor($color);
+```
+
+---
+
+# No Mocking!
+
+```php
+// do this
+$color = Color::fromRgb(10, 20, 128);
+
+$calculator->calculateNewColor($color);
+```
+
+---
+
+# **NOBODY** wants you to mock Value Objects or other data classes.
+
+---
+
+# Virtues
+
+![bg right](assets/virtue.png)
+
+Value objects should:
+
+* ... be **immutable**: _though shalt **not** change_ (but thou mayst spawn new versions of thyself).
+* ... be **correct**: _though shalt **not** bare false representation_.
+* ... be **isolated**: _though shalt **not** associate with false prophets_.
+* ... be **functionally pure**: _though shalt **not** contaminate thine house nor the house of thy neighbor_
+* ... be **unknowable**: _thy shalt not reveal thy true self_.
+
+---
+
+# But don't listen to me
+
+* These are heuristics
+* Do what you need to do to solve your problem!
+* Try new things and learn from them!
+* Value objects are **easy**!
+
+---
+
+# The End
+
+![](barcode.png)
+https://www.dantleech.com/presentation/phpuk2026-value-objects-and-you/
