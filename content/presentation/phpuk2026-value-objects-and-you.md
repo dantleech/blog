@@ -7,8 +7,8 @@ sitemap:
 
 ## PHP, Value Objects and You 🫵
 
-- [Joind.in](https://joind.in/event/php-uk-conference-2026/php-value-objects-and-you-): **Rate the talk**! ⭐
-- [Slides](/slides/2025/dpc-php-value-objects-and-you/presentation.html): Slides for this talk.
+- [Joind.in](https://joind.in/event/php-uk-conference-2026/php-value-objects-and-you-): **Rate the talk**! 
+- [Slides](/slides/2026/phpuk-value-objects/presentation.html): Slides for this talk.
 
 ### About Me
 
