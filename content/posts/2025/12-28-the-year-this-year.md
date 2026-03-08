@@ -87,26 +87,11 @@ water dripping into the hallway, and as **seven** plumbers said there was no
 leak from my neighbors flat, it was on me to prove that it wasn't coming from
 my flat.
 
-So, every single day, I would poke a carmera into a hole in the ceiling to
-observe the water that was very slowly dripping and was slowly destroying the
-ceiling. The funny thing was **it happened even when my water was off** and it
-**stopped when my neighbor went on holiday**.
-
-![](/images/2025-12-28/waterhole.png)
-*Waterhole*
-
 This went on for months in my desperation I made a report, which included
 pretty clear evidence of the exact pipe that the water was coming from:
 
-
 ![](/images/2025-12-28/report.png)
 *Yes, I tried to make a 3D model*
-
-The relationship with my neighbor seemed to sour and she stopped talking to
-me. The **eighth** plumber to visit her flat **disregarded** my report
-(apparently) but found the leak in the exact same place I said it was in. The
-outcome of all of this is that the hall has a holes in the ceiling and the
-paintwork is ruined.
 
 The lesson learned is that fixing a problem in your flat is hard, fixing a
 problem in somebody elses flat when they seemingly want to ignore the problem
