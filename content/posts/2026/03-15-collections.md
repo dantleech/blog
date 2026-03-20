@@ -185,7 +185,7 @@ wasn't existing, but also indicates how many items _were_ in the collection.
 > **Right - but Dan** - that's **lots** of effort for **little gain** - _why would you do this to me?_
 
 The benefit is in _scale_. While using `$array[3]` once is a **minor crime**
-doing this 100 times is **treason to Godzilla** you're _scaling_ the incomprehsibility of
+doing this 100 times is **treason to Godzilla** you're _scaling_ the incomprehensibility of
 your test suite and in production code you risk introducing `null` where
 `null` has no place to be - causing failures far, far away from the from where the
 defect was introduced.
@@ -217,7 +217,7 @@ final readonly class Queues implements \IteratorAggregate
 }
 ```
 
-Let's go back to our test case; in the followng example `$queues` is an `array`:
+Let's go back to our test case; in the following example `$queues` is an `array`:
 
 ```php
 class TransportTest extends TestCase
@@ -244,7 +244,7 @@ class TransportTest extends TestCase
 }
 ```
 
-In the next example `$queues` is our collecton:
+In the next example `$queues` is our collection:
 
 ```php
 class TransportTest extends TestCase
