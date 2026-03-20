@@ -171,7 +171,7 @@ There's hardly any difference! The difference is not significant in the way the 
 Warning: Undefined array key 1 in Command line code on line 6
 ```
 
-☝ that's how it fails with an array. **You suck**! This is how it fails with a collection:
+☝ that's how it fails with an array. **You suck**! This is how it fails with a collection 👇:
 
 ```text
 No queue exists at offset 1 (there are 0 items)
