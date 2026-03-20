@@ -15,8 +15,9 @@ your code far easier to understand and maintain.
 
 I use collections **all the time**. In other posts in this series I've
 reflected on how certain categories of classes are, to my mind, misused. I can make
-no such comparison for collections because I have rarely seen collections used in the
-wild. Which is **insane** because they are so easy and yet so **powerful**.
+no such comparison for collections because I have **rarely seen collections used in the
+wild**. Which is **insane** because they can play such a strong role in making
+your code more reliable and easy to maintain.
 
 ## The Bare Minimum
 
