@@ -365,9 +365,10 @@ return $queues->byName($name);
 ```
 
 In addition, as with value objects, inheriting behaviors on your collections
-dilutes the **meaningfulness** of your model. If the program only requires 2
-operations on the collection, why would you introduce 15 others that have no
-bearing on the problem being solved?
+dilutes the **meaningfulness** of your model. If the problem only requires 2
+operations on the collection, why would you **introduce 15 irrelevant others**
+via. inheritance that encourage code relating to the collection to be written
+in the wrong location?
 
 ## When to use collections?
 
