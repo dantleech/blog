@@ -5,6 +5,7 @@ date: 2026-03-15
 toc: true
 image: /images/2026-04-20/collections.png
 draft: false
+fediverse: 116262819909561259
 ---
 
 Collections, like [Value]({{< ref "11-24-php-value-objects-and-you" >}}) and Domain objects, allow you to push logic relating
