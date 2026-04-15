@@ -5,6 +5,10 @@ menu: main
 type: plain
 ---
 
+### 2026
+
+- February: [PHP UK, London](https://www.phpconference.co.uk/): PHP, Value Objects, and You [📹 video](https://www.youtube.com/watch?v=woNLYVamn3A)
+
 ### 2025
 
 - May: [Phpers Day, Poznan](https://phpers.day/): The One Hour Expression Language [slides and resources](/presentation/phpers2025-onehourexpr/)
