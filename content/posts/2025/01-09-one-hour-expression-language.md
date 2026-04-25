@@ -5,9 +5,12 @@ date: 2025-01-09
 toc: true
 draft: false
 image: /images/2025-01-18/onehourexpr.jpg
+featured: true
 ---
 
 This blog post is based on a talk I did entitled **The One Hour Expression Language** and aims to provide a review of both the concepts and the code in that talk[^talk].
+
+<!--more-->
 
 An expression language[^interpreter] in our sense is something that **evaluates**
 an **expression** where an expression is a sequence of bytes which are highly likely

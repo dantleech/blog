@@ -1,31 +1,17 @@
 {{ define "main" }}
 	<main>
-    <div class="container text-center">
-        {{ if ne (len $.Site.Taxonomies.categories) 0 }}
-          {{ $largestFontSize := 1.4 }}
-          {{ $smallestFontSize := 1.0 }}
-          {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
-          {{ $max := add (len (index $.Site.Taxonomies.categories.ByCount 0).Pages) 1 }}
-          {{ $min := len (index $.Site.Taxonomies.categories.ByCount.Reverse 0).Pages }}
-          {{ $spread := sub $max $min }}
-          {{ $fontStep := div $fontSpread $spread }}
-            {{ range $name, $taxonomy := $.Site.Taxonomies.categories }}
-              {{ $tagCount := len $taxonomy.Pages }}
-              {{ $currentFontSize := (add $smallestFontSize (mul (sub $tagCount $min) $fontStep) ) }}
-              {{ $weigth := div (sub (math.Log $tagCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
-              {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
-                <a class="px-1 text-gray-800 visited:text-gray-500" href="{{ "/blog/categories/" | relURL }}{{ $name | urlize }}" 
-                class="tagcloud-item" style="font-size: {{ $currentFontSize }}rem;">
-                  {{ $name }}
-                </a>
+        <div class="grid grid-cols-4 divide-x-3 divide-dashed divide-indigo-500"> 
+            <div class="col-span-3">
+            {{ $paginator := .Paginate (sort (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) "File.Path" "desc") }}
+            {{ range $paginator.Pages }}
+                {{ .Render "summary" }}
             {{ end }}
-        {{ end }}
-    </div>
-		{{ $paginator := .Paginate (sort (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) "File.Path" "desc") }}
-		{{ range $paginator.Pages }}
-			{{ .Render "summary" }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
+            {{ partial "pagination.html" . }}
+            </div>
+            <div class="col p-7">
+            {{ partial "taglist.html" . }}
+            </div>
+        </div>
 	</main>
 {{ partial "sidebar.html" . }}
 {{ end }}

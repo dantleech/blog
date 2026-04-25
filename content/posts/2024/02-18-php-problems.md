@@ -6,6 +6,11 @@ toc: true
 draft: false
 image: /images/2024-02-18/problems.png
 fediverse: 111952331002937855
+featured: true
+summary:
+    For the past months I've been keeping a list of things I encountered in PHP
+    that I've found to be _problematic_, or in other words **things that annoy
+    me**. 
 ---
 
 For the past months I've been keeping a list of things I encountered in PHP

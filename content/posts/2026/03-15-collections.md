@@ -6,6 +6,13 @@ toc: true
 image: /images/2026-04-20/collections.png
 draft: false
 fediverse: 116262819909561259
+featured: true
+summary: |
+    Collections, like Value and Domain objects, allow you to push logic relating
+    to a concept to the object representing that concept - in this case a **collection
+    of items** - the items themselves could be value objects, entities, domain objects,
+    or whatever you like. They contribute to a **rich domain model** and will make
+    your code far easier to understand and maintain.
 ---
 
 Collections, like [Value]({{< ref "11-24-php-value-objects-and-you" >}}) and Domain objects, allow you to push logic relating

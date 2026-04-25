@@ -6,6 +6,10 @@ toc: true
 image: /images/2025-05-11/debug-tui.png
 draft: false
 fediverse: 114489000214857038
+featured: true
+summary: |
+    Debug TUI is a debugging client for Xdebug that runs in your terminal.
+    This articles showcases some of its features
 ---
 
 For the past months I've been working intermittently on an DBGP (xdebug) TUI:

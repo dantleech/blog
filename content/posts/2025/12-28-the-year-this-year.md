@@ -16,6 +16,8 @@ related projects, and my evenings often spent running or cycling before
 sitting in the slob position and drinking beer, eating pizza and watching
 Netflix.
 
+<!--more-->
+
 Windows and Chimneys
 --------------------
 

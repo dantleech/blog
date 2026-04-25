@@ -7,6 +7,11 @@ toc: true
 image: /images/2026-01-31/engine.png
 draft: false
 fediverse: 115990600487740811
+featured: true
+summary: |
+    How you organise a project has great implications on the long term
+    maintainability of that project. This article suggests steps you can take to 
+    ensure that your project avoids becoming a big-ball-of-mud.
 ---
 
 Many projects I see are organised in a way seemingly advocated by the frameworks they

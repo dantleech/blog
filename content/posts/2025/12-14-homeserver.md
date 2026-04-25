@@ -8,10 +8,12 @@ draft: false
 fediverse: 115719389120225061
 ---
 
-_This article describes roughly how I configured a Mini PC as a NixOS
+This article describes roughly how I configured a Mini PC as a NixOS
 homeserver hosting [Pihole](https://pi-hole.net/), [Syncthing](https://syncthing.net/), [Jellyfin](https://jellyfin.org/), [Home Assistant](https://www.home-assistant.io/) and [Music
 Assistant](https://www.music-assistant.io/). It is not a tutorial but may
-provide some useful snippets._
+provide some useful snippets.
+
+<!--more-->
 
 ## History
 
