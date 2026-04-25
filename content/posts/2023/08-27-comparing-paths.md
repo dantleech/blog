@@ -4,6 +4,11 @@ categories: [strava,programming]
 date: 2023-08-27
 draft: false
 toc: true
+featured: true
+summary: |
+    In this post I attempt to explain, badly, through the use of a new graphics
+    tablet, how I was able to create an algorithm to find similar GPX routes
+    for the purpose of filtering similar routes in my Strava TUI.
 image: /images/2023-08-27/finish.png
 ---
 

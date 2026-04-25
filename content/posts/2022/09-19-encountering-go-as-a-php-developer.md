@@ -3,6 +3,7 @@ title: Encountering Go as a PHP developer
 categories: [php,go,programming]
 date: 2022-09-19
 lastmod: 2022-09-22 23:50:00
+featured: true
 toc: false
 aliases:
   - /blog/2022/09/19/encountering-go-as-php-a-developer/
@@ -17,6 +18,8 @@ wrote it I had been unsure about everything, questioning each line and
 frequently googling things like "how to do a foreach in Go". In just two
 months I was now able to look at this code and immediately see several ways in
 which it could be improved. I now had opinions and felt confident.
+
+<!--more-->
 
 I had been a PHP developer for around 14 years. At least 99.9% of the code
 I've written has been PHP, my coding experience and skill set has evolved
