@@ -1,14 +1,14 @@
 {{ define "main" }}
 	<main>
-        <div class="grid grid-cols-4 divide-x-3 divide-dashed divide-indigo-500"> 
-            <div class="col-span-3">
+        <div class="grid grid-cols-1 lg:grid-cols-4 divide-x-2 divide-grey-500"> 
+            <div class="col col-span-1 lg:col-span-3">
             {{ $paginator := .Paginate (sort (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) "File.Path" "desc") }}
             {{ range $paginator.Pages }}
                 {{ .Render "summary" }}
             {{ end }}
             {{ partial "pagination.html" . }}
             </div>
-            <div class="col p-7">
+            <div class="col p-8">
             {{ partial "taglist.html" . }}
             </div>
         </div>

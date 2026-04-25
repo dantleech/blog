@@ -11,19 +11,26 @@
         {{ end }}
     </div>
     {{ end }}
-	<div class="grid grid-flow-col gap-4">
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {{ if isset .Params "image" }}
-        <div>
-            {{ $image := resources.Get .Params.image }}
-            {{ $image = $image.Fit "300x300" }}
-            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"/>
-        </div>
+            <div class="col-span-1 mx-auto">
+                {{ $image := resources.Get .Params.image }}
+                {{ $image = $image.Fit "300x300" }}
+                <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"/>
+            </div>
+            <div class="lg:col-span-3 md:col-span-1">
+            {{ .Summary }}
+            {{ if .Truncated }}
+                <a href="{{ .Permalink }}">Read more...</a>
+            {{ end }}
+            </div>
+        {{ else }}
+            <div class="col md:col-span-2 lg:col-span-4">
+            {{ .Summary }}
+            {{ if .Truncated }}
+                <a href="{{ .Permalink }}">Read more...</a>
+            {{ end }}
+            </div>
         {{ end }}
-        <div>
-		{{ .Summary }}
-		{{ if .Truncated }}
-			<a href="{{ .Permalink }}">Read more...</a>
-		{{ end }}
-        </div>
 	</div>
 </article>
