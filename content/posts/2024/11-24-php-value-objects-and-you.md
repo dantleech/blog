@@ -5,6 +5,9 @@ date: 2024-11-24
 toc: true
 image: /images/2024-11-24/title.png
 fediverse: 113543757222840273
+featured: true
+summary: |
+    Value Objects can be one of the most powerful tools in your modelling toolbox. They make code expressive, maintainable, deterministic and cohesive. Yet they are sometimes misunderstood and it's often difficult for developers to realise where and how they can use them. This blog post introduces them and explains why you must use them.
 ---
 
 What are value objects? And why are they useful.
