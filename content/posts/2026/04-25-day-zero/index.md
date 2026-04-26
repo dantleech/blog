@@ -8,12 +8,14 @@ This year I've decided to cycle to the 23rd [PHPDay Conference](https://www.phpd
 the conference for the past two years as an attendee and this year I'm a speaker. It's a fun
 event in a beautiful city and I will **drink beer and eat pizza**.
 
-The decision to cycle was, in-part, made due the success of my "Gravel" ride
+<!--short-->
+
+The decision to cycle was, in-part, made due the great success of my "Gravel" ride
 to Mannheim for the [Unkonf conference](https://www.unkonf.de/en) [in October
 last year](/blog/categories/mannheim2025/). I then cycled 1,700k in 16
-interesting days (including rest days). This journey promises a similar
-distance to Verona and then **possible more miles** to get back to the UK
-depending on how terrible I feel.
+interesting days (including rest days) without too much pain in my bum. This
+journey promises a similar distance to Verona and then **possible more miles**
+to get back to the UK depending on how terrible I feel.
 
 ## Routing
 
@@ -40,11 +42,9 @@ The Calais route promises **more mountains** and more sandwiches. So I'm
 taking that one. Neither of the routes are exact and I'll be largely making
 them up as I go.
 
-{{< callout >}}
-There's the obvious concern that I'd be spending significant sandwiches in
-Germany, which is far from ideal, but in anycase better than the poor sandwich culture
-of France.
-{{</ callout >}}
+> There's the obvious concern that I'd be spending significant sandwiches in
+> Germany, which is far from ideal, but in anycase better than the poor sandwich culture
+> [^sandwich] of France.
 
 ## Fitness
 
@@ -81,78 +81,91 @@ Kit List
 
 ### Personal
 
-- Garmin fenix watch
+- ✅ Garmin fenix watch
 
 ### Cycle wear
 
-- Helmet
-- Bib shorts
-- Jersey
-- Cycling glasses
-- SPD cycling shoes
-- Merino wool socks
-- Merino wool gloves
+- ✅ Helmet
+- ✅ Bib shorts
+- ✅ Jersey
+- ✅ Cycling glasses
+- ✅ SPD cycling shoes
+- ✅ Merino wool socks
+- ✅ Merino wool gloves
 
 ### Handlebar bag
 
-- Framework 13 Laptop
-- 60w USB-C power supply
-- Portable 60w charger
-- Bum cream / toiletries / toilet paper / earplugs
-- Cables
+- ✅ Framework 13 Laptop
+- ✅ 60w USB-C power supply
+- ✅ Portable 60w charger
+- ✅ Bum cream / toiletries / toilet paper / earplugs
+- ✅ Cables
   - Garmin watch
-  - USB-C x 2 (various)
-  - Mini USB x 1 (Sansa Clip)
-  - Micro USB x 1 (Front light)
-- Bone conducting headphones
-- Sansa Clip MP3 player and headphones
-- Swiss army knife
-- Bank cards
+  - USB-C ✅ 2 (various)
+  - Mini USB ✅ 1 (Sansa Clip)
+  - Micro USB ✅ 1 (Front light)
+- ✅ Bone conducting headphones
+- ✅ Sansa Clip MP3 player and headphones
+- ✅ Swiss army knife
+- ✅ Bank cards
+- ✅ Passport
+- ✅ Presentation clicker
+- ✅ EU power adapter
+- ✅ Rain jacket
+
+### Handlebar bag sidepockets
+
+- ✅ Head scarf thing
 
 ### Handlebar
 
-- Garmin Edge 540
-- Phone
-- Bell
+- ✅ Garmin Edge 540
+- ✅ Phone
+- ✅ Bell
 
-### Framebag
+### Lower Framebag
 
-- Front light
-- Back light 
-- Shitty lock
-- Spare inner tube
-- Repair patches
-- Tire levers x 3
-- Chain lube
-- Multi-tool
-- Head scarf thing
-- Energy gels
+- ✅ Front light
+- ✅ Back light 
+- ✅ Shitty lock
+- ✅ Spare inner tube
+- ✅ Repair patches
+- ✅ Tire levers ✅ 3
+- ✅ Chain lube
+- ✅ Multi-tool
+
+### Upper Framebag
+
+- ✅ Energy gels
 
 ### Left Fork
 
-- Tent and poles
-- Ground sheet
+- ✅ Tent and poles
+- ✅ Ground sheet
 
 ### Right Fork: Dry bag
 
-- Sleeping bag
-- Air matress
-- Stove and Saucepand
-- 1 meal: Chili-Sin-Carne & BrownRice
+- ✅ Sleeping bag
+- ✅ Air matress
+- ✅ Stove and Saucepan and Lighter
+- ✅ 1 meal: Chili-Sin-Carne & BrownRice
 
 ### Saddlebag
 
-- Patagonia convertible trousers
-- Conference shirt
-- "Barefoot" shoes
-- Thermal bottoms
-- Merino wool top
-- 2x Pants (underwear)
-- 2x Socks
-- 2x wratchet straps
+- ✅ Patagonia convertible trousers
+- ✅ Conference shirt
+- ✅ "Barefoot" shoes
+- ✅ Thermal bottoms
+- ✅ Merino wool top
+- ✅ 2x Pants (underwear)
+- ✅ 2x Socks
+- ✅ 2x wratchet straps
+- ✅ Mini first aid kit
 
 ## Departure
 
 Will I go tomorrow? Maybe.
 
 [^beer]: a country also rich in Belgium beer.
+[^sandwich]: I've been informed that the sandwich culture in France is more
+    exciting if you're not a vegetarian.

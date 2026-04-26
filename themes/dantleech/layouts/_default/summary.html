@@ -24,6 +24,18 @@
                 <a href="{{ .Permalink }}">Read more...</a>
             {{ end }}
             </div>
+        {{ else if isset .Params "bundle_image" }}
+            <div class="col-span-1 mx-auto">
+                {{ $image := .Resources.Get .Params.bundle_image }}
+                {{ $image = $image.Fit "300x300" }}
+                <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"/>
+            </div>
+            <div class="lg:col-span-3 md:col-span-1">
+            {{ .Summary }}
+            {{ if .Truncated }}
+                <a href="{{ .Permalink }}">Read more...</a>
+            {{ end }}
+            </div>
         {{ else }}
             <div class="col md:col-span-2 lg:col-span-4">
             {{ .Summary }}
