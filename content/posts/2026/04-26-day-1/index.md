@@ -93,8 +93,8 @@ tomorrow. I cancelled but was charged the full £28.50 regardless.
 
 ---
 
-As the train rolled into Dover Priory I could see Dover Castle and the White
-Cliffs and I made my way directly the short distance to the ferry terminal.
+As the train rolled into Dover Priory I could see [Dover Castle](https://en.wikipedia.org/wiki/Dover_Castle) and the [White
+Cliffs](https://en.wikipedia.org/wiki/White_Cliffs_of_Dover) and I made my way directly the short distance to the ferry terminal.
 
 
 ![](whitecliffs.png)
@@ -144,5 +144,5 @@ basic budget room. I've been warned that there are adolescents in the
 adjoining rooms and that I should dial reception if they make noise.
 
 Tomorrow I'll have breakfast and probably head towards Brugge and maybe Ghent,
-possibly staying with a colleague who lives in the area should it be
+possibly staying with a friend who lives in the area should it be
 convenient.
