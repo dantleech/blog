@@ -7,7 +7,7 @@ time: 8h3m
 bundle_image: ./202604261821-almostinbruge.jpg
 gpx: /gpx/verona26/day2.gpx
 aliases:
-  - blog/2026/04/27/calias-to-ghent
+  - /blog/2026/04/27/calias-to-ghent
 ---
 
 I'm at Bram's house sitting on a bed feeling the familiar exhaustion of a long
@@ -183,4 +183,4 @@ blog photos to the lapto then we went for pizza and I had a few drinks.
 
 Tomorrow I'll head in the direction that I'm heading.
 
-
+e
