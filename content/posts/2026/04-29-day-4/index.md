@@ -162,7 +162,7 @@ toilet to fill meine Wasserflaschen I left with no water.
 ![Camera/IMG_20260429_152015_813.jpg](202604281750-coke.jpg)
 _Coke but no Water_
 
-I ditched the helmet in the forest. It was getting hot and my head was getting
+I ditched the helmet in the forest[^ditch]. It was getting hot and my head was getting
 hot and I'm never riding more than 13mph anyway - I need to buy a hat though.
 Fortunately I'm not in Spain so I'm not going to get busted by the cops.
 
@@ -206,3 +206,7 @@ _Aachen Cathedral_
 
 ![Camera/IMG_20260429_205505_900.jpg](202604291843-pizza.jpg)
 _Pizza and Beer_
+
+---
+
+[^ditch]: I didn't actually throw it away. I put it on the back of my bike.
