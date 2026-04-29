@@ -1,5 +1,5 @@
 --- 
-title: "To Achen"
+title: "To Aachen"
 categories: [verona2026]
 date: 2026-04-29
 gpx: /gpx/verona26/aachen.gpx
@@ -83,9 +83,9 @@ it desperately tries to recaulate the route and turn me around. **BEEP!** **BEEP
 "fuck off". **BEEP!** **BEEP!** You'd think there would be a "pause navigation" option but
 the only option seemed to be to stop it completely which would've been more
 **BEEP!** trouble than it's **BEEP!** worth.
-
-![Camera/IMG_20260429_121041_599.jpg](202604281750-woods.jpg)
-_Woods_
+_
+![Camera/IMG_20260429_133508_733.jpg](202604281750-trail.jpg)
+_Narrow track_
 
 My chosen supermarket was the wrong one. It was huge and I had to leave my
 bike outside - it was a very respectable area and it wasn't in danger of being
@@ -102,9 +102,6 @@ akward.
 
 ![Camera/IMG_20260429_132158_438.jpg](202604281750-lunch.jpg)
 _Unsheltered Bannana and Cheese and Dohnut Lunch by a naturally noisy Watery place on a Bench provided by God_
-_
-![Camera/IMG_20260429_133508_733.jpg](202604281750-trail.jpg)
-_Narrow track_
 
 The trail was very sandy in plaes causing the bike to glide at best and to
 stop at worst requiring me to push it out onto more stable ground. I probably
