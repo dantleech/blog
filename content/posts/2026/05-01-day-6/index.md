@@ -193,9 +193,9 @@ still not sure which language to speak. The offical language is
 number of German signs too. There are _no_ English translations on "history
 boards" that are found at historic places and I've had two occasions where
 English was not understood at all. The receptionist struggled with English
-and continued in French "Vous avez reservez une dormitoire Femme". I laughed
-at my mistake but also was worried that there would be no male dormitories
-(there were).
+and continued in French "Vous avez reservez une dormitoire Femme". "Oh no!"
+but I was also was worried that there would be no male dormitories[^dorms] (there
+were).
 
 Despite my doubts in the morning I was both fed and ahead of time. I arrived
 at the hostel at 17:00. Wherever I end up going I'll need to find sun-cream
@@ -204,3 +204,4 @@ tomorrow and maybe some lip-balm.
 ---
 
 [^forgot]: I forgot that it was dangerous. I should really throw it away...
+[^dorms]: The Hostelling International hostels always seem limited to single gender dormitories.
