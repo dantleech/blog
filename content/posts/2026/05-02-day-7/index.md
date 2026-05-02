@@ -8,8 +8,8 @@ distance: 126.92
 time: 6h25m
 ---
 
-Now sitting on an exposed table of a pizzeria on a street in Nancy. Kids are rolling in the
-street and there is a spattering of other customers but it's
+Now sitting on an exposed table of a pizzeria on a street in Nancy. Kids are
+rolling in the street and there is a spattering of other customers but it's
 not busy. I'm waiting to order. I think I'm hungry, I'm certainly thirsty as I
 just about ran out of the water that I was rationing today not having found a
 convenient place to top the bottles up and the day was longer than I thought
@@ -22,6 +22,10 @@ would be a nice place to visit, beyond it was a town, Charmes, that would
 comfortably exceed the 100 limit, perhaps too confortably to not be
 comfortable. I didn't realise at the time that I was looking at miles and not
 kilometers.
+
+> At this point my order arrived and I drank an 9% "artisanal italian beer"
+> which tasted like liquid gold and the pizza was a Calzone, which is what I
+> ordered but I didn't know what that was until now. It was good.
 
 I shared a 4 bed dorm with a guy from South Korea. He was hopping between
 cities in Europe and had a youtube channel "I want to be an influencer" he
@@ -161,7 +165,7 @@ My legs often refuse to work after stopping and I need to work back into the
 pedals slowly to regain my speed. I probably need a recovery day.
 
 ![Camera/IMG_20260502_175724_885.jpg](202605011748-tanlines.jpg)
-_Uneven Tan Lines_
+_I should probably align my lycra. I usually wear two shoes_
 
 Judging from my position on the map I'm about half way to Verona, which means
 that I have at least 4 days at my disposal.
