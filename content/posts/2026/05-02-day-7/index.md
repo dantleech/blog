@@ -90,7 +90,7 @@ this one had icing on it, so maybe that's a difference.
 _Park_
 
 Metz is a beautiful city. It was busy but at the same time _calm_. Everything
-seemed relaxed and I cycled slowly aimlessly navigating the calm crowds
+seemed relaxed and I cycled slowly aimlessly navigating the humming crowds
 and investigating the cathedral and trying to find somewhere to get something
 to eat.
 
