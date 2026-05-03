@@ -182,15 +182,16 @@ I decided to follow the track regardless and I humped my way down steeply over
 the rivets and ruts and tree branches before the trail evened out and
 eventually transitioned to a road.
 
-Eventually I hit the bottom and passed through the town of
+Hitting the bottom I then passed through the town of
 [Scherwiller](https://fr.wikipedia.org/wiki/Scherwiller) which featured lots
 of extremely old German-style buildings.
 
 ![Camera/IMG_20260503_172614_062.jpg](202605022106-oldvillage.jpg)
 _Old buildings_
 
-Eventually I got to the town of [Sélestat](https://en.wikipedia.org/wiki/S%C3%A9lestat) and made my way far past the center
-to the outer ring and the Ibis Budget Hotel.
+Finally I got to the town of
+[Sélestat](https://en.wikipedia.org/wiki/S%C3%A9lestat) and made my way far
+past the center to the outer ring and the Ibis Budget Hotel.
 
 ![Camera/IMG_20260503_173927_703.jpg](202605022106-trainplain.jpg)
 _Train yard_
