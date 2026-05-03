@@ -32,15 +32,15 @@ and fell upon Sélestat - the name seems half French and half German. The route
 would be mostly flat until the end when it wouldn't be (700m).
 
 I left Nancy and hit the road. Making what seemed like good speed and my legs
-felt recovered and good. I followed the computer until I heard people cheering
+felt recovered and good. I followed the computer until I heard people
+cheering.
 
-Eventually I got to the town of 
-and I carried on until the cycle path was fenced off for a traiathlon. The
-"Tu ne pe pas continuer en fait, tu va ou?" "Je ne sais pas". I had to take a
-detour and the road continued to be relatively fast and flat and I was making
-good time and heading towards the interesting part of the day, which was
-contained in the last 30 miles until then all I could think about was lunch
-and the **squeaking**.
+The cycle path was fenced off for a traiathlon. The
+"Tu ne peux pas continuer en fait - tu va ou?" the marashall asked "Je ne sais
+pas" I replied. I had to take a detour and the road continued to be relatively
+fast and flat and I was making good time and heading towards the interesting
+part of the day, which was contained in the last 30 miles until then all I
+could think about was lunch and the **squeaking**.
 
 What was the **squeaking** sound? I'd rather my bike didn't squeak and it was
 squeaking when I was peddaling. It had been doing this for days in certain
