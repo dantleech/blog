@@ -4,8 +4,8 @@ categories: [verona2026]
 date: 2026-05-04
 gpx: /gpx/verona26/blackforest.gpx
 bundle_image: ./202605031714-view.jpg
-distance: 128.37
-time: 6h35m
+distance: 103.5
+time: 6h6m
 ---
 
 I am now sitting in a very minimal but cosy wooden cabin that I've paid for at
