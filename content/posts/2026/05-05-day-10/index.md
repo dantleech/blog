@@ -157,7 +157,7 @@ _First look at Bodensee_
 _Tower by the See_
 
 ![Camera/IMG_20260505_183858_281.jpg](202605051622-pizza.jpg)
-_Pizza Veggie_
+_Pizza Veggie (with olive stones)_
 
 Possibly the most annoying thing about Germany is the seeming lack of Belgian
 beer or beer of a similar quality. Instead I had to buy a can of Carling Elephant which is somehow
