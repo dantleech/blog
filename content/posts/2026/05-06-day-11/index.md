@@ -113,11 +113,12 @@ _The sky!_
 ![Camera/IMG_20260506_150422_749.jpg](202605051914-alpine2.jpg)
 _Alpine 1_
 
-The climbing today was all on the road which was surprising. I know there are
-numerous forestry tracks running through the mountains but I also remember
-climbing insane gradients and that the heat from the V-Brakes frequently melted my inner
-tube on the descents requiring me to run down the mountain while pushing the
-deflated bike with one hand (it was a cheap mountain bike that was gifted to me).
+The climbing today was all on the road which was surprising. From my time here
+I know there are numerous forestry tracks running through the mountains but I
+also remember climbing insane gradients and that the heat from the V-Brakes
+frequently melted my inner tube on the descents requiring me to run down the
+mountain while pushing the deflated bike with one hand (it was a cheap
+mountain bike that was gifted to me).
 
 ![Camera/IMG_20260506_155203_029.jpg](202605051914-alpin3.jpg)
 _Snow-capped mountains_
