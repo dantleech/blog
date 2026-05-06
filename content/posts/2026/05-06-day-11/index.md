@@ -46,7 +46,7 @@ having to wait for a train to pass.
 The sky was dirty silver and the morning mountains of the Alps were glowing in
 the east They became larger as I cycled the 30 miles or so to the eastern side
 of Bodensee and Austria. I made very good time and listend to my music and
-smiled benignly at the Austrians as they passed me on their bicycles. A heron
+smiled benignly at the Swiss as they passed me on their bicycles. A heron
 startled me by launching itself from a bush a meter ahead and proceeded
 to clumsily gain some altitude before setting down again.
 
@@ -143,12 +143,7 @@ Oberstdorf Hostel. I had to put my jacket and then my gloves. I was lucky
 to avoid the rain which promptly started again after checking in.
 
 There is plently of availability at the Hostel. The weather looks good on
-Friday, so I _may_ take tomorrow as a rest day. The plan would then be to go
-to Innsbruck, then somewhere, then possibly Trento for a couple of days in a
-hostel there, then, maybe, to Verona.
-
-
-
-
-
-
+Friday, so I _may_ take tomorrow as a rest day - my bum is increasingly tender
+and seems to need it. The plan would then be to go to Innsbruck, then
+somewhere, then possibly Trento for a couple of days in a hostel there, then,
+maybe, to Verona.
