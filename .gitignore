@@ -1,4 +1,5 @@
 node_modules/
 public/
 resources/
+/static/gpx/*/_aggregated.gpx
 .hugo_build.lock

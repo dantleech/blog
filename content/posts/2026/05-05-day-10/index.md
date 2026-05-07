@@ -1,6 +1,7 @@
 --- 
 title: "Bodensee"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-05-05
 gpx: /gpx/verona26/konstanz.gpx
 bundle_image: ./202605041739-flowers.jpg

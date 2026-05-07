@@ -1,6 +1,7 @@
 --- 
 title: "Troisvierges to Remerschen (Schengen)"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-05-01
 gpx: /gpx/verona26/remerschen.gpx
 bundle_image: ./202604301748-damn.jpg

@@ -12,6 +12,11 @@ pagerSize = 50
         [markup.goldmark.renderer]
             unsafe = true
 
+[taxonomies]
+category = "categories"
+tour = "tour"
+tag = "tags"
+
 [params]
 umami_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 map_api_key = "pk.eyJ1IjoiZGFudGxlZWNoIiwiYSI6ImNqeGhqeHlhZDA4Y2UzdG1uMnNpbzM0amQifQ.x8iRgnISRZPon1DFkiXoFw"

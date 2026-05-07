@@ -1,6 +1,7 @@
 --- 
 title: "To Aachen"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-04-29
 gpx: /gpx/verona26/aachen.gpx
 bundle_image: ./202604281750-lunch.jpg

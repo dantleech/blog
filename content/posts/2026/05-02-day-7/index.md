@@ -1,6 +1,7 @@
 --- 
 title: "La Moselle"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-05-02
 gpx: /gpx/verona26/nancy.gpx
 bundle_image: ./202605011748-moselle.jpg

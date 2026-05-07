@@ -1,6 +1,7 @@
 --- 
 title: "Calais to Ghent"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-04-27
 distance: 172
 time: 8h3m

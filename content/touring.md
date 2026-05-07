@@ -9,7 +9,7 @@ Riding bike with much equipment over long distances with tent and painful.
 
 ## Tours
 
-- **2026**: Verona [Calais to Verona](/blog/categories/verona2026)
+- **2026**: Verona [Calais to Verona](/tour/verona26)
 - **2025**: Mannheim [Ouistream to Mannheim](/blog/categories/mannheim2025)
 - **2024**: Pyrenees [Accross the Pyrenees](/blog/categories/spain2024)
 - **2023**: Brittany [Weymouth to Brittany](/blog/categories/spain2023)
