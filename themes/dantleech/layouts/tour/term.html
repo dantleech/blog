@@ -6,19 +6,22 @@
     </div>
     {{ end }}
     {{ $distance := 0 }}
-    {{ $gpxs := slice }}
+    {{ $hasGpxes := false }}
 
+    {{ $metadata := dict }}
     {{ range .Paginator.Pages }}
         {{ if isset .Params "gpx" }}
-            {{ $gpxs = $gpxs | append .Params.gpx }}
+            {{ $metadata = merge $metadata (dict .Params.gpx (dict "name" .Title "url" .Permalink )) }}
+            {{ $hasGpxes = true }}
         {{ end }}
     {{ end }}
 
-    {{ if gt ($gpxs | len) 0 }}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.0/gpx.min.js" defer></script>
+    {{ if eq ($hasGpxes) true }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.2.0/gpx.min.js" defer></script>
     <div id="mapid"></div>
     <script type="module">
         var map = L.map('mapid');
+        const metadata = {{ $metadata | jsonify | safeJS }};
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -30,11 +33,23 @@
         const options = {
           async: true,
           polyline_options: { color: 'red' },
+          markers: {
+              startIcon: null,
+              endIcon: null,
+          }
         };
         var loaded = 0;
 
         for (const url of urls) {
-            let gpx = new L.GPX(url, options).addTo(map).on('loaded', (e) => {
+            let gpx = new L.GPX(url, options).on('addpoint', (e) => {
+                if (e.point_type === 'waypoint') {
+                    var meta = metadata[e.point.options.title];
+                    if (meta != undefined) {
+                        e.point._popup._content = `<a href="${meta.url}">${meta.name}</a>`;
+                        return;
+                    }
+                }
+            }).addTo(map).on('loaded', (e) => {
               loaded++;
               if (loaded == urls.length) {
                   map.fitBounds(e.target.getBounds());

@@ -1,6 +1,7 @@
 --- 
 title: "Day 3: Péronne"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-05
 draft: false
 distance: 165
