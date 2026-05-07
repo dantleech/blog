@@ -2,6 +2,8 @@
 title: "Rest Day"
 categories: [verona2026]
 tour: [ verona26 ]
+distance: 0
+time: 0
 date: 2026-05-07
 ---
 
