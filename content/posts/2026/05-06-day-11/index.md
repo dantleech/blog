@@ -65,7 +65,7 @@ _Airship_
 _Getting Closer_
 
 ![Camera/IMG_20260506_101404_950.jpg](202605051914-bestviewinbodensee.jpg)
-_"The best Seeblick in Bodensee" (apparently)_
+_"The Best Seeblick in Bodensee" (apparently)_
 
 I was heading the border of Austria - and the region of Vorarlberg and my
 course would take me through the town of Dornbirn where I worked a

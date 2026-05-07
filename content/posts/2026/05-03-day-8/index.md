@@ -1,11 +1,13 @@
 --- 
 title: "Massif des Vosges"
 categories: [verona2026]
-date: 2026-05-02
+date: 2026-05-03
 gpx: /gpx/verona26/vosges.gpx
 bundle_image: ./202605022106-notrai.jpg
 distance: 128.37
 time: 6h35m
+aliases:
+  - /blog/2026/05/02/massive-des-vosges/
 ---
 
 Sitting in a Buffalo Grill. Ordered a vegetarian Ranch Burger and a large
