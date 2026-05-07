@@ -51,11 +51,14 @@ foreach ($gpxFiles as $tag => $xpaths) {
     $dom->appendChild($gpxNode);
 
     foreach ($xpaths as $xpath) {
-        $counter = 0;
+        $trkPtOffset = 0;
         $trkNode = $dom->createElementNS(GPX_NS, 'trk');
-        foreach ($xpath->query('//gpx:trkpt') as $trackPoint) {
+        $nameNode = $dom->createElementNS(GPX_NS, 'name', 'Fuck');
+        $trkNode->appendChild($nameNode);
+        $trkPtList = $xpath->query('//gpx:trkpt');
+        foreach ($trkPtList as $trackPoint) {
             $trkPointNode = $dom->importNode($trackPoint, true);
-            if (0 === $counter++ % RETAIN_EVERY_NTH) {
+            if (0 === ++$trkPtOffset % RETAIN_EVERY_NTH) {
                 $trkNode->appendChild($trkPointNode);
             }
         }

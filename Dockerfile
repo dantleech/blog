@@ -8,11 +8,13 @@ RUN tar -zxvf hugo.tar.gz
 RUN /hugo version
 
 # We add git to the build stage, because Hugo needs it with --enableGitInfo
-RUN apk add --no-cache git
+RUN apk add --no-cache git php php-dom
 
 # The source files are copied to /site
 COPY . /site
 WORKDIR /site
+
+RUN php scripts/aggregate_gpx.php
 
 # And then we just run Hugo
 RUN /hugo --minify --enableGitInfo
