@@ -26,7 +26,7 @@
             id: 'mapbox/streets-v11',
             accessToken: '{{ .Site.Params.map_api_key }}'
         }).addTo(map);
-        const urls = {{ $gpxs | jsonify | safeJS }};
+        const urls = ['/gpx/verona26/_aggregated.gpx'];
         const options = {
           async: true,
           polyline_options: { color: 'red' },
