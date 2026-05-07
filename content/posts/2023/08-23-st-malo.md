@@ -1,6 +1,7 @@
 --- 
 title: "Day 11: St-Malo"
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-23
 distance: 42
 time: 2h48m

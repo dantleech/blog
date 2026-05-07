@@ -1,6 +1,7 @@
 --- 
 title: "Day 10: St-Jacut-de-la-mer"
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-22
 distance: 107
 time: 6.5h

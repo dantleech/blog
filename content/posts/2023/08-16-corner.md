@@ -1,6 +1,7 @@
 --- 
 title: "Day 4: The Corner of France"
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-16
 distance: 85
 time: 7h00m

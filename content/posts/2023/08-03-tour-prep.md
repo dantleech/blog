@@ -1,6 +1,7 @@
 --- 
 title: Cycling the Pyrenees
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-03
 draft: false
 ---

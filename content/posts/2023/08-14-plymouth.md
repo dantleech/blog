@@ -1,6 +1,7 @@
 --- 
 title: "Day 2: Plymouth"
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-14
 distance: 110
 time: 8h12m

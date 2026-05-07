@@ -1,6 +1,7 @@
 --- 
 title: "Day 7: Lesconil"
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-19
 distance: 107
 time: 7h

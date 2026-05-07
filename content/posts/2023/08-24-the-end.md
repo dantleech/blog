@@ -1,6 +1,7 @@
 --- 
 title: "Day 12: The End"
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-24
 distance: 6
 time: 30m

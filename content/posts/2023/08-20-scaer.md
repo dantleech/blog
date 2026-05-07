@@ -1,6 +1,7 @@
 --- 
 title: "Day 8: Scaér"
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-20
 distance: 90
 time: 6h

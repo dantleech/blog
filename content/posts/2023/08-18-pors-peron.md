@@ -1,6 +1,7 @@
 --- 
 title: "Day 6: Pors Peron"
 categories: [spain2023]
+tour: [spain2023]
 date: 2023-08-18
 distance: 108
 time: 7h
