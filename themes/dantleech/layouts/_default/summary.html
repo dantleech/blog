@@ -5,11 +5,16 @@
         {{ if and (isset .Params "distance") (.Params.distance) }},
         distance: {{ .Params.distance }}km, time: {{ .Params.time}}
         {{ end }}
+        {{ if .Params.tour }}
+            , tour {{ range .Params.tour }}
+                <a href="{{ "/tour/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        {{ end }}
         {{ if .Params.categories }}
             , tagged: {{ range .Params.categories }}
-        <a href="{{ "/blog/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
-    </div>
+                <a href="{{ "/blog/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        </div>
     {{ end }}
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {{ if isset .Params "image" }}
