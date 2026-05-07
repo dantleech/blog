@@ -1,6 +1,7 @@
 --- 
 title: "Day 10: Saarbrüken"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-12
 distance: 137
 time: 6h17m

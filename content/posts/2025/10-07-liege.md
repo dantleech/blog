@@ -1,6 +1,7 @@
 --- 
 title: "Day 5: Liege"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-07
 draft: false
 distance: 180

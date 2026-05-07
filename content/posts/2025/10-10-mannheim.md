@@ -1,6 +1,7 @@
 --- 
 title: "Day 8: Mannheim"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-10
 draft: false
 image: /images/mannheim2025/202510092159-shoes.jpg

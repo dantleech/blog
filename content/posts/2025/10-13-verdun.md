@@ -1,6 +1,7 @@
 --- 
 title: "Day 11: Verdun"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-13
 distance: 181
 time: 8h42m

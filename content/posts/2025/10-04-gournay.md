@@ -1,6 +1,7 @@
 --- 
 title: "Day 2: Saint-Arnoult to Gorunay-en-Bray"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-04
 draft: false
 distance: 179

@@ -1,6 +1,7 @@
 --- 
 title: "Day 13: Beauvais"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-15
 distance: 176
 time: 8h35m

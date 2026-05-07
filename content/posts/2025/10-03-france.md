@@ -1,6 +1,7 @@
 --- 
 title: "Day 1: Portsmouth to Saint-Arnoult"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-03
 draft: false
 distance: 52

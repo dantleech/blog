@@ -1,6 +1,7 @@
 --- 
 title: "Day 7: Dusseldorf"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-09
 draft: false
 distance: 145

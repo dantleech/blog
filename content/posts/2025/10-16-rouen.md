@@ -1,6 +1,7 @@
 --- 
 title: "Day 14: Rouen"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-16
 distance: 107
 time: 5h32m

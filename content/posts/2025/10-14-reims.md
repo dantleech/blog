@@ -1,6 +1,7 @@
 --- 
 title: "Day 12: Reims"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-14
 distance: 154
 time: 7h36m

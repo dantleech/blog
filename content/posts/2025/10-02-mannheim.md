@@ -1,6 +1,7 @@
 --- 
 title: "Day 0: Cycling to Mannhiem"
 categories: [mannheim2025,bt]
+tour: [mannheim2025]
 date: 2025-10-02
 draft: false
 distance: 7

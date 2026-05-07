@@ -1,6 +1,7 @@
 --- 
 title: "Day 16: Weymouth"
 categories: [mannheim2025]
+tour: [mannheim2025]
 date: 2025-10-18
 distance: 135
 time: 6h24m
