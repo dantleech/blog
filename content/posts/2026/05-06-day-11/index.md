@@ -1,6 +1,7 @@
 --- 
 title: "Vorarlberg"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-05-06
 gpx: /gpx/verona26/vorarlberg.gpx
 bundle_image: ./202605051914-heart.jpg

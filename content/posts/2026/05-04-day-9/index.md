@@ -1,6 +1,7 @@
 --- 
 title: "Der Schwarzwald"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-05-04
 gpx: /gpx/verona26/blackforest.gpx
 bundle_image: ./202605031714-view.jpg

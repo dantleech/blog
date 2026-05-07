@@ -1,6 +1,7 @@
 --- 
 title: "Ghent to wherever I am now"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-04-28
 gpx: /gpx/verona26/ghent.gpx
 bundle_image: 202604271831-grafiti.jpg

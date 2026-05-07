@@ -6,52 +6,12 @@
     </div>
     {{ end }}
     {{ $distance := 0 }}
-    {{ $gpxs := slice }}
-
-    {{ range .Paginator.Pages }}
-        {{ if isset .Params "gpx" }}
-            {{ $gpxs = $gpxs | append .Params.gpx }}
-        {{ end }}
-    {{ end }}
-
-    {{ if gt ($gpxs | len) 0 }}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.0/gpx.min.js" defer></script>
-    <div id="mapid"></div>
-    <script type="module">
-        var map = L.map('mapid');
-        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-
-            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-            maxZoom: 16,
-            id: 'mapbox/streets-v11',
-            accessToken: '{{ .Site.Params.map_api_key }}'
-        }).addTo(map);
-        const urls = {{ $gpxs | jsonify | safeJS }};
-        const options = {
-          async: true,
-          polyline_options: { color: 'red' },
-        };
-        var loaded = 0;
-
-        for (const url of urls) {
-            let gpx = new L.GPX(url, options).addTo(map).on('loaded', (e) => {
-              loaded++;
-              if (loaded == urls.length) {
-                  map.fitBounds(e.target.getBounds());
-              }
-            });
-        };
-
-    </script>
-    {{ end }}
-
     {{ range .Paginator.Pages }}
         {{ .Render "summary" }}
         {{ if isset .Params "distance" }}
             {{ $distance = add $distance .Params.distance }}
         {{ end }}
     {{ end }}
-
     {{ partial "pagination.html" . }}
     {{ if gt $distance 0 }}
     <p class="mt-4 bg-yellow-200 block rounded-sm p-4">{{ math.Round $distance }}km of achievement on this page!</p>

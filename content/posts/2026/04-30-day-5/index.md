@@ -1,6 +1,7 @@
 --- 
 title: "Aachen to Troisvierges"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-04-29
 gpx: /gpx/verona26/troisvierges.gpx
 bundle_image: ./202604292145-adventurebike.jpg

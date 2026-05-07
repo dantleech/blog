@@ -4,6 +4,7 @@ categories: [verona2026]
 date: 2026-05-03
 gpx: /gpx/verona26/vosges.gpx
 bundle_image: ./202605022106-notrai.jpg
+tour: [ verona26 ]
 distance: 128.37
 time: 6h35m
 aliases:

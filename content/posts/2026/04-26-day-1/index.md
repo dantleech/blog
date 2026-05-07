@@ -1,6 +1,7 @@
 --- 
 title: "Verona: Day One"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-04-26
 distance: 4
 time: 30m

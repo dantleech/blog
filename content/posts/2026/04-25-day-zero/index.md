@@ -1,6 +1,7 @@
 --- 
 title: "Verona: Day Zero"
 categories: [verona2026]
+tour: [ verona26 ]
 date: 2026-04-25
 ---
 
