@@ -1,6 +1,7 @@
 --- 
 title: "Col de Tourmalet"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-08-29
 draft: false
 distance: 100

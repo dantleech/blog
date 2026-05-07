@@ -1,6 +1,7 @@
 --- 
 title: "Rest Day"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-08-30
 draft: false
 distance: 0

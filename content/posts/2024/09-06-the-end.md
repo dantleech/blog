@@ -1,6 +1,7 @@
 --- 
 title: "The End"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-09-06
 draft: false
 distance: 20

@@ -1,6 +1,7 @@
 --- 
 title: "Sand Feliu de Guixos"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-08-23
 draft: false
 image: /images/spain2024/202408222313-mojjito.jpg

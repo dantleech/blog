@@ -1,6 +1,7 @@
 --- 
 title: "Saint Jean Port de Pied"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-09-01
 draft: false
 distance: 101

@@ -1,6 +1,7 @@
 --- 
 title: "Dawn of the Pyrenees"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-08-25
 draft: false
 distance: 98.9

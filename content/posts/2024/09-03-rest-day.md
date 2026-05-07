@@ -1,6 +1,7 @@
 --- 
 title: "Rest Day 2"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-09-03
 draft: false
 map_label: City Stay Hostel

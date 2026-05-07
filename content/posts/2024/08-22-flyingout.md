@@ -1,7 +1,7 @@
 --- 
 title: "Barcleona con la Bici"
 categories: [spain2024]
-tour: [spain2023]
+tour: [spain2024]
 image: /images/spain2024/202408212009-planecloud.jpg
 date: 2024-08-22
 draft: false

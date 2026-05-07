@@ -1,6 +1,7 @@
 --- 
 title: "San Sebastian"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-09-02
 draft: false
 distance: 99.6

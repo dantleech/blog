@@ -1,6 +1,7 @@
 --- 
 title: "Ferry Day"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-09-05
 draft: false
 distance: 20

@@ -1,6 +1,7 @@
 --- 
 title: "En France"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-08-24
 draft: false
 distance: 122

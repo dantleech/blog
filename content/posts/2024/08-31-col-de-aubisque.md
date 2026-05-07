@@ -1,6 +1,7 @@
 --- 
 title: "Col d'Aubisque"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-08-31
 draft: false
 distance: 69

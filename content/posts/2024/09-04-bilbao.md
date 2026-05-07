@@ -1,6 +1,7 @@
 --- 
 title: "Bilbao"
 categories: [spain2024]
+tour: [spain2024]
 date: 2024-09-04
 draft: false
 distance: 120
