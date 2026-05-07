@@ -34,6 +34,12 @@
                         <td>{{ .Params.time}}</td>
                     </tr>
                     {{ end }}
+                    {{ if isset .Params "gpx" }}
+                    <tr>
+                        <th>Elevation</th>
+                        <td><span id="gpx_elevation_gain"></span></td>
+                    </tr>
+                    {{ end }}
                 </tbody>
             </table>
         </div>

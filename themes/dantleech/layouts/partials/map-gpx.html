@@ -1,3 +1,19 @@
+{{ if .Page.Params.gpx_info }}
+<table class="table-fixed w-full">
+    <tr>
+        <th>Start / end</th>
+        <td><span id="gpx_start_time"></span> / <span id="gpx_end_time"></span></td>
+        <th>Distance</th>
+        <td><span id="gpx_distance_km"></span>km <span id="gpx_distance_miles"></span></td>
+    </tr>
+    <tr>
+        <th>Moving time</th>
+        <td><span id="gpx_moving_time"></span><span id="gpx_total_time"></span></td>
+        <th>Elevation</th>
+        <td><span id="gpx_elevation_gain"></span></td>
+    </tr>
+</table>
+{{ end }}
 <div id="mapid"></div>
 <script type="module">
     var map = L.map('mapid');
@@ -6,7 +22,7 @@
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 16,
         id: 'mapbox/streets-v11',
-        accessToken: '{{ .Site.Params.map_api_key }}'
+        accessToken: 'pk.eyJ1IjoiZGFudGxlZWNoIiwiYSI6ImNqeGhqeHlhZDA4Y2UzdG1uMnNpbzM0amQifQ.x8iRgnISRZPon1DFkiXoFw'
     }).addTo(map);
     const url = '{{ .Params.gpx }}';
     const options = {
@@ -17,12 +33,7 @@
     const gpx = new L.GPX(url, options).on('loaded', (e) => {
       map.fitBounds(e.target.getBounds());
     }).addTo(map).on('loaded', (e) => {
-        set_stat('distance_km', (e.target.get_distance() / 1000).toLocaleString(undefined));
-        set_stat('start_time', format_time(e.target.get_start_time()));
-        set_stat('end_time', format_time(e.target.get_end_time()));
-        //set_stat('moving_time', e.target.get_moving_time());
-        set_stat('total_time', e.target.get_total_time() / 1000 / 60 / 60);
-        set_stat('elevation_gain', e.target.get_elevation_gain());
+        set_stat('elevation_gain', `${Math.round(e.target.get_elevation_gain())}m`);
     });
 
     function format_time(date) {
