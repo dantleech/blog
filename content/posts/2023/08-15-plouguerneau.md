@@ -1,7 +1,6 @@
 --- 
 title: "Day 3: Brittany"
 categories: [spain2023]
-tour: [spain2023]
 date: 2023-08-15
 distance: 81
 time: 7h00m

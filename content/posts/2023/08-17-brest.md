@@ -1,7 +1,6 @@
 --- 
 title: "Day 5: Brest"
 categories: [spain2023]
-tour: [spain2023]
 date: 2023-08-17
 distance: 67
 time: 4h27m

@@ -1,7 +1,6 @@
 --- 
 title: "Day 9: Bosmeleac"
 categories: [spain2023]
-tour: [spain2023]
 date: 2023-08-21
 distance: 116
 time: 6h30m
