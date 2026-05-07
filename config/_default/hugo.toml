@@ -14,6 +14,7 @@ pagerSize = 50
 
 [params]
 umami_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+map_api_key = "pk.eyJ1IjoiZGFudGxlZWNoIiwiYSI6ImNqeGhqeHlhZDA4Y2UzdG1uMnNpbzM0amQifQ.x8iRgnISRZPon1DFkiXoFw"
 
 [params.comment.fediverse]
     enable = true
