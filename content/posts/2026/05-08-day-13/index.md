@@ -254,4 +254,5 @@ _Innsbruck I am in_
 
 I had planned to run the Parkrun at 9am tomorrow and then, I'd probably leave
 relatively late at 10:00 or 10:30 to climb a very high mountain pass and do a
-another very hard day. I'll see how I feel.
+another very hard day. I'll see how I feel. At the moment I don't feel full of
+beans.
