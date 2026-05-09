@@ -123,8 +123,9 @@ Joch was the pass that was on the way, rising to about 2,100m.
 ![Camera/IMG_20260509_132641_566_1.jpg](202605081814-penserstart.jpg)
 _It begins_
 
-Soon after starting the climb I stopped to eat my Egg sandwich. This would
-take at least an hour and probably more.
+Soon after starting the climb I stopped to eat my Egg sandwich. The climb would
+take at least an hour and probably more so eating lunch before hand seemed to
+make sense.
 
 ![Camera/IMG_20260509_140513_677.jpg](202605081814-oops.jpg)
 _Rock_
