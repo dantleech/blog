@@ -154,13 +154,13 @@ ahead of me to appreciate the view. He spoke to me. I was beyond being social
 at this point. I tried to smile and wave. "Vorsicht! Es ist sehr luftig" I
 think he said. I fake laughed and smiled because I had no idea what he said
 but by default I assume they are making some attempt at humour. My reaction
-proved inappropriate when my brain translated the sentance "Be careful! It's
+proved inappropriate when my brain translated the sentance to "Be careful! It's
 very windy" (it turns out however, that it was not).
 
 ![Camera/IMG_20260509_154513_011.jpg](202605081814-rainbow2.jpg)
 _Above the rainbow_
 
-The top edged closer and closer. I was not enjoying the climb and was very
+The summit edged closer and closer. I was not enjoying the climb and was very
 much looking forward to getting to the top. I can compare it with running a 5k
 race. When you're running it you wish you weren't. But you signup to do them
 again and again.
@@ -177,7 +177,7 @@ _Alien landscape_
 _The sign_
 
 ![Camera/IMG_20260509_155541_176.jpg](202605081814-descent.jpg)
-_Looking down at the desdent_
+_Looking down at the descent_
 
 ![Camera/IMG_20260509_155740_539.jpg](202605081814-view2.jpg)
 _Looking back again_
@@ -189,8 +189,8 @@ but after about 15 minutes the temperature returned to a more tolerable level.
 ![Camera/IMG_20260509_161113_785.jpg](202605081814-descent1.jpg)
 _Descending_
 
-20 miles were spent in descent. If I were staying in Bolzano the rest of the
-day would have been a descent. But no. I was staying in a hotel 8.5 kilometers
+20 miles were spent going down. If I were staying in Bolzano it would have
+been downhill all the way. But no. I was staying in a hotel 8.5 kilometers
 from Bolzano.
 
 Physically I was exhausted from the Penserjoch climb and malnourished too. The
@@ -199,6 +199,9 @@ climb and it would take more than an hour to achieve it.
 
 ![Camera/IMG_20260509_173441_075.jpg](202605081814-bonus.jpg)
 _Bonus climb_
+
+It didn't stop there either, there was subsequently another 100m climb
+followed by two 60m climbs. I was not impressed.
 
 ![Camera/IMG_20260509_175155_056.jpg](202605081814-sun.jpg)
 _But the weather was good_
