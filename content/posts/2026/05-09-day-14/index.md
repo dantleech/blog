@@ -6,7 +6,9 @@ distance: 125.32
 time: 8h12m
 gpx: /gpx/verona26/weiserof.gpx
 bundle_image: ./202605081814-alien.jpg
-date: 2026-05-08
+date: 2026-05-09
+aliases:
+  - /blog/2026/05/08/penser-joch-and-italia/
 ---
 
 I left my universal power adapter in Konstanz because it electrocutes people
