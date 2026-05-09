@@ -18,9 +18,10 @@ I was wrong. "Do you have a UK to Italy power adapter?" I asked the hotel
 receptionist. He looked at me, understood and said "No". I said that an EU to
 Italy adapter would be just as good, but he said "No" but feeling this wasn't
 an adequate answer asked around, then found the concierge and we decided that
-all I needed was an Italian USB charger, there was a flurry of activity and
-searching before the concierge let me borrow his own one. I assume he's the
-concierge, I've never been in a hotel that has one before.
+all I needed was an Italian USB charger, there was a flurry of activity
+between the two as they searched high and low before the concierge kindly let me
+borrow his own one. I assume he's the concierge, I've never been in a hotel
+that has one before.
 
 > The hotel is a "Spa" and is in the middle of nowhere and has the most
 spectacular view of a mountain.
@@ -50,9 +51,9 @@ which penetrated through my ear plugs.
 
 This morning I left the Montagu hostel in search of breakfast.
 I paid €8 for two bread rolls, a sachet of butter and two tiny jars of jam and a coffee. At
-this point I new I was going to Bolzano. Bolzano seems like a pretty big
+this point I knew I was going to Bolzano. Bolzano seems like a pretty big
 place. I'll find a hostel ... NOPE. No hostels. A hotel? NOPE they start at
-€100 a night. A .. campsite? The only campsite looked like it wasn't for
+€100 a night. A .. campsite?[^ampsite] The only campsite looked like it wasn't for
 people like me. Widening the search however yielded a "hotel" for €45 that
 included breakfast and was "just" 8.5 kilometers from Bolzano. I didn't
 realise at the time that most of those 8.5 kilometers would be at a 14%
@@ -211,3 +212,9 @@ _Bad weather stays in the mountains_
 
 As I type this I'm incredibly tired (I need to sit down after climbing a
 flight of stairs). My bum hurts (🎉). Possibly I'm hungry too, I'm not sure.
+
+---
+
+[^ampsite]: wild camping didn't occur to me, although there are of course
+    plentiful opportunities. Possibly the reason occur to me is the reason I
+    didn't want to stay on a campsite: It's fucking cold at night.
