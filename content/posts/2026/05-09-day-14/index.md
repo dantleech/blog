@@ -141,11 +141,14 @@ jacket. Multiple scenarios filitted through my mind:
   tree.
 - Getting to the top and being struck lightening.
 
-![Camera/IMG_20260509_142943_229.jpg](202605081814-bike.jpg)
-_Not knowing if I'm going to be hit by a storm_
-
 Fortunately none of those things happened. The rain was moderate despite the
 rumble of thunder and dark clouds over neighbouring mountains.
+
+I stopped to get my rain jacket out of my bag and there was a chair and I sat
+in it and I wanted to close my eyes and sleep.
+
+![Camera/IMG_20260509_142943_229.jpg](202605081814-bike.jpg)
+_Not knowing if I'm going to be hit by a storm_
 
 ![Camera/IMG_20260509_152506_325.jpg](202605081814-weather.jpg)
 _Things don't look so great over there_
