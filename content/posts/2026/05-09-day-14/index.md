@@ -61,7 +61,7 @@ gradient.
 I had intended to do the [Innsbruck Parkrun](https://www.parkrun.co.at/innpromenade/) at 9am but my calf muscles were
 still completely knackered.
 
-I cycled through the center of Innsbruck and left on a very busy road. I
+Through the center of Innsbruck I went and left on a very busy road. I
 questioned if this was the correct road to take and was reassured by passing
 (or being passed by) a
 number of, not just cyclists, but bikepackers. It wasn't a nice road to be on
