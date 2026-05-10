@@ -11,7 +11,7 @@ date: 2026-05-10
 
 "Vegetarian pizza", "So this is the Ortolano pizza, it has augergine,
 zucchini, mozeralla, artichoke and pepperoni" "Peppeoni is meat" "Without the
-peperonni then". I've been wandering through Rovereto for about an hour and a
+peperonni then". I've been wandering through historical Rovereto for about an hour and a
 half. It's damp and incredibly quiet. It's Sunday but it's a stark contrast to
 Innsbruck. I'm hungry again and my beer just arrived. I'm theo only customer
 in this pizzeria - probably on account of it being 6PM. I'm staying at the
@@ -150,7 +150,9 @@ flat and not in the mountians. I'll need to either get it repaired or figure
 out how to fix it myself.
 
 I now find myself about 35 flat miles from Verona. I've booked two nights at
-this hostel and I'll probably be in Verona on the 12th. The conference
-organisers have booked my hotel for the 13th, 14th and 15th. I don't think
-this is the penultimate blog post though. I am probably going to ride back
-over the Alps to catch the train back to England.
+this hostel. Tomorrow I'll need to do my chores and maybe visit a museum or
+something. I might go for a run although that might preclude me being able to
+run in Verona based on last time. I'll probably be in Verona on the 12th. The
+conference organisers have booked my hotel for the 13th, 14th and 15th. I
+don't think this is the penultimate blog post though. I am probably going to
+ride back over the Alps to catch the train back to England.
