@@ -114,10 +114,9 @@ in two days time.
 _San Marco Hotel_
 
 My room was not ready so I got changed in the toilet and ordered a beer and a
-toasted sandwich and started writing this blog. Before the nice receptionist
-delivered me my room key and I showered, spent 30 minutes hand-washing my
-things and then napped for 30 minutes before embarking on a walk around
-Verona.
+toasted sandwich and started writing this blog. The nice receptionist
+delivered me my room key and then I showered, spent 30 minutes hand-washing my
+things, napped for 30 minutes and then embarked on a walk around Verona.
 
 ![Camera/IMG_20260512_182137_881.jpg](202605111653-verona.jpg)
 _Here I am, in Verona. I'm the man behind the phone._
