@@ -48,9 +48,9 @@ didn't feel particularly optimistic about the weather in the upcoming days.
 
 It was raining during breakfast and it was spitting as I pedalled out from
 Rovereto following the Garmin track which joined the clearly
-signed cycle path to Verona which follows the
-[Adige](https://en.wikipedia.org/wiki/Adige) river to Verona and then the sun
-came out.
+signed cycle path which follows the
+[Adige](https://en.wikipedia.org/wiki/Adige) river to Verona and beyond and
+then the sun came out.
 
 ![Camera/IMG_20260512_093910_042.jpg](202605111653-morn.jpg)
 _Morning_
