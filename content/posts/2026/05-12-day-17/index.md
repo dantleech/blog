@@ -43,7 +43,7 @@ bread was bad and fell apart as you spread butter on it.
 I said hello to a man in cycling lycra pants. He was cycling from Rome back
 home to the Netherlands with what was surely his wife. There was also another,
 older, couple who I met as I wheeled my bike out from the shed who were just
-cycling up to Bolzano. Both were caught out by the weather yesterday and
+cycling up to Bolzano. Both couples were caught out by the weather yesterday and
 didn't feel particularly optimistic about the weather in the upcoming days. 
 
 It was raining during breakfast and it was spitting as I pedalled out from
@@ -68,7 +68,8 @@ provided some benefit.
 ![Camera/IMG_20260512_100032_701.jpg](202605111653-vines.jpg)
 _Vines_
 
-The scenery was nice. My gears were working - mostly. When I switch down to
+The scenery was nice. My gears were working after having been repaired in
+Rovereto ... mostly. When I switch down to
 the lowest gear it seems to get stuck somewhere before finally, lazily,
 falling into place. Maybe some lubricant is required.
 
@@ -77,7 +78,7 @@ _Big_
 
 There were lots of road cyclists (again). More frowns than smiles and I'd
 attribute this to the fact that the wind was blowing in my favour and not
-theirs.
+theirs and on some stretches I was hitting 20mph (33kmph) without trying.
 
 ![Camera/IMG_20260512_103500_438.jpg](202605111653-hellobetter.jpg)
 _Wine_
