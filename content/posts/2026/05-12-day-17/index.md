@@ -11,7 +11,7 @@ date: 2026-05-12
 
 I am arrived at the Hotel San Marco in Verona. It's a beautiful day and I'm
 eating a toasted cheese sandwich and drinking a cold beer in the familiar
-surroudings of the hotel which has is and has been the venue for the PHPDay
+surroudings of the hotel which is and has been the venue for the PHPDay
 conference. I'm here two days early and have plenty of time to rehearse and
 refine my talk 
 
@@ -19,9 +19,9 @@ After finishing my blog post last night I sat down and started to read my
 book. I was reading my book because I purchased it a an hour earlier at a
 book shop. The _foreign_ section of _foreign_ bookshops often have a distilled
 selection of the classics - Moby Dick, The Great Gatsby, 1984, etc. I had read
-most of the ones I recognised decades ago but there two that I hadn't -
-"Tender is the Night" by Scott Fitzgerald and "To the Lighthouse". I've never
-read Virginia Wolfe.
+(or tried to read) most of the ones I recognised decades ago but there were
+two that I hadn't - "Tender is the Night" by Scott Fitzgerald and "To the
+Lighthouse". I've never read Virginia Wolfe.
 
 It was pleasant to sit quietly in the hostel and read. It's a form of mental
 excercise and it's the type of activity I seem incapable of engaging in after
