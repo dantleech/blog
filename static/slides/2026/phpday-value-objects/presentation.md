@@ -1,7 +1,10 @@
 ---
 paginate: true
-theme: inver
+theme: default 
 ---
+
+<!-- size: 4:4 -->
+<!-- class: invert -->
 # PHP,  Value Objects and You 🫵
 
 Daniel Leech
@@ -28,6 +31,13 @@ PHPDay 2026
 # Cycling
 
 ![bg](assets/bike.png)
+
+---
+
+# Cycling
+
+
+![bg](assets/calais-to-verona.png)
 
 ---
 
@@ -303,42 +313,6 @@ $color->toRgb(); // [255, 255, 255]
 
 ---
 
-## Pure
-
-```php
-// BAD
-final readonly class Color {
-    public static function fromText($text): self
-    {
-        Container::get('http_text_to_color_service')->callExteneralEndpoint($text);
-    }
-}
-```
-
----
-
-## Pure
-
-```php
-// GOOD
-final readonly class Color {
-    public static function fromText($text): self
-    {
-        return match ($text) {
-            'red' => self::fromRgb(255, 0, 0),
-            'green' => self::fromRgb(0, 255, 0),
-            'blue' => self::fromRgb(0, 0, 255),
-            default => throw new \RuntimeException(sprintf(
-                'Invalid color name "%s"',
-                $text
-            )),
-        };
-    }
-}
-```
-
----
-
 ## Values in Values
 
 ```php
@@ -364,8 +338,6 @@ $range = ByteOffsetRange::fromInts(5, 10);
 
 ---
 
-<!-- header: `make_payment`  -->
-
 ```php
 function make_payment(int $amount, string $code): Reciept;
 ```
@@ -382,8 +354,6 @@ function make_payment(Money $money): Receipt
 # Color Interpolation
 
 ---
-
-<!-- header: `interpolate`  -->
 
 
 ```php
@@ -435,8 +405,6 @@ $newColor = $chart->colorRange()->iterpolateAt(0.5);
 
 ---
 
-<!-- header: `center_map`  -->
-
 ```php
 function center_map(float $long, float $lat): void;
 ```
@@ -463,8 +431,6 @@ $mapService->centerMap(Geolocation::fromLatLong(52.377956, 4.897070));
 
 # Operators
 
-<!-- header: "Equality"  -->
-
 * `1 + 2`
 * `4 / 2`
 * `"foo" . "bar"`
@@ -473,8 +439,6 @@ $mapService->centerMap(Geolocation::fromLatLong(52.377956, 4.897070));
 * `Color::red() * Color::red();` ?
 
 ----
-
-<!-- header: "Equality"  -->
 
 * `Color::red()->equals(Color::red());`
 * `Color::red()->brighterThan(Color::lightRed());`
@@ -562,8 +526,6 @@ interface ValueObject {
 # Value Objects are **not** an abstract type
 
 ---
-<!-- header: No Value Object Namespace  -->
-
 # No "ValueObject" Namespace!
 
 ```text
@@ -625,7 +587,7 @@ Distance::fromNauticalMiles(2.69978);
 
 ---
 
-# No Serialization!
+# No Mapping!!
 
 ```php
 // don't do this
@@ -652,7 +614,7 @@ class Money {
 ```
 ---
 
-# Serialization and Deserialization are **hard** and **important** problems.
+# Mapping is a **hard** and **important** problem.
 
 ---
 
@@ -685,6 +647,8 @@ $calculator->calculateNewColor($color);
 
 # Virtues
 
+<style scoped>section{font-size:25px;}</style>
+
 ![bg right](assets/virtue.png)
 
 Value objects should:
@@ -693,7 +657,7 @@ Value objects should:
 * ... be **correct**: _though shalt **not** bare false representation_.
 * ... be **isolated**: _though shalt **not** associate with false prophets_.
 * ... be **functionally pure**: _though shalt **not** contaminate thine house nor the house of thy neighbor_
-* ... be **unknowable**: _thy shalt not reveal thy true self_.
+* ... be **unknowable**: _thou shalt not reveal thy true self_.
 
 ---
 
@@ -709,4 +673,4 @@ Value objects should:
 # The End
 
 ![](barcode.png)
-http://www.dantleech.com/presentation/dcp2025-value-objects-and-you/
+http://www.dantleech.com/presentation/phpday26-value-objects
