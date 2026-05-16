@@ -13,8 +13,9 @@ I'm now sitting in a religious property owned by the church that is rented out a
 hotel. It's a grand place with decorative stucco walls, ceilings painted
 with cherubs and jesus and stately staircases. The room is spartan however
 and somewhat like a polite prison cell with only an unreachable window in the corner
-of the room. I'm now sat in a large, richly decorated and empty common room with a couple of
-sofas and table in a large open space with a piano in the corner.
+of the room - I like it. I'm now sat in a large, richly decorated and empty
+common room with a couple of sofas and table in a large open space with a
+piano in the corner.
 
 My right calf is twitching and I can't stretch it and I must walk with it on
 my tip-toe. It's been that way since this morning for no descernible reason,
@@ -149,8 +150,8 @@ convoy. Two police motorcycles approached and one made eye contact with me and
 pointed commandingly to the side of the road. I obeyed and pulled up and
 waited. After a minute, and not knowing why or for what I was waiting I
 cautiously proceeded down the road. Soon another two motorcycles came round a
-bend and this time one approached me directly and commanded me in Italian and
-this time I parked the bike against the wall and dismounted.
+bend and this time one approached me directly and commanded me in Italian with
+urgency and this time I parked the bike against the wall and dismounted.
 
 Presently a _swarm_ of cyclists rounded the corner being preceeded by cars
 with bikes mounted on the top. They were all going incredibly fast and this
