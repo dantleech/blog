@@ -10,10 +10,10 @@ date: 2026-05-16
 ---
 
 I'm now sitting in a religious property owned by the church that is rented out as a
-hotel. It's a grand place with decorative stucco walls, ceilingings painted
+hotel. It's a grand place with decorative stucco walls, ceilings painted
 with cherubs and jesus and ceremonial staircases. The room is spartan however
-and somewhat like a prison cell with only an unreachable window in the corner
-of the room. I'm now sat in a large and empty common room with a couple of
+and somewhat like a polite prison cell with only an unreachable window in the corner
+of the room. I'm now sat in a large, richly decorated and empty common room with a couple of
 sofas and table in a large open space with a piano in the corner.
 
 My right calf is twitching and I can't stretch it and I must walk with it on
@@ -24,14 +24,15 @@ incapable of hiking with it.
 
 I was four nights that I was in Verona. I had arrived two days early and had
 one entire day free in which I did little other than rehearse my conference
-talk and wonder about the city before my piers started to arrive in the
+talk and wander about the city before my peers started to arrive in the
 evening and we congregated, started drinking and went to the San Zeno plaza
 and drank some more before not eating very much and returning to the hotel
-and continued to drink. It's possible that I drank more than I should've as
-the next day was the conference and, although I did get up at 7:30am and do a
+and continued to drink. It's possible that I drank more than I should've.
+
+The next day was the conference and, although I did get up at 7:30am and do a
 5k run, I had a terrible hangover and spent the rest of the morning being
-sick, missing the conference talks and only recovering my the lining of my
-stomoch at around 2PM. Fortunately (and not coincidentally) my talk was not on
+sick, missing the conference talks and only recovering the lining of my
+stomach at around 2PM. Fortunately (and not coincidentally) my talk was not on
 this day but the subsequent one. I attended the speakers dinner and had only a
 single drink and a large pizza and spent the evening in good company before
 returning to the hotel.
@@ -59,14 +60,14 @@ The talk seemed to go well and featured, in the introduction, a ten second
 exposition of my trip from Calais to Verona and the audience all started
 clapping unexpectedly. The talk did finish 10 minutes short of the 50 minute
 slot however in spite of the fact that all of my rehearsals had hit the time
-constraint exactly.
+constraint exactly. I'm not sure if I missed something or spoke too fast.
 
 That evening there was a community dinner organised by Marco at the same
 pizzeria that the community dinner organised by Marco had been at for the past
 two years and more great pizza and good company was had before returning to
 the hotel and I bought a larger round of drinks than I had anticipated buying
-before retiring to bed having resolved to carry trip by cycling West to Lyon
-and getting the train to the UK.
+before retiring to bed having resolved to carry on the trip by cycling west to Lyon
+and getting the train to the ferry and the UK.
 
 ![Camera/IMG_20260516_192604_244.jpg](roave.png)
 _I'm peeking my head out way at the end of the table in front of Greg_
@@ -86,7 +87,7 @@ left at 8am I didn't anticipate needing much more sustence for the day.
 
 The weather forecast was confusing, advertising all of rain, thunder, cloud
 and sun. It was spitting in the morning and I traced my way in the
-intermittent and ligth rain out of Verona the same way I had come in avoiding
+intermittent and light rain out of Verona the same way I had come in avoiding
 the puddles on the cycle path besides the canal and making good speed despite
 a light headwind from the West.
 
@@ -99,9 +100,9 @@ Bergamo (it also looked very attractive) but it was barely 100k away and the
 terrain was flat.
 
 Lago de Garda featured in the first hours. It was heavily touristed but the
-tourists were subdued by the weather. It wasn't a very scenic route by largre
+tourists were subdued by the weather. It wasn't a very scenic route by large
 however due to the view being obscured by properties and fences. When the lake
-was able to be seen it was a vast expanse of cobalt blue with cloud-lined and
+was able to be seen it was a vast expanse of caerulean blue with cloud-lined and
 snow capped mountains in the distance.
 
 ![Camera/IMG_20260516_103538_911.jpg](202605121958-lago.jpg)
@@ -114,10 +115,10 @@ relief from the farting motorbikes and roaring lorries.
 ![Camera/IMG_20260516_114946_344.jpg](202605121958-theroad.jpg)
 _The Road_
 
-![Camera/IMG_20260516_105734_373.jpg](202605121958-green.jpg)k
+![Camera/IMG_20260516_105734_373.jpg](202605121958-green.jpg)
 _Green_
 
-Brescia is a city, the edges of which the route intersected but the center
+[Brescia](https://en.wikipedia.org/wiki/Brescia) is a city, the edges of which the route intersected but the center
 would be left untouched. I decided to deviate from the course and investigate
 with just 17 miles to go to the destination (it was lunchtime).
 
@@ -138,6 +139,9 @@ _Round_
 ![Camera/IMG_20260516_124132_194.jpg](202605121958-lunch.jpg)
 _Fruit cake_
 
+![Camera/IMG_20260516_132534_216.jpg](202605121958-gravel.jpg)
+_Gravlin'_
+
 The weather improved and the blue of the sky made itself through the clouds
 and I made swift progress towards the hotel in the countryside. On the final
 approach there were sirens and what seemed the scouts from an approaching
@@ -148,9 +152,6 @@ cautiously proceeded down the road. Soon another two motorcycles came round a
 bend and this time one approached me directly and commanded me in Italian and
 this time I parked the bike against the wall and dismounted.
 
-![Camera/IMG_20260516_132534_216.jpg](202605121958-gravel.jpg)
-_Gravlin'_
-
 Presently a _swarm_ of cyclists rounded the corner being preceeded by cars
 with bikes mounted on the top. They were all going incredibly fast and this
 first batch probably contained over 100 cyclists which were subsequently
@@ -159,9 +160,10 @@ displaying a sign "end of the peloton" (I didn't know what it said, but "end"
 and "bicycle" were in there somewhere).
 
 ![Camera/IMG_20260516_135805_618_1.jpg](202605121958-giro.jpg)
+_2 Giorni di Brescia e Bergamo_
 
 10 minutes later I was at the religious property and was conversing with the
-daughter that studdied John Clare (whom I had never heard of and subsequently
+daughter that studied John Clare (whom I had never heard of and subsequently
 researched). It 2PM and I have spent the rest of the day reading and napping.
 
 ![Camera/IMG_20260516_202443_145.jpg](202605161903-nunnery.jpg)
