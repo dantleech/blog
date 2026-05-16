@@ -11,7 +11,7 @@ date: 2026-05-16
 
 I'm now sitting in a religious property owned by the church that is rented out as a
 hotel. It's a grand place with decorative stucco walls, ceilings painted
-with cherubs and jesus and ceremonial staircases. The room is spartan however
+with cherubs and jesus and stately staircases. The room is spartan however
 and somewhat like a polite prison cell with only an unreachable window in the corner
 of the room. I'm now sat in a large, richly decorated and empty common room with a couple of
 sofas and table in a large open space with a piano in the corner.
