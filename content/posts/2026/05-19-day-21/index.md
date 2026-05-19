@@ -18,11 +18,15 @@ pass. Fortunately the accomodation provides breakfast and luckily I have at
 least got some cheese and an apple which should tide me over for a climb or
 two. I'm heading towards the Col de Mont Genèvre (there may be other options,
 but I feel I'm comitted at this point). It's the "easiest" of the passes but
-most importantly it's the one that's open. There seems to be more snow in this
-part, the Penser Joch pass was around 2000m and hardly any snow, but from what
-I can gather there is significant snow at that altitude and on May 22nd
-multiople roads are "opened" by way of driving huge snow blowing machines over
-the pass to clear the way. The weather is good and today has been a good day.
+most importantly it's the one that's open.
+
+There seems to be more snow here than when crossing from Austria, the Penser
+Joch pass was around 2000m and hardly any snow, but from what I can gather
+there is significant snow at that altitude and on May 22nd multiople roads are
+"opened" by way of driving huge snow blowing machines over the pass to clear
+the way. 
+
+The weather is good and today has been a good day.
 
 > I've just finished a Bruschetta. It's not quite a pizza but something like a
 > margehritta on toast. I also have a wonderful medium glass of strong 7% beer
