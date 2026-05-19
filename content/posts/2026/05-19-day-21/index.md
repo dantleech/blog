@@ -121,9 +121,25 @@ _Something is wrong_
 ![Camera/IMG_20260519_140612_338.jpg](202605181931-puncture2.jpg)
 _But it wasn't this_
 
-Turin is a massive city and it took time to exit it. When I did I found myself
-by what I can describe as a "clay" river. The water was gray and the banks of
-the river seemed to be clay.
+On the way out I passed a shop that looked and I saw Italian/EU power
+adapters in the window so I rode on before thiking "no, that's literally what
+I'm looking for" and turned back. When I entered an old man looked at me and I
+at him. We established without words that I didn't speak Italian. I gestured
+with three fingers then two fingers while saying in English "EU to Italian
+power adapter" and pointed at the window.
+
+The old man looked slightly perplexed. He understood what I wanted but he
+couldn't sell anything to me because he was only looking after the shop
+until his daughter came back (somehow I managed to understand or infer this) "two
+minutes" he said in Italian then, I think, related how he used to do lots of
+cycling but "not professionally". He called over the man from the next shop to
+help translate what I had alrady understood when the daughter turned up and
+sold me the most expensive plug socket. Mario was the name of the father and
+he had kind eyes and appologised for not speaking English.
+
+It took some time to exit the city and then I encountered what I can describe
+as a "clay" river. The water was gray and the banks of the river seemed to be
+of clay.
 
 ![Camera/IMG_20260519_152041_736.jpg](202605181931-bamboo.jpg)
 _Bamboo_
@@ -192,4 +208,4 @@ _Monument to dead soldiers at the church_
 ![Camera/IMG_20260519_193124_184.jpg](202605181931-peace.jpg)
 _Peaceful_
 
-Tomorrow I'll be in France, somehow. I'm still hungry.
+Tomorrow I'll be in France, somehow. I'm still hungry. This room has EU-compatible plugs.
