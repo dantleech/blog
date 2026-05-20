@@ -105,7 +105,7 @@ There would be no time to stop and stare. But I did stop and take photographs.
 ![Camera/IMG_20260520_143505_536.jpg](202605191841-downwards.jpg)
 _Looking back down_
 
-I was on the Bonne Route and climbing. I had used my Pink Floyd bonus on the
+I was on the _bonne route_ and climbing. I had used my Pink Floyd bonus on the
 first ascent. I tried to listen to it again but it didn't have the same
 cathartic effect and my OpenShockBoneConductingHeadphones were running out of
 battery.
