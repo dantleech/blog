@@ -265,6 +265,11 @@ still going to be within 30m.
 Ugly thoughts in my head: "oh wow look how far I'll ride today,
 aren't I good" - that peculiar satisfaction of making a larger than normal effort.
 
+My legs were burning even as I was descending - there was about 200m of
+remaining ascent - I wasn't out of the woods yet. Since the col de Lauteret I
+made a point of eating the my sugary, chewy, sweets at regular intervals even
+when I was sick of them.
+
 ![Camera/IMG_20260520_185339_137.jpg](202605191841-approachgren.jpg)
 _Down down down_
 
