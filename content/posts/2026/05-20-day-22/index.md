@@ -184,7 +184,7 @@ the progress already made that wasn't already lost and raise it to 2000m.
 ![Camera/IMG_20260520_164626_565.jpg](202605191841-bam.jpg)
 _Riding up_
 
-At this point I started to recite the poem "[The Love Song of J. Alfred
+At this point I started to struggle and I recited the poem "[The Love Song of J. Alfred
 Prufrock](https://www.poetryfoundation.org/poetrymagazine/poems/44212/the-love-song-of-j-alfred-prufrock)".
 It's one of three poems I can remember as anybody that has read my previous
 tours might know. I somewhat expanded my repotoire by reciting the intro to
