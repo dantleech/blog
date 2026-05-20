@@ -168,7 +168,7 @@ I'd miss the check-in.
 What was sure was that I would need some calories. I stopped at the first
 bakery in France there were two sandwiches "Est-ce que vous avez une sandwich
 vegiterienne?" "Oui" she said and said what it was and I didn't understand
-"c'est quoi?" "goats cheese and honey" she said without joy. But it was a
+"c'est quoi?" "goats cheese and honey" she said in English without joy. But it was a
 sizeable sandwich and I was very happy to eat it.
 
 ![Camera/IMG_20260520_160443_710.jpg](202605191841-eitingbrianco.jpg)
