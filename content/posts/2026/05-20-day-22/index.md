@@ -42,8 +42,8 @@ _Looking Back_
 
 On the way I passed the [Forte di
 Exilles](https://en.wikipedia.org/wiki/Fort_of_Exilles) which looked
-formidable and a wonder that such a thing could be built. It been first
-described in the 1300s.
+formidable and a wonder that such a thing could be built in such a place. It been first
+described in the 1300s and is one of a number of similar foritifcations.
 
 ![Camera/IMG_20260520_101539_610.jpg](202605191841-for.jpg)
 _Approaching Di Forte_
@@ -57,9 +57,9 @@ _Di Mia_
 I was happily cycling along and it had alread been almost 3 hours and I was
 hungry. The host at the Bed and Breakfast had provided a very good breakfast
 for the guests and went so far as to engage in polite conversation. She didn't
-speak English very well but she tried. It was a good accomodation and I left
-with a full stomoch and a cheese sandwich. It wasn't a good cheese sandwich so
-I wanted to resupply.
+speak English very well but she tried and was good natured and it was a good
+accomodation and I left with a full stomach and a cheese sandwich. It wasn't a
+good cheese sandwich.
 
 ![Camera/IMG_20260520_113623_978.jpg](202605191841-mountainsw.jpg)
 _Climbing up and up and up_
@@ -90,7 +90,11 @@ two?) hours had been in vein - the extent of which I confirmed to be half of
 my ride so far. Much pointless ascending. "It is a long way to go back" the
 Netherlandese informed me. "It was" I smiled.
 
-Didn't feel bad. It would add to the mileage but I still had time - or did I?
+> The Col du "Mauvais Pas" translates to "Wrong Step". Which was appropriate.
+> Never trust Stava routing (although part of me wonders in retrospect if it
+> would have been passable).
+
+Going back didn't feel bad. It would add to the mileage but I still had time - or did I?
 It took 26 minutes to _descend at speed_ to the point where I could continue
 to Col de Mont Genevre and by that time it was already past 1PM. I then had
 100 miles/160k to go and 9 hours to get there. Most of the rest of the day
@@ -126,12 +130,12 @@ _Nothing here but ghosts_
 ![Camera/IMG_20260520_144257_300.jpg](202605191841-tunnel3.jpg)
 _Where are they?_
 
-I had a sonorous voice reverberating, coming towards me. It didn't sound
+I heard a sonorous voice reverberating, coming towards me. It didn't sound
 malicious and it was another cyclist clearly testing his voice against the
 reverberation of the tunnel "Ciao!" he said (he didn't sing after that). I
 tested my voice "Whooo!".
 
-The road featured some holes in the mountainside " 100m this way" it said,
+The road featured some holes in the mountainside "🏡100m this way" it said,
 implying that you'd go into the cave for 100m to find refuge. I wondered if it
 was a trap. Some of them seemed to be more directly accessible.
 
@@ -139,7 +143,7 @@ was a trap. Some of them seemed to be more directly accessible.
 _I guess you could survive here_
 
 The day was already long when I entered France and finally made it to the
-first Col. Montgenvre is a ski resort at 1800m and aside from some builders
+first pass. Montgenvre is a ski resort at 1800m and aside from some builders
 doing building things there was no commerce and nowhere to buy food - but it
 wouldn't matter because I was descending directly to Briancon.
 
@@ -215,7 +219,7 @@ _Heading over there_
 _Still heading over there_
 
 ![Camera/IMG_20260520_175137_040.jpg](202605191841-coldelau.jpg)
-_We're there_
+_We're there, not much here_
 
 I stopped. I had wanted to make the col at 18:00 and have 4 hours to ride the
 remaining 80k. It was 17:50 and I had ten minutes to [stop and
@@ -226,14 +230,14 @@ eat my apple and drink some water.
 _Descending_
 
 The descent felt fantastic. I dropped on the handlebars queued up Led Zepplin's
-"Whole Lotta Love" and screached down the mountainside at 30mph. I'd do that
+"Whole Lotta Love" _der da der da da da. dadada dadadada_ and screached down the mountainside at 30mph. I'd do that
 all day.
 
 ![Camera/IMG_20260520_180742_628.jpg](202605191841-greesy.jpg)
 _Accidental selfie with my greesy shit_
 
-The good part is that I'd largely continue to go downhill for hours, but
-"Whole Lotta Love" only lasts 5 minutes.
+The good part is that I'd largely continue to do it all day, but "Whole Lotta
+Love" only lasts 5 minutes.
 
 ![Camera/IMG_20260520_181448_082.jpg](202605191841-valley.jpg)
 _Into the valley we go_
@@ -251,6 +255,9 @@ switched from playing music from my phone to playing music from my watch and
 with it I switched to the aggressive sounds of "Lamb of God" to help maintain
 my pace. I was growing increasingly confident that I'd make it, but it was
 still going to be within 30m.
+
+Ugly thoughts in my head: "oh wow look how far I'll ride today,
+aren't I good" - that perculiar satisfaction of making an larger than normal effort.
 
 ![Camera/IMG_20260520_185339_137.jpg](202605191841-approachgren.jpg)
 _Down down down_
