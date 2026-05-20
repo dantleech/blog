@@ -206,7 +206,8 @@ Pink Floyds "We don't need no education":
 > If you don't eat your meat, how can you have any pudding?
 > Hooow can you have any pudding if you don't eat your meat?
 
-It helps to pass the time.
+It helps to pass the time. I looked around frequently to ensure that nobody
+could here me.
 
 ![Camera/IMG_20260520_165302_737.jpg](202605191841-whiten.jpg)
 _Mountains there be_
@@ -262,7 +263,7 @@ my pace. I was growing increasingly confident that I'd make it, but it was
 still going to be within 30m.
 
 Ugly thoughts in my head: "oh wow look how far I'll ride today,
-aren't I good" - that perculiar satisfaction of making an larger than normal effort.
+aren't I good" - that peculiar satisfaction of making an larger than normal effort.
 
 ![Camera/IMG_20260520_185339_137.jpg](202605191841-approachgren.jpg)
 _Down down down_
