@@ -187,12 +187,17 @@ _Riding up_
 At this point I started to struggle and I recited the poem "[The Love Song of J. Alfred
 Prufrock](https://www.poetryfoundation.org/poetrymagazine/poems/44212/the-love-song-of-j-alfred-prufrock)".
 It's one of three poems I can remember as anybody that has read my previous
-tours might know. I somewhat expanded my repotoire by reciting the intro to
+tours might know. I somewhat expanded my repotoire by reciting the monologue
+intro to
 "Wasted Youth" by Meat Loaf.
 
 > I REMEMBER EVERYTHING.
 > I remember everything little thing as if it happened only yesterday.
 > I was barely 17 and I was killed a boy with a fender guitar.
+> ... 
+> The guitar bled for about a week afterwards
+> The blood was zoot, dark and rich, like wild berries.
+> The blood of the guitar was CHUCK. BERRY. RED!
 > ...
 
 Also playing the part of the scottish school teacher in the introudction to
