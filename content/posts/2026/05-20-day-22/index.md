@@ -131,7 +131,7 @@ _Nothing here but ghosts_
 _Where are they?_
 
 I heard a sonorous voice reverberating, coming towards me. It didn't sound
-malicious and it was another cyclist clearly testing his voice against the
+like a ghost and it was another cyclist clearly testing his voice against the
 reverberation of the tunnel "Ciao!" he said (he didn't sing after that). I
 tested my voice "Whooo!".
 
