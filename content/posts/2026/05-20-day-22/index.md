@@ -113,7 +113,7 @@ battery.
 There were lots of tunnels. I was riding mindlessly when I saw a sign with a
 red circle and in the circle was a bicycle. I wondered "does that mean
 **beware** of bicycles or that **bicycles are prohibited**. Then I saw a
-tunnel _probably it means no cycles in the tunnel_. Conveniently the course
+1km tunnel _probably it means no cycles in the tunnel_. Conveniently the course
 didn't go through the tunnel but by a side-road that said "authorized vehicles
 only". I guess Strava authorized me.
 
