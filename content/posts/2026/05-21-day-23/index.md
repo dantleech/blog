@@ -11,7 +11,7 @@ date: 2026-05-21
 
 Sitting in a bar in Lyon there is rock music playing and it's busy. All the
 outside seating is taken. Both the staff I have spoken to switched to English.
-My hands a burning due to heat exposure today. I have a Chouffre beer and am
+My hands a burning due to heat exposure today. I have a Choufre beer and am
 ordering a pizza which is appropriate as this is almost certainly my last
 cycling day.
 
@@ -21,7 +21,7 @@ impatientally to see if it was breakfast time yet... 3am (no), 4am (no), 6am
 (not quite). Maybe I was just hungry after the 195k the day before.
 
 There were lots of school kids in the hostel but the breakfast hall consisted
-only of the "individuals" such as myself but a bunch of them were waiting to
+only of the "individuals" such as myself but a bunch of the kids were waiting to
 fill their water bottles at the water fountain. The included breakfast was
 good, there were boiled eggs, cheese, apple tarts, yoghuts, cereals, good
 bread, honey, juice, etc. 
@@ -67,7 +67,7 @@ villages and small towns.
 ![Camera/IMG_20260521_103525_929.jpg](202605202044-goodbye.jpg)
 _Leaving the good stuff behind_
 
-At 12 I found a bakery and purchased a goats cheese pizza slice which lasted
+At lunchtime I found a bakery and purchased a goats cheese pizza slice which lasted
 me the rest of the day. It was hot. It seemed hotter than it had been until
 today. I had badly smothered myself in suncream earlier but it seems I missed
 places. I wasn't trying to ride fast but I had the impression my legs were
@@ -79,7 +79,7 @@ discomfort from the heat and the impatience to arrive at my destination.
 _Gravel_
 
 I was listening to music but it passed through one ear and out of the other.
-Nothing was very inspiring which is less a comment on the scenery than what
+**Nothing was inspiring** -- which is less a comment on the scenery than what
 the scenery had been. The bumpy gravel and rock-and-stone sections were
 welcome as they provided my brain with some challenge - in the same way that
 trail-running requires you to strategically (but somehow naturally) plan your
@@ -88,13 +88,14 @@ foot-plants in advance to avoid falling over.
 ![Camera/IMG_20260521_113254_540.jpg](202605202044-4poppies.jpg)
 _Four Poppies_
 
-At one point the rough farm-track led to a bridge. The bridge had both a sign
-with a red circle and person inside it and a legal notice "the commune of XXX
-blah blah blah" two pages of A4 paper. It seemed that the commune had decided
-to prohibit access to the 2 meter bridge that crossed the stream. I ignored
-the sign via. the clearly trodden path around the sign. Was it in danger of
-collapse? If it was the worst that could happen is you'd get wet, more likely
-you'd simply make another step and be on the other side.
+At one point the rough farm-track led to a bridge. The little bridge was blocked off
+and had both a sign with a red circle and person inside it and a legal notice
+"the commune of XXX blah blah blah" two pages of A4 paper which I had no
+intention of reading. It seemed that the commune had decided to prohibit
+access to the 2 meter bridge that crossed the stream. I ignored the sign via.
+the clearly trodden path around the sign. Was it in danger of collapse? If it
+was the worst that could happen is you'd get wet, more likely you'd simply
+make another step and be on the other side.
 
 ![Camera/IMG_20260521_131857_048.jpg](202605202044-theroad.jpg)
 _The road_
@@ -102,10 +103,10 @@ _The road_
 My eyes were irritated. I ignored it at first. I had taken my sun glasses off
 and planted my baseball cap on my head as a subsitute (I wasn't wearing the
 helmet). Then my eyes started to be irritated. I rubbed my hands on them but
-then I considered that perhaps it was the sun-tan lotion that was irritating
-them. There was something in the air and it was causing my eyes grief. I can
-imagine they were blood-shot. I decided to find a water fountain so I could
-rinse them and also replenish my now depleted water bottles.
+then I considered that perhaps it was the sun lotion that was irritating
+them. There was something in the air and it was causing my eyes grief. They
+were blood-shot. I decided to find a water fountain so I could rinse them and
+also replenish my now depleted water bottles.
 
 ![Camera/IMG_20260521_134112_147.jpg](202605202044-moregrav.jpg)
 _More gravel_
@@ -113,7 +114,7 @@ _More gravel_
 ![Camera/IMG_20260521_140550_056.jpg](202605202044-lessgrav.jpg)
 _Less Gravel_
 
-The village I was in had a park. OpenStreetMaps indicated that there was
+The village I was in had a park. [OpenStreetMaps](https://www.openstreetmap.org/) indicated that there was
 "drinking water" in it. Access was obstructed by a large fence and the
 entrance had an elaborate mechanism that seemed designed to prevent bicycle
 ingress. Leaving my bicycle outside of the park would be inconvenient so my
@@ -139,9 +140,8 @@ the heat. Counting down the _miles_ 40 miles, 38, 37, .. 33. 33km is 20 miles.
 normally switch to kilmeters in Europe, but I never got round to it this time.
 
 > The trick is not to count the distance, the problem that almost every single
-> screen on the cycle computer gives an idea about the passing of time and
-> distance except the one that simpy shows the map. I used the map screen
-> lots.
+> screen on the cycle computer gives an impression of the passing of time and
+> distance.
 
 Towards Lyon I felt I was being rude. My perpetual smile was now plastered on
 and people would say "bonjour" to me and I'd effectively ignore them. I was
@@ -167,7 +167,7 @@ adventures are. That hostel doesn't exist now.
 ![Camera/IMG_20260521_161434_218.jpg](202605202044-lerhone.jpg)
 _Le Rhone (?)_
 
-> I've just finished my second "large" class of Chuffre and should probablly
+> I've just finished my second "large" glass of Choufre and should probablly
 > think about leaving. I don't think I can drink another. Nor can I afford
 > one.
 
