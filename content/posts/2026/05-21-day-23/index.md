@@ -182,7 +182,7 @@ Today is the last day. I'm going to miss the feeling of being physically
 active for 6-8 hours a day and solving "problems" physically. My body feels
 good in general. It's also nice to have only a finite number of possesions and
 as meagre as the social interactions have been it's nice to wade into new
-social and not be stuck in the same old routine.
+situations and not be stuck in the same old routine.
 
 > They don't seel alcahol after 9PM in Carrefour in Lyon. They don't
 > understand me when I say "C'est ferme pour l'Alchool?"
