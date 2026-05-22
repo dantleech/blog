@@ -5,7 +5,7 @@ tour: [ verona26 ]
 distance: 5
 time: 1h
 gpx: /gpx/verona26/caen.gpx
-#bundle_image: ./202605202044-sheep.jpg
+bundle_image: ./202605212025-sunset.jpg
 date: 2026-05-21
 ---
 
@@ -157,10 +157,3 @@ chocolate and read the book.
 
 ![Camera/IMG_20260522_212832_175.jpg](202605212025-sunset.jpg)
 _Sunset_
-
-
-
-
-
-
-
