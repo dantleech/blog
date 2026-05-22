@@ -2,8 +2,8 @@
 title: "Jour de Correspondance"
 categories: [verona2026]
 tour: [ verona26 ]
-distance: 5
-time: 1h
+distance: 10
+time: 35m
 gpx: /gpx/verona26/caen.gpx
 bundle_image: ./202605212025-sunset.jpg
 date: 2026-05-21
