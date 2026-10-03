@@ -1,7 +1,7 @@
-A--- 
+--- 
 title: Untangling your piece of shit
 categories: [programming,php]
-date: 2026-10-03
+date: 2026-8-27
 draft: true
 ---
 
