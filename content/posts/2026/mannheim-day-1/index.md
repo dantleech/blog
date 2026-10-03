@@ -6,7 +6,8 @@ distance: 150
 time: 7h15m
 gpx: /gpx/mannheim2026/portsmouth.gpx
 #bundle_image: ./202605212025-sunset.jpg
-date: 2026-05-23
+date: 2026-10-03
+summary:
 ---
 
 Now in ferry bar drinking beer. Fingers feel caloused. Listening to Megadeth
