@@ -21,7 +21,7 @@ organiser. I'm on the list. I've booked my hotel. I have 6 days to cycle
 around 900km to Mannhiem.
 
 So this morning I woke up and packed. Shouldn't be so hard. I would have
-everything from my last May.
+everything from my trip to [Verona](https://www.dantleech.com/tour/verona26/) last May.
 
 ![Camera/IMG_20261003_090611_360.jpg](202610021906-electronics.jpg)
 _Electronics_
