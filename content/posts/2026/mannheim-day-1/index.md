@@ -81,7 +81,8 @@ _... Roman Road_
 I rode to Wareham. 29 miles and Sainsburys sandwich for lunch and organised to
 stop off with family close to the port to wait out the superflous hours. 60
 miles to go. I was breaking out of my routine training orbit around Weymouth
-and listened to Queens Greatest Hits II.
+and listened to Queens Greatest Hits II. My training regime has been to ride
+about 30 miles a week for the past 4 months.
 
 ![Camera/IMG_20261003_133226_137.jpg](202610021906-castleway.jpg)
 _Castleway trail_
@@ -115,7 +116,7 @@ _The Solent - probably_
 
 It was now dark and the pasta had been eaten. I would need to leave soon. I
 would be able to use my new light! How excited I was. Not only is it a light
-but it's also a charger! How wonderful. I had mounted the bracket onto the
+but it's also a charger! How wonderful. (or it would be if it used USB-C) I had mounted the bracket onto the
 bike before I left. I mounted the light on the bracket. The bracket fell
 apart.
 
@@ -123,7 +124,7 @@ The bracket was broken, the sping had sprung out and it was lost I gave up
 looking for it because the whole thing was irrepareable having been held
 together with a single plastic pin. It wasn't a cheap light. I thought about
 what to do and the solution, as ever, was Der Austeiger wratchet straps. I
-strapped the light on.
+strapped the light on. 
 
 ![Camera/IMG_20261003_203026_586.jpg](202610021906-fuckinglight.jpg)
 _Der Austeiger Berlin straps -still going rusty_
