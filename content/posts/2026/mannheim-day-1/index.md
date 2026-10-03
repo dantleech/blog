@@ -5,7 +5,7 @@ tour: [ mannheim2026 ]
 distance: 150
 time: 7h15m
 gpx: /gpx/mannheim2026/portsmouth.gpx
-#bundle_image: ./202605212025-sunset.jpg
+bundle_image: ./202610021906-solent.jpg
 date: 2026-10-03
 summary:
 ---
