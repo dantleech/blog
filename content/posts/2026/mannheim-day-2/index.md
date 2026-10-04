@@ -43,7 +43,7 @@ _Petite Dej - 6am_
 It then dawned on me that I was not a foot passenger. But a cyclist with a
 bicycle in the vehicle deck. I didn't rush. I descended the stairs and walked
 directly towards the group of cyclists who were ready to go. We were not the
-first off the boat. I got to work attaching my fiddly saddlebag to the bike
+first off the boat[^maybeme]. I got to work attaching my fiddly saddlebag to the bike
 and as soon as I had finished we were directed out into the darkness to join a
 queue of cars.
 
@@ -167,3 +167,5 @@ It was not the dinner I had hoped for.
 [^probablyenglish]: because I can't recall how she would have said "foot passenger"
 [^nogravel]: I planned my route for the next day however and Strava presented
     the same route for both Road and Gravel.
+[^maybeme]: It's entirely possible that we weren't the first because I held
+    everybody up by finishing my breakfast.

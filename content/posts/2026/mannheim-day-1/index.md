@@ -17,7 +17,7 @@ characteristically bumpy first day.
 I wasn't thinking about cycling to Mannheim until 4 days ago. It had crossed
 my mind. I cycled last year - to the small un-conference. Why not do it again?
 There's something appealing in it. The tickets were sold out. I begged the
-organiser. I'm on the list. I've booked my hotel. I have 6 days to cycle
+organiser[^thanksstephan]. I'm on the list. I've booked my hotel. I have 6 days to cycle
 around 900km to Mannhiem.
 
 So this morning I woke up and packed. Shouldn't be so hard. I would have
@@ -169,3 +169,6 @@ which is good as it will give me some slack. Evenly split I would need to do
 93 miles a day for the next six days and I want to finish my days before 6PM
 so I can eat pizza and drink beer.
 
+---
+
+[^thanksstephan]: Thanks Stephan!
