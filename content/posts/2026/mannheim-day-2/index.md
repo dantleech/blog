@@ -123,7 +123,7 @@ _Bridge over the Seine_
 
 What's that river? There's a hilly green ridge running from left to right as
 far as I can see. Am I in a vallee? What's the river called? "Risle". I wrote
-"Risle" in my notepad pronouncing it "Wrisal" and I think I determined that I
+"Risle" in my notepad mis-pronouncing it "Wrisal" and I think I determined that I
 was in the Wrisal Valley.
 
 ![Camera/IMG_20261004_115945_541.jpg](202610032231-thatched.jpg)
