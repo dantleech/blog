@@ -2,8 +2,8 @@
 title: "Day 3: Villers-Cotteretes"
 categories: [mannheim2026]
 tour: [ mannheim2026 ]
-distance: 170
-time: 8h00m
+distance: 173
+time: 8h0m
 gpx: /gpx/mannheim2026/beauvais.gpx
 bundle_image: ./202610041930-mistbrifge.jpg
 date: 2026-10-05
