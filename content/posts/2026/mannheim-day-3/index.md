@@ -9,12 +9,13 @@ bundle_image: ./202610041930-mistbrifge.jpg
 date: 2026-10-05
 ---
 
-Sitting in a "cheap" motel type establishment. In the restaurant. There was
+Sitting in a "cheap"[^cheap] motel type establishment. In the restaurant. There was
 nothing vegetarian on the menu so I ordered the omlette. The omlette is €18
 and I ordered large blonde beer for €12.50. I hope the omlette is sufficient.
 As usual with these budget hotels its a good walk away from the town, but
 perhaps I should've investigated more before comitting myself in coversation
-with the waiter here. The beer cost €12.50 for 75cl and it's only 4.5%. x
+with the waiter. The beer cost €12.50 for 75cl and it's only 4.5%. Quelle.
+Horreur.
 
 I think I slept well at the Hostellerie Saint Pierre. I was hoping to talk
 more to the English lady that was staffing the place the evening before but
@@ -28,8 +29,10 @@ bottles. It was misty.
 _Bonjour!_
 
 It was misty and cold enough for gloves and water droplets formed on the hair
-on my arms. Today will be just over 100 miles making up for the 100 mile
-deficit from the previous two days.
+on my arms. Today will be somewhat over 100 miles. I think 100 miles (161km) is my
+daily target and I've been slightly under for the previous two days.
+Technically my initial route was 6 x 150km. So although I've got no chance of
+earning a rest day I could have a shorter ride to Mannheim to finish.
 
 ![Camera/IMG_20261005_090719_669.jpg](202610041930-mist.jpg)
 _The mist_
@@ -62,14 +65,14 @@ mean riding 17 miles an hour and I could probably only manage that on a road
 bike on the flat.
 
 I saw a cyclist parked up ahead and tried to avoid him but I took
-a wrong turn so I had to turn back and he was waving at me. I pulled up and
+a wrong turn so I had to turn back. He was waving at me. I pulled up and
 greeted him "Bonjour" "Soy espanol" he replied and shoved a pizza box
 containing 1/4 of a pizza towards me. I hesitated but it was a goats-cheese pizza
 "Gracias!" I said. He was standing at an autoamated pizza oven the pizza was
 good. "A donde vas?" I offered but didn't quite understand the answer he got
 his phone out and the route went from Paris to Dieppe. He asked where I was
 going "Germany" I said in what I think was Spanish "Dos semanas!". I ate my
-pizza in silence not knowing enough Spanish to continue before he shook my
+pizza in silence not remembering enough Spanish to continue before he shook my
 hand and carried on. I could now delay my lunch stop.
 
 > There are lots of pizza automats. I'd use them if it weren't for the fact
@@ -88,12 +91,12 @@ outside a shop and waved at him with a smile as I rode past.
 _Cathedral (13th century?)_
 
 I found the Trans'Oise cycle route which, as the name suggests, traverses the
-department of l'Oise. It was familiar I looked at my computer - 13 miles until
-the next turning. I remember feeling the same small-joy last year in the
-opposite direction. 13 miles of pleasant riding.
+department of l'Oise along an erstwhile railway line. It was familiar I looked
+at my computer - 13 miles until the next turning. I remember feeling the same
+small-joy last year in the opposite direction. 13 miles of pleasant riding.
 
 ![Camera/IMG_20261005_123914_182.jpg](202610041930-transoise.jpg)
-_Trans'Oise - 13 miles of this slightly downhill
+_Trans'Oise - 13 miles shaded slightly downhill_
 _
 ![Camera/IMG_20261005_125751_283.jpg](202610041930-bike.jpg)
 _Stopping for a pee_
@@ -120,12 +123,15 @@ A retired white woman was talking across tables to three black
 school-age teenagers in what sounded like a casual political conversation
 which I didn't get the gist of but foreigners were mentioned. "Mais est-ce que
 vous etes marie toi?" (are you maried) a girl asked the lady. The lady seemed
-confused. One of the others offered "marrie?". It seemed awkward. "Moi
-- je suis _contre_ le mariage!" (I'm against marriage!).
+confused. One of the others offered "marrie?". It seemed awkward. "je suis _contre_ le mariage moi!" (I'm against marriage, me!).
 
 My number was up and I was handed a slab of a burrito. It was massive and I
 would guess it weighed more than a large pizza and contained significantly
-more than two falaffels. I couldn't finish it and saved almost half for later.
+more than two falaffels. I couldn't finish it and saved almost half for later
+
+> The half-slab is now sitting in front of the TV along side 4 cheese slices
+> and half a Pain-Suisse. The still edible left-overs which I won't throw away
+> just yet.
 
 ![Camera/IMG_20261005_140938_609.jpg](202610041930-slab2.jpg)
 _The Slab_
@@ -146,7 +152,7 @@ I passed the time listening to music and occasionally singing along beind
 aware of the fact that people had the car windows open "Shiny, shiny. Shiny
 boots of leather..".
 
-There were lots of impressive aristocratic castles otted around - of which no
+There were lots of impressive aristocratic castles dotted around - of which no
 photos were taken.
 
 Arriving at the hotel the checkin was done in 1 minute with an agreement that
@@ -164,5 +170,7 @@ _The bike in the room_
 
 The dinner was omlette and chips and salad and it was ok, I'm just finishing
 up the beer which was also good. I'd be happier if it had cost €20 instead of
-€30. Breakfast wil be €12.
+€30. Breakfast will be €12. Tomorrow is another day and I wonder if I can make it
+more off-roady.
 
+[^cheap]: if you can call €50 cheap.
