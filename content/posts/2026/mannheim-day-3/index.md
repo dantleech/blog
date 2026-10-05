@@ -101,12 +101,12 @@ _
 ![Camera/IMG_20261005_125751_283.jpg](202610041930-bike.jpg)
 _Stopping for a pee_
 
-I passed the Saint Piere theme park. I'm not sure I mentioned it before but
+I passed the Saint Paul theme park. I'm not sure I mentioned it before but
 I'm mentioning it now because I've now passed it three times and it's
 something of a landmark.
 
 ![Camera/IMG_20261005_130744_349.jpg](202610041930-themepark.jpg)
-_Saint Piere Theme Park_
+_Saint Paul Theme Park_
 
 I passed through Beauvais - also for the third time. Now was the time for
 lunch. I cycled to the large square before the Hotel de Ville which was
