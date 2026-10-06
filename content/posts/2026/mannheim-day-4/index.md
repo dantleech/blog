@@ -177,7 +177,8 @@ _Sunset_
 
 The hotelier refused to let me put the bike in the room but the courtyard
 seems safe-enough so I hope my bike is still available in the morning. The
-tyre will be flat in anycase and at this point I'm going to replace the inner
+tyre will be flat in anycase - I noticed it going down as I rode into the
+town and at this point I'm going to replace the inner
 tube.
 
 ![Camera/IMG_20261006_202237_219.jpg](202610061847-pizza.jpg)
