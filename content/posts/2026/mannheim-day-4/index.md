@@ -160,7 +160,7 @@ _Canal 3_
 
 At this point I still had around 30 miles to go and was hungry. I had eaten
 the left-over Taco-Slab from the day previous over two sittings (that thing
-was fucking enormous). I still had some bon-bons in my snack-bag but they were
+was enormous). I still had some bon-bons in my snack-bag but they were
 running low.
 
 I found a chinese corner-shop and purchased a fizzy and drink and what turned
