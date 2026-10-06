@@ -5,7 +5,7 @@ tour: [ mannheim2026 ]
 distance: 157
 time: 7h21m
 gpx: /gpx/mannheim2026/francois.gpx
-bundle_image: ./202610051817-longpontabbaye.jpg
+#bundle_image: ./202610051817-longpontabbaye.jpg
 date: 2026-10-06
 ---
 
@@ -100,7 +100,7 @@ I use. Crack crack heave crack up up up both at the same time ok got some
 leverage grab the wheel between the legs push the lever along heave! heave!
 slide slip (don't draw blood) try again slip whap. Tyre is off.
 
-I could find the puncture immediately. I had to remove it and put a good
+I could **not** find the puncture immediately. I had to remove it and put a good
 amount of air into the tyre before I could detect where the air was coming
 from.
 
