@@ -139,10 +139,14 @@ explaining "est-ce que vous vendez, err, le truc, pour er, reparer, le, err
 crevaision" he spoke and was English. He offered to repair
 it for €10, an inner tube for €10 and/or a _proper_ repair kit for €5.
 
-I tested the tyre. It was going down. It was fortunate that I chose to visit
-the shop. He assured me that the "proper" repair kit would fix the snake-bite
-puncture (it didn't as it happened but it got me 30 miles). So I fixed the
-puncture _again_ and rode away with a spare inner tube.
+> He offered to repair it because I had just tested the tyre and it was **going
+> down again.**
+
+It was fortunate that I chose to visit the shop. He assured me that the
+"proper" repair kit would fix the snake-bite puncture (it didn't as it
+happened but it got me 30 miles). So I fixed the puncture _again_ and rode
+away with a spare inner tube. **I had now removed my tyre 4 times in one
+day**.
 
 ![Camera/IMG_20261006_165633_915.jpg](202610051817-canal1.jpg)
 _Now is the time of the canal_
