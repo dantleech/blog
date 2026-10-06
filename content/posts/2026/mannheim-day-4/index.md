@@ -136,7 +136,7 @@ made my way to one.
 
 I pulled up and the woman called over the man and the man saw I had trouble
 explaining "est-ce que vous vendez, err, le truc, pour er, reparer, le, err
-crevaision" he spoke and was English. He offered to repair
+crevaision" he spoke and _was_ English. He offered to repair
 it for €10, an inner tube for €10 and/or a _proper_ repair kit for €5.
 
 > He offered to repair it because I had just tested the tyre and it was **going
