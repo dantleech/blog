@@ -90,7 +90,7 @@ champagne is here.
 _One vine ~= 75cl of champagne_
 
 Then the trouble started. I rounded a corner and felt the unmistakeable
-sensation of drifting treads meaning a puncture. I had just past another
+sensation of drifting treads meaning a puncture. I had just passed another
 bikepacker who was sitting on a picinc table and had burried his head in the
 corned of his arm and was either crying or exhausted. Now it was my turn.
 
