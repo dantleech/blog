@@ -5,7 +5,7 @@ tour: [ mannheim2026 ]
 distance: 157
 time: 7h21m
 gpx: /gpx/mannheim2026/francois.gpx
-#bundle_image: ./202610051817-longpontabbaye.jpg
+bundle_image: ./202610051817-longpontabbaye.jpg
 date: 2026-10-06
 ---
 
