@@ -1,5 +1,5 @@
 ---
-title: "Day 6: Kaiserlautern"
+title: "Day 6: Kaiserslautern"
 categories: [mannheim2026]
 tour: [ mannheim2026 ]
 distance: 151
@@ -10,7 +10,7 @@ date: 2026-10-08
 #fediverse: 117401261526572276
 ---
 
-I'm staying in a greek restaurant about 8k north of Kaiserlautern in a "dorf"
+I'm staying in a greek restaurant about 8k north of Kaiserslautern in a "dorf"
 called Otterbach. I'm drinking a fast-food-kebab-house-pizza and eating
 inferior German beers in the spacious room that smells of smoking. I was
 "welcomed" by the waiter who barely said a word to me before returning with a
@@ -67,7 +67,7 @@ series of very un-french towns and highstreets.
 ![Camera/IMG_20261008_121302_735.jpg](202610071900-deustchland.jpg)
 _Land of the Deustches Volk_
 
-The next place of interest was Saarbrucken - and I joined the river Saar and
+The next place of interest was Saarbrucken - and I joined the river [Saar](https://en.wikipedia.org/wiki/Saar_(river)) and
 past all the steelworks on the river and skirted around and out of the city
 without taking much intrest in it having [already visited](https://www.dantleech.com/blog/2025/10/12/day-10-saarbr%C3%BCken/) and not really wanting
 to stop.
@@ -87,6 +87,7 @@ was there.
 ![Camera/IMG_20261008_161151_872.jpg](202610071900-road.jpg)
 _Unremarkable_
 
-It's been an unremarkable and dull day. Tomorrow it will be a two hour ride to Mannheim
-with pre-conference drinks in the evening, the event itself, and then
+It's been an unremarkable and dull day and I didn't feel particularly well
+over the final hours of the ride but tomorrow it will be a two hour ride to
+Mannheim with pre-conference drinks in the evening, the event itself, and then
 the return journey north-west to Holland.
