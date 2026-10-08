@@ -19,7 +19,7 @@ remember how to speak German "Was!?" "Stellen. Wo kann ich mein fahhrad
 stellen?" He suggested I tie it to the railings outside the restaurant. No.
 "Irgendwoh Geschlossen?" "Hinter" - behind the restaurant - and walked back
 in. This place has a 8.5 rating for staff friendliness and perhaps this is
-what counts as an 8.5 in Germany. I now have bicycle theft anxiety even though
+what counts as an 8.5 in Germany[^staff]. I now have bicycle theft anxiety even though
 it's quiet and it's not full of desperate people who might steal a bike.
 
 I passed a peaceful night at the F1 hotel with my bicycle. I woke relatively
@@ -91,3 +91,7 @@ It's been an unremarkable and dull day and I didn't feel particularly well
 over the final hours of the ride but tomorrow it will be a two hour ride to
 Mannheim with pre-conference drinks in the evening, the event itself, and then
 the return journey north-west to Holland.
+
+[^staff]: the waiter turned out to be very understanding later on when the
+    restaurant was not so busy and was happy to let me put the bicycle in the
+    room
