@@ -5,7 +5,7 @@ tour: [ mannheim2026 ]
 distance: 66
 time: 3h4m
 gpx: /gpx/mannheim2026/mannheim.gpx
-#bundle_image: ./202610071900-tree.jpg
+bundle_image: ./202610081743-haloween.jpg
 date: 2026-10-09
 #fediverse: 117401261526572276
 ---
