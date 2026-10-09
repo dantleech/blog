@@ -129,7 +129,8 @@ the Rhine-Neckar Hotel was, but fortunately I discovered that my Garmin Watch
 _did_ have the map and it was able to direct me to my hotel and along the way
 I picked up a beer and I didn't have to speak to anybody except the lady in
 the spatie "Warum haben sie kein Bargeld" she smiled "Ich weiss nicht" I said
-ashamedly and paid €2 with my still batteried watch.
+ashamedly and paid €2 with my still batteried watch. In Germany everybody is
+expected to carry physcial money for tax avoidance purposes.
 
 [^oristhatfrance]: or is that France? 
 [^police]: you only run the red lights once you've checked that none of the
