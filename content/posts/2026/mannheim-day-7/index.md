@@ -17,6 +17,8 @@ up two flights of stairs to room 25. I've since been informed that the next
 road is the red light district and I'm in a great place to score drugs  but it
 all seems pretty fine to me and people have been friendly.
 
+> disclaimer: i'm slightly drunk
+
 This is the inflection point. Tomorrow is the un-conference. I'll propose the
 same talk that I've been giving for over a year at other conferences but
 mostly it's just to show my face and see people.
@@ -131,6 +133,8 @@ I picked up a beer and I didn't have to speak to anybody except the lady in
 the spatie "Warum haben sie kein Bargeld" she smiled "Ich weiss nicht" I said
 ashamedly and paid €2 with my still batteried watch. In Germany everybody is
 expected to carry physcial money for tax avoidance purposes.
+
+The journey will recommence on Sunday.
 
 [^oristhatfrance]: or is that France? 
 [^police]: you only run the red lights once you've checked that none of the
