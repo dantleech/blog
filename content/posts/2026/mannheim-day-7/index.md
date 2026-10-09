@@ -4,7 +4,7 @@ categories: [mannheim2026]
 tour: [ mannheim2026 ]
 distance: 66
 time: 3h4m
-#gpx: /gpx/mannheim2026/kaiser.gpx
+gpx: /gpx/mannheim2026/mannheim.gpx
 #bundle_image: ./202610071900-tree.jpg
 date: 2026-10-09
 #fediverse: 117401261526572276
@@ -91,7 +91,7 @@ _14 miles to Mannheim_
 _Crossing the Rhine_
 
 ![Camera/IMG_20261009_134615_661.jpg](202610081743-cargo.jpg)
-_And the Neakar_
+_And the Neckar_
 
 The hotel had replied to my internet query that I could park my bike in the
 Innen-hof (the inner court-yard). When I arrived I was wet and carried my bike
@@ -124,13 +124,12 @@ and also food and then there were only 4 and we left but my phone was out of
 battery "where are we?" - on map shown my hotel thought I could remember but
 only got as far as the brige and then **lost and alone**. Hmm.
 
-The worst thing that could happen is that I would need to ask somebody wherej
+The worst thing that could happen is that I would need to ask somebody where
 the Rhine-Neckar Hotel was, but fortunately I discovered that my Garmin Watch
 _did_ have the map and it was able to direct me to my hotel and along the way
-I picked up a beer.
-
----
-
+I picked up a beer and I didn't have to speak to anybody except the lady in
+the spatie "Warum haben sie kein Bargeld" she smiled "Ich weiss nicht" I said
+ashamedly and paid €2 with my still batteried watch.
 
 [^oristhatfrance]: or is that France? 
 [^police]: you only run the red lights once you've checked that none of the
