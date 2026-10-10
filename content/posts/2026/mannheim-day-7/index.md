@@ -128,7 +128,7 @@ only got as far as the brige and then **lost and alone**. Hmm.
 
 The worst thing that could happen is that I would need to ask somebody where
 the Rhine-Neckar Hotel was, but fortunately I discovered that my Garmin Watch
-_did_ have the map and it was able to direct me to my hotel and along the way
+_did_ have the map[^map] and it was able to direct me to my hotel and along the way
 I picked up a beer and I didn't have to speak to anybody except the lady in
 the spatie "Warum haben sie kein Bargeld" she smiled "Ich weiss nicht" I said
 ashamedly and paid €2 with my still batteried watch. In Germany everybody is
@@ -139,3 +139,5 @@ The journey will recommence on Sunday.
 [^oristhatfrance]: or is that France? 
 [^police]: you only run the red lights once you've checked that none of the
     adjacent squares are occupied by police cars.
+[^map]: in constrast to my Garmin cycle computer which doesn't have the German
+    map and just displays a line that I attempt to follow.
