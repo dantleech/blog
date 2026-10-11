@@ -125,8 +125,8 @@ famous poem 'Lorelei' and Richard Wagner to write his opera
 Götterdämmerung"._
 
 It was a wonderful ride and the weather mostly held as I passed the vine-yards
-on the hills and the massive freight barges and there seemed to be a castle on
-every single turn of frequently turning river.
+on the hills and the massive freight barges, and freight trains and there
+seemed to be a castle on every single turn of frequently turning river.
 
 ![Camera/IMG_20261011_142733_588.jpg](202610092316-river1.jpg)
 _Turning a corner_
