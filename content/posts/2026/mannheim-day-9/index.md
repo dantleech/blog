@@ -8,6 +8,11 @@ gpx: /gpx/mannheim2026/koblenz.gpx
 bundle_image: ./202610092316-castle8.jpg
 date: 2026-10-11
 #fediverse: 117401261526572276
+summary: |
+    Sitting conspicuously on a 4 seated table in a traditional German restaurant
+    in the woods typing on my laptop. My headache is active - the still hanging
+    hangover from two nights previous - not that I drank an extreme amount but the
+    conference the day after pushed my headache over the edge.
 ---
 
 Sitting conspicuously on a 4 seated table in a traditional German restaurant
@@ -42,11 +47,13 @@ Bitzahlen". I had already booked a place opposite Koblenz train station for
 £34. It was 94 miles away and the route would take me up the Rhein river and
 infact the entire route to the ferry looks like it follows the Rhein.
 
->  Yesterday I did the conference and it was good fun. It would've been better
->  if I didn't have a hangover which kicked in at around 11am and was more
->  debilitating _after_ I gave a 50m talk. Saw old friends and made new ones.
->  This photo is Stephan conducting the session planning:
+> Yesterday I did the conference and it was good fun.
+>  
 >  ![Camera/IMG_20261010_113553_879.jpg](202610092316-sessions.jpg)
+> _Stephan conducting the session planning:_
+> It would've been better if I didn't have a hangover which kicked in at
+> around 11am and was more debilitating _after_ I gave a 50m talk. Saw old
+> friends and made new ones.
 
 ![Camera/IMG_20261011_085710_875.jpg](202610092316-school.jpg)
 _Pulling out of Mannheim_
@@ -111,9 +118,8 @@ commuting I wondered if I was on the right cycle path.
 _Commuter_
 
 Bingen was the somehow un-German sounding town that marked the start of a 33
-miles riding directly alongside the hill-enclosed and castled Rhine on cycle paths on the Middle Rhein
-section which according to
-[Wikipedia](https://en.wikipedia.org/wiki/Middle_Rhine) _"is considered the
+miles riding directly alongside the hill-lined and castled Middle-Rhine on which, according to
+[Wikipedia](https://en.wikipedia.org/wiki/Middle_Rhine), _"is considered the
 epitome of the Rhine romanticism. It inspired Heinrich Heine to write his
 famous poem 'Lorelei' and Richard Wagner to write his opera
 Götterdämmerung"._
@@ -164,16 +170,11 @@ _Big Castle_
 ![Camera/IMG_20261011_172902_621.jpg](202610092316-under.jpg)
 _Not a castle_
 
-I didn't take photos of all the castles. There really are quite a number of
-them. I was heading towards Koblenz. Earlier in the day I had received an
+I didn't take photos of all the castles. There were too many. I was heading towards Koblenz but wouldn't sleep in Koblenz. Earlier in the day I had received an
 email from booking.com explaining that the was a problem with my booking and
-they would refund it. So I had to get a new hotel - I selected one which I
-thought I recognized from earlier in the day - a hotel - on the otherside of
-the river - maybe about 1k from Koblenz. The hotel was not the one I had
-intended to pick.
-
-The hotel was 10k further in the wrong direction - what's more it was
-isolated and 180m higher than I currently was.
+they would refund it. I booked a hotel which I thought I had eyed up at
+breakfast but it was wrong and 10k _further_ and 180m _higher_ than I had
+intended.
 
 ![Camera/IMG_20261011_183034_277.jpg](202610092316-sunset.jpg)
 _Sunset as I climbed_
