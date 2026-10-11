@@ -35,8 +35,8 @@ have further and further to fall and the vertiginous, dooming, knowledge that
 the higher you get the harder the landing will be and fall and bounce and then
 be thrown even higher.
 
-I had left my key in the room and I got a new key and packed my bike up and
-carried it down the two flights of stairs gave the keys back to the
+I had left my keycard in the room and I got a new keycard and packed my bike up and
+carried it down the two flights of stairs gave the keycards back to the
 receptionist and thanked me and I had to prompt her "Ich muss fur das Frustuck
 Bitzahlen". I had already booked a place opposite Koblenz train station for
 £34. It was 94 miles away and the route would take me up the Rhein river and
