@@ -53,8 +53,7 @@ _Pulling out of Mannheim_
 
 I left Mannheim with the traces of a headache. The bumps in the road and the
 grinding of my chain which needed oiling after the downpour 2 days
-previouslychain which needed oiling after the downpour 2 days previously. I
-crossed the Rhein over the [Theodore-Heuss
+previously. I crossed the Rhein over the [Theodore-Heuss
 Bridge](https://en.wikipedia.org/wiki/Theodor_Heuss_Bridge_(Mainz-Wiesbaden))
 which required me to carry my bike up some church-like steps.
 
