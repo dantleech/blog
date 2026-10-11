@@ -197,4 +197,4 @@ road and I had a (un)traditional German (vegetable) Schnitzel with chips and a
 what (I like to believe was) an all-you-can-eat _Salad Bar_
 
 ![Camera/IMG_20261011_193532_460.jpg](202610111806-schnitzel.jpg)
-_Vegetarian Schnitzel_
+_Vegetarian Schnitzel served with Chips and Lemon_
