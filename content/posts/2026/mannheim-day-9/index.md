@@ -44,9 +44,9 @@ infact the entire route to the ferry looks like it follows the Rhein.
 
 >  Yesterday I did the conference and it was good fun. It would've been better
 >  if I didn't have a hangover which kicked in at around 11am and was more
->  debilitating _after_ I gave a 50m talk. This photo is Stephan conducting
->  the session planning:
-> ![Camera/IMG_20261010_113553_879.jpg](202610092316-sessions.jpg)
+>  debilitating _after_ I gave a 50m talk. Saw old friends and made new ones.
+>  This photo is Stephan conducting the session planning:
+>  ![Camera/IMG_20261010_113553_879.jpg](202610092316-sessions.jpg)
 
 ![Camera/IMG_20261011_085710_875.jpg](202610092316-school.jpg)
 _Pulling out of Mannheim_
