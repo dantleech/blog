@@ -62,10 +62,14 @@ I left Mannheim with the traces of a headache. The bumps in the road and the
 grinding of my chain which needed oiling after the downpour 2 days
 previously. I crossed the Rhein over the [Theodore-Heuss
 Bridge](https://en.wikipedia.org/wiki/Theodor_Heuss_Bridge_(Mainz-Wiesbaden))
-which required me to carry my bike up some church-like steps.
+which required me to carry my bike up some church-like steps
 
 ![Camera/IMG_20261011_091522_548.jpg](202610092316-bridge.jpg)
 _Steps_
+
+You ride down the middle and listen to cars in stereo whooshing past on either
+side and making "da-ka da-ka" sounds as they run over the metal expansion
+joints at irregular intervals.
 
 ![Camera/IMG_20261011_091757_006.jpg](202610092316-bridge1.jpg)
 _Theodore-Heuss Bridge_
