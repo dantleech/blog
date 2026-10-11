@@ -95,8 +95,8 @@ _Eisenbahn Bridge_
 
 The route today would cover two parts of the Rhine:
 
-- [Upper Rhine](https://en.wikipedia.org/wiki/Upper_Rhine_Plain): Riding North to Mainz and West to Bingen on the 
-- [Middle Rhine](https://en.wikipedia.org/wiki/Middle_Rhine): Riding North West to Koblenz on the.
+- [Upper Rhine](https://en.wikipedia.org/wiki/Upper_Rhine_Plain): Riding North to Mainz and West to Bingen.
+- [Middle Rhine](https://en.wikipedia.org/wiki/Middle_Rhine): Riding North West to Koblenz.
 
 Riding to Mainz involved riding overland to an altitude of around 280m at
 which point the dark clouds that had been brewing turned into water and I
@@ -193,7 +193,7 @@ view. I could live here.
 ![Camera/IMG_20261011_184452_040.jpg](202610092316-view.jpg)
 
 The restaurant was closed but there was a German restaurant just accross the
-road and I had a traditional German (vegetable) Schnitzel with chips and a
+road and I had a (un)traditional German (vegetable) Schnitzel with chips and a
 what (I like to believe was) an all-you-can-eat _Salad Bar_
 
 ![Camera/IMG_20261011_193532_460.jpg](202610111806-schnitzel.jpg)
