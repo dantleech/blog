@@ -7,6 +7,7 @@ time: 7h21m
 gpx: /gpx/mannheim2026/francois.gpx
 bundle_image: ./202610051817-longpontabbaye.jpg
 date: 2026-10-06
+fediverse: 117395650703423480
 ---
 
 I'm in my surprisingly spacious but undecorous €45 hotel room in

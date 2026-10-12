@@ -7,7 +7,7 @@ time: 7h15m
 gpx: /gpx/mannheim2026/portsmouth.gpx
 bundle_image: ./202610021906-solent.jpg
 date: 2026-10-03
-summary:
+fediverse: 117379415700766907
 ---
 
 Now in ferry bar drinking beer. Fingers feel caloused. Listening to Megadeth

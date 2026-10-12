@@ -7,6 +7,7 @@ time: 7h42m
 gpx: /gpx/mannheim2026/metz.gpx
 bundle_image: ./202610062024-dinner.jpg
 date: 2026-10-07
+fediverse: 117401261526572276
 ---
 
 I've ordered the wrong pizza at dominoes. It has no tomtato sauce. Therefore
@@ -37,7 +38,7 @@ The inner tube repairs had failed 4 times now - including once with the
 vulcanising kit and I decided to throw it away[^guessing]. I still had the
 puntured Gosport Ferry inner-tube that was caused by running into the a step.
 I thought I could probably fix _that one_ and still have the new inner tube
-spare.
+from the e-bike shop spare.
 
 _That one_ was also a snake-bite puncture (as can be expected from
 running into a step) but there was sufficient distance between the holes that
@@ -110,7 +111,7 @@ _So much farm_
 
 I passed over the [Meuses river](https://en.wikipedia.org/wiki/Meuse) of which
 no photo was taken. So much happens in 8 hours and I have very few words for
-them.
+them. I listened to music but the effect was passive.
 
 ![Camera/IMG_20261007_155416_557.jpg](202610062024-gravel.jpg)
 _There was some gravel_

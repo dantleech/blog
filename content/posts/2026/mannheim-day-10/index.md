@@ -4,8 +4,8 @@ categories: [mannheim2026]
 tour: [ mannheim2026 ]
 distance: 151
 time: 7h17m
-#gpx: /gpx/mannheim2026/beauvais.gpx
-#bundle_image: ./202610041930-mistbrifge.jpg
+gpx: /gpx/mannheim2026/dussel.gpx
+bundle_image: 202610112016-cathedral3.jpg
 date: 2026-10-12
 #fediverse: 117389960673430024
 ---
@@ -16,6 +16,8 @@ wood pannelling. The radio doesn't work and it seems neither does the
 clock[^itseems]. I have the pizza and the beers and some chocolate. It's not
 a great pizza and the beers aren't great beers. The chocolate I haven't tried
 yet.
+
+---
 
 I didn't sleep well last night, somehow I remember counting the number of
 times I woke up as five finally waking up later than I would have liked and
@@ -177,7 +179,7 @@ far.
 _Dinner_
 
 Today has been generally dull. Cycling on the flat. Doing Italian lessons.
-Listening to music. Smiling at strangers.
+Listening to music. Smiling at strangers. The chocolate was good.
 
 [^iseems]: the clock read 18:25 when I arrived, which happened to be within 3
 minutes of the correct time so I gave it the benefit of the doubt, but no.

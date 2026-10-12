@@ -7,6 +7,7 @@ time: 7h54m
 gpx: /gpx/mannheim2026/stpierre.gpx
 bundle_image: ./202610032231-aube.jpg
 date: 2026-10-04
+fediverse: 117384146797225285
 ---
 
 Now sitting in the hotel restaurant. It's Sunday and I'm miles from the
