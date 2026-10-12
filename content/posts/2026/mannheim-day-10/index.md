@@ -184,7 +184,7 @@ _Dinner_
 Today has been generally dull. Cycling on the flat. Doing Italian lessons.
 Listening to music. Smiling at strangers. The chocolate was good.
 
-[^iseems]: the clock read 18:25 when I arrived, which happened to be within 3
+[^itseems]: the clock read 18:25 when I arrived, which happened to be within 3
 minutes of the correct time so I gave it the benefit of the doubt, but no.
 It's broken.
 [^firsttime]: the first time I've been to Aldi-Sud which I wouldn't mention
