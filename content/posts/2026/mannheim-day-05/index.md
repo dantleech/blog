@@ -7,7 +7,7 @@ time: 7h42m
 gpx: /gpx/mannheim2026/metz.gpx
 bundle_image: ./202610062024-dinner.jpg
 date: 2026-10-07
-fediverse: 117401261526572276
+#fediverse: 117401261526572276
 ---
 
 I've ordered the wrong pizza at dominoes. It has no tomtato sauce. Therefore

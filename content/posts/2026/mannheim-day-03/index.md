@@ -7,7 +7,7 @@ time: 8h0m
 gpx: /gpx/mannheim2026/beauvais.gpx
 bundle_image: ./202610041930-mistbrifge.jpg
 date: 2026-10-05
-fediverse: 117389960673430024
+#fediverse: 117389960673430024
 ---
 
 Sitting in a "cheap"[^cheap] motel type establishment. In the restaurant. There was
