@@ -31,11 +31,12 @@ member of staff who could understand Spanish and the Receptionist. The member
 of staff was explaining something to the Spanish lady but I couldn't recognise
 what he was saying as Spanish, he had a very strong accent and it sounded more
 like Portuguese. "Hablo Espanol?" she asked at the first additional member of
-staff that appeared briefly. The man behind me decided to help "Diga mi" he
-said to the lady. The man was Italian and didn't speak German so that didn't
-help (my Spanish was far too poor to be of any use) finally the receptionist
-gave me his attention and didn't look surprised at all and promptly
-re-activated my key.
+staff that appeared briefly. The man behind me decided to take the situation
+into his own hands "Diga mi" he
+said confidently to the lady who proceeded to explain. The man was Italian and
+didn't speak German so that ended there. Finally the receptionist gave me his
+attention and didn't look surprised at all that my key didn't work and
+promptly re-activated my key.
 
 Being allowed back into my room I proceeded to pack my stuff - wanting to get
 away by 9:00am - but I smelt something. I had smelt something while unpacking
@@ -158,7 +159,9 @@ _Electricity too_
 _Crossing the river to Dusseldorf_
 
 The hotel manager suggested I leave my bike downstairs when I asked if I could
-put it in the room "but of course!".
+put it in the room "but of course!". It seems the answer to the question is
+either an incontrovertable "no" or an "obviously you can - as long as you can carry it up the
+stairs".
 
 ![Camera/IMG_20261012_183700_919.jpg](202610112016-bedroom.jpg)
 _Bike in room_
