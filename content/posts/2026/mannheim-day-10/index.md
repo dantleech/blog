@@ -30,20 +30,19 @@ There was a three-way conversaion happening between a Spanish guest, a random
 member of staff who could understand Spanish and the Receptionist. The member
 of staff was explaining something to the Spanish lady but I couldn't recognise
 what he was saying as Spanish, he had a very strong accent and it sounded more
-like Portuguese. "Hablo Espanol?" she asked at the first additional member of
-staff that appeared briefly. The man behind me decided to take the situation
+like Portuguese. "Hablo Espanol?" the guest asked at the first additional member of
+staff in desperation (they did not). The Italian man behind me decided to take the situation
 into his own hands "Diga mi" he
-said confidently to the lady who proceeded to explain. The man was Italian and
-didn't speak German so that ended there. Finally the receptionist gave me his
-attention and didn't look surprised at all that my key didn't work and
-promptly re-activated my key.
+said confidently to the lady who proceeded to explain. The Italian didn't
+speak German so that ended there. 
 
-Being allowed back into my room I proceeded to pack my stuff - wanting to get
-away by 9:00am - but I smelt something. I had smelt something while unpacking
-the night before but couldn't figure out what it was - it wasn't a strong
-smell. I checked my shoe - a big clod of shit acting as squished up glue for
-all manner of forest refuse. I spent the next 10 minutes cleaning the shoe and
-left at 09:30am.
+Finally the receptionist gave me his attention and didn't look surprised at
+all that my key didn't work and promptly re-activated my key and I went back
+into my room I proceeded to pack my stuff - wanting to get away by 9:00am -
+but I smelt something. I had smelt something while unpacking the night before
+but couldn't figure out what it was - it wasn't a strong smell. I checked my
+shoe - a big clod of shit acting as squished up glue for all manner of forest
+refuse. I spent the next 10 minutes cleaning the shoe and left at 09:30am.
 
 ![Camera/IMG_20261012_100151_547.jpg](202610112016-koblenz.jpg)
 _Riding through Koblenz_
