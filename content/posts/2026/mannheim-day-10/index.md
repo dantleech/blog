@@ -28,8 +28,8 @@ join a queue in reception.
 
 There was a three-way conversaion happening between a Spanish guest, a random
 member of staff who could understand Spanish and the Receptionist. The member
-of staff was explaining something to the Spanish lady but I couldn't recognise
-what he was saying as Spanish, he had a very strong accent and it sounded more
+of staff was trying to explainin something to the Spanish guest but I couldn't recognise
+what he was saying as Spanish, he had a very strong German accent and it sounded more
 like Portuguese. "Hablo Espanol?" the guest asked at the first additional member of
 staff in desperation (they did not). The Italian man behind me decided to take the situation
 into his own hands "Diga mi" he
@@ -62,28 +62,28 @@ again riding the cycle paths alongside the Rhine.
 _It hadn't been raining_
 
 ![Camera/IMG_20261012_103651_625.jpg](202610112016-aucotedurin.jpg)
-_It did not rain_
+_and it did not rain_
 
 ![Camera/IMG_20261012_104802_084.jpg](202610112016-bridgecold.jpg)
 _Occasionally there are bridges_
 
 ![Camera/IMG_20261012_104804_670.jpg](202610112016-rhine.jpg)
-_There are a number of trees_
+_...and trees_
 
 ![Camera/IMG_20261012_110912_627.jpg](202610112016-trainsandboats.jpg)
-_There are trains and boats_
+_...then there are trains and boats_
 
 Eventually the sun came out and I was able to remove my gloves and neck-gaiter
 and helmet and enjoy it.
 
 ![Camera/IMG_20261012_111743_493.jpg](202610112016-field.jpg)
-_Blue_
+_the sky clears_
 
 ![Camera/IMG_20261012_114007_126.jpg](202610112016-sun.jpg)
-_The River is Wide_
+_the River is Wide_
 
 ![Camera/IMG_20261012_121144_614.jpg](202610112016-sun1.jpg)
-_River_
+_the River is Blue_
 
 My phone ran out of battery unexpectedly and for the next hour or more it was
 wired to the charger making it difficult to take photos.
@@ -122,7 +122,7 @@ people lighting up all over the place.
 _There were chemical factories_
 
 ![Camera/IMG_20261012_151723_934.jpg](202610112016-cologne.jpg)
-_Entering Cologne_
+_and graffitied bridges_
 
 I made a point of visiting the cathedral in Cologne. Its simply an amazing
 structure and (according to wikipedia) the most visited tourist attraction in
@@ -149,10 +149,10 @@ There is lots of shipping on the Rhine.
 _Docks_
 
 ![Camera/IMG_20261012_162954_952.jpg](202610112016-plain.jpg)
-_And flat places_
+_and flat places_
 
 ![Camera/IMG_20261012_165352_270.jpg](202610112016-flats.jpg)
-_Electricity too_
+_and electricity_
 
 ![Camera/IMG_20261012_173039_360.jpg](202610112016-bridges.jpg)
 _Crossing the river to Dusseldorf_
