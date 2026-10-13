@@ -40,7 +40,7 @@ _Grey_
 The music included Joy Division which was good accompaniment for the bad
 weather and the bad weather permitted me to sing out loud "I've got the
 spi-rit, but lose the fee-ling! I've got the spi-rit, but lose the
-feel-ling" as I banged my hand on my handle-bar in time with the music.
+feel-ling" as I banged my hand belligerently on the handle-bar in time.
 
 ![Camera/IMG_20261013_101318_081.jpg](202610121832-closed.jpg)
 _The cycle path was open on the other side_
