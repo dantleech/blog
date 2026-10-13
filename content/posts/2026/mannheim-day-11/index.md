@@ -106,7 +106,7 @@ with no tri-bars. A lady
 rode **one handed holding her phone up without looking where she was going**. A
 moped came at me on the **wrong side of the cycle path** and while I was shocked
 he didn't flinch. Perfectly normal. In England I get shouted at by strangers
-for doing any of those things. I like it here.
+for doing any of those things. I like it here. The Dutch don't give a shit.
 
 ![Camera/IMG_20261013_172623_158.jpg](202610121832-roadtoeinhoven.jpg)
 _Road to Eindhoven_
