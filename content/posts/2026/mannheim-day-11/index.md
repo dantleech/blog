@@ -143,6 +143,10 @@ pasta to snack on. This would be a nice place to live.
 
 > _oh I'd better book the ferry_. Ferry booked. I'M GOING TO HARWICH TOMORROW.
 
+The ferry will leave tomorrow at 23:00 from Hook of Holland which is around 85
+miles or so from here. I expect to arrive at around 16:00-17:00 and wait for a
+long time.
+
 ![Camera/IMG_20261013_200409_372.jpg](202610121832-dinner.jpg)
 _Workstation_
 
