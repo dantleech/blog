@@ -21,9 +21,10 @@ room save for the manager.
 > communicate? Is it angry?
 
 I woke to the sound of rain. I wanted not that it rained nor did I expect it
-to rain. The forcasst was sun. Today was a shorter day however. The ferry is
-only 160 miles to the west-north and I had agreed to meet a friend for lunch
-in Venlo which was 37 miles from where I was now sleeping.
+to rain. The forcasst was sun. Today was a shorter day however - 25 miles
+short of the 100 mile target. The ferry is only 160 miles to the west-north
+and I had agreed to meet a friend for lunch in Venlo which was 37 miles from
+where I was now sleeping.
 
 The restaurant had no breakfast so I left the building into the rain and
 crossed the square and crossed the tram-way to the bakery for coffee and
