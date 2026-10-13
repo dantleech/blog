@@ -67,6 +67,10 @@ leave the bike at his father's home 5 minutes away and we ate what turned out
 to be a very substantial and good meal and had a nice chat.
 
 
+![Camera/IMG_20261013_111831_545.jpg](me.png)
+_Me with too much good food_
+
+
 ![Camera/IMG_20261013_113540_111.jpg](202610121832-tovelnio.jpg)
 _Lots of this type of thing in Holland_
 
