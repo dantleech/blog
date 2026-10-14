@@ -5,7 +5,7 @@ tour: [ mannheim2026 ]
 distance: 118
 time: 5h44m
 gpx: /gpx/mannheim2026/eindhoven.gpx
-#bundle_image: 202610112016-cathedral3.jpg
+bundle_image: 202610121832-museum.jpg
 date: 2026-10-13
 #fediverse: 117389960673430024
 ---
