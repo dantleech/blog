@@ -21,16 +21,16 @@ was poured for me by a man with an unmistakably English accent.
 I slept well in the low-grade dorm - there were just 3 of us and 4
 double bunk-beds dorm and if anybody snored it was probably me. The manager
 advertised breakfast as being available from 8:00. I suspect I was the only
-"traveller" in staying at the hostel however and he had not laid out the
+"traveller" staying at the hostel however and he had not laid out the
 breakfast. "Would you like coffee?" "yes" "ok, I will lay out the breakfast on
-the table". He then proceeded to lay out a bag of bread rolls, a bunch of
-boiled eggs, cheeses and meats, apples and margerine and jam sachets. I'm
-fairly sure this was all for my benefit.
+the table". He then proceeded to lay out a buffet - a bag of bread rolls, a
+quantity of boiled eggs, cheeses and meats, apples and margerine and jam
+sachets. I'm fairly sure this was all for my benefit.
 
 I got changed into my cycling gear in the privacy of the bathroom toilet (as
 there was no privacy in the dorm) and gathered my things from the locker and
 handed the key and room-card back to the manager "Did you check that the
-locker is empty?" I pictured the empty locker "Yes" "Good, I find all sorts.
+locker is empty?" I pictured the empty locker in my mind "Yes" "Good, I find all sorts.
 Passports, IDs, phones". He mentioned the cyber attack on the Albert Hejn
 supermarket yesterday and we shared a pessimistic attitude towards technology
 and "AI". I thanked him and left stopping 10 minutes later to really be sure I
@@ -44,6 +44,8 @@ The weather was good.
 
 ![Camera/IMG_20261014_104020_233.jpg](202610131908-boue.jpg)
 _Still flat_
+
+But things were very much flat.
 
 ![Camera/IMG_20261014_110004_939.jpg](202610131908-cyclepath.jpg)
 _Still cycle paths_
@@ -60,19 +62,19 @@ green patterns - which I'm guessing is Algae?
 _Sludge_
 
 There were cycle path closures involving improvised detours with the Garmin
-trying to sabotage be the whole time by trying to direct me back to the closed
-path. The Garmin Edge cycle-computer is great when it works, but there are
-plenty of examples where it either lacks or lets you down. There is no way to
-say "the road ahead is closed route around it" and I'm glad I can fall-back to
-[OSMAnd+]() on my phone.
+trying to sabotage me by directing me back to the closed path. The Garmin Edge
+cycle-computer is great when it works, but there are plenty of examples where
+it either lacks or lets you down. There is no way to say "the road ahead is
+closed - route around it" and I'm glad I can fall-back to [OSMAnd+]() on my
+phone.
 
 ![Camera/IMG_20261014_122322_460.jpg](202610131908-closed.jpg)
 _Cycle path rennovations_
 
 The route was unsurprisingly flat and almost exclusively on cycle paths. I was
 over taken numerous times by the fat-kids[^fatkids] on fat-wheeled low-riding
-electric bikes. It seems these bikes are a right-of-passage for teenagers but
-they either cruise at or have a top speed of around 15mph so I often end up
+electric bikes. It seems these bikes are a _thing_ for teenagers.
+They either cruise at or have a top speed of around 15mph so I often end up
 overtaking them again and then I feel compelled to maintain my advantage to
 the detriment of my phsyical condition later in the day.
 
@@ -80,11 +82,12 @@ I became hungry, perhaps the various jam sandwhiches I had eaten for breakfast
 lacked the nutritional fuel that the day required. The shop looked like it
 sold cheese, but it also sold cakes and bread. The lady greeted me in Dutch
 "hvae you got any sandwiches?" she showed me "cheese, tuna" "no tuna" "just
-cheese then" "eggs?" "no" she laughed "no eggs we're not a restaurant". The
+cheese then" "eggs?" "no" she laughed "no eggs we're not a restaurant - one
+sandwich or two?". The
 sandwich was packed ostentatiously in box and I thanked her and left the town
 without finding an appopriate bench. 15 hungry minutes later I found an
 appropriate seat and unwrapped my present: sandwich did actually have eggs and
-it was delightful.
+it was delightful. I should've gotten two though.
 
 ![Camera/IMG_20261014_134303_556.jpg](202610131908-lunch.jpg)
 _Lunch_
@@ -107,20 +110,20 @@ down. I was overtaken by cyclist loaded with similar gear to me he said
 "hello" and rode ahead but it was clear that I was going to awkwardly overtake
 him again "where you heading?" I said as I pulled up "blah blah, accent, blah
 blah, French (?)" "non, je suis anglais, mais je parle un peu Francais" I'm
-not sure if assumed I was English or said that he was French either way he was
-riding to Rotterdam _tomorrow_ and getting the train to Brussels.
+not sure if he assumed **I** was French or said that **he** was French either
+way he was riding to Rotterdam _tomorrow_ and getting the train to Brussels.
 
 ![Camera/IMG_20261014_142057_460.jpg](202610131908-southholland.jpg)
 _South Holland_
 
 ![Camera/IMG_20261014_143315_406.jpg](202610131908-newmerwede.jpg)
-_New Merwede_
+_Neiuwe Merwede_
 
 Some of the cycle crossings had a "waiting" indicator provided a countdown to
 when the light would go green. I liked that.
 
 ![Camera/IMG_20261014_145409_731.jpg](202610131908-wait.jpg)
-_Waiting_
+_Countdown to Green_
 
 As I rode into Rotterdam the local traffic became more intense both on the
 road and on the cycle paths. There were more electric bikes than not and the
@@ -129,7 +132,7 @@ little crazy and I tried to keep my wits about me as I had no medical
 insurance[^medical].
 
 ![Camera/IMG_20261014_145901_423.jpg](202610131908-lifting.jpg)
-_Didn't really figure out how this lifting bridge worked_
+_Didn't really figure out how this lifting bridge in Rotterdam worked_
 
 ![Camera/IMG_20261014_155517_793.jpg](202610131908-towers.jpg)
 _Towers_
@@ -173,7 +176,8 @@ _The Corridor_
 
 This is possibly the last post, if so the whole trip was 1002 miles (1614km)
 with an average of 86 miles a day (95 miles a day if you exclude the unusually short
-ride to Mannheim). Tomorrow I'll see how far I can get with the train and aim
+ride to Mannheim). There were no rest days other than the conference. I'm
+pretty exhausted. Tomorrow I'll see how far I can get with the train and aim
 to be back home by late afternoon.
 
 [^fatkids]: that's very unfair of me.

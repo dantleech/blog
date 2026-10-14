@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 $gpxBaseDir = __DIR__ . '/../static/gpx';
