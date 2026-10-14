@@ -4,8 +4,8 @@ categories: [mannheim2026]
 tour: [ mannheim2026 ]
 distance: 146
 time: 7h6m
-#gpx: /gpx/mannheim2026/eindhoven.gpx
-#bundle_image: 202610121832-museum.jpg
+gpx: /gpx/mannheim2026/hook.gpx
+bundle_image: 202610131908-towers.jpg
 date: 2026-10-14
 #fediverse: 117389960673430024
 ---
