@@ -150,7 +150,7 @@ and the terminal and I rode up the river Scheur to meet it.
 _The Scheur_
 
 I passeed the [Maeslantkering](https://en.wikipedia.org/wiki/Maeslantkering).
-An epic "storm gate" that closes automatically when a computer predicts a
+An epic "storm gate" that closes the _entire shipping river_ automatically when a computer predicts a
 storm-surge. It's one of the largest moving structures on the planet according
 to Wikipedia. The gates are automatically closed by computer when certain
 conditions are met. Those conditions are expected to be met once in every **10
