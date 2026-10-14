@@ -138,7 +138,7 @@ _Didn't really figure out how this lifting bridge in Rotterdam worked_
 _Towers_
 
 ![Camera/IMG_20261014_155658_588.jpg](202610131908-bridge.jpg)
-_Crossing the Nieuwe Mass rivern Rotterdam_
+_Crossing the Nieuwe Mass river in Rotterdam_
 
 ![Camera/IMG_20261014_155845_843.jpg](202610131908-highrise.jpg)
 _View from the same_
