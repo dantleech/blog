@@ -113,6 +113,15 @@ history, but, in my imagination, `ctrl-r` is a barrier to that and the
 "substring-history search" behavior is subtly more accessible and may improve
 your shell efficiency.
 
+{{% callout %}}
+History subsearch can change the way you use other applications. I use the
+[qutebrowser](https://github.com/qutebrowser/qutebrowser) as my web browser
+**without tabs**. Instead `o` is effectively mapped to a substring browser
+history search - typing `ogithub` for example would open the last github page
+I had open and `ctrl-b` spawns a new browser window. When I'm done with a
+window I close it.
+{{%/ callout %}}
+
 [^ohmyzsh]: if you do use ohmyzsh then the same plugin is available.
 [^taskrunner]: one problem with task runners is that they abstract the tool
     being invoked - and by doing so you miss out on much of what tools have to
