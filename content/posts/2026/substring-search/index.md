@@ -4,8 +4,8 @@ subtitle: ... or how to increase the operational lifetime of your up arrow key
 categories: [programming,php]
 date: 2026-10-15
 toc: true
-#image: /images/2026-01-31/engine.png
 draft: false
+bundle_image: comm.png
 #fediverse: 115990600487740811
 featured: true
 summary: |
@@ -121,6 +121,8 @@ history search - typing `ogithub` for example would open the last github page
 I had open and `ctrl-b` spawns a new browser window. When I'm done with a
 window I close it.
 {{%/ callout %}}
+
+![](comm.png)
 
 [^ohmyzsh]: if you do use ohmyzsh then the same plugin is available.
 [^taskrunner]: one problem with task runners is that they abstract the tool
