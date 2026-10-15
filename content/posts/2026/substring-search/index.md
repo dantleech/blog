@@ -21,7 +21,8 @@ forwards again with the `down` key. This history is located at `cat ~/.bash_hist
 
 Recalling commands through the history is essential and can
 mitigate[^taskrunner] the need
-for a dedicated task runner. I may know how to type the following from memory:
+for a dedicated task runner. I may know how to type the following from
+memory[^frommemory]:
 
 ```bash
 docker compose exec php vendor/bin/phpunit \
@@ -116,3 +117,5 @@ your shell efficiency.
 [^taskrunner]: one problem with task runners is that they abstract the tool
     being invoked - and by doing so you miss out on much of what tools have to
     offer. I almost always invoke tools directly and that's aided by using history recall.
+[^frommemory]: if you're lucky then you're not working in a docker-based
+    environment so your commands are significantly shorter
