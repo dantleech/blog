@@ -1,5 +1,5 @@
 --- 
-title: "Faster command recall with substring search."
+title: "Faster command recall with substring search"
 subtitle: ... or how to increase the operational lifetime of your up arrow key
 categories: [programming,php]
 date: 2026-10-15
@@ -8,6 +8,8 @@ draft: false
 bundle_image: comm.png
 #fediverse: 115990600487740811
 featured: true
+aliases:
+  - /blog/2026/10/15/faster-command-recall-with-substring-search.
 summary: |
     Part of the reason AI is so appealing is that it increases productivity. Lots
     of developers do not realise that they can increase their productivity
@@ -30,7 +32,7 @@ docker compose exec php vendor/bin/phpunit \
     --fail-on-defect \
     tests/Foobar/Barfoo/FoobarTest.php
 ```
-.. but I **would only do it once**. If you find yourself typing a full command sequence on a regular basis then this post is for you.
+.. but I **would only do it once**. If you find yourself typing a full command sequence on a regular basis[^entiretestsuite] then this post is for you.
 
 ## Bash: Incremental search with ctrl-r
 
@@ -130,3 +132,4 @@ window I close it.
     offer. I almost always invoke tools directly and that's aided by using history recall.
 [^frommemory]: if you're lucky then you're not working in a docker-based
     environment so your commands are significantly shorter
+[^entiretestsuite]: ...or running the entire test suite instead of a single test
