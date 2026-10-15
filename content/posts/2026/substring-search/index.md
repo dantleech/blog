@@ -5,7 +5,7 @@ categories: [programming,php]
 date: 2026-10-15
 toc: true
 #image: /images/2026-01-31/engine.png
-draft: true
+draft: false
 #fediverse: 115990600487740811
 featured: true
 summary: |
@@ -53,10 +53,12 @@ The `ctrl-r` shortcut is often implemented in other shells - you can use it in
 
 ## Zsh: substring-history-search
 
-ZSH supports incremental search (like bash) but it's not mapped to
-any keys by default. If you're like me you use a plugin manager anyway and I
-use [prezto](https://github.com/sorin-ionescu/prezto) because it's
-light-weight and less annoying than [oh-my-zsh](https://ohmyz.sh/)[^ohmyzsh]. Enable the
+There is (I think) a better way to recall commands.
+
+ZSH supports incremental search (like bash) but it's not mapped to any keys by
+default **but** if you're like me you use a plugin manager anyway and I use
+[prezto](https://github.com/sorin-ionescu/prezto) because it's light-weight
+and less annoying than [oh-my-zsh](https://ohmyz.sh/)[^ohmyzsh]. Enable the
 `history-substring-search` plugin.
 
 Recall a command by simply typing the "substring" (e.g. `up` in `docker
@@ -95,6 +97,7 @@ the up/down behavior out-of-the-box.
 
 The general point of this post is that it shouldn't be hard to navigate your
 history, but, in my imagination, `ctrl-r` is a barrier to that and the
-"substring-history search" behavior is subtly better.
+"substring-history search" behavior is subtly more accessible and may improve
+your habits.
 
 [^ohmyzsh]: if you do use ohmyzsh then the same plugin is available.
