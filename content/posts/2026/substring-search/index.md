@@ -21,8 +21,15 @@ forwards again with the `down` key. This history is located at `cat ~/.bash_hist
 
 Recalling commands through the history is essential and can
 mitigate[^taskrunner] the need
-for a dedicated task runner. I know how to type `docker compose exec php vendor/bin/phpunit
---configuration=config/phpunit.xml --order=default --fail-on-defect tests/Foobar/Barfoo/FoobarTest.php` from memory, but I **would only do it once**. If you find yourself typing a full command sequence on a regular basis then this post is for you.
+for a dedicated task runner. I may know how to type the following from memory:
+
+```bash
+docker compose exec php vendor/bin/phpunit \
+    --configuration=config/phpunit.xml --order=default \
+    --fail-on-defect \
+    tests/Foobar/Barfoo/FoobarTest.php
+```
+.. but I **would only do it once**. If you find yourself typing a full command sequence on a regular basis then this post is for you.
 
 ## Bash: Incremental search with ctrl-r
 
