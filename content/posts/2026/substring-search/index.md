@@ -98,6 +98,6 @@ the up/down behavior out-of-the-box.
 The general point of this post is that it shouldn't be hard to navigate your
 history, but, in my imagination, `ctrl-r` is a barrier to that and the
 "substring-history search" behavior is subtly more accessible and may improve
-your habits.
+your shell efficiency.
 
 [^ohmyzsh]: if you do use ohmyzsh then the same plugin is available.
